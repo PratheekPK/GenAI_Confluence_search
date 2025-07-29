@@ -1,0 +1,16 @@
+# UI
+streamlit
+
+# Core AI stack
+langchain
+transformers
+sentence-transformers
+faiss-cpu
+torch
+
+# Web scraping
+beautifulsoup4
+requests
+
+# Environment variable loader
+python-dotenv

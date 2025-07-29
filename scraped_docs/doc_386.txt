@@ -1,0 +1,673 @@
+URL: https://support.atlassian.com/confluence-cloud/docs/how-secure-are-public-links/
+
+How secure are public links? | Confluence Cloud | Atlassian Support
+Skip to main content
+Confluence Support
+Products
+Documentation
+Resources
+Contact us
+Sign in
+Sign in
+Confluence Cloud
+Documentation
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
+Create and edit content
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
+Keep content organized
+Take quick action from the content title
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard history
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Export content from Confluence Cloud
+Wide tables may be cut off in PDF export
+Cases where PDF Export may revert to using legacy exporter
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+Review macros only available in the legacy editor
+Insert the cheese macro
+Insert the column macro
+Insert the content by user macro
+Insert the create space button macro
+Insert the favorite pages macro
+Insert the global reports macro
+Insert the info, tip, note, and warning macros
+Insert the JUnit report macro
+Insert the noformat macro
+Insert the panel macro
+Insert the recently used labels macro
+Insert the search results macro
+Insert the section macro
+Insert the space attachments macro
+Insert the space details macro
+Insert the status macro
+Insert the code block macro
+Insert the gallery macro
+Insert the Google Drive macro
+Insert the lorem ipsum macro
+Insert the multimedia macro
+Insert the navigation map macro
+Insert the network macro
+Insert the PDF macro
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
+Get notified about content and activity
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+Manage your account and permissions in Confluence Cloud
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+Use macros to show Confluence content on pages and live docs
+What are macros?
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
+Insert the contributors macro
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Add excerpts to a page or live doc with the insert excerpt macro
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Insert the spaces list macro
+Insert the task report macro
+Insert the user profile macro
+Legacy editor content in the cloud editor
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
+Use gadgets to add dynamic content
+Add the activity stream gadget
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
+Space administration
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+Remove a space
+Archive a space
+Delete a space
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Manage Confluence page and doc templates
+Create a global page template
+Edit a global page or doc template
+Install a global blueprint
+Manage global page templates, doc templates, and blueprints
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence automation administration
+Confluence automation
+Confluence automation usage
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian Support
+Confluence
+Resources
+Confluence administration
+Manage global permissions in Confluence administration
+Cloud
+Data Center
+How secure are public links?
+Public links allow teams to share pages, live-docs, and whiteboards with people outside of their Confluence organization, without giving them full access. This could be useful for sharing information to the public, like customer FAQs, release notes, shareholder letters, and more.
+On this page, you’ll learn how public links work and, in particular, how secure they are.
+If you’re an admin looking for guidance on how to get started with public links, go to
+Control whether spaces can allow public links
+.
+If you’re looking for help on how to actually share individual content, go to
+Share content externally with public links
+.
+Public links are only available on Confluence’s paid plans (Standard, Premium, and Enterprise). Only Confluence pages, live-docs, and whiteboards can have public links, not any other type of Confluence content (e.g., blogs, databases, etc.).
+Who can access a public link
+Anyone on the internet with the public link can view its content.
+Public links override all restrictions
+Public links ignore restrictions on who can view content in Confluence.
+Normally, Confluence content obeys view restrictions inherited all of its higher-level containers — any parent content, the space, and the site itself. However,
+the public link will just work
+. Anyone on the internet who has the content item’s public link can use it to view the safe, view-only version of the page or live-doc.
+Again, this means restricting a parent item won’t have any effect on who can view the public link of a child item.
+Public whiteboards can be edited by visitors, not only viewed, and likewise ignore any restrictions to who can view or edit the content in Confluence.
+Can someone Google a public link?
+Atlassian has taken all necessary steps within its capability to make sure search engines do not index our public links.
+This means that public links are not indexed by search engines, which means no one will be able to find the public link in a Google search. They need the actual public link.
+Content will only ever have one public link
+If you turn a public link off, anyone using it to try to access the content will get a message saying the content can’t be found. But if you later turn the public link back on, people who already have the public link will again be able to access the content because it’s the same link as before.
+Who can turn on a public link?
+Public links are controlled at 3 levels:
+In
+Global permissions,
+app
+admins can control whether the site should allow the use of public links. Allowing public links on the site doesn’t itself make anything public. It simply offers users on the site the option of turning on a public link for any content.
+In
+Space permissions
+, app and space admins can control whether a specific space should allow the use of public links. Public links must be allowed on the site first. Like the global setting, allowing public links in a space doesn’t itself make anything public. It simply offers users in the space the option of turning on public links.
+On
+specific content items,
+users can turn on or off a public link as long as they can edit the content and as long as public links are allowed by an admin. A user who can view a content item but not edit can still copy a public link that’s already on and share it with anyone on the internet.
+View and manage public links at the global level
+In the
+Public links
+tab of
+Global permissions
+, app admins will find a list of all the spaces on their site, see whether a space allows or doesn’t allow public links, and make changes.
+App admins on the Premium plan can block space admins from allowing public links in spaces, block them preemptively while the global public links toggle is off, and multi-select to stop allowing, allow, or block from allowing in bulk.
+To learn more about managing public links as an app admin, go to
+Control whether spaces can allow public links
+.
+View and manage public links at the space level
+In the
+Public links
+tab of
+Space permissions
+, space admins will find a list of all the active public links in their space. They can turn off or block any active public link. On the Premium plan, they can multi-select to turn off or block in bulk.
+App admins on the Premium plan can block space admins from allowing public links in spaces, block them preemptively while the global public links toggle is off, and do so in bulk.
+To learn more about managing public links as an app admin, go to
+Control whether spaces can allow public links
+.
+Control for organization admins to use security policies to control public links is now available.
+Learn about data security policies
+and
+how to prevent people from using public links on Confluence
+.
+Get notified for key public links sharing activity
+Alongside robust management functionality, Confluence will notify you of key public links activity to keep you on top of which content is shared publicly.
+How app admins stay notified
+As an app admin, you’ll be notified whenever someone allows public links for the entire site (changes the global toggle). App admins can also choose to be notified whenever anyone turns on a public link anywhere on your site.
+To stop receiving public links notifications as an app admin:
+Select your profile avatar in the top right of the top nav.
+Select
+Settings.
+Select
+Email
+in the sidenav.
+Select
+Edit
+.
+Uncheck
+Notify me when someone allows the use of public links on this site,
+and/or uncheck
+Notify me when someone turns on a public link.
+How space admins stay notified
+As a space admin, you’ll be notified whenever someone allows public links in your space (changes the space toggle) and whenever anyone turns on a public link in your space.
+To stop receiving public links notifications as a space admin:
+Select your profile avatar in the top right of the top nav.
+Select
+Settings.
+Select
+Email
+in the sidenav.
+Select
+Edit
+.
+Uncheck
+Notify me when someone allows the use of public links in my spaces,
+and/or uncheck
+Notify me when someone turns on a public link in my space.
+What are the app defaults for the public links feature?
+Confluence allows public links by default but no public links will actually be on by default. People will have to manually turn them on, where allowed.
+Type of control
+Allowed/On by default?
+Site-level control in global permissions
+Allowed
+Space-level control
+Allowed
+Content-level control
+Off
+Defaults may differ depending on date of site creation
+If your site was created
+before
+October 16, 2023, the global public links toggle will be off until you choose to turn it on.
+If your site was created
+on or after
+October 16, 2023 — including sites migrating to Confluence Cloud — the global public links toggle will be on. Because all spaces will allow public links by default, this also means all spaces on your site will be allowing public links from the time you created the site. You’ll have to turn the global toggle off to stop allowing public links on your site.
+Any time an app admin allows public links on their site by turning the global toggle from an off to an on position, all spaces will automatically and immediately move to an “allowed” status, regardless of any prior setting. No status will be remembered from before.
+To be clear, this means users in any space that shouldn’t ultimately allow public links will be able to turn a public link on until an admin manually stops allowing public links in that space.
+Upgrading from Free to paid plans will trigger these defaults
+Public links aren’t available on the Free plan. Upgrading makes them available and will trigger these defaults. This means that, although no public links will be on immediately, people on your site will be free to use public links in all spaces on your site the moment you upgrade.
+What protections are in place to avoid accidental sharing?
+We know it’s critical to have complete control and awareness over any public sharing functionality. Confluence equips both admins and end users with plenty of protection navigating this feature.
+Control public links on a space-by-space basis
+Some spaces shouldn’t allow public links. Admins can simply toggle off the ability for users in a specific space to use public links.
+App and organization admins can control whether public links should be allowed or not allowed in any new spaces created. By default, public links will be allowed in all new spaces created.
+To change whether new spaces created should allow public links:
+Select the gear icon in the top right to go to app settings.
+Select
+Space permissions.
+In the
+Public links
+section, select the toggle that controls whether new spaces should allow public links.
+Confirmation messages prevent mistakes
+Whenever an admin wants to allow public links on the site or in a space, they’ll be informed exactly what the effect of their action is — that it will allow users to turn on public links.
+Likewise, whenever an end user tries to turn on a public link, they’ll be informed exactly what the effect of
+their
+action is:
+It will make the public link active and available to be copied and shared by anyone who can view the page or live-doc.
+Anyone on the internet who already has the content item’s public link will be able to view the public version of it, even if no one re-shares the public link with them.
+UI indicators show when content is public
+Confluence employs a number of indicators in the UI to mark content that’s currently being shared publicly. This helps you and your team understand which content is public at key points in your workflow, such as when editing public content, and prevent sharing the wrong information with the wrong people.
+The public link toggle on content items will appear grayed out, turned off, and disabled in any situation where the item’s public link isn’t allowed. This could be when:
+The public link is specifically blocked by an admin.
+Public links aren’t allowed in the space.
+Public links aren’t allowed on the site.
+Public links are recorded in the audit log
+All public links actions (with the exception of copying and sharing public links) are captured in the
+audit log
+. Whenever someone turns a public link on or off, a space admin allows public links in their space, or app admin allows public links for the site, it will be recorded.
+Public link visitors can request access to your site
+If your site allows people with certain email domains to join or request access to your site, they will be able to do so from any public link. Learn more about how to
+control how users get access to Confluence
+.
+What can public link visitors see and do?
+Public links offer a way to share individual content items safely with anyone on the internet. This means that visitors to public links are limited in what they can see and do.
+On public pages and live-docs
+Public pages and live-docs are designed to be view-only. Visitors to public content can’t:
+Edit the content
+Leave comments
+View comments
+View the Confluence navigation
+View the content tree and breadcrumbs
+View most macros, including those that contain data outside of the shared content, and all third party macros
+Public visitors can only view the following macros:
+Status
+Table of Contents
+Info, Tip, Note, and Warning
+Code Block
+Expand
+Excerpt
+Roadmap Planner
+Anchor macro
+All other macros
+are not viewable in the view-only version of the content.
+On public whiteboards
+Public whiteboards are designed to be editable, to allow anonymous visitors limited functionality. Visitors to public whiteboards can:
+Add, edit, and delete whiteboard content (stickies, shapes, text, arrows,, etc.)
+Add links
+View locked content on the whiteboard but can’t lock or unlock
+View voting results but can’t start or participate in a voting session
+They can’t:
+View links to Atlassian content they don’t have access to
+View comments
+Create comments
+Copy the whiteboard
+Delete the whiteboard
+Change the name of the whiteboard
+Upload media
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+On this page
+Who can access a public link
+Public links override all restrictions
+Can someone Google a public link?
+Content will only ever have one public link
+Who can turn on a public link?
+View and manage public links at the global level
+View and manage public links at the space level
+Get notified for key public links sharing activity
+How app admins stay notified
+How space admins stay notified
+What are the app defaults for the public links feature?
+Upgrading from Free to paid plans will trigger these defaults
+What protections are in place to avoid accidental sharing?
+Control public links on a space-by-space basis
+Confirmation messages prevent mistakes
+UI indicators show when content is public
+Public links are recorded in the audit log
+Public link visitors can request access to your site
+What can public link visitors see and do?
+On public pages and live-docs
+On public whiteboards
+Community
+Questions, discussions, and articles
+Accessibility
+Notice at Collection
+Privacy Policy
+Terms of Use
+Security
+2025
+Atlassian

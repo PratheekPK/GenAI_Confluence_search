@@ -1,0 +1,830 @@
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-confluence-wiki-markup/
+
+Confluence wiki markup syntax for the legacy editor | Confluence Cloud | Atlassian Support
+Skip to main content
+Confluence Support
+Products
+Documentation
+Resources
+Contact us
+Sign in
+Sign in
+Confluence Cloud
+Documentation
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
+Create and edit content
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
+Keep content organized
+Take quick action from the content title
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard history
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Export content from Confluence Cloud
+Wide tables may be cut off in PDF export
+Cases where PDF Export may revert to using legacy exporter
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+Review macros only available in the legacy editor
+Insert the cheese macro
+Insert the column macro
+Insert the content by user macro
+Insert the create space button macro
+Insert the favorite pages macro
+Insert the global reports macro
+Insert the info, tip, note, and warning macros
+Insert the JUnit report macro
+Insert the noformat macro
+Insert the panel macro
+Insert the recently used labels macro
+Insert the search results macro
+Insert the section macro
+Insert the space attachments macro
+Insert the space details macro
+Insert the status macro
+Insert the code block macro
+Insert the gallery macro
+Insert the Google Drive macro
+Insert the lorem ipsum macro
+Insert the multimedia macro
+Insert the navigation map macro
+Insert the network macro
+Insert the PDF macro
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
+Get notified about content and activity
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+Manage your account and permissions in Confluence Cloud
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+Use macros to show Confluence content on pages and live docs
+What are macros?
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
+Insert the contributors macro
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Add excerpts to a page or live doc with the insert excerpt macro
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Insert the spaces list macro
+Insert the task report macro
+Insert the user profile macro
+Legacy editor content in the cloud editor
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
+Use gadgets to add dynamic content
+Add the activity stream gadget
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
+Space administration
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+Remove a space
+Archive a space
+Delete a space
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Manage Confluence page and doc templates
+Create a global page template
+Edit a global page or doc template
+Install a global blueprint
+Manage global page templates, doc templates, and blueprints
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence automation administration
+Confluence automation
+Confluence automation usage
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian Support
+Confluence
+Resources
+Confluence administration
+Configuration settings in Confluence Cloud
+Cloud
+Data Center
+Confluence wiki markup syntax for the legacy editor
+This page describes the wiki markup used on some administration screens in
+Confluence Cloud
+.
+Wiki markup is useful when you want to do one of the following:
+Create links using the
+Advanced
+tab of the Links Browser.
+Add custom content to the
+header
+or
+footer
+of a space.
+Insert a block of wiki markup (or markdown) into the Legacy editor. (Choose
+Insert
+>
+Markup
+.)
+Note:
+the new editor doesn’t support markup.
+Can I insert markdown?
+Confluence Cloud
+supports inserting content in markdown. This is often used in ReadMe files. See
+Keyboard shortcuts and autocomplete
+for some examples.
+To insert markdown in the
+Legacy editor
+:
+Choose
+Insert
+>
+Markup
+.
+Select
+Markdown
+.
+Type or paste your text - the preview will show you how it will appear on your page.
+Choose
+Insert
+.
+As with wiki markup,
+Confluence Cloud
+will convert your markdown to the rich text editor format. You will not be able to edit your content using markdown.
+Headings
+There are six heading sizes,
+h1
+through
+h6
+. To format text as a heading, prefix the text with the name of the heading you want followed by a period:
+Input
+Output
+h1. H1 heading
+H1 heading
+h2. H2 heading
+H2 heading
+h3. H3 heading
+H3 heading
+h4. H4 heading
+H4 heading
+h5. H5 heading
+H5 heading
+h6. H6 heading
+H6 heading
+Lists
+Wiki markup allows you to create bulleted or numbered lists, and is flexible enough to allow a combination of the two list types.
+To insert a line break in a list, type
+//
+. Empty lines may disrupt the list.
+Bulleted lists
+To create a bulleted list, type the asterisk followed by a space before each item on the list. Add more asterisks to create sub-items. Each additional asterisk adds another level.
+Input
+Output
+* a bulleted item
+* a bulleted item
+** a bulleted sub-item
+** a bulleted sub-item
+* a bulleted item
+a bulleted item
+a bulleted item
+a bulleted sub-item
+a bulleted sub-item
+a bulleted item
+To get square bullets instead of round ones, use hyphens
+-
+instead of asterisks
+*
+.
+Numbered lists
+To create a numbered list, type the hash
+#
+followed by a space before each item on the list. As with bulleted lists, the number of hashes determines the level of the item.
+Input
+Output
+# a numbered item
+# a numbered item
+#* a sub-item
+#* a sub-item
+# a numbered item
+a numbered item
+a numbered item
+a sub-item
+a sub-item
+a numbered item
+Sub-items in numbered lists may appear as capital letters (A, B, C), lowercase letters (a, b, c), Arabic numerals (1, 2, 3), or Roman numerals (i, ii, iii) depending on your browser and the style sheets installed on your
+Confluence Cloud
+site.
+Mixed lists
+You can combine these methods to create mixed numbered and bulleted lists as shown below.
+Input
+Output
+# a numbered item
+# a numbered item
+#* a bulleted sub-item
+#* a bulleted sub-item
+# a numbered item
+a numbered item
+a numbered item
+a bulleted sub-item
+a bulleted sub-item
+a numbered item
+Tables
+You can create simple tables using Confluence wiki markup, with columns separated by the pipe
+|
+and rows separated by line breaks. To give a cell a gray background, add a second pipe.
+For example, the following input:
+||heading 1||heading 2||heading 3||
+|cell A1|cell A2|cell A3|
+|cell B1|cell B2|cell B3|
+Will produce this output:
+heading 1
+heading 2
+heading 3
+cell A1
+cell A2
+cell A3
+cell B1
+cell B2
+cell B3
+You can also create tables using the
+column
+and
+section
+macros. This method gives you more control over the size of table cells, but doesn’t produce highlighted cells. For more information, see
+Table Type 2
+in
+this reference document
+.
+Embedded lists
+You can use Confluence wiki markup to embed lists in tables, as in the following example:
+||Heading 1||Heading 2||
+|* Item 1
+* Item 2
+* Item 3|# Item 1
+# Item 2
+# Item 3|
+The code above will produce the following table:
+Heading 1
+Heading 2
+Item 1
+Item 2
+Item 3
+Item 1
+Item 2
+Item 3
+Advanced table formatting
+You can add color and other formatting options to your table using the
+panel macro
+and certain third-party
+apps
+(if your
+Confluence Cloud
+administrator has installed them on your site).
+Text effects
+Input
+Output
+*bold*
+bold
+_italics_
+italics
+-strikethrough-
+strikethrough
++underline+
+underline
+text^superscript^
+text
+superscript
+text~subscript~
+text
+subscript
+{{monospace text}}
+monospace text
+bq. blockquote
+blockquote
+You can also set the color of your text. For example, if you type
+{color:red}your text{color}
+, the phrase “your text” will appear in red.
+Breaks
+You can add paragraph breaks, line breaks, and horizontal rules in Confluence wiki markup.
+Paragraph breaks
+In Confluence wiki markup, paragraphs are created from any continuous line of text. To create paragraph break, insert two carriage returns after the paragraph text. This is the equivalent of wrapping text in a set of
+<p></p>
+tags in HTML.
+Line breaks
+There are two ways to create a line break within paragraph text:
+Implicitly, by entering a single carriage return
+Explicitly, by entering two consecutive backslashes
+\\
+These methods are equivalent to separating text with the
+<br>
+tag in HTML.
+Most of the time, explicit line breaks aren’t required and a single carriage return is enough. However, they are necessary when you need to break up text in a single list item, as in the example below:
+Input
+Output
+* Term 1
+\\ definition
+* Term 2
+\\ definition
+Term 1
+definition
+Term 2
+definition
+To use more than one explicit line break in a row, separate each one with a space, e.g.,
+\\ \\
+for two line breaks.
+Horizontal rule
+To create a horizontal line across the width of your page or content block, type four dashes in a row
+----
+at the beginning of a line, then press enter or space.
+Make sure that the dashes are on a separate line from the rest of the text.
+Input
+Output
+here is some text
+----
+divided by a horizontal rule
+here is some text
+divided by a horizontal rule
+Links
+Confluence wiki markup lets you add hyperlinks to text in certain administration screens. The table below illustrates the syntax for adding links.
+Method
+Result
+[#anchor]
+Link to an anchor link on the current page, where
+anchor
+is the name of the anchor.
+[pagetitle^attached.ext]
+Link to a file attached to the current page, where
+pagetitle
+is the name of the page and
+attached.ext
+is the name of the file.
+[pagetitle]
+Link to a specific page.
+[pagetitle#anchor]
+Link to an anchor on a specific page.
+[pagetitle^attachment.ext]
+Link to an attachment on a specific page.
+[spacekey:pagetitle]
+Link to a page in another space, where
+spacekey
+is the appropriate spacekey.
+[spacekey:pagetitle#anchor]
+Link to an anchor on a page in another space.
+[spacekey:pagetitle^attachment.ext]
+Link to a filed attached to a page in another space.
+[/2004/01/12/blogposttitle]
+Link to a blog post in the current space, where
+blogposttitle
+is the name of the blog as it appears on the page.
+[spacekey:/2004/01/12/blogposttitle]
+Link to a blog post in another space.
+[spacekey:]
+Link to the overview for another space.
+[~username]
+Link to the profile of a specific user.
+[https://www.atlassian.com]
+Link to an external website.
+[mailto:service@atlassian.com]
+Link to send an email to a specific address (replace
+service@atlassian.com
+with the appropriate email address).
+[file://z:/file/on/network/share.txt]
+Link to a file on your computer or on a network share that you have mapped to a drive.
+Only works with Internet Explorer.
+[! https://external/image.png!|https://external/link.html ]
+Displays an external image and links to an external website.
+Confluence Cloud
+treats headings as anchors, so you can link to headings with the following pattern:
+[spacekey:pagename#headingname]
+The
+headingname
+is case-sensitive and must be entered without spaces.
+For each of the links in the table above:
+You can prepend a link alias, so that alternate text is displayed on the page. For example:
+[link alias|pagetitle#anchor]
+You can append a link tip, which appears as a tooltip. For example:
+[pagetitle#anchor|link tip]
+Images
+You can display images from attached files or remote sources.
+Method
+Result
+!http://www.host.com/image.gif!
+Displays an image from an external website on the page. Requires a fully qualified URL.
+!attached-image.gif!
+Displays an image file that is attached to the current page.
+!pageTitle^image.gif!
+Displays an image file that is attached to a different page in the same space.
+!spaceKey:pageTitle^image.gif!
+Displays an image file that is attached to a page in another space.
+!/2010/05/23/My Blog Post^image.gif!
+Displays an image file that’s attached to a blog post.
+!image.jpg|thumbnail!
+Displays an image attached to the current page as a thumbnail. Viewers can click on the thumbnail to see the full-sized image.
+This feature only works with image files that are attached to the current page, and thumbnails must be enabled by the site administrator.
+For any image, you can specify attributes of the HTML image tag in Confluence wiki markup in a comma-separated list appended to the URL. In the example below, the image will be aligned to the right of the page with 4 pixels of whitespace above and below:
+!image.gif|align=right, vspace=4!
+The following HTML image tag attributes are available:
+Attribute
+Result
+align
+Aligns the image on the page. Possible values are:
+left
+right
+bottom
+center
+top
+border
+Set the width of the border (in pixels).
+bordercolor
+Set the color of the border (name or hex value). Used with the
+border
+attribute.
+hspace
+Set the amount of horizontal whitespace to appear around the image (in pixels).
+vspace
+Set the amount of vertical whitespace to appear around the image (in pixels).
+width
+Set the width of the image (in pixels). This will override the natural image width.
+height
+Set the height of the image (in pixels). This will override the natural image height.
+title
+Set alternate text for the image, which is displayed as a tooltip when on hover.
+alt
+Set alt text for the image. Search engines can index this text, and it contributes to the accessibility of the page for screenreaders and other text-only access methods.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Configuration settings in Confluence Cloud
+Show more
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
+On this page
+Can I insert markdown?
+Headings
+H2 heading
+H3 heading
+Lists
+Bulleted lists
+Numbered lists
+Mixed lists
+Tables
+Embedded lists
+Advanced table formatting
+Text effects
+Breaks
+Paragraph breaks
+Line breaks
+Horizontal rule
+Links
+Images
+Community
+Questions, discussions, and articles
+Accessibility
+Notice at Collection
+Privacy Policy
+Terms of Use
+Security
+2025
+Atlassian

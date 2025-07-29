@@ -1,0 +1,705 @@
+URL: https://support.atlassian.com/confluence-cloud/docs/migrate-from-confluence-cloud-to-server/
+
+Migrate from Confluence Cloud to Data Center | Confluence Cloud | Atlassian Support
+Skip to main content
+Confluence Support
+Products
+Documentation
+Resources
+Contact us
+Sign in
+Sign in
+Confluence Cloud
+Documentation
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
+Create and edit content
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
+Keep content organized
+Take quick action from the content title
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard history
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Export content from Confluence Cloud
+Wide tables may be cut off in PDF export
+Cases where PDF Export may revert to using legacy exporter
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+Review macros only available in the legacy editor
+Insert the cheese macro
+Insert the column macro
+Insert the content by user macro
+Insert the create space button macro
+Insert the favorite pages macro
+Insert the global reports macro
+Insert the info, tip, note, and warning macros
+Insert the JUnit report macro
+Insert the noformat macro
+Insert the panel macro
+Insert the recently used labels macro
+Insert the search results macro
+Insert the section macro
+Insert the space attachments macro
+Insert the space details macro
+Insert the status macro
+Insert the code block macro
+Insert the gallery macro
+Insert the Google Drive macro
+Insert the lorem ipsum macro
+Insert the multimedia macro
+Insert the navigation map macro
+Insert the network macro
+Insert the PDF macro
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
+Get notified about content and activity
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+Manage your account and permissions in Confluence Cloud
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+Use macros to show Confluence content on pages and live docs
+What are macros?
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
+Insert the contributors macro
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Add excerpts to a page or live doc with the insert excerpt macro
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Insert the spaces list macro
+Insert the task report macro
+Insert the user profile macro
+Legacy editor content in the cloud editor
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
+Use gadgets to add dynamic content
+Add the activity stream gadget
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
+Space administration
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+Remove a space
+Archive a space
+Delete a space
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Manage Confluence page and doc templates
+Create a global page template
+Edit a global page or doc template
+Install a global blueprint
+Manage global page templates, doc templates, and blueprints
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence automation administration
+Confluence automation
+Confluence automation usage
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian Support
+Confluence
+Resources
+Confluence administration
+Data management in Confluence Cloud
+Cloud
+Data Center
+Migrate from Confluence Cloud to Data Center
+We
+ended support of Confluence Server
+on February 15, 2024. Confluence Data Center is our only self-managed app offering, and our primary app offering outside of Confluence Cloud.
+This page is for people who are currently using Confluence Cloud, and wish to move to Confluence Data Center (a self-managed Confluence instance).
+Need to move off of Confluence Server?
+These resources will help you plan your migration from:
+Confluence Server to Cloud
+Confluence Server to Data Center
+Before you begin
+There's a few things to understand before you begin this process.
+Minimum Confluence version
+You can migrate from Confluence Cloud to Confluence Data Center
+6.0 or later
+. Importing cloud data (either the whole instance or individual spaces) into any earlier versions of Confluence Data Center is not supported.
+We recommend installing either the latest version of Confluence, or the latest Enterprise release. The
+Confluence Upgrade Matrix
+will help you choose the right version for your organization.
+Features and app availability
+Some Cloud features won't be available in Confluence Data Center. The navigation and user experience will also be different in some places. The core functionality of Confluence is the same, however.
+Marketplace apps are not automatically migrated. When you set up your Confluence Data Center instance, you'll need to reinstall each of your apps.
+Not all apps are available for both Cloud and Data Center. When planning your migration, we recommend you check that your essential apps are available for Data Center in the
+Atlassian Marketplace
+and make a list of the ones you'll need to reinstall.
+Templates
+All pages that were created from a template will be migrated.
+However, any custom templates you may have created in your Confluence Cloud site will not be migrated. You'll need to
+re-create your templates
+once your migration is complete.
+You should also be aware that the number of built-in templates (known as blueprints) are more limited in Confluence Data Center, so some of the default templates you previously used may not be available.
+Team Calendars and Questions data
+Confluence Questions and Team Calendars data can't be migrated, as there is currently no way to export this data from Confluence Cloud.
+Migration approach
+You can choose to migrate your entire instance in one go, or to import your team's content, space by space.
+A
+full site migration
+involves a full site export (backup), and importing this file into Confluence Data Center. Users and groups are included in this export. All spaces will be migrated, including archived spaces and personal spaces.
+A
+space by space migration
+involves
+exporting each space individually
+, and importing these files into Confluence Data Center one at a time. This means you can choose which spaces you want to migrate, or migrate in stages over time. Users and groups are not automatically migrated. If you've connected Confluence Data Center to an external user directory, or have already populated your new site with user accounts, we'll attempt to attribute content to the right people on import.
+Infrastructure and database choice
+Where you choose to host Confluence Data Center is up to you. See
+Supported Platforms
+to find out which operating systems and databases are supported.
+You can use any database listed on the
+Supported Platforms
+page, but you don't already have a database server, we recommend PostgreSQL, which is what Confluence Cloud is run on.
+Licenses
+You will need a new license to migrate to Confluence Data Center. Your existing Confluence Cloud license can't be used. You can get a new license at
+https://my.atlassian.com
+. You'll also need new licenses for any paid Marketplace apps.
+Account visibility
+In Confluence Cloud, people can choose not to make their profile information visible. This means when a Cloud instance is imported into Data Center, user account information such as their full name, may not be included.
+As long as you are logged in as a Site Admin when you complete the site export, email addresses will always be included, and used as the username when the user accounts are created. Users can then log in, and update their profile to provide the missing information.
+Migration steps
+This page will guide you through a
+full site migration
+.
+See
+Import a space from Confluence Cloud
+if you plan to migrate your spaces one by one.
+Step 1: Check your apps
+To check your apps are compatible:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Atlassian Marketplace
+in the left-hand navigation.
+Select
+Manage apps
+.
+Make a note of all
+User-installed
+apps.
+Go to
+https://marketplace.atlassian.com
+and look up each app to see if a Data Center edition is available.
+Step 2: Install Confluence Data Center
+The way you do this depends on how you plan to host the application.
+See
+Confluence Installation Guide
+for links to all the installation options.
+Step 3: Export your Confluence Cloud instance
+To export your Confluence Cloud instance:
+Log in to Confluence Cloud as a
+Site Admin
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Backup manager
+in the left-hand navigation.
+Follow the prompts and download the XML file.
+The file will include all spaces and pages (including attachments), and all your users and groups.
+Step 4: Import your Confluence Cloud instance export file
+Unless your export file is quite small (less than 25mb) we recommend importing via the home directory method.
+The import will overwrite all spaces, pages, and user accounts in your site - including your administrator account. You'll recover that account in the next step.
+You should back up your database, home directory, and installation directory before you begin, in case you need to roll back.
+To import from the home directory:
+Copy your export file to
+<confluence-home>/restore.
+(If you're not sure where this directory is located, the path is listed in the
+Backup and Restore
+screen)
+Go to
+>
+General configuration
+>
+Backup and Restore
+.
+Select your site export file under
+Import from home directory
+Make sure
+Build Index
+is checked so that your index is created automatically.
+Choose
+Import
+.
+See
+Restoring a Site
+for more information about the import process.
+Step 5: Recover sys admin permissions
+When you import an export file, all user accounts are overwritten, including the system administrator account that was created when you installed Confluence. Your existing Cloud Site Admin account will not automatically have system administrator permissions for Confluence Data Center.
+To recover system administrator permissions:
+Stop Confluence.
+Edit
+<installation-directory>/bin/setenv.sh
+or
+setenv.bat
+and add the following system property, replacing
+<your-password>
+with a unique, temporary password.
+-Datlassian.recovery.password=<your-password>
+See
+Configuring System Properties
+for more information on using system properties.
+Start Confluence
+manually
+(don't start Confluence as a service).
+Log in to Confluence with the username
+recovery_admin
+and the temporary password you specified in the system property.
+Go to
+>
+User Management
+>
+Add Users
+.
+Enter the details for your new system administrator account and hit
+Save
+. Make sure to use a strong password.
+Choose
+Edit Groups
+and select the
+confluence-administrators
+group. This is a super-group that has system administrator permissions.
+Log out, and confirm that you can successfully log in with your new account.
+Stop Confluence.
+Edit
+<installation-directory>/bin/setenv.sh
+or
+setenv.bat
+and remove the system property.
+Restart Confluence using your usual method (manually or by starting the service).
+See
+Restore Passwords To Recover Admin User Rights
+for more information on this process.
+Step 6: Install any apps
+To re-install your apps:
+Log in to Confluence Data Center as an administrator.
+Go to
+>
+Manage apps
+.
+Follow the prompts to search for or upload the apps you identified in step 1.  You'll need to purchase new licenses for these apps.
+Remember that Team Calendars and Questions data is not included in your export, and cannot be migrated from Cloud at this time.
+Step 7: Check your application links
+If you had multiple Cloud apps, such as
+Jira
+, you may need to make some changes to the application links.
+To remove or update application links:
+Go to
+>
+General configuration
+>
+Application links
+.
+Follow the prompts to check and update any application links that are now pointing to the wrong place.
+If you're unable to remove the Jira Cloud application link from your Confluence instance after the import, you'll need to remove those references directly from the Confluence database. See
+Alternative Methods of Deleting Application Links in Confluence
+.
+Troubleshooting
+There are a few known issues that you might encounter when importing your Cloud instance.
+Can't load pages in Confluence Data Center
+If you experience problems loading pages after the import, head to  >
+General configuration
+to check your base URL as the port may have changed.
+Jira issues macros are broken
+If your Confluence Cloud instance has macros that depend on the Application Links back to a Jira Cloud instance, and you are migrating Jira as well, these references will need to be updated to work properly. See
+APL-1144
+for a workaround.
+You can also edit the XML file prior to importing it into Confluence Data Center, or by bulk editing those references in Confluence database. See
+How to bulk update Jira Issue Macro to point to a different Jira instance
+.
+Users' favorites (starred pages or saved for later) are missing
+If you find that some of your users' favorites (pages saved for later) are missing due to
+CONF-36348
+, see
+How to restore missing favorites after import from XML
+for more information.
+Some user accounts are missing or created without user details
+Users in Confluence Cloud have the ability to change their profile visibility settings. To ensure all user data is included in the export, ask a site admin to perform the export.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+On this page
+Before you begin
+Minimum Confluence version
+Features and app availability
+Templates
+Team Calendars and Questions data
+Migration approach
+Infrastructure and database choice
+Licenses
+Account visibility
+Migration steps
+Step 1: Check your apps
+Step 2: Install Confluence Data Center
+Step 3: Export your Confluence Cloud instance
+Step 4: Import your Confluence Cloud instance export file
+Step 5: Recover sys admin permissions
+Step 6: Install any apps
+Step 7: Check your application links
+Troubleshooting
+Community
+Questions, discussions, and articles
+Accessibility
+Notice at Collection
+Privacy Policy
+Terms of Use
+Security
+2025
+Atlassian

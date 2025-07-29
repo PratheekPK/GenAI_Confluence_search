@@ -1,0 +1,654 @@
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-table-of-content-zone-macro/
+
+Insert the table of content zone macro | Confluence Cloud | Atlassian Support
+Skip to main content
+Confluence Support
+Products
+Documentation
+Resources
+Contact us
+Sign in
+Sign in
+Confluence Cloud
+Documentation
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
+Create and edit content
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
+Keep content organized
+Take quick action from the content title
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard history
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Export content from Confluence Cloud
+Wide tables may be cut off in PDF export
+Cases where PDF Export may revert to using legacy exporter
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+Review macros only available in the legacy editor
+Insert the cheese macro
+Insert the column macro
+Insert the content by user macro
+Insert the create space button macro
+Insert the favorite pages macro
+Insert the global reports macro
+Insert the info, tip, note, and warning macros
+Insert the JUnit report macro
+Insert the noformat macro
+Insert the panel macro
+Insert the recently used labels macro
+Insert the search results macro
+Insert the section macro
+Insert the space attachments macro
+Insert the space details macro
+Insert the status macro
+Insert the code block macro
+Insert the gallery macro
+Insert the Google Drive macro
+Insert the lorem ipsum macro
+Insert the multimedia macro
+Insert the navigation map macro
+Insert the network macro
+Insert the PDF macro
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
+Get notified about content and activity
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+Manage your account and permissions in Confluence Cloud
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+Use macros to show Confluence content on pages and live docs
+What are macros?
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
+Insert the contributors macro
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Add excerpts to a page or live doc with the insert excerpt macro
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Insert the spaces list macro
+Insert the task report macro
+Insert the user profile macro
+Legacy editor content in the cloud editor
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
+Use gadgets to add dynamic content
+Add the activity stream gadget
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
+Space administration
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+Remove a space
+Archive a space
+Delete a space
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Manage Confluence page and doc templates
+Create a global page template
+Edit a global page or doc template
+Install a global blueprint
+Manage global page templates, doc templates, and blueprints
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence automation administration
+Confluence automation
+Confluence automation usage
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian Support
+Confluence
+Resources
+Extend the functionality of Confluence Cloud
+Use macros to add navigation on Confluence pages
+Cloud
+Data Center
+Insert the table of content zone macro
+You can use the Table of Content Zone macro to mark out a section (zone) within the page or live doc from which to create a table of contents. You can style the headings as a flat list, and place the list of links at the top and bottom of the section or page or doc, to provide navigation bars similar to web navigation.
+Use the Table of Content Zone macro
+To add the Table of Content Zone macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the Table of Content Zone macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Parameter
+Default
+Description
+location
+(location
+)
+both
+Specifies where in the zone the output list is displayed:
+top
+,
+bottom
+, or
+both
+, which encloses the page zone content.
+Output Type
+(type
+)
+list
+Specifies the layout for the table of contents:
+list
+– produces a vertical list, typical of a TOC.
+flat
+– produces a horizontal menu-type series of links, for example: [Heading 1] [Heading 2] [Heading 3].
+Display Section Numbering
+(outline
+)
+false
+Select to apply outline numbering to your headings, for example: 1.1, 1.2, 1.3.
+List Style
+(style
+)
+none
+Specifies the style of bullet point for each list item.  You can use any valid CSS style.  For example:
+none
+— no list style is displayed
+circle
+---  the list style is a circle
+disc
+— the list style is a filled circle. This is the typical bullet list, and is the one we're using for this example list
+square
+— the list style is a square
+decimal
+— the list is numbered (1, 2, 3, 4, 5)
+lower-alpha
+— the list is lower-case, alphabetized (a, b, c, d, e)
+lower-roman
+— the list style is lower roman numerals (i, ii, iii, iv, v, vi)
+upper-roman
+— the list style is upper roman numerals (I, II, III, IV, V, VI)
+Heading Indent
+(indent
+)
+Sets the indent for a
+list
+output type, according to CSS quantities. Entering "10px" will successively indent list heading levels by 10px. For example, h1 headings will be indented 10px and h2 headings will be indented an additional 10px.
+Separator
+(separator
+)
+brackets
+Only applies to the
+flat
+output type
+.
+Specifies the display style of the links.  You can enter any of the following values:
+brackets
+— Each item is enclosed by square brackets: [ ].
+braces
+— Each item is enclosed by braces: { }.
+parens
+— Each item is enclosed by parentheses: ( ).
+pipe
+— Each item is separated by a pipe:
+anything
+— Each is separated by the value you enter. You can enter any text as a separator, for example
+'***'
+. If using a custom separator, be aware that text displays exactly as entered, with no additional white space to further separate the characters.
+Minimum Heading Level
+(minLevel
+)
+1
+Select the largest heading level to start your TOC  list.  For example, 2 will list h2, h3, and h4 headings, but will not include h1 headings.
+Max Heading Level
+(maxLevel
+)
+7
+Select the smallest heading level to include in the TOC.  For example, 2 will list h1 and h2, but will not include h3 and below.
+Include Headings
+(include
+)
+Filter the included headings according to specific criteria. You can use wildcard characters. See
+Sun's Regex documentation
+for examples of constructing regular expression strings.
+Exclude Headings
+(exclude
+)
+Exclude headings according to specific criteria. You can use wildcard characters. See
+Sun's Regex documentation
+for examples of constructing regular expression strings.
+Printable
+(printable
+)
+true
+By default, the TOC is set to print. If you clear this parameter, the TOC will not be visible when you print the page.
+CSS Class Name
+(class
+)
+If you have a custom TOC in your CSS style sheet, you can use this parameter to output the TOC with the specified "class" attribute.
+Examples
+The examples are based on a page with the following headings:
+Filtered Table of Contents
+This example will filter all headings to include those that contain "Favorite", but will exclude any heading which ends with the word "Things". The list is styled with upper-case Roman numerals.
+Parameter
+Value
+Output Type
+list
+List Style
+upper-roman
+Include Headings
+Favourite.*
+Exclude Headings
+.*Things
+Flat List
+This example will filter all headings to render a flat list of "Unknowns" enclosed in square brackets.
+Parameter
+Value
+Output Type
+flat
+Separator
+brackets
+Max Heading Level
+2
+Include Headings
+Unknown.*
+Wiki markup example
+Wiki markup is only supported in the legacy editor.
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Macro name:
+toc-zone
+Macro body:
+Accepts rich text.
+{toc-zone:printable=false|maxLevel=2|minLevel=2|location=top|type=flat|outline=true|separator=pipe}
+Only headings within this block are included in the table of contents.
+{toc-zone}
+Notes
+Due to an outstanding issue in the Table of Content Zone macro (
+CONF-10619
+), the Macro Browser's
+Refresh
+function does not render any parameter modifications. Currently, the rendering of parameter value modifications to the Table of Content Zone macro occurs only after the page is saved.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Use macros to add navigation on Confluence pages
+Show more
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
+On this page
+Use the Table of Content Zone macro
+Parameters
+Examples
+Filtered Table of Contents
+Flat List
+Wiki markup example
+Notes
+Community
+Questions, discussions, and articles
+Accessibility
+Notice at Collection
+Privacy Policy
+Terms of Use
+Security
+2025
+Atlassian

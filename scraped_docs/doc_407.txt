@@ -1,0 +1,688 @@
+URL: https://support.atlassian.com/confluence-cloud/docs/use-confluence-for-technical-documentation/
+
+Use Confluence for technical documentation | Confluence Cloud | Atlassian Support
+Skip to main content
+Confluence Support
+Products
+Documentation
+Resources
+Contact us
+Sign in
+Sign in
+Confluence Cloud
+Documentation
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
+Create and edit content
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
+Keep content organized
+Take quick action from the content title
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard history
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Export content from Confluence Cloud
+Wide tables may be cut off in PDF export
+Cases where PDF Export may revert to using legacy exporter
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+Review macros only available in the legacy editor
+Insert the cheese macro
+Insert the column macro
+Insert the content by user macro
+Insert the create space button macro
+Insert the favorite pages macro
+Insert the global reports macro
+Insert the info, tip, note, and warning macros
+Insert the JUnit report macro
+Insert the noformat macro
+Insert the panel macro
+Insert the recently used labels macro
+Insert the search results macro
+Insert the section macro
+Insert the space attachments macro
+Insert the space details macro
+Insert the status macro
+Insert the code block macro
+Insert the gallery macro
+Insert the Google Drive macro
+Insert the lorem ipsum macro
+Insert the multimedia macro
+Insert the navigation map macro
+Insert the network macro
+Insert the PDF macro
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
+Get notified about content and activity
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+Manage your account and permissions in Confluence Cloud
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+Use macros to show Confluence content on pages and live docs
+What are macros?
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
+Insert the contributors macro
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Add excerpts to a page or live doc with the insert excerpt macro
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Insert the spaces list macro
+Insert the task report macro
+Insert the user profile macro
+Legacy editor content in the cloud editor
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
+Use gadgets to add dynamic content
+Add the activity stream gadget
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
+Space administration
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+Remove a space
+Archive a space
+Delete a space
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Manage Confluence page and doc templates
+Create a global page template
+Edit a global page or doc template
+Install a global blueprint
+Manage global page templates, doc templates, and blueprints
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence automation administration
+Confluence automation
+Confluence automation usage
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian Support
+Confluence
+Resources
+Considering Confluence Cloud?
+See how teams use Confluence Cloud
+Cloud
+Data Center
+Use Confluence for technical documentation
+Confluence is a flexible platform with a range of features and add-ons that can help you capture, distribute, and update your technical documentation. Below are some tips to help you get your technical documentation space started, and to save you time and effort managing your documentation's life cycle.
+Create your documentation space
+To get your documentation started
+Select
+Spaces
+in the Confluence
+sidebar
+, then
+View all spaces
+and select
+Create a space
+Choose
+Documentation space
+(it'll give you a custom overview with a search box—the
+livesearch macro
+—to search just your documentation space, a
+recently updated macro
+, and a few other goodies) and hit
+Next
+Give your space a name and click
+Create
+Confluence will automatically create the space key and create the space overview. Customize the overview at any time—what it looks like is completely up to you!
+Save time by reusing content
+If there's something you're going to use multiple times in your documentation space – whether it's a word, sentence, or paragraph; an image; a product version number; or anything else – you can create it once and include it on as many pages as you like (or use it in the header and/or footer). Inclusions not only save you typing the same thing many times, they also make it easier when things change – it's much better to update the info in one place than 47!
+There are three macros that allow you to re-use content:
+The
+Excerpt macro
+to define a re-usable section, or 'excerpt', on a page – add content inside this macro, and you can reuse it on as many pages as you like.
+The
+Excerpt Include macro
+(
+excerpt-include
+) to include the contents of an excerpt on another page.
+The
+Include Page macro
+(
+include
+) to include the entire content of a page on another page.
+For example, let's say you create release notes for each major release of your product, and you want to include the intro from each release notes page on a 'what's new' page. Place each release notes intro in an
+Excerpt macro
+, then add an
+Excerpt Include macro
+for each set of release notes to the what's new page. Your intros will magically appear on the what's new page, and if you update the release notes it'll automatically update the what's new.
+Excerpts:
+the intros to these pages are in excerpt macros.
+Excerpt include:
+these are excerpt include macros.
+Another example is one of the ways we use the
+Include Page macro
+. Whenever the ellipsis  appears in our documentation—for example, go to
+>
+Copy
+—it's actually an
+Include Page macro
+. We have a page with just that image on it, so we can include it whenever we need an ellipsis.
+Why do we do use an
+Include Page macro
+for one tiny image? Well, just in case that UI element is ever changed. If we attach the image to every page, there might be 50 pages we need to update when things change; if we use an
+Include Page macro
+, we update once and it's changed everywhere. Doing it this way also allows us to know how many pages we're using the image on. By going to
+>
+Page Information
+, we can see how many incoming links there are to this page, and that tells us how many pages use the image.
+Create an inclusions library (optional)
+You can include content from any Confluence page, but you may want to create an 'inclusions library' to hold content that's specifically for re-use. The inclusions library isn't a specific feature of Confluence; the pages in the inclusions library are just like any other Confluence page. This is just a
+technique
+you can use if you want a place to store content that's specifically for re-use.
+To create your inclusions library:
+Select
+Create
+and create a new page in your space.
+Enter a suitable title. We use '_ConfluenceInclusions' (the underscore before the title helps to let people know this page is special).
+Enter some content, and
+Publish
+the page. We enter text explaining the purpose of the inclusions library and how to re-use the content.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Content
+menu
+and select
+Reorder
+.
+Select the angled bracket
+>
+to expand the page tree.
+Drag your new page
+above
+the space overview.
+Go to your new inclusions page, and choose
+Create
+to add child pages containing your re-usable content.
+Inclusions library location:
+drag your inclusions library above the rest of your documentation.
+Because you've moved the pages to the "root" of the space, they won't appear in the
+Pages
+section of your space. The pages will be picked up by other searches though, as they're normal Confluence pages.
+Use page templates
+Creating one or more page templates can be a real time-saver if you're creating a lot of pages with the same layout. If you're constantly adding the same macros, like panels and table of contents, save yourself from RSI and put them into a template – you can start with one, but make as many as you need to maximize your efficiency.
+To create a page template that's available in all spaces:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Configuration
+in the left-hand navigation.
+Select
+Global templates and blueprints
+.
+Choose the
+Add global page template
+button at the top-right.
+Create your template page and choose
+Save.
+For detailed info on page templates, see
+Blueprints and User Created Templates
+.
+To get to
+Global templates and blueprints
+, or any other admin page quickly, press
+/
+and start typing the name of the admin page you're looking for.
+Draft your work
+When you're creating a new page in your documentation, you'll likely want to do it over time, saving as you go, and have a select few people review it to provide feedback. A loose description of this workflow is 'draft, review, publish'.
+You don't want any half-finished pages being seen by your users, and most documentation needs to be reviewed before it's finalized, so here's a technique for drafting pages and allowing for review:
+Create a page and
+restrict its permissions
+. For example, you might restrict viewing to a group of people such as your team, or a few select individuals. On a public instance, you might restrict viewing to staff members, so that the general public can't see the page.
+Write your page content.
+Share the page
+with your reviewers and ask them for feedback. (Make sure you haven't restricted them from seeing the page!) The reviewers can
+add comments
+to the bottom of the page or highlight text to add a comment inline. If you give them permission, they can also edit the page content directly.
+Publish the page when ready, by doing the following:
+Delete any comments on the page.
+Remove page restrictions so that your audience can see it.
+You've now published your page. The space permissions and global permissions now determine who can see and/or update the page.
+Use links and anchors
+Add links
+In any documentation space, it's essential to be able to link from one page to another, and often to specific sections on a page. You can add any URL to a Confluence page and Confluence will automatically detect it and turn it into a link.
+If you paste the URL for another page in your Confluence instance, Confluence will display the link text as the page name and turn it into a relative link, meaning if the name of the page changes, Confluence will adjust the link so it doesn't break.
+Add and link to anchors
+Each heading in Confluence can be used as an anchor to link to a specific place on the page.
+Useful macros
+Confluence ships with a great range of
+macros
+, and there are a few that are particularly useful in technical documentation. Here's a few:
+Table of contents macro
+The
+Table of Contents macro
+helps people navigate lengthy pages by summarizing the content structure and providing links to headings used on the page. The best part is, you don't need to do anything except add the macro; once you've added it, it'll automatically detect headings and add them to the table of contents.
+Info panels
+Often when creating documentation, there are elements of a page that you want to highlight or draw the the viewers' attention to. Use the
+panel element
+to create info, warning, success, and other custom info panels.
+Keep track of page updates
+In Confluence, it's quite usual for a number of different people to update a single page. Technical writers need to know what happens to our documents, both during review and after publication.
+Watch pages or the space
+So that you know when changes are made, it's a good idea to
+watch
+pages or even the entire space. That way, when changes are made to pages you're watching, or someone comments on them, you'll get an email notification letting you know who changed what.
+Whenever you're on a page in your documentation space, choose the
+Watch
+button at the top-right of the page. From there, you can choose to watch just that page, or all pages in the space.
+View page history
+Confluence creates a new version of the page every time someone edits the page. The page history shows all the versions, with date, author, and any comments made on the update.
+To view page history, go to the page and choose  >
+Page History
+.
+On the page history view, you can:
+View the content of a specific version of the page
+Revert to (restore) a specific version
+Select any two versions to compare to see what's changed between those two versions
+Show a list of contributors
+If you want to see at a glance who's updated a page or pages, you can add the
+contributors macro
+. This macro displays a customizable list of people who've contributed by creating, editing, or, optionally, commenting on the page.
+Customize PDF export
+If you're planning to provide a PDF version of your documentation—whether it be for email, download, print, or any other form of delivery—you can customize the look of the PDF by adding a title page, header, and footer.
+The process you take depends on whether you're trying to customize the PDF export for one space or for your whole instance, so, if you're keen to make these changes, take a look at our page on
+Customize Exports to PDF
+for more detailed instructions.
+Other useful tools and apps
+You can use apps to extend Confluence depending on your documentation and workflow needs. Here are some useful add-ons available on the Atlassian Marketplace—most of which we use ourselves—which can extend the functionality of Confluence.
+Copy Space (supported)
+The
+Copy Space for Confluence
+app does what its name suggests; it allows a space administrator to copy a space, including the pages within the space. Great for when you want a space template that you can copy to create other spaces.
+This app is also useful when you need to archive a copy of a current space at a particular point in time, like when you're moving from one version of your product to the next – copy the space, give it a new name, and keep it wherever you like, all without losing the existing space.
+The Copy Space app doesn't not currently copy page history, blog posts and email.
+Gliffy (supported)
+Create diagrams, wireframes, flowcharts and more with
+Gliffy
+. Gliffy features a highly intuitive drag-and-drop interface, and allows you to export your diagrams in multiple formats, including: JPEG, PNG and SVG. Add Gliffy flowcharts, UI wireframes, and network diagrams directly to your Confluence pages to communicate your ideas visually, making them easy to understand and faster to spread through your team.
+Lucidchart (supported)
+Lucidchart Diagrams Connector
+allows you to create and insert diagrams within your Confluence Cloud instance. Quickly draw flowcharts, wireframes, UML diagrams, mind maps, and more inside our feature-rich editor.
+Like what you see? Try Confluence for your technical documentation.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
+On this page
+Create your documentation space
+Save time by reusing content
+Create an inclusions library (optional)
+Use page templates
+Draft your work
+Use links and anchors
+Add links
+Add and link to anchors
+Useful macros
+Table of contents macro
+Info panels
+Keep track of page updates
+Watch pages or the space
+View page history
+Show a list of contributors
+Customize PDF export
+Other useful tools and apps
+Copy Space (supported)
+Gliffy (supported)
+Lucidchart (supported)
+Community
+Questions, discussions, and articles
+Accessibility
+Notice at Collection
+Privacy Policy
+Terms of Use
+Security
+2025
+Atlassian

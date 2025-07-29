@@ -1,0 +1,709 @@
+URL: https://support.atlassian.com/confluence-cloud/docs/use-jira-and-confluence-together/
+
+Use Jira and Confluence together | Confluence Cloud | Atlassian Support
+Skip to main content
+Confluence Support
+Products
+Documentation
+Resources
+Contact us
+Sign in
+Sign in
+Confluence Cloud
+Documentation
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
+Create and edit content
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
+Keep content organized
+Take quick action from the content title
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard history
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Export content from Confluence Cloud
+Wide tables may be cut off in PDF export
+Cases where PDF Export may revert to using legacy exporter
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+Review macros only available in the legacy editor
+Insert the cheese macro
+Insert the column macro
+Insert the content by user macro
+Insert the create space button macro
+Insert the favorite pages macro
+Insert the global reports macro
+Insert the info, tip, note, and warning macros
+Insert the JUnit report macro
+Insert the noformat macro
+Insert the panel macro
+Insert the recently used labels macro
+Insert the search results macro
+Insert the section macro
+Insert the space attachments macro
+Insert the space details macro
+Insert the status macro
+Insert the code block macro
+Insert the gallery macro
+Insert the Google Drive macro
+Insert the lorem ipsum macro
+Insert the multimedia macro
+Insert the navigation map macro
+Insert the network macro
+Insert the PDF macro
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
+Get notified about content and activity
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+Manage your account and permissions in Confluence Cloud
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+Use macros to show Confluence content on pages and live docs
+What are macros?
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
+Insert the contributors macro
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Add excerpts to a page or live doc with the insert excerpt macro
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Insert the spaces list macro
+Insert the task report macro
+Insert the user profile macro
+Legacy editor content in the cloud editor
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
+Use gadgets to add dynamic content
+Add the activity stream gadget
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
+Space administration
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+Remove a space
+Archive a space
+Delete a space
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Manage Confluence page and doc templates
+Create a global page template
+Edit a global page or doc template
+Install a global blueprint
+Manage global page templates, doc templates, and blueprints
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence automation administration
+Confluence automation
+Confluence automation usage
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian Support
+Confluence
+Resources
+Extend the functionality of Confluence Cloud
+Use Confluence with other applications
+Cloud
+Data Center
+Use Jira and Confluence together
+Confluence and Jira apps are like bacon and eggs; coffee and cake; Simon and Garfunkel. Separately, they're great, but together, they're amazing! If you have both a Confluence and Jira app in your Cloud site, you can seamlessly track project updates across both tools and create Jira work items without leaving the Confluence content you're working on.
+What you can do with Confluence and Jira depends on the type of Jira app have in your Cloud site. Find out about the types of features you can use with each Jira app at the bottom of this article.
+For every project or team
+Display work items on a page or live doc
+To display Jira work items on a Confluence page or live doc, use the Jira work items macro. Display a single work item, a list of work items, or show the total number of work items.
+The simplest way to add a Jira work item to Confluence is to paste a Jira URL on a Confluence page or doc.
+Here's some examples...
+<yourjirasite.com>/browse/CONF-1234
+will insert the Jira work items macro and display a single work item.
+<yourjirasite.com>/issues/?filter=56789
+will insert the Jira work items macro and display a list of work items matching the saved filter.
+<yourjirasite.com>/issues/?jql=project%20%3D%20CONF
+will insert the Jira work items macro and display a list of work items matching the Jira search.
+Alternatively, you can add the
+Jira work items macro
+to the page or doc and search for work items directly:
+In the editor choose
+Insert
+>
+Jira work item
+Follow the prompts in the macro browser to choose a project and search for a work item—you can even use
+Jira Query Language (JQL)
+Once you've
+added the macro
+, you can customize how the work item or list of work items appears, including how much information to display, how many work items, and more.
+Create reports and charts
+Reporting on information stored in Jira is simple in Confluence. In addition to the Jira work items macro, you can use the Jira Report blueprint or Jira Chart macro to show information from your Jira apps visually. It's the best way to give your stakeholders a snapshot of your team or project's progress.
+You can:
+Use the
+Jira Report blueprint
+to create a Change Log or Status report
+Use the
+Jira Chart Macro
+to display data as a chart, including pie charts, created vs resolved, and two dimensional charts
+Use Jira
+Gadgets
+to display detailed Jira reports and charts on pages and live docs
+Create work items from inside Confluence
+You can create work items while viewing or editing content, letting you use Confluence for planning and gathering requirements. You can create a single work item from highlighted text, create multiple work items from a table, or use Atlassian Intelligence (AI) to generate work items for you, either one at a time or by scanning your content and drafting multiple work items at once.
+Atlassian Intelligence (AI) uses Confluence data to create Jira work items by generating the summary and description. However, the experience itself lives in Confluence.
+Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
+Settings > Atlassian Intelligence
+in Atlassian Administration.
+Atlassian Intelligence isn’t available for
+Atlassian Government
+apps.
+Create work items when viewing a page or live doc
+To create a single work item from a Confluence page or live doc, as a customer with the Free or Standard plan:
+Highlight text on your page or doc. The floating toolbar appears.
+Select the
++ Jira work item
+dropdown.
+Select
+Create single work item
+.
+The
+Create Jira work item side panel opens on the right.
+Complete your Jira fields and select
+Create
+.
+The work item will be created in Jira and added to your page or doc.
+To create a single work item using Atlassian Intelligence:
+The quality, accuracy, and reliability of information generated by Atlassian Intelligence may vary.
+Learn why
+If your organization is on a Premium or Enterprise plan and if Atlassian Intelligence is activated for your Confluence instance or your Jira instance, you can use Atlassian Intelligence to generate a Jira work item from highlighted text that will also use context from the rest of the content around it.
+Highlight text on your page or live doc. The floating toolbar appears.
+Select the
++ Jira work item
+button.
+The Create Jira work item side panel opens on the right with the generated Jira work item.
+If you don’t want to use Atlassian Intelligence, toggle off
+Use AI to generate summary and description
+. This will reload the work item and only use the highlighted text to populate the Jira work item summary field. Any additional work items created from the highlighted text will not use Atlassian Intelligence.
+Complete your Jira fields and select
+Create
+.
+The work item will be created in Jira and added to your content.
+To create multiple work items from a table:
+Highlight text in a table on your page or live doc. The floating toolbar appears.
+Select the
++ Jira work item
+dropdown.
+Select
+Multiple work item
+.
+The Create multiple work items modal opens.
+Select
+Create.
+The work items will be created in Jira and added to the table on your content.
+To generate multiple work items from a page or live doc using Atlassian Intelligence:
+The quality, accuracy, and reliability of information generated by Atlassian Intelligence may vary.
+Learn why
+Select the AI button on the bottom right of the screen, then select
++ Create Jira work items
+. Confluence will generate a list of work items for you in the right side panel.
+Hover over a work item and select the pencil icon to review the summary and description for accuracy, make any necessary changes, and add additional information as needed.
+Select
+Create
+to save your changes and create the work item in Jira or
+Cancel
+to discard changes.
+To remove a work item from the list, hover over the work item and select the X.
+The work items will be created in Jira and added to your content.
+Create work items while editing
+To create a single work item:
+In the editor choose
+Insert
+>
+Jira work item
+>
+Create new work item
+Enter your
+server
+(if you have multiple Jira instances connected to Confluence),
+project
+,
+work type
+,
+summary
+, and
+description.
+Select
+Insert.
+The work item will be created in Jira and added to your content.
+There are some limitations when creating Jira work items from Confluence. The Jira work items macro or Create Jira work item dialog will notify you if it's unable to create a work item in the selected project. You can find out more in the
+Jira work items macro
+documentation.
+Move between Jira and Confluence
+Whenever you add a link to Jira work items in Confluence, or link to a Confluence page or live doc from your Jira apps, the
+Jira Links
+button appears at the top of the Confluence page or doc. This means you can quickly jump from Confluence to Jira and vice versa, speeding up your workflow.
+The number on the Jira Links button indicates the total number of work items and sprints connected to that page or doc, regardless of whether you have permission to view them. The dropdown, however, will only show details of work items and sprints that you have Jira permissions to view.
+The button doesn't detect links from work items displayed in the Jira work items macro in table format.
+For software teams
+Here are some suggestions to help you get the most out of Confluence and
+Jira
+, and unleash the potential in your agile development team.
+Define your requirements
+Confluence is the perfect place to start defining your requirements. You can use the Product requirements template to capture your requirements, then create your Jira epic and other work items right from the requirements page in Confluence.
+Here's how it works:
+Create a Confluence page or live doc using the Product requirements template.
+Choose the placeholder text '
+Link to Jira epic or feature
+' and choose
+Create new work item
+to create your epic in Jira.
+Collaborate with your team to define your stories.
+Highlight text on your requirements page and choose the
+Create Jira work item
+link to create stories in Jira, and automatically link them to your epic.
+Track the progress of the stories from the Confluence page or doc or from within Jira.
+The tight integration between Confluence and
+Jira
+means you can easily access work items from Confluence and see their status at a glance, and from within
+Jira
+you can see links to related Confluence pages and docs. All the information you need is right there.
+Manage your sprints
+There's often a lot of material in Confluence that provides useful context for your team during a sprint. These might be requirements documents, designs, tech specs, customer research and more. By linking these pages and docs to epics, you make them easy for your team to find during the sprint.
+Here's how you can use Confluence to support your sprint from within Jira Agile:
+In
+Jira
+, create a Confluence page or live doc to plan your sprint. It will be created using the Meeting notes template and automatically link to the sprint.
+In an epic, link to useful Confluence pages and live docs, including requirements, designs, and more.
+Report on your progress to stakeholders using the Jira Report blueprint in Confluence.
+Use the Retrospective template in Confluence at the end of your sprint to take stock of what went well and not so well.
+For people who work mostly in
+Jira
+, the integration means that useful Confluence pages and docs are only a click away.
+Share your roadmap
+If you're using a
+team-managed Jira Cloud project
+, you can project's roadmap to a Confluence page or live doc. See
+Jira Roadmap Macro
+to learn more.
+For service teams
+Provide self help resources for your customers
+If you use Jira Service Management, you can help your customers resolve their work items without creating a request by connecting your service management project to a knowledge base in Confluence.
+In Jira Service Management, head to
+Administration
+>
+Confluence KB
+(or
+Settings
+>
+Knowledge Base
+if you're using Jira Service Management Server 2.x or earlier) to connect or create a Confluence space.
+When Jira Service Management customers search in the customer portal, pages in the linked knowledge base space will be suggested, allowing customers to help themselves.
+Create knowledge base articles
+The Knowledge Base space blueprint, along with templates for how-to and troubleshooting articles make creating new knowledge base articles super simple for your Jira Service Management agents.
+The templates used in the how-to and troubleshooting blueprints are completely customizable too. Set up the template with all your standard information and let your agents take it from there.
+Allow any active user to see knowledge base spaces
+If your Confluence instance is not public, you can still make a knowledge base space available via the customer portal.
+When you link your Jira Service Management project to a Confluence space, you can choose to allow all active users and customers to see pages in the linked space, even if they don't have a Confluence license.  These people get very limited Confluence access.
+Unlicensed users can:
+View pages via the Jira Service Management customer portal.
+Follow a URL to a page or live doc and then navigate within the linked space.
+Unlicensed users can't:
+Like, comment on or edit pages or live docs (or be granted permission to do this).
+See the dashboard, user profiles, the people directory or space directory.
+Search the whole Confluence instance.
+This permission can only be enabled via Jira Service Management, but you can revoke access to the whole instance or to particular spaces via Confluence's global permissions or space permissions.
+Allowing all active users and customers to view a space will override all existing space permissions, so any logged in, licensed Confluence user will also be able to see the space (regardless of their group membership). This is due to the way Confluence inherits permissions.
+Jira app features
+As you've seen, Confluence has many integration points, some of which are only available in particular Jira apps. Check out the features you can access depending on what type of Jira apps you connect to Confluence Cloud:
+Feature
+Jira
+business projects
+Jira
+software project
+s
+Jira Service Management
+Display work items using Jira work items macro
+Display work item and project information using Jira chart macro
+Display work item and project information using the Jira Report blueprint
+Create a work item from Jira work items macro
+Create work items by highlighting text on a Confluence page or live doc
+Create work items by highlighting text on a Confluence page or live doc and automatically link work items to an epic
+Link and create Confluence pages from work items and sprints
+View linked work items with the Jira links button in Confluence
+Create a space using the Software Project space blueprint
+Use a Confluence space as a knowledge base in the customer portal
+Allow Jira Service Management customers to view knowledge base articles without a Confluence license
+Search for an existing Confluence page within the Jira link dialog
+Delegate user management to Jira
+Add a Jira gadget to a Confluence page or live doc
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+On this page
+For every project or team
+Display work items on a page or live doc
+Create reports and charts
+Create work items from inside Confluence
+Create work items when viewing a page or live doc
+Create work items while editing
+Move between Jira and Confluence
+For software teams
+Define your requirements
+Manage your sprints
+Share your roadmap
+For service teams
+Provide self help resources for your customers
+Create knowledge base articles
+Allow any active user to see knowledge base spaces
+Jira app features
+Community
+Questions, discussions, and articles
+Accessibility
+Notice at Collection
+Privacy Policy
+Terms of Use
+Security
+2025
+Atlassian

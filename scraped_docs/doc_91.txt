@@ -1,0 +1,738 @@
+URL: https://support.atlassian.com/confluence-cloud/docs/assign-space-permissions/
+
+Assign space permissions | Confluence Cloud | Atlassian Support
+Skip to main content
+Confluence Support
+Products
+Documentation
+Resources
+Contact us
+Sign in
+Sign in
+Confluence Cloud
+Documentation
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
+Create and edit content
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
+Keep content organized
+Take quick action from the content title
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard history
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Export content from Confluence Cloud
+Wide tables may be cut off in PDF export
+Cases where PDF Export may revert to using legacy exporter
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+Review macros only available in the legacy editor
+Insert the cheese macro
+Insert the column macro
+Insert the content by user macro
+Insert the create space button macro
+Insert the favorite pages macro
+Insert the global reports macro
+Insert the info, tip, note, and warning macros
+Insert the JUnit report macro
+Insert the noformat macro
+Insert the panel macro
+Insert the recently used labels macro
+Insert the search results macro
+Insert the section macro
+Insert the space attachments macro
+Insert the space details macro
+Insert the status macro
+Insert the code block macro
+Insert the gallery macro
+Insert the Google Drive macro
+Insert the lorem ipsum macro
+Insert the multimedia macro
+Insert the navigation map macro
+Insert the network macro
+Insert the PDF macro
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
+Get notified about content and activity
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+Manage your account and permissions in Confluence Cloud
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+Use macros to show Confluence content on pages and live docs
+What are macros?
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
+Insert the contributors macro
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Add excerpts to a page or live doc with the insert excerpt macro
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Insert the spaces list macro
+Insert the task report macro
+Insert the user profile macro
+Legacy editor content in the cloud editor
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
+Use gadgets to add dynamic content
+Add the activity stream gadget
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
+Space administration
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+Remove a space
+Archive a space
+Delete a space
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Manage Confluence page and doc templates
+Create a global page template
+Edit a global page or doc template
+Install a global blueprint
+Manage global page templates, doc templates, and blueprints
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence automation administration
+Confluence automation
+Confluence automation usage
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian Support
+Confluence
+Resources
+Space administration
+Manage permissions at the space level
+Cloud
+Data Center
+Assign space permissions
+If you’re a space admin for a space, you can assign or revoke a number of permissions for that space, such as who can see content in the space, and what they can do with it. Space permissions can be assigned or revoked for both individual users and
+groups
+.
+Whatever you choose to assign or revoke is applied broadly to all content in the space. Finer controls can be applied
+at the page level
+.
+You are the space admin for your own personal space, by default.
+Space permissions aren’t customizable on the
+Free plan
+.
+Tip: Manage space permissions using groups instead of individual people
+Confluence groups let you manage space permissions quickly and at scale.
+For example, let's say you want to change space permissions for 10 people. If they were all added individually, then you have to make 10 changes, the same change for each individual. But if those 10 people were added as a single Confluence group, then you only have to make one change.
+That said, if you're not also an organization, user access, or site admin, then you won't have direct control over the makeup of the groups and will have to rely on other administrators to create and edit groups. If that's a bit of an unwieldy or unreliable process, then it might not make sense to use groups. But, in general, using groups should make your life as a space admin a lot easier.
+To change space permissions for people:
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Space access
+and
+the submenu relevant to whose permissions you want to change:
+Users
+to add or remove individual people, or change their permissions
+Groups
+to add or remove groups, or change a group’s permissions
+Guests
+to add or remove guests, or change their permissions
+Anonymous access
+to allow or block anonymous users from accessing your space, or to change what permissions they have in the space
+Select
+Edit
+.
+Find the row for the user, group, or guest and check or uncheck boxes for the available permissions.
+Uncheck the
+View
+permission to remove all space access.
+Or use the search bar to find and add a user or group.
+Select
+Save.
+Additive permissions
+Keep in mind, permissions in Confluence are additive.
+If someone is a member of multiple groups in your space (A, B, C, etc.), what they're able to see and do is the sum of the permissions granted to Group A + Group B + Group C, and so on, plus whether they're listed in the Individual Users section.
+Which is to say, to truly revoke a permission for someone, it needs to be revoked for them everywhere in the space.
+For example, consider the following:
+Group A (can view in space)
+User A (cannot view in space)
+If User A is a member of Group A, then they still have permission to view because the sum of permissions between User A + Group A = "can view".
+To prevent User A from viewing content in your space, you'd have to either revoke permission to view in your space from Group A, too, or ask an organization, user access, or site admin to remove User A from Group A.
+There's no way to change permissions for multiple spaces at once. However, if you’re a Confluence admin or a site admin, you can set default space permissions, which will apply to all new spaces.
+Add people to your space
+To add groups or individuals to your space:
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Users
+or
+Groups
+in the
+Space access
+menu.
+Note: The
+Space access
+menu in
+Space settings
+is only visible if you're a space admin in that space.
+Select
+Edit
+.
+Use the search bar to find groups or individual users to add to your space.
+You can add multiple groups or users at a time.
+When you’re ready, select
+Add
+to add them to the list.
+Check or uncheck to give them the desired permissions.
+Tip: Instead of going one by one, you can bulk select all permissions by checking the box to
+Select all
+.
+Select
+Save.
+If you have a long list, you may need to scroll up to find the Save button.
+To remove a user or group from your space:
+Find the row in the list for the user or group you want to remove.
+Make sure no boxes are checked for that user or group.
+Tip: Instead of going one by one, you can bulk deselect all permissions by unchecking the
+Select all
+box.
+Select
+Save
+to apply changes.
+Note: This will remove all entries that have no boxes checked.
+Override all permissions on a space
+A quick way to make a global change to space permissions is to override all of its permissions. You have two ways to override all permissions:
+Default permissions
+: Choosing this will reset space permissions to the
+default set for all spaces
+, dictated by your Confluence admin.
+Copy permissions from another space
+: (
+Only available on the Premium plan)
+Copy the space permissions setup from another space. You can only copy permissions from spaces in which you're a space admin.
+You can't undo an override action.
+Copy permissions from another space
+Only available on the Premium plan.
+You can quickly change a space’s permissions by copying the space permissions configuration from another space, as long as you’re the space admin in that other space.
+You can find how to copy space permissions on
+Copy space permissions
+.
+Assigning permissions for anonymous access
+Anonymous access, for all intents and purposes, means
+public access
+. It's a feature that is
+disabled by default
+, and must first be turned on for the whole instance by a Confluence admin or a site admin.
+Learn more about anonymous access
+Once anonymous access is enabled, you'll be able to change the permissions for anonymous users.
+Recover space permissions
+Confluence and site admins are always able to access permissions for any spaces in their Confluence instance. If a space is ever without a space admin — for example, if the only space admin for a space left the organization — a Confluence or site admin can always recover control over space permissions by becoming a space admin. This can be done temporarily, long enough to assign another person as admin of the space.
+To recover space permissions:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Security
+in the left-hand navigation.
+Select
+Space permissions
+.
+Locate the space in the
+Individual Spaces
+list and select
+Recover Permissions.
+(If you're already an admin in the space, you'll see
+Manage Permissions.
+)
+Selecting
+Recover Permissions
+will be recorded in the
+Confluence audit log
+.
+What the individual space permissions do
+ALL
+View
+Controls who can view content in your space
+If the view permission is granted to the user or group, they can view all content in your space (except when they're restricted from doing so on individual content items).
+If the view permission is revoked for the user or group, they won't be able to view any content in the space. They won't be able to find the space or any of its content, either in search results or by browsing spaces in the instance.
+Delete own
+Controls who can delete their own content in your space
+If the delete own permission is granted to the user or group, they can delete any content they currently own. This includes pages, live docs, blogs, and attachments. They won't be able to delete content owned by anyone else.
+Creators can’t delete content they created unless they’re still the owner.
+To allow people to delete any content owned by someone else, make sure they're granted the
+Delete
+permission under
+Content.
+If the delete own permission is revoked for the user or group and no other content
+Delete
+permissions are granted, then they won't be able to delete any content they own in the space.
+Note: Revoking the
+Delete own
+permission does not affect users' ability to delete their own comments.
+PAGES
+Add
+Controls who can create and edit content in your space
+If the add content permission is granted to the user or group, they can create content in your space. They can also edit any content in your space, except when restricted from doing so on individual items.
+If the add content permission is revoked for the user or group, they can neither create nor edit any pages or live docs in your space.
+Archive
+Controls who can
+archive content
+in your space
+If the archive content permission is granted to the user or group, they can archive any page or live doc in your space. They can also restore any pages or live docs to the content tree from the archived pages list.
+They can't archive or restore any content that they don't have permission to view.
+Everyone with access to your space can inherently archive any content they themselves created.
+If the archive content permission is revoked for the user or group, they will only be able to archive content they themselves created.
+Delete
+Controls who can delete content in your space
+If the delete content permission is granted to the user or group, they can delete any given content in your space.
+They can't delete any content that they don't have permission to view.
+If the delete content permission is revoked for the user or group, they can't delete any given content in your space.
+If the
+Delete Own
+permission is assigned, then they can only delete content they themselves created. If the delete own permission also isn't granted, then they can't delete any content in your space, period.
+BLOG
+Add
+Controls who can create blogs in your space
+If the add blog permission is granted to the user or group, they can create blogs in your space. They can also edit any blogs in your space, unless restricted from doing so on individual blogs.
+If the add blog permission is revoked for the user or group, they can neither create nor edit blogs in your space.
+Delete
+Controls who can delete blogs in your space
+If the delete blog permission is granted to the user or group, they can delete any given blog in your space.
+They can't delete any blog that they don't have permission to view.
+If the delete blog permission is revoked for the user or group, they can't delete any given blog in your space.
+If the
+Delete Own
+permission is granted, then they can only delete blogs they themselves created, or that they currently own. If the delete own permission isn't granted, though, then they can't delete any blogs in your space, period.
+COMMENTS
+Add
+Controls who can leave comments in your space
+If the add comment permission is granted to the user or group, they can leave comments (both general and inline) on any pages (and live docs and blogs) in your space that they have permission to view.
+This also means they can delete their own comments.
+Only the author of a comment can edit it.
+If the add comment permission is revoked for the user or group, they can't leave comments anywhere in your space.
+Delete
+Controls who can delete comments in your space
+If the delete comment permission is granted to the user or group, they can delete any given comment in your space, not just their own.
+They can't delete comments on any page, live doc, or blog that they don't have permission to view.
+If the delete blog permission is revoked for the user or group, they can't delete any given comment left by anyone in your space.
+ATTACHMENTS
+Add
+Controls who can upload attachments to pages and live docs in your space
+If the add attachment permission is granted to the user or group, they can upload attachments anywhere in your space.
+Attachments can only be added in edit mode, so they must have permission to edit the page before they can upload anything to it. This means to successfully upload attachments to a page, they must first have the
+Add content
+permission in the space and not be restricted from editing on the page itself.
+If the add attachment permission is revoked for the user or group, they can't upload attachments anywhere in your space.
+Delete
+Controls who can delete attachments in your space
+If the delete attachment permission is granted to the user or group, they can delete any given attachment in your space, not just their own.
+They can't delete attachments on pages that they don't have permission to view.
+If the delete attachment permission is revoked for the user or group, they can't delete any given attachment in your space.
+If the
+Delete Own
+permission is granted, then they can only delete attachments they themselves created. If the delete own permission isn't granted, though, then they can't delete any attachments in your space, period.
+RESTRICTIONS
+Add/Delete
+Controls who can edit restrictions on individual content items in your space
+If the add/delete restrictions permission is granted to the user or group, they can edit the restrictions on any given content item in your space, not just their own.
+Learn more about what restrictions they can edit
+.
+They can't edit restrictions on content items that they don't have permission to view.
+They still need permission to edit a content item to change access to it. If they can only view a content item, they can’t change its access.
+Space admins always have this permission, regardless if it is granted or revoked. It's included in the Space Admin permission.
+If the add/delete restrictions permission is revoked for the user or group, they can't edit restrictions on any given content item in your space.
+If the
+Add
+permission under
+Content
+is granted, then they can still edit the restrictions on any content they own.
+SPACE
+Export
+Controls who can
+export your space
+If the export space permission is granted to the user or group, they can export the whole space, including each comment and attachment.
+This includes pages or live docs they don't have permission to view.
+Blogs are not included in space export.
+If the export space permission is revoked for the user or group, they can't export the whole space.
+Content-level export is governed by the "View" permission. Anyone who can view a page or live doc can also export it.
+Admin
+Controls who the
+space admins
+are in your space
+If the space admin permission is granted to the user or group, they can view and make changes to certain elements of the space reserved for space admins. They can also grant or revoke space permissions for any user or group, including the space admin permission itself.
+Note
+: Space admins can add and delete restrictions on any content they have permission to view. They don’t need to have been granted the Restrictions space permission.
+If the space admin permission is revoked for the user or group, they can't grant or revoke space permissions for anyone.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+On this page
+Additive permissions
+Add people to your space
+Override all permissions on a space
+Copy permissions from another space
+Assigning permissions for anonymous access
+Recover space permissions
+What the individual space permissions do
+Community
+Questions, discussions, and articles
+Accessibility
+Notice at Collection
+Privacy Policy
+Terms of Use
+Security
+2025
+Atlassian

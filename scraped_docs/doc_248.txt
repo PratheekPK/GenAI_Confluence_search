@@ -1,0 +1,699 @@
+URL: https://support.atlassian.com/confluence-cloud/docs/archive-pages/
+
+Archive content items | Confluence Cloud | Atlassian Support
+Skip to main content
+Confluence Support
+Products
+Documentation
+Resources
+Contact us
+Sign in
+Sign in
+Confluence Cloud
+Documentation
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
+Create and edit content
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
+Keep content organized
+Take quick action from the content title
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard history
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Export content from Confluence Cloud
+Wide tables may be cut off in PDF export
+Cases where PDF Export may revert to using legacy exporter
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+Review macros only available in the legacy editor
+Insert the cheese macro
+Insert the column macro
+Insert the content by user macro
+Insert the create space button macro
+Insert the favorite pages macro
+Insert the global reports macro
+Insert the info, tip, note, and warning macros
+Insert the JUnit report macro
+Insert the noformat macro
+Insert the panel macro
+Insert the recently used labels macro
+Insert the search results macro
+Insert the section macro
+Insert the space attachments macro
+Insert the space details macro
+Insert the status macro
+Insert the code block macro
+Insert the gallery macro
+Insert the Google Drive macro
+Insert the lorem ipsum macro
+Insert the multimedia macro
+Insert the navigation map macro
+Insert the network macro
+Insert the PDF macro
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
+Get notified about content and activity
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+Manage your account and permissions in Confluence Cloud
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+Use macros to show Confluence content on pages and live docs
+What are macros?
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
+Insert the contributors macro
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Add excerpts to a page or live doc with the insert excerpt macro
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Insert the spaces list macro
+Insert the task report macro
+Insert the user profile macro
+Legacy editor content in the cloud editor
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
+Use gadgets to add dynamic content
+Add the activity stream gadget
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
+Space administration
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+Remove a space
+Archive a space
+Delete a space
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Manage Confluence page and doc templates
+Create a global page template
+Edit a global page or doc template
+Install a global blueprint
+Manage global page templates, doc templates, and blueprints
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence automation administration
+Confluence automation
+Confluence automation usage
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian Support
+Confluence
+Resources
+Create and organize work in Confluence Cloud
+Keep content organized
+Cloud
+Data Center
+Archive content items
+Archiving a page or other item lets you take an outdated or no-longer-relevant piece of content and store it away from your daily workspace. When you archive an item, you not only remove it from the content tree, you also remove it from quick search. This offers several benefits:
+Makes it easier for you and your team to find what’s relevant to your current work
+Reassures people who rely on your content that it’s accurate and up-to-date
+Keeps your content tree neat and presentable
+What happens when an item is archived
+Archiving an item removes it from your content tree and stores it in the archive. It does not fully delete your content, it just changes access to the item, as described:
+Archived content is excluded from quick search and analytics to keep those functions focused and relevant. However, there's an option to include archived content in an advanced search.
+Links to archived items will still work. These links will have an “Archived” lozenge next to it, letting users know it’s a link to an archived item.
+Archiving an item disables certain actions, some of which include editing, commenting, and liking the item. This is designed to preserve the state of items at the time they’re archived. To get this functionality back, simply
+restore the items from the archive
+.
+Find archived items
+To navigate to your space’s archive, select
+Space settings
+in your space side navigation and then
+Archived
+from under “Content.”
+Anyone with space access can view the space’s archived content. Restrictions still apply, which means that anyone who doesn’t have permission to view an archived item will neither see it in the archived content list, nor be able to access it through a direct link.
+Each space has its own archive; there is no site-level archive for items. When you archive an item in a particular space, it goes to that space’s archive. Likewise, restored items return to that space’s content tree. From there, you can move them to another space.
+Archive an item
+Before archiving an item, be sure to check if it has inherited permissions. If it does, then the item is relying on one of its parent items to control who can view and you might be exposing it to a wider audience by archiving it. To avoid this, set view restrictions on the item that you’re archiving.
+To archive an item:
+Navigate to the top of the item you want to archive
+Select
+More actions
+(•••)
+Select
+Archive
+(optional) Add a note to document why this item was archived.
+Select Archive.
+You’ll get an email notification if someone else archives an item you created.
+Alternatively:
+Find the item in the content tree and hover over the title
+Select
+More actions
+(•••)
+Select
+Archive
+(optional) Add a note to document why this item was archived.
+Select Archive.
+Archive an item with all of its nested items
+When archiving an item, you’ll have the option to include any nested items the selected parent item may have—all in one archiving action. This offers you the ability to archive entire branches of your content tree at once.
+Keep in mind that nested archiving is an all or nothing action. You can choose to archive all the nested items (that you have permission to archive), or none of them; there’s no middle ground. If you’d like to keep any of the selected item’s nested items in the content tree, consider moving them so they’re not nested under it anymore.
+Any nested item you don’t have permission to archive (or view) will remain in the content tree and move up according to the new hierarchy (assuming you choose to continue with the nested archive action).
+Watch out for inherited permissions on nested items.
+Any nested items “left behind” in the content tree as a result of a nested archive action will have a new parent item. If any items that are left behind don’t have view restrictions set on them, you could be exposing content to a wider audience than intended.
+All items archived together will maintain their hierarchy in the archived content list, to preserve the context in which they were organized in the content tree.
+Bulk actions (premium)
+Space admins with Confluence Premium or Enterprise can bulk archive or bulk delete content.
+To ensure Confluence performs at its highest levels, we capped the number of items you can archive in a single attempt at 500 items. Deleting is capped at 100 items.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Content manager
+from the
+sidebar
+.
+Select the boxes next to the items you want to archive or delete. Selecting a page or live doc will select it and all of its nested items. To deselect individual nested items, simply uncheck the boxes.
+When ready,
+Archive
+or
+Delete
+.
+Adding and editing notes on archived items
+A note is a message that explains why an item was archived. There are two methods to add or modify a note on an archived item:
+directly from the archived item itself or
+from the space’s list of
+Archived
+content
+If you did not include a note when you first archived an item, you have the option to include or edit one at a later time. Only the person who archived an item can add or modify its note.
+Add note from the archived item
+When you view an archived item, a banner message will appear at the top identifying it as archived. If you were the one who archived the content, you will also have links in the banner to either add or edit a note.
+Select
+Add a note
+or
+Edit note
+.
+Enter text explaining why the item was archived.
+Select
+Add
+or
+Update
+to save your note.
+Add note from the space’s archived content list
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Content
+menu and select
+Archived
+.
+Find the item you want in the list of archived items.
+Select
+More actions (•••)
+Select
+Add note
+or
+Edit note
+.
+Enter text explaining why the item was archived.
+Select
+Add
+or
+Update
+to save your note.
+When a note is added, it will appear in the banner at the top of the item and in the Note column within the archived content list for all team members to view.
+Who can archive an item
+There are two archiving permissions:
+permission to archive any item in a space
+permission to archive only your own items
+Give user permission to archive any item in a space
+The Archive space permission grants the ability to archive any item in the space. This also covers restoring items back to the content tree. Any item you can archive, you can restore too.
+Even with the space-level archive permission, you can’t archive an item you don’t have permission to view.
+Only space admins can assign archiving permissions.
+To assign the space-level archive permission:
+Go to the space in
+Confluence Cloud
+.
+Select
+Space settings
+from the sidebar.
+Open the
+Space access
+menu.
+Under the
+Groups
+or
+Users
+menu item, select
+Edit.
+Click into the search field at the bottom of either section and search for the user or group.
+Select
+Add.
+Make sure to check the box for
+Archive
+under the
+Pages…etc
+column.
+Select
+Save all
+at the bottom of the page.
+All users inherently have the permission to archive any item they themselves created. As long as they have the permission to view items in the space, they can archive their own items.
+Limited actions available on an archived item
+To preserve the state of items at the time they are archived, some actions will be disabled. If you want to take a disabled action on an archived item, first restore it to the content tree.
+If the item permissions allow the following actions, they are available to someone when viewing an archived item.
+Action
+Available for archived pages
+View
+YES
+View comments (inline and general)
+YES
+Watch/Unwatch
+YES
+Star/Unstar
+YES
+Add/Remove labels
+YES
+Delete
+YES
+View restrictions
+YES
+Edit restrictions
+YES
+View attachments
+YES
+View history
+YES
+Analytics
+YES
+Content information
+YES
+View resolved comments
+YES
+Link to this item
+YES
+View source
+YES
+Import Word document
+YES
+Export to PDF
+YES
+Export to Word
+YES
+Tasks
+YES
+Slack notifications
+YES
+Restore
+YES
+Edit
+NO
+Move
+NO
+Duplicate
+NO
+Like content
+NO
+Share
+NO
+Add/Edit/Reply to comments (inline and general)
+NO
+Like comments (inline and general)
+NO
+Resolve/Delete comments (inline and general)
+NO
+View item in hierarchy
+NO
+Compare versions and revert
+NO
+Add/Edit/ Delete attachments
+NO
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Keep content organized
+Show more
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Show more
+On this page
+What happens when an item is archived
+Find archived items
+Archive an item
+Archive an item with all of its nested items
+Bulk actions (premium)
+Adding and editing notes on archived items
+Add note from the archived item
+Add note from the space’s archived content list
+Who can archive an item
+Give user permission to archive any item in a space
+Limited actions available on an archived item
+Community
+Questions, discussions, and articles
+Accessibility
+Notice at Collection
+Privacy Policy
+Terms of Use
+Security
+2025
+Atlassian

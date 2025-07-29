@@ -1,0 +1,654 @@
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-jira-issues-macro/
+
+Display Jira work items in a list | Confluence Cloud | Atlassian Support
+Skip to main content
+Confluence Support
+Products
+Documentation
+Resources
+Contact us
+Sign in
+Sign in
+Confluence Cloud
+Documentation
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
+Create and edit content
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
+Keep content organized
+Take quick action from the content title
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard history
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Export content from Confluence Cloud
+Wide tables may be cut off in PDF export
+Cases where PDF Export may revert to using legacy exporter
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+Review macros only available in the legacy editor
+Insert the cheese macro
+Insert the column macro
+Insert the content by user macro
+Insert the create space button macro
+Insert the favorite pages macro
+Insert the global reports macro
+Insert the info, tip, note, and warning macros
+Insert the JUnit report macro
+Insert the noformat macro
+Insert the panel macro
+Insert the recently used labels macro
+Insert the search results macro
+Insert the section macro
+Insert the space attachments macro
+Insert the space details macro
+Insert the status macro
+Insert the code block macro
+Insert the gallery macro
+Insert the Google Drive macro
+Insert the lorem ipsum macro
+Insert the multimedia macro
+Insert the navigation map macro
+Insert the network macro
+Insert the PDF macro
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
+Get notified about content and activity
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+Manage your account and permissions in Confluence Cloud
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+Use macros to show Confluence content on pages and live docs
+What are macros?
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
+Insert the contributors macro
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Add excerpts to a page or live doc with the insert excerpt macro
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Insert the spaces list macro
+Insert the task report macro
+Insert the user profile macro
+Legacy editor content in the cloud editor
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
+Use gadgets to add dynamic content
+Add the activity stream gadget
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
+Space administration
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+Remove a space
+Archive a space
+Delete a space
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Manage Confluence page and doc templates
+Create a global page template
+Edit a global page or doc template
+Install a global blueprint
+Manage global page templates, doc templates, and blueprints
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence automation administration
+Confluence automation
+Confluence automation usage
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian Support
+Confluence
+Resources
+Extend the functionality of Confluence Cloud
+Use macros to add development info on Confluence pages
+Cloud
+Data Center
+Display Jira work items in a list
+If your Confluence instance is connected to Jira, you can search and display Jira work items in a list on Confluence pages and live docs. You can then customize the display to add, remove, and reorder fields.
+Make changes to your search with keywords, filters, or
+JQL (Jira Query Language)
+.
+If you’re an
+Atlassian Marketplace
+user, you may be looking for help on
+using the legacy Jira work item macro
+.
+You can paste a link to a
+single Jira work item
+using
+Smart Link display options
+.
+Insert Jira work items
+Edit a Confluence page or live doc or create a new one. You have 3 options to insert Jira work items:
+Option 1
+Select
+from the toolbar and select
+Jira work items
+Option 2
+While editing, type
+/jira
+and select
+Jira work items.
+Option 3
+You have the option to search for work items in Jira and paste the search filter URL into a Confluence page or live doc.
+Search for work items
+Start inserting Jira work items by using filters with basic keyword search or with JQL.
+Learn how to search for Jira work items using
+JQL (Jira Query Language)
+.
+BASIC
+is selected by default. With this option, you can use filters and keywords to search for work items.
+If you select
+JQL
+, enter your query or search keywords. For example,
+project = 'Starfish'
+Select
+COUNT VIEW
+if you want to display just the number of work items.
+Select
+Insert work items
+.
+Manage field columns
+Once your Jira work items are displayed as a list, you can drag columns to move them around. Choose the columns you want to appear by selecting the column icon
+.
+Edit your work items
+If you need to make changes to your search query, select the pencil icon
+at the bottom of the list.
+Resize the width of the list by selecting the expand icon
+from the side.
+Using the Jira legacy macro for Marketplace app users
+Using the Jira macro, you can:
+Display a list of work items on your page or live doc, based on a
+Jira Query Language (JQL)
+search, filter or URL.
+Display a single work item.
+Display a count of work items.
+Create new work items and display the work items on your page or doc without leaving Confluence.
+Use the Jira legacy macro
+To add the Jira legacy macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the Jira legacy macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Displaying work items via a Jira Query Language (JQL) search
+You can use the macro to display a list of work items on your page or doc, based on the results of a search using Jira Query Language (JQL).
+JQL is a simple query language that is similar to SQL. A basic JQL query consists of a
+field
+, followed by an
+operator
+(such as = or >), followed by one or more
+values
+or
+functions
+.
+Examples:
+The following query will find all work items in the 'TEST' project:
+project = "TEST"
+The following query will find all work items in the 'documentation' component of the  'CONF' project:
+project = CONF and component = documentation
+For more information about JQL syntax, see
+Advanced searching
+in the
+Jira
+documentation.
+To display a list of work items based on a JQL search:
+Insert the Jira macro onto your Confluence page or live doc, as described above.
+Choose a Jira instance next to the
+Search
+button.
+If prompted, log in to the Jira instance.
+Enter the JQL query into the
+Search
+box.
+Select
+Search
+.
+If you want to customize the display, select
+Display options
+and adjust the columns and number of work items that will appear in your list of work items.
+Select
+Insert
+.
+Displaying work items via a Jira URL
+You can paste any of the following Jira application URLs into the Jira work items macro. Confluence will immediately convert the URL to a JQL search.
+Any URL for a work item search or filter.
+A URL for a single work item.
+The URL of the XML view of a search.
+Auto-convert:
+You can paste URLs directly into the Confluence editor (without calling up the macro browser). Confluence will automatically convert the URL into a Jira work items macro.
+Displaying a single work item, or selected work items
+To display a single Jira work item
+, choose one of the following methods:
+Paste the URL of the work item directly onto the Confluence page or doc. (There is no need to use the macro browser.) Confluence will auto-convert the link to a Jira work items macro.
+Or: Add the Jira work items macro to the page or doc as described above, and choose
+Recently Viewed
+to see the work items you have visited recently. Select a work item and choose
+Insert
+.
+Or: Add the Jira work items macro to the page or doc as described above, and paste the work item URL into the search box in the macro browser.
+Or: Add the Jira work items macro to the page or doc, define your search criteria in the macro browser via JQL as described above, then select the check box next to the work item in the search results, within the macro browser.
+You can choose to show just the work item key, or the work item key and a summary. Select the macro placeholder and choose Show Summary or Hide Summary.
+To display a subset of Jira work items from your search results:
+Add the Jira work items macro to the page or live doc.
+Define your search criteria in the macro browser via JQL, as described above.
+Select the check boxes next to the required work items in the search results, within the macro browser.
+Displaying a count of work items
+You can choose to display the number of work items returned by your search, rather than a list of work items. The Jira work items macro will display a count of work items, linked to the search in your Jira application.
+To display a work item count:
+Add the Jira work items macro to the page or doc.
+Define your search criteria in the macro browser via JQL, as described above.
+Select
+Display options
+, then select
+Total work item count
+next to 'Display options' in the macro browser.
+Select
+Insert
+.
+Creating a new work item
+While editing a Confluence page or live doc, you can create a work item in Jira and display it without leaving the Confluence editor.
+To create a work item and add it to your page or live doc:
+Add the Jira work items macro to the page or doc, as described above.
+Select
+Create new work item
+.
+Supply the information about your Jira instance, project, and work item, as prompted.
+Select
+Insert
+.
+Confluence will send a request to your Jira application, to create the work item, then display the newly created work item on your page or doc.
+Limitations
+The Jira legacy macro will notify you if it is unable to create a work item in the selected project. This may be because the project has a required field, field configuration or other customization that is not supported by the Jira legacy macro. In this situation you will need to create the work item directly in your Jira application.
+Rendering HTML from Jira applications
+Formatted fields from Jira can be displayed in Confluence if you set up a Confluence-to-Jira application link. Otherwise, such formatted fields will be escaped within the output of the Jira legacy macro. This is to prevent the possibility of malicious HTML being served by an untrusted Jira instance. The most likely field where you will notice this is in the description field.
+Disabling the Jira legacy macro
+Apps cannot be disabled in Atlassian Cloud applications. To stop using an app, you must either uninstall, or unsubscribe, which cancels your subscription to the app.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+On this page
+Insert Jira work items
+Search for work items
+Manage field columns
+Edit your work items
+Using the Jira legacy macro for Marketplace app users
+Use the Jira legacy macro
+Displaying work items via a Jira Query Language (JQL) search
+Displaying work items via a Jira URL
+Displaying a single work item, or selected work items
+Displaying a count of work items
+Creating a new work item
+Rendering HTML from Jira applications
+Disabling the Jira legacy macro
+Community
+Questions, discussions, and articles
+Accessibility
+Notice at Collection
+Privacy Policy
+Terms of Use
+Security
+2025
+Atlassian
