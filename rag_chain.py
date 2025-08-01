@@ -1,19 +1,27 @@
-from langchain.embeddings import OpenAIEmbeddings
+from sentence_transformers import SentenceTransformer
 from langchain.vectorstores import FAISS
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
+from langchain.llms import HuggingFacePipeline
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+HUGGINGFACEHUB_API_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
 def load_rag_chain():
-    embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
-    db = FAISS.load_local("atlassian_docs_faiss", embeddings)
+    # Embedding model
+    embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+    db = FAISS.load_local("atlassian_docs_faiss", embedding_model)
     retriever = db.as_retriever(search_type="similarity", search_kwargs={"k": 4})
 
-    llm = ChatOpenAI(model_name="gpt-4", temperature=0, openai_api_key=OPENAI_API_KEY)
+    # LLM model
+    tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
+    model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
+
+    pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=512)
+    llm = HuggingFacePipeline(pipeline=pipe)
+
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
         retriever=retriever,
