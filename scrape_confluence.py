@@ -65,4 +65,3 @@ def scrape_main():
         time.sleep(1)  
 
 
-
