@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-elements-into-a-page/
+URL: https://support.atlassian.com/confluence-cloud/docs/atlassian-intelligence-features-in-confluence-cloud/
 
-Add elements to a page or live doc | Confluence Cloud | Atlassian Support
+Atlassian Intelligence features in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,99 +440,43 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit content
 Cloud
 Data Center
-Add elements to a page or live doc
-Along with the text you add to a page or live doc, elements are the building blocks that help you organize and present information in the way you want.
-All the items that can be inserted onto a page are
-elements.
-Elements include dates, status lozenges, panels, Confluence macros, and Marketplace macros.
-What are macros?
-Confluence macros are a sub-set of elements that help you extend functionality. Macros usually have a more complex setup than basic elements like a date or a status.
-Learn more about macros
-Does your toolbar look different?
-Your toolbar or editing controls may appear differently from usual, or from how they appear in this documentation. We’re rolling out features that are subject to change.
-How to pin your toolbar and navigate editing updates
-Basic elements
-These elements can be inserted from the
-menu, from the toolbar, or from the slash command menu.
-Action items
-Add a checklist item and assign the task to another person using an @ mention. Items assigned to others show up in their tasks list under their profile. They can tick them off as the task is completed. If a date is added, the task turns red if it becomes past due.
-Type
-/action
-to quickly add this element from the slash command.
-Code snippet
-Code snippets let you format source code with numbered rows and syntax highlighting based on the language you choose.
-They can be added in a few different ways:
-Select
-Code
-from the
-More formatting
-menu in the main toolbar.
-Type
-/code
-to quickly add this element from the slash command, or select it manually from the
-Insert/
-menu in the main toolbar.
-Type three back ticks, i.e ``` with the keyboard to create a code block. You can also type ``` before a line of text to add this to the code block.
-Type text between two back ticks, i.e `some text` to create inline code.
-Date
-Make a date stand out with grey background; the default date format is
-Mon DD, YYYY
+Atlassian Intelligence features in Confluence Cloud
+Learn how to use Atlassian Intelligence features in Confluence Cloud to help improve your writing and streamline your work.
+Atlassian Intelligence isn’t available for
+Atlassian Government products
 .
-Type
-//
-to bring up a date picker.
-Decision
-Emphasize a distinct decision made for a project or by a team by adding a grey background panel and a green icon.
-Type
-/decision
-to quickly add this element from the slash command.
-Divider
-Separate sections of text using a horizontal line.
-Type
-/divider
-to quickly add this element from the slash command.
-Emoji
-Express a feeling, emotion, or info type with an image. The library of emojis available are a combination of standard Confluence emojis and those added by users of your site.
-Learn more about emojis
-Type
-/emoji
-to quickly add this element from the slash command.
-Expand
-Create a collapsed section that reveals more information for the people who seek it. This is a useful formatting element when the amount of info on a page or doc is overwhelming at first glance.
-Type
-/expand
-to quickly add this element from the slash command.
-Heading
-Format text to represent the hierarchy of information on a page or live doc. Once headings are created, use the
-Table of Contents Macro
-to generate a list of links pointing to the headings on your content. The list of links appears wherever you add the macro, and it automatically updates each time someone changes the wording of a heading or the heading level.
-Type
-/heading
-to quickly see the options and add this element from the slash command.
-Mention
-Reference a person and let them know about it. The user mentioned receives a notification.
-Type
-@
-and enter part of a name to narrow the list of matches.
-Panel
-Emphasize information by choosing a preset panel type to consistently communicate ideas like info, note, error, success, and warning. The preset types include an emoji and a background color.
-In addition to the five preset panel options, you can customize panels by choosing one of the 20 background colors available. Panels can have emojis, or you can remove the emoji to meet the needs of your content. The emojis available to you are the same set that you already use in Confluence; this includes custom emojis you and your teammates have added.
-Type
-/panel
-to quickly see the options and add this element from the slash command.
-Quote
-Emphasize a quote by adding a vertical line on its left margin and adjusting the font color.
-Type
-/quote
-to quickly add this element from the slash command.
-Status
-Highlight text to stand out and choose the background color that fits its meaning.
-Type
-/status
-to quickly add this element from the slash command.
+Search for answers using Atlassian Intelligence
+Ask Atlassian Intelligence questions to find the Confluence content you’re looking for.
+View topic
+Write or edit content using Atlassian Intelligence
+Learn how to use Atlassian Intelligence to help write or edit your pages, live docs, comments, and blogs.
+View topic
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence to define terms, acronyms, and abbreviations without leaving Confluence.
+View topic
+Use Atlassian Intelligence with Confluence automation
+Learn how to use Atlassian Intelligence to create automated rules in Confluence automation.
+View topic
+Learn about pre-defined prompts in Atlassian Intelligence
+Pre-defined prompts in Atlassian Intelligence provide a starting point for generating content, eliminating the need to write complex instructions.
+View topic
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Save time by summarizing a page, live doc, or blog using Atlassian Intelligence.
+View topic
+Summarize comments using Atlassian Intelligence
+Save time by summarizing general page or live doc comments using Atlassian Intelligence.
+View topic
+Summarize changes with Atlassian Intelligence
+Use Atlassian Intelligence to generate a summary of changes since your last visit to a page or post.
+View topic
+Summarize a whiteboard using Atlassian Intelligence
+Use Atlassian Intelligence to generate a summary of whiteboard contents.
+View topic
+Use Rovo to listen to audio briefings of Confluence content
+Audio briefing: Listen to an AI overview of a page and links.
+View topic
 Was this helpful?
 Yes
 No
@@ -540,28 +487,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Explore more
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
 Show more
-What data is sent and received when pasting a Smart Link?
-Insert and manage links on your pages and live docs
-Add elements to a page or live doc
-Transfer ownership of your content item
-Add a status to your content
+Create and organize work in Confluence Cloud
 Show more
-On this page
-Basic elements
-Action items
-Code snippet
-Date
-Decision
-Divider
-Emoji
-Expand
-Heading
-Mention
-Panel
-Quote
-Status
+Upload and manage files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

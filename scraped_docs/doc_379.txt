@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/delete-a-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-confluence-cloud/
 
-Delete a space | Confluence Cloud | Atlassian Support
+Configuration settings in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,91 +439,46 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Remove a space
+Confluence administration
 Cloud
 Data Center
-Delete a space
-To remove a space and all of its content from Confluence, you can send it to the trash.
-You must have space admin permissions to send a space to the trash. Members of the
-confluence-administrators
-group can also trash spaces, including personal spaces.
-Once trashed, a space can only be restored or permanently deleted by a Confluence admin. If you prefer the option of restoring the space yourself later, you can
-archive
-it instead.
-You may want to
-create a CSV export
-of the space as a backup first, to have the option of restoring from the export later.
-To send a space to the trash:
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
+Configuration settings in Confluence Cloud
+This section focuses on settings and configurations within
+Confluence Cloud
 .
-Open the
-General
-menu
-then select
-Send space to trash
-.
-Select
-Send this space to trash
-.
-Confirm you want to
-Send to trash
-.
-You can
-Archive
-instead or
-Cancel
-the process at this point.
-Trashed spaces
-Once a space is sent to the trash, it remains trashed indefinitely until a Confluence admin either restores the space or permanently deletes the space.
-Starting on
-January 6th, 2025
-, we will permanently delete spaces that have been in the trash for at least 60 days. We recommend that all Confluence admins go to
-Confluence administration
->
-Data management
->
-Trashed spaces
-before that date to make sure there aren’t any spaces in the trash that shouldn’t be.
-You must be a Confluence admin to restore or permanently delete a trashed space.
-The space key of a trashed space cannot be reused unless the space is permanently deleted.
-Similarly, you cannot create a new personal space immediately after sending a current personal space to the trash. The trashed personal space must be permanently deleted before a new one can be created.
-Restore a space
-Restoring a space will immediately return the space and all of its content to Confluence.
-To restore a space:
-Select
-Confluence administration
-(
-).
-From under the Data Management section of Settings, select
-Trashed spaces
-.
-For the space that you want to restore, select
-Restore space
-under Action.
-Confirm restoration by selecting
-OK
-.
-Permanently delete a space
-Permanently deleting a trashed space (and all its content) cannot be undone.
-To permanently delete a space:
-Select
-Confluence administration
-(
-).
-From under the Data Management section of Settings, select
-Trashed spaces
-.
-For the space that you want to delete, select
-Permanently delete
-under Action.
-Confirm deletion by selecting
-Delete this space
-.
-Depending on the size of the space, deletion can take up to a few hours. A progress bar will let you know the time elapsed, estimated time remaining, and the percent completed.
+Change the site title
+Set a custom title for your instance.
+View topic
+Configure the administrator contact page
+Edit the information on your administrator contact page.
+View topic
+Choose a default language
+Change the default language across Confluence.
+View topic
+Configure the indexing language
+Learn how sysadmins can change the indexing language to improve search results in Confluence Cloud.
+View topic
+Configure time and date formats
+Change how the date and time are displayed on your Confluence instance.
+View topic
+Configure number formats
+Change how numbers are formatted on your Confluence site.
+View topic
+Configure attachment size
+Set the maximum size for attachments in your Confluence Cloud instance.
+View topic
+Configure shortcut links
+Create shortcut links for your Confluence site.
+View topic
+Install a custom language font for PDF exports
+Install a font that supports a certain language so you can create PDFs in that language.
+View topic
+Confluence wiki markup syntax for the legacy editor
+Learn how to use Confluence wiki markup to format text in some administrative pages.
+View topic
+Customize the email domain sending Confluence emails
+Learn how to send your Confluence site email notifications from a custom domain email.
+View topic
 Was this helpful?
 Yes
 No
@@ -531,13 +489,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Remove a space
-Archive a space
-Delete a space
-On this page
-Trashed spaces
-Restore a space
-Permanently delete a space
+Explore more
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Show more
+Confluence administration
+Show more
+Manage analytics permissions in Confluence administration
+Manage Confluence content templates
+Configuration settings in Confluence Cloud
+Security settings in Confluence Cloud
+Look and feel settings in Confluence Cloud
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

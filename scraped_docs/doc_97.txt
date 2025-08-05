@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/integrate-whiteboards-into-your-atlassian-workflow/
+URL: https://support.atlassian.com/confluence-cloud/docs/advanced-pdf-export-customizations/
 
-Integrate whiteboards into your Atlassian workflow | Confluence Cloud | Atlassian Support
+Advanced PDF export customizations | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,54 +439,147 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Space administration
+Set space-specific functionality
 Cloud
 Data Center
-Integrate whiteboards into your Atlassian workflow
-Whiteboards aren’t available in
-Atlassian Government environments
+Advanced PDF export customizations
+This page provides information about 'advanced' PDF export customizations. These expand upon the regular customizations described in
+Customize exports to PDF
 .
-Embed your whiteboard in other products, move ideas to Jira, and create or import Jira issues.
-Embed your entire whiteboard into Jira, Confluence, and Trello
-Easily embed ideas and add visualization to your workflows by embedding a whiteboard Smart Link to project posters, product roadmaps, kanban boards, and more.
-Move ideas from your whiteboard into Jira issues and Confluence pages
-If you’re not looking to showcase your entire whiteboard somewhere else, simply take the ideas you need or want with you to your other apps. Be it after brainstorming, or a retro - get things happening by copying text, sticky notes, or shapes into a Confluence page or a Jira issue description.
-Select the sticky notes, text boxes, or shapes you want to copy.
-Use Cmd + c / Ctrl + c.
-Go to any plain text editor where you want this content to be.
-Use Cmd + v / Ctrl + v.
-Import Jira issues onto a whiteboard
-You can import Jira issues onto a whiteboard in two ways: Copy and paste the link to a Jira issue onto your whiteboard, or use the Jira issue import dialog. This works for the cloud versions of
-Jira
-, Jira Service Management, and Jira App Discovery.
-The Jira issue import dialog lets you search for and insert single or multiple Jira issues into your whiteboard. You can use a simple plain text search or more advanced Jira Query Language (JQL) to find issues.
-Learn more about searching with JQL
-Use plain text search in the dialog:
-Enter your query into the search field.
-Select as many issues from the list as you would like to import.
-Select
-Import issues.
-Use JQL search in the dialog:
-Select
-JQL
-near the search bar.
-Enter your JQL query in the search field.
-Select as many issues from the list as you would like to import.
-Select
-Import issues.
-Create Jira issues from your whiteboard
-Quickly turn sticky notes or shapes into single or multiple Jira issues - be it in
-Jira
-, Jira Service Management, or Jira App Discovery. This will help take ideas in a whiteboard and turn them into actionable work items in Jira.
-To turn a sticky or shape into a Jira issue:
-Select a sticky or shape with text inside it.
-Select
-+ Create a Jira issue
-from the floating toolbar.
-Select a site, project, and issue type from the options in the picker. Note that the required input fields will update depending on the project and issue you select.
-Fill in all required fields, then select
-Create.
+The information below is for advanced users. Be aware that the advanced customizations described below require knowledge of certain parts of Confluence, and of CSS and HTML. Customizations are not supported by Atlassian, so our support engineers won't be able to help you with these modifications.
+Header and footers
+Adding headers and footers to single page exports
+Single page exports don't support
+adding HTML headers and footers via the PDF export page
+, but you can use CSS rules in the PDF stylesheet field (found within
+Space Settings
+>
+PDF export
+in the Look and feel card) to produce headers and/or footers for a single page export.
+For custom headers, define any of the following rules within your
+@page
+rule:
+@top-left
+,
+@top-center,
+and
+@top-right
+. These rules allow you to define the
+content
+of the left-hand side, center and right-hand side of your page's header area, respectively.
+For custom footers, define
+@bottom-left
+,
+@bottom-center
+and
+@bottom-right
+rules within your
+@page
+rule.
+For example, the following rules add a document title at the center of the header and a page number at the center of the footer:
+CSS - PDF Stylesheet
+@page
+{
+@top-center
+{
+content: "Document Title Goes Here"; /* This is the content that will appear in the header */
+font-family: ConfluenceInstalledFont, Helvetica, Arial, sans-serif;
+font-size: 8pt;
+}
+@bottom-center
+{
+content: "Page " counter(page); /* This is the content that will appear in the footer */
+font-family: ConfluenceInstalledFont, Helvetica, Arial, sans-serif;
+font-size: 8pt;
+}
+/* Any other page-specific rules */
+}
+Notes:
+The
+font-family
+and
+font-size
+properties ensure that the header and footer text is rendered in the same default font style used for the body text, based on the default CSS rules.
+It is not possible to use this method to insert images (stored as attachments within your Confluence instance) into the headers and footers of single page exports.
+Adding images to headers and footers
+To insert an image into the header or footer, add HTML to the Header or Footer fields of the PDF Layout.
+The following example uses an HTML
+img
+element with
+src
+attribute to add an image to the left of the header. The
+src
+attribute refers to an image attached to a Confluence page. The image element is usually placed within a
+div
+element container.
+HTML - PDF Layout: Header
+<div style="width: 100%; text-align: right; margin-left: 0.5in; font-size: 10px; height: 20px; overflow: hidden;">
+<img src="https://confluence.atlassian.com/download/attachments/12346/header-image.png" style="height: 50px;" />
+</div>
+In the example above, the header includes an image called 'header-image.png'. The "12346" in the
+src
+attribute is the ID number of the page to which the image is attached.
+Follow these instructions to include an image on your page or live doc:
+Attach the image to a Confluence page or live doc.
+View the list of attachments on that page or doc, then right-click the image and copy its location.
+Paste the link into the appropriate
+src=""
+attribute in your PDF Stylesheet, as shown above.
+Edit the image URL so that it is relative, by removing the first part of the URL before
+/download/...
+.
+Notes:
+This example uses an inline CSS property
+margin-top
+in the
+style
+attribute to force the image away from the top of the page by 10mm. This comes in handy when your header image is large enough to touch or spill over the top of the page.
+Likewise, for footers, you can use the
+margin-bottom:XXmm
+property to force an image away from the bottom of the page by 'XX' mm.
+Very large images can spill over into the body of a page or alter the position of text or other elements used within a header or footer. In such situations, it is recommended that you reduce the size of the image and then attach it to your Confluence page again. If you prefer to keep the image size and want to move the content lower instead, you can do so by configuring the
+margin-top
+properties in the
+@page
+CSS rule.
+By default, a header or footer image is aligned to the left-hand side of the page. However, you can align this image to the center or right-hand side of a page by adding either the
+text-align:center
+or
+text-align:right
+properties to your
+style
+attribute. For example, to align the header image to the right-hand side of the page, your
+style
+attribute would look similar to this:
+style="margin-top:10mm; text-align:right"
+.
+Adding a dynamic title to the title page
+When you export an arbitrary set of pages or docs from Confluence, you may like to have a corresponding title added to the cover (or title) page automatically. This can be done (in a somewhat irregular way) by using the top level item from the default table of contents as the title. This method relies on having the exported pages structured as sub-pages of the top-level page. In other words, the pages to be exported should consist of a page (at the top-level) and all of its child pages. The result is that the title that appears on the cover page changes depending on the top-level page that is used for the export.
+The CSS below moves, and styles, the top-level TOC item for use as the title on the cover page, and turns off the leader and page number normally associated with this item in the TOC.
+CSS - PDF Stylesheet
+.fsTitlePage {
+position: relative;
+left: 0px;
+}
+/* Turn off the default section numbering for this TOC item */
+.toclvl0:before {
+content: "";
+counter-reset: chapter 0; /* Ensure there's a parent element with a counter for this to work */
+}
+/* Hide the default page numbering for this TOC item */
+.toclvl0 .tocnum {
+display: none;
+}
+/* Move and style this TOC item */
+.toclvl0 {
+position: absolute;
+top: 250px;
+font-size: 42px;
+font-weight: bold;
+margin: 72px 0 4px 0;
+text-align: center;
+}
 Was this helpful?
 Yes
 No
@@ -494,21 +590,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Show more
-Keep on track with the timer
-Hide collaborator cursors
-Integrate whiteboards into your Atlassian workflow
-Link Jira issues from your whiteboard
-Take bulk Jira actions with smart sections
-Show more
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
 On this page
-Embed your entire whiteboard into Jira, Confluence, and Trello
-Move ideas from your whiteboard into Jira issues and Confluence pages
-Import Jira issues onto a whiteboard
-Use plain text search in the dialog:
-Use JQL search in the dialog:
-Create Jira issues from your whiteboard
+Header and footers
+Adding headers and footers to single page exports
+CSS - PDF Stylesheet
+Adding images to headers and footers
+HTML - PDF Layout: Header
+Adding a dynamic title to the title page
+CSS - PDF Stylesheet
 Community
 Questions, discussions, and articles
 Accessibility

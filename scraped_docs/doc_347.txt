@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-google-calendar-android/
+URL: https://support.atlassian.com/confluence-cloud/docs/how-secure-are-public-links/
 
-Subscribe to Team Calendars from Google Calendar (Android) | Confluence Cloud | Atlassian Support
+How secure are public links? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,90 +439,194 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Confluence administration
+Manage global permissions in Confluence administration
 Cloud
 Data Center
-Subscribe to Team Calendars from Google Calendar (Android)
-There are two ways to synchronize your Team Calendar in Google Calendar on Android:
-Two-way sync
-(CalDAV) - allows you to view and update Team Calendar events in Google Calendar. Requires Team Calendars (available with Confluence Premium) and is
-only supported on an Android device.
-One-way sync
-(iCal) - allows you to view — but not update — Team Calendar events in Google Calendar.
-Subscribe with two-way sync (CalDAV) on Android
-You’ll also need a CalDAV sync app, such as DAVx⁵, an open-source app available from the
-Play Store
-(paid) or via
-F-Droid
-(free).
-These instructions are for Android 7.0 Nougat and DAVx⁵ 3.3.10-ose (which supports Android 5.0 or newer). Your versions may differ slightly.
-Team Calendars was tested with DAVx⁵ but may also work with other CalDAV sync apps.
-You will need the following:
-CalDAV sync app of your choice
-Confluence API token (this will be your password)
-Confluence Cloud server address
-To get your Confluence Cloud API token
-In Confluence:
-Select your profile picture in the top nav >
-Settings
-Under
-YOUR SETTINGS
-, select
-Password
+How secure are public links?
+Public links allow teams to share pages, live docs, and whiteboards with people outside of their Confluence organization, without giving them full access. This could be useful for sharing information to the public, like customer FAQs, release notes, shareholder letters, and more.
+On this page, you’ll learn how public links work and, in particular, how secure they are.
+If you’re an admin looking for guidance on how to get started with public links, go to
+Control whether spaces can allow public links
+.
+If you’re looking for help on how to actually share individual content, go to
+Share content externally with public links
+.
+Public links are only available on Confluence’s paid plans (Standard, Premium, and Enterprise). Only Confluence pages, live docs, and whiteboards can have public links, not any other type of Confluence content (e.g., blogs, databases, etc.).
+Who can access a public link
+Anyone on the internet with the public link can view its content.
+Public links override all restrictions
+Public links ignore restrictions on who can view content in Confluence.
+Normally, Confluence content obeys view restrictions inherited all of its higher-level containers — any parent content, the space, and the site itself. However,
+the public link will just work
+. Anyone on the internet who has the content item’s public link can use it to view the safe, view-only version of it.
+Again, this means restricting a parent item won’t have any effect on who can view the public link of a child item.
+Public whiteboards can be edited by visitors, not only viewed, and likewise ignore any restrictions to who can view or edit the content in Confluence.
+Can someone Google a public link?
+Atlassian has taken all necessary steps within its capability to make sure search engines do not index our public links.
+This means that public links are not indexed by search engines, which means no one will be able to find the public link in a Google search. They need the actual public link.
+Content will only ever have one public link
+If you turn a public link off, anyone using it to try to access the content will get a message saying the content can’t be found. But if you later turn the public link back on, people who already have the public link will again be able to access the content because it’s the same link as before.
+Who can turn on a public link?
+Public links are controlled at 3 levels:
+In
+Global permissions,
+app
+admins can control whether the site should allow the use of public links. Allowing public links on the site doesn’t itself make anything public. It simply offers users on the site the option of turning on a public link for any content.
+In
+Space permissions
+, app and space admins can control whether a specific space should allow the use of public links. Public links must be allowed on the site first. Like the global setting, allowing public links in a space doesn’t itself make anything public. It simply offers users in the space the option of turning on public links.
+On
+specific content items,
+users can turn on or off a public link as long as they can edit the content and as long as public links are allowed by an admin. A user who can view a content item but not edit can still copy a public link that’s already on and share it with anyone on the internet.
+View and manage public links at the global level
 In the
-API token
-section, select the link
-Create and manage API tokens
-Select
-Create API token
-Name your API token, select
-Create
-, and then select
-Copy
-(you won’t be able to copy this later)
-To get your Confluence Cloud server address
-In Confluence:
-In the top nav, choose
-Apps > Calendars.
-Select the the More actions menu (•••) for your calendar in the side nav and choose
-Subscribe
+Public links
+tab of
+Global permissions
+, app admins will find a list of all the spaces on their site, see whether a space allows or doesn’t allow public links, and make changes.
+App admins on the Premium plan can block space admins from allowing public links in spaces, block them preemptively while the global public links toggle is off, and multi-select to stop allowing, allow, or block from allowing in bulk.
+To learn more about managing public links as an app admin, go to
+Control whether spaces can allow public links
 .
+View and manage public links at the space level
 In the
-Calendar app
-dropdown, select
-Google Calendar (Android)
+Public links
+tab of
+Space permissions
+, space admins will find a list of all the active public links in their space. They can turn off or block any active public link. On the Premium plan, they can multi-select to turn off or block in bulk.
+App admins on the Premium plan can block space admins from allowing public links in spaces, block them preemptively while the global public links toggle is off, and do so in bulk.
+To learn more about managing public links as an app admin, go to
+Control whether spaces can allow public links
 .
-:info:  If prompted, add the calendar to
-My Calendars
-. If you don’t add it to My Calendars, it won’t sync.
-Copy the
-server address
-and paste it into your CalDAV sync app.
-Because DAVx⁵ supports calendar discovery, the server address will be your Confluence URL, not the URL of an individual calendar. You'll be able to choose which calendars (that you've added to My Calendars) to sync in the app.
-To subscribe to the Team Calendar in DAVx⁵
-In DAVx⁵ on your Android device:
-Go to
-Add account
->
-Login with URL and user name
-.
-Enter the
-server address
-you copied earlier.
-Enter your Confluence
-username
+Control for organization admins to use security policies to control public links is now available.
+Learn about data security policies
 and
-the API token as password
+how to prevent people from using public links on Confluence
 .
-Follow the prompts to name your account.
-Select the Team Calendars you want to display in DAVx⁵.
-Open the Google Calendar app on your device. Your Team Calendars will be listed under the account name.
-Subscribe with one-way synchronization (iCal format)
-One-way synchronization means that you can view — but not update — Team Calendar events in your Google Calendar app.
-You can't subscribe to Team Calendars using iCal directly on your Android device. Instead, you will need to
-Subscribe to Team Calendars from the browser version of Google Calendar
-. Once you’ve done this, events from your Team Calendar will then be visible in the Google Calendar app on your Android device automatically.
+Get notified for key public links sharing activity
+Alongside robust management functionality, Confluence will notify you of key public links activity to keep you on top of which content is shared publicly.
+How app admins stay notified
+As an app admin, you’ll be notified whenever someone allows public links for the entire site (changes the global toggle). App admins can also choose to be notified whenever anyone turns on a public link anywhere on your site.
+To stop receiving public links notifications as an app admin:
+Select your profile avatar in the top right of the top nav.
+Select
+Settings.
+Select
+Email
+in the sidenav.
+Select
+Edit
+.
+Uncheck
+Notify me when someone allows the use of public links on this site,
+and/or uncheck
+Notify me when someone turns on a public link.
+How space admins stay notified
+As a space admin, you’ll be notified whenever someone allows public links in your space (changes the space toggle) and whenever anyone turns on a public link in your space.
+To stop receiving public links notifications as a space admin:
+Select your profile avatar in the top right of the top nav.
+Select
+Settings.
+Select
+Email
+in the sidenav.
+Select
+Edit
+.
+Uncheck
+Notify me when someone allows the use of public links in my spaces,
+and/or uncheck
+Notify me when someone turns on a public link in my space.
+What are the app defaults for the public links feature?
+Confluence allows public links by default but no public links will actually be on by default. People will have to manually turn them on, where allowed.
+Type of control
+Allowed/On by default?
+Site-level control in global permissions
+Allowed
+Space-level control
+Allowed
+Content-level control
+Off
+Defaults may differ depending on date of site creation
+If your site was created
+before
+October 16, 2023, the global public links toggle will be off until you choose to turn it on.
+If your site was created
+on or after
+October 16, 2023 — including sites migrating to Confluence Cloud — the global public links toggle will be on. Because all spaces will allow public links by default, this also means all spaces on your site will be allowing public links from the time you created the site. You’ll have to turn the global toggle off to stop allowing public links on your site.
+Any time an app admin allows public links on their site by turning the global toggle from an off to an on position, all spaces will automatically and immediately move to an “allowed” status, regardless of any prior setting. No status will be remembered from before.
+To be clear, this means users in any space that shouldn’t ultimately allow public links will be able to turn a public link on until an admin manually stops allowing public links in that space.
+Upgrading from Free to paid plans will trigger these defaults
+Public links aren’t available on the Free plan. Upgrading makes them available and will trigger these defaults. This means that, although no public links will be on immediately, people on your site will be free to use public links in all spaces on your site the moment you upgrade.
+What protections are in place to avoid accidental sharing?
+We know it’s critical to have complete control and awareness over any public sharing functionality. Confluence equips both admins and end users with plenty of protection navigating this feature.
+Control public links on a space-by-space basis
+Some spaces shouldn’t allow public links. Admins can simply toggle off the ability for users in a specific space to use public links.
+App and organization admins can control whether public links should be allowed or not allowed in any new spaces created. By default, public links will be allowed in all new spaces created.
+To change whether new spaces created should allow public links:
+Select the gear icon in the top right to go to app settings.
+Select
+Space permissions.
+In the
+Public links
+section, select the toggle that controls whether new spaces should allow public links.
+Confirmation messages prevent mistakes
+Whenever an admin wants to allow public links on the site or in a space, they’ll be informed exactly what the effect of their action is — that it will allow users to turn on public links.
+Likewise, whenever an end user tries to turn on a public link, they’ll be informed exactly what the effect of
+their
+action is:
+It will make the public link active and available to be copied and shared by anyone who can view the content.
+Anyone on the internet who already has the content item’s public link will be able to view the public version of it, even if no one re-shares the public link with them.
+UI indicators show when content is public
+Confluence employs a number of indicators in the UI to mark content that’s currently being shared publicly. This helps you and your team understand which content is public at key points in your workflow, such as when editing public content, and prevent sharing the wrong information with the wrong people.
+The public link toggle on content items will appear grayed out, turned off, and disabled in any situation where the item’s public link isn’t allowed. This could be when:
+The public link is specifically blocked by an admin.
+Public links aren’t allowed in the space.
+Public links aren’t allowed on the site.
+Public links are recorded in the audit log
+All public links actions (with the exception of copying and sharing public links) are captured in the
+audit log
+. Whenever someone turns a public link on or off, a space admin allows public links in their space, or app admin allows public links for the site, it will be recorded.
+Public link visitors can request access to your site
+If your site allows people with certain email domains to join or request access to your site, they will be able to do so from any public link. Learn more about how to
+control how users get access to Confluence
+.
+What can public link visitors see and do?
+Public links offer a way to share individual content items safely with anyone on the internet. This means that visitors to public links are limited in what they can see and do.
+On public pages and live docs
+Public pages and live docs are designed to be view-only. Visitors to public content can’t:
+Edit the content
+Leave comments
+View comments
+View the Confluence navigation
+View the content tree and breadcrumbs
+View most macros, including those that contain data outside of the shared content, and all third party macros
+Public visitors can only view the following macros:
+Status
+Table of Contents
+Info, Tip, Note, and Warning
+Code Block
+Expand
+Excerpt
+Roadmap Planner
+Anchor macro
+All other macros
+are not viewable in the view-only version of the content.
+On public whiteboards
+Public whiteboards are designed to be editable, to allow anonymous visitors limited functionality. Visitors to public whiteboards can:
+Add, edit, and delete whiteboard content (stickies, shapes, text, arrows,, etc.)
+Add links
+View locked content on the whiteboard but can’t lock or unlock
+View voting results but can’t start or participate in a voting session
+They can’t:
+View links to Atlassian content they don’t have access to
+View comments
+Create comments
+Copy the whiteboard
+Delete the whiteboard
+Change the name of the whiteboard
+Upload media
 Was this helpful?
 Yes
 No
@@ -530,16 +637,34 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Show more
-Subscribe to Team Calendars from Apple iOS Calendar
-Export to other calendars
-Set system properties
-Team Calendars FAQs
-Subscribe to Team Calendars from Google Calendar (Android)
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
 On this page
-Subscribe with two-way sync (CalDAV) on Android
-Subscribe with one-way synchronization (iCal format)
+Who can access a public link
+Public links override all restrictions
+Can someone Google a public link?
+Content will only ever have one public link
+Who can turn on a public link?
+View and manage public links at the global level
+View and manage public links at the space level
+Get notified for key public links sharing activity
+How app admins stay notified
+How space admins stay notified
+What are the app defaults for the public links feature?
+Upgrading from Free to paid plans will trigger these defaults
+What protections are in place to avoid accidental sharing?
+Control public links on a space-by-space basis
+Confirmation messages prevent mistakes
+UI indicators show when content is public
+Public links are recorded in the audit log
+Public link visitors can request access to your site
+What can public link visitors see and do?
+On public pages and live docs
+On public whiteboards
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-insights-on-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/write-or-edit-content-using-atlassian-intelligence/
 
-Content insights and analytics  | Confluence Cloud | Atlassian Support
+Write or edit content using Atlassian Intelligence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,102 +439,67 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-View Confluence analytics to see how content is performing
+Create and organize work in Confluence Cloud
+Atlassian Intelligence features in Confluence Cloud
 Cloud
 Data Center
-Content insights and analytics
-This feature is available to users with a Confluence Standard, Premium or Enterprise subscription.
-Content insights shows you how many people have viewed a page, live doc, or blog post. On each page, live doc, or blog post, you'll find the estimated read time and how many people in total have viewed it (all-time).
-Analytics
-are also available from
-Details
-on the floating action bar at the bottom right of your screen. Under
-Stats
-, select
-Views.
-View analytics from a page, live doc, or blog post
-For more information, select the text in the byline that includes how many people have viewed the content (if you do not see this, you’ll need to upgrade your Confluence plan).
-This opens an analytics summary and displays the
-Views
-tab, including a chart showing the number of views and unique viewers.
-Select
-Mentions
-to see a summary of views from people mentioned on the page, live doc, or blog post.
-Select
-Links
-to see the top outbound and inbound links. Outbound links show click counts for links included in the content. Inbound links show content items that link to the current content and the number of viewers who reached this content through those links. Select
-View all
-to go directly to the full analytics screen.
-To access even more content analytics, select
-Get more insights
+Write or edit content using Atlassian Intelligence
+Atlassian Intelligence is only available on Premium and Enterprise plans. Visit
+Confluence Cloud plans
+for more details on available features and how to upgrade your plan.
+Your organization admin can enable these features.
+Read more about Atlassian Intelligence and how to enable it in your organization.
+Atlassian Intelligence isn’t available for
+Atlassian Government products
 .
-View all content analytics
-Content analytics will provide even more information about content views. This is only available to users with a
-Premium
-or
-Enterprise
-subscription.
-Overview
-The
-Overview
-tab includes information about total views, unique viewers and views by mentioned users.
-Select the date range to filter your views by a specific time period. You can also decide how you want to group the data, whether to display it by total number of users or unique users.
-When you hover over the chart, you’ll see a data summary for a specific date.
-Viewers
-Below the graph is a summary of all viewers.
-Engagement:
-shows if a user was engaged with the content
-Engaged:
-Viewed the content for 20 seconds or longer
-Brief:
-Viewed the content for less than 20 seconds
-Last version viewed:
-the latest version of the content that a user has viewed
-Last viewed:
-The last time the user viewed the content
-Views:
-The total number of times the user viewed the content
-Mentions
-The
-Mentions
-tab includes view data for anyone mentioned on the content.
-Viewed/Not viewed
-: This drop-down menu allows you to filter users who have viewed the content, not viewed the content, or all users
-Last version viewed:
-the latest version of the content that a user has viewed
-Last viewed:
-The last time the user viewed the content
-Views:
-The total number of times the user viewed the content
-Linked content
-Linked content analytics includes outbound and inbound links. All data can be filtered by the past seven days, one month, three months, year-to-date, all-time, or a custom date range.
-Outbound links
-Outbound link data is available for clicks on public pages, live docs, and blogs after Jan. 31, 2025. Deleted and archived links aren’t included.
-The
-Outbound
-tab includes the total number of clicks, the click-through rate, and data for each piece of content linked from the current page, live doc, or blog post.
-Date added:
-Sort by the date the link was added to the content
-CTR:
-the click-through rate, or number of total views that included a click on the link
-Unique clicks:
-Total number of users who clicked at least once
-Total clicks:
-Total of all clicks
-Inbound links
-Inbound link data is available for clicks on pages, live docs, and blogs after Jan. 31, 2025, except:
-Restricted, deleted, or archived links
-Links to spaces created after the edit space key feature, if the space key, title, or space was changed
-The
-Inbound
-tab includes data from Confluence content that links to the current content, including total clicks and views from inbound links.
-Date added:
-Sort by the date the link was added to the content
-Unique clicks:
-Total number of users who clicked at least once
-Total clicks:
-Total of all clicks
+Atlassian Intelligence for Confluence is a new virtual teammate to help you and your team to work more effectively. Using artificial intelligence and machine learning, Atlassian Intelligence is a tool that is integrated into our cloud-based products.
+The quality, accuracy, and reliability of information generated by Atlassian Intelligence may vary.
+Learn why
+What can I use Atlassian Intelligence for?
+Atlassian Intelligence in Confluence Cloud can freely generate new content and summarize or transform existing content. Atlassian Intelligence for Confluence can be used to:
+Create new content using generative AI.
+For example, you could ask Atlassian Intelligence to generate a list of potential product names or write an article or blog post about a new feature your team is working on.
+Generate additional content.
+For example, you could ask Atlassian Intelligence to create a table with the most important browsers to test, from the information that you currently have on a page or live doc.
+Summarize existing content.
+For example, you could ask Atlassian Intelligence to summarize an entire page or live doc into one paragraph to create an executive summary or a TL;DR.
+Transform existing content.
+For example, you could ask Atlassian Intelligence to change the tone of a comment you’re leaving for someone to be more friendly or more formal, improve the writing, fix the spelling and grammar, or even translate the reply to another language.
+Atlassian Intelligence for Confluence is a powerful tool that can help your team save time and improve their productivity.
+Read about the pre-defined prompts available for Atlassian Intelligence in Confluence Cloud.
+How do I use Atlassian Intelligence?
+Explore the possibilities of Atlassian Intelligence for generating new content or improving existing text. Follow the steps below to make the most of this tool:
+Generate new content with Atlassian Intelligence
+There are several ways you can easily create content with Atlassian Intelligence.
+Create a new page or live doc, or edit an existing page, live doc, or blog post.
+Select the Atlassian Intelligence button from below the floating action bar at the bottom right of your screen.
+You can also access Atlassian Intelligence by typing
+/ai
+Enter in a prompt or select an option from the list.
+Press
+⏎
+Once finished, you can review the response and add it to your content or follow up with an additional prompt.
+Not sure where to start?
+Here are a few things to try to create some new content:
+Outline an article on <select a topic>
+Create a sample code snippet for implementing a login authentication system
+Generate a list of customer feedback survey questions to gather insights for product improvement.
+Edit existing content with Atlassian Intelligence
+Atlassian Intelligence can be used to quickly improve your writing by finding typos, simplifying language, and more.
+While in the edit mode, highlight text in an existing page, live doc, or blog.
+Select Atlassian Intelligence button that appears below the highlighted text.
+Enter in a prompt or select an option from the list.
+Press
+⏎
+Once finished, you can review the response and add it to your content or follow up with an additional prompt.
+Not sure where to start?
+Here’s a few things to try edit some existing content:
+Pull out common themes from this page
+Explain this like I am five
+Put the content of this live doc into steps
+For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
+the Atlassian Trust Center
+.
 Was this helpful?
 Yes
 No
@@ -542,17 +510,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-View Confluence analytics to see how content is performing
-View insights on your site
-View insights on spaces
-Content insights and analytics
-Turn on privacy mode for analytics data
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Show more
 On this page
-View analytics from a page, live doc, or blog post
-View all content analytics
-Overview
-Mentions
-Linked content
+What can I use Atlassian Intelligence for?
+How do I use Atlassian Intelligence?
+Generate new content with Atlassian Intelligence
+Edit existing content with Atlassian Intelligence
 Community
 Questions, discussions, and articles
 Accessibility

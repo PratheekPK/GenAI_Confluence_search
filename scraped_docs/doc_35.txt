@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/take-quick-action-from-the-page-title/
+URL: https://support.atlassian.com/confluence-cloud/docs/delete-or-disable-a-global-template/
 
-Take quick action from the content title | Confluence Cloud | Atlassian Support
+Manage global content templates and blueprints | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,37 +439,51 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Keep content organized
+Confluence administration
+Manage Confluence content templates
 Cloud
 Data Center
-Take quick action from the content title
-Quick actions have been added to the content tree in your space sidebar to make it faster and easier to do common tasks. Because you can take action without selecting an item and moving away from the sidebar, getting your job done will take less time and effort.
-When you hover over the title, a
-More actions
-( ••• ) menu appears, giving you the choice to:
-Edit
-— Jump into editing without having to navigate to the page and select edit
-Rename
-— Change the item’s title directly in the content tree
-Star
-— Add or remove an item from your list of
-starred items
-Get link
-— Copy the item’s URL to your clipboard
-Copy
-—
-Duplicate the item
-within the current space or into another one
-Move
-—
-Move the item
-to a new place in the current space or into another one
-Archive
-—
-Remove the item from the sidebar
-and search results
-If you don’t have permission to do an action, the action will be greyed out.
+Manage global content templates and blueprints
+Confluence administrators can delete templates from the template gallery. For information on how to delete a template that is available only in a specific space, see
+Delete or disable a template
+.
+To delete a global content template:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+Global templates and blueprints
+.
+Find the template in the
+Global content templates
+table and select the delete icon (
+).
+This is permanent: once a template has been deleted, it cannot be restored.
+You can also disable a global blueprint. Unlike deleting a template, which is permanent and cannot be undone, you can enable a disabled blueprint at any time.
+To disable or re-enable a global content blueprints:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+Global templates and blueprints
+.
+Find the blueprint in the
+Global content blueprints
+list and use the toggle to turn enable or disable it.
 Was this helpful?
 Yes
 No
@@ -477,13 +494,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Keep content organized
-Take quick action from the content title
-Use labels to organize content and attachments
-Move, copy, and hide content items
-Archive content items
-Restore archived items to the content tree
-Show more
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
+Install a global blueprint
+Manage global content templates and blueprints
 Community
 Questions, discussions, and articles
 Accessibility

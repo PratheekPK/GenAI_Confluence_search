@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/delete-or-disable-a-global-template/
+URL: https://support.atlassian.com/confluence-cloud/docs/highlight-important-messages-with-a-visual-spotlight/
 
-Manage global page templates, doc templates, and blueprints | Confluence Cloud | Atlassian Support
+Highlight important messages with a visual spotlight | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,51 +439,83 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Manage Confluence page and doc templates
+Extend the functionality of Confluence Cloud
+Use Company Hub to deliver key information to employees
 Cloud
 Data Center
-Manage global page templates, doc templates, and blueprints
-Confluences administrators can delete templates from the template gallery. For information on how to delete a template that is available only in a specific space, see
-Delete or disable a template
+Highlight important messages with a visual spotlight
+This feature only offered with
+Confluence Cloud Premium and Enterprise
 .
-To delete a global page or doc template:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
+Spotlight allows you to present important message with a large image, a colorful background, and an interactive link.
+Spotlights call attention to key messages by presenting Confluence, Jira, and Atlas links or external URLs as large presentation pieces. Craft your messaging and add upload an image or choose one from our library.
+Spotlights are also a useful design element to communicate to the entire organization on
+Company Hub
+.
+To add a spotlight to your content:
+Select (+) from the toolbar, then find
+Spotlight
+. Or, type
+/spotlight
+while editing.
+Upon selection, a spotlight with a sample image and content will appear on your page.
+Set the width of the spotlight
+Select the spotlight. From the floating toolbar, select your width.
+Back to center:
+The spotlight has the same width as the text.
+Go wide:
+The spotlight is somewhat wider than the text.
+Go full width:
+The spotlight goes the full width, or about three times wider than the text
+Edit the spotlight
 Select
-Configuration
->
-Global templates and blueprints
+Edit
+(
+) to open the configuration panel.
+Styles tab
+The Styles tab lets you select a background color, text color, and a layout.
+To change the
+background color
+, select the drop-down swatch and choose one of the available colors. You can also enter your own custom HEX, RGB, or HSL values.
+To change the
+text color
+, select the drop-down (letter A) and choose one of the available colors. You can also enter your own custom HEX, RGB, or HSL values.
+The color pickers will let you know if your color values pass accessibility standards. This means the text and background color combination should work well for everyone.
+To change the
+layout
+, select the
+Layouts
+expand. There are three layout options:
+Split design
+: A large image takes up the full height of the spotlight on either the
+left half
+or
+right half
 .
-Find the template in the
-Global page or doc templates
-table and select the delete icon (
-).
-This is permanent: once a template has been deleted, it cannot be restored.
-You can also disable a global blueprint. Unlike deleting a template, which is permanent and cannot be undone, you can enable a disabled blueprint at any time.
-To disable or re-enable a global page or doc blueprints:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Configuration
->
-Global templates and blueprints
-.
-Find the blueprint in the
-Global page or doc blueprints
-list and use the toggle to turn enable or disable it.
+Solid color background:
+The text is centered in the spotlight and there is no image.
+Content tab
+Use the Content tab to add a title, description, an image, and a button with a link.
+Input your
+title
+to customize the large display text. Depending on the layout and number of characters, your title will display as one, two, or three lines.
+Input your primary message in the
+description
+field. Depending on the the layour and number of characters, your description will be between one and five lines.
+Select an image from the image drop-down menu. You can
+upload
+your own high resolution image (1,200 pixels or wider) or input a search term to select from the
+Unsplash
+image library.
+Select the
+Button
+to add a link to the spotlight. Configure the button with a link (this can be an internal Confluence link or any external URL) and a very short message instructing people to interact with the button.
+Buttons are optional. Use the trash can icon to delete a button from the spotlight.
+Use layouts to enhance your spotlights
+You can get a different look when you combine them with different column layouts.
+From the toolbar, select the layouts icon, or type
+/layout
+to choose from two, three, four, or five columns. You can then add spotlights and other elements and content to each column.
 Was this helpful?
 Yes
 No
@@ -491,11 +526,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
-Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Use Company Hub to deliver key information to employees
+Show more
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Show more
+On this page
+Set the width of the spotlight
+Edit the spotlight
+Styles tab
+Content tab
+Use layouts to enhance your spotlights
 Community
 Questions, discussions, and articles
 Accessibility

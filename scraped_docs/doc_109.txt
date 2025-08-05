@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-automation-for-confluence-premium-feature/
+URL: https://support.atlassian.com/confluence-cloud/docs/export-your-database-data/
 
-Use automation for Confluence | Confluence Cloud | Atlassian Support
+Export your database data | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,13 +439,38 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Use automation for Confluence
-Automation is an admin feature available in Confluence. Read the announcement in this
-community post
-to learn more.
+Export your database data
+Databases aren’t available in the
+Atlassian Government environment
+.
+You can export database data into CSV, HTML, and PDF formats. Each format offers the flexibility to include the current view or export all data in a table layout.
+Export options
+CSV
+: Ideal for importing data into other database tools or spreadsheets.
+HTML
+: Useful for sharing data in a web-friendly format, with the option to copy the export data to the clipboard.
+PDF
+: Suitable for creating read-only versions of your data for reports and presentations.
+How to export your data
+Go to your database.
+Open the more (
+•••
+) menu at the top right corner of the database.
+Select
+Export
+from the menu.
+Select your preferred export format (CSV, HTML, or PDF).
+(Optional)
+Check the
+Export with current view
+option to include the current view settings. It will export all the data in a table layout if not checked.
+Follow the prompts to download the exported file to your device.
+Importing exported data
+You can import data into a new database using the exported HTML or CSV files, making it easy to transfer and manage your data across different databases.
 Was this helpful?
 Yes
 No
@@ -453,13 +481,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Extend the functionality of Confluence Cloud
+Create and edit databases
 Show more
-Use macros to add visuals and images to Confluence pages
-Use gadgets to add dynamic content
-Use Questions for Confluence
-Use automation for Confluence
-Learn about macros on Confluence mobile
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+Show more
+On this page
+Export options
+How to export your data
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/extend-the-functionality-of-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-is-a-confluence-group/
 
-Extend the functionality of Confluence Cloud | Confluence Cloud | Atlassian Support
+What is a Confluence group? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,48 +439,66 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
+Manage your account and permissions in Confluence Cloud
+Manage permissions at the content level
 Cloud
 Data Center
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
-Consolidate everyone's schedule into Team Calendars for shared planning and visibility.
-View topics
-Use Company Hub to deliver key information to employees
-Create a central Company Hub to boost employee engagement and present key information.
-View topics
-Use Confluence with other applications
-Understand how to use Confluence with other applications like Jira, Trello, and Slack.
-View topics
-Use macros to show Confluence content on pages and live docs
-Use these macros to selectively show Confluence pages or content from other pages, along with popular labels and user information.
-View topics
-Use macros to add development info on Confluence pages
-Use these macros to display specific content on your Confluence pages.
-View topics
-Use macros to include media on Confluence pages
-Use macros to display content from other sources like Google Drive, Microsoft Office products, PDFs, and multimedia files and links.
-View topics
-Use macros to add navigation on Confluence pages
-Learn about the macros that let you add ways for your content viewers to navigate around your page.
-View topics
-Use macros to add reporting info to Confluence pages
-Use these macros to display lists of users, page properties, and reports.
-View topics
-Use macros to add visuals and images to Confluence pages
-Add visually appealing visuals and images to your pages using these macros.
-View topics
-Use gadgets to add dynamic content
-Use gadgets to add dynamic content to a Confluence page.
-View topics
-Use Questions for Confluence
-Get information about setting up and using the Questions for Confluence add-on.
-View topics
-Use automation for Confluence
-Save time and stay organized by automating routine workflows in Confluence Cloud.
-View topics
-Learn about macros on Confluence mobile
-Learn to manage Confluence macros on the go with the Confluence mobile app. See supported macros and how to view, add, edit, or delete them.
-View topic
+What is a Confluence group?
+For Confluence administrators,
+grouping users in Confluence
+is a great way to cut down the work required when managing permissions and restrictions. Groups are also very useful, however, to anyone who's a
+space admin
+, or can apply page restrictions.
+If you're a space admin, you can assign a set of
+space permissions
+to a group rather than to each individual user. And as a page creator with 'Add/Delete Restrictions' permission, you can also
+add and remove page restrictions
+for groups.
+Default Confluence groups
+There are some default groups in every Confluence instance but, beyond that, Confluence administrators are free to set up and edit groups in any way they see fit.
+The two special groups in Confluence are:
+administrators
+- these users have permissions to add and administer users, and access the
+Confluence Admin
+console.
+users
+- this is the default group into which all new users are assigned. Permissions defined for this group will be assigned to all new Confluence users.
+Your Confluence instance may have other groups, and the names of your default groups may differ if they've been edited by a Confluence admin. See
+Create and update groups
+.
+Anonymous Users
+All users who don't log in when they access Confluence are know as 'anonymous' users. By default, anonymous users don't have access to view or change any content in your Confluence instance, but Confluence admins can assign permissions to this group if it's required.
+Overlapping group and user permissions
+When a user is assigned more than one permission, the more powerful permission will prevail.
+Further explanation:
+A user may be assigned a permission specifically to their username. They may also be assigned a permission by belonging to a group, or even several groups.
+The user will then be able to perform all functions assigned to them.
+So if a user is allowed to do something over and above what the group can do, the user will be able to do it. And if the group is allowed to do something over and above the specific permissions granted to the user, the user will still be able to do it.
+If anonymous users are allowed to do something over and above what the user or group can do, the user will be able to do it, (even while logged in).
+Unlicensed users from linked applications
+If you're using Confluence as a knowledge base for Jira Service Desk, your Jira Service Desk administrator can choose to allow all active users and customers (that is logged in users who do not have a Confluence license) to view specific spaces.
+These users have very limited access, and cannot be granted permissions in the same was as an individual or group. However, it's important to note that this permission overrides all existing space permissions, so any logged in Confluence user will also be able to see the space (regardless of their group membership). This is due to the way Confluence inherits permissions.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
+On this page
+Default Confluence groups
+Anonymous Users
+Unlicensed users from linked applications
+Community
+Questions, discussions, and articles
 Accessibility
 Notice at Collection
 Privacy Policy

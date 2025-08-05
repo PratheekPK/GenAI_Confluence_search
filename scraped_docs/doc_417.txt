@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/share-confluence-content/
+URL: https://support.atlassian.com/confluence-cloud/docs/ask-a-question/
 
-Share Confluence content | Confluence Cloud | Atlassian Support
+Ask a question | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,99 +439,65 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Collaborate on content
+Extend the functionality of Confluence Cloud
+Use Questions for Confluence
 Cloud
 Data Center
-Share Confluence content
-You can use the
-Share
-window in Confluence to send people a link to your page, live doc, blog, whiteboard, database, or Smart Link in the content tree. This is a great way to invite your team to collaborate or to distribute information to large groups of people.
-Share by email
-Using the
-Share
-button to share content with specific people, groups, teams, or email addresses will trigger an email notification to the recipients that contains a link to the content.
-Recipients will also receive a
-Confluence notification
-in the notification bell, as well as push notifications in Confluence mobile.
-To share Confluence content by email:
-Open the content item in Confluence Cloud.
-Select the
-Share
-button in the top right.
-Start typing the name of a person or group to see a list of suggestions, then select the right ones from the list.
-Or you can one-click add suggested users who will appear along the bottom of the search bar.
-Repeat this step to add multiple recipients.
-Note:
-teams
-are not yet compatible with
-Share
-.
-If applicable, choose whether they should be able to view or edit. (This will apply to everyone you’ve added in the search bar.)
-Emails and teams can’t be assigned permissions, only notified.
-Leave the notify box checked to send a notification. Uncheck it to prevent notifications from being sent.
-(Optional) Add a custom message.
-Select
-Share
-.
-Need to troubleshoot access to your content?
-If you’re on the Premium or Enterprise plan, you can use the
-inspect permissions
-feature to quickly find out what’s blocking someone from accessing a content item.
-For more tips, see
-Troubleshoot access problems to content
-.
-Share using a link
-If you don’t want to use a Confluence notification to notify people about content, or if you want to include a link to the content item in an email you create yourself, you can copy the link to the content item.
-Sharing the link alone doesn't grant access
-Giving someone a link doesn’t automatically grant them access to the content. Check the content item’s access settings in
-Share
-to make sure people have the right access.
-For help interpreting who has access, check out
-Change who can find content and what they can do with it
-.
-To share using a link:
-You’ll find a link icon next to the
-Share
-button. Select it to copy the link.
-You can also just copy the content item’s URL from your browser window.
-Paste the link into an email, Slack, or anywhere else you want to share it.
-Share to Slack
-Save yourself the context switching and extra clicks of sharing Confluence content in Slack by doing it directly from Confluence. You can find the
-Share to Slack
-functionality in the
-Share
-window.
-The Confluence Slack app is a system app and is installed by default for all Confluence sites, so anyone can use it without needing an admin to install it.
-Connect a Slack workspace
-When you first use Share to Slack, you’ll be prompted to connect the Slack workspace where you want to share. Simply
-Sign in
-to enable sharing to Slack directly from Confluence. To connect an additional workspace, select
-Add new workspace
-.
-Send content to Slack channels
-After selecting
-Share to Slack
-for the content you want to share:
-Choose which Slack workspace to send to.
-Choose the channel or person in that workspace.
-(Optional) Add a custom message.
-Select
-Share
-.
-Inviting external users
-When you share content with someone outside of Confluence, we send them an email inviting them to join your site. They’ll be prompted to create an Atlassian account before they can access your content.
-When you invite an external user, you grant them access to Confluence, not just to your specifically shared content. We add them to the default product group and start billing you for the new user.
-In some cases, your invitation will be sent to an admin for approval first. This happens when:
-Your site doesn’t allow existing users to invite others to join.
-The recipient’s email address domain, like
-@gmail.com
-, isn’t on your site’s list of approved domains.
-If an admin declines your request, you’ll be notified by email. The external recipient won’t be notified.
-Want to share a content item externally to anyone on the internet?
-If
-public links
-public links are allowed on your site, you can share individual content items publicly with anyone on the internet.
+Ask a question
+A great strategy when getting started is to seed or prepopulate your site with some questions. It's a brave person who asks the first question, so help them out by creating a few questions and answers.
+When thinking about your first questions it's a good idea to plan your
+topics
+and how you'll use them. Users will then be able to follow your example when asking their own questions.
+Ask a question
+You need to be logged in to ask a question.
+The fastest way to ask a question is to go to
+Questions
+in the sidebar and start typing your question. Similar questions will be suggested—if the question doesn't already exist, choose the
+Ask question
+button to create it.
+You can include attachments, code samples, pictures, @mentions and more in your question. If your question's private, or only applicable to one team or project, you can ask it in a space.
+Unsupported content
+If you're editing old questions or answers, you may notice some content displaying as
+unsupported content
+. This is due to editor upgrades, and only occurs while editing; that content will display normally when the question or answer is published. If you want to edit that content, we recommend copy-pasting it from the published question or answer.
+Answer a question
+Any user that can ask a question can answer a question. You can
+up vote
+helpful answers, and down vote unhelpful or incorrect ones.
+Accept the best answer to indicate to other people that your question has been answered. The accepted answer and highly voted answers appear above lower voted answers.
+You can only accept answers to your own questions (unless you're an admin).
+Find questions (and answers)
+There are a few ways to find questions and answers:
+Search
+– See questions in the quick search and full search results. There's even a filter for questions.
+Browse
+– View recent or unanswered questions, your own questions, or questions on a particular topic.
+Watch
+– Be notified by email when new questions are added to a topic you're watching.
+Questions also appear in the
+Popular
+tab of the Confluence
+Activity
+feed.
+Watch a question
+To stay informed about a specific question, choose the
+Watch
+option. You'll be notified when answers and comments are added to the question.
+You can also watch a whole
+topic
+or choose to watch all questions to be notified when a new question is added.
+Answers vs comments
+Add a comment when you need to get more info or clarify a question, or if you want to discuss an answer.
+Ask in a space
+Sometimes a question only relates to one team or project, or just shouldn't be visible to everyone. By asking a question in a space, you get the benefit of the space permissions. Only people who can view the space can search for and see questions asked there.
+To ask a question in a space, go to the space and choose
+Questions
+in the sidebar  (if you can view the space, you'll be able to ask and answer questions). Alternatively, you can select
+Create (+)
+>
+Ask a question
+and choose the right space from the drop down.
+Only the question is private—topics are visible to everyone who can use Questions. For example, if you ask "How much is the staff bonus this quarter?" and add the topic 'bonus-q4' in a space that only senior managers can see, other people will be able to see the topic 'bonus-q4' and that there's one question for that topic, but not the question itself.
 Was this helpful?
 Yes
 No
@@ -539,21 +508,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Collaborate on content
-Show more
-Add a reaction to any content
-Mention a person or team
-Share Confluence content
-Comment on pages, live docs, whiteboards, and blog posts
-Watch pages, live docs, spaces, whiteboards, and blogs
-Show more
-On this page
-Share by email
-Share using a link
-Share to Slack
-Connect a Slack workspace
-Send content to Slack channels
-Inviting external users
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
 Community
 Questions, discussions, and articles
 Accessibility

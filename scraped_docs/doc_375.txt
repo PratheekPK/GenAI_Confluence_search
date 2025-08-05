@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/advanced-pdf-export-customizations/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-a-rotating-set-of-frames-to-your-company-hub/
 
-Advanced PDF export customizations | Confluence Cloud | Atlassian Support
+Add a rotating set of frames to your Company Hub | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,147 +439,49 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Set space-specific functionality
+Extend the functionality of Confluence Cloud
+Use Company Hub to deliver key information to employees
 Cloud
 Data Center
-Advanced PDF export customizations
-This page provides information about 'advanced' PDF export customizations. These expand upon the regular customizations described in
-Customize exports to PDF
+Add a rotating set of frames to your Company Hub
+This feature is only offered with
+Confluence Cloud Premium and Enterprise
 .
-The information below is for advanced users. Be aware that the advanced customizations described below require knowledge of certain parts of Confluence, and of CSS and HTML. Customizations are not supported by Atlassian, so our support engineers won't be able to help you with these modifications.
-Header and footers
-Adding headers and footers to single page exports
-Single page exports don't support
-adding HTML headers and footers via the PDF export page
-, but you can use CSS rules in the PDF stylesheet field (found within
-Space Settings
->
-PDF export
-in the Look and feel card) to produce headers and/or footers for a single page export.
-For custom headers, define any of the following rules within your
-@page
-rule:
-@top-left
-,
-@top-center,
-and
-@top-right
-. These rules allow you to define the
-content
-of the left-hand side, center and right-hand side of your page's header area, respectively.
-For custom footers, define
-@bottom-left
-,
-@bottom-center
-and
-@bottom-right
-rules within your
-@page
-rule.
-For example, the following rules add a document title at the center of the header and a page number at the center of the footer:
-CSS - PDF Stylesheet
-@page
-{
-@top-center
-{
-content: "Document Title Goes Here"; /* This is the content that will appear in the header */
-font-family: ConfluenceInstalledFont, Helvetica, Arial, sans-serif;
-font-size: 8pt;
-}
-@bottom-center
-{
-content: "Page " counter(page); /* This is the content that will appear in the footer */
-font-family: ConfluenceInstalledFont, Helvetica, Arial, sans-serif;
-font-size: 8pt;
-}
-/* Any other page-specific rules */
-}
-Notes:
-The
-font-family
-and
-font-size
-properties ensure that the header and footer text is rendered in the same default font style used for the body text, based on the default CSS rules.
-It is not possible to use this method to insert images (stored as attachments within your Confluence instance) into the headers and footers of single page exports.
-Adding images to headers and footers
-To insert an image into the header or footer, add HTML to the Header or Footer fields of the PDF Layout.
-The following example uses an HTML
-img
-element with
-src
-attribute to add an image to the left of the header. The
-src
-attribute refers to an image attached to a Confluence page. The image element is usually placed within a
-div
-element container.
-HTML - PDF Layout: Header
-<div style="width: 100%; text-align: right; margin-left: 0.5in; font-size: 10px; height: 20px; overflow: hidden;">
-<img src="https://confluence.atlassian.com/download/attachments/12346/header-image.png" style="height: 50px;" />
-</div>
-In the example above, the header includes an image called 'header-image.png'. The "12346" in the
-src
-attribute is the ID number of the page to which the image is attached.
-Follow these instructions to include an image on your page or live doc:
-Attach the image to a Confluence page or live doc.
-View the list of attachments on that page or doc, then right-click the image and copy its location.
-Paste the link into the appropriate
-src=""
-attribute in your PDF Stylesheet, as shown above.
-Edit the image URL so that it is relative, by removing the first part of the URL before
-/download/...
-.
-Notes:
-This example uses an inline CSS property
-margin-top
-in the
-style
-attribute to force the image away from the top of the page by 10mm. This comes in handy when your header image is large enough to touch or spill over the top of the page.
-Likewise, for footers, you can use the
-margin-bottom:XXmm
-property to force an image away from the bottom of the page by 'XX' mm.
-Very large images can spill over into the body of a page or alter the position of text or other elements used within a header or footer. In such situations, it is recommended that you reduce the size of the image and then attach it to your Confluence page again. If you prefer to keep the image size and want to move the content lower instead, you can do so by configuring the
-margin-top
-properties in the
-@page
-CSS rule.
-By default, a header or footer image is aligned to the left-hand side of the page. However, you can align this image to the center or right-hand side of a page by adding either the
-text-align:center
-or
-text-align:right
-properties to your
-style
-attribute. For example, to align the header image to the right-hand side of the page, your
-style
-attribute would look similar to this:
-style="margin-top:10mm; text-align:right"
-.
-Adding a dynamic title to the title page
-When you export an arbitrary set of pages or docs from Confluence, you may like to have a corresponding title added to the cover (or title) page automatically. This can be done (in a somewhat irregular way) by using the top level item from the default table of contents as the title. This method relies on having the exported pages structured as sub-pages of the top-level page. In other words, the pages to be exported should consist of a page (at the top-level) and all of its child pages. The result is that the title that appears on the cover page changes depending on the top-level page that is used for the export.
-The CSS below moves, and styles, the top-level TOC item for use as the title on the cover page, and turns off the leader and page number normally associated with this item in the TOC.
-CSS - PDF Stylesheet
-.fsTitlePage {
-position: relative;
-left: 0px;
-}
-/* Turn off the default section numbering for this TOC item */
-.toclvl0:before {
-content: "";
-counter-reset: chapter 0; /* Ensure there's a parent element with a counter for this to work */
-}
-/* Hide the default page numbering for this TOC item */
-.toclvl0 .tocnum {
-display: none;
-}
-/* Move and style this TOC item */
-.toclvl0 {
-position: absolute;
-top: 250px;
-font-size: 42px;
-font-weight: bold;
-margin: 72px 0 4px 0;
-text-align: center;
-}
+Carousel allows you to display a rotating, interactive series of three frames on your page or live doc. It is ideal for for showcasing information in a visually appealing way, or presenting a collection of related items.
+Carousel can transform Confluence, Jira, and Atlas links or external URLs into dynamic, clickable frames. You can customize them in a variety of ways.
+To add a carousel to your page or live doc:
+Select (+) from the toolbar, then find
+Carousel
+. Or, type
+/carousel
+while editing your content.
+Upon selection, a carousel of three empty frames will appear on your page or doc.
+To customize and configure your carousel:
+1. Select the frame of the carousel that
+you want to configure, then select
+Edit
+(
+) to open the configuration panel.
+2. Customize your frames using the configuration options available. Frames can be generated from Confluence pages or Jira links, for example, or external URLs.
+Be aware:
+Content displayed in your carousel that comes directly from the links you’ve selected could be visible to anyone with access to your page, even if they don’t have access to the link itself.
+3. Your selections will appear instantly.
+4. Upon publishing your page, anyone with permission to view it will now be able to see your carousel, manually rotate through its frames, and navigate to any links provided.
+Configuration
+You can customize exactly how your carousel appears with the following options:
+Configuration options
+Option
+Description
+Link
+Display content on your frame directly sourced from Confluence, Jira, Atlas, or external URLs.
+Be aware:
+Content displayed in your carousel that comes directly from the links you’ve selected will be visible to anyone with access to your page, even if they don’t have access to the link itself.
+Title
+We highly recommend adding a header title to your frame. Character maximum: 255.
+Description
+Add a caption or other text below the title of your frame. Character maximum: 700.
+Image
+You can add an image to your frame by browsing and selecting from Unsplash, selecting the image we’ve sourced from any link added, or uploading an image directly. We recommend images that are 700 px or wider.
 Was this helpful?
 Yes
 No
@@ -587,18 +492,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set space-specific functionality
-Additional PDF export settings
-Advanced PDF export customizations
-Set a default classification level for content
+Use Company Hub to deliver key information to employees
+Show more
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 On this page
-Header and footers
-Adding headers and footers to single page exports
-CSS - PDF Stylesheet
-Adding images to headers and footers
-HTML - PDF Layout: Header
-Adding a dynamic title to the title page
-CSS - PDF Stylesheet
+To add a carousel to your page or live doc:
+To customize and configure your carousel:
+Configuration
+Configuration options
 Community
 Questions, discussions, and articles
 Accessibility

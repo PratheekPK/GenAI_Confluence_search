@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/hide-collaborator-cursors/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-sections-to-organize-your-work/
 
-Hide collaborator cursors | Confluence Cloud | Atlassian Support
+Use sections to organize your work | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -440,17 +443,43 @@ Create and organize work in Confluence Cloud
 Create and edit whiteboards
 Cloud
 Data Center
-Hide collaborator cursors
+Use sections to organize your work
 Whiteboards aren’t available in
 Atlassian Government environments
 .
-When collaborating with multiple people on a whiteboard, the presence of numerous cursors can be distracting. To improve your focus and reduce visual clutter, you can hide collaborator cursors from your view.
-How to hide collaborator cursors
-Find the
-Hide collaborator cursors
-icon on the right-side toolbar.
-Select the icon to toggle the visibility of collaborator cursors.
-When enabled, this option will hide all cursors except your own, allowing you to concentrate better on your work. You can toggle this option off at any time to view the cursors of other collaborators again.
+Use sections to organize your board. With sections, you can group and move related ideas or guide people through workshops with multiple activities, each in its own section.
+Create a section from the toolbar
+Select the
+Section
+icon in the toolbar.
+A section will appear on hover. Select and drag the section to the location of the board where you’d like the section to go.
+Add elements to a section
+Select and move an element into a section using mouse or keyboard arrows. You can add any whiteboard element to a section except for another section.
+Once you have moved elements inside the section, they’ll stay with the section when you move it around your whiteboard.
+You can also select and drag to select multiple objects and add them to a section.
+Edit a section title
+To edit a section title:
+Create or select a section on the board.
+Change the name from untitled to a new name and press Return / Enter.
+You can also double-click the section’s name to edit.
+To remove the title:
+Double-click title.
+Delete text.
+Press Return / Enter.
+Change the appearance of a section
+You can change the size and color of a section.
+To resize a section:
+Select the section.
+Select and drag the resize handles of the section.
+To change the color of a section:
+Select the section.
+Select the color picker icon in the floating toolbar.
+Select a new color.
+Delete a section
+To delete a section:
+Select the section.
+Press Delete / Backspace.
+Deleting a section also deletes its contents. To delete a section without deleting its contents, select everything in the section and drag it to another place on the whiteboard.
 Was this helpful?
 Yes
 No
@@ -463,12 +492,18 @@ The Atlassian Community is here for you.
 Ask the Community
 Create and edit whiteboards
 Show more
-Use a template to get started fast
-Keep on track with the timer
-Hide collaborator cursors
-Integrate whiteboards into your Atlassian workflow
-Link Jira issues from your whiteboard
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
 Show more
+On this page
+Create a section from the toolbar
+Add elements to a section
+Edit a section title
+Change the appearance of a section
+Delete a section
 Community
 Questions, discussions, and articles
 Accessibility

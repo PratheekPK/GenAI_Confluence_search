@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-spaces-list-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-popular-labels-macro/
 
-Insert the spaces list macro | Confluence Cloud | Atlassian Support
+Insert the popular labels macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -440,16 +443,16 @@ Extend the functionality of Confluence Cloud
 Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Insert the spaces list macro
-Use the spaces list macro to display a list of spaces on a page or live doc.
-To add the spaces list macro:
+Insert the popular labels macro
+The popular labels macro displays the most popular labels used throughout your Confluence site or within a space. A popular label is a label that has been added to many pages and live docs.
+To add the popular labels macro:
 When editing, select
 from the toolbar
 Find the macro by name and select it
 Configure it as needed
 You can also type / on the page to bring up the same list you'd see by selecting
 from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the spaces list macro:
+To edit the popular labels macro:
 Select the macro placeholder.
 Select the Edit
 icon
@@ -469,30 +472,26 @@ storage format is different than the label used when inserting macros using the 
 example
 ).
 Parameter
-Required?
 Default
 Description
-Scope of spaces
-no
-all
-The view from which spaces are listed. Available options are:
-(blank) -
-All spaces in your site, with tabs.
-all
-– All spaces in your Confluence site.
-category
-– Spaces grouped according to space categories.
-favorite
-– Spaces that you have favorited.
-new
-– spaces created within the last 7 days.
-This parameter is unnamed in storage format.
-Width of List
-(width
+Number of Labels to Display
+(count
 )
-no
-100%
-The width of the spaces list, specified as a percentage (%) of the window width.
+100
+Specifies the total number of labels to display in the heatmap.
+Restrict Labels to this Space Key
+(spaceKey
+)
+none
+Restricts the list of popular labels to the specified space.
+Style of Labels
+(style
+)
+list
+list
+– displays the popular labels as a bulleted list, ordered by popularity (highest first).
+heatmap
+– displays the popular labels using different font sizes for each label depending on the label's popularity, ordered by label names.
 Was this helpful?
 Yes
 No
@@ -505,11 +504,11 @@ The Atlassian Community is here for you.
 Ask the Community
 Use macros to show Confluence content on pages and live docs
 Show more
-Insert the recently updated dashboard macro
-Insert the related labels macro
-Insert the spaces list macro
-Insert the task report macro
-Insert the user profile macro
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
 Show more
 Community
 Questions, discussions, and articles

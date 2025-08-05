@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/removing-users-and-downgrading-to-confluence-free/
+URL: https://support.atlassian.com/confluence-cloud/docs/confluence-standard/
 
-Removing users and downgrading to Confluence Free | Confluence Cloud | Atlassian Support
+Confluence Standard  | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,63 +439,33 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Atlassian administration for Confluence Cloud
-Actions that require an organization or site admin
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
 Cloud
 Data Center
-Removing users and downgrading to Confluence Free
-When you downgrade from our Premium or Standard to a Free plan, you’ll lose access to certain features including analytics, user permissions, guest collaboration, and more. View our
-pricing page
-for a full list of Premium and Standard features.
-Prerequisites
-You must be a
-Confluence admin
-to make changes to your plan selection.
-If you have more than 10 users, you won’t be able to switch to our Free plan. This is because our Free plan is limited to a maximum of 10 users per site. Therefore, you’ll need to remove any additional users before you can downgrade.
-Removing Confluence users
-To remove users from your Confluence site:
-Go to
-admin.atlassian.com
-.
-On the Overview page, select
-More actions (…)
-next to Confluence.
-From the dropdown menu, select
-Manage users
-.
-Locate the user you wish to remove and select
-More actions (…)
-next to their name.
-From the dropdown menu, select
-Suspend
-. This action removes the user from your site.
-Repeat until you have 10 or fewer users.
-How to downgrade
-To downgrade and change your plan selection:
-Go to
-admin.atlassian.com
-and select the
-billing
-tab.
-Under
-Products and Apps
-, look for Confluence and select
-Manage.
-Under
-Active Subscriptions
-, find your Confluence Premium subscription.
-Select
-Change
-and pick
-Free
-.
-Lastly, you’ll need to acknowledge the terms and conditions before you select
-Confirm plan change
-to save your changes.
-What happens to my permissions when I downgrade?
-When you downgrade, you’ll still have access to all of your content in Confluence. Pages and live docs access will not change. As an admin, you can still grant access to restricted content (pages and docs that have been set to private), but you won't be able to create content and set it as private or restrict access.
-Learn more about Confluence permissions
-.
+Confluence Standard
+Confluence Standard helps teams of all sizes work effectively and collaborate. They can add and manage teams of 10+ to 10,000. Our Standard plan gives teams more flexibility, content management and user management controls, and personalized support. It includes features like space and content permissions, content insights, content archive, audit logs, anonymous access, 9-5 support, and 250 GB of storage.
+Here’s a breakdown of our
+Standard
+features:
+User limit
+With Standard, you can add 10+ users (up to 20,000) on one instance.
+Storage
+250 GB for your team
+Support
+Access to our Confluence support experts
+Space and content permissions
+Assign, revoke, and modify space or content permissions to individual users, groups, or anonymous users (Free plans do not allow permission settings for spaces or pages).
+External Collaboration: Guests
+For each paid user, Admins can add up to 5 guests for no additional cost or licenses. Each guest is limited to a single space, but there are no limits to how many spaces can be shared or how many guests can be in each space.
+Archive and unarchive pages
+File away outdated content to keep content trees tidy with relevant content. Access archived content anytime for historical context.
+Content insights
+Get engagement analytics on content views, user views, and comments.
+Audit logs
+When you need to troubleshoot a problem or keep a record of important events, such as changes to global permissions, the audit log allows administrators to look back at changes that have been made in your site.
+Anonymous access
+Anonymous access makes your Confluence site publicly available, enabling access to your content to users outside of your organization. Confluence's anonymous access is most commonly used for customer-facing knowledge bases and documentation.
 Was this helpful?
 Yes
 No
@@ -503,12 +476,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Actions that require an organization or site admin
-Manage your storage usage
-Invite guests to Confluence
-Removing users and downgrading to Confluence Free
-Adjust permissions before downgrading to Confluence Free
-What happens when an account is deactivated vs. deleted?
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
 Community
 Questions, discussions, and articles
 Accessibility

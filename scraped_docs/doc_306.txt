@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-team-calendars/
+URL: https://support.atlassian.com/confluence-cloud/docs/sort-fields/
 
-Manage team calendars | Confluence Cloud | Atlassian Support
+Sort fields | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,16 +439,49 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Manage team calendars
-Delete or remove a calendar
-Understand the impact of deleting or removing a Team Calendar.
-View topic
-Restrict a calendar
-Restrict viewing and editing of Team Calendars.
-View topic
+Sort fields
+Sorting in views
+Sorting can be saved as part of a view. For more information on creating and using views, check out our page on
+Database views
+.
+Databases aren’t available in the
+Atlassian Government environment
+.
+You can sort your database so that items show in order based on a selected field. Items can appear in ascending or descending order.
+Add a sort
+To create a sort:
+Select
+Sort
+at the top of your database or the
+Sort
+option while editing a view.
+Select the
++ Add sort
+button.
+Select the field that you'd like to sort by from the list of unsorted fields in the database.
+Select the sort criteria (ascending or descending).
+Different fields are sorted by different logic, depending on their value type.
+To edit a sort:
+Select the sort criteria dropdown.
+Select the updated desired sort.
+Alternatively, sorts can be edited by selecting the arrows for sorted fields in the field header, changing between ascending and descending.
+To delete a sort:
+Select
+More actions
+on an existing sort.
+Select the
+Delete sort
+option.
+To reorder a sort:
+All entries are sorted based on the criteria of the sorts and the order they are listed.
+Select
+More actions
+on an existing sort.
+Select the reordering option relevant to your desired order.
 Was this helpful?
 Yes
 No
@@ -456,16 +492,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Delete or remove a calendar
-Restrict a calendar
-Space administration
+Create and edit databases
 Show more
-Remove a space
-Create templates, blueprints, and reports
-Manage team calendars
-Manage Questions for Confluence
-Customize your space
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Show more
+On this page
+Add a sort
+To create a sort:
+To edit a sort:
+To delete a sort:
+To reorder a sort:
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-system-properties/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-a-database/
 
-Set system properties | Confluence Cloud | Atlassian Support
+Create a database | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,53 +439,55 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Set system properties
-Team Calendars supports some configuration and debugging settings that can be enabled through Java system properties. System properties are usually set by passing the
--D
-flag to the Java virtual machine in which Confluence is running. See the
-full instructions
-. These are mainly useful in the case of troubleshooting or performance issues. Feel free to raise a
-support request
-if you're having any trouble with Team Calendars.
-Property
-Default Value
-Effect
-com.atlassian.confluence.extra.calendar3.notification.enabled
-true
-com.atlassian.confluence.extra.calendar3.concurrent.task.max
-20
-The max number of worker threads used by Team Calendars.
-com.atlassian.confluence.extra.calendar3.greenhopper.sprint.enabled
-true
-If set to false GreenHopper integration is disabled.
-com.atlassian.confluence.extra.calendar3.jira.timeout.socket
-10000
-Timeout in milliseconds for the connection to Jira. Increasing this may help if you experience timeouts on Jira calendars.
-com.atlassian.confluence.extra.calendar3.jira.issues.max
-1000
-The maximum number of events that will be loaded from a Jira calendar. Increasing this may cause performance issues.
-com.atlassian.confluence.extra.calendar3.display.events.dashboard.maxperday
-10
-The maximum number of events that will be shown per day on the upcoming events view on the Confluence dashboard.
-com.atlassian.confluence.extra.calendar3.display.events.calendar.maxpercalendar
-200
-The maximum number of events that can be displayed from a single calendar.
-com.atlassian.confluence.extra.calendar3.display.events.calendar.maxperdaysummary
-3
-The maximum number of events that will be shown per day in the summary email.
-com.atlassian.confluence.extra.calendar3.display.events.calendar.maxdailysummary
-4
-The maximum number of events that will be shown in total in the daily summary email.
-com.atlassian.confluence.extra.calendar3.display.events.calendar.maxweeklysummary
-8
-The maximum number of events that will be shown in total in the weekly summary email.
-com.atlassian.confluence.extra.calendar3.display.timeline.calendar.maxmonth
-6
-The maximum number of months that will be shown in the timeline view.
+Create a database
+Databases aren’t available in the
+Atlassian Government environment
+.
+Create a database
+There are three ways to create a database in Confluence:
+the
+Create
+button in the main navigation
+the
++
+button next to the Content section or a parent item in the space
+sidebar
+by using the
++
+insert menu or
+/
+command when editing a page
+Create a database using the Create button
+Select the
+Create
+button in the navigation.
+Select
+Database
+.
+This will create a new blank database in your current space. If you don't have edit permissions in that space, it will default to your personal space.
+Create a database in the content tree
+Select the
++
+button next to the Content section in the space
+sidebar
+.
+Select
+Database
+to create a database in the current space.
+You can also create a database under an item in the content tree using the
++
+button. The button appears when hovering over the content's title in the sidebar.
+Create a database from within a page
+Database setup
+Once you have created a new database, you will be guided through some options for the initial setup. During the setup, you have the option to do one of the following:
+Connect to a Jira instance and insert issues into the database.
+Use a template to help you get started.
+Import data from a CSV file.
+You can start with a blank database and create a custom structure to suit your needs.
 Was this helpful?
 Yes
 No
@@ -493,13 +498,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
 Show more
-Subscribe to Team Calendars from Apple iOS Calendar
-Export to other calendars
-Set system properties
-Team Calendars FAQs
-Subscribe to Team Calendars from Google Calendar (Android)
+On this page
+Create a database
+Create a database using the Create button
+Create a database in the content tree
+Create a database from within a page
+Database setup
 Community
 Questions, discussions, and articles
 Accessibility

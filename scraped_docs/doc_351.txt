@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/highlight-important-messages-with-a-visual-spotlight/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-apps/
 
-Highlight important messages with a visual spotlight | Confluence Cloud | Atlassian Support
+Manage your apps | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,83 +439,100 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Company Hub to deliver key information to employees
+Confluence administration
+Atlassian Marketplace apps
 Cloud
 Data Center
-Highlight important messages with a visual spotlight
-This feature only offered with
-Confluence Cloud Premium and Enterprise
+Manage your apps
+About apps
+An app (sometimes called an add-on or plugin) is a separately installed component that provides Confluence functionality.
+There are two main types of apps:
+System apps - these are bundled with Confluence and provide core functionality.
+User installed apps - these are usually downloaded from the
+Marketplace
+and may have been created by Atlassian or by a third party developer.
+For information about developing your own apps for Confluence, see
+Confluence Cloud developer documentation
 .
-Spotlight allows you to present important message with a large image, a colorful background, and an interactive link.
-Spotlights call attention to key messages by presenting Confluence, Jira, and Atlas links or external URLs as large presentation pieces. Craft your messaging and add upload an image or choose one from our library.
-Spotlights are also a useful design element to communicate to the entire organization on
-Company Hub
-.
-To add a spotlight to your content:
-Select (+) from the toolbar, then find
-Spotlight
-. Or, type
-/spotlight
-while editing.
-Upon selection, a spotlight with a sample image and content will appear on your page.
-Set the width of the spotlight
-Select the spotlight. From the floating toolbar, select your width.
-Back to center:
-The spotlight has the same width as the text.
-Go wide:
-The spotlight is somewhat wider than the text.
-Go full width:
-The spotlight goes the full width, or about three times wider than the text
-Edit the spotlight
+Find and add new apps
+In Confluence Cloud terms, you
+buy
+an app by subscribing to it.
+To find and try new apps in Confluence:
 Select
-Edit
-(
-) to open the configuration panel.
-Styles tab
-The Styles tab lets you select a background color, text color, and a layout.
-To change the
-background color
-, select the drop-down swatch and choose one of the available colors. You can also enter your own custom HEX, RGB, or HSL values.
-To change the
-text color
-, select the drop-down (letter A) and choose one of the available colors. You can also enter your own custom HEX, RGB, or HSL values.
-The color pickers will let you know if your color values pass accessibility standards. This means the text and background color combination should work well for everyone.
-To change the
-layout
-, select the
-Layouts
-expand. There are three layout options:
-Split design
-: A large image takes up the full height of the spotlight on either the
-left half
-or
-right half
+Apps
+in the navigation.
+Select
+Manage your apps,
+which directs you to
+Connected apps
 .
-Solid color background:
-The text is centered in the spotlight and there is no image.
-Content tab
-Use the Content tab to add a title, description, an image, and a button with a link.
-Input your
-title
-to customize the large display text. Depending on the layout and number of characters, your title will display as one, two, or three lines.
-Input your primary message in the
-description
-field. Depending on the the layour and number of characters, your description will be between one and five lines.
-Select an image from the image drop-down menu. You can
-upload
-your own high resolution image (1,200 pixels or wider) or input a search term to select from the
-Unsplash
-image library.
-Select the
-Button
-to add a link to the spotlight. Configure the button with a link (this can be an internal Confluence link or any external URL) and a very short message instructing people to interact with the button.
-Buttons are optional. Use the trash can icon to delete a button from the spotlight.
-Use layouts to enhance your spotlights
-You can get a different look when you combine them with different column layouts.
-From the toolbar, select the layouts icon, or type
-/layout
-to choose from two, three, four, or five columns. You can then add spotlights and other elements and content to each column.
+Select
+Discover new apps,
+which directs you to the Atlassian Marketplace.
+Once you're there, you can use the search and filters to find apps in Marketplace to help you get more done in Confluence. To try or subscribe to an app, click the
+Try it free
+button next to the app listing.
+Some apps offer multiple editions - Standard and Advanced. The pricing and feature differences between these editions are listed under the Pricing tab on the Marketplace listing.
+If you don't terminate the trial within the trial period, a subscription for the app kicks in. Trials last for a month from the start of your next billing date. After starting a trial, you can stop it from the Administration page.
+Although you can re-enable the trial within the original trial period, you can't
+try
+it again beyond the original trial period. At that point, you can only
+subscribe
+to the app from the
+Manage apps
+page.
+Manage apps
+Apps are managed via Connected Apps in Administration or within the app itself. It provides a centralized experience for administering apps. To manage your apps in Connected Apps, go to
+admin.atlassian.com
+and select your organization if you have more than one. Depending on your user management experience, you can select:
+Admin
+>
+Site
+settings
+>
+Connected apps
+or
+Apps
+>
+Site settings
+>
+Connected apps
+Connected Apps allows you to:
+Discover and install new apps from the
+Atlassian Marketplace
+Install or remove apps
+Configure app settings
+Upgrade app editions, if applicable
+You need to be an Atlassian cloud site admin to access Connected Apps.
+Uninstall or unsubscribe from apps
+To cancel your subscription to an app, go to
+Settings
+>
+Atlassian Marketplace
+>
+Manage apps
+, select the app, and then select
+Uninstall
+.
+Apps that use events, such as Confluence page creation, to trigger outbound webhooks continue to send their events while unlicensed.
+To remove all data and stop outbound webhooks, uninstall the app.
+View the apps audit log
+The audit log displays administration activities related to apps on your Confluence Cloud instance. For example, the log displays when apps were enabled or disabled, and shows the username of the administrator who made the change.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Atlassian Marketplace
+>
+Manage apps
+.
+Choose
+Audit log
+at the bottom-left of the page.
+To receive the audit log activity in an RSS feed, click the orange RSS icon on the right above the list.
 Was this helpful?
 Yes
 No
@@ -523,19 +543,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Company Hub to deliver key information to employees
-Show more
-Set up a menu of important links on Company Hub
-Use sections to enhance and highlight your Company Hub content
-Highlight important messages with a visual spotlight
-Add a rotating set of frames to your Company Hub
-Use cards to add beautiful dynamic content to Company Hub
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
 On this page
-Set the width of the spotlight
-Edit the spotlight
-Styles tab
-Content tab
-Use layouts to enhance your spotlights
+About apps
+Find and add new apps
+Manage apps
+Uninstall or unsubscribe from apps
+View the apps audit log
 Community
 Questions, discussions, and articles
 Accessibility

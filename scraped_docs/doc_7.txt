@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-multiple-miro-boards-to-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/convert-legacy-editor-pages/
 
-Import multiple Miro boards to Confluence | Confluence Cloud | Atlassian Support
+Convert legacy editor pages | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,269 +440,116 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Import data from other tools into Confluence
+The Confluence legacy editor
 Cloud
 Data Center
-Import multiple Miro boards to Confluence
-Who can use this feature
-Available on
-all Confluence editions
-Your team must have a
-paid Miro license
-(required for high-quality PDF exports)
-You must have
-export permissions
-in Miro
-(Miro board owners or team admins can restrict this)
-Anyone who can
-create a space in Confluence
-can bulk import Miro boards (Confluence site admins control space creation permissions)
-Moving from another tool can feel overwhelming—we’re here to make it smooth. With bulk import, you can bring multiple Miro boards into Confluence as editable Confluence whiteboards in one go.
-Need to
-import just one or two boards
-? See
-the single import guide
+Convert legacy editor pages
+This guide provides a step-by-step process to help you convert legacy Confluence pages to the cloud editor. By converting pages to cloud, you get the latest updates and improvements to creating, collaborating, and organizing your content.
+Learn more about the cloud editor
+Advantages of using the cloud editor
+You can elevate your content creation experience with the cloud editor's powerful features:
+Enhanced collaboration:
+Work seamlessly with your team in real-time and witness edits as they happen, with changes auto-saved.
+Faster loading:
+Enjoy a user-friendly interface that lets you format your content with with faster loading times.
+Future-proof:
+Benefit from ongoing updates to the cloud editor, ensuring your content remains compatible with future advancements across Atlassian products. Since the cloud editor is the unified editing experience for all Atlassian apps, you'll gain access to platform features like
+Atlassian Intelligence
+and
+Smart Links
 .
-Step 1: Export boards from Miro
-If you are on a Miro Enterprise Plan:
-For customers on the Miro Enterprise Plan we provide an easy way to bulk export via utilizing Miro’s
-Bulk export support
+Coming soon: Deprecation of the legacy editor
+In June 2025, Atlassian
+announced the deprecation
+of the legacy editor. This will be a phased process beginning in January 2026. Find out more in the
+FAQ article
 .
-In Confluence, go to
-Spaces
->
-Import from other tools
-.
-Select
-Miro
-.
-Select
-“Bulk Export Boards”
-Click “
-Add API Token”
-Follow the instructions that pop up
-There is a limitation when using Miro’s
-Bulk export support
-that boards will take ~12m each to export. You can still configure and start the export/import and we will notify you via email after when it is completed.
-You can also attempt using Miro’s
-Bulk export support
-yourself or other export options below which may be faster.
-If you are on a Miro Business or Starter Plan:
-If you’re not on a Miro Enterprise Plan you can manually export boards one at a time, or you can attempt using a
-third-party export solution.
-How to manually export boards from Miro:
-To find the most relevant boards to export, sort and filter boards in your Miro dashboard by date created, viewed, or updated!
-In Miro, open the board you wish to export.
-Open the export menu in the top-left corner of the board, then select
-Save as image
-.
-Select the area of the board that you’d like to export.
-Select the
-Vector
-option.
-Click the
-Export
-button.
-Repeat this for all boards you want to import.
-Compress all
-PDFs
-into a ZIP file (PDFs only. Folders are not supported)
-For more information on exporting Miro boards,
-see Miro’s support documentation
-.
-Step 2: Import Miro content to Confluence
-Tip
-: Large imports take time. We recommend keeping each ZIP under
-100 boards
-to speed up processing or be prepared for a longer wait!
-How to import boards to Confluence:
-In Confluence, go to
-Spaces
->
-Import from other tools
-.
-Select
-Miro
-.
-Upload your prepared ZIP file or configure a bulk export.
-Select an existing space or name a new space where your boards will live.
-Set space permissions:
-Restricted to you
-– Only you can see the boards (boards will appear as created by you).
-Default space permissions
-– Uses your organization's default settings (if your import contains private content, we suggest using “Restricted to you” – you can update the restrictions after the import).
-Concerned about plan limits or potential billing changes?
-See the FAQ below.
-If you are on a Free or Standard plan, imported whiteboards will be read-only by default.
-This is to help you stay within your plan’s limits of 3 active whiteboards per use. If you have fewer than 3 active whiteboards, you can make a copy of an imported board later to turn it into an editable, active whiteboard.
-Step 3: Transfer Miro users to Confluence
-(Optional – Available with Miro Enterprise Plan)
-You can optionally add Miro workspace members to Confluence during migration. Or,
-skip this step
-and add users later from
-admin.atlassian.com
-or invite users from Confluence.
-We will bring in any user who does not exist in your Atlassian org and who has member access in your Miro org based on their email (guest members will not be brought over).
-Prerequisites
-Miro Enterprise
-license
-Miro
-Account Admin
-role
-SSO enabled
-in Miro
-Confluence Org or Site Admin
-role
-How to create Confluence accounts for Miro users:
-Toggle on
-Add remaining members to Confluence
-.
-Generate a Miro access token:
-Go to Miro in your browser. (Make sure you are logged in as an
-Admin
-on an Enterprise account
-)
-Under the
-Profile Icon
-, select
-Admin Console
-.
-Go to
-Apps and Integrations
-and select
-Enterprise Integrations
-.
-Toggle on
-SCIM provisioning
-and select
-Generate new token
-.
-When
-Generate new SCIM token
-dialog opens, select
-Generate
-.
-Copy and paste the token into Confluence and
-Submit
-.
-For more information about generating a Miro access token,
-see Miro's support documentation
-.
-How Miro objects import to Confluence whiteboards
-Miro
-Confluence whiteboards
-Sticky notes
-Sticky notes
-Frames
-Rectangles
-Borders
-Borders
-Draw
-Images
-Website embeds
-Images
-Jira cards
-Jira Smart Links
-Connectors
-Connectors
-Tables
-Recreated with lines and rectangles
-GIFs
-Images
-Text
-Text
-Stamps
-Images
-Tags
-Text in rectangles
-Mind maps
-Rectangles, lines, and connectors
-Limitations
-For bulk importing, there is a 10,000 element limit and a max size  of 5 mb per board. Boards beyond that will fail at importing. (The max size is larger for
-single board imports
-.)
-Importing comments is not supported, but you can comment on Confluence whiteboards.
-Colors will be mapped to the closest Confluence whiteboards colors.
-Rotated elements will import unrotated.
-Shapes supported in whiteboards will import as shapes. Shapes that are not supported will import as images.
-Locked elements will not remain locked when imported, but you can manually lock them in Confluence whiteboards.
-Talk tracks are not supported in whiteboards.
-Importing may take longer than a minute for boards with many elements, large images, or a lot of content.
-If you are on a Free or Standard plan, imported whiteboards will be read-only by default. This is to help you stay within your plan’s limits of 3 active whiteboards per user.
-Learn more about Confluence Whiteboard plans and features
-. If you have fewer than 3 active whiteboards, you can make a copy of an imported board later to turn it into an editable, active whiteboard.
-FAQs
-📌 What if I have hundreds of boards and do not want to export them all on my own?
-If you're on an Enterprise plan, contact your Customer Success Manager for bulk export options. In the meantime, we are working hard on ways to make bulk export easier for all customers!
-📌 Can I just import a board as a static image?
-Yes, but not yet via Bulk Import. If you only need a reference image, use
-single board import
-If you’d like to import static images in bulk, make a feature suggestion via the
-Atlassian Support
-portal (if you are an app administrator).
-📌 Are there any limits on how many boards I can import?
-Import size is only limited by your Confluence plan's storage limit and Whiteboards limit, but we recommend batching imports (max 100 boards per import) to keep imports efficient. Here are the limits per plan:
-Premium/Enterprise
-:
-Unlimited storage, Unlimited whiteboards
-Standard:
-250GB. If you exceed the storage limits of your Standard/Free plan, we’ll try to offer a free trial of Premium. If not, you’ll have 14 days to
-reduce storage
-or convert to a
-paid plan
-.
-Free:
-2GB. If you exceed the storage limits of your Standard/Free plan, we’ll try to offer a free trial of Premium. If not, you’ll have 14 days to
-reduce storage
-or convert to a
-paid plan
-.
-📌 Are there limits on how many users I can transfer?
-The importer allows you to add as many users as you like, but your Confluence plan’s user limits will still apply:
-Standard/Premium/Enterprise:
-Up to 150,000 users
-Free:
-10 users. If you exceed user limits of your Free plan, we’ll try to offer a free trial of Premium. If not, you’ll have 14 days to
-remove users
-or convert to a
-paid plan
-.
-📌 How might importing boards impact my Confluence plan and billing?
-Premium/Enterprise:
-No impact
-Standard:
-If importing boards causes you to exceed your plan limits of 250GB storage, we will try to offer a free trial of a paid plan that fits your needs. If not, you’ll have 14 days to
-reduce storage
-or convert to a
-paid plan
-.
-Free:
-If importing boards causes you to exceed your plan limits of 10GB storage, we will try to offer a free trial of a paid plan that accommodates your new limits. If not, you’ll have 14 days to
-remove users
-or convert to a
-paid plan
-.
-📌 How might adding Miro users impact my Confluence plan and billing?
-Enterprise:
-Input your expected, post-import new user count to our pricing calculator. Make sure to indicate if you are on the annual or monthly plan to get an accurate pricing estimate.
-Premium/Standard:
-Go to the
-Premium user tiering guide
+When the process is complete in April 2026, all editing will take place in the cloud editor. Until then, you will continue to have the option to update pages in the legacy editor. However, there are some downsides to continuing to use the legacy editor:
+No bugs fixed unless it's a major incident.
+No enhancements.
+What’s the difference between the cloud and legacy toolbars?
+You can see which editor your page uses by looking at the differences in the editor toolbar.
+The cloud editor
+includes
+Publish…
 or
-Standard user tiering guide
-. If you are:
-On the monthly plan: You pay a dynamic per-user price today. If the user transfer moves you up to a different user count tier, you will pay a new, lower per-user price.
-On the annual plan: You pay a static annual price for your user tier today. If the user transfer moves you up to a different user count tier, your bill will increase to match that tier.
-Free:
-If adding Miro users causes your total user count to exceed the Free plan limit of 10 users, we willl try to offer a free trial of a paid plan that fits your user count. If not, you’ll have 14 days to
-remove users
-or convert to a
-paid plan
+Update
+and
+Close
+buttons in the top menu and the emoji icon
+The legacy editor
+has earlier versions of text-color picker and page formatting
+Convert your legacy editor pages to cloud
+Which pages are eligible for conversion?
+Eligible pages are those that can be converted to the cloud editor without displaying any "unsupported" content after conversion. These pages are fully compatible with the cloud editor, allowing users to view and edit them seamlessly. The introduction of the
+legacy content macro
+has made a lot more pages eligible.
+Identifying Eligible Pages:
+Convert Option:
+When you edit an eligible page, you’ll see the option to convert.
+Checkmark Indicator:
+While editing in the legacy editor, a checkmark  in the bottom left corner indicates eligibility.
+Ineligible pages:
+If a legacy editor page has content that can’t be converted, you won’t see the invitation to convert to the cloud editor. If you try to convert it anyway, you will see a warning that you could lose content.
+When you enter edit mode on an “eligible page,” you will see a pop-up to convert to the cloud editor. Select
+Update page
+to instantly convert the page to the cloud.
+If you select
+Not now
+your page will open in the legacy editor.
+A
+preview
+banner will remain visible, allowing you to preview your page in the cloud editor and convert it from there.
+If your page has content that is not yet supported in the cloud editor, the conversion process will add this content to one or more copies of the
+legacy content macro
+. This macro lets you continue to work with unsupported content. The legacy content macro dramatically increases the number of pages that are eligible for conversion.
+For more resources check out:
+What you can
+create in cloud
+a
+side by side feature comparison of the editors
+Auto-convert pages to cloud
+Admins can set an option to automatically prompt users to convert legacy editor pages.
+For all spaces in Confluence
+Confluence admins can
+enable auto-conversion
+of all legacy pages in Confluence to the new editor.
+For a single space
+Space admins can enable auto-conversion from legacy to the cloud editor for all pages with eligible content in a space.
+If auto-conversion is enabled, eligible pages will be converted to the cloud editor when someone views the page. You will be able to revert to the legacy version in
+More actions (
+)
+menu. Select
+Revert to legacy editor
 .
-📌 Can I import Miro guests?
-No, guest accounts do not transfer. However, you can manually invite guests to a Confluence space from
-admin.atlassian.com
+To enable auto-convert:
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
 .
+Open the
+General
+menu
+and select
+Convert pages
+.
+Turn on
+Convert pages automatically
+.
+Revert page migrations
+If you’d like to restore your page back to the legacy editor, you can
+restore the most recent version of the page before conversion, via the page version history
+.
+Support
+The cloud editor constantly evolves, offering regular updates and improvements. To stay updated with the latest features and functionalities, check out:
+Atlassian Community
+:
+Connect with other Confluence Cloud users and share your experiences.
+Support articles
+:
+Access more detailed guides and troubleshooting tips for Confluence Cloud.
 Was this helpful?
 Yes
 No
@@ -710,29 +560,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Import data from other tools into Confluence
-Show more
-Import data from HTML to Confluence
-Import data from Notion into Confluence
-Import multiple Miro boards to Confluence
-Troubleshooting import data from HTML to Confluence
-Troubleshooting import data from Notion to Confluence
-Show more
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
 On this page
-If you are on a Miro Enterprise Plan:
-If you are on a Miro Business or Starter Plan:
-How to manually export boards from Miro:
-How to import boards to Confluence:
-How to create Confluence accounts for Miro users:
-How Miro objects import to Confluence whiteboards
-Limitations
-📌 What if I have hundreds of boards and do not want to export them all on my own?
-📌 Can I just import a board as a static image?
-📌 Are there any limits on how many boards I can import?
-📌 Are there limits on how many users I can transfer?
-📌 How might importing boards impact my Confluence plan and billing?
-📌 How might adding Miro users impact my Confluence plan and billing?
-📌 Can I import Miro guests?
+Advantages of using the cloud editor
+Coming soon: Deprecation of the legacy editor
+What’s the difference between the cloud and legacy toolbars?
+Convert your legacy editor pages to cloud
+Auto-convert pages to cloud
+For all spaces in Confluence
+For a single space
+Revert page migrations
+Support
 Community
 Questions, discussions, and articles
 Accessibility

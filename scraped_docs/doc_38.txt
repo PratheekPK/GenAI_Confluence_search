@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-up-a-menu-of-important-links-on-company-hub/
+URL: https://support.atlassian.com/confluence-cloud/docs/delete-your-account/
 
-Set up a menu of important links on Company Hub | Confluence Cloud | Atlassian Support
+Delete your account | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,56 +439,31 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Company Hub to deliver key information to employees
+Manage your account and permissions in Confluence Cloud
+Manage your account
 Cloud
 Data Center
-Set up a menu of important links on Company Hub
-This feature only offered with
-Confluence Cloud Premium and Enterprise
+Delete your account
+You can
+delete your account
+when you no longer need to use Atlassian account services. When you do, you’ll immediately lose access to Confluence and all other Atlassian account services, and we’ll stop billing your organization for your account. We’ll also delete your personal data from Atlassian account services.
+Once your account has been deleted, you won’t be able to reactivate it or restore your personal data.
+What’s deleted
+When you delete your account, we’ll permanently delete your
+personal data
+from all Atlassian account services. Your name will be replaced by
+Former user
+throughout Confluence, and your Confluence personal space will be archived.
+We won’t delete:
+Content, comments, or files.
+To manually delete the content you’ve created, follow the instructions in
+Delete, restore, or purge content
 .
-The links menu sits at the top of Company Hub, making it easy for employees to find evergreen content and important links without needing to scroll.
-Create the links menu element
-Go to your Company Hub and select the
-Edit
-button (
-icon).
-Type a
-/links menu
-and select the Links menu option.
-The configuration panel opens on the right side of the screen.
-The Items tab
-The configuration panel opens with
-Items
-selected. With the + New item button, you can add either a
-Link
-or a
-Menu
-that will contain a drop-down selector with a set of child links nested under it.
-Add links to Confluence pages, Atlas goals, or any other internal or external URL.
-You can use the More actions menu (
-icon) to change the position of links or delete links or submenus.
-The Styles tab
-Select
-Styles
-to configure the look and feel.
-Option
-Description
-Alignment
-Choose where the links and submenus will sit along the top of the pages.
-Background color, border color
-Customize the colors of the background and the border around it.
-Border position
-Select one of these options:
-No borders
-Borders on all four sides
-Bottom only
-Corner style
-Select rounded or square corners
-Text color
-Choose a text color. The color palette will notify you if your text color is difficult to read against your background color.
-Selected state color
-Choose a color for a selected link.
+Personal data in user-generated content.
+If your personal data, such as your name, email address, or phone number, appears in the text of a Confluence Cloud page or live doc, it will remain on Confluence Cloud until the content or the site is deleted. To delete personal data from a page, live doc, blog post, or comment, you'll need to find the content using global search, then edit it to manually remove your data.
+Once an account has been deleted, both the account and the personal data in it are gone forever.
+How you'll appear
+This is what you’ll look like to other Confluence users once you delete your account:
 Was this helpful?
 Yes
 No
@@ -496,17 +474,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Company Hub to deliver key information to employees
-Create and customize a Company Hub
-Manage your Company Hub
-Set up a menu of important links on Company Hub
-Use sections to enhance and highlight your Company Hub content
-Highlight important messages with a visual spotlight
+Manage your account
 Show more
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
 On this page
-Create the links menu element
-The Items tab
-The Styles tab
+What’s deleted
+How you'll appear
 Community
 Questions, discussions, and articles
 Accessibility

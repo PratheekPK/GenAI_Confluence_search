@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/upload-and-manage-files/
+URL: https://support.atlassian.com/confluence-cloud/docs/build-an-rss-feed/
 
-Upload and manage files | Confluence Cloud | Atlassian Support
+Build an RSS feed | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,37 +439,74 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Collaborate on content and get notified in Confluence Cloud
+Get notified about content and activity
 Cloud
 Data Center
-Upload and manage files
-Share your team's PDFs, Office documents, images, and more in one place by uploading your files to Confluence. Automatic versioning, instant previews, permissions, and full-text search mean shared network drives can be a thing of the past for your team.
-A file added to page or live doc gets attached to it. You can attach anything, from project plans and design mockups to video and audio files. You and your colleagues can also collaborate by
-Share and comment on files
-displayed on Confluence pages and live docs.
-Using files
-Upload a file
-Display files and images
-Manage uploaded files
-Share and comment on files
-Permissions
-The 'Add attachment' and 'Delete attachment' permissions are used to control who can upload and delete attachments in a space.
-Users with 'Add content' permissions can insert existing attachments to their content, but not upload new attachments unless they also have the 'Add attachment' permission.
-There is no permission that controls who can download attachments. See our knowledge base article about
-disabling the download of attachments
-if you need to do this.
-Upload a file
-Learn how to upload files to Confluence.
-View topic
-Display files and images
-Insert files, images, and other attachments on a Confluence page or live doc
-View topic
-Manage uploaded files
-Download, delete, move, or otherwise manage files you upload to Confluence.
-View topic
-Share and comment on files
-Share files with collaborators, or comment on files other people have shared.
-View topic
+Build an RSS feed
+Using the RSS feed builder, you can create customized RSS feeds to subscribe to changes within Confluence.
+Wondering what an RSS feed is? See
+more information about RSS Feeds
+.
+Build an RSS feed
+Follow the steps below to build your feed, choosing the type of content and the time period you want to monitor.
+To create a customized RSS feed:
+Click the help icon
+at the right of the navigation, then click
+Feed Builder
+Select the content types you want in your feed
+Pick one or more spaces from the list
+Click
+Advanced Options
+to set the following:
+Feed Name
+– The default name is based on the name of your Confluence installation. For example, 'Extranet RSS Feed'.
+With these labels
+– Enter one or more labels separated by spaces or commas. Confluence returns all content (of the selected types) that matches one or more of the labels. See the hint below about using labels to customize your feeds.
+Exclude these spaces
+– Exclude specific spaces from those already selected.
+Sorted by
+– Sort content by either the date or creation or the date they were last updated.
+Limit to
+– Specify the number of items returned in your feed.
+Within the last
+– Specify how old items returned can be.
+Include content for pages and live docs
+– Specify whether the entire page or doc is displayed in the feed.
+Click
+Create RSS Feed
+Drag or copy the link into your RSS reader
+Separate feeds.
+Try building separate feeds, one for pages and live docs only and one that includes comments as well. This allows you to monitor only pages if you are short of time, and to read the comments when you have more time.
+Labels to customize your feed.
+You can use the RSS feed builder to track updates to labeled pages and live docs and comments on that content. Here is an idea for customizing your RSS feed by using your own personal label(s). This is useful if you want to track updates to specific pages, live docs, or blog posts, and you do not want to deal with emails. You can use this method as an alternative to watching pages.
+Build an RSS feed that returns pages, live docs, blog posts and comments labeled with a personal label, such as '
+my:feed
+'.
+Each time you want to 'watch' a page or live doc, just label it with 'my:feed'.
+All updates and comments will automatically come through your RSS feed.
+Removing an RSS feed:
+There is no need to try to delete or remove an RSS feed built by the Confluence RSS feed builder.
+Explanation: The feeds generated by the RSS Feed Builder are dynamically generated via the parameters included in the feed URL (address). For example, take a look at the following feed URL:
+http://confluence.atlassian.com/createrssfeed.action?types=page&sort=modified&showContent=true...
+The above feed URL will generate a list of pages ('types=page'), sorted by the modification date and showing the page content. The feed is generated at the time when the URL is fetched and there is no RSS feed information stored on the database. For that reason, there is no need to remove anything.
+Feed authentication options:
+Confluence can offer you the option of an anonymous feed or a feed that requires authentication.
+An
+anonymous
+feed will show only the content that is visible to anonymous users. The feed URL does not contain the
+&os_authType
+parameter mentioned below. This feed is useful only if your Confluence site allows anonymous access. If a feed is anonymous, you only get anonymously-viewable content in the feed regardless of whether you are a Confluence user or not.
+An
+authenticated
+feed requires you to log in to Confluence before you can retrieve the content. The feed URL contains the following parameter:
+&os_authType=basic
+.
+The option to choose between an anonymous and an authenticated feed is currently not available on the feed builder screen. The feed builder offers only
+authenticated
+feeds. See
+CONF-21601
+for details and a workaround.
 Was this helpful?
 Yes
 No
@@ -477,22 +517,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Upload a file
-Display files and images
-Manage uploaded files
-Share and comment on files
-Create and organize work in Confluence Cloud
+Get notified about content and activity
 Show more
-Create and edit content
-Keep content organized
-Upload and manage files
-Present your content with Presenter mode
-Atlassian Intelligence features in Confluence Cloud
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
 Show more
-On this page
-Using files
-Permissions
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/transfer-content-item-ownership-from-one-user-to-another/
+URL: https://support.atlassian.com/confluence-cloud/docs/view-insights-on-spaces/
 
-Transfer content item ownership from one user to another | Confluence Cloud | Atlassian Support
+View insights on spaces | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,42 +439,89 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Manage content in a space
+Collaborate on content and get notified in Confluence Cloud
+View Confluence analytics to see how content is performing
 Cloud
 Data Center
-Transfer content item ownership from one user to another
-When a page, whiteboard, database, or Smart Link in the content tree is created in Confluence, the person who created it also becomes the owner by default. The content item’s owner can transfer ownership to another user at any time, as a way of indicating who should be the “point person” for the content.
-Confluence app and space admins are able to transfer ownership on behalf of their users. That way, if the current owner leaves the project, team, or company, you can transfer ownership to someone else and ensure the content remains fresh.
-It’s not currently possible to transfer ownership of
-space overview pages
-or blogs.
-You can’t change the owner of a content item while using the Confluence mobile app.
-To change ownership of an item, first open the
-More actions
-(
-) menu.
-The actions available in this menu vary depending on if you’re on a page, whiteboard, database, or Smart Link in the content tree, but the option to change ownership is the same for all.
+View insights on spaces
+Understand how a space in your site is performing with insights about your content and users.
+Insights on spaces can also be accessed from the spaces tab of
+View insights on your site
+.
+The Overview tab shows analytics data for your space as a whole.
+Navigate to a space.
+In the
+sidebar
+, open the
+Apps
+menu and select
+Analytics
+.
+Use the shortcuts at the top to select the date range (seven days, one month, three months, year-to-date, or custom) for your data. You can also decide how you want to group the data, whether to display it by total number of users or unique users.
+The cards below the chart show top rankings for key insights found in the Content and Users tabs:
+Popular content
+– The content items with the most views in the chosen date range
+Most active readers
+– The users who viewed content in this space the most number of times in the chosen date range
+Most active contributors
+– The users who have updated content in this space the most number of times in the chosen date range
+Selecting
+View all
+takes you to the full list of rankings in each tab.
+View insights on the content in a space
+From the
+Content
+tab of site analytics, you can view the following insights:
+Title
+-
+The name of the content item
+Created
+-
+The date the item was created
+Last modified
+-
+The last time the item was edited for the date range
+Last viewed
+-
+The last time a user has viewed the item for the date range
+Comment activity
+-
+The total number of comments for the date range
+Users
+viewed
+-
+The total number of unique users that have viewed the item for the date range
+Views
+-
+The total number of views for the date range
+Export reports on your space's content
+You can export and download a Microsoft Excel report of the analytics on your space's content.
 Select
-View ownership
-, then
-Change owner.
-Use the search field to find a new owner by name or email. The new owner must have access to the space and edit access to the item for you to be able to make them the owner.
-Once you’ve chosen the correct person, select
-Change owner
-to confirm the transfer.
-Transfer ownership of a page from the byline
-For pages, there is an additional way to open the Change owner modal when you want to change the owner.
-Next to the current owner’s name in the page byline, select (
-) to
-Manage page ownership
-.
+Export as CSV
+on the top right of the
+Spaces
+tab. The file, with data separated by commas, will download automatically.
+View insights on the users of your space
+From the
+Users
+tab of space analytics, you can view the following insights:
+Name
+- The name of the user
+Created
+- The number of content items the user has created for the date range
+Updated
+- The number of times the user has edited for the date range
+Comments
+- The number of times the user has commented for the date range
+Views
+- The total number of times the user has viewed content for the date range
+Export reports on your space's users
+You can export and download a Microsoft Excel report of the analytics on your space's users.
 Select
-Change owner
-.
-Find and select the new owner, then confirm you want to
-Change owner
-.
+Export as CSV
+on the top right of the
+Spaces
+tab. The file, with data separated by commas, will download automatically.
 Was this helpful?
 Yes
 No
@@ -482,11 +532,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage content in a space
-Clean up a space with the content manager
-Transfer content item ownership from one user to another
-Manage page watchers
-Export a space's content as Word, PDF, or data files
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+On this page
+View insights on the content in a space
+Export reports on your space's content
+View insights on the users of your space
+Export reports on your space's users
 Community
 Questions, discussions, and articles
 Accessibility

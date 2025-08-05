@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-profile-picture-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/share-and-comment-on-files/
 
-Insert the profile picture macro | Confluence Cloud | Atlassian Support
+Share and comment on files | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,37 +439,57 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Create and organize work in Confluence Cloud
+Upload and manage files
 Cloud
 Data Center
-Insert the profile picture macro
-You can use the Profile Picture macro to display a user's profile picture on a page or live doc, and it's useful for things like creating team pages that show all members of a project team.
-Hover your mouse-over the picture to see the Hover Profile for the user, and choose the user's picture or name to view their user profile. When editing, you can also select the macro and choose
-View User Profile
-to see the
-profile
-for the user.
-Use the Profile Picture macro
-To add the Profile Picture macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Profile Picture macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
+Share and comment on files
+Collaboration doesn't just happen on pages and live docs. Often you'll need to collaborate with your team on documents, presentations, images, and spreadsheets. Whether it's mockups for a new marketing campaign or a full project plan, you can simplify your team's feedback loop by working together on files in Confluence.
+Share a file
+Share the file directly with your team just like you'd share a page or live doc.
+To share a file:
+Select the number listed next to
+Files
+in the
+Details
+panel, which can be access from the floating action bar at the bottom right of your screen when viewing content.
+Select
+View
+from the
+Actions
+column to preview the file.
+Select
+Share
+.
+Add an email address, user name, or group name, write your message, and select
+Share
+.
+Your team members will get an email with your message and a link to view the file.
+Comment on a file
+Only files added through the Attachments macro will allow comments.
+To comment on a file:
+Select the row of the file you'd like to comment on.
+Select
+View
+at the bottom to preview the file.
+Drag the pin icon from the bottom of the preview and drop it where you want to comment.
+Add your comment and click
+Save
+.
+Pinned comments work just like
+inline comments
+. You can use
+mentions
+and
+links
+, and you can drop as many pins as you need. Anyone with permission to add comments to the page can add and reply to comments on a file.
+When you preview a file, you'll see pins for any existing comments. Select a pin to view the comment.
+Once the conversation is finished, you can resolve the comment to hide it (and any replies) from view. If you need to see resolved comments again, filter for resolved comments only from the comments panel to reopen them.
+You can't comment on files that are linked from other webpages or files that can't be previewed (such as videos and zip files).
+Edit a file
+You can edit some files directly in Confluence. For more information and a list of supported file types and applications, see
+Edit files
+.
 Was this helpful?
 Yes
 No
@@ -477,14 +500,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
-Show more
-Insert the labels list macro
-Insert the popular labels macro
-Insert the profile picture macro
-Insert the recent updates macro
-Insert the recently updated dashboard macro
-Show more
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+On this page
+Share a file
+Comment on a file
+Edit a file
 Community
 Questions, discussions, and articles
 Accessibility

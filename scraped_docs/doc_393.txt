@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-a-site-backup/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-confluence-databases-dont-support/
 
-Export a data backup file of your instance | Confluence Cloud | Atlassian Support
+What Confluence databases don't support | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,80 +439,30 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Data management in Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Export a data backup file of your instance
-If you're migrating a Confluence Data Center instance to a cloud site, you can now use the
-Confluence Cloud Migration Assistant
+What Confluence databases don't support
+Databases aren’t available in the
+Atlassian Government environment
 .
-We
-ended support of Confluence Server
-on February 15, 2024. Confluence Data Center is our only self-managed app offering, and our primary app offering outside of Confluence Cloud.
-Atlassian is also currently working on a
-new backup and restore solution
-.
-This page tells you how to get a copy of all the content in your Confluence Cloud instance using the backup manager. To export individual pages or spaces instead of the whole site in a variety of formats (including comma-separated values), see
-Export Content to Word, PDF, HTML and XML
-.
-After exporting the data via the backup manager, you can import the data into another Confluence Cloud instance, as described below.
-You can also save the backup file, as a way of taking occasional offline backups.
-The Cloud service takes backups for your instance every 24 hours for purposes of application recovery (not for rolling back application data). See
-About Your Data
-for more information.
-Back up (export) your Confluence instance
-Only one backup file is stored at a time. Any existing backup is overwritten by the new one.
-We regularly make backups of your data for application recovery purposes. However, these backups cannot be used to roll back changes.
-Learn more about how we back up your data
-.
-To back up all data of your Confluence instance:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find Settings >
-Data management
-in the left-hand navigation.
-Select
-Backup manager
-.
-If you want to include attachments, select
-Backup attachments
-.
-Choose
-Create backup for cloud.
-After the backup is complete, you will see the link to the backup file. You can download the file by following the link. This link is available for 14 days.
-What data is backed up?
-The backup includes the following data:
-Each space’s default classification level when applicable
-Pages, including their classification level when applicable
-Whiteboards
-Selected user and group settings, such as permissions.
-The backup does not include the full set of user and group settings because this process is intended to restore data to the same Atlassian site with its existing user account data.
-Team calendar data
-Attachments (if selected)
-The backup will include all attachments, including those in the archive or trash. This may cause a difference in the size of the backup file versus your reported storage usage.
-Soft-deleted spaces (spaces placed in the trash) will not be backed up. If you want to back up a space that is in the trash, you must first retrieve it from the trash.
-We can’t currently export databases
-They will appear in the tree when exported but won’t retain their content, data, or functionality.
-Import the backup data to Confluence Data Center
-You can import the backup data into Confluence Data Center
-6.0 or later
-.  This will overwrite all the content on that site. See
-Migrate from Confluence Cloud to Data Center
-.
-Data classification is a cloud feature, so while that information is backed up in the export file, it won’t appear in Confluence Data Center.
-If you plan to import this backup in Confluence Data Center, a site admin should perform the export. Because site admins can view all email addresses in the site, this ensures all user data is included in the export, regardless of
-profile visibility settings
-.
-Import the backup data to Confluence Cloud
-You can import the backup data into another Confluence Cloud instance, thus overwriting all the content on that site. Refer to the instructions on
-importing a Confluence Cloud instance
-.
-If your source site includes other applications in addition to Confluence,
-the cross-application links
-in the site, such as links to a source file page or to a Jira work item, will point back to the corresponding location after the import.
-Maximum supported size
-Confluence cloud backup file can be up to 30 GB in total size, plus 800 GB of attachments.
+Databases does not currently support or work with certain Confluence features. Below is a list of some of the critical unsupported features. This list is not exhaustive.
+Databases don't currently support:
+anonymous access
+admin key
+Atlassian Analytics
+Atlassian Data Lake
+data connectors
+screen readers & keyboard navigation
+some Marketplace apps*
+linking Jira from Data Center sites
+Please note that most of these features may not be initially supported for databases. However, we plan to add support for many of these features shortly. Please ensure you read the
+Atlassian Cloud Terms of Service
+before proceeding. This outlines our terms & conditions.
+*Some Marketplace apps might be partially affected when databases are added in a space. See
+Databases impact on third-party apps
+to learn more.
 Was this helpful?
 Yes
 No
@@ -520,17 +473,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Data management in Confluence Cloud
-Import a Confluence Cloud space
-Export a data backup file of your instance
-Migrate a Confluence Cloud instance or merge instances from multiple sites
-Migrate from Confluence Cloud to Data Center
-On this page
-Back up (export) your Confluence instance
-What data is backed up?
-Import the backup data to Confluence Data Center
-Import the backup data to Confluence Cloud
-Maximum supported size
+Create and edit databases
+Show more
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Database version history
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

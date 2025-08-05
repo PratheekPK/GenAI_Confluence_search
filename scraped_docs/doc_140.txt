@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-jamboard-whiteboards-in-confluence-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-people-to-confluence-from-google-slack-or-microsoft/
 
-Import Jamboard whiteboards in Confluence whiteboards | Confluence Cloud | Atlassian Support
+Add people to Confluence from Google, Slack, or Microsoft | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,41 +439,30 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
 Cloud
 Data Center
-Import Jamboard whiteboards in Confluence whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+Add people to Confluence from Google, Slack, or Microsoft
+Confluence is all about working together to get the best results for you and your team.
+Now you can add anyone to Confluence from Google, Slack, or Microsoft (or all three). It’s quick, convenient, and secure.
+Once your teammate is added, they can collaborate with you directly in Confluence.
+Depending on your
+access settings
+, an admin may need to approve your request first.
+Add a teammate
+Select
+More
+and then
+Teams
 .
-Bring your Google Jamboard content to Confluence whiteboards and collaborate seamlessly with your team. Import your whiteboards from Google Jamboard into Confluence to unlock features like smart connectors, smart sections, real-time editing, and experience brainstorming and collaboration like never before. Plus, keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
-Export your Jamboard
-In Jamboard, open the whiteboard you wish to export.
-Select the More
-menu in the top-right corner of the board, then select
-Download as PDF
-or
-Save frame as image
-.
-For more information on exporting Jamboards,
-see the Google Jamboard support documentation
-.
-Import to whiteboards
-Whiteboards currently only support PDF or image file importing.
-Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
-You can import your content in two ways:
-Drag your image or file into your whiteboard.
-On the toolbar, select the More menu (
-…
-), select
-Whiteboard import,
-navigate to your file, and select it.
-Select your content type.
-The import process will complete.
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
-For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
+Select
+Add people.
+Select
+Google, Slack, or Microsoft.
+Allow Atlassian access to connect Confluence to your Google, Slack or Microsoft accounts.
+Enter your teammate's info and they’ll get an email inviting them to collaborate with you.
+You can continue to add people using their email address if you prefer.
 Was this helpful?
 Yes
 No
@@ -481,18 +473,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Collaborate on content
 Show more
-Import Miro boards in Confluence whiteboards
-Import Mural boards in Confluence whiteboards
-Import Jamboard whiteboards in Confluence whiteboards
-Export your whiteboard
-Collaboration limits on whiteboards
-Show more
-On this page
-Export your Jamboard
-Import to whiteboards
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
 Community
 Questions, discussions, and articles
 Accessibility

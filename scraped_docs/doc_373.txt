@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/take-bulk-jira-actions-with-smart-sections/
+URL: https://support.atlassian.com/confluence-cloud/docs/mention-a-person-or-team/
 
-Take bulk Jira actions with smart sections | Confluence Cloud | Atlassian Support
+Mention a person or team | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,50 +439,58 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
 Cloud
 Data Center
-Take bulk Jira actions with smart sections
-Whiteboards aren’t available in
-Atlassian Government environments
+Mention a person or team
+Mentions (also known as @mentions) are a seamless way to draw a person’s or team's attention to pages, live docs, comments, or a
+task
+you’ve assigned to them.
+There are two ways to add mentions in Confluence Cloud:
+using
+autocomplete
 .
-Smart sections are super-charged sections that help make your collaboration sessions more efficient. Smart sections take the effort out of making updates to Jira issues after planning sessions, helping you and your team move work forward effortlessly.
-Creating a smart section
-Start by adding a section to the whiteboard, by selecting the section element from the global toolbar. Once you’ve added a section to your whiteboard, select the section to trigger the element/floating toolbar.
-Select
-Create action
-button to open the configuration panel.
-Choose a site, project, and issue type from the options in the picker in order to configure an action, then fill in all the fields.
-Select
-Save
+via the editor toolbar.
+People who are @mentioned will receive a
+notification
+and (if they’re
+subscribed
+) an email letting them know.
+An important exception: During the trial period of any Confluence Cloud plan, people who are @mentioned will receive the notification, but not the email. This is true even if the person is subscribed to email.
+Once the trial has concluded, email will be added as a secondary means of informing people when they’re @mentioned.
+Notifications and/or emails are sent the first time you mention people on a page, but not for subsequent mentions.
+If you need to catch someone's attention, and you've already mentioned them, try
+sharing content
+with them instead.
+Mention a person
+When you mention a person or assign a task to them, they'll receive a notification in their notification drawer as well as an email (if they’re subscribed). Any task assigned to them will also appear under
+Tasks
 .
-Start dragging Jira issues into the section to update in real-time and have this change reflected in Jira.
-Note:
-Smart sections currently only support Jira actions, therefore only Jira issues dragged into the section will have the action applied.
-Editing a smart section
-To update or change an existing smart section:
-Select the section.
-Select ‘
-Edit action
-’.
-Make any changes to the fields.
-Select
-Save
+Use autocomplete
+To mention a person using autocomplete, type ‘@' in the editor, then start typing their name. Choose the person you want to mention from the list of suggestions.
+You can use autocomplete mentions in
+Jira
+Cloud as well. To learn about using mentions and other features to collaborate on Jira issues, go to
+this page
 .
-Here you can also, select
-Clear action
-to remove the action previously configured. Actions previously applied to Jira issues already in the section will still remain.
-Deleting a smart section
-To delete a smart section:
-Select the section.
-Press Delete / Backspace.
-Deleting a section will also delete its contents. To delete a section without deleting its contents;
-Select everything in the section.
-Drag it to another place on the whiteboard.
-Select the section and press Delete / Backspace.
-Undo with smart sections
-Performing an ‘Undo’ after moving an issue into a section will not undo the Jira action.
+Use the editor or toolbar
+If you'd rather use the toolbar or editor, type @ or choose the
+@
+icon,
+then start typing the name of the person you want to mention. Choose the person you want to mention from the list of suggestions.
+Mention a team
+You can also mention a team in the same way you mention a person, but only for teams with 50 members or less.
+When you mention a team or assign them a task, individuals in that team will receive notifications in their notification drawer, as well as an email (if they’re subscribed). Any task assigned to them will also appear under
+Tasks
+.
+Use autocomplete
+To mention a team using autocomplete, type ‘@' in the editor, then start typing the team name. Choose the team you want to mention from the list of suggestions. The suggestions will also include teams whose profile description contains the word or phrase entered.
+Use the editor toolbar
+If you'd rather use the editor toolbar, choose the
+@
+icon,
+then start typing the name of the team you want to mention. Choose the team you want to mention from the list of suggestions. The suggestions will also include teams whose profile description contains the word or phrase entered.
 Was this helpful?
 Yes
 No
@@ -490,19 +501,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Show more
-Integrate whiteboards into your Atlassian workflow
-Link Jira issues from your whiteboard
-Take bulk Jira actions with smart sections
-Set your whiteboard preferences
-Import Figjam boards in Confluence whiteboards
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
 Show more
 On this page
-Creating a smart section
-Editing a smart section
-Deleting a smart section
-Undo with smart sections
+Mention a person
+Use autocomplete
+Use the editor or toolbar
+Mention a team
+Use autocomplete
+Use the editor toolbar
 Community
 Questions, discussions, and articles
 Accessibility

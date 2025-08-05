@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-insights-on-your-site/
+URL: https://support.atlassian.com/confluence-cloud/docs/display-files-and-images/
 
-View insights on your site | Confluence Cloud | Atlassian Support
+Display files and images | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,116 +439,95 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-View Confluence analytics to see how content is performing
+Create and organize work in Confluence Cloud
+Upload and manage files
 Cloud
 Data Center
-View insights on your site
-Get an overview of the usage of your site, then view insights on your spaces, users, and searches.
-To access site analytics:
-Select the
-Apps
-menu in the
-sidebar
+Display files and images
+You can upload most file types to the Editor. How you display these depends on the type of file uploaded.
+How to upload files to the Editor
+Insert a file, image, or video into your page
+To upload a file, you'll need
+Add Attachments
+permission for your Space. Otherwise, the relevant options in the editing toolbar will not appear.
+Images and videos
+Inserting a file, image, or link to a page or live doc also adds it as an attachment.
+To insert a file, image, or link while editing:
+Drag the file directly onto the page.
+Select the
+Add image, video, or file
+button from the main toolbar.
+Type
+/files
+or
+/images
+, select
+Image, video, or file
 .
-Select
-Analytics
+After an image or video is inserted, you can:
+Resize it by dragging the handles on either side.
+Set its width or height in pixels by entering a value in the toolbar.
+Add a caption. The caption’s text size and alignment can't be changed, but you can apply other formatting.
+When you select an uploaded image or video, a floating toolbar appears.
+The floating toolbar lets you control:
+Border options —
+Add borders and change their color and size.
+Image alignment —
+Determine how the image or video is aligned on the page and how the text should flow around your image or video.
+Inline (images only) —
+Display the image or video within the text.
+Original size (images only) —
+Display the image as a separate block element.
+Width and Height —
+Set the width or height of an image or video.
+Add or view comment —
+Add or view comments on an image or video.
+Link (images only) —
+Add a link to a Confluence page or an external URL.
+Preview (images only) —
+Preview the image full size while editing.
+Edit alt text —
+Add supplemental text accompanying an image or video for all users. Alt text can help add more context and meaning to the image or video and can be very effective in assisting people of all types to understand the image or video better.
+Copy —
+Copy the image to paste it somewhere else.
+Remove —
+Remove the image from the page or live doc.
+If you delete an image from a page or live doc, you will need to upload it again to add it back. You cannot add an image from the
+Attachments
+view.
+Files
+When you insert a file onto a page or live doc, it will appear as an inline tile or a thumbnail.
+You can use the files' floating toolbar to control:
+View inline or as a card
+— Display the file inline or as a thumbnail.
+Preview
+— Preview the file in fullscreen view. Select
+to close the preview.
+Download
+— Download the file to your computer or device.
+Copy —
+Copy the file to paste it somewhere else.
+Remove —
+Remove the file from the page or live doc.
+Delete files from your content
+When editing a page or live doc there are several ways to delete a file:
+Select the
+icon in the floating toolbar for an image
+Select the X icon or the Delete key when focused on a file.
+If you delete a file or image in the editor, the attached file isn't deleted.
+To completely remove the file from a page or live doc:
+Go to the
+...
+menu →
+Attachments
+→
+Files
+→
+Delete
 .
-The Overview tab shows analytics data for your site as a whole.
-Use the shortcuts at the top to select the date range (seven days, one month, three months, year-to-date, or custom) for your data. You can also decide how you want to group the data, whether to display it by total number of users or unique users.
-Hover over points on the chart to view a summary of data for a specific date.
-The cards below the chart show top rankings for a key insight found in each of the
-Spaces
-,
-Users
-, and
-Searches
-tabs:
-Popular spaces
-– The spaces with the most views for the chosen date range
-Most active readers
-– The users who have viewed content on your site the most number of times in the chosen date range
-Trending searches
-– The terms users most often searched for in the chosen date range
-Selecting
-View all
-takes you to the full list of rankings in each tab.
-View insights on your site's spaces
-From the
-Spaces
-tab of site analytics, you can view the following insights:
-Name
-- The name of the space
-Views
-- The total number of times pages in the space have been viewed within the selected date range
-Users Viewed
-- The total number of users that have viewed content in the space within the selected date range
-Last Viewed
-- The last time any content in the space was viewed
-Updated
-- The total number of times content in the space have been edited within the selected date range
-Created
-- The number of content items that have been created in the space within the selected date range
-Space analytics
-can also be accessed from a space’s
-sidebar
-.
-Export reports on spaces
-You can export a Microsoft Excel report of analytics for the spaces on your site.
-Select
-Export as CSV
-on the top right of the
-Spaces
-tab. The file, with data separated by commas, will download automatically.
-View insights on your site's users
-From the
-Users
-tab of site analytics, you can view the following insights:
-Name
-- The name of the user
-Created
-- The number of content items created by a specific user within the selected date range
-Updated
-- The total number of times a specific user has edited content within the selected date range
-Comments
-- The total number of times a specific user has commented on content within the selected the date range
-Search
-- The total number of times a specific user has performed a search within the selected date range
-Views
-- The total number of times a user has viewed content within the selected date range
-Export reports on users
-You can export a Microsoft Excel report of analytics for the users on your site.
-Select
-Export as CSV
-on the top right of the
-Users
-tab. The file, with data separated by commas, will download automatically.
-View insights on searches in your site
-From the
-Searches
-tab of site analytics, you can view the following insights on terms users are searching for:
-Search term
-- The term users have searched for
-Searches
-- The total number of searches for the search term within the selected date range
-Users searched
--
-The number of unique users that have searched for the search term within the selected date range
-Click-through rate
-- The percentage of times users have clicked through to content from results after searching on the term within the selected date range
-Select a row to view additional insights for a specific search term:
-Searches
-– Charts how many times users searched for this term in the chosen date range
-Click-through rate
-– Charts how many times users selected a search result in the chosen date range
-Most-clicked content
-– The content from the search results that users most often selected, in the chosen date range
-Most-clicked spaces
-– The spaces from the search results that users most often selected, in the chosen date range
-The counts displayed in the main table may differ slightly from those shown after clicking on a row because our search insights are based on large-scale approximations. For more accurate counts in these cases, refer to the additional insights panel.
-Keep in mind that you’ll only see spaces and content that you have
-permission
-to view.
+If you see a
+Failed to load
+placeholder on your page or live doc that indicated the attached file has been deleted from the page or live doc (or another content item).
 Was this helpful?
 Yes
 No
@@ -556,17 +538,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-View Confluence analytics to see how content is performing
-View insights on your site
-View insights on spaces
-Content insights and analytics
-Turn on privacy mode for analytics data
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
 On this page
-View insights on your site's spaces
-Export reports on spaces
-View insights on your site's users
-Export reports on users
-View insights on searches in your site
+Insert a file, image, or video into your page
+Images and videos
+Files
+Delete files from your content
 Community
 Questions, discussions, and articles
 Accessibility

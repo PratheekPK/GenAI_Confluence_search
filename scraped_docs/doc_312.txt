@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/edit-features-for-a-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-data-from-notion-into-confluence/
 
-Edit features for a space | Confluence Cloud | Atlassian Support
+Import data from Notion into Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,66 +439,148 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Customize your space
+Create and organize work in Confluence Cloud
+Import data from other tools into Confluence
 Cloud
 Data Center
-Edit features for a space
-You can control which features are available within your space. To edit the features that appear in a space:
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
+Import data from Notion into Confluence
+You can import your content, users, and workspaces from Notion into Confluence spaces with the importing tool. This guide outlines the process of importing your content from Notion. Additionally, you can find detailed information on
+what content gets transferred
+and how it will look in Confluence.
+You must be a Notion workspace owner and have create space permission in Confluence to initiate the import process. Confluence site admins control space creation permissions.
+Upload Notion content
+To import content from Notion, you need to select the desired workspace or page with subpages, similar to exporting in Confluence. The process involves authorizing access and choosing between exporting the entire workspace or a selected page.
+Notion can only export the content you can access.
+Learn more about exporting from Notion
+The steps for importing an entire workspace or a selected page (with children pages) are similar.
+To select the content you want to import from Notion:
+In Confluence, select
+Spaces
+from the
+sidebar
+, then
+Import from other tools
 .
-Open the
-General
-menu
-and select
-Features
+Select
+Notion
 .
-Choose what appears in your space.
-Turning a feature off hides it from view, so people with permission to create and edit content can’t use it. However, automations and apps can still access these features, and turning a feature off won’t delete or otherwise impact existing content.
-Your permissions determine which capabilities and cards available in Space settings. Only app and space administrators can edit features for a space.
-Available features
-Feature
-Description
-Blogs
-Blogs are similar to pages, but they appear in their own section in the content tree, and they’re organized chronologically.
-Calendars
-Team Calendars
-allow you to create calendars for yourself and your team — and view other calendars from your organization — all in one place.
-Calendars are only available for customers with the Premium plan.
-Analytics
-Analytics
-gives you an overview of how a space is performing with insights about the popularity of different pages and blog posts within the space, as well as the space’s most active readers and contributors.
-Analytics is only available for customers with the Premium plan.
-Automation
-Automation
-eliminates busywork by allowing you to automate routine tasks, such as sending a weekly progress report on your team’s work or applying correct labels to newly created content.
-Automation is only available for customers with the Premium plan.
-Whiteboards
-Whiteboards
-let teams brainstorm collaboratively in real time. For example, you can use whiteboards to:
-Sketch out ideas visually with stickies, lines, and sections,
-Keep collaborative sessions on track with timers, and
-Vote on favorite concepts or solutions using stamps.
-Databases
-Databases
-allow teams to store and organize structured data in one place. For example, you can use databases to:
-Create a single source of truth for documentation and information,
-Track the progress of projects and tasks, and
-Assign work and track who is responsible for what and by when.
-Smart Links
-Smart Links
-help you centralize your team’s work by letting you access content from other apps directly in Confluence.
-Folders beta
-Folders
-are simple containers for related work that you can use to structure and organize a space just like you would on your computer, without providing any additional information or context upfront.
-This feature is currently in beta and only available to select participants.
-Live docs
-Live docs
-let you create and edit written content instantly without the extra step of publishing. Whenever you or your collaborators make updates to a live doc, those changes are reflected in real time.
+Select one of the two options:
+Entire Notion workspace
+- This is the equivalent of exporting a space in Confluence.
+Selected page with subpages
+- This is the equivalent of exporting a single page, or a page with child pages in Confluence.
+Upload your Notion zip file.
+Select
+Next
+.
+You can continue to the next step while the file is uploading in the background. Want to know more about how your content will look?
+Visit our FAQ page
+Transfer users
+Only organization admins can transfer users.
+Map Notion members to their Confluence profiles
+To export certain page and user data, you need to log in with OAuth authentication and create an access token. OAuth authentication allows the importer to map users from Notion and Confluence, mapping users on elements like @mentions, page comments, creator, and editor information.
+If you don’t want to map Notion users, you can deselect the toggle, select
+Next
+, and skip ahead to the
+Set up spaces
+section.
+To retain comments, @mentions, and more, log in to your Notion account:
+Select
+Log in to Notion
+.
+Enter your log in information, then
+Select pages
+. (Make sure that they are the same pages that you exported in your file.)
+Select each checkbox for the content you want to transfer, then
+Allow access
+.
+Ensure that you are selecting the same content in the OAuth step as the content you have uploaded in your Notion file.
+If you want to create Confluence accounts, enable the
+Add remaining members to Confluence
+toggle.
+Add remaining members to Confluence
+Enable the Add remaining members to Confluence toggle to create Confluence accounts for any Notion members that don’t already have one so we can add their names to pages, comments, and @mentions.
+Note
+: New users won’t automatically receive an email invite to join.
+Here’s how to send them an invite
+Adding users can affect your plan and may result in additional fees. They’ll be added to your plan immediately after you start the import.
+Check out our FAQ for information about user and storage limits
+Copy Notion page permissions
+To transfer permission and user group data, you need an access token.
+You may see slightly different steps depending on which browser you use.
+Permissions map to the time when you select
+Start import
+, not when you upload your Notion file.
+To create an access token:
+Select
+Add an access token
+.
+Go to
+www.notion.so
+in your browser (make sure you are logged into just one account).
+Right-click anywhere on the screen and select
+Inspect Element
+to open
+Developer tools
+.
+Go to the
+Storage
+tab.
+In the sidebar, select the ⏵ toggle next to
+Cookies
+folder to expand it.
+Select
+www.notion.so
+.
+Find the entry named
+token_v2
+and double-click on it to open details.
+Select the text in the
+Value
+field, then copy it (Cmd/Ctrl + C).
+Paste this token into the
+Notion access token
+text box, then select
+Submit
+.
+Set up spaces
+Each Notion teamspace will become a Confluence space. Set the permissions to determine who can access them. Additionally, private content is added to a new, restricted space.
+To configure your new spaces:
+If you’re importing pages only (not an entire workspace), enter a name for the new space in Confluence.
+Select the restrictions to apply to
+all
+spaces:
+Restricted to you
+- only you will be able to view and access the content.
+Note:
+because only you will be able to access the content, all pages and comments will be labeled as created by you (the importing user).
+Default space permissions
+- apply your organization’s default restrictions.
+Note:
+If your organization uses open permissions by default, private content may be exposed. If you’re unsure, use
+Restricted to you
+and then update the restrictions after the import.
+Notion permissions
+- apply the equivalent restrictions from your Notion workspace or pages to the newly created content.
+Note:
+This space restriction option is only available if you select “Copy Notion page permissions” in the previous Users step.
+Select
+Next
+.
+Review and start the import
+You’ll have a chance to review everything before you start the import process. Make sure everything looks correct. Select a step to edit anything that doesn’t look correct.
+After the upload is complete, select
+Start import
+. This process can take a while. Depending on the complexity, bandwidth, size of the transfer, and other factors, it can take a few hours or more to finish. You will receive a notification email when the import is complete.
+Review the notification email
+When the process is complete, you’ll receive an email summary from the importer.
+This process can take a while. Depending on the complexity, bandwidth, size of the transfer, and other factors, it can take a few hours or more to finish.
+Congratulations! You’ll receive a notification email confirming the transfer is complete. You successfully imported your Notion content and can get started right away. If you encounter any errors or failure notifications in the email, read our
+troubleshooting
+article for common fixes.
+Note:
+New users won’t automatically receive an email invite to join.
+Here’s how to send them an invite
 Was this helpful?
 Yes
 No
@@ -506,10 +591,23 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Customize your space
-Apply a theme to a space
-Change the space name and logo
-Edit features for a space
+Import data from other tools into Confluence
+Show more
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Show more
+On this page
+Upload Notion content
+Transfer users
+Map Notion members to their Confluence profiles
+Add remaining members to Confluence
+Copy Notion page permissions
+Set up spaces
+Review and start the import
+Review the notification email
 Community
 Questions, discussions, and articles
 Accessibility

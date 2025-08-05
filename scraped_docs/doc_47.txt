@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-uploaded-files/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-data-into-your-database/
 
-Manage uploaded files | Confluence Cloud | Atlassian Support
+Import data into your database | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,161 +440,73 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Upload and manage files
+Create and edit databases
 Cloud
 Data Center
-Manage uploaded files
-Files you
-upload
-can be attached to pages and live docs in Confluence. Once a file is attached, you can download, delete, or edit it by uploading a new version.
-Downloading attached files
-Any user with permission to view content can download files that are attached to it.
-To download a file attached to content:
-Open the content in Confluence Cloud.
-Select
-to open the more options menu, then select
-Attachments
+Import data into your database
+Databases aren’t available in the
+Atlassian Government environment
 .
-Right click on the name of the file you’d like to download to save it to your computer, or select
-Download All
-(at the bottom of the table) to download all files attached to the page as a single zip file.
-There's no option to download all attachments in a space at once.
-Delete an attached file
-Anyone with the
-Delete Attachment
-space permission can delete a file that is attached to a page. However, you must also have the
-Space Administrator
-permission to delete a specific version of a file.
-To delete a file that is attached to content:
-Open the content in Confluence Cloud.
-Select  to open the more options menu, then select
-Attachments
-.
-Select
-Delete
-next to the attachment you want to delete.
-Select
-OK
-to confirm.
-There is no option to delete all files on a given piece of content at once.
-If you don’t see the
-Delete
-button in Step 3, you probably don’t have the permissions needed to delete attachments from a page. Contact a space administrator to request this permission (you can find a list of space administrators at the bottom of the page in
-Space settings
->
-Manage space
->
-Space details
-).
-To delete a specific version of a file:
-Open the page, whiteboard, or blog post in
-Confluence Cloud
-.
-Select
-to open the more options menu, then select
-Attachments
-.
-Select the expand arrow (
-) to the left of the attachment’s name to see a list of all available versions of the attachment.
-Select
-Delete
-next to the version you want to delete.
-Select
-OK
-to confirm.
-Space administrators can restore files from the trash, but when a specific version is deleted, it cannot be restored.
-Upload a new version of an attached file
-To upload a new version of an attached file:
-Open the page, whiteboard, or blog post in
-Confluence Cloud
-.
-Do either of the following:
-Upload a file with the same name as the current version to the page,
-OR
-Select the file to preview it, then select the up arrow icon. This allows you to upload a new version of an image or PDF that has a different name than the original.
-To view versions of your attachments:
-Open the page, whiteboard, or blog post in
-Confluence Cloud
-.
-Select
-to open the more options menu, then select
-Attachments
-..
-Select the expand arrow (
-) to the left of the attachment’s name.
-All available versions of the attachment will appear below it in the table.
-You can download or share previous versions of an attachment, but it is not possible to revert to a previous version.
-Move a file to another item
-You'll need the
-Add Content
-,
-Add Attachment
-, and
-Remove Attachment
-space permissions to move an attached file to another item.
-To change the page that a file is attached to:
-Open the page, whiteboard, or blog post in
-Confluence Cloud
-.
-Select
-to open the more options menu, then select
-Attachments
-.
-Select
-Properties
-next to the attachment you want to move.
-In the
-Page
-field, enter the name of the destination item for the attachment (for example,
-My Destination Page
-). If the destination item is in another space, include the space key at the beginning of the item name (for example,
-DOC:My Destination Page
-).
-Select
-Save
-.
-Note that the image will not appear on the content itself, but only as one of the content attachments visible in the attachments view ( >
-Attachments
-) and the
-Attachments macro
-.
-Edit properties of an attached file
-You'll need the
-Add Attachment
-permission in the space to edit the file properties.
-To edit the properties of an attached file:
-Select
-to open the more options menu, then select
-Attachments
-..
-Click
-Properties
-next to the attachment you want to edit.
-This allows you to:
-Change the file name
-Add a comment (used in the version list and also by the Snapshot image effect)
-Change the MIME type
-Move the attachment to another item
-Add a label to the file
-Changing the MIME type may cause your file to display incorrectly.
-View all attached files in a space
-To view all the files in a space:
-Go to the space in
-Confluence Cloud
-.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Attachments
-from the
-Content
-card.
-Alternately, you can
-insert the space attachments macro
-on a page or live doc to display a list of all the attachments in a space. If you use this method, you can use the filters to display only files with a particular label or file extension.
+Importing data into your database is a straightforward process. This guide will help you through each step, from uploading your content to fine-tuning the imported entries.
+Upload content into your database
+There are three main ways to upload structured content into your database:
+Copy and paste
+:
+Directly copy the content from a database and paste it into another database.
+Connect:
+Select the
+Templates and import
+option
+in the
+•••
+(More) menu of your database. This will open the
+Database setup
+panel. Under the
+Connect
+heading, you’ll see options for connecting to Jira or Confluence.
+Using these options, you can import Jira issues or Confluence pages directly into your database. This will replace the current database, removing any fields and values in it.
+Import
+:
+Select the
+Templates and Import
+option of your database. This will open the
+Database setup
+panel.
+Under the
+Import
+heading, you can upload files in CSV format.
+Setting up your database structure
+When using the
+Import
+option, you can either let the imported data match your pre-configured database structure, or let the imported file set your initial database structure through automatic detection of field types and headers.
+If you are importing to an empty database, the imported content will replace the existing database once you upload your file.
+If you are importing to a non-empty database, you’ll see an additional dialog step with three options:
+Create new fields in this database
+: Values will be added as new fields to the right and bottom of the existing data, offering flexibility to compare the new data side-by-side with existing data or re-arrange the new data.
+Add data to existing fields
+: Opens an additional dialog step where you can manually match columns from your CSV to existing fields in your database.
+Replace the entire database
+: Replace all existing values and fields from your csv data.
+Once you make a selection, select
+Confirm
+to apply the changes to your database.
+Fine-tune imported data
+If you opt to
+create new fields in this database
+or
+replace the entire database,
+the import process will automatically detect field types for numbers, tags, and Smart Links, defaulting to text.
+Importing larger CSVs will result in a more accurate conversion for the tag field.
+The first row of the CSV will be used as field names, using default field names for any empty values and renaming duplicates as needed.
+After import, you can further modify your database structure:
+Use the field settings panel to convert field types, rename your field, or otherwise change field settings.
+Use copy/paste to re-arrange the data.
+Delete content as you see fit.
+By following these steps, you can efficiently import and integrate data into your database.
+Note:
+String fields in CSV may get converted to tag fields. This generally happens if most of the values in CSV are non unique.
+Confluence databases assume month comes first for dates, so 12/06/2025 will be treated as December 6, 2025 rather than Jun 12, 2025.
+We do not support date field through autoconversion/autodetection.
 Was this helpful?
 Yes
 No
@@ -602,18 +517,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Upload and manage files
-Upload a file
-Display files and images
-Manage uploaded files
-Share and comment on files
+Create and edit databases
+Show more
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Show more
 On this page
-Downloading attached files
-Delete an attached file
-Upload a new version of an attached file
-Move a file to another item
-Edit properties of an attached file
-View all attached files in a space
+Upload content into your database
+Setting up your database structure
+Fine-tune imported data
 Community
 Questions, discussions, and articles
 Accessibility

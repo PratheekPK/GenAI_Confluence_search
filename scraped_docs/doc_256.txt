@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/get-started-with-smart-link-embeds/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-attachment-size/
 
-Get started with Smart Links in the content tree | Confluence Cloud | Atlassian Support
+Configure attachment size | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,36 +439,36 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Get started with Smart Links in the content tree
-Smart Links in the content tree let you link content directly in your content tree, so you can organize and access work from all your products in your space.
-Add a Smart Link to the content tree
-There are two ways to add a Smart Link to the content tree.
+Configure attachment size
+Confluence Cloud
+gives you the option of limiting the maximum size of a single file attachment.
+To configure the maximum size allowed for an attachment:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
 Select
-Create
-in the main navigation, then
-Smart Link
-. This will create in the space you are currently in or will default to your personal space/whichever space you have edit permissions.
+Configuration
+>
+General configuration
+.
+Scroll down to
+Attachment settings
+.
+Enter your preferred maximum size (in bytes) In the
+Attachment maximum size
+field. The default is 100 megabytes, expressed as 104857600 bytes.
 Select
-in the Content section of the space sidebar, then
-Smart Link.
-This will create the Smart Link in the content tree directly where you want it.
-After selecting
-Smart Link
-, you’ll be prompted for a URL. Select
-Add Smart Link
-to finish.
-What can you do with a Smart Link in the content tree?
-Assuming you have all necessary permissions for the linked content, some Smart Links will have expanded functionality directly in Confluence (for example, playing a video or adding to a document). The degree of interaction within Confluence may vary depending on the source product and other factors.
-Not every URL can fully display within Confluence. Some products will only show a preview of the content and relevant metadata.
-Restrictions and Smart Links in the content tree
-When you add a Smart Link to the content tree, the link you’ve added inherits the default permissions of the object above it (or, generally, the space where you’ve placed it).
-You can’t set additional restrictions on a Smart Link within Confluence. However, permissions on the added link might affect who can engage with the content.
-Viewing something via a Smart Link in Confluence doesn’t imply permissions to interact with the content in the source product.
-What data is sent and received when pasting a Smart Link?
+Save configuration changes
+.
 Was this helpful?
 Yes
 No
@@ -476,18 +479,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Configuration settings in Confluence Cloud
 Show more
-Bring all your work into Confluence
-Insert links and anchors
-Get started with Smart Links in the content tree
-What data is sent and received when pasting a Smart Link?
-Insert and manage links on your pages and live docs
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
 Show more
-On this page
-Add a Smart Link to the content tree
-What can you do with a Smart Link in the content tree?
-Restrictions and Smart Links in the content tree
 Community
 Questions, discussions, and articles
 Accessibility

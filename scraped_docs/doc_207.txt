@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-anchor-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-watchers/
 
-Insert the anchor link macro | Confluence Cloud | Atlassian Support
+Manage page watchers | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,34 +439,41 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to add navigation on Confluence pages
+Space administration
+Manage content in a space
 Cloud
 Data Center
-Insert the anchor link macro
-The anchor link macro allows you to hyperlink to a specific part of a page or live doc so that a reader can jump directly to that section upon selecting it. These can be especially useful for allowing your readers to navigate to specific parts of a long document. Anchor links are invisible to the reader when on a page in view-only mode.
-To add the anchor link macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-After you've inserted the anchor link, you can create a
-link to that anchor
+Manage page watchers
+If you’re a
+space admin
+, you may want to manage who's notified about changes and updates to pages and blog posts within a space. You'll do this by adding or removing the watchers of specific pages, blog posts, or the entire space.
+For example, a new team member needs to know when changes are made in the team space. You can add them as a space watcher, so they get notifications when any page or blog post is changed in the space. Or, you may have a team member who needs to know about updates to a specific page only. You can add them as a watcher of that page. If someone no longer needs to be notified, you can remove them as a watcher. (Though they may choose to watch the page or space again later.)
+You can only manage the watchers of a space — and the pages or blogs within it — if you're an admin of that space. If you don’t see the option to
+Manage watchers
+, you might not have Admin permission for that particular space.
+Space administrators can’t add watchers when on the Free plan or if part of a paid plan trial period.
+To manage watchers:
+Go to a page or blog post in the space where you'd like to add or remove watchers.
+Select
+>
+Manage Watchers
 .
-To edit the anchor link macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
+Specify which list of watchers you’d like to manage:
+Select
+Page
+to manage watchers of that page or blog post
+Select
+Space
+to manage watchers of the current space
+To add a watcher, type a name in the
+Add watchers
+field.
+To remove a watcher, select
+Remove
+next to their name in the list.
+Adding or removing someone as a watcher will not prevent them from using the
+Watch
+feature for that particular page or space in the future.
 Was this helpful?
 Yes
 No
@@ -474,13 +484,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add navigation on Confluence pages
-Insert the anchor link macro
-Insert the Live Search macro
-Insert the Page Index macro
-Insert the content tree macro
-Insert the page tree search macro
-Show more
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
 Community
 Questions, discussions, and articles
 Accessibility

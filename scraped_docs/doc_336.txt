@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/make-a-space-public/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-google-calendar/
 
-Make a space public with anonymous access | Confluence Cloud | Atlassian Support
+Subscribe to Team Calendars from Google Calendar | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,103 +439,46 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Manage permissions at the space level
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Make a space public with anonymous access
-Giving anonymous users access to your space lets you share the content in it externally with anyone who might need it, inside or outside your organization.
-Anyone on the internet will be able to find and access
-When you make your content available to anonymous users, this means
-anyone on the internet
-. The anonymous access feature can’t accommodate sharing with some anonymous people and not others. It’s all or nothing.
-If anonymous users have access to your site (managed in global permissions) your content will be
-indexed by search engines
-. In other words, your content will show up in Google searches.
-To learn more about anonymous access, what exactly an anonymous user is, what happens when anonymous users have access to your site, and how to enable it for your site, see
-Share your site externally with anonymous access
-.
-When would anonymous access be useful?
-Using anonymous access to share externally is best when you want to share a lot of content with nonspecific people (aka, anyone on the internet).
-Examples of this kind of content could be:
-a publicly available roadmap
-an open knowledge base
-support documentation
-Decide what anonymous users can access
-Anonymous access to content can be controlled at different levels:
-Site
-– At the site level (in global permissions), the Confluence admin or site admin decides whether to grant anonymous users any access to the site.
-Space
-–
-If anonymous access is allowed at the site level, it’s then up to the space admins to decide whether they want to grant anonymous users any access to their space. If space access is granted, then anonymous users will have access to all content in the space, unless restricted on the content items themselves.
-Content
-–
-Anonymous users are restricted from viewing content when its access setting is
-Only specific people can view or edit
-. Or when one of its parent items has been set so that only specific people can access, which means that view restriction inherits down to all of its nested items.
-Give anonymous users access to your space
-Spaces have their own level of control for anonymous users that can be controlled independently of whatever access is granted at the site level. Unlike logged-in users who get access to everything unless manually restricted, anonymous users start with no access and must be manually given access.
-Although space permissions can be granted to anonymous users at any time, anonymous access must be
-enabled at the site level
-for anonymous users to successfully access the space.
-To give anonymous users space access:
-Go to the space you want to make public.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
+Subscribe to Team Calendars from Google Calendar
+Integrating Team Calendars with your Google Calendar is a great way to keep track of your team's leave, travel, rosters, and projects, all in one place.
+Subscribe to Team Calendars from Google Calendar
+In Confluence:
+Choose
+to the right of your calendar, then choose
+Subscribe
+Choose the
+Add to Google Calendar
+button (if it's visible)
+If you don't see the
+Add to Google Calendar
+link, continue the process below.
+Copy the link URL
+In Google Calendar:
+Choose
+Add by URL
+from the
+Other Calendars
 menu
-and select
-Anonymous access.
-Select
-Edit.
-Check boxes under any of the available space permissions you want to give anonymous users.
-It’s recommended to only allow them the
-View
-permission. This will make space view-only for anonymous users.
-Select
-Save.
-Space admins can grant anonymous users all the same permissions as regular users, except anonymous users can’t be admins of a space. For a list of all space permissions that can be granted, see
-Assign space permissions
-.
-If anonymous users are granted access to the space, they’ll have access to
-all content within the space
-. To restrict them from content, you can either
-change its restrictions
-or
-hide it from the content tree
-.
-Restrict access to individual pages for anonymous users
-If anonymous users are granted access to the space, they’ll have access to
-all content within the space
-. To restrict them from accessing content, you can either
-change its restrictions
-or
-hide it from the content tree
-.
-To restrict anonymous users from accessing content:
-Open the Restrictions dialog by selecting the lock icon on the content.
-Select
-Only specific people can view or edit
-in the dropdown (if not already selected). This step will remove access for everyone but you.
-Add any licensed users and groups that should have access to the content.
-Select
-Apply
-to save the changes. Now, only the people and groups listed in the dialog have access to the content.
-Custom emojis will display on public content by default
-If you want to prevent this and you’re an organization admin, you can go to
-Atlassian Administration
->
-Site settings
->
-Emoji
-and turn the toggle off for
-Allow custom emojis on publicly shared content
-. If custom emojis aren’t allowed on public content, they’ll display as text — their custom emoji name framed with two colons, such as
-:dancingbird:
+Paste the Team Calendars URL into Google Calendars
+Known issues and limitations
+These limitations are due to different issues in Google Calendar.
+Google Calendar refresh times are delayed. They range from 3 hours to 24 hours.
+Subscriptions are read-only (you cannot modify events from Google Calendar).
+Subscribed Team Calendars names are truncated if they have a space in the title.
+Troubleshooting
+Adding a calendar to Google Calendars may give you this error: "Could not fetch the url because robots.txt prevents us from crawling the url." This means your administrator doesn’t allow search engines to index your servers. An administrator will need to modify your
+robots.txt
+to allow Google to index Team Calendars.
+In your
+robots.txt
+file, add the following line:
+User-agent: *
+...
+Allow: /rest/calendar-services/1.0/calendar/export/subcalendar/private/*
 Was this helpful?
 Yes
 No
@@ -543,17 +489,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage permissions at the space level
-What are space permissions?
-Copy space permissions
-Assign space permissions
-Make a space public with anonymous access
-Assign Questions for Confluence permissions
+Use Team Calendars for Confluence (Premium feature)
+Show more
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Show more
 On this page
-When would anonymous access be useful?
-Decide what anonymous users can access
-Give anonymous users access to your space
-Restrict access to individual pages for anonymous users
+Subscribe to Team Calendars from Google Calendar
+Known issues and limitations
+Troubleshooting
 Community
 Questions, discussions, and articles
 Accessibility

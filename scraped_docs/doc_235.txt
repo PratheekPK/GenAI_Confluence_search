@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-excerpt-include-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-questions-for-confluence/
 
-Add excerpts to a page or live doc with the insert excerpt macro | Confluence Cloud | Atlassian Support
+Manage Questions for Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,70 +439,19 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Space administration
 Cloud
 Data Center
-Add excerpts to a page or live doc with the insert excerpt macro
-The insert excerpt macro is used to display an excerpt of content from one page or live doc on another.
-Before you can insert an excerpt on a page or live doc using this macro, the excerpt must first be created using the
-excerpt macro
-and preferably given a unique name. You can create more than one excerpt on a single source page or doc. You can include more than one excerpt on any given page or doc as well.
-To add an excerpt to a page or live doc:
-From the editor, select
-from the toolbar to bring up the insert menu. You can also type
-/insertexcerpt
-right in the body of your page or doc to select this macro from the insert menu.
-Find the
-Insert excerpt
-macro and select it. Upon selection, a modal will appear.
-In the
-Source page
-field, search and select the page or doc from which you want to source your excerpt.
-From the
-Excerpt name
-dropdown, select the name of the excerpt you’d like to insert.
-If you encounter an untitled or duplicate named excerpt in the dropdown list, you may want to first give each excerpt a unique name on the source page before making a selection.
-You can opt to keep or remove the title and frame when displaying your excerpt. Select
-Preview
-to see what the excerpt will look like before inserting it.
-Select
-Insert
-to add the excerpt to your page or doc.
-To edit an existing insert excerpt macro:
-From the editor, select the excerpt you want to configure.
-Select the
-Edit
-icon (
-) to open the modal.
-Configure the source page, selected excerpt, title and frame, and preview as needed.
-Select
-Insert
-to confirm your changes.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Source page
-(default-parameter
-)
-none
-Type the name of the page or doc that contains the excerpt to be displayed. You can use an excerpt from a page or doc in the same space or another space altogether.
-When you type the name of the page or doc into the insert excerpt macro dialog, Confluence will offer a list of matching content, including those from other spaces.
-Upon selecting a page or doc, the space key will appear before the title in the input box.
-Alternatively, you can type the space key followed by a colon (:) and the title, like this:
-SPACEKEY:Page name
-Remove title + frame
-(nopanel
-)
-false
-Determines whether Confluence will display a frame around the excerpted content along with its title. By default, the frame and title are shown.
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Set up Questions for Confluence and use it to create a community in Confluence.
+View topic
+Administer questions
+Manage questions in a Confluence Cloud space.
+View topic
+Integrate questions with your spaces
+Discover how to integrate questions into your spaces in Confluence Cloud.
+View topic
 Was this helpful?
 Yes
 No
@@ -510,14 +462,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
+Explore more
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Space administration
 Show more
-Insert the decision report macro
-Insert the excerpt macro
-Add excerpts to a page or live doc with the insert excerpt macro
-Insert the include content macro
-Insert the labels list macro
-Show more
+Remove a space
+Create templates, blueprints, and reports
+Manage team calendars
+Manage Questions for Confluence
+Customize your space
 Community
 Questions, discussions, and articles
 Accessibility

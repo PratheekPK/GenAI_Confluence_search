@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/duplicate-a-database-setup/
+URL: https://support.atlassian.com/confluence-cloud/docs/change-your-confluence-password/
 
-Duplicate a database setup | Confluence Cloud | Atlassian Support
+Change your Confluence password | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,40 +439,43 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Manage your account and permissions in Confluence Cloud
+Manage your account
 Cloud
 Data Center
-Duplicate a database setup
-Databases aren’t available in the
-Atlassian Government environment
+Change your Confluence password
+There are a couple of reasons why you’d want to change your Confluence password:
+You're logged in and want or need to change your password
+You've forgotten your password and can't log in, and so need to reset your password
+If you have a managed account, you'll need to either go to the system account settings or ask your administrator to change your password. See
+What are managed accounts?
+to learn more.
+To change your password while logged in:
+Select your profile picture at the right of the navigation, then select
+Profile
 .
-A good database structure can take time to setup perfectly. So don't let everyone in your company figure it out alone. Instead, enable other teams to use your progress by copying a database structure.
-This article will teach you how to copy your database setup to another space and what limitations to look out for.
-How to copy your database structure
-Copying the database structure does not mean copying the values and entries in a database. Use
-Copy
-from the More menu next to share an exact copy of both the data and structure
-Navigate to your database.
-Open more menu and select
-Copy structure
-.
-Enter a name and select a space for your new database.
 Select
-Copy
-to create and open the new copy of your database.
-Limitations
-This process copies your database structure. Please make sure to copy over excluded elements if needed manually.
-What is copied:
-Database name (set during copy)
-Settings
-Fields and their field settings
-Saved views and their view options
-What isn't copied:
-Permissions
-Links to database embeds
-Database page (selected as parent page in your page link settings)
-Space templates (selected as default content in your page link settings)
+Manage your account
+, then choose
+Security
+from the top navigation.
+Enter your current password and your new password in the form displayed.
+Tap
+Save changes
+.
+To reset your password from the login screen:
+Go to the login screen for your Confluence site.
+Choose
+Can't log in?
+at the bottom of the page.
+Enter your email address, then tap
+Send recovery link
+.
+Click the recovery link in the email to finish the process.
+Password policy
+By default, all Atlassian account passwords must be a minimum of eight characters. There are no other requirements around resets or expiration.  Site-specific password policies can be established by the site's administrator using
+Atlassian Guard Standard
+.
 Was this helpful?
 Yes
 No
@@ -480,17 +486,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
 Show more
-Import data into your database
-Export your database data
-Duplicate a database setup
-Lock your database structure
-What Confluence databases don't support
-Show more
-On this page
-How to copy your database structure
-Limitations
 Community
 Questions, discussions, and articles
 Accessibility

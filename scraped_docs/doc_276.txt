@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-cheese-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/upload-a-file/
 
-Insert the cheese macro | Confluence Cloud | Atlassian Support
+Upload a file | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,48 +440,68 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Upload and manage files
 Cloud
 Data Center
-Insert the cheese macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Cheese macro simply displays the words "I like cheese!" You can use this macro to test the Confluence macro functionality.
-To add the Cheese macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Cheese macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-There are no parameters for this macro.
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-cheese
-Macro body:
-None.
-Parameters:
-None
-{cheese}
+Upload a file
+You can upload files as a an image, document, or web link to your content.
+Uploaded files can be viewed as:
+An image,
+A link, or
+Embedded in the page or live doc by using multimedia macros such as
+Cards
+, a
+Gallery
+, or
+Charts
+.
+To upload a file, you'll need
+Add Attachments
+permission for your Space. Otherwise, the relevant options in the editing toolbar will not appear.
+Upload a file
+There are several ways to attach a file to a page or live doc you are editing:
+Drag the file directly onto the page or doc.
+Select the
+Add image, video, or file
+icon in the toolbar, and upload a file or link.
+Type the
+/image
+command. It will open a popup for file or link uploads.
+You can upload multiple files at once.
+Images added via URL may use part of the URL as their attachment name, without an extension. You can rename files via the
+...
+menu →
+Attachments
+→
+Files
+→
+Properties
+.
+View-only uploads
+To attach file to a page or live doc you are viewing:
+Drag the file directly onto the page or doc, or
+Go to the
+...
+menu →
+Attachments
+→
+Files
+.
+Accepted file types and size
+The admin of your Atlassian license specifies the attachment size limit.
+The default size limit is 100 MB.
+Most file types can be attached.
+Not all file types can be displayed on or embedded in a page or doc.
+Folders cannot attach to pages or live docs
+You cannot attach folders (including folders created by applications like Keynote).
+If you'd like to upload a folder, export it to a zip file or other compressed format, then upload to Confluence.
+File versions
+Confluence maintains version history for all attachments.
+If you upload a file with the same name as an existing attachment on the same page or doc, Confluence overwrites the existing attachment.
+To update a file you've attached to a Confluence page or doc, upload a new version of the file.
+Changes you make to the source file won't affect attachments in Confluence.
+Avoid using special characters in page, live doc, or attachment names, as the page, live doc, or attachment may not be found by Confluence search and may cause some Confluence functions to behave unexpectedly.
+Learn more about managing uploaded files
 Was this helpful?
 Yes
 No
@@ -489,6 +512,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+On this page
+Upload a file
+View-only uploads
+Accepted file types and size
+Folders cannot attach to pages or live docs
+File versions
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/summarize-a-page-or-blog-using-atlassian-intelligence/
+URL: https://support.atlassian.com/confluence-cloud/docs/delete-or-disable-a-template/
 
-Summarize a page, live doc, or blog using Atlassian Intelligence | Confluence Cloud | Atlassian Support
+Delete or disable a template | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,29 +440,50 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Atlassian Intelligence features in Confluence Cloud
+Use spaces to organize your work
 Cloud
 Data Center
-Summarize a page, live doc, or blog using Atlassian Intelligence
-Save time and get the details you need to do your work faster by generating a quick summary with
-Atlassian Intelligence
+Delete or disable a template
+Space admins can delete templates from the spaces they administer to make them inaccessible. To learn about deleting and disabling global templates, see
+Delete or disable a global template
 .
-Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
-Settings > Atlassian Intelligence
-in Atlassian Administration.
-Atlassian Intelligence isn’t available for
-Atlassian Government
-apps.
-Summarize a Confluence page, live doc, or blog with Atlassian Intelligence
-Navigate to the Confluence page, live doc, or blog post you want to summarize.
-Select
-Summarize
-from the bottom right of the screen.
-Atlassian Intelligence will generate a summary of the content.
-You can rate the quality of the summary and provide feedback.
-A summary will not generate if there isn’t enough content to summarize or if summarizing the content might go against Atlassian’s Acceptable Use Policy.
-For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
-the Atlassian Trust Center
+To delete a template:
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Look and Feel
+menu
+, then select
+Templates
+.
+Find the template in the table and select
+Delete
+.
+This is permanent: once a template has been deleted, it cannot be restored.
+You can also disable a blueprint in a specific space. Unlike deleting a template, which is permanent and cannot be undone, you can enable a disabled blueprint at any time.
+To disable a blueprint:
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Look and Feel
+menu
+, then select
+Templates
+.
+Find the blueprint in the list and select
+Disable
 .
 Was this helpful?
 Yes
@@ -471,14 +495,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Atlassian Intelligence features in Confluence Cloud
+Use spaces to organize your work
 Show more
-Use Atlassian Intelligence with Confluence automation
-Learn about pre-defined prompts in Atlassian Intelligence
-Summarize a page, live doc, or blog using Atlassian Intelligence
-Summarize comments using Atlassian Intelligence
-Summarize changes with Atlassian Intelligence
-Show more
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
 Community
 Questions, discussions, and articles
 Accessibility

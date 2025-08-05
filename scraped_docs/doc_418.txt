@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/confluence-standard/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-spaces-to-organize-your-work/
 
-Confluence Standard  | Confluence Cloud | Atlassian Support
+Use spaces to organize your work | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,33 +439,37 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Considering Confluence Cloud?
-Confluence Cloud functionality and features
+Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Confluence Standard
-Confluence Standard helps teams of all sizes work effectively and collaborate. They can add and manage teams of 10+ to 10,000. Our Standard plan gives teams more flexibility, content management and user management controls, and personalized support. It includes features like space and content permissions, content insights, content archive, audit logs, anonymous access, 9-5 support, and 250 GB of storage.
-Here’s a breakdown of our
-Standard
-features:
-User limit
-With Standard, you can add 10+ users (up to 20,000) on one instance.
-Storage
-250 GB for your team
-Support
-Access to our Confluence support experts
-Space and content permissions
-Assign, revoke, and modify space or content permissions to individual users, groups, or anonymous users (Free plans do not allow permission settings for spaces or pages).
-External Collaboration: Guests
-For each paid user, Admins can add up to 5 guests for no additional cost or licenses. Each guest is limited to a single space, but there are no limits to how many spaces can be shared or how many guests can be in each space.
-Archive and unarchive pages
-File away outdated content to keep content trees tidy with relevant content. Access archived content anytime for historical context.
-Content insights
-Get engagement analytics on content views, user views, and comments.
-Audit logs
-When you need to troubleshoot a problem or keep a record of important events, such as changes to global permissions, the audit log allows administrators to look back at changes that have been made in your site.
-Anonymous access
-Anonymous access makes your Confluence site publicly available, enabling access to your content to users outside of your organization. Confluence's anonymous access is most commonly used for customer-facing knowledge bases and documentation.
+Use spaces to organize your work
+What is a space?
+Learn about spaces and get tips for using them effectively.
+View topic
+Create a space
+Set up a space for your team or project.
+View topic
+Customize your personal space
+Find out how to customize and use the personal space created for you in Confluence
+View topic
+Navigate spaces
+Learn how spaces are set up and how to get around in them.
+View topic
+Organize your space
+Set up your space to meet the needs of your team or project mates.
+View topic
+Find content in a space
+Find the right content in your space by seeing more info at a glance
+View topic
+Customize your space's overview
+Create a useful landing page for your space.
+View topic
+Use labels to categorize spaces
+Use labels to tag content so that people can find it quickly.
+View topic
+Delete or disable a template
+Learn how to delete a template from your space.
+View topic
 Was this helpful?
 Yes
 No
@@ -473,10 +480,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Confluence Cloud functionality and features
-What is Confluence Cloud?
-Learn about the features of Confluence Cloud plans
-Confluence Standard
+Explore more
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Show more
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+Use spaces to organize your work
+Find content in Confluence Cloud
+Create and edit content
+Keep content organized
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

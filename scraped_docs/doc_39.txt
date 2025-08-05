@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/troubleshooting-import-data-from-notion-to-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/draw-freeform-lines-with-pen/
 
-Troubleshooting import data from Notion to Confluence | Confluence Cloud | Atlassian Support
+Draw freeform lines with pen | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,71 +440,43 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Import data from other tools into Confluence
+Create and edit whiteboards
 Cloud
 Data Center
-Troubleshooting import data from Notion to Confluence
-You can also find more information in our
-frequently asked questions
-article.
-Notifications
-You’ll receive a notification email when the import is complete. If the import was a success, the email will contain which spaces, pages, and users were transferred. If any imports partially or fully unsuccessful, you’ll receive a short indication about why it failed. The following table provides more information about each error message and steps you can take to solve them.
-Partial success
-If part of the import was successful, and part of it failed, you will receive one of the following notifications:
-Notification example
-How to fix it
-5 users couldn’t be imported.
-Check the missing user’s status in Notion and ensure that they are not deactivated. Retry importing content containing these users.
-1 space couldn’t be imported.
-Make yourself the workspace owner in Notion, if possible. Otherwise, contact the workspace owner or a Notion admin to add you as an owner for that workspace.
-11 pages couldn’t be imported, or were imported incorrectly.
-Go to Notion and create a new export file. Then, start the import process again.
-Note
-: It is difficult to determine the exact cause. You can also look through the FAQ article and see if any common scenarios apply.
-Failure
-If the import process failed, use the following table to figure out a solution and try again.
-Notification example
-How to fix it
-Your import from Notion was unsuccessful.
-Look through the
-FAQ article
-and see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
-Your import from Notion was unsuccessful.
-You have imported
-37 users
-from Notion.
-Make sure you use the same log in for the export and the OAuth authorization step:
-Log in to your workspace at
-www.notion.so
-to ensure your username and password are correct.
-Retry the import process
-using the same username and password for the OAuth authorization
-step.
-Ensure that the content from uploaded file matches the content selected during the OAuth authentication step.
-Your import from Notion was unsuccessful because
-we couldn’t get content from your export file
+Draw freeform lines with pen
+The whiteboards pen tool allows you to draw freely, enabling a more expressive and creative way to collaborate visually.
+Create with the pen tool
+Begin drawing on your whiteboard from your toolbox or by using the shortcut
+p
 .
-Ensure that the content you are uploading is:
-A zip file
-In HTML format
-From a Notion export.
-Then, retry the import process
-Your import from Notion was unsuccessful because
-we couldn’t retrieve users through Notion API
+Select the pen icon from the main toolbar.
+The pen tool will be activated, allowing you to draw on the whiteboard.
+Click and hold your mouse or stylus to start drawing. Release to finish your line.
+Edit a drawing
+You can edit your drawing’s formatting. Edits can also be made in bulk to a group of selected drawings.
+Select one or more by:
+selecting a single drawing
+selecting and dragging your cursor over multiple drawings
+selecting multiple drawings individually while holding Shift
+Use the toolbar to edit color and text formatting.
+Format drawings
+Width
+Adjust the line width using the toolbar. There are three width options
+Color
+To edit the color of a drawing:
+Select the drawing.
+Select the color picker in the floating toolbar.
+Select a new color.
+You can change drawing colors in bulk by selecting multiple sticky notes.
+Delete a drawing
+To delete a drawing from your whiteboard:
+Select one or more by:
+selecting a single drawing
+selecting and dragging your cursor over multiple drawings
+selecting multiple drawings individually while holding Shift
+Select
+Delete
 .
-Check that the token you’ve provided from Notion is correct and retry the import.
-Your import from Notion was unsuccessful because
-we couldn’t retrieve your metadata
-.
-This is a generic error. It is likely not one of the other issues listed here. Check out our FAQ article to see if any of those situations apply to your process.
-Your import from Notion was unsuccessful because
-we’ve failed to update pages with your content
-.
-4 spaces
-listed below were imported incorrectly, and only contain empty pages. You can delete them from their space settings.
-Ensure that the content you have uploaded matches the content you have selected during the OAuth authentication step. Try the import process again.
-Still need help?
-Take a look at our FAQ document
 Was this helpful?
 Yes
 No
@@ -512,17 +487,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Import data from other tools into Confluence
+Create and edit whiteboards
 Show more
-Import data from Notion into Confluence
-Import multiple Miro boards to Confluence
-Troubleshooting import data from HTML to Confluence
-Troubleshooting import data from Notion to Confluence
-Troubleshooting import multiple Miro boards to Confluence
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Show more
 On this page
-Notifications
-Partial success
-Failure
+Create with the pen tool
+Edit a drawing
+Format drawings
+Delete a drawing
 Community
 Questions, discussions, and articles
 Accessibility

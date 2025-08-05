@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-a-new-whiteboard/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-reminders-to-events/
 
-Create a new whiteboard | Confluence Cloud | Atlassian Support
+Add reminders to events | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,37 +439,56 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Create a new whiteboard
-Whiteboards aren’t available in
-Atlassian Government environments
+Add reminders to events
+There are some events that are just too important to miss, and you wouldn't want anyone in your team to miss them either.
+If you have edit permission for a calendar, you can set reminders for each
+event type
+so that anyone who's added the calendar to their 'My Calendars' page will receive an email at your chosen time.
+Add reminders to event types
+Choose
+>
+Edit
+Choose
+Event Types
+Choose the pencil
+icon to edit an event type
+Add your reminder time and choose
+Save
+Repeat steps 3 and 4 for each event type you're adding a reminder to
+Choose
+OK
+If you only want to add reminders to one event type, choose the
+to the right of the event type, then choose
+Add a reminder
 .
-There are two ways to create a whiteboard today in Confluence.
-Option 1 — Select the
-Create
-button in the navigation, and select ‘Whiteboard’. This will create a whiteboard in the space you are currently in or will default to your personal space/whichever space you have edit permissions.
-Option 2 — Select the
-+ button
-next to the Content section in the space
-sidebar
-, and select ‘Whiteboard’ to create a whiteboard in your space.
-You can also create a whiteboard under a page/whiteboard using the
-+ button
-that appears when hovering over the content’s title in the
-sidebar
-.
-Get started with a template
-When you land in a new whiteboard you will be prompted to select a template from our template picker.
-Select from a number of best-practice templates from the
-Atlassian Team Playbook
-to help you get started.
-Hover over a template in the template picker.
+From a reminder email you can click to view the event, or turn off reminders for the event type if you don't need them. To
+remove
+reminders for an event type, follow the above procedure and set the reminder time to 'None'.
+Remember, when you change reminders for an event type, you're changing reminders for anyone who's added the calendar to their My Calendars page.
+Turn reminder emails on or off
+You can decide whether or not you want to receive reminder emails for each event type on your My Calendars page. This isn't about adding or removing reminders for an event type; it's essentially opting-in to or opting-out of the reminder emails.
+To turn reminders on or off:
+Choose
+Calendars
+in the Confluence header
+Choose the
+to the right of an event type
 Select
-Use template.
-To prevent this picker from showing on each whiteboard load, uncheck the box ‘Show when creating a whiteboard'.
+Turn on reminders
+or
+Turn off reminders
+If it says
+Add a reminder
+when you get to step 3, it means there's no reminder set for the event type. Only choose that option if you want to
+set
+reminders for the event type, which will be sent to everyone who's added the calendar to their My Calendars page.
+You can also opt-out of reminder emails for an event type by clicking the
+Stop reminding me
+link in the reminder email.
 Was this helpful?
 Yes
 No
@@ -477,13 +499,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Getting started with Confluence whiteboards
-Create a new whiteboard
-Navigation tools in whiteboards
-Organize and explore ideas with sticky notes
-Use shapes to visualize ideas
+Use Team Calendars for Confluence (Premium feature)
 Show more
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Show more
+On this page
+Add reminders to event types
+Turn reminder emails on or off
 Community
 Questions, discussions, and articles
 Accessibility

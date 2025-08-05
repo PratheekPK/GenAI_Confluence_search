@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/get-started-with-confluence-databases/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-the-indexing-language/
 
-Get started with Confluence databases | Confluence Cloud | Atlassian Support
+Configure the indexing language | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,139 +439,39 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Get started with Confluence databases
-Databases aren’t available in the
-Atlassian Government environment
+Configure the indexing language
+Changing the indexing language defined in
+Confluence Cloud
+may improve the accuracy of your search results, especially if the majority of the content of your site is in a language other than English.
+Confluence Cloud
+supports content indexing in English (default), German, Russian, Chinese, CJK, Custom Japanese, French, Portuguese, Czech and Greek.
+To configure the indexing language:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+General configuration
 .
-Databases in Confluence allow teams to store and organize structured data in one place. For example, you could use databases to:
-Create a single source of truth for documentation and information
-Track the progress of projects and tasks
-Assign work and track who is responsible for what and by when
-We'll walk through how to create, configure, populate, display, and manage databases tailored to your team's needs.
-This guide provides the essentials to start building and connecting your content with databases in Confluence.
-While this feature is currently limited to Confluence, it will be able to connect to plug-ins and access data from your other Atlassian apps in order to provide its full functionality. For example, while it may only be turned on and available for use in your Confluence instance, it will be able to leverage information based on user permissions in linked Jira issues.
-Database tour
-Every Confluence database has the same sets of options. Take a look at our
-Database tour
-to see a quick walkthrough.
-Finding databases in Confluence
-All databases live within Confluence spaces.
-You can find your database via:
-Space content tree
-(formerly known as the content tree)
-Space content view
-Quick search
-Advanced search
-Recent activity
-Recent
-menu in the
-sidebar
-For you
-Create a new database
-There are three ways to create a database in Confluence:
-Select the
-Create
-button in the navigation, and select
-Database
+Scroll down to
+Internationalization
 .
 Select the
-+
-button next to the Content section in the space sidebar and select
-Database
-to create a database in your space.
-When editing, select
-+
-from the toolbar and find
-Create database
-or enter ‘
-/database
-.’
-See our article on creating databases for more details
-Create a database
-.
-Edit the database structure
-Each database in Confluence has a structure defined by the field types you configure. Each field type can hold different kinds of information. For more details on the available fields, see
-Database fields
-.
-To add a new field:
-In the table layout, select the
-+
-button in the upper right corner of the database.
-Search or select the type of field.
-Enter a name for the field.
-To edit a field:
-In the table layout, select the three dots next to the field name.
+Indexing language
+from the dropdown list.
 Select
-Edit field
+Save indexing language changes
 .
-Edit any of the values in the
-Field settings
-dialog.
-Close the
-Field settings
-dialog
-.
-To delete a field:
-In the table layout, select the handle at the top of each column to select one or more field columns.
-Select the trash can icon on the floating toolbar.
-All the selected field columns will be deleted.
-Deleting a field also removes that field’s data from all entries.
-Add entries and values
-Entries and values can be added directly to or modified when viewing a database linked on a page or live doc.
-To add an entry to a database:
-Select
-+ Add entry
-at the bottom of the database.
-Enter the values for the new entry.
-In the table layout, you can enter or update values directly in the table.
-In the card or board layout, an entry dialog will open.
-A database's fields or entries are not limited, but be aware that large databases can take longer to load and quickly become very complex.
-To delete an entry:
-In the table layout, select the handle to the left of each row to select one or more entry rows.
-Select the trash can icon on the floating toolbar.
-All the selected entry rows will be deleted.
-Display databases in other places
-How your information is presented can be critical to your team's success. Databases enable you to show data logically and use sorting or filtering to display the most relevant information to your team. You can display full database tables or data entries anywhere Smart Links are used. See
-Share databases, entries, or values
-.
-Currently, the ability to use the
-embed database
-or the
-database
-Macros is not enabled for Confluence Templates.
-Database views
-Database views allow you to customize how your Database is displayed in embeds and links. Views let you define options like layout, filtering, sorting, and visible fields that will apply across all usages of that Database. See
-Database views
-.
-When embedding a database using its URL, the view used when the URL is copied is automatically set as default for your embed.
-Manage databases
-This section covers actions like moving, deleting, restricting access, and sharing databases.
-Move or copy a database
-You can move or copy databases within or across Confluence spaces, just like pages and other content items. Any incoming links are maintained. You can also copy or move child items, boards, and databases under the parent.
-See the following topic for more information on moving and copying content in Confluence.
-Move, copy, and hide content items
-You can copy only the structure by selecting
-Copy structure
-from the Database More menu. This will create a new blank copy of the database with the same fields but without any entries or values.
-Delete, archive, or restore a database
-Deleting a database moves it to the space's trash. It can be restored until permanently deleted.
-See the following topic for more information on deleting and restoring content in Confluence.
-Delete, restore, or purge a content item
-Archiving removes a database from your active workspace without entirely deleting it.
-See the following topic for more information on archiving content in Confluence.
-Archive content items
-Database restrictions
-You can restrict database access and editing like other Confluence content. Database permissions are managed at the space level.
-See the following topic for more information on restricting content in Confluence.
-Change who can find content and what they can do with it
-Sharing databases
-Databases can be shared the same as other Confluence content like pages, live docs, and blogs.
-See the following topic for more information on sharing content in Confluence.
-Share Confluence content
 Was this helpful?
 Yes
 No
@@ -579,26 +482,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
-Get started with Confluence databases
-Database tour
-Create a database
-Database fields
-Share databases, entries, or values
+Configuration settings in Confluence Cloud
 Show more
-On this page
-Database tour
-Finding databases in Confluence
-Create a new database
-Edit the database structure
-Add entries and values
-Display databases in other places
-Database views
-Manage databases
-Move or copy a database
-Delete, archive, or restore a database
-Database restrictions
-Sharing databases
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

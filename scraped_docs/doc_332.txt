@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-add-visuals-and-images-to-confluence-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/turn-on-privacy-mode-for-analytics-data/
 
-Use macros to add visuals and images to Confluence pages | Confluence Cloud | Atlassian Support
+Turn on privacy mode for analytics data | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,28 +439,39 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Collaborate on content and get notified in Confluence Cloud
+View Confluence analytics to see how content is performing
 Cloud
 Data Center
-Use macros to add visuals and images to Confluence pages
-Insert the chart macro
-Display a chart (pie, bar, line, or area) based on data you added to a table.
-View topic
-Insert the iFrame macro
-Preview website content on your page or live doc.
-View topic
-Insert the roadmap planner macro
-Create simple, visual timelines that are useful for planning projects, software releases, and much more.
-View topic
-Add a trio of dynamic frames to your content with Carousel
-Add a rotating carousel of interactive frames to elevate your page or live doc.
-View topic
-Display beautiful, dynamic content on your page or live doc with Cards
-Add interactive visual cards to elevate your page or live doc. Select specific links or set up dynamic filters to update your cards automatically.
-View topic
-Insert the expand macro
-Use the expand macro to create a collapsible container for text.
-View topic
+Turn on privacy mode for analytics data
+Confluence admins can turn on privacy mode for  analytics. This will replace user names and avatars with a hashed user name.
+Privacy mode for Confluence
+Privacy mode will anonymize all existing analytics data by assigning a random user number to each account and displaying only this anonymized data in all analytics views. Future analytics data will also be recorded and shown as anonymized user data.
+When privacy mode is off, all data collected before it was used will again show accurate user names and avatars, but views recorded while privacy mode was in use will still show anonymized user data.
+Turn on privacy mode
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Under
+Settings
+, open the Security menu.
+Select
+Security configuration
+.
+Turn on
+Hide personal data in analytics
+.
+Select
+Save
+.
+Viewing page and space analytics in privacy mode
+Page analytics will show the recent history, but each viewer’s avatar and username will be replaced with a hashed username. Individual views by the same user are not recorded, which can lead to a inaccurate total view numbers.
+In space analytics, the
+Most active readers
+and
+Most active contributors
+elements and the
+Users
+tab will not appear.
 Was this helpful?
 Yes
 No
@@ -468,21 +482,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Insert the chart macro
-Insert the iFrame macro
-Insert the roadmap planner macro
-Add a trio of dynamic frames to your content with Carousel
-Display beautiful, dynamic content on your page or live doc with Cards
-Show more
-Extend the functionality of Confluence Cloud
-Show more
-Use macros to add navigation on Confluence pages
-Use macros to add reporting info to Confluence pages
-Use macros to add visuals and images to Confluence pages
-Use gadgets to add dynamic content
-Use Questions for Confluence
-Show more
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+On this page
+Privacy mode for Confluence
+Turn on privacy mode
+Viewing page and space analytics in privacy mode
 Community
 Questions, discussions, and articles
 Accessibility

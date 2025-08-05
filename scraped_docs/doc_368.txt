@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-excerpt-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/search-the-people-directory/
 
-Insert the excerpt macro | Confluence Cloud | Atlassian Support
+Search for people and teams | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,72 +439,21 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Create and organize work in Confluence Cloud
+Find content in Confluence Cloud
 Cloud
 Data Center
-Insert the excerpt macro
-The excerpt macro is used to mark a part of a page or live doc's content for reuse. Defining an excerpt enables other macros, such as the
-insert excerpt
-and
-Insert the blog posts macro
-macros, to display the marked content elsewhere.
-You can add multiple excerpts per page or doc and distinguish them from one another with a name you assign them. This allows you to create a page or doc full of blocks of content to reuse on other pages or docs. The content you add to the excerpt becomes the single source, which allows you to make a change in that one place, and all the pages that use the excerpt include macro to show that content will reflect the changes you made in the excerpt macro.
-To add the excerpt macro:
-In the Confluence editor, select
->
-View more
-Find the excerpt macro and select it. The macro placeholder is added and the right panel opens.
-Enter a name for the macro so that you can reference it on another page or live doc using the
-insert excerpt
-macro.
-If you don't give the macro a name, you will only be able to include the content from the first excerpt macro on a page or doc.
-Select the
-Hide excerpt on this page
-check box if you want the content inside the macro to be hidden.
-Add your content inside the excerpt macro placeholder in the page or doc. Most of the formatting options can be used, and elements in the toolbar can be inserted into the macro.
-You can also type
-/
-to bring up the same list you'd see by selecting from the toolbar.
-To edit the excerpt macro:
-Select the macro placeholder. The floating toolbar appears.
-Select
-Edit
-. The right panel opens.
-Modify the parameters. Your changes are saved as you go.
-Resume editing, and the panel closes.
-Parameters
-Parameters are options that you can set to control the content or format of the macro output. Where the parameter name used in Confluence storage format is different to the label used in the browser, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Excerpt name
-null
-Allows you to identify this macro so that you can add multiple Excerpt macros to one page or live doc and use a specific one on another page or doc using the Excerpt Include macro.
-Hide excerpt on this page
-(hidden
-)
-false
-Controls whether the content contained in the Excerpt macro placeholder is displayed on the page or live doc.
-This option affects only the page or doc that contains the Excerpt macro. It does not affect any pages or docs where the content is reused.
-The following additional parameter is available in storage format. It performs the same function as the options panel in the editor.
-Parameter name
-Required
-Default
-Parameter description and accepted values
-atlassian-macro-output-type
-No
-BLOCK
-Determines whether the content of the Excerpt macro body is displayed on a new line or inline.
-Available values:
-BLOCK
-– Displays the content of the macro on a new line
+Search for people and teams
+To view the people directory, select
+Teams
+in the
+sidebar
 .
-INLINE
-– Displays the the content of the macro as part of the same paragraph as the text preceding and following it.
-This option affects only the page or doc that contains the Excerpt macro. It does not affect any pages or docs where the content is reused.
+From under
+Teams
+, select
+Search teams
+to view or search for more people or teams. You can also add new teams or people to Confluence here.
 Was this helpful?
 Yes
 No
@@ -512,14 +464,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
-Show more
-Insert the create from template macro
-Insert the decision report macro
-Insert the excerpt macro
-Add excerpts to a page or live doc with the insert excerpt macro
-Insert the include content macro
-Show more
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
 Community
 Questions, discussions, and articles
 Accessibility

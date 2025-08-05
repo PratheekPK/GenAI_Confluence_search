@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/convert-legacy-pages-in-all-spaces/
+URL: https://support.atlassian.com/confluence-cloud/docs/space-administration/
 
-Convert legacy editor pages in all spaces | Confluence Cloud | Atlassian Support
+Space administration | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,66 +439,33 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Set Confluence-wide functionality
 Cloud
 Data Center
-Convert legacy editor pages in all spaces
-Coming soon: Deprecation of the legacy editor
-In June 2025, Atlassian
-announced the deprecation
-of the legacy editor. This will be a phased process beginning in January 2026. Find out more in the
-FAQ article
-.
-When the process is complete in April 2026, all editing will take place in the cloud editor. Until then, you will continue to have the option to update pages in the legacy editor. However, there are some downsides to continuing to use the legacy editor:
-No bugs fixed unless it's a major incident.
-No enhancements.
-Confluence admins can enable
-auto-conversion of all legacy pages
-within Confluence to the new editor.
-When page auto-conversion is turned on for the instance, users will see a banner notification at the top of each legacy page when they are in edit mode. The page will be previewed with new editor formatting, but won’t change until the page is updated.
-To enable auto-conversion of pages across Confluence:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Configuration
-in the left-hand navigation.
-Select
-General configuration
-.
-Find
-Convert pages automatically
-and check
-Enable.
-Select
-Save.
-If auto-conversion is enabled, eligible pages will be converted to the cloud editor when someone views the page. You will be able to revert to the legacy version in
-More actions (
-)
-menu. Select
-Revert to legacy editor
-.
-Was this helpful?
-Yes
-No
-It wasn't accurate
-It wasn't clear
-It wasn't relevant
-Provide feedback about this article
-Still need help?
-The Atlassian Community is here for you.
-Ask the Community
-Set Confluence-wide functionality
-Show more
-Create a custom space overview template
-Turn off page reactions
-Customize layout for PDF exports in Confluence Cloud
-Convert legacy editor pages in all spaces
-Configure live docs in Confluence
-Community
-Questions, discussions, and articles
+Space administration
+Set space-specific functionality
+Set default functionality for a space in Confluence Cloud.
+View topics
+Manage permissions at the space level
+Everything a space admin needs to know about managing permissions at the space level.
+View topics
+Manage content in a space
+See what space administrators can do to organize, update, export, or restore content.
+View topics
+Remove a space
+Learn the difference between archiving and deleting a space in Confluence Cloud.
+View topics
+Create templates, blueprints, and reports
+Use templates to jumpstart your page creation and maintain consistentency in how your information is presented.
+View topics
+Manage team calendars
+Learn what space administrators can do to manage team calendars in Confluence Cloud.
+View topics
+Manage Questions for Confluence
+Learn how space administrators can set up and manage Questions for Confluence.
+View topics
+Customize your space
+Learn how space admins can customize the look, feel, and functionality of a space.
+View topics
 Accessibility
 Notice at Collection
 Privacy Policy

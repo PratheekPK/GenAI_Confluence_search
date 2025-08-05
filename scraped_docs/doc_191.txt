@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-apps/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-confluence-for-technical-documentation/
 
-Manage your apps | Confluence Cloud | Atlassian Support
+Use Confluence for technical documentation | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,100 +439,213 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Atlassian Marketplace apps
+Considering Confluence Cloud?
+See how teams use Confluence Cloud
 Cloud
 Data Center
-Manage your apps
-About apps
-An app (sometimes called an add-on or plugin) is a separately installed component that provides Confluence functionality.
-There are two main types of apps:
-System apps - these are bundled with Confluence and provide core functionality.
-User installed apps - these are usually downloaded from the
-Marketplace
-and may have been created by Atlassian or by a third party developer.
-For information about developing your own apps for Confluence, see
-Confluence Cloud developer documentation
-.
-Find and add new apps
-In Confluence Cloud terms, you
-buy
-an app by subscribing to it.
-To find and try new apps in Confluence:
+Use Confluence for technical documentation
+Confluence is a flexible platform with a range of features and add-ons that can help you capture, distribute, and update your technical documentation. Below are some tips to help you get your technical documentation space started, and to save you time and effort managing your documentation's life cycle.
+Create your documentation space
+To get your documentation started
 Select
-Apps
-in the navigation.
+Spaces
+in the Confluence
+sidebar
+, then
+View all spaces
+and select
+Create a space
+Choose
+Documentation space
+(it'll give you a custom overview with a search box—the
+livesearch macro
+—to search just your documentation space, a
+recently updated macro
+, and a few other goodies) and hit
+Next
+Give your space a name and click
+Create
+Confluence will automatically create the space key and create the space overview. Customize the overview at any time—what it looks like is completely up to you!
+Save time by reusing content
+If there's something you're going to use multiple times in your documentation space – whether it's a word, sentence, or paragraph; an image; a product version number; or anything else – you can create it once and include it on as many pages as you like (or use it in the header and/or footer). Inclusions not only save you typing the same thing many times, they also make it easier when things change – it's much better to update the info in one place than 47!
+There are three macros that allow you to re-use content:
+The
+Excerpt macro
+to define a re-usable section, or 'excerpt', on a page – add content inside this macro, and you can reuse it on as many pages as you like.
+The
+Excerpt Include macro
+(
+excerpt-include
+) to include the contents of an excerpt on another page.
+The
+Include Page macro
+(
+include
+) to include the entire content of a page on another page.
+For example, let's say you create release notes for each major release of your product, and you want to include the intro from each release notes page on a 'what's new' page. Place each release notes intro in an
+Excerpt macro
+, then add an
+Excerpt Include macro
+for each set of release notes to the what's new page. Your intros will magically appear on the what's new page, and if you update the release notes it'll automatically update the what's new.
+Excerpts:
+the intros to these pages are in excerpt macros.
+Excerpt include:
+these are excerpt include macros.
+Another example is one of the ways we use the
+Include Page macro
+. Whenever the ellipsis  appears in our documentation—for example, go to
+>
+Copy
+—it's actually an
+Include Page macro
+. We have a page with just that image on it, so we can include it whenever we need an ellipsis.
+Why do we do use an
+Include Page macro
+for one tiny image? Well, just in case that UI element is ever changed. If we attach the image to every page, there might be 50 pages we need to update when things change; if we use an
+Include Page macro
+, we update once and it's changed everywhere. Doing it this way also allows us to know how many pages we're using the image on. By going to
+>
+Page Information
+, we can see how many incoming links there are to this page, and that tells us how many pages use the image.
+Create an inclusions library (optional)
+You can include content from any Confluence page, but you may want to create an 'inclusions library' to hold content that's specifically for re-use. The inclusions library isn't a specific feature of Confluence; the pages in the inclusions library are just like any other Confluence page. This is just a
+technique
+you can use if you want a place to store content that's specifically for re-use.
+To create your inclusions library:
 Select
-Manage your apps,
-which directs you to
-Connected apps
+Create
+and create a new page in your space.
+Enter a suitable title. We use '_ConfluenceInclusions' (the underscore before the title helps to let people know this page is special).
+Enter some content, and
+Publish
+the page. We enter text explaining the purpose of the inclusions library and how to re-use the content.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
 .
-Select
-Discover new apps,
-which directs you to the Atlassian Marketplace.
-Once you're there, you can use the search and filters to find apps in Marketplace to help you get more done in Confluence. To try or subscribe to an app, click the
-Try it free
-button next to the app listing.
-Some apps offer multiple editions - Standard and Advanced. The pricing and feature differences between these editions are listed under the Pricing tab on the Marketplace listing.
-If you don't terminate the trial within the trial period, a subscription for the app kicks in. Trials last for a month from the start of your next billing date. After starting a trial, you can stop it from the Administration page.
-Although you can re-enable the trial within the original trial period, you can't
-try
-it again beyond the original trial period. At that point, you can only
-subscribe
-to the app from the
-Manage apps
-page.
-Manage apps
-Apps are managed via Connected Apps in Administration or within the app itself. It provides a centralized experience for administering apps. To manage your apps in Connected Apps, go to
-admin.atlassian.com
-and select your organization if you have more than one. Depending on your user management experience, you can select:
-Admin
->
-Site
-settings
->
-Connected apps
-or
-Apps
->
-Site settings
->
-Connected apps
-Connected Apps allows you to:
-Discover and install new apps from the
-Atlassian Marketplace
-Install or remove apps
-Configure app settings
-Upgrade app editions, if applicable
-You need to be an Atlassian cloud site admin to access Connected Apps.
-Uninstall or unsubscribe from apps
-To cancel your subscription to an app, go to
-Settings
->
-Atlassian Marketplace
->
-Manage apps
-, select the app, and then select
-Uninstall
+Open the
+Content
+menu
+and select
+Reorder
 .
-Apps that use events, such as Confluence page creation, to trigger outbound webhooks continue to send their events while unlicensed.
-To remove all data and stop outbound webhooks, uninstall the app.
-View the apps audit log
-The audit log displays administration activities related to apps on your Confluence Cloud instance. For example, the log displays when apps were enabled or disabled, and shows the username of the administrator who made the change.
+Select the angled bracket
+>
+to expand the page tree.
+Drag your new page
+above
+the space overview.
+Go to your new inclusions page, and choose
+Create
+to add child pages containing your re-usable content.
+Inclusions library location:
+drag your inclusions library above the rest of your documentation.
+Because you've moved the pages to the "root" of the space, they won't appear in the
+Pages
+section of your space. The pages will be picked up by other searches though, as they're normal Confluence pages.
+Use page templates
+Creating one or more page templates can be a real time-saver if you're creating a lot of pages with the same layout. If you're constantly adding the same macros, like panels and table of contents, save yourself from RSI and put them into a template – you can start with one, but make as many as you need to maximize your efficiency.
+To create a page template that's available in all spaces:
 Select the wheel icon (
 ) in the top-right corner to open Confluence administration.
 Find
 Settings
+>
+Configuration
 in the left-hand navigation.
 Select
-Atlassian Marketplace
->
-Manage apps
+Global templates and blueprints
 .
-Choose
-Audit log
-at the bottom-left of the page.
-To receive the audit log activity in an RSS feed, click the orange RSS icon on the right above the list.
+Choose the
+Add global page template
+button at the top-right.
+Create your template page and choose
+Save.
+For detailed info on page templates, see
+Blueprints and User Created Templates
+.
+To get to
+Global templates and blueprints
+, or any other admin page quickly, press
+/
+and start typing the name of the admin page you're looking for.
+Draft your work
+When you're creating a new page in your documentation, you'll likely want to do it over time, saving as you go, and have a select few people review it to provide feedback. A loose description of this workflow is 'draft, review, publish'.
+You don't want any half-finished pages being seen by your users, and most documentation needs to be reviewed before it's finalized, so here's a technique for drafting pages and allowing for review:
+Create a page and
+restrict its permissions
+. For example, you might restrict viewing to a group of people such as your team, or a few select individuals. On a public instance, you might restrict viewing to staff members, so that the general public can't see the page.
+Write your page content.
+Share the page
+with your reviewers and ask them for feedback. (Make sure you haven't restricted them from seeing the page!) The reviewers can
+add comments
+to the bottom of the page or highlight text to add a comment inline. If you give them permission, they can also edit the page content directly.
+Publish the page when ready, by doing the following:
+Delete any comments on the page.
+Remove page restrictions so that your audience can see it.
+You've now published your page. The space permissions and global permissions now determine who can see and/or update the page.
+Use links and anchors
+Add links
+In any documentation space, it's essential to be able to link from one page to another, and often to specific sections on a page. You can add any URL to a Confluence page and Confluence will automatically detect it and turn it into a link.
+If you paste the URL for another page in your Confluence instance, Confluence will display the link text as the page name and turn it into a relative link, meaning if the name of the page changes, Confluence will adjust the link so it doesn't break.
+Add and link to anchors
+Each heading in Confluence can be used as an anchor to link to a specific place on the page.
+Useful macros
+Confluence ships with a great range of
+macros
+, and there are a few that are particularly useful in technical documentation. Here's a few:
+Table of contents macro
+The
+Table of Contents macro
+helps people navigate lengthy pages by summarizing the content structure and providing links to headings used on the page. The best part is, you don't need to do anything except add the macro; once you've added it, it'll automatically detect headings and add them to the table of contents.
+Info panels
+Often when creating documentation, there are elements of a page that you want to highlight or draw the the viewers' attention to. Use the
+panel element
+to create info, warning, success, and other custom info panels.
+Keep track of page updates
+In Confluence, it's quite usual for a number of different people to update a single page. Technical writers need to know what happens to our documents, both during review and after publication.
+Watch pages or the space
+So that you know when changes are made, it's a good idea to
+watch
+pages or even the entire space. That way, when changes are made to pages you're watching, or someone comments on them, you'll get an email notification letting you know who changed what.
+Whenever you're on a page in your documentation space, choose the
+Watch
+button at the top-right of the page. From there, you can choose to watch just that page, or all pages in the space.
+View page history
+Confluence creates a new version of the page every time someone edits the page. The page history shows all the versions, with date, author, and any comments made on the update.
+To view page history, go to the page and choose  >
+Page History
+.
+On the page history view, you can:
+View the content of a specific version of the page
+Revert to (restore) a specific version
+Select any two versions to compare to see what's changed between those two versions
+Show a list of contributors
+If you want to see at a glance who's updated a page or pages, you can add the
+contributors macro
+. This macro displays a customizable list of people who've contributed by creating, editing, or, optionally, commenting on the page.
+Customize PDF export
+If you're planning to provide a PDF version of your documentation—whether it be for email, download, print, or any other form of delivery—you can customize the look of the PDF by adding a title page, header, and footer.
+The process you take depends on whether you're trying to customize the PDF export for one space or for your whole instance, so, if you're keen to make these changes, take a look at our page on
+Customize Exports to PDF
+for more detailed instructions.
+Other useful tools and apps
+You can use apps to extend Confluence depending on your documentation and workflow needs. Here are some useful add-ons available on the Atlassian Marketplace—most of which we use ourselves—which can extend the functionality of Confluence.
+Copy Space (supported)
+The
+Copy Space for Confluence
+app does what its name suggests; it allows a space administrator to copy a space, including the pages within the space. Great for when you want a space template that you can copy to create other spaces.
+This app is also useful when you need to archive a copy of a current space at a particular point in time, like when you're moving from one version of your product to the next – copy the space, give it a new name, and keep it wherever you like, all without losing the existing space.
+The Copy Space app doesn't not currently copy page history, blog posts and email.
+Gliffy (supported)
+Create diagrams, wireframes, flowcharts and more with
+Gliffy
+. Gliffy features a highly intuitive drag-and-drop interface, and allows you to export your diagrams in multiple formats, including: JPEG, PNG and SVG. Add Gliffy flowcharts, UI wireframes, and network diagrams directly to your Confluence pages to communicate your ideas visually, making them easy to understand and faster to spread through your team.
+Lucidchart (supported)
+Lucidchart Diagrams Connector
+allows you to create and insert diagrams within your Confluence Cloud instance. Quickly draw flowcharts, wireframes, UML diagrams, mind maps, and more inside our feature-rich editor.
+Like what you see? Try Confluence for your technical documentation.
 Was this helpful?
 Yes
 No
@@ -540,15 +656,30 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Atlassian Marketplace apps
-Manage your apps
-Status page: Live docs + Marketplace apps
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
 On this page
-About apps
-Find and add new apps
-Manage apps
-Uninstall or unsubscribe from apps
-View the apps audit log
+Create your documentation space
+Save time by reusing content
+Create an inclusions library (optional)
+Use page templates
+Draft your work
+Use links and anchors
+Add links
+Add and link to anchors
+Useful macros
+Table of contents macro
+Info panels
+Keep track of page updates
+Watch pages or the space
+View page history
+Show a list of contributors
+Customize PDF export
+Other useful tools and apps
+Copy Space (supported)
+Gliffy (supported)
+Lucidchart (supported)
 Community
 Questions, discussions, and articles
 Accessibility

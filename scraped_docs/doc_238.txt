@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-page-tree-search-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/change-your-theme/
 
-Insert the page tree search macro | Confluence Cloud | Atlassian Support
+Change your theme | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,60 +439,27 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to add navigation on Confluence pages
+Manage your account and permissions in Confluence Cloud
+Manage your account
 Cloud
 Data Center
-Insert the page tree search macro
-Using the Page Tree Search macro, you can add a search box to your Confluence page. When a viewer enters a search term, Confluence will search a hierarchy of content starting from a specified parent item and return the search results.
-You can also add a search box as part of a dynamic content tree, which looks like a table of contents. See the
-Page Tree macro
+Change your theme
+You can set a theme to change how Confluence looks.
+To change your theme:
+Select your profile avatar at the right of the navigation bar, then select
+Theme
 .
-Use the Page Tree Search macro
-To add the Page Tree Search macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Page Tree Search macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Name of Root Page
-(root
-)
-none
-The name of the root page whose hierarchy of pages will be searched by this macro. If this not specified, the root page is the current page.
-Note:
-Unlike the Page Tree macro, the Page Tree Search macro does not accept the special values that start with an @ sign, such as @home or @self.
-Wiki markup example
-Wiki markup is only supported in the legacy editor.
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-pagetreesearch
-Macro body:
-None.
-{pagetreesearch:root=My page name}
+Select one of the theme options:
+Light:
+Sets Confluence to display in lighter colors. This is the default theme.
+Dark:
+Sets Confluence to display in darker colors.
+Match Browser:
+This will match the theme you set in your browser. If you don’t have this set, you will see the default theme.
+The theme you select will be saved to your account, so your choice will apply even if you use Confluence on another device.
+Themes change your current view of Confluence and don’t impact how a reader sees your page.
+Admin-driven themes
+If you switch to Dark theme and your top navigation bar doesn’t look right, your admin may have set custom colors that don’t work well with Dark theme. Contact your admin to update the colors.
 Was this helpful?
 Yes
 No
@@ -500,17 +470,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add navigation on Confluence pages
+Manage your account
 Show more
-Insert the Page Index macro
-Insert the content tree macro
-Insert the page tree search macro
-Insert the table of contents macro
-Insert the table of content zone macro
-On this page
-Use the Page Tree Search macro
-Parameters
-Wiki markup example
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
 Community
 Questions, discussions, and articles
 Accessibility

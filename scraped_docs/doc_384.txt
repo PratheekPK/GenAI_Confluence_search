@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-permissions-in-the-free-edition-of-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/atlassian-marketplace-apps/
 
-Adjust permissions before downgrading to Confluence Free | Confluence Cloud | Atlassian Support
+Atlassian Marketplace apps | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,85 +439,16 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Atlassian administration for Confluence Cloud
-Actions that require an organization or site admin
+Confluence administration
 Cloud
 Data Center
-Adjust permissions before downgrading to Confluence Free
-The Free plan is for small teams of fewer than 10 people who are just getting started with Confluence. Confluence is completely open to logged-in users when you’re on the Free plan. That means everyone who can log in to your Confluence instance can view, add, and edit spaces and pages.
-While Confluence is open to logged-in users,
-anonymous access
-isn’t available on the Free plan. Only users who log in to your Confluence instance can access it.
-To take advantage of Confluence permissions, restrictions, or anonymous access,
-upgrade your plan
-.
-When you change from Standard or Premium to Free
-When you change from Confluence Cloud Premium or Standard to Free, you’ll no longer be able to set permissions and restrictions. Here’s what you can expect when you change to the Free plan:
-We’ll keep any global permissions, space permissions, and page restrictions you’ve already set. If needed, you’ll still be able to open up spaces and pages to all users.
-We’ll reset your instance’s default space permissions. When new spaces are created, all users will be able to view the spaces, add pages to them, and more. (As mentioned above, we’ll keep the permissions you’ve already set on existing spaces.)
-If your instance allowed anonymous users, they’ll no longer be able to access it.
-To set new permissions, you'll need to go back to one of our paid plans.
-This information also applies when you migrate from Confluence Data Center to Confluence Cloud Free. See our
-migration guides
-on how to do this.
-Confluence Data Center is our only self-managed app offering, and our primary app offering outside of Confluence Cloud. We
-ended support of Confluence Server
-on February 15, 2024.
-Open up a space to all users
-After you switch to the Free plan, any permissions you’ve set on a space will remain in place. If needed, you can open up the space to all users. This will let anyone with access to your Confluence instance view the space, add pages to it, and more.
-You won’t be able to undo this action.
-If you need to reset the space permissions, you’ll have to go back to one of our paid plans.
-Go to the space in
-Confluence Cloud
-.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-General
-from the
-Space permissions
-card
-.
-In the Upgrade for space permissions box, select
-Grant all users permissions for this space
-.
-Select
-Grant permissions
-.
-Open up a page to all users
-After you switch to the Free plan, any restrictions you’ve set on a page will remain in place. If needed, you can open up the page to all users. This will let anyone with access to your Confluence instance view and edit the page.
-You won’t be able to undo this action.
-If you need to reset the page’s restrictions, you’ll have to go back to one of our paid plans.
-Select the lock icon at the top of the page.
-In the Upgrade for page restrictions box, select
-Remove this page’s restrictions
-.
-Select
-Remove restrictions
-.
-If you’re a space admin, you can use the
-Restricted pages
-tab to open up a page in your space to all users by removing any restriction from the page. (When you remove one restriction from a page, you’re actually removing all restrictions from the page.)
-This will remove all restrictions from the page. You won’t be able to undo this action.
-If you need to reset the page’s restrictions, you’ll have to go back to one of our paid plans.
-Navigate to the desired space using the Spaces menu in the navigation or from the Home page.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Restricted
-from the
-Content
-card.
-Select the lock icon next to the page whose restrictions you want to remove. This will remove all restrictions from the page.
-Select
-Remove restrictions
-.
+Atlassian Marketplace apps
+Manage your apps
+Learn how to find and add apps, install or uninstall them on Confluence Cloud, and configure app settings.
+View topic
+Status page: Live docs + Marketplace apps
+Stay informed about Confluence's plans to support Marketplace apps in live docs.
+View topic
 Was this helpful?
 Yes
 No
@@ -525,16 +459,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Actions that require an organization or site admin
-Manage your storage usage
-Invite guests to Confluence
-Removing users and downgrading to Confluence Free
-Adjust permissions before downgrading to Confluence Free
-What happens when an account is deactivated vs. deleted?
-On this page
-When you change from Standard or Premium to Free
-Open up a space to all users
-Open up a page to all users
+Explore more
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence administration
+Show more
+Security settings in Confluence Cloud
+Look and feel settings in Confluence Cloud
+Data management in Confluence Cloud
+Atlassian Marketplace apps
+Confluence automation administration
 Community
 Questions, discussions, and articles
 Accessibility

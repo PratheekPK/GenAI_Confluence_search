@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-number-formats/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-a-template-to-get-started-fast/
 
-Configure number formats | Confluence Cloud | Atlassian Support
+Use a template to get started fast | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,49 +439,34 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Configure number formats
-There are two number format settings in
-Confluence Cloud
-:
-Long number format. For example:
-###############
-Decimal number format. For example:
-###############.##########
-Confluence Cloud
-uses the guidelines in this Java document from Oracle:
-Class NumberFormat
+Use a template to get started fast
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-To change the number formats in
-Confluence Cloud
-:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Configuration
->
-General configuration
-.
-Scroll down to
-Formatting and international settings
-.
-Update the
-Long number format
-and
-Long decimal format
-to suit your requirements
-Select
-Save
-.
+Use templates to create whiteboards with useful pre-populated content. We offer a number of best-practice templates from the
+Atlassian Team Playbook
+that you can use to speed up your workflow.
+We have templates for use cases:
+brainstorming
+planning and strategy
+diagramming
+team building
+practicing agile
+There are two ways to access templates,
+1.  When creating a
+new
+whiteboard, you will be prompted to select a template from the template picker to get started. Hover over the template you wish to use and select ‘
+Use template
+’.
+2. To add a template to an
+existing
+whiteboard, select the template icon in the right side toolbar to open up the template picker. Hover over the template you wish to use and select ‘
+Use template
+’.
 Was this helpful?
 Yes
 No
@@ -489,13 +477,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
+Create and edit whiteboards
 Show more
-Configure the indexing language
-Configure time and date formats
-Configure number formats
-Configure attachment size
-Configure shortcut links
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
 Show more
 Community
 Questions, discussions, and articles

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/legacy-editor-content-in-the-cloud-editor/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-a-site-backup/
 
-Legacy editor content in the cloud editor | Confluence Cloud | Atlassian Support
+Export a data backup file of your instance | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,51 +439,80 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Confluence administration
+Data management in Confluence Cloud
 Cloud
 Data Center
-Legacy editor content in the cloud editor
-The legacy content macro lets you keep incompatible legacy content on a cloud editor page. It supports a few of the macros and nested content configurations that aren’t available in the cloud editor.
-What's the legacy editor?
-The legacy editor was the original editing environment in
-Confluence Cloud
-, largely mirroring the Confluence server experience. Our cloud editor is now the default in
-Confluence Cloud
-and across Atlassian. While the legacy editor is no longer available for newly created pages, you can still view and edit older pages that were created in it. Pages migrated from Server or Data Center land in Confluence Cloud in legacy format.
-In June 2025, Atlassian
-announced the deprecation
-of the legacy editor. This will be a phased process beginning in January 2026. The means no new features are being implemented and we only fix bugs that are part of major incidents.
-Conversion from the legacy editor to the cloud editor
-You may have legacy editor pages if you have very old content or your organization migrated from Confluence Server or Data Center. These pages will still work, but they will have new features if you convert them to the cloud editor. The cloud editor offers new macros, an editing experience that looks like the published page, and features such as Atlassian Intelligence, collaborative editing, and smart links.
-When you edit a page that was created in the legacy editor, you have the option to
-convert the page to the cloud editor
-. If you choose to convert, most of your content will move seamlessly to the cloud editor.
-However, some legacy editor elements aren’t directly supported in the cloud editor. This content will be preserved inside the legacy content macro, which will be inserted into your page to contain the old elements. The conversion process will automatically place incompatible content inside one or more legacy content macros.
-In this example, a legacy page was converted to the cloud editor.
-During the conversion, this nested content was placed inside the legacy content macro. This allows the content to be edited and reconfigured without losing any data.
-The reason this content wasn’t supported was the use of nested macros. (In this case, the Column macro is inside the Section macro and the Section macro is inside the Panel macro.)
-This text (and only the text, not the entire element) can be copied from the legacy content macro to a table or layout outside the macro, delivering the intended visual design but taking advantage of the features of the cloud editor.
-Working with the legacy content macro
-Editing with the legacy content macro is similar but not identical to working in the legacy editor. Some macros may not work as expected because Confluence only provides support for the cloud editor.
-Additional limitations:
-Unsupported content – such as nested macros or entire legacy macros – can’t be copied and pasted outside the legacy content macro. You can only copy the text.
-Atlassian Intelligence (AI) features like summarize will ignore all the text inside certain blocks inside the legacy content macro.
-Smart links will render as plain URL inside the legacy content macro.
-Anyone reading your page will not be able to add an inline comment to content inside the legacy content macro.
-You also will not be able to add your own legacy content macro into the cloud editor – it is only used by Confluence’s automatic page conversion process.
-Collaborative editing:
-Because your new page is a cloud editor page, more than one person can edit it at the same time. However, using collaborative editing with the legacy content macro could cause unpredictable results, including loss of data. Make sure only one person is editing before you publish.
-Undo the conversion to cloud editor
-If you need to undo the conversion from the legacy editor to the cloud, you can restore a previous version of the page. Any changes made after the conversion will not be preserved. To restore an old version, select the
-More actions (…)
-menu, then
-Version history
-. Select the version
-before
-the comment “Version published after converting to the new editor” and select
-Restore
+Export a data backup file of your instance
+If you're migrating a Confluence Data Center instance to a cloud site, you can now use the
+Confluence Cloud Migration Assistant
 .
+We
+ended support of Confluence Server
+on February 15, 2024. Confluence Data Center is our only self-managed app offering, and our primary app offering outside of Confluence Cloud.
+Atlassian is also currently working on a
+new backup and restore solution
+.
+This page tells you how to get a copy of all the content in your Confluence Cloud instance using the backup manager. To export individual pages or spaces instead of the whole site in a variety of formats (including comma-separated values), see
+Export Content to Word, PDF, HTML and XML
+.
+After exporting the data via the backup manager, you can import the data into another Confluence Cloud instance, as described below.
+You can also save the backup file, as a way of taking occasional offline backups.
+The Cloud service takes backups for your instance every 24 hours for purposes of application recovery (not for rolling back application data). See
+About Your Data
+for more information.
+Back up (export) your Confluence instance
+Only one backup file is stored at a time. Any existing backup is overwritten by the new one.
+We regularly make backups of your data for application recovery purposes. However, these backups cannot be used to roll back changes.
+Learn more about how we back up your data
+.
+To back up all data of your Confluence instance:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find Settings >
+Data management
+in the left-hand navigation.
+Select
+Backup manager
+.
+If you want to include attachments, select
+Backup attachments
+.
+Choose
+Create backup for cloud.
+After the backup is complete, you will see the link to the backup file. You can download the file by following the link. This link is available for 14 days.
+What data is backed up?
+The backup includes the following data:
+Each space’s default classification level when applicable
+Pages, including their classification level when applicable
+Whiteboards
+Selected user and group settings, such as permissions.
+The backup does not include the full set of user and group settings because this process is intended to restore data to the same Atlassian site with its existing user account data.
+Team calendar data
+Attachments (if selected)
+The backup will include all attachments, including those in the archive or trash. This may cause a difference in the size of the backup file versus your reported storage usage.
+Soft-deleted spaces (spaces placed in the trash) will not be backed up. If you want to back up a space that is in the trash, you must first retrieve it from the trash.
+We can’t currently export databases
+They will appear in the tree when exported but won’t retain their content, data, or functionality.
+Import the backup data to Confluence Data Center
+You can import the backup data into Confluence Data Center
+6.0 or later
+.  This will overwrite all the content on that site. See
+Migrate from Confluence Cloud to Data Center
+.
+Data classification is a cloud feature, so while that information is backed up in the export file, it won’t appear in Confluence Data Center.
+If you plan to import this backup in Confluence Data Center, a site admin should perform the export. Because site admins can view all email addresses in the site, this ensures all user data is included in the export, regardless of
+profile visibility settings
+.
+Import the backup data to Confluence Cloud
+You can import the backup data into another Confluence Cloud instance, thus overwriting all the content on that site. Refer to the instructions on
+importing a Confluence Cloud instance
+.
+If your source site includes other applications in addition to Confluence,
+the cross-application links
+in the site, such as links to a source file page or to a Jira work item, will point back to the corresponding location after the import.
+Maximum supported size
+Confluence cloud backup file can be up to 30 GB in total size, plus 800 GB of attachments.
 Was this helpful?
 Yes
 No
@@ -491,17 +523,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
-Show more
-Insert the related labels macro
-Insert the spaces list macro
-Insert the task report macro
-Insert the user profile macro
-Legacy editor content in the cloud editor
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
 On this page
-Conversion from the legacy editor to the cloud editor
-Working with the legacy content macro
-Undo the conversion to cloud editor
+Back up (export) your Confluence instance
+What data is backed up?
+Import the backup data to Confluence Data Center
+Import the backup data to Confluence Cloud
+Maximum supported size
 Community
 Questions, discussions, and articles
 Accessibility

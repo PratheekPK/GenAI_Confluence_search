@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/lock-your-database-structure/
+URL: https://support.atlassian.com/confluence-cloud/docs/status-page-live-docs-marketplace-apps/
 
-Lock your database structure | Confluence Cloud | Atlassian Support
+Status page: Live docs + Marketplace apps | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,24 +439,46 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Confluence administration
+Atlassian Marketplace apps
 Cloud
 Data Center
-Lock your database structure
-Databases aren’t available in the
-Atlassian Government environment
-.
-The lock structure feature helps safeguard your database fields from accidental changes while allowing users to add and edit data entries.
-How to lock your database structure
-Navigate to the database you want to secure.
-Select the
-•••
-(More) menu at the top right corner of the database.
-Find the
-Lock structure
-option in the menu and switch it on.
-Once enabled, no one will be able to add new fields or modify existing field settings unless the Lock structure feature is turned off. However, users with editing access can toggle this lock on or off at any time, making it a convenient safeguard against accidental structural changes.
+Status page: Live docs + Marketplace apps
+Which Marketplace apps are supported by Live Docs?
+Live Docs, a feature currently in beta, support apps that appear in:
+The “Apps” item in the overflow menu
+The content byline below a live doc’s title
+The contextual menu that appears when a user highlights text
+A banner that apps can put above Live docs
+Macros
+Other locations for apps not in this list that have historically been supported by pages are not supported on live docs.
+Note that some apps may not yet be fully functional as expected. Developers are also participating in testing live docs and are working on having their apps fully functional by the time they reach general availability.
+App locations impacted by content layout updates
+Customers with Live Docs beta enabled also received updates to the
+content layout
+in Confluence.
+With this content layout update,
+marketplace
+app buttons that have historically lived in the area at the top of your page will no longer appear, both on live docs and pages
+. This change is meant to simplify how apps are interacted with in Confluence.
+Some popular examples of apps that have buttons in this header area:
+AURA Content Formatting Macros (Tabs Theme Miro Figma HTML)
+Comala Publishing
+Excel-like Tables for Confluence (Spreadsheet and Chart)
+Handy Macros for Confluence (Status, Dropdown & Formatting)
+Mosaic: Content Formatting Macros & Templates
+Numbered Headings
+Refined Sites for Confluence (Intranets, Documentation, KBs)
+ScriptRunner for Confluence
+Scroll Documents for Confluence
+Source Editor for Confluence
+Table Filter, Charts & Spreadsheets for Confluence
+Note that some apps that usually have buttons in the header may still be usable via other extension points that are still available in the updated layout. Apps that appear in the content byline, overflow menu, macros, and general banner extension points will still be available.
+Marketplace developers have been asked to move any app buttons that currently live in the header to other extension points by April 30, 2025. That means that
+app buttons that usually live in the header area today will not be available on your EAP site until developers update them (either on April 30, 2025 or later if they do not make the changes on time).
+Opting out of these content layout changes
+We understand that apps can be critical to customer workflows, so if you would like to opt out of these content layout changes in order to maintain access to apps that live in the header area (while remaining part of the Live Docs beta), you can do so by
+submitting a support request.
 Was this helpful?
 Yes
 No
@@ -464,13 +489,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
-Show more
-Export your database data
-Duplicate a database setup
-Lock your database structure
-What Confluence databases don't support
-Database impact on third-party apps
+Atlassian Marketplace apps
+Manage your apps
+Status page: Live docs + Marketplace apps
+On this page
+Which Marketplace apps are supported by Live Docs?
+App locations impacted by content layout updates
+Opting out of these content layout changes
 Community
 Questions, discussions, and articles
 Accessibility

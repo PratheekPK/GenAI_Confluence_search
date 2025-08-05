@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-table-of-contents-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-uploaded-files/
 
-Insert the table of contents macro | Confluence Cloud | Atlassian Support
+Manage uploaded files | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,123 +439,162 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to add navigation on Confluence pages
+Create and organize work in Confluence Cloud
+Upload and manage files
 Cloud
 Data Center
-Insert the table of contents macro
-The table of contents macro scans the headings on the current Confluence page or live doc to create a table of contents based on those headings. This helps readers find their way around lengthy content by summarizing the content structure and providing links to headings.
-To add a table of contents to your page or live doc:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To configure your table of contents:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-The table of contents macro offers
-Basic
-or
-Advanced
-configuration options.
-Your selections will display immediately.
-The macro only displays page, live doc, or blog post content. Any text formatted as a heading can be included in your table of contents, along with heading-formatted emojis, mentions, statuses, and dates.
-The macro only works within the page, live doc, blog, or macro to which it has been added, and cannot reference or be referenced across multiple pages, live docs, or blogs. When added to an
-excerpt
-macro, for example, it will only display headings located inside the excerpt and those heading links won’t navigate to the source content.
-Parameters
-To customize your table of contents, you can configure its basic and/or advanced parameters.
-Basic parameters
-Basic parameter
-Default
-Description
-Display as
-Vertical list
-Vertical list
-produces a typical list-type table of contents.
-Horizontal list
-produces a flat, horizontal menu-type series of links.
-Bullet style
-Bullet
-This parameter applies to vertical lists only.  Select from any of the following values:
-None
-No bullets are displayed
-Mixed
-The bullet style is a mix of shapes (filled and open)
-Bullet
-The bullet style is a filled circle
-Circle
-The bullet style is an open circle
-Square
-The bullet style is a filled square
-Numbered
-The list is numbered (1, 2, 3, 4, 5)
-Separate sections by
-Bracket
-This parameter applies to
-horizontal lists
-only.
-Select from any of the following values:
-Bracket
-Each item is enclosed by square brackets: [ ]
-Brace
-Each item is enclosed by braces: { }
-Pipe
-Each item is separated by a pipe: |
-Include heading levels from [#] to [#]
-1 to 6
-Select the minimum and maximum heading levels to include in your table of contents.
-Include section numbers
-Unchecked
-Select the checkbox to apply outline numbering to your headings. As an example: section 1.1, 1.2, 1.3.
-Advanced parameters
-If the parameter name used in Confluence Cloud storage format is different than the label used when inserting macros with the browser or the slash command, it will be listed below in brackets (
-example
+Manage uploaded files
+Files you
+upload
+can be attached to pages and live docs in Confluence. Once a file is attached, you can download, delete, or edit it by uploading a new version.
+Downloading attached files
+Any user with permission to view content can download files that are attached to it.
+To download a file attached to content:
+Open the content in Confluence Cloud.
+Select
+to open the more options menu, then select
+Attachments
+.
+Right click on the name of the file you’d like to download to save it to your computer, or select
+Download All
+(at the bottom of the table) to download all files attached to the page as a single zip file.
+There's no option to download all attachments in a space at once.
+Delete an attached file
+Anyone with the
+Delete Attachment
+space permission can delete a file that is attached to a page. However, you must also have the
+Space Administrator
+permission to delete a specific version of a file.
+To delete a file that is attached to content:
+Open the content in Confluence Cloud.
+Select  to open the more options menu, then select
+Attachments
+.
+Select
+Delete
+next to the attachment you want to delete.
+Select
+OK
+to confirm.
+There is no option to delete all files on a given piece of content at once.
+If you don’t see the
+Delete
+button in Step 3, you probably don’t have the permissions needed to delete attachments from a page. Contact a space administrator to request this permission (you can find a list of space administrators at the bottom of the page in
+Space settings
+>
+Manage space
+>
+Space details
 ).
-Advanced parameter
-Description
-Indent headings
-(indent
-)
-Sets the indent for a vertical list according to a valid CSS unit value.
-Entering
-10px
-will successively indent heading groups by 10px. Level 1 headings will be indented 10px and level 2 headings will be indented an additional 10px.
-Include headings with:
-(include
-)
-Filter headings to include in your table of contents by inputting specific criteria. You can use wildcard characters and this field is case sensitive.
-As an example, if you only want headings with the words “Overview” and “Summary” to appear, you’d enter
-Overview|Summary
-in this field.
-Exclude headings with:
-(exclude
-)
-Filter headings to exclude from your table of contents by inputting specific criteria, separated by vertical lines { | }. This field is case sensitive.
-As an example, if you want to exclude headings with the words “Overview” and “Summary” from the table of contents, you’d enter
-Overview|Summary
-in this field.
-CSS class name
-(class
-)
-If you have custom table of contents styles in your CSS style sheet, use this parameter to output the table of contents inside
-<div
-tags with the specified class attribute.
-Exclude in PDF export
-(printable
-)
-If the box is checked, the table of contents will not be visible when you export to PDF or print it.
+To delete a specific version of a file:
+Open the page, whiteboard, or blog post in
+Confluence Cloud
+.
+Select
+to open the more options menu, then select
+Attachments
+.
+Select the expand arrow (
+) to the left of the attachment’s name to see a list of all available versions of the attachment.
+Select
+Delete
+next to the version you want to delete.
+Select
+OK
+to confirm.
+Space administrators can restore files from the trash, but when a specific version is deleted, it cannot be restored.
+Upload a new version of an attached file
+To upload a new version of an attached file:
+Open the page, whiteboard, or blog post in
+Confluence Cloud
+.
+Do either of the following:
+Upload a file with the same name as the current version to the page,
+OR
+Select the file to preview it, then select the up arrow icon. This allows you to upload a new version of an image or PDF that has a different name than the original.
+To view versions of your attachments:
+Open the page, whiteboard, or blog post in
+Confluence Cloud
+.
+Select
+to open the more options menu, then select
+Attachments
+..
+Select the expand arrow (
+) to the left of the attachment’s name.
+All available versions of the attachment will appear below it in the table.
+You can download or share previous versions of an attachment, but it is not possible to revert to a previous version.
+Move a file to another item
+You'll need the
+Add Content
+,
+Add Attachment
+, and
+Remove Attachment
+space permissions to move an attached file to another item.
+To change the page that a file is attached to:
+Open the page, whiteboard, or blog post in
+Confluence Cloud
+.
+Select
+to open the more options menu, then select
+Attachments
+.
+Select
+Properties
+next to the attachment you want to move.
+In the
+Page
+field, enter the name of the destination item for the attachment (for example,
+My Destination Page
+). If the destination item is in another space, include the space key at the beginning of the item name (for example,
+DOC:My Destination Page
+).
+Select
+Save
+.
+Note that the image will not appear on the content itself, but only as one of the content attachments visible in the attachments view ( >
+Attachments
+) and the
+Attachments macro
+.
+Edit properties of an attached file
+You'll need the
+Add Attachment
+permission in the space to edit the file properties.
+To edit the properties of an attached file:
+Select
+to open the more options menu, then select
+Attachments
+..
+Click
+Properties
+next to the attachment you want to edit.
+This allows you to:
+Change the file name
+Add a comment (used in the version list and also by the Snapshot image effect)
+Change the MIME type
+Move the attachment to another item
+Add a label to the file
+Changing the MIME type may cause your file to display incorrectly.
+View all attached files in a space
+To view all the files in a space:
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Attachments
+from the
+Content
+card.
+Alternately, you can
+insert the space attachments macro
+on a page or live doc to display a list of all the attachments in a space. If you use this method, you can use the filters to display only files with a particular label or file extension.
 Was this helpful?
 Yes
 No
@@ -563,17 +605,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add navigation on Confluence pages
-Show more
-Insert the Page Index macro
-Insert the content tree macro
-Insert the page tree search macro
-Insert the table of contents macro
-Insert the table of content zone macro
+Upload and manage files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
 On this page
-Parameters
-Basic parameters
-Advanced parameters
+Downloading attached files
+Delete an attached file
+Upload a new version of an attached file
+Move a file to another item
+Edit properties of an attached file
+View all attached files in a space
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-mural-boards-in-confluence-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/set-up-public-access/
 
-Import Mural boards in Confluence whiteboards | Confluence Cloud | Atlassian Support
+Control whether spaces can turn on anonymous access | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,83 +439,93 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
-Import Mural boards in Confluence whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+Control whether spaces can turn on anonymous access
+Giving anonymous users access to your content lets you share content with people who don’t have licensed access to your Confluence instance. This means you can let them view and collaborate on content, without having to add them to your license count.
+Anyone on the internet will be able to find and access your Confluence instance
+When you make your content available to anonymous users, this means
+anyone on the internet
+. The anonymous access feature can’t accommodate sharing with some anonymous people and not others. It’s all or nothing.
+Content shared with anonymous users will show up in Google searches.
+In what situations would anonymous access be useful?
+Using anonymous access to share externally is best when you want to share a lot of content with nonspecific people (aka, anyone on the internet). For example, a publicly available roadmap, an open knowledge base, or support documentation are prime types of content to use with anonymous access.
+You can organize that content in a space and grant anonymous users access to that specific space.
+What is an anonymous user?
+An anonymous user is anyone who isn’t logged in to your Confluence instance. This could be:
+anyone on the internet
+a member of your organization who is not a licensed user of your Confluence instance
+someone who is a licensed user of your Confluence instance, but they aren’t logged in
+Grant anonymous users access to your instance
+By enabling anonymous access, you’re allowing people who are not logged into Confluence (anonymous users; aka, anyone on the internet) to access content on your instance. You can pick and choose which spaces to make public and which to keep secure.
+The global, Confluence-level setting for anonymous access governs whether anonymous users (anyone on the internet) can access the instance. Actual access to content for anonymous users is
+managed in space permissions
 .
-Bring your Mural content to Confluence whiteboards and collaborate seamlessly with your team.
-Import whiteboards from Mural into Confluence to unlock features such as smart connectors, smart sections, real-time editing, and experience brainstorming. Plus, you can keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
-Export your Mural board
-In Mural, open the board you wish to export.
-Open the export menu in the top-left corner of the board, then select
-Download mural
-, or right-click on your board’s background and select
-Download
+If anonymous users are granted access to the space, they’ll have access to
+all content within the space
+. To restrict them from a page or other content item, you can either
+change its restrictions
+or
+hide it from the content tree
+.
+By default, anonymous users start with no access to any spaces. For example, when a new space is created, anonymous users will have no access to that space, even if the global settings is enabled.
+To enable or disable anonymous access for the instance:
+Only Confluence admins can change the global setting for anonymous access.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find Settings >
+Security
+in the left-hand navigation.
+Select
+Global permissions
 .
 Select the
-PDF Format
-and the selection of content you would like to export (All content, Selection, or Outline),
+Anonymous access
+tab.
 Select
-Download
-. Select a location to save your file.
-For more information on exporting Mural boards,
-see the Mural support documentation
+Edit
 .
-You must
-Save as PDF
-. This will let you import editable elements to your Confluence whiteboard.
-Import to whiteboards
-Whiteboards currently only support PDF or image file importing.
-Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
-You can import your content in two ways:
-Drag your image or file into your whiteboard.
-On the toolbar, select the More menu (
-…
-), select
-Whiteboard import,
-navigate to your file, and select it.
-Select your content type.
-The import process will complete.
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
-For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
-How Mural elements import to Confluence whiteboards
-Mural
-Confluence whiteboards
-Sticky notes
-Sticky notes
-Borders
-Borders
-Draw
-Lines
-Website embeds
-Images
-Tables
-Recreated with lines and rectangles
-GIFs
-Images
-Text
-Text
-Stamps
-Images
-Tags
-Text in rectangles
-Mind maps
-Rectangles, lines, and connectors
-Limitations
-Some limitations and differences between your Mural board and Confluence whiteboard will occur.
-Importing comments is not supported, but you can comment on Confluence whiteboards.
-Colors will be mapped to the closest Confluence whiteboards colors.
-Connections will not import, but they can be recreated in Confluence whiteboards.
-Rotated elements will import unrotated. However, if it’s an unsupported element, too-small shape, un-cropped image, or a sticker, then it will import rotated.
-Shapes supported in whiteboards will import as shapes. Shapes that are not supported will import as images.
-Locked elements will not remain locked when imported, but you can manually lock them in Confluence whiteboards.
-Whiteboards have a 10,000 element limit.
-Importing may take longer than a minute for boards with many elements, large images, or a lot of content.
+Check or uncheck the box under
+Use Confluence
+to enable or disable anonymous access for the instance.
+Select
+Save
+when you’re done.
+Security note
+Disabling the global setting if it was previously enabled doesn’t change any space level settings.
+Even if the global anonymous access setting is
+disabled
+, space admins can indicate they want anonymous users to access their space. This doesn’t mean anyone on the internet can access those spaces. If anonymous access is disabled at the Confluence level, only logged in users can enter the instance.
+However, if the global setting is
+enabled
+while those spaces allow anonymous users to access them, then anyone on the internet
+will
+be able to access those spaces.
+You can also choose whether anonymous users are able to view user profiles of any of your logged in users by checking or unchecking the box under
+View User Profile
+.
+How does anonymous access fit Confluence’s permissions structure?
+Anonymous access to content is controlled at 3 different levels:
+Confluence
+– At the Confluence level (in global permissions), the Confluence admin or site admin decides whether to grant anonymous users any access to the instance.
+Space
+– If anonymous access is allowed at the Confluence level, it’s then up to the space admins to decide whether they want to grant anonymous users any access to their space. If space access is granted, then anonymous users will have access to all pages in the space, unless restricted on the pages themselves.
+Content
+– Anonymous users are restricted from viewing content when its access setting is
+Only specific people can view or edit,
+or when one of its parent content items has been set so that only specific people can access. This means that view restrictions are passed down to all of the nested items.
+More about anonymous access
+Essentially, the global setting enables the
+possibility
+of sharing content to anyone on the internet. It’s then up to the space admins whether they want to give anonymous users access to their spaces.
+The global setting could be
+enabled
+, but if anonymous users haven’t been granted access to any spaces, no anonymous users will be able to access anything on your instance.
+Space admins can grant anonymous users all the same permissions as regular users, except anonymous users can’t be admins of a space. For a list of all space permissions that can be granted, see
+Assign space permissions
+.
 Was this helpful?
 Yes
 No
@@ -523,20 +536,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Show more
-Import Figjam boards in Confluence whiteboards
-Import Miro boards in Confluence whiteboards
-Import Mural boards in Confluence whiteboards
-Import Jamboard whiteboards in Confluence whiteboards
-Export your whiteboard
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
 Show more
 On this page
-Export your Mural board
-Import to whiteboards
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-How Mural elements import to Confluence whiteboards
-Limitations
+In what situations would anonymous access be useful?
+What is an anonymous user?
+Grant anonymous users access to your instance
+To enable or disable anonymous access for the instance:
+How does anonymous access fit Confluence’s permissions structure?
+More about anonymous access
 Community
 Questions, discussions, and articles
 Accessibility

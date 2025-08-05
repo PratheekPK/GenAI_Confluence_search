@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-shapes-to-visualize-ideas/
+URL: https://support.atlassian.com/confluence-cloud/docs/getting-started-with-confluence-whiteboards/
 
-Use shapes to visualize ideas | Confluence Cloud | Atlassian Support
+Getting started with Confluence whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -440,65 +443,92 @@ Create and organize work in Confluence Cloud
 Create and edit whiteboards
 Cloud
 Data Center
-Use shapes to visualize ideas
+Getting started with Confluence whiteboards
 Whiteboards aren’t available in
 Atlassian Government environments
 .
-Shapes are perfect for:
-user journeys and user flows
-diagrams
-flow charts or diagrams
-other activities that involve shapes and text
-There are eight shapes you can use on whiteboards.
-To add a shape to a whiteboard:
-Select the
-Shape
-tool to select a shape.
-Choose the shape you want to use on your whiteboard.
-Hover the shape preview over the whiteboard to pick a spot.
-Select again to drop the shape.
-You can also drag and drop a shape from the toolbar onto the board.
-Add connectors to shapes
-Add connectors between sticky notes and shapes to diagram flows.
-Select in the toolbar.
-Select between a
-line
-or
-connector
-.
-Select and drag your cursor between the objects you want to connect.
-Once created, you can select and drag a connector's start or end point to another object or another side of the same object.
-Learn more about connectors
-Edit shapes
-Color
-Use the color picker in the floating toolbar to change a shape's color.
-To edit a shape's color:
-Select the shape.
-Select the color picker in the floating toolbar.
-Select a new color.
-Type
-You can change a shape already on your whiteboard from one type to another. For example, you can change a square to a circle.
-To change a shape’s type:
-Select the shape.
-Select the shape selector in the floating toolbar.
-Select a new shape.
-Size
-You can resize a shape in two ways:
-Drag the corner
-. This will evenly scale the shape up or down in size. The ratios of the shape will also be kept the same, but make the shape a different size.
-Drag a side.
-This will only change the width or height of the shape. You can use this method to turn a square into a rectangle, etc.
-When you resize a shape that has text in it, the text's size stays the same, but the amount of space around the text changes.
-Create a Jira issue from a shape in whiteboards
-Make sure that no ideas or to-dos get left behind when you’re done brainstorming or sprint planning. With whiteboards, you can improve your workflow by selecting single or multiple shapes and turning them into a Jira issue. This will work for
-Jira
-, Jira Service Management, and Jira Product Discovery.
-Select the shape(s) you want to turn into a Jira issue.
+Your whiteboard
+The whiteboard is one infinite canvas to explore your ideas. All whiteboards will have a lined grid background.
+Navigate back to your whiteboard in your space.
+Select from one of our best-practice templates to get started.
+Access whiteboard-specific tools such as sticky notes, text, lines, shapes, stickers, and stamps.
+Use the floating toolbar to edit and annotate.
 Select
-Create
-from the floating toolbar.
-Add all the relevant information to the dialog on the right of your whiteboard.
-This will take you to Jira.
+Share
+to open the share dialog for your whiteboard. Invite people, copy a link to the whiteboard, or update the share settings.
+See who’s collaborating on your board.
+Add or remove whiteboard restrictions through the lock icon in the top navigation.
+Start a timer to stay on track by selecting the clock icon in the right toolbar.
+Use the zoom to adjust your view settings.
+What’s inside your toolbar?
+What are the navigation tools?
+Pan, zoom and move around your whiteboard using navigation tools.
+Learn more about navigation
+Use the cursor to select and move objects.
+Use the hand tool to pan and zoom.
+What are sticky notes?
+Sticky notes on whiteboards are just the virtual equivalent of the sticky notes we all know and love. Use them to get down your thoughts and move them around the whiteboard to organize ideas or patterns.
+Unlike paper sticky notes, whiteboard sticky notes can be as small or as big as you need to explore your ideas. Note: Sticky notes can only contain text and emojis.
+Learn more about sticky notes
+Use sticky notes for:
+brainstorm sessions
+retrospectives
+as cards in a ‘Card sorting’ exercise
+Kanban boards, to-do lists, or project management
+anything you need to get out of your mind!
+What are lines?
+Use lines to create paths between sticky notes, text objects, or shapes. They’ll help you organize your whiteboard and create a flow of thought.
+In whiteboards, we have:
+straight lines
+dynamic lines
+Lines can also be connectors between things.
+Learn more about lines and connectors
+What is the text tool?
+Use the text tool to create blocks of body text with titles and headings, or take down some quick ideas.
+Learn more about text
+What are shapes?
+Use a variety of shapes to build diagrams, mind maps, and flowcharts. You can add text to the shapes to note down thoughts and use connector lines to connect them.
+Learn more about shapes
+What are stamps and stickers?
+Sometimes, visualizing feedback and reactions can be more valuable than doing so with text. Use stamps and stickers to do this and, at the same time, bring your whiteboards to life.
+Stamps are more granular representations of how someone feels about a specific idea, piece of content on a board, etc. They're generally used to vote on an idea or sticky note.
+Stickers are more macro-level and are used to add a bit of fun to a board, replace a heading, or convey a feeling (not necessarily about a specific piece of content on the board).
+Learn more about stamps and stickers
+What is the image tool?
+Add life to your whiteboard using images. You can get the team to share photos from their favorite holiday as an icebreaker, add them to brainstorms, insert screenshots, or build vision boards.
+Learn more about images
+How does linking work on whiteboards?
+Add more context to your whiteboarding sessions using links. You can link to pages outside of whiteboards, Jira issues, Confluence pages, or your favorite cloud apps and websites.
+Learn more about inserting links
+Integrate whiteboards into your Atlassian workflow
+At its core, whiteboards bridge the gap between where teams think and where teams do. Teams can think freely on whiteboards and act in
+Jira
+, Trello, and Confluence.
+With whiteboards and the Atlassian platform, a button click turns their ideas into actionable projects and tasks.
+Create Jira issues from whiteboards
+Quickly turn sticky notes and shapes into single or multiple Jira issues - in
+Jira
+or Jira Product Discovery. This will help turn ideas on whiteboards into actionable work items in Jira.
+Learn more about creating issues in whiteboards
+Import Jira issues
+The Jira issue import dialog lets you search for and insert single or multiple Jira issues into your whiteboard. You can use a simple plain text search or more advanced Jira Query Language (JQL) to find issues. It works for
+Jira
+, Jira App Discovery, and Jira Service Management.
+Learn more about importing Jira issues
+Embed your whiteboard into Jira, Confluence, and Trello
+Easily embed ideas and add visualization to your workflows by embedding a whiteboard Smart Link to project posters, product roadmaps, kanban boards, and more.
+Learn more about Smart Links
+Move ideas from your whiteboard into Jira and Confluence
+If you’re not looking to showcase your entire whiteboard elsewhere, take the ideas you need or want to your other apps, Be it after brainstorming or a retro - get things happening by copying text, sticky notes, or shapes into a Confluence page or a Jira issue description.
+Learn more moving content from your whiteboard
+Shortcuts
+View whiteboard keyboard shortcuts in the shortcuts panel:
+Select the
+question mark
+icon in the top right corner.
+Select
+Keyboard shortcuts
+and view all shortcuts.
 Was this helpful?
 Yes
 No
@@ -510,20 +540,29 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Create and edit whiteboards
-Show more
+Getting started with Confluence whiteboards
+Create a new whiteboard
 Navigation tools in whiteboards
 Organize and explore ideas with sticky notes
 Use shapes to visualize ideas
-Add and edit text on whiteboards
-Build flows and diagrams with flows and connectors
 Show more
 On this page
-Add connectors to shapes
-Edit shapes
-Color
-Type
-Size
-Create a Jira issue from a shape in whiteboards
+Your whiteboard
+What’s inside your toolbar?
+What are the navigation tools?
+What are sticky notes?
+What are lines?
+What is the text tool?
+What are shapes?
+What are stamps and stickers?
+What is the image tool?
+How does linking work on whiteboards?
+Integrate whiteboards into your Atlassian workflow
+Create Jira issues from whiteboards
+Import Jira issues
+Embed your whiteboard into Jira, Confluence, and Trello
+Move ideas from your whiteboard into Jira and Confluence
+Shortcuts
 Community
 Questions, discussions, and articles
 Accessibility

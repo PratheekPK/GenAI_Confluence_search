@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-happens-when-an-account-is-deactivated-vs-deleted/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-content-in-a-space/
 
-What happens when an account is deactivated vs. deleted? | Confluence Cloud | Atlassian Support
+Manage content in a space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,35 +439,22 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Atlassian administration for Confluence Cloud
-Actions that require an organization or site admin
+Space administration
 Cloud
 Data Center
-What happens when an account is deactivated vs. deleted?
-Organization admins can deactivate or delete accounts they manage for users who no longer need to use Atlassian account services. When an account is deactivated or deleted, the user will immediately lose access to Confluence and all other Atlassian account services, and we’ll stop billing for their account.
-If an organization admin
-deactivates
-a user’s account, the user’s personal data will remain in Atlassian account services, and the admin can reactivate their account at any time.
-If an organization admin
-deletes
-a user’s account, we’ll delete the user’s personal data from Atlassian account services, and no one will be able to reactivate their account.
-An organization admin can delete a previously deactivated account if they decide to later.
-What's deleted?
-When you delete a user’s account, we’ll permanently delete their
-personal data
-from all Atlassian account services. Their name will be replaced by
-Former user
-throughout Confluence, and their Confluence personal space will be archived.
-We won’t delete:
-Pages, live docs, blog posts, comments, or files.
-To manually delete the content they’ve created, users will need to follow the instructions in
-Delete, restore, or content
-.
-Personal data in user-generated content.
-If the user’s personal data, such as their name, email address, or phone number, appears in the text of a Confluence Cloud page or live doc, it will remain on Confluence Cloud until the content or the site is deleted. To delete personal data from pages, live docs,  white boards, blog post, or comment, the user will need to find the content using global search, then edit it to manually remove their data.
-Once an account has been deleted, both the account and the personal data in it are gone forever.
-How they'll appear
-This is what the deleted user will look like to other Confluence users once their account is deleted:
+Manage content in a space
+Clean up a space with the content manager
+Filter stale content and assess content before applying actions (like archive and change owner) to hundreds of selections at a time.
+View topic
+Transfer content item ownership from one user to another
+Understand the concept of content ownership and how to transfer ownership of an item from one user to another.
+View topic
+Manage page watchers
+Space administrators can manage who is notified about content changes.
+View topic
+Export a space's content as Word, PDF, or data files
+Export all or part of a Confluence space to various formats, including Microsoft Word, HTML, CSV, PDF and XML.
+View topic
 Was this helpful?
 Yes
 No
@@ -475,15 +465,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Actions that require an organization or site admin
-Manage your storage usage
-Invite guests to Confluence
-Removing users and downgrading to Confluence Free
-Adjust permissions before downgrading to Confluence Free
-What happens when an account is deactivated vs. deleted?
-On this page
-What's deleted?
-How they'll appear
+Explore more
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+Space administration
+Set space-specific functionality
+Manage permissions at the space level
+Manage content in a space
+Remove a space
+Create templates, blueprints, and reports
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

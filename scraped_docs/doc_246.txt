@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-space-level/
+URL: https://support.atlassian.com/confluence-cloud/docs/get-notified-about-content-and-activity/
 
-Manage permissions at the space level | Confluence Cloud | Atlassian Support
+Get notified about content and activity | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,24 +439,30 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Collaborate on content and get notified in Confluence Cloud
 Cloud
 Data Center
-Manage permissions at the space level
-What are space permissions?
-Learn what space permissions are available and how they affect access to your space.
+Get notified about content and activity
+View your notifications
+Find your notifications in-app for content watches, shares, mentions, and tasks.
 View topic
-Copy space permissions
-Reuse permissions from an existing space and copy them into a new or existing space.
+Subscribe to email updates
+Understand how to configure your email notifications in order to stay on top of the things that matter.
 View topic
-Assign space permissions
-Set up or change permissions settings for a space.
+What is a Confluence RSS feed?
+Understand what a Confluence RSS feed is.
 View topic
-Make a space public with anonymous access
-Open up your space's content to public so that anyone on the Internet can view it.
+Build an RSS feed
+Learn how to build an RSS feed to subscribe to changes in Confluence.
 View topic
-Assign Questions for Confluence permissions
-Set permissions in Questions for Confluence.
+Subscribe to pre-specified RSS feeds
+Subscribe to an RSS feed that Confluence has predefined for you.
+View topic
+Subscribe to a network RSS feed
+Create an RSS Feed from any user's network view to receive activity summaries.
+View topic
+Celebrate your work with Confluence Recap
+Learn how Confluence was your work partner by seeing your creation stats, viewing stats and collaboration stats.
 View topic
 Was this helpful?
 Yes
@@ -466,18 +475,16 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Explore more
-What are space permissions?
-Copy space permissions
-Assign space permissions
-Make a space public with anonymous access
-Assign Questions for Confluence permissions
-Space administration
-Set space-specific functionality
-Manage permissions at the space level
-Manage content in a space
-Remove a space
-Create templates, blueprints, and reports
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
 Show more
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Get notified about content and activity
+View Confluence analytics to see how content is performing
 Community
 Questions, discussions, and articles
 Accessibility

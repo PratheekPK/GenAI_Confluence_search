@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-loom-in-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/link-jira-issues-from-your-whiteboard/
 
-Use Loom in Confluence Cloud | Confluence Cloud | Atlassian Support
+Link Jira issues from your whiteboard | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,62 +440,67 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Use Loom in Confluence Cloud
-Record and insert Loom videos directly in Confluence to enhance documentation, explain your thoughts, provide feedback to teammates, and so much more.
-Loom videos are quick to create, easy to edit, and valuable for a variety of situations. You can share your screen or just your thoughts as a supplement to or in lieu of text on pages, live docs, blogs, and whiteboards.
-New to Loom? Dive into some
-best practices
-and
-tips and tricks for recording
+Link Jira issues from your whiteboard
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Record Loom videos in Confluence
-Once your organization has added Loom, you can begin recording Loom videos directly in Confluence, with the flexibility to record from various starting points. After you’ve finished recording, select
-Copy link
-and share the Loom video wherever and however you’d like (including inserting right into the comment you’re writing, the page or live doc you’re editing, the whiteboard you’re viewing, and more).
-Record in a space
-From the main navigation, select
-Create
-, then
-Loom video
-.  This creates a
-Smart Link in the content tree
-for the video, either (depending on permissions) in the space you are currently in or your personal space.
-If you know exactly where in the content tree you’d like the Loom video to go, select instead
-+
-in the
-Content
-section of the space sidebar, then
-Loom video
+Adding connector lines between Jira issues on the whiteboard helps you visualize the relationships, hierarchies, and dependencies between different pieces of work. These lines can then be turned into issue links in Jira. Any link between two Jira issues created in a whiteboard will update the “Linked issues” field in Jira.
+Whiteboards only support linking issues from Jira Cloud sites.
+Link Jira issues from your whiteboard
+Add Jira issues to your whiteboard. You can do this by:
+importing Jira issues
+copy and paste the link to a Jira issue
+turning sticky notes into single or multiple Jira issues
+Connect the Jira issues
+with a line
 .
-Record on a live doc, page, or blog
-When viewing or editing a live doc, published page, or blog, you can start recording by selecting the
-Loom
-button from the floating action bar at the bottom right of your screen or by typing
-/loom
-and then select
-Record a Loom video
-.
-Want to leave a video comment? Select the Loom icon in an inline comment or page comment, then insert the video into the comment.
-Record on a whiteboard
-Select the Loom icon in any whiteboard you can edit, then
-Insert Loom video
-onto the whiteboard.
-Add existing Loom videos to Confluence
-If you have already recorded a Loom video you want to include in Confluence, you can insert it as a link. When adding a link, search for or view recent Loom videos in the link selector, or paste the video URL copied from Loom.
-Loom video permissions
-Loom videos that you record are stored in your Loom library on Loom.com and follow the default permissions of your team’s Loom workspace (typically, that anyone in your workspace can view). You can change the privacy settings for each Loom video you create. Loom videos can be restricted to anyone with the link, anyone in your Loom workspace, or only people you specifically add.
-The visibility of Loom videos added to Confluence will depend on both
-Confluence restrictions
-and Loom video
-privacy settings
-. As an example, if your Loom video itself is viewable by anyone in your workspace and items in the content tree of your personal space are only viewable by you, then only you would be able to view the embedded Loom video added to your personal space through
-Create
->
-Loom
-video
-.
+Select the line.
+Select the
+Link issues
+button on the floating toolbar.
+From the menu that appears, choose the type of link (for example, "blocked by").
+To change the direction of the link, select the
+Reverse
+icon that appears to the right of the menu.
+Select
+Link.
+The line now has a label that shows the link you created in Jira.
+Edit links in Jira from your whiteboard
+You can edit the links you’ve created from the whiteboard (for example, changing "blocks" to “depends on”). Editing links from the whiteboard will update the link in Jira.
+To edit a link:
+Select the line between the two Jira issues.
+Select the
+Edit link
+button from the floating toolbar.
+From the menu that appears, change the type of link.
+To change the direction of the link, select the
+Reverse
+icon that appears to the right of the menu.
+Select
+Update.
+The line label now shows the link you updated in Jira.
+Remove links in Jira from your whiteboard
+You can remove links between Jira issues by
+unlinking
+them. Unlinking issues from the whiteboard will also remove the link in Jira.
+To remove a link:
+Select the line between the two Jira issues.
+Select the
+Edit link
+button from the floating toolbar.
+Select the
+Unlink
+icon that appears to the right of the menu.
+Select
+Unlink.
+The line label is now removed, and the link has been removed in Jira.
+You can also remove links from inside Jira. Links removed from inside Jira will also be removed from the whiteboard.
+Learn more about removing links from Jira.
+Deleting and disconnecting lines
+Deleting or disconnecting a line doesn’t remove links between issues in Jira.
 Was this helpful?
 Yes
 No
@@ -503,21 +511,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and organize work in Confluence Cloud
-Show more
-Present your content with Presenter mode
-Atlassian Intelligence features in Confluence Cloud
-Use Loom in Confluence Cloud
 Create and edit whiteboards
-Create and edit databases
+Show more
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
 Show more
 On this page
-Record Loom videos in Confluence
-Record in a space
-Record on a live doc, page, or blog
-Record on a whiteboard
-Add existing Loom videos to Confluence
-Loom video permissions
+Link Jira issues from your whiteboard
+Edit links in Jira from your whiteboard
+Remove links in Jira from your whiteboard
+Deleting and disconnecting lines
 Community
 Questions, discussions, and articles
 Accessibility

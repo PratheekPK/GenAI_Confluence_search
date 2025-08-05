@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-space-details-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/confluence-automation/
 
-Insert the space details macro | Confluence Cloud | Atlassian Support
+Confluence automation administration | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,59 +439,17 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Confluence administration
 Cloud
 Data Center
-Insert the space details macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Space Details macro displays the details of a Confluence space, including the space name, description, and more.
-Use the Space Details macro
-To add the Space Details macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Space Details macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control the content or format of the macro output. Where the parameter name used in Confluence storage format or wikimarkup is different to the label used in the browser, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Width of Table
-(width
-)
-100%
-The width of the space details table, specified as a percentage (%) of the page width.
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-space-details
-Macro body:
-None.
-{space-details:width=50%}
+Confluence automation administration
+Learn what Confluence automation is, see admin functions and usage, and familiarize yourself with common terms.
+Confluence automation
+Learn what automation is, why it’s useful in Confluence Cloud, and familiarize yourself with common terms.
+View topic
+Confluence automation usage
+Learn how to view and track your automation usage in Confluence Cloud.
+View topic
 Was this helpful?
 Yes
 No
@@ -499,10 +460,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-On this page
-Use the Space Details macro
-Parameters
-Wiki markup example
+Explore more
+Confluence automation
+Confluence automation usage
+Confluence administration
+Show more
+Security settings in Confluence Cloud
+Look and feel settings in Confluence Cloud
+Data management in Confluence Cloud
+Atlassian Marketplace apps
+Confluence automation administration
 Community
 Questions, discussions, and articles
 Accessibility

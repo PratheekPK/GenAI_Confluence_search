@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/collaborate-on-content-and-get-notified-in-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-microsoft-outlook/
 
-Collaborate on content and get notified in Confluence Cloud | Confluence Cloud | Atlassian Support
+Subscribe to Team Calendars from Microsoft Outlook | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,18 +439,169 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Collaborate on content and get notified in Confluence Cloud
-Collaborate on content
-Learn how you can use Confluence features to stay connected to people and content.
-View topics
-Get notified about content and activity
-Learn how to view notifications, subscribe to email notifications, and build and subscribe to RSS feeds.
-View topics
-View Confluence analytics to see how content is performing
-Understand how Confluence analytics works, a Confluence Cloud Premium feature.
-View topics
+Subscribe to Team Calendars from Microsoft Outlook
+There are two ways to synchronize Team Calendar in Microsoft Outlook:
+Two-way sync
+(CalDAV) - allows you to view and update Team Calendar events in Outlook.
+Requires Team Calendars (available with Confluence Premium).
+One-way sync
+(iCal) - allows you to view — but not update — Team Calendar events in Outlook.
+Subscribing with two-way sync (CalDAV)
+Two-way synchronization allows you to view and update Team Calendar events in Microsoft Outlook.
+You will need the following:
+Confluence API token
+Confluence Cloud server address
+CalDAVSynchronizer
+To get your Confluence API token:
+Select your profile picture in the Confluence top nav >
+Settings
+Under
+YOUR SETTINGS
+, select
+Password
+In the
+API token
+section, select the link
+Create and manage API tokens
+Select
+Create API token
+Name your API token, select
+Create
+, and then select
+Copy.
+Pro tip: paste this somewhere safe because
+you won’t be able to copy this again later. You can always create a new token, though.
+To get your Confluence Cloud server address:
+In the Confluence top nav, choose
+Apps > Calendars.
+Select the the More actions menu (
+) for your calendar in the side nav and choose
+Subscribe
+.
+In the
+Calendar app
+dropdown, select
+Microsoft Outlook (Windows desktop)
+.
+If prompted, add the calendar to
+My Calendars
+. If you don’t add it to My Calendars, it won’t sync.
+Copy the
+server address
+.
+Because Microsoft Outlook supports calendar discovery, this will be your server address, not the URL of an individual calendar. You'll be able to choose which calendars (that you've added to My Calendars) to sync in the app.
+To subscribe to a Team Calendar in Microsoft Outlook:
+If Outlook is open, close it.
+Download and install
+CalDAVSynchronizer
+.
+Open Microsoft Outlook.
+You should see a new tab called
+CalDav Synchronizer.
+In this tab, select
+Synchronization Profiles.
+In the toolbar that appears, select
+.
+Select
+Generic CalDAV / CardDAV
+from the
+Profile type
+screen.
+Set up the profile:
+In the
+Name
+field, give the profile a name.
+In the
+Outlook folder
+field, select or create a
+calendar profile.
+In the
+DAV URL
+field, paste the
+server address
+.
+In the
+Username
+field, use your Confluence username (the email address associated with your account).
+In the
+Password
+field, paste the
+API token
+you created earlier.
+In the
+Email address
+field, use the same email you used in the
+Username
+field.
+Under the
+Email address
+field, select
+Test or discover settings
+to bring up options for which Team Calendar you want to sync.
+Select
+OK.
+Subscribe with one-way synchronization (iCal)
+One-way synchronization means that you can view — but not update — Team Calendar events in Microsoft Outlook.
+To subscribe with one-way synchronization:
+Open Confluence.
+In the top nav, choose
+Apps > Calendars.
+Select the the More actions menu (
+) for your calendar in the side nav and choose
+Subscribe
+.
+In the
+Calendar app
+dropdown, select
+iCal
+or
+Microsoft Outlook (browser)
+.
+Copy the
+server address
+.
+Open Microsoft Outlook.
+In the
+Home
+tab, select
+Add
+(far right, next to
+Share
+) >
+From Internet.
+Paste the
+server address.
+Select
+OK
+.
+You can now view — but not edit — Team Calendar events in Microsoft Outlook.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Use Team Calendars for Confluence (Premium feature)
+Show more
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Show more
+On this page
+Subscribing with two-way sync (CalDAV)
+Subscribe with one-way synchronization (iCal)
+Community
+Questions, discussions, and articles
 Accessibility
 Notice at Collection
 Privacy Policy

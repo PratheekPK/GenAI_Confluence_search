@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/troubleshoot-access-problems-to-content/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-a-network-rss-feed/
 
-Troubleshoot access problems to content | Confluence Cloud | Atlassian Support
+Subscribe to a network RSS feed | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,99 +439,72 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage permissions at the content level
+Collaborate on content and get notified in Confluence Cloud
+Get notified about content and activity
 Cloud
 Data Center
-Troubleshoot access problems to content
-Confluence offers a few different tools to help you troubleshoot access problems to content, whether you’re trying to figure out why someone can’t access content or why someone
-can
-access it but shouldn’t.
-Unblock someone’s access
-There are a few different reasons why someone wouldn’t have the level of access they should.
-Space permissions vs content permissions
-The first thing to remember is that permissions in Confluence are inherited from the container above. This means that if someone doesn’t have access to a content item, then it could be because of:
-settings on the content item itself,
-settings inherited from one of its parent items,
-and/or settings inherited from the space.
-You may be able to fix access issues, depending on where the access issue is coming from.
-Issue on the content item itself
-— To fix these issues, you need to have edit access to the content and space-level permission to edit content restrictions, or else contact someone who does.
-Issue inherited from a parent item
-— To fix these issues, you need to have edit access to the parent item and space-level permission to edit content restrictions, or else contact someone who does.
-Issue inherited from the space
-— To fix these issues, you need to be a space admin, or else contact one.
-For a list of all space-level permissions and what they control, see
-Assign space permissions
-.
-When someone doesn’t have access
-Confluence will let you know when you try to share with people who won’t actually be able to access the content before you’re finished sharing with them.
-Confluence will also tell you when someone already added to the content doesn’t have the indicated access to the content, but only when a person or a group has been explicitly added to the
-Specific
-access
-list.
-This in-line warning message will only appear when a listed person or group:
-needs space access
-needs view access to a parent item
-needs permission at the space level to edit content in the space
-When the content inherits restrictions from a parent
-Confluence will tell you when content inherits access restrictions from one of its parent items in the content tree.
-To troubleshoot inherited access problems:
-Open the
-Share
-window on the content item you want to give someone access to.
-Select
-this parent
-in the statement “Anyone on
-this parent
-”. This will take you to the immediate parent item causing the access restriction. (There may be other parent items with view restrictions.)
-Open the
-Share
-window on that parent item and see if the person or group has access. If not, add them.
-After adding them, if this parent item doesn’t inherit restrictions from any of
-its
-parents, go back to the original content item and refresh to confirm the access problem has been resolved.
-If this parent item does inherit restrictions from one of its parents, follow the same process until you’ve added the person or group to all restricted parents.
-If you have permission to move content in the space, you can also try moving the child content out from under the restricted parent item where it’s organized in the content tree.
-An easier way to troubleshoot on Premium
-If you’re on the premium plan, you can use the
-inspect permissions feature
-to easily see at which levels of hierarchy someone is being denied access (parent content, space, and/or app).
-You can find this feature in the
-Share
-window, in the More options menu (•••).
-Restrict someone’s access
-If someone can access content they shouldn’t, there are a couple of things to consider.
-First, you can remove access for everyone and individually add back only the people who should have access.
-To remove access for everyone and add back individually:
-Open the
-Share
-window.
-Change
-General access
-from
-Open
->
-Restricted
-.
-Add individual people or groups back to the access list.
-Select
-Save
-.
-Second, you might need to look for additive permissions.
-Additive permissions and groups
-Confluence operates on a model of additive permissions, which means that if someone has access to content in two or more ways, they always get the greater access.
-For example, let’s say you have a page that is restricted to the group “Marketing team”. Only that group should be able to view and edit the page. This means that
-General access
-is set to “Restricted” and that the group “Marketing team” appears in
-Specific access
-with “Can edit” permission.
-But let’s say that Omar, who is a member of the “Marketing team” group, should
-not
-be able to edit the page, and to accomplish this, someone added Omar explicitly to the page with “Can view” permission.
-This does NOT mean Omar is restricted from editing the page.
-This is because, even though Omar is explicitly listed as “Can view”, he can still edit the page because he has access to the page through another source — as a member of the “Marketing team” group — which has “Can edit” assigned.
-Thus, part of troubleshooting why someone has a certain level of access to content that they shouldn’t have is figuring out all the ways they might have access and determining the greatest access across those sources.
+Subscribe to a network RSS feed
+You can create an RSS Feed from any user's
+network
+view, allowing you to receive summaries on the activities of users they are following in their network. The types of activities tracked in these RSS feed summaries include:
+New
+pages, live docs, or blog posts
+or updates to existing ones
+Comments
+added to a page, live doc, or blog post or edits to existing comments
+Updates to a user’s
+profile
+Subscribe to a user's network feed
+To subscribe to a user's network RSS feed:
+Locate the orange
+RSS feed icon
+, which is available from the top-right of:
+The
+Recent activity of the users you are following
+section of your network page, or
+The
+Activity of followed users
+section of another user's network page.
+Copy and paste the icon's link into your RSS newsreader
+Customize your network RSS feed
+Confluence does not provide a way of customizing a network RSS feed via the user interface. However, you can modify the maximum number of results and type of content displayed in these feeds by directly editing the RSS feed link in your RSS newsreader.
+To modify the maximum number of results displayed in your RSS feed:
+Edit the RSS feed link in your RSS newsreader.
+Change the value of the
+max
+parameter from its default value of
+40
+to a value of your choice.
+Example:
+http://confluence.atlassian.com/feeds/network.action?username=MYNAME&max=60&publicFeed=false&os_authType=basic&rssType=atom
+Save the modified link in your RSS newsreader.
+To modify the type of content displayed in your RSS feed:
+Edit the RSS feed link in your RSS newsreader.
+Append the parameter
+contentType
+to the end of the link, followed by an equals sign (
+=
+) and then add the appropriate content type value of your choice:
+PAGE
+— restricts the RSS feed to page additions or updates.
+LIVE DOC
+— restricts the RSS feed to live doc additions or updates.
+BLOG
+— restricts the RSS feed to blog post additions or updates.
+ATTACHMENT
+— restricts the RSS feed to attachment additions or updates.
+COMMENT
+— restricts the RSS feed to comment additions or updates.
+Content type values are case-sensitive. Ensure that each parameter is separated from the other by an ampersand (
+&
+).
+Example:
+http://confluence.atlassian.com/feeds/network.action?username=ggaskell&max=40&publicFeed=false&os_authType=basic&rssType=atom&contentType=BLOG
+Save the modified link in your RSS newsreader.
+Notes
+It is not possible to filter for more than one type of content by adding multiple values to the
+contentType
+parameter.
 Was this helpful?
 Yes
 No
@@ -539,18 +515,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage permissions at the content level
-Change who can find content and what they can do with it
-Confluence permissions structure
-Troubleshoot access problems to content
-What is a Confluence group?
+Get notified about content and activity
+Show more
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
 On this page
-Unblock someone’s access
-Space permissions vs content permissions
-When someone doesn’t have access
-When the content inherits restrictions from a parent
-Restrict someone’s access
-Additive permissions and groups
+Subscribe to a user's network feed
+Customize your network RSS feed
+Notes
 Community
 Questions, discussions, and articles
 Accessibility

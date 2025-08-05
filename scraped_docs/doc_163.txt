@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-atlassian-intelligence-with-confluence-automation/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-are-confluence-cloud-permissions-and-restrictions/
 
-Use Atlassian Intelligence with Confluence automation | Confluence Cloud | Atlassian Support
+Confluence permissions structure | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,102 +439,55 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Atlassian Intelligence features in Confluence Cloud
+Manage your account and permissions in Confluence Cloud
+Manage permissions at the content level
 Cloud
 Data Center
-Use Atlassian Intelligence with Confluence automation
-Atlassian Intelligence for Confluence is a new virtual teammate to help you and your team to work more effectively. Using artificial intelligence (AI) and machine learning, Atlassian Intelligence is a tool that is integrated into our cloud-based apps. In Confluence automation, you can use Atlassian Intelligence to quickly and easily create automated rules.
-The quality, accuracy, and reliability of rules created with Atlassian Intelligence may vary.
-Learn why
-Atlassian Intelligence isn’t available for
-Atlassian Government apps
+Confluence permissions structure
+As a tool for communication and collaboration, we believe Confluence is at its best when everyone can participate fully. Confluence keeps a history of all changes to pages and other content, so it's easy to see who has changed what, and reverse any changes if you need to.
+Confluence does, however, give you the choice to make your instance, spaces, and content as open or closed as you want to.
+Permissions and restrictions aren’t customizable on the
+Free plan
 .
-How do I use Atlassian Intelligence to create a rule?
-Rules are automated workflows constructed in an “if this happens, then that happens” format. Site admins can create and enable rules that function across Confluence at the site level. Space admins can create and enable rules for individual spaces. If you have a
-personal space
-, you’re considered an admin of this space.
-You can use Atlassian Intelligence to generate rules by simply describing the rule you want to create. To get started:
-Go to your space.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
+Levels of permission
+There are three levels of permissions in Confluence: global permissions, space permissions, and content restrictions.
+Global permissions
+Global permissions
+are Confluence-wide permissions, and are assigned by
+Confluence administrators
 .
-Select
-Automation
-from the
-sidebar
+These permissions are pretty broad, and don't really interact with space permissions or content restrictions.
+For full details, check out the
+Manage global permissions
+in the
+Administrator's Guide
 .
-Select
-Create with AI
-.
-Select the input box beneath
-Create rules quickly with the power of AI
-to begin typing.
-Describe the rule you’d like to create, including a trigger and action. You can use one of the examples provided or write your own rule.
-Select
-Preview rule
-to see a preview of the rule that was generated.
-Check the summary of the rule generated by Atlassian Intelligence, and add any missing components or details.
-Once you’re happy with your rule’s configuration, select
-Enable rule
-.
-Your rule will now be enabled and visible in the rule library.
-What’s required to create a rule?
-Each rule is made by combining different types of components: triggers, actions, conditions, and branches. Think of components as the building blocks of a rule. To successfully create a rule with Atlassian Intelligence, your rule must
-at least
-contain both a trigger and an action.
-Triggers
-A trigger is what causes a rule to run. Your rule must contain one trigger. Triggers can listen for events, such as a page being created in your space, or be scheduled to run on a certain time or date. In the following examples, triggers are highlighted
-in bold
-:
-Every Monday,
-find all the tasks with a due date in the next 7 days, and send the assignee a reminder email.
-Every 6 months,
-archive any pages that haven’t been updated in that time. After archiving, send an email to the page author letting them know.
-When a page is published with Product Spec in the title,
-create a Jira ticket to review the page with a link to the page.
-Actions
-An action is what you want your rule to do. It will execute when a rule runs successfully. Examples of actions in Confluence automation can include creating a new space, sending an email or adding a label to a page when your rule successfully runs. In the following examples, actions are highlighted
-in bold
-:
-Every Monday,
-find all the tasks with a due date in the next 7 days, and send the assignee a reminder email.
-Every 6 months,
-archive any pages that haven’t been updated in that time. After archiving, send an email to the page author letting them know.
-When a page is published with Product Spec in the title,
-create a Jira ticket to review the page with a link to the page.
-Keep in mind that a trigger and an action are the minimum components required to successfully create a rule. You may still need to configure components or add more details to your rule before it can be enabled. You can also add
-conditions or branches
-to your rule if you’d like to make it more detailed.
-What components are supported by Atlassian Intelligence?
-Atlassian Intelligence doesn’t support the following components:
-Incoming webhook trigger
-Create variable action
-Send web request action
-Create lookup table action
-For a rule to be successfully created, all its components must be supported by Confluence automation. This means that any triggers, actions, conditions or branches in your rule must be compatible with Confluence automation. With the exception of the components mentioned above, Atlassian Intelligence can support any of the components in the following list:
-View list of supported components in Confluence automation
-What errors can occur when using Atlassian Intelligence?
-When using Atlassian Intelligence to create rules in Confluence automation, it’s possible to encounter some errors. The following table provides more information about errors that can occur:
-Error Type
-Additional Information on Error
-The volume of requests in system is too high
-Atlassian Intelligence is currently processing a high volume of rule creation requests, and can’t create your rule as a result. Wait a few minutes and then try creating your rule again.
-We’re unable to connect to server
-Due to a connection error, we’re currently unable to connect to the server and create your rule. Wait a few minutes and then try creating your rule again.
-An unknown error occurred
-We’ve encountered an error that prevented us from creating your rule, but we aren’t sure what caused it. Wait a few minutes and then try creating your rule again.
-We’re unable to create your rule
-We tried to create your rule, however for an unspecified reason, we couldn’t finish creating it. This may be due to your requested rule not being specific enough, or containing language our system couldn’t understand. Try creating your rule again by entering a more specific prompt.
-Prompt was too long
-Your prompt exceeded our word limit of 300 words, meaning we aren’t able to create a rule with it. Try creating your rule again by shortening your prompt.
-We’re unable to use the prompt
-Your prompt may have contained malicious or unethical content, meaning we aren’t able to create a rule with it. Try creating your rule again, making sure to remove any malicious content from your prompt.
-If errors persist or you'd like additional support,
-contact us here
-.
+Space permissions
+Every space has its
+own independent set of permissions
+, managed by the space admin(s), which determine the access settings for different users and groups.
+They can be used to
+grant or revoke permission
+to view, add, edit, and delete content within that space, and can be applied to groups, users, and even to anonymous users (users who aren't logged in) if need be.
+One thing to watch out for is where a user is a member of multiple groups. You may have revoked permission for that individual user to add content, for example, but if they're a member of a group that
+is
+allowed to add content, they'll still be able to create new content in the space.
+If you can't get the result you want from space permissions, or you're not sure, check with one of your Confluence administrators to determine what permissions you should apply to individuals and groups.
+Content restrictions
+Content restrictions work a little differently to global and space permissions. Content is open to viewing or editing by default, but you can
+restrict either viewing or editing
+to certain users or groups if you need to.
+Don't forget, every piece of content in Confluence lives within a space, and space permissions allow the
+space admin
+to revoke permission to view content for the whole space. Even the ability to apply restrictions to content is controlled by the 'restrict content' space permission.
+How do permissions and restrictions interact?
+You can restrict viewing of a content item to certain users or groups, so that even if someone has 'view' permission for the space, they won't be able to view that content.
+If someone's a space admin and you've used content restrictions to prevent them viewing a piece of content, they won't be able to see the content when they navigate to it. As a space admin though, they can see a list of restricted content in the space and remove the restrictions.
+What about links?
+Space permissions and content restrictions affect how links to content are displayed.
+If someone doesn't have 'View' space permission, links to content in that space won't be shown at all.
+If someone has the "View" space permission, but the content has view restrictions, the link will be visible but they'll get an "access denied" message when they click the link.
+Links to attachments are also affected. If the visitor doesn't have permission to view the content the attachment lives on, the link won't be rendered.
 Was this helpful?
 Yes
 No
@@ -542,19 +498,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Atlassian Intelligence features in Confluence Cloud
-Show more
-Write or edit content using Atlassian Intelligence
-Define terms using Atlassian Intelligence
-Use Atlassian Intelligence with Confluence automation
-Learn about pre-defined prompts in Atlassian Intelligence
-Summarize a page, live doc, or blog using Atlassian Intelligence
-Show more
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
 On this page
-How do I use Atlassian Intelligence to create a rule?
-What’s required to create a rule?
-What components are supported by Atlassian Intelligence?
-What errors can occur when using Atlassian Intelligence?
+Levels of permission
+Global permissions
+Space permissions
+Content restrictions
+How do permissions and restrictions interact?
+What about links?
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-and-delete-custom-event-types/
+URL: https://support.atlassian.com/confluence-cloud/docs/collaborate-on-content-and-get-notified-in-confluence-cloud/
 
-Add and delete custom event types | Confluence Cloud | Atlassian Support
+Collaborate on content and get notified in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,63 +439,18 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Add and delete custom event types
-Event types allow you to categorize your events, making them easier to view and manage; custom event types take this a step further by giving you complete freedom to track any kind of event you can think of – so if you need to create events for training, email campaigns, outages, or anything else, Team Calendars is up to it.
-Add a custom event type
-You'll need
-editing privileges
-for the calendar to add custom event types.
-Choose
-to the right of the calendar's name, then
-Edit.
-Choose
-Event Types
-on the left, then choose
-Add new event type.
-Enter the
-Event Name
-, select an
-Event Icon,
-and hit
-Save.
-That's it! Your new event type won't appear in the sidebar immediately, but it'll show up as soon as you
-add an event
-of that type.
-Delete a custom event type
-If you no longer need a custom event type, you can delete it by choosing
-Edit
->
-Event Types
-, then choose the
-icon to the right of the event type.
-Deleting a custom event type will delete all events within that event type! If there are any events you want to keep, make sure you move them to another event type before deleting.
-Was this helpful?
-Yes
-No
-It wasn't accurate
-It wasn't clear
-It wasn't relevant
-Provide feedback about this article
-Still need help?
-The Atlassian Community is here for you.
-Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Show more
-Add Jira events
-See standard event types
-Add and delete custom event types
-Add reminders to events
-Embed calendars on Confluence content
-Show more
-On this page
-Add a custom event type
-Delete a custom event type
-Community
-Questions, discussions, and articles
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Learn how you can use Confluence features to stay connected to people and content.
+View topics
+Get notified about content and activity
+Learn how to view notifications, subscribe to email notifications, and build and subscribe to RSS feeds.
+View topics
+View Confluence analytics to see how content is performing
+Understand how Confluence analytics works, a Confluence Cloud Premium feature.
+View topics
 Accessibility
 Notice at Collection
 Privacy Policy

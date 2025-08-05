@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/apply-a-theme-to-a-site/
+URL: https://support.atlassian.com/confluence-cloud/docs/hide-collaborator-cursors/
 
-Set the default theme | Confluence Cloud | Atlassian Support
+Hide collaborator cursors | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,47 +439,21 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Look and feel settings in Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Set the default theme
-Themes are used to change the appearance of your
-Confluence Cloud
-instance. See
-Install a theme
-for an overview of how you can add more themes.
-To change the default theme:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Look and feel
->
-Themes
+Hide collaborator cursors
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Select a theme from the list under
-Choose New Theme
-.
-If you don’t see any themes listed, you will need to
-Install a theme
-from the
-Atlassian Marketplace
-first.
-Select
-Confirm
-.
-All spaces that have the
-Global look and feel
-applied as their space theme will inherit this theme and any customizations you make to it.
-Users can also
-select their own theme,
-choosing either Light or Dark. These choices are independent of the theme you choose in settings, however each theme responds to the user’s current choice, presenting slightly darker colors in Dark mode.
+When collaborating with multiple people on a whiteboard, the presence of numerous cursors can be distracting. To improve your focus and reduce visual clutter, you can hide collaborator cursors from your view.
+How to hide collaborator cursors
+Find the
+Hide collaborator cursors
+icon on the right-side toolbar.
+Select the icon to toggle the visibility of collaborator cursors.
+When enabled, this option will hide all cursors except your own, allowing you to concentrate better on your work. You can toggle this option off at any time to view the cursors of other collaborators again.
 Was this helpful?
 Yes
 No
@@ -487,11 +464,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Look and feel settings in Confluence Cloud
-Install a theme
-Set the default theme
-Customize the navigation colors
-Change your site and space logos
+Create and edit whiteboards
+Show more
+Use a template to get started fast
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

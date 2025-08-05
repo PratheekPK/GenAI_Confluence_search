@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/restrict-a-calendar/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-a-page-from-a-template/
 
-Restrict a calendar | Confluence Cloud | Atlassian Support
+Format a page, live doc, or blog post with a template | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,38 +439,37 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Manage team calendars
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Restrict a calendar
-If a calendar contains sensitive information, or shouldn't be edited by just anyone, you can restrict viewing and/or editing of it. Restrictions in Team Calendars work in much the same way they do in Confluence, allowing you to restrict content to single users or
-Confluence group
+Format a page, live doc, or blog post with a template
+When you create a new page, live doc, or blog post, you have the option of pre-formatting with a template. Using a template can help inspire you when it’s time to create content or ensure consistency with other work.
+To begin, select the
+Create
+button from the top navigation (or by using the + from the sidebar). The template browser will open on the right.
+The template browser will disappear as soon as you start typing. If you need to change templates, you can open the browser again: select
+Templates & import doc
+from the more actions menu (
+) in the upper right.
+You can browse through all templates in a space, filter templates by category, or search for a specific template by name or keyword. To preview a template without selecting it, hover over the template card.
+Once you've found the right template, select the card to apply it to your content.
+Add your favorite templates to the
+Starred
+category for easy access. Just hover over the template card and select the empty star icon.
+Find and use templates faster
+In addition to using the templates browser to discover templates, you can quickly get started creating when you find a page, live doc, or blog post that you like.
+If a piece of content was created using a template, you will see “with a template” next to “Created by” in the byline. Want to use the same template?
+Hover over the "with a template" part of the byline to see the template name and a description.
+Select
+View
+to open the template in the template browser.
+To create a page with that template, select
+Use template
 .
-Calendars also respect the
-view permissions
-of their related space. When you create a calendar in a space, or add a related space to an existing calendar, only people with permission to view the space will be able to see the calendar.
-Apply restrictions to a calendar
-Choose
-Calendars
-in the Confluence or space sidebar
-Choose
-to the right of a calendar's name, then choose
-Restrictions
-Do any of the following:
-Choose
-Restrict viewing
-then search for and select a user, or choose the
-Group
-button and search for and select a Confluence group
-Choose
-Restrict editing
-then search for and select a user, or choose the
-Group
-button and search for and select a Confluence group
-Hit
-OK
-If you restrict editing of a calendar, any user not allowed to edit the calendar won't be able to add events to the calendar, edit any existing events, or change restrictions for the calendar.
+About using templates
+Pages, live docs, and blog posts cannot be created from a template when on the Confluence mobile app.
+Also keep in mind that when you change templates, you create a new page, live doc, or blog post; any content you entered on the current item won’t carry over to the new template. You'll be prompted with an option to discard the current item when the new one is created. If you don’t discard it, it will be saved in the sidebar.
 Was this helpful?
 Yes
 No
@@ -478,9 +480,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage team calendars
-Delete or remove a calendar
-Restrict a calendar
+Create and edit content
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

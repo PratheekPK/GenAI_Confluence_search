@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-the-indexing-language/
+URL: https://support.atlassian.com/confluence-cloud/docs/choose-a-default-language/
 
-Configure the indexing language | Confluence Cloud | Atlassian Support
+Choose a default language | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -440,16 +443,11 @@ Confluence administration
 Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Configure the indexing language
-Changing the indexing language defined in
-Confluence Cloud
-may improve the accuracy of your search results, especially if the majority of the content of your site is in a language other than English.
-Confluence Cloud
-supports content indexing in English (default), German, Russian, Chinese, CJK, Custom Japanese, French, Portuguese, Czech and Greek.
-To configure the indexing language:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
+Choose a default language
+Confluence administrators can define a default language to be applied to all spaces. Individual users can select a language preference for their session.
+This doesn’t apply to anonymous users.
+Set the default language
+To change the default language across Confluence:
 Select the wheel icon (
 ) in the top-right corner to open Confluence administration.
 Find
@@ -463,12 +461,54 @@ General configuration
 Scroll down to
 Internationalization
 .
-Select the
-Indexing language
-from the dropdown list.
+Select a language from the
+Global default language
+dropdown.
 Select
-Save indexing language changes
+Save global default language changes
 .
+Available languages
+Confluence Cloud is available in the following languages, in addition to English (US):
+Chinese (Simplified)
+Chinese (Traditional)
+Czech
+Danish
+Dutch
+English (UK)
+Finnish
+French
+German
+Hungarian
+Italian
+Japanese
+Korean
+Norwegian
+Polish
+Portuguese (Brazilian)
+Russian
+Spanish
+Swedish
+Turkish
+Though you can still select the following languages in your Atlassian Account settings, there is no new Confluence localization support being offered for:
+Estonian
+(from July 1, 2020)
+Portuguese (Portugal)
+(from July 1, 2020)
+Slovak
+(from July 1, 2020)
+Romanian
+(from December 1, 2019)
+Icelandic
+(from December 1, 2019)
+Learn more about
+Atlassian Account language settings
+.
+Other language settings
+Individual users can choose a display language that's different from the global default.
+The language a user sees will depend on the following factors, in order from highest to lowest importance:
+The language preference set in the user's profile. Users must be logged in for this setting to take effect.
+The language preference set in the user's web browser, as detected by Confluence.
+The default language for the instance, as defined by a Confluence administrator.
 Was this helpful?
 Yes
 No
@@ -480,13 +520,16 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Configuration settings in Confluence Cloud
-Show more
+Change the site title
 Configure the administrator contact page
 Choose a default language
 Configure the indexing language
 Configure time and date formats
-Configure number formats
 Show more
+On this page
+Set the default language
+Available languages
+Other language settings
 Community
 Questions, discussions, and articles
 Accessibility

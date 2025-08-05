@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-global-reports-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-table-of-content-zone-macro/
 
-Insert the global reports macro | Confluence Cloud | Atlassian Support
+Insert the table of content zone macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,32 +439,21 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Extend the functionality of Confluence Cloud
+Use macros to add navigation on Confluence pages
 Cloud
 Data Center
-Insert the global reports macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Global Reports macro displays a list of links to some reports about content on your site.
-These reports include a list of new or updated pages, orphan pages, undefined pages, and
-RSS feeds
-for new pages and blog posts.
-Use the Global Reports Macro
-To add the Global Reports macro:
+Insert the table of content zone macro
+You can use the Table of Content Zone macro to mark out a section (zone) within the page or live doc from which to create a table of contents. You can style the headings as a flat list, and place the list of links at the top and bottom of the section or page or doc, to provide navigation bars similar to web navigation.
+Use the Table of Content Zone macro
+To add the Table of Content Zone macro:
 When editing, select
 from the toolbar
 Find the macro by name and select it
 Configure it as needed
 You can also type / on the page to bring up the same list you'd see by selecting
 from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Global Reports macro:
+To edit the Table of Content Zone macro:
 Select the macro placeholder.
 Select the Edit
 icon
@@ -483,18 +475,152 @@ example
 Parameter
 Default
 Description
-Width of Table
-(width
+location
+(location
 )
-99%
-Specify the width of the table in which the links are displayed, as a percentage of the window width.
+both
+Specifies where in the zone the output list is displayed:
+top
+,
+bottom
+, or
+both
+, which encloses the page zone content.
+Output Type
+(type
+)
+list
+Specifies the layout for the table of contents:
+list
+– produces a vertical list, typical of a TOC.
+flat
+– produces a horizontal menu-type series of links, for example: [Heading 1] [Heading 2] [Heading 3].
+Display Section Numbering
+(outline
+)
+false
+Select to apply outline numbering to your headings, for example: 1.1, 1.2, 1.3.
+List Style
+(style
+)
+none
+Specifies the style of bullet point for each list item.  You can use any valid CSS style.  For example:
+none
+— no list style is displayed
+circle
+---  the list style is a circle
+disc
+— the list style is a filled circle. This is the typical bullet list, and is the one we're using for this example list
+square
+— the list style is a square
+decimal
+— the list is numbered (1, 2, 3, 4, 5)
+lower-alpha
+— the list is lower-case, alphabetized (a, b, c, d, e)
+lower-roman
+— the list style is lower roman numerals (i, ii, iii, iv, v, vi)
+upper-roman
+— the list style is upper roman numerals (I, II, III, IV, V, VI)
+Heading Indent
+(indent
+)
+Sets the indent for a
+list
+output type, according to CSS quantities. Entering "10px" will successively indent list heading levels by 10px. For example, h1 headings will be indented 10px and h2 headings will be indented an additional 10px.
+Separator
+(separator
+)
+brackets
+Only applies to the
+flat
+output type
+.
+Specifies the display style of the links.  You can enter any of the following values:
+brackets
+— Each item is enclosed by square brackets: [ ].
+braces
+— Each item is enclosed by braces: { }.
+parens
+— Each item is enclosed by parentheses: ( ).
+pipe
+— Each item is separated by a pipe:
+anything
+— Each is separated by the value you enter. You can enter any text as a separator, for example
+'***'
+. If using a custom separator, be aware that text displays exactly as entered, with no additional white space to further separate the characters.
+Minimum Heading Level
+(minLevel
+)
+1
+Select the largest heading level to start your TOC  list.  For example, 2 will list h2, h3, and h4 headings, but will not include h1 headings.
+Max Heading Level
+(maxLevel
+)
+7
+Select the smallest heading level to include in the TOC.  For example, 2 will list h1 and h2, but will not include h3 and below.
+Include Headings
+(include
+)
+Filter the included headings according to specific criteria. You can use wildcard characters. See
+Sun's Regex documentation
+for examples of constructing regular expression strings.
+Exclude Headings
+(exclude
+)
+Exclude headings according to specific criteria. You can use wildcard characters. See
+Sun's Regex documentation
+for examples of constructing regular expression strings.
+Printable
+(printable
+)
+true
+By default, the TOC is set to print. If you clear this parameter, the TOC will not be visible when you print the page.
+CSS Class Name
+(class
+)
+If you have a custom TOC in your CSS style sheet, you can use this parameter to output the TOC with the specified "class" attribute.
+Examples
+The examples are based on a page with the following headings:
+Filtered Table of Contents
+This example will filter all headings to include those that contain "Favorite", but will exclude any heading which ends with the word "Things". The list is styled with upper-case Roman numerals.
+Parameter
+Value
+Output Type
+list
+List Style
+upper-roman
+Include Headings
+Favourite.*
+Exclude Headings
+.*Things
+Flat List
+This example will filter all headings to render a flat list of "Unknowns" enclosed in square brackets.
+Parameter
+Value
+Output Type
+flat
+Separator
+brackets
+Max Heading Level
+2
+Include Headings
+Unknown.*
 Wiki markup example
+Wiki markup is only supported in the legacy editor.
 Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
 Macro name:
-global-reports
+toc-zone
 Macro body:
-None.
-{global-reports:width=50%}
+Accepts rich text.
+{toc-zone:printable=false|maxLevel=2|minLevel=2|location=top|type=flat|outline=true|separator=pipe}
+Only headings within this block are included in the table of contents.
+{toc-zone}
+Notes
+Due to an outstanding issue in the Table of Content Zone macro (
+CONF-10619
+), the Macro Browser's
+Refresh
+function does not render any parameter modifications. Currently, the rendering of parameter value modifications to the Table of Content Zone macro occurs only after the page is saved.
 Was this helpful?
 Yes
 No
@@ -505,10 +631,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Use macros to add navigation on Confluence pages
+Show more
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
 On this page
-Use the Global Reports Macro
+Use the Table of Content Zone macro
 Parameters
+Examples
+Filtered Table of Contents
+Flat List
 Wiki markup example
+Notes
 Community
 Questions, discussions, and articles
 Accessibility

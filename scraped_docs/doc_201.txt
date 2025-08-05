@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/change-the-space-name-and-logo/
+URL: https://support.atlassian.com/confluence-cloud/docs/troubleshooting-import-data-from-html-to-confluence/
 
-Change the space name and logo | Confluence Cloud | Atlassian Support
+Troubleshooting import data from HTML to Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,34 +439,32 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Customize your space
+Create and organize work in Confluence Cloud
+Import data from other tools into Confluence
 Cloud
 Data Center
-Change the space name and logo
-To customize your space’s name and icon:
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
+Troubleshooting import data from HTML to Confluence
+How will I know if my HTML upload is successful?
+You’ll receive a notification email when the import is complete. If the import was a success, the email will contain which content was transferred. If any imports are partially or fully unsuccessful, you’ll receive a short indication about why it failed. The following table provides more information about each error message and steps you can take to solve them.
+Are there size limits for file uploads?
+It depends. If you encounter a size limit, please contact your admin, as they determine the size restrictions of HTML import files.
+What if i’m still experiencing errors?
+Check your file format and make sure it’s a ZIP HTML file and review our extensive HTML FAQ
+here
 .
-Select
-Space details
-.
-Input a new
-Name
-and select
-Save
-.
-To edit the space icon, select the Space icon field.
-Upload your own logo or select
-Gallery
-to choose from existing illustrations.
-Select
-Save
-.
-You can't change the space icon for your personal space, which uses your profile picture as the space logo.
+If the import process fails, use the following table to figure out a solution and try again.
+Notification example
+How to fix it
+Your import from HTML was unsuccessful.
+Look through the
+HTML FAQ
+and see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
+Your import from HTML was unsuccessful because file does not contain HTML content
+No HTML file was added or the file did not contain any content. Check the file for content. and try uploading again.
+Your import from HTML was unsuccessful because we couldn’t get content from your export file
+There may be something wrong with the zipper service. Try again or reach out to Confluence support.
+Your import was unsuccessful because we failed to update pages with your content.
+The Confluence API is returning an error. Try again later or reach out to Confluence support.
 Was this helpful?
 Yes
 No
@@ -474,10 +475,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Customize your space
-Apply a theme to a space
-Change the space name and logo
-Edit features for a space
+Import data from other tools into Confluence
+Show more
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+On this page
+How will I know if my HTML upload is successful?
+Are there size limits for file uploads?
+What if i’m still experiencing errors?
 Community
 Questions, discussions, and articles
 Accessibility

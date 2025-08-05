@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/edit-the-site-welcome-message/
+URL: https://support.atlassian.com/confluence-cloud/docs/customize-default-space-content/
 
-Change the Confluence Home welcome message | Confluence Cloud | Atlassian Support
+Create a custom space overview template | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -440,11 +443,14 @@ Confluence administration
 Set Confluence-wide functionality
 Cloud
 Data Center
-Change the Confluence Home welcome message
-Give the default homepage some personality by adding a custom welcome or primary announcement.
-The message appears at the top of the Announcements section in the Home tab — and is perfect for adding an important communication, useful links, or a fun photo from your last office party or team outing.
-You'll need Confluence administrator permissions to edit it.
-To edit the Home welcome message:
+Create a custom space overview template
+Confluence administrators can edit the template that is used to create the overview page in new spaces. There is a different template for general spaces, personal spaces, and space blueprints.
+Any changes to the space overview templates will only appear in new spaces (those that are created after editing the content). They will not affect existing overviews.
+Edit the space overview template
+To edit the (blank) space overview template:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
 Select the wheel icon (
 ) in the top-right corner to open Confluence administration.
 Find
@@ -455,49 +461,50 @@ Configuration
 >
 Global templates and blueprints
 .
-Scroll down to
-System templates
-and locate the
-Default Welcome Message
-.
+Select the edit icon (
+)
+next to "Default Space Content" or "Default Personal Space Content" (depending on whether you want to customize the content for general space or personal space overviews).
+Add variables, macros, and other content as you want it to appear.
 Select
-Edit
-.
-Add your content, then select
 Save
 .
-To go back to the original welcome message, select
+The following variables are available to be added to the default space overview templates:
+For general spaces
+$spaceKey
+inserts the space key
+$spaceName
+inserts the space name
+For personal spaces
+$userFullName
+inserts the user (owner of the personal space) into the personal space overview
+$userEmail
+inserts the email address of the user (owner of the personal space) into the personal space overview.
+Default space templates differ from ordinary page templates in that they don't present the user with a form to complete, so variables should be limited to those listed in the
+Variables
+menu.
+Some macros, like the Table of Contents macro, may not display correctly when you preview the template because they are designed to work on a page. However when a new space is created, the macros will display correctly.
+For more information on editing a template, including adding macros, see
+Edit a template
+.
+Restore default space overview content
+To reset the original default content:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+Global templates and blueprints
+.
+Select
 Reset to default
-next to the
-Default Welcome Message
-template.
-Hints for using the template editor
-The welcome message is a template, not a page, so you'll be using the template editor to make your changes.
-You can add text, links, and macros, as you would in any Confluence page, but the process for adding files, including images, is a little different.
-You can't upload an image or other file into a template directly. First you'll need to upload the file to a page in Confluence. Then, in the template, choose
-Insert
->
-Files
->
-Search on other pages
-to embed the file or image.
-You can't use template variables in the welcome message.
-Allowing other people to edit the welcome message
-You can allow people who aren't Confluence administrators edit the welcome message. To do this,
-Insert the include page macro
-to include content from elsewhere in Confluence rather than adding content directly to the template.
-To include content from a page in the welcome message:
-Create a new page in a space that's visible to all users.
-It's important that all users can see content in that space.
-If a person doesn't have permission to view the space where you've created the page, they won't be able to see the page content on the dashboard.
-Add some text, images or macros, and publish the page.
-Restrict
-who can edit the page (this is optional, but useful if you only want to allow some people to change the content).
-Edit the welcome message template (as described above) and
-Insert the include page macro
-to include the contents of your newly created page.
-Save the template.
-People with permission to edit the page will now be able to make changes at any time, and their changes will be visible on the dashboard as soon as the page is saved.
+next to the template you wish to reset.
+From this point on, all new space overviews will be created with the original default content.
 Was this helpful?
 Yes
 No
@@ -510,15 +517,15 @@ The Atlassian Community is here for you.
 Ask the Community
 Set Confluence-wide functionality
 Show more
-Control whether spaces can turn on anonymous access
 Change the landing page
 Change the Confluence Home welcome message
 Create a custom space overview template
 Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
 Show more
 On this page
-Hints for using the template editor
-Allowing other people to edit the welcome message
+Edit the space overview template
+Restore default space overview content
 Community
 Questions, discussions, and articles
 Accessibility

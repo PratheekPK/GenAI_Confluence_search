@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/search-the-people-directory/
+URL: https://support.atlassian.com/confluence-cloud/docs/keyboard-shortcuts-markdown-and-autocomplete/
 
-Search for people and teams | Confluence Cloud | Atlassian Support
+Keyboard shortcuts and autocomplete | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,20 +440,67 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Find content in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Search for people and teams
-To view the people directory, select
-Teams
-in the
-sidebar
+Keyboard shortcuts and autocomplete
+Want to be an absolute Confluence expert? Get to know the keyboard shortcuts and autocomplete, and in no time at all you won't even need to use a mouse or trackpad.
+We could give you a list here, but then you'd need to keep referring to this page. The best way to go is to show you how to find the list of keyboard shortcuts within Confluence.
+Keyboard shortcuts
+To view all Confluence keyboard shortcuts, do any of the following:
+Select the
+help icon
+from the navigation bar near your profile picture, then select
+Keyboard shortcuts
 .
-From under
-Teams
-, select
-Search teams
-to view or search for more people or teams. You can also add new teams or people to Confluence here.
+When viewing a page or live doc, press
+shift
++
+?
+Press
+Ctrl + /
+(Windows) or
+command + /
+(Mac) when editing a page or live doc.
+While editing a page or live doc, select the
+from the bottom left corner of the screen.
+You'll see the available keyboard shortcuts, for your operating system, in Confluence.
+The keyboard shortcuts are organized into five distinct categories:
+General
+– This includes global shortcuts and content shortcuts that are applicable across all Confluence content.
+Formatting
+– Shortcuts designed specifically for formatting while in edit mode of live docs and pages.
+Navigation
+– Shortcuts for navigating within Confluence and across comments.
+Tables
+– Shortcuts tailored for use while editing tables in a live doc or page.
+Markdown
+– Shortcuts for Markdown that function while editing live docs and pages.
+Whiteboard
+– Shortcuts specifically for whiteboards.
+You can turn the General keyboard shortcuts off when you visit the
+General
+tab in the keyboard shortcuts dialog.
+Autocomplete
+Certain key combinations and markdown can be used to quickly change formatting, create lists, and add tables.
+Use keyboard shortcuts and markdown
+Select the
+menu at the bottom left of the page, and select
+Editing keyboard shortcuts
+.
+The shortcuts you see in the application depend on the operating system you use.
+Use the slash command
+The slash command opens a menu that contains the following:
+Tools from the toolbar like paragraph formatting and lists as well as adding links, images, mentions, emojis, tables, and layouts
+Elements like expands, dates, adding files, quotes, code snippets, and statuses
+Macros
+Custom apps
+The items available in the slash command list are exactly the same as the items seen when selecting
+from the toolbar.
+Open the autocomplete menu:
+Type / then the first few characters of the shortcut.
+Choose the shortcut from the list of suggestions.
+Some of the shortcut combinations require a space to be added afterward, like Action item and Decision.
 Was this helpful?
 Yes
 No
@@ -461,12 +511,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Find content in Confluence Cloud
-Search for content
-Search for people and teams
-Confluence search syntax
-Discover relevant content with related content
-Use Atlassian Intelligence to search for answers
+Create and edit content
+Show more
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Show more
+On this page
+Keyboard shortcuts
+Autocomplete
+Use keyboard shortcuts and markdown
+Use the slash command
 Community
 Questions, discussions, and articles
 Accessibility

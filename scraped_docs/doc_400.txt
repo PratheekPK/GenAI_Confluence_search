@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-the-administrator-contact-page/
+URL: https://support.atlassian.com/confluence-cloud/docs/edit-a-template/
 
-Configure the administrator contact page | Confluence Cloud | Atlassian Support
+Edit a template | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,82 +439,145 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Space administration
+Create templates, blueprints, and reports
 Cloud
 Data Center
-Configure the administrator contact page
-The administrator contact page is a form that allows a users to send a message to the administrators of
+Edit a template
+Space admins can edit content templates in the spaces they administer. To learn about editing global content templates, see
+Edit a global template
+.
+Only space administrators can create or edit templates in
 Confluence Cloud
-. (In this context, administrators are the members of the default administrators group.)
+. If you do not have the
+Admin
+permission
+for a space, you won’t see the
+Templates
+link appear in the
+Look and feel
+card when you go to
+Space settings
+.
+To edit a content template for a space:
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Templates
+from the
+Look and feel
+card.
+Find the template in the table and select
+Edit
+.
+Editing a
+template
+is a lot like editing a page or live doc– there are only a few small differences. Currently, there’s no way to add images or attachments in templates. However, you can include variables, placeholder text, and
+labels
+. These features help people using these templates create rich and dynamic pages quickly.
+Variables
+When someone creates pages or live docs from a template with variables, they’ll fill out a form with text fields or lists for each variable in the template. The information they provide will be added to pages and live docs automatically.
+Add a variable to a template
+You can only add variables to templates created with the new editor.
+To add a variable:
+Type
+/variable
+, then hit
+Enter
+.
+Select the variable token, then select
+to edit it.
+Enter a name for the variable, then select
+Text
+,
+Multi-line Text
+, or
+List
+.
+A
+Text
+variable offers a single line of input text, a
+Multi-line
+variable is configurable for multiple rows and columns of input, and a
+List
+produces drop-down lists with definable options.
+Select
+Save
+.
+Variables with the same name must have the same parameters, as Confluence treats these as copies of the same variable. When someone creates pages or live docs from a template with two or more copies of the same variable, the text they enter for one variable will appear everywhere that a copy of that variable appears.
+Example
+The example below shows a custom template with five text variables — one for “New Hire,” one for “Company,” one for “Job Title,” one for “Team,” and one for “Manager”:
+When someone creates pages or live docs from this template, they will be prompted to enter text into the fields where the variables appear:
+When they’re finished, the text they entered will appear on the page or live docs in edit mode.
+Placeholder text
+Use placeholder text to add instructions or sample text to pages or live docs created from a template. Placeholder text will only appear when pages or live docs are being edited – it’s invisible to anyone who’s viewing the published version.
+Add placeholder text to a template
+To add placeholder text to a template in the legacy editor:
+Select
++
+, then select
+Placeholder text
+.
+Type in your placeholder text, then hit
+Enter
+.
+To add placeholder text to a template in the new editor:
+Type
+/placeholder
+where you want the text to appear, then hit
+Enter
+.
+Type in your placeholder text, then hit
+Enter
+again.
+Example
+The example below shows a section of the Design Systems Template that comes with
+Confluence Cloud
+. The grey text is placeholder text:
+When someone creates pages or live docs from this template, they will see grey placeholder text while they are editing the template. However, the text will not appear in view mode. This way, it is possible to provide instructions to the person creating pages or live docs from the template without any viewers of the page seeing them.
+Labels
+Add a
+label
+to a template to apply it to pages or live docs created from that template. This is helpful if you want to create a page
+properties report
+to keep track of similar pages or live docs.
+Add labels to a template
+To add labels to a template in the legacy editor:
+Select
+.
+Enter labels into the box, separated by the
+Space
+key.
+Select
+Add
+.
+Select
+Close
+.
+To add labels to a template in the new editor:
+Select
+>
+Add labels
+.
+Enter labels into the box, separated by the
+Space
+key.
+Select
+Add
+.
+Select
+Close
+.
+Example
 See
-Create and update groups
-to find out what your default administrators group is called.
-The title of the administrator contact page is
-Contact Site Administrators
-. Typically,
-Confluence Cloud
-users get to this page by clicking a link on an error screen such as the
-500 error
-page.
-Customizing the administrator contact message
-You can customize the message that is presented to the user on the
-Contact Site Administrators
-page.
-To edit the administrator contact message:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Configuration
->
-General configuration
-.
-Enter your text in the
-Contact administrators message
-field (you can enter any text or
-Confluence wiki markup syntax
-).
-Select
-Save configuration changes
-.
-The default administrator contact message
-By default, the message starts with "Please enter information..."
-To restore the message to its default, remove the custom message you entered when following the instructions above, so that the
-Custom Contact Administrators Message
-field is empty.
-Disable the Administrator Contact Form
-You can only disable the form if you first provide a custom "Contact Administrators Message" as described above.
-To enable or disable the administrator contact form:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Configuration
->
-General configuration
-Uncheck the
-Contact administrators form
-box.
-Select
-Save configuration changes
-.
-Configuring spam prevention
-You can configure
-Confluence Cloud
-to use Captcha to help prevent spam, including the spamming of administrators. The administrator contact form is covered by Captcha settings as documented in
-Configure Captcha for spam prevention
-.
+Create a custom report
+for several examples of templates with labels.
 Was this helpful?
 Yes
 No
@@ -522,18 +588,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
-Change the site title
-Configure the administrator contact page
-Choose a default language
-Configure the indexing language
-Configure time and date formats
-Show more
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
 On this page
-Customizing the administrator contact message
-The default administrator contact message
-Disable the Administrator Contact Form
-Configuring spam prevention
+Variables
+Add a variable to a template
+Example
+Placeholder text
+Add placeholder text to a template
+Example
+Labels
+Add labels to a template
+Example
 Community
 Questions, discussions, and articles
 Accessibility

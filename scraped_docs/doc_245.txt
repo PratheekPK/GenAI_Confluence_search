@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-slack-and-confluence-together/
+URL: https://support.atlassian.com/confluence-cloud/docs/how-to-use-the-new-toolbar-and-insert-elements/
 
-Use Slack and Confluence together | Confluence Cloud | Atlassian Support
+How to use the new toolbar and insert elements | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,193 +439,87 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Confluence with other applications
+Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Use Slack and Confluence together
-This integration isn't available in the
-Atlassian Government environment
+How to use the new toolbar and insert elements
+You can choose where your formatting toolbar appears:
+Pinned at the top, or
+Unpinned, appearing in-line when you select text.
+The default setting is pinned for Pages and unpinned for
+Live Docs
 .
-The Confluence Cloud app for Slack lets your team:
-Get their Confluence notifications in Slack instead of in email or in Confluence itself
-Set up notifications in Slack channels about changes in specific Confluence spaces, content (including child content) and blog posts
-See link previews of content and comments when they're included in Slack messages
-Like content, reply to comments, and more without leaving Slack
-To get started,
-install the Confluence Cloud app onto your Slack workspace
-.
-Get your Confluence notifications in Slack
-To get started,
-install the Confluence Cloud app onto your Slack workspace
-.
-Open Slack
-Go to the Apps section in the sidebar and hover over the section name to reveal the
-+
-to open a direct message
-Select
-+
-Enter "Confluence" in the
-To
-field
-Select Confluence Cloud from the search results
-Enter the slash command
-/confluence notify
-in the
-Message
-field
-Link your Confluence and Slack accounts. If you’ve already linked your accounts, you’ll skip this step.
-Select
-Turn on personal notifications
-to review the sites whose activity you'll be notified about, the type of direct notifications you'll get, and the notifications you'll receive for content and spaces you are watching.
-Select
-Done
-Subscribe Slack channels to Confluence content and spaces
-A subscription links your Confluence space or content to a Slack channel so you can define which events drive notifications for that channel.
-For security reasons, Slack notifications won't be sent for Confluence content with both
-viewing and editing restricted
-.
-To subscribe to a page, live doc, or blog post:
-Open the content that you would like to create a subscription for.
-Next to the
+If you change this, your preference will be saved for both content types.
+We're iterating the toolbar and formatting experience with features subject to change.
+Your previous browser tabs may show an earlier experience. Refresh your page to receive the latest available experience for your account.
+This page outlines updates in the latest release. It may take a few months to land in your site, or to be accurately reflected across our documentation.
+How to manage changes for your organization
+How to manage Atlassian experiments
+What to expect
+Select the pin or unpinned icon to the right of the toolbar
+Access
+Undo
+,
+Redo
+, and
+Find and replace
+next to the top-right
 Share
-button, select
-More actions
-(
-)
-, then
-Apps
-, then
-Slack Notifications
-.
+button, via the
+...
+menu.
+Improved access elements like tables, media, and the date by clicking the + button when you hover on any content block, or type
+/
+anywhere.
+Share your feedback with our team
+Send us feedback about these changes via in-product help.
+Select the
+icon at the bottom left of your content.
 Select
-Add subscription
-.
-Choose the Slack workspace and channel to connect to your page, live doc, or blog post. If your workspace isn't on the list, select
-Add new workspace
-and follow the prompts to connect it.
-Choose the notifications you want to send to the Slack channel.
-To subscribe to a page in a Slack channel, type
-/confluence connect <page-url>
-into the chat window. A subscription added via Slack will by default send notifications for all available event triggers.
-To subscribe to a space:
-Only space admins can add a space subscription within Confluence; however all users can create a space subscription directly from Slack.
-Open the space that you would like to create a subscription for.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Integrations
-menu and select
-Slack Notifications
-.
-Select
-Add subscription
-.
-Choose the Slack workspace and channel to connect to your space. If your workspace isn't on the list, select
-Add new workspace
-, and follow the prompts to connect it.
-Choose the notifications you want to send to the Slack channel.
-To subscribe to a space in a Slack channel, type
-/confluence connect <space-url>
-into the chat window. A subscription added via Slack will by default send notifications for all available event triggers.
-Edit a subscription
-You can edit the types of notifications you receive for a subscription at any time. In Slack, type
-/confluence list
-and then click
-Edit subscription
-. Follow the below steps to edit subscriptions in Confluence.
-To edit notifications for a page, live doc, or blog post in Confluence:
-Open the content for which you would like to edit the notifications.
-Next to the
-Share
-button, select
-More actions
-(
-)
-, then
-Apps
-and
-Slack Notifications
-.
-Select
-next to the existing subscription and choose the notifications you want to send to the Slack channel.
-To edit notifications for a space in Confluence:
-Only space admins can modify space subscriptions within Confluence; however, all users can modify space subscriptions directly from Slack.
-Open the space for which you would like to edit the notifications.
-Next to the
-Share
-button, select
-More actions
-(
-)
-, then
-Apps
-and
-Slack Notifications
-.
-Select
-next to the existing subscription and update the notifications you want to send to the Slack channel.
-Integration tips and tricks
-Once you've connected your Confluence Cloud and Slack accounts, you can:
-Share link previews of content and comments with your team whenever you paste Confluence links in Slack. For security reasons, restricted content won't display as link previews.
-Use reactions to take action in Confluence when the @confluence bot is invited to a channel:
-Add 👍 to a notification or link preview for a page, live doc, post, or comment to like the item in Confluence
-Add ⭐ to a notification or link preview for a page, live doc, or post to add it to your saved for later
-See a full list of app shortcuts in Slack by typing
-/Confluence help
-Disable and enable the app
-When you subscribe a Confluence page, live doc, post, or space to a Slack channel, the Confluence Cloud for Slack app will be automatically installed in your Slack workspace. Alternatively, you can install it in your Slack workspace from
-here
-. It's as simple as that!
-Confluence admins can disable the app across Confluence Cloud with these steps:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Atlassian Marketplace
->
-Manage apps
-.
-Select
-System
-from the drop-down at the top.
-Select
-Slack
->
-Configure
-.
-Turn off the toggle to disable the app.
-Space admins can also disable the app for content in their space by navigating to
-Space settings > Integrations > Slack notifications
-, and turning off notifications.
-Disabling the app at the instance- or space-level will delete any existing Slack notification subscriptions.
-Space permission for user "Chat Notification"
-Notification will be triggered from spaces only when the "Chat Notification" is added to space permission.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
-menu and select
-Users
-.
-Under individual users make sure user
-"Chat Notification"
-is present.
-If user Chat Notifications is not present, manually add it with the following permission, then select
-Save all
-.
-Need support?
-This integration is built and maintained by Atlassian. If you need support, visit
-https://support.atlassian.com
-or contact support@atlassian.com
+Editor
+as the component in the feedback modal.
+Submit your feedback, providing as much detail as possible.
+Pin or unpin your toolbar
+Select the pin icon from the toolbar menu to pin or unpin your toolbar.
+For both toolbar experiences your preference saves in Confluence.
+If you use multiple Confluence sites, you’ll need to choose your toolbar preference for each one.
+Your teammates can choose their own preferences which will save for them.
+Pinned top toolbar
+Fixed at the top is how the toolbar has traditionally appeared in Confluence. When you fix your toolbar at the top, more elements such as media, tables, and emojis will appear.
+In-line toolbar, appears when you select text
+For a more minimalist feel you can let it appear in-line when you select text. The in-line toolbar lets the formatting tools come to you, rather than having to scroll or move to the top of the page.
+To select text:
+Drag your cursor over words
+Select the
+drag and drop handle. This will highlight text within a content block.
+Use keyboard shortcuts:
+Mac
+Command + Shift + Left/Right arrow
+Windows
+Ctrl + Shift + Left/Right arrow
+The unpinned toolbar aims to reduce visual clutter for customers who prefer to search for and insert elements with the keyboard
+/
+command.
+Insert elements: tables, the date, and more
+Elements include tables, layouts, media, checkboxes and more.
+Search for or insert elements by:
+Typing the forward slash key “/” anywhere on the page
+Selecting the + button that appears when you’re hovering over a content block
+Start typing to search for what you’re looking for.
+When you select
+...View more
+in the + or / menu, the element browser will pop-up. You can browse all elements and macros such as tables, charts, the date, and more.
+How to insert elements into a page
+Keyboard shortcuts
+While editing you can access keyboard shortcuts via the
+button on the bottom-left of your content. To open this modal with a keyboard shortcut, use:
+Mac
+Command + /
+Windows
+Ctrl + /
+More shortcut resources
+Keyboard shortcuts and autocomplete
+Confluence magic shortcuts in Community
 Was this helpful?
 Yes
 No
@@ -633,23 +530,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Confluence with other applications
-Use Slack and Confluence together
-Use Jira and Confluence together
-Use Trello and Confluence together
-Use Microsoft Teams and Confluence together
+Create and organize work in Confluence Cloud
+Show more
+Export content from Confluence Cloud
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+Review macros only available in the legacy editor
+Show more
 On this page
-Get your Confluence notifications in Slack
-Subscribe Slack channels to Confluence content and spaces
-To subscribe to a page, live doc, or blog post:
-To subscribe to a space:
-Edit a subscription
-To edit notifications for a page, live doc, or blog post in Confluence:
-To edit notifications for a space in Confluence:
-Integration tips and tricks
-Disable and enable the app
-Space permission for user "Chat Notification"
-Need support?
+What to expect
+Pin or unpin your toolbar
+Pinned top toolbar
+In-line toolbar, appears when you select text
+Insert elements: tables, the date, and more
+Keyboard shortcuts
 Community
 Questions, discussions, and articles
 Accessibility

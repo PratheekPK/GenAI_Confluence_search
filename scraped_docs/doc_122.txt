@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-google-drive-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/share-content-externally-with-public-links/
 
-Insert the Google Drive macro | Confluence Cloud | Atlassian Support
+Share content externally with public links | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,114 +439,99 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
 Cloud
 Data Center
-Insert the Google Drive macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Google Drive macro isn’t available in the
-Atlassian Government environment
+Share content externally with public links
+Public links allow teams to share individual Confluence content items with people outside of Confluence without giving them access to Confluence. This could be useful for sharing information to the public, like customer FAQs, release notes, shareholder letters, and more.
+On this page, you’ll find guidance on how to use public links to share your content with anyone on the internet.
+For details on how public links work, go to
+How secure are public links?
+If you’re an admin looking for guidance on how to get started with public links, go to
+Control whether spaces can allow public links
 .
-Embed Google Docs, Sheets, and Slides files from your Google Drive directly into your Confluence page.
-Google Drive macros are provided by the
-Google Drive for Confluence app
-.
-Your administrator will need to install this app before you can use these macros.
-To add one of these files from your Google Drive onto your page, paste the link into the editor and auto-convert will do the rest. Alternatively you can add the Google Docs, Google Sheets, or Google Slides macros to the page, edit the macro, and drop in the URL.
-If the file is not public, Confluence will prompt people to authenticate with their Google credentials before they can see the file for the first time.
-This app supports embedding Google Docs, Sheets, and Slides files, only. It does not let you embed other types of files you may have in Google Drive.
-Using the Google Drive macros
-To add a Google Drive macro to a page:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-Speeding up macro entry with autocomplete:
-In the new editor
--
-Type / and the beginning of an element (tool or things in the insert menu) to see a list of suggestions.
-In the legacy editor
--
-Type { and the beginning of the macro name to see a list of suggested macros.
-Details are in
-Keyboard shortcuts, markdown, and autocomplete
-.
-To edit an existing macro
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Google Drive URL
-none
-This is the URL of your Google Drive file. You can get this URL from the address bar in your browser or using the
-Get Link
-option in Google Drive.
-Height
-Height of the embedded document. Confluence will default to Google's preferred size for the type of file (doc, sheet, or slide).
-Include a link to 'View in new tab'
-yes
-Use this option to add a "View in new tab" button. It's a quick way for people to jump from viewing the file on your page to editing it in Google Drive.
-To adjust the width of your embedded Google Drive file
-:
-Select the embedded file, then choose a width from the floating toolbar that appears:
-This app is using the Google Drive v3 API. We try our best to stay in sync with their API updates. If they’ve recently updated their API, it’s possible you’ll see some unexpected behavior.
-Installing the app
-You'll need to be an administrator to install the app.
-To install the Google Drive for Confluence app:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Atlassian Marketplace
+Public links are only available on Confluence’s paid plans (Standard, Premium, and Enterprise). Only Confluence pages, live docs, and whiteboards can have public links, not any other type of Confluence content (e.g., blogs, databases, etc.).
+Turn on a public link
+A public link is available for any page, live doc, and whiteboard in Confluence (your admin allows them). Always use caution when sharing content externally.
+Content items will only ever have one public link
+If you turn a public link off, anyone who already has it won’t be able to access the content anymore. But if you later turn the public link back on, those people will again be able to access the content because it’s the same link.
+To turn on and share a public link:
+Go to the content item you want a public link for.
+Open
+Share
+in the top right.
+Turn on the public link toggle at the bottom of the window.
+The public link will be automatically copied, for your convenience.
+Or if the public link toggle is already on, select
+Copy public link.
+Paste the link in an email, a chat tool, on social media — wherever you want to communicate with the audience for the content.
+If you can’t turn on a public link, then you don’t have permission to turn it on. This could be because:
+public links aren’t allowed in the space (or on your site)
+the specific public link has been blocked by an admin
+you don’t have permission to edit the content item
+you don’t have space permission to edit restrictions for content in the space
+Be aware that anyone you share a public link with can share that link with anyone they want to. As long as the public toggle is on, anyone on the internet with the public link can view the content, whether you shared directly with them or not.
+Also, be aware that anyone who can view your internal content item can copy its public link and share it with anyone on the internet.
+Make sure to share the correct link
+You need the actual public link from the
+Share
+window or else anyone on the internet you share with won’t be able to view the content. The link in your browser is not the public link.
+To view what public link visitors see:
+Copy the public link.
+Open a new tab in your browser.
+Paste the public link in the new tab.
+Or you can copy the public link, log out of your Atlassian account, and paste the public link in any browser tab.
+Note:
+Custom emojis will display on public content by default. If you want to prevent this and you’re an organization admin, you can go to
+Atlassian Administration
 >
-Find new apps
+Site settings
+>
+Emoji
+and turn the toggle off for
+Allow custom emojis on publicly shared content
+. If custom emojis aren’t allowed on public content, they’ll display as text — their custom emoji name framed with two colons, such as
+:dancingbird:
+To turn off a public link:
+Go to the content item you want a public link for.
+Open
+Share
+in the top right.
+Turn off the public link toggle at the bottom of the window.
+Anyone on the internet who still has the public link is blocked from viewing the content as long as the public link toggle is off.
+What to know when sharing public links
+Always use caution when sharing content externally. Here are a few key points to know for using public links safely.
+Internal view restrictions don’t apply
+As long as your admins allow you to use public links, a public link will just work, regardless of any view restrictions. Public links ignore any restrictions to who can access a parent item, the space, and the site itself.
+No matter who is restricted from viewing the internal content item, anyone on the internet who you share the public link with will be able to view its content.
+Public links hide sensitive information
+Visitors will see a safe, view-only version of the content that hides any content outside of the shared content (content tree, macros, etc.) and locks most Confluence functionality.
+To learn more about what public link visitors can see, go to the “What is hidden from visitors” section of
+How secure are public links?
+Public links don’t share branches of the content tree
+Each public link corresponds to one content item only. If you turn on and share a public link for a content item that has any child items, the public link will only reveal the parent item, not any of the child items. To share the child items too, you’ll need to turn on their public links and share each of them individually.
+What to expect from public whiteboards
+Public whiteboards differ from public pages in that, firstly, whiteboard visitors can edit the whiteboard if the whiteboard’s public link has been set to
+Can edit
 .
-Search for
-Google Drive for Confluence
+Secondly, whiteboards differ from pages in that they are live, in real-time; changes to them don’t need to be published before visitors can see them.
+This makes public whiteboards useful for sharing roadmaps, brainstorms, holding workshops, and more.
+Visitors are represented in the top toolbar and as a cursor moving across the whiteboard while they’re viewing and/or editing it. They can see collaborators working on the board and other anonymous visitors.
+Anyone visiting the public whiteboard will be represented as “Anonymous”, even if they can access the internal whiteboard link.
+Collaborators can see anonymous visitors and their cursors from the internal version of the whiteboard and can control what name appears under their cursor to anonymous visitors.
+Anonymous users will be able to view your
+public name
+. To update how your name appears to anonymous users:
+Select your avatar, then
+Manage Account
 .
-Follow the prompts to install the app.
-Data security and privacy
-In order to provide its services, the Google Drive for Confluence app saves the following configuration data:
-Your confluence host key
-Your Atlassian account ID
-Your Google Drive API refresh token
-Your Google Drive API access token
-Google Docs content is
-not
-stored by the Google Drive for Confluence app.
-Data in production instances of Google Drive for Confluence app is stored in Postgres databases in Amazon's cloud offering, protected by username/password credentials. No data is sent to services apart from Google Drive API, Google Drive for Confluence app, your Confluence instance and the infrastructure used by the Google Drive for Confluence app (currently Micros and Amazon).
-All communications among the Google Drive API, Google Drive for Confluence app, and Confluence use HTTPS to prevent eavesdropping.
-Revoking access
-Users can revoke access to the Google Drive for Confluence app in their Google Apps account settings.
+In the
+Profile and visibility
+tab, select your name under
+Public name
+.
+Enter how you would like your name to appear publicly, then save. Your changes will take effect within five minutes.
 Was this helpful?
 Yes
 No
@@ -554,11 +542,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Collaborate on content
+Show more
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
 On this page
-Using the Google Drive macros
-Parameters
-Installing the app
-Data security and privacy
+Turn on a public link
+What to know when sharing public links
+Internal view restrictions don’t apply
+Public links hide sensitive information
+Public links don’t share branches of the content tree
+What to expect from public whiteboards
 Community
 Questions, discussions, and articles
 Accessibility

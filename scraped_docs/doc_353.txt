@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/navigation-tools-in-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-folders-to-organize-your-work/
 
-Navigation tools in whiteboards | Confluence Cloud | Atlassian Support
+Use folders to organize your work | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,66 +440,67 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Keep content organized
 Cloud
 Data Center
-Navigation tools in whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+Use folders to organize your work
+You can add folders to your space to keep related work together, just like you do on your personal computer. Unlike parent items, which you can think of as containers with built-in “Read Me” files, folders are simple containers, without any information or context built into the container itself. Use parent items in situations where it’s helpful to know a bit more about the contents of a container going in. Use folders when all you need is a place to store related work.
+Create a new folder
+To create a folder:
+Navigate to a Confluence space.
+Hover over
+Content
+in the content tree, then select
++
 .
-Pan, zoom, and find content around your whiteboard in one of three ways:
-Use the cursor tool to select and move objects
-Select the cursor in the toolbar, or use the
-V
-key to activate the select tool.
-Select a single element.
-Select and hold an empty space, then drag your cursor to select multiple elements.
-Select and hold an element, then drag your cursor to move it.
-Use the ✋ Hand tool to pan and zoom
-The hand tool allows you to move around within your whiteboard without accidentally selecting, or moving elements around.
-Select the hand in the toolbar, or use the
-H
-key to activate the hand tool.
-Pan around the whiteboard using your mouse or trackpad:
-Mouse
-:
-select and drag to pan
-scroll to pan up and down
-scroll +
-Shift
-to pan left and right
-Trackpad
-:
-select and drag to pan
-use two fingers
-Zoom in or out using your mouse or trackpad:
-Mouse
-:
-Ctrl
-+ scroll (Windows) or
-Command
-+ scroll (Mac) to zoom
-use the zoom controls found at the bottom right of the whiteboard
-Trackpad
-:
-pinch to zoom
-Find text easily within your whiteboards
-Open a whiteboard and make sure to focus on the whiteboard.
-Use
-ctrl+f
-or
-cmd+f
-to open the search menu.
-You can also access the search feature from the top
-More actions (
-)
-menu.
-Type your search query into the search box.
-Use
-enter
-or
-shift+enter
-to navigate through the search results.
+Select
+Folder
+from the drop-down menu.
+Give your folder a title, making sure you
+don’t include any PHI
+.
+To nest a folder under another content item, hover over its title in the content tree, then select
++
+and repeat steps 3-4 above.
+Since folders add hierarchical structure to a space, new folders must be created from the content tree. It is not possible to add a folder using the global create button.
+Delete a folder
+To delete an existing folder:
+Hover over the folder title in the content tree.
+Select
+Delete
+from the
+More options
+••• menu.
+Select
+Delete
+again to confirm your choice.
+When you delete a folder, its contents will move up a level in the content tree. In the example below, “Marketing” is a child item of “Project Artemis”:
+Deleting “Marketing” will cause the page it contains, “Artemis AI launch campaign,” to move, becoming a child item of “Project Artemis”:
+Any restrictions “Artemis AI launch campaign” inherited from “Marketing” will be removed, leaving only restrictions on “Artemis AI launch campaign” itself and restrictions inherited from “Project Artemis.”
+Turn folders on or off for a space
+Turning folders on or off in a Confluence space allows you to control whether your team can use them to organize and structure work. Folders are turned on by default to give you and your team plenty of opportunities to try them out, but you can turn folders off — or turn them on if you’ve disabled them previously — in
+Space settings
+.
+Currently, it is not possible to turn folders on or off at the site level.
+To turn folders on or off for a space:
+Navigate to that space in Confluence.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+General
+menu
+and select
+Features
+.
+This option is only available to space admins.
+Select the toggle to the right of
+Folders
+(under
+Content
+).
 Was this helpful?
 Yes
 No
@@ -507,17 +511,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Getting started with Confluence whiteboards
-Create a new whiteboard
-Navigation tools in whiteboards
-Organize and explore ideas with sticky notes
-Use shapes to visualize ideas
+Keep content organized
 Show more
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
 On this page
-Use the cursor tool to select and move objects
-Use the ✋ Hand tool to pan and zoom
-Find text easily within your whiteboards
+Create a new folder
+Delete a folder
+Turn folders on or off for a space
 Community
 Questions, discussions, and articles
 Accessibility

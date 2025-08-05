@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/get-started-with-questions-for-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/hide-fields-in-your-database/
 
-Get started with Questions for Confluence | Confluence Cloud | Atlassian Support
+Hide fields in your database | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,41 +439,28 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Manage Questions for Confluence
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Get started with Questions for Confluence
-Confluence organizes its content in spaces. Questions recognizes that some content should be available anywhere, so you're free to ask questions
-outside
-spaces (global questions) and have them organized by topic or in spaces and have them respect Confluence space permissions.
-In a Confluence site with Questions for Confluence installed, click
-Apps
-, then
-Questions
-in the Confluence
-sidebar
-to get started.
-Starting a community from scratch can be challenging, so here are our tips for getting started.
-To get started:
-Enable the Questions for Confluence add-on
-Questions for Confluence is
-available on the Atlassian Marketplace
-for all Confluence Cloud sites. Once enabled, you can access Questions by going to
-Apps
-, then
-Questions
-in the Confluence
-sidebar
+Hide fields in your database
+Views and hidden fields
+Hidden fields can be saved as part of a view. For more information on creating and using views, check out our page on
+Database views
 .
-Brainstorm some topics
-Topics help create structure and allow you to group like questions together. Users can choose to watch specific topics, and can use them to navigate to other questions. Topics are added as people ask questions, but if you are an administrator you can create them in the topic list once the first question has been asked.
-Seed some questions and answers
-We've found the best way to get your community up and running is to seed some frequently asked questions. Do you already have an FAQ?  Add these questions, along with useful answers, to get your community moving.
-Engage your experts
-Helpful answers to questions are what'll build your community, so recruit people to act as experts in the early stages. Encourage them to watch topics that interest them, and provide answers. Upvote helpful answers, and downvote unhelpful answers. Get people on board early.
-Share questions
-Sharing is one of the easiest ways to encourage adoption. Share an unanswered question with someone you think can provide an answer; share an answered question with someone who needs an answer.
+Databases aren’t available in the
+Atlassian Government environment
+.
+Hiding fields in your database helps streamline your view, allowing you to focus on the most relevant information. You can easily show or hide fields based on your needs, either from the hide fields option at the top of the database or from the view setting menu.
+How to hide fields
+To hide a field:
+Select
+Hide fields
+at the top of your database or the
+Hide fields
+option while editing a view.
+Unselect the field that you'd like to hide in the current view.
+By customizing which fields are visible, you can tailor each view to display only the most important information for your current task.
 Was this helpful?
 Yes
 No
@@ -481,10 +471,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage Questions for Confluence
-Get started with Questions for Confluence
-Administer questions
-Integrate questions with your spaces
+Create and edit databases
+Show more
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

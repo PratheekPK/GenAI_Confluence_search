@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-site-level-permissions/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-recent-updates-macro/
 
-Manage global permissions in Confluence administration | Confluence Cloud | Atlassian Support
+Insert the recent updates macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,25 +439,139 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Extend the functionality of Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Manage global permissions in Confluence administration
-Manage global permissions
-Learn how to manage permissions globally on Confluence as a Confluence admin.
-View topic
-Assign space access to guests
-Assign a space to guests who were invited to collaborate in Confluence Cloud.
-View topic
-Manage public links across Confluence Cloud
-View and manage which spaces allow public links and manage the individual public links within each space.
-View topic
-How secure are public links?
-Learn how secure Confluence public links are.
-View topic
-Give access to unlicensed users from Jira Service Management
-Allow users who don't have a Confluence license to view your Jira Service Management knowledge base in Confluence.
-View topic
+Insert the recent updates macro
+Use the Recent updates macro to insert a clickable list of the most recently created or updated pages and live docs, blog posts, attachments, and comments within a designated space, or across multiple spaces.
+This is useful, for example, if you want to create a landing or informational page for a project or team. People viewing the list will only see the links for content they have permission to view.
+You can customize what’s included in your list and how many results to display at a time.
+To add a list of recent updates to your page or live doc:
+From the editor, select (+) from the toolbar or type / to bring up the insert menu.
+Find the
+Recent updates
+macro and select it. You can also type
+/recentupdates
+to select this macro from the insert menu right in the body of your page or live doc.
+Upon selection, a list of recent updates will appear in the body of your page or doc, if the selected space has updates. If not, a placeholder will appear.
+A frameless list will appear.
+The items in this list are dynamic. Uf additional updates take place, they'll automatically be reflected in the list.
+To configure your recent updates macro:
+While editing, select the
+Recent updates macro
+you want to configure.
+Select the
+Edit
+(
+)
+icon to open the configuration panel.
+Customize the parameters of your list of recent updates via the
+Basic
+and/or
+Display
+tabs.
+Your selections will take effect instantly.
+You can also select the centered, medium-width, or full-width icon to adjust the width of your list. Select the copy icon to duplicate it elsewhere, and/or the trashcan icon to remove it entirely.
+Basic and display parameters
+You can customize exactly how your list of recent updates appears by configuring its
+Basic
+and/or
+Display
+parameters, depending on your needs and preference.
+If the parameter name in Confluence Cloud storage format is different than the label that appears when configuring the macro, it will be listed below in parenthesis
+(example)
+.
+Basic parameter
+Default
+Description
+Space
+(spaces
+)
+Current space
+Search and select the space(s) from which you want to source your list of recently updated content.
+Special values:
+@self
+— The current space.
+@personal
+— All
+personal
+spaces.
+@global
+— All
+site
+spaces.
+@favorite
+— The spaces you have marked as
+favorite
+.
+@favourite
+— The same as
+@favorite
+above.
+@all
+— All spaces in your Confluence site.
+*
+— The same as
+@all
+above.
+Include in list
+(types
+)
+All
+Select the type of content update you want included in your list, choosing from the following:
+Pages and live docs
+Blog posts
+Comments
+Attachments
+You can select one, a combination of several, or all of the above.
+Show all updates
+Off
+Toggle on to display all recent updates within a selected space or spaces at once, or toggle off to manually customize how many updates to display at a time.
+Max number of updates
+(max
+)
+15
+When the
+Show all updates
+toggle is off, this input field allows you to select the number of updates you want to display in your list at a time, up to 200 entries.
+Display parameter
+Default
+Description
+List style
+(theme
+)
+Title + user name
+This dropdown allows you to configure the style of how your list is displayed.
+Title + user name
+- displays the titles of updated content items, along with the name of the user who contributed that update.
+Title
+- displays the titles of updated content items only.
+User name + profile picture
+- displays a user’s name and profile picture with content recently updated by them itemized below.
+Filter by user
+(author
+)
+None specified
+Search and select the specific user or users whose recent updates you want to display in your list.
+Filter by label
+(labels
+)
+None specified
+Search and select specific labels to filter the results in your list, so only content with the designated labels will display.
+Note: labels can only be applied to pages, live docs, and blog posts.
+List width
+(width
+)
+100%
+This dropdown allows you to choose what percentage of the macro frame your list will stretch across.
+Hide list header
+(hideHeading
+)
+Off
+Toggle off to display
+Recent updates
+as a header above your list on the page or doc. Toggle on to not include that header.
 Was this helpful?
 Yes
 No
@@ -465,19 +582,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Manage global permissions
-Assign space access to guests
-Manage public links across Confluence Cloud
-How secure are public links?
-Give access to unlicensed users from Jira Service Management
-Confluence administration
+Use macros to show Confluence content on pages and live docs
 Show more
-Monitor and manage activity in Confluence Cloud
-Premium admin tools for Confluence Cloud
-Manage global permissions in Confluence administration
-Manage analytics permissions in Confluence administration
-Manage Confluence page and doc templates
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
 Show more
 Community
 Questions, discussions, and articles

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/bypass-access-restrictions-on-a-page-with-admin-key/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-site-level-permissions/
 
-Bypass page restrictions with admin key | Confluence Cloud | Atlassian Support
+Manage global permissions in Confluence administration | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,37 +440,24 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
-Premium admin tools for Confluence Cloud
 Cloud
 Data Center
-Bypass page restrictions with admin key
-This feature is offered with
-Confluence Cloud Premium and Enterprise
-.
-As an organization admin, there may be times when you need to access content that you haven’t been given permission to view. For example, you may need to unlock a restricted page or space created by an inactive user, or you may need to diagnose content access issues. Admin key allows organization admins to access restricted content so they can address these needs. Site admins on the
-original user management
-experience can also use admin key.
-Use admin key to access a restricted page
-To use admin key, go to the page you need to access, and click
-View now
-in the admin key panel.
-This enables admin key and gives you full access to the page. When you use admin key to access a page, we’ll record it in the audit log and send an email notification to the page owner. We’ll also record any changes you make in the audit log and page history.
-Once admin key is enabled, you’ll be able to see and navigate to other restricted content on your instance. If a page is restricted, there will be a red lock icon next to its name in the page tree.
-When you’re done using admin key, select
-Stop using admin key
-from the banner at the top of your screen. For security reasons, you’ll lose access to restricted pages after a few minutes of inactivity.
-What's in the audit log and email notification?
-When you use admin key to access a page, we record the following information in the audit log:
-Your name
-The date and time you used admin key
-The fact that you logged in and out of admin key
-The name of the page you accessed and whether you viewed or edited the page
-Permissions changes you made, if any
-We also send an email notification to the page owner. The email notification includes the following information:
-Your name
-The name of the page you accessed
-An explanation of why admins typically use admin key
-And, we let the page owner know your changes are recorded in the audit log and page history.
+Manage global permissions in Confluence administration
+Manage global permissions
+Learn how to manage permissions globally on Confluence as a Confluence admin.
+View topic
+Assign space access to guests
+Assign a space to guests who were invited to collaborate in Confluence Cloud.
+View topic
+Manage public links across Confluence Cloud
+View and manage which spaces allow public links and manage the individual public links within each space.
+View topic
+How secure are public links?
+Learn how secure Confluence public links are.
+View topic
+Give access to unlicensed users from Jira Service Management
+Allow users who don't have a Confluence license to view your Jira Service Management knowledge base in Confluence.
+View topic
 Was this helpful?
 Yes
 No
@@ -478,13 +468,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Explore more
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Confluence administration
+Show more
+Monitor and manage activity in Confluence Cloud
 Premium admin tools for Confluence Cloud
-Post Confluence-wide announcements in a banner
-Inspect a user's permissions
-Bypass page restrictions with admin key
-On this page
-Use admin key to access a restricted page
-What's in the audit log and email notification?
+Manage global permissions in Confluence administration
+Manage analytics permissions in Confluence administration
+Manage Confluence content templates
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

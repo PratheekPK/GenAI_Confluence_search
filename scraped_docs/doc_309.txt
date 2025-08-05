@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-create-space-button-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/edit-features-for-a-space/
 
-Insert the create space button macro | Confluence Cloud | Atlassian Support
+Edit features for a space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,83 +439,66 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Space administration
+Customize your space
 Cloud
 Data Center
-Insert the create space button macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Create Space Button macro displays a create space icon that links to the Create Space page. To see this icon, viewers need the Create Space permission which is assigned by a
-site administrator
+Edit features for a space
+You can control which features are available within your space. To edit the features that appear in a space:
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
 .
-Use the Create Space Button macro
-To add the Create Space Button macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Create Space Button macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
+Open the
+General
+menu
+and select
+Features
+.
+Choose what appears in your space.
+Turning a feature off hides it from view, so people with permission to create and edit content can’t use it. However, automations and apps can still access these features, and turning a feature off won’t delete or otherwise impact existing content.
+Your permissions determine which capabilities and cards available in Space settings. Only app and space administrators can edit features for a space.
+Available features
+Feature
 Description
-Icon Size
-size
-large
-Specify whether to use large or small icon. Available values:
-large
-small
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-create-space-button
-Macro body:
-None.
-{create-space-button:size=small}
-{create-space-button:height=50px|width=50px}
-The following additional parameters are available in storage format and wiki markup.
-Parameter name
-Required
-Default
-Parameter description and accepted values
-width
-No
-Natural size of icon
-(1:1 pixel ratio)
-The width of the icon to be displayed, specified in pixels. Confluence will stretch or shrink the width of the icon to the number of pixels specified.
-Note: This parameter is not available via the macro browser.
-height
-No
-Natural size of icon
-(1:1 pixel ratio)
-The height of the icon to be displayed, specified in pixels. Confluence will stretch or shrink the height of the icon to the number of pixels specified.
-This parameter is not available via the macro browser.
+Blogs
+Blogs are similar to pages, but they appear in their own section in the content tree, and they’re organized chronologically.
+Calendars
+Team Calendars
+allow you to create calendars for yourself and your team — and view other calendars from your organization — all in one place.
+Calendars are only available for customers with the Premium plan.
+Analytics
+Analytics
+gives you an overview of how a space is performing with insights about the popularity of different pages and blog posts within the space, as well as the space’s most active readers and contributors.
+Analytics is only available for customers with the Premium plan.
+Automation
+Automation
+eliminates busywork by allowing you to automate routine tasks, such as sending a weekly progress report on your team’s work or applying correct labels to newly created content.
+Automation is only available for customers with the Premium plan.
+Whiteboards
+Whiteboards
+let teams brainstorm collaboratively in real time. For example, you can use whiteboards to:
+Sketch out ideas visually with stickies, lines, and sections,
+Keep collaborative sessions on track with timers, and
+Vote on favorite concepts or solutions using stamps.
+Databases
+Databases
+allow teams to store and organize structured data in one place. For example, you can use databases to:
+Create a single source of truth for documentation and information,
+Track the progress of projects and tasks, and
+Assign work and track who is responsible for what and by when.
+Smart Links
+Smart Links
+help you centralize your team’s work by letting you access content from other apps directly in Confluence.
+Folders beta
+Folders
+are simple containers for related work that you can use to structure and organize a space just like you would on your computer, without providing any additional information or context upfront.
+This feature is currently in beta and only available to select participants.
+Live docs
+Live docs
+let you create and edit written content instantly without the extra step of publishing. Whenever you or your collaborators make updates to a live doc, those changes are reflected in real time.
 Was this helpful?
 Yes
 No
@@ -523,10 +509,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-On this page
-Use the Create Space Button macro
-Parameters
-Wiki markup example
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/summarize-comments-using-atlassian-intelligence/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-child-pages-macro/
 
-Summarize comments using Atlassian Intelligence | Confluence Cloud | Atlassian Support
+Insert the child items macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,37 +439,95 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Atlassian Intelligence features in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Summarize comments using Atlassian Intelligence
-This Atlassian Intelligence feature is in beta. Read more about
-Atlassian Intelligence features.
-Save time and get the information you need to engage with teammates faster by generating a summary of general page or doc comments with
-Atlassian Intelligence
-(currently, it is not possible to summarize in-line comments).
-Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
-Settings > Atlassian Intelligence
-in Atlassian Administration.
-Atlassian Intelligence isn’t available for
-Atlassian Government
-apps.
-Summarize general comments with Atlassian Intelligence
-Open
-Rovo
-via the button at the bottom-right of your screen.
-Select
-Summarize comments
-from the panel.
-Atlassian Intelligence will generate a summary of general page or doc comments.
-You can copy the summary to your clipboard, update it to include new comments as they’re added, rate the quality of the summary, and provide feedback on the feature.
-Atlassian Intelligence will only generate a summary if there are at least two general comments, and it won’t generate a summary of comments that appear to violate Atlassian’s
-Acceptable Use Policy
-.
-For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
-the Atlassian Trust Center
-.
+Insert the child items macro
+Use the child items macro to insert a clickable list of pages and live docs that are nested under a given parent item. This is useful, for example, if you want to create navigation links on a parent page or doc to its nested content. People viewing the list will only see the links for content they have permission to view.
+By default, the list will display the child items of the content you’re currently editing — but you can also select a different parent item when configuring the macro. The macro can display all levels of nested items under whatever parent is selected.
+To add a list of child items to your page or live doc:
+From the editor, select
+or type
+/
+to bring up the insert menu.
+Find the
+Child items
+macro and select it. You can also type
+/childitems
+to select this macro from the insert menu right in the body of your content.
+Upon selection, a list of child items will appear in the body of your content if the selected parent has children. If not, a guiding placeholder will appear.
+The list and its links are dynamic. If additional child items are created or existing child item titles are edited, those changes will automatically be reflected in your list.
+To configure your child items macro:
+While editing your page, select the
+Child items
+macro you want to configure.
+Select the
+Edit
+(
+)
+icon to open the configuration panel.
+Customize the parameters of your list of child items via the
+Basic
+and/or
+Display
+tabs.
+Your selections will take effect instantly.
+You can also select the centered, medium-width, or full-width icon to adjust the width of your list. Select the copy icon to duplicate it elsewhere, and/or the trashcan icon to remove it entirely.
+Basic and display parameters
+You can customize exactly how your list of child items appears on the page by configuring its
+Basic
+and
+Display
+parameters, depending on your needs and preference.
+Basic parameter
+Default
+Description
+Parent item
+Current page or live doc
+Search and select the item from which you want to source your list of nested child items.
+Show all child items
+On
+Toggle on to display all child items nested under a selected parent, or toggle off to manually customize how many to display.
+Max number in list
+10
+When the
+Show all child items
+toggle is off, this input field allows you to enter the number of child items you want to display in your list.
+Show all levels
+Off
+Toggle on to display all levels of items nested under a selected parent, or toggle off to manually customize how many levels to display.
+Max number of levels
+1 level
+When the
+Show all levels
+toggle is off, this input field allows you to select the number of levels of nested items you want to display in your list, up to 9 levels.
+Display parameter
+Default
+Description
+Sort order
+Current order in content tree
+This dropdown allows you to configure the way your list of child items is ordered.
+Content tree
+- displays child items in the order they appear in the
+sidebar
+, or reversed.
+Title
+- displays child items alphabetically by title, or reversed.
+Created
+- displays child items in order from most recently created to least, or vice versa.
+List style
+Bulleted
+This dropdown allows you to customize the visual style of your list. You can display your list with bullets, or as headers ranging in size from H1 to H6.
+Display preview
+None
+This dropdown allows you to display your list with or without a preview of each child item’s content.
+Content preview
+- displays a snapshot of the top section of a page or doc's content, including formatted text, images, and certain macros.
+Excerpt preview
+- displays the first line of text contained in an
+excerpt macro
+on any listed child items. If there isn’t an excerpt on the page or doc, nothing will be shown.
 Was this helpful?
 Yes
 No
@@ -477,13 +538,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Atlassian Intelligence features in Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Show more
-Learn about pre-defined prompts in Atlassian Intelligence
-Summarize a page, live doc, or blog using Atlassian Intelligence
-Summarize comments using Atlassian Intelligence
-Summarize changes with Atlassian Intelligence
-Summarize a whiteboard using Atlassian Intelligence
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
 Show more
 Community
 Questions, discussions, and articles

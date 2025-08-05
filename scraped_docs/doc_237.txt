@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/export-content-to-word-pdf-html-and-xml/
+URL: https://support.atlassian.com/confluence-cloud/docs/how-redaction-works/
 
-Export a space's content as Word, PDF, or data files | Confluence Cloud | Atlassian Support
+How redaction works | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,131 +439,21 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Manage content in a space
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Export a space's content as Word, PDF, or data files
-If you need your content accessible outside of
-Confluence Cloud
-, it can be exported to various formats, including Microsoft Word, HTML, CSV, PDF, and XML.
-Or, if you don’t want to worry about formatting and versioning, you can use your content’s
-public link
-to create a safe, view-only version that will look just like it does in Confluence and will always show the latest version.
-If you’re a space admin, you can export an entire space or a group of selected content in a space.
-Learn more
-.
-The page orientation of the standard exports to Word and PDF is portrait mode.  To change the orientation of the exported document, you'll need to customize the export function.
-Export an individual page or live doc
-To send a page or a blog post to people who don't have access to
-Confluence Cloud
-, you can export it as a Word document or a PDF.
-To export to Word:
-Go to the page, live doc, or blog post and select •••
-Hover over
-Export
-Select
-Export to Word
-Due to the format of exported Word files, they can only be opened in Microsoft Word and aren't compatible with other applications like Open Office, Libre Office, or Google Docs.
-To export any content to PDF:
-Go to the content and select •••
-Hover over
-Export
-Select
-Export to PDF
-When you export a single page to PDF, the PDF stylesheet customizations are applied but PDF layout customizations aren't. To make your PDF layout customizations apply to a single page exported to PDF, you'll need to use the 'multiple page' method described below to export the single page.
-See Customize exports to PDF
-.
-Only the published version of your page will be exported
-If there are any unpublished changes on the page or blog post you’re exporting, then they won’t be included. This means you can create exports even while people are still working on the page.
-Our newest version of the export feature improves export rendering but does not support @ page tags in the PDF stylesheet. If your content has these tags, Confluence will export using an older version of the feature. Watch our progress on
-export features to see future updates
-.
-Export a space
-Space admins can export a space (or a group of individually selected pages in a space) to PDF, CSV, HTML, or XML. Confluence will create a zipped archive of the CSV, HTML or XML files, or a single, downloadable PDF file.
-Tip
-The PDF option is good to use if you're trying to create a user manual from the technical documentation you keep in Confluence Cloud.
-The CSV export is best if you want to import a space into another Confluence Cloud instance.
-The HTML export is useful if you want to convert your space into a static website.
-The XML export option works best if you need to import the space into a Confluence Data Center instance.
-To export pages to PDF, CSV, HTML, or XML
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Export space
-from the
-Manage space
-card.
-Select
-PDF, CSV, HTML, or XML
-, then select
-Next.
-Select either a normal or custom export for HTML or PDF, or a Full or Custom XML export (CSV export only has a full export option):
-Normal Export (HTML and PDF)
-– to produce an HTML file containing all the pages that you have permission to view.
-Full Export (CSV and XML)
-– to produce a CSV or XML file containing all the pages in the space, including those that you don't have permission to view.
-Custom Export
-– if you want to export selected pages only, or if you want to exclude comments from the export.
-Select
-Export.
-When the export process has finished, you can download the exported file.
-Some things to keep in mind with this method
-Only content that is visible to you will be exported, except if you are exporting via CSV or XML as a site admin in which case all content will be exported.
-Blog posts aren't included when exporting to PDF using this method, and comments are never included when exporting to PDF.
-Exports do not include Team Calendars. See
-this Community post
-for tips on exporting and importing Calendars.
-Page comments are currently not being exported during HTML export. See the feature request
-CONFCLOUD-57908
-Customize the appearance of PDF exports
-You can add a title page, table of contents, and customized headers and footers to the PDF output. For more advanced customizations, you can apply Cascading Style Sheet (CSS) modifications. These customizations are specific to each space, and you need the 'Space Administrator' permission to apply these customizations. For more information, see
-Customize exports to PDF
-.
-Our newest version of the export feature improves export rendering but does not support @page tags with @top-right, @top-left etc properties in the PDF stylesheet or HTML in the header/footer/title in space or site settings. If your content has these customizations, Confluence will export using an older version of the feature. Watch our progress on
-export features to see future updates.
-Notes on PDF exporting
-To export a PDF containing a custom font, see
-Create a PDF in another font
-The PDF export feature is designed to handle a wide variety of content, but on rare occasions the PDF Export process may fail due to an unrecognized customization. If that happens, the PDF export screen will indicate the title of the page in which the problem occurred, to help you diagnose the cause of the failure.
-Notes on HTML exporting
-In the zip file, page attachments are placed in individual folders with names in the following format:
-...\download\attachments\xxxxxx
-where '
-xxxxxx'
-is the page ID of the page containing the attachments.
-Blog posts aren't included in the HTML export. See th
-feature request
-.
-Notes on XML exporting
-See
-Importing a Confluence Space
-for notes on restrictions when
-importing
-a space to Confluence Cloud.
-Taking this export to Confluence Data Center? For best results, we recommend:
-asking a
-Site Admin
-to perform the export, so that email addresses are always included, regardless of the user's profile visibility settings.
-importing the space into Confluence 6.15.4 and later, or selected Enterprise Release versions, so that email address matching is available.
-This will avoid content being attributed to ‘unknown user’ after the import.
-Learn more
-Organization admins can block exports
-Your organization may choose to
-prevent people from exporting data
-in particular product instances or with certain classification levels.
-Migrating content from server to cloud
-If you're migrating from Confluence Server to
-Confluence Cloud
-, you can use the
-Use Confluence Cloud Migration Assistant to migrate (legacy)
-to migrate your content and spaces.
-We
-ended support of Confluence Server
-on February 15, 2024. Confluence Data Center is our only self-managed product offering, and our primary product offering outside of Confluence Cloud.
+How redaction works
+Redaction is the process of selectively deleting sensitive data. Your organization may identify, redact and replace such data with a solid bar. For example, a credit card number may be considered sensitive data.
+How does redaction appear?
+If sensitive data has been redacted, you will see a solid bar where the sensitive data was. Here’s an example page where a bank account number has been redacted.
+The solid bar can be deleted from your content if you don’t need to show that data was redacted.
+What happens to the historical versions?
+Your organization may choose to delete any historical versions that contained the sensitive data. Deleted versions cannot be restored.
+About Confluence page versions and history
+In the example below, sensitive data was present in versions 3 and 4. During redaction, these versions were deleted, and a new version 3 added with the solid bar. The comment indicates that content was redacted. The
+Changed by
+column shows the administrator who redacted the content.
 Was this helpful?
 Yes
 No
@@ -571,20 +464,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage content in a space
-Clean up a space with the content manager
-Transfer content item ownership from one user to another
-Manage page watchers
-Export a space's content as Word, PDF, or data files
+Create and edit content
+Show more
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
 On this page
-Export an individual page or live doc
-Export a space
-Customize the appearance of PDF exports
-Notes on PDF exporting
-Notes on HTML exporting
-Notes on XML exporting
-Organization admins can block exports
-Migrating content from server to cloud
+How does redaction appear?
+What happens to the historical versions?
 Community
 Questions, discussions, and articles
 Accessibility

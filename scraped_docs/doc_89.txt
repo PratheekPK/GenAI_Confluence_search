@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/summarize-a-whiteboard-using-atlassian-intelligence/
+URL: https://support.atlassian.com/confluence-cloud/docs/present-your-page-with-presenter-mode/
 
-Summarize a whiteboard using Atlassian Intelligence | Confluence Cloud | Atlassian Support
+Present your content with Presenter mode | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,33 +440,65 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Atlassian Intelligence features in Confluence Cloud
 Cloud
 Data Center
-Summarize a whiteboard using Atlassian Intelligence
-This Atlassian Intelligence feature is in beta. Read more about
-Atlassian Intelligence features.
-Save time and get the details you need to do your work faster by generating a summary of the content on an whiteboard using
-Atlassian Intelligence
-.
-Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
-Settings > Atlassian Intelligence
-in Atlassian Administration.
-Atlassian Intelligence isn’t available for
-Atlassian Government
-apps.
-Summarize a Confluence Whiteboard with Atlassian Intelligence
-Go to the Confluence whiteboard you want to summarize.
+Present your content with Presenter mode
+Presenter mode is designed to showcase content on a page or blog post with reduced distractions. After selecting this mode, the content enters a full-screen view, stripping out all side panels, options menus, and in-line comments so the content looks clean and simple when presented.
+To enter Presenter mode:
+You can enter Presenter mode by choosing Presenter mode in the More actions menu or using the
+r
+keyboard shortcut.
+1. Select
+More actions
+(…)
+2. Select
+Present
+Navigate with selective focus
+By using the arrows at the top right of your screen, you have the option to highlight sections of your content and direct your audience’s focus. You can also use the keys
+→
+↓
+,
+Return,
+or
+Space
+on your keyboard to move to the next content section, and
+←
+or
+↑
+to move to the previous section.
+Selective focus highlights sections based on headers, tables, and layouts. It also highlights text separated by dividers.
+Jump to a section
+You can also use the section dropdown on the top right to selectively highlight a specific section of the page. Select a heading, table, or layout to scroll directly there and highlight it for your audience.
+Change the appearance
+The presentation settings include options to change the appearance of the page.
+Full-screen view:
+The current page fills the screen and your browser controls are hidden. Toggle it off to reveal them. This is turned on when you start Presenter mode.
+Cursor spotlight:
+Your cursor becomes a large circle so it’s easier for the audience to see. This is turned on when you start Presenter mode.
+Present in Dark theme:
+You can switch between Light and Dark themes. This presentation setting defaults to your Confluence setting for
+themes
+, but if you change it here, it will not affect your Confluence theme selection when you leave Presenter mode.
+Share the page or blog post with QR code
+When in Presenter mode, the page will generate a QR code that allows you to share the page’s URL. If you choose to do so, the participants can use their mobile device to scan and open the page to follow along.
+To show the QR code (Presenter):
 Select
-Summarize
-from the top right (to the left of the share button).
-Atlassian Intelligence will generate a summary of the whiteboard’s contents.
-At this time, summaries generated by Atlassian Intelligence don’t include content from images or links.
-You can copy or create a page from the summary Atlassian Intelligence generates using the buttons at the bottom of the summary panel. You can also rate the quality of the summary and provide feedback.
-Atlassian Intelligence will only generate a summary if there’s enough content to summarize, and if the content does not align with our customer terms, Atlassian Intelligence may not generate a summary.
-For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
-the Atlassian Trust Center
-.
+More actions
+(…)
+Select
+Present
+Click
+Share via QR
+to open the QR code screen on the bottom right corner of your page
+To scan the QR code (Participants):
+Using your mobile device, use the camera or a QR code reader application to scan.
+The device will show the URL to the Confluence page being presented.
+Open the page and choose to star, comment, or just follow along with your presenter.
+Use the Presenter mode template
+When you create a new page, you have the option of pre-formatting your content with a page template. (Note that this feature isn’t currently available on Confluence mobile).
+The Presenter mode
+template
+will guide you through creating a page that looks best when presented. You’ll find guidance as well as best practices for your presentation.
 Was this helpful?
 Yes
 No
@@ -474,13 +509,23 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Atlassian Intelligence features in Confluence Cloud
+Create and organize work in Confluence Cloud
 Show more
-Summarize a page, live doc, or blog using Atlassian Intelligence
-Summarize comments using Atlassian Intelligence
-Summarize changes with Atlassian Intelligence
-Summarize a whiteboard using Atlassian Intelligence
-Use Rovo to listen to audio briefings of Confluence content
+Keep content organized
+Upload and manage files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Use Loom in Confluence Cloud
+Show more
+On this page
+To enter Presenter mode:
+Navigate with selective focus
+Jump to a section
+Change the appearance
+Share the page or blog post with QR code
+To show the QR code (Presenter):
+To scan the QR code (Participants):
+Use the Presenter mode template
 Community
 Questions, discussions, and articles
 Accessibility

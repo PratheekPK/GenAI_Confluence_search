@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/atlassian-intelligence-features-in-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/database-fields/
 
-Atlassian Intelligence features in Confluence Cloud | Confluence Cloud | Atlassian Support
+Database fields | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,43 +440,219 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Atlassian Intelligence features in Confluence Cloud
-Learn how to use Atlassian Intelligence features in Confluence Cloud to help improve your writing and streamline your work.
-Atlassian Intelligence isn’t available for
-Atlassian Government products
+Database fields
+Databases aren’t available in the
+Atlassian Government environment
 .
-Search for answers using Atlassian Intelligence
-Ask Atlassian Intelligence questions to find the Confluence content you’re looking for.
-View topic
-Write or edit content using Atlassian Intelligence
-Learn how to use Atlassian Intelligence to help write or edit your pages, live docs, comments, and blogs.
-View topic
-Define terms using Atlassian Intelligence
-Use Atlassian Intelligence to define terms, acronyms, and abbreviations without leaving Confluence.
-View topic
-Use Atlassian Intelligence with Confluence automation
-Learn how to use Atlassian Intelligence to create automated rules in Confluence automation.
-View topic
-Learn about pre-defined prompts in Atlassian Intelligence
-Pre-defined prompts in Atlassian Intelligence provide a starting point for generating content, eliminating the need to write complex instructions.
-View topic
-Summarize a page, live doc, or blog using Atlassian Intelligence
-Save time by summarizing a page, live doc, or blog using Atlassian Intelligence.
-View topic
-Summarize comments using Atlassian Intelligence
-Save time by summarizing general page or live doc comments using Atlassian Intelligence.
-View topic
-Summarize changes with Atlassian Intelligence
-Use Atlassian Intelligence to generate a summary of changes since your last visit to a page or post.
-View topic
-Summarize a whiteboard using Atlassian Intelligence
-Use Atlassian Intelligence to generate a summary of whiteboard contents.
-View topic
-Use Rovo to listen to audio briefings of Confluence content
-Audio briefing: Listen to an AI overview of a page and links.
-View topic
+Database fields add context to your database entries, like dates, owners, URLs, etc. Use these fields to store,  filter, sort, and search your data
+Manage fields
+To manage the fields of a database, select the
+Table
+layout. From there, you can:
+Add a new field: Select
++
+in the top right of the database table, then select a field type and give your field a name.
+Insert a field: Select
+:::
+on a field and select
+Insert column before
+or
+Insert column after.
+Then select a field type and give your field a name.
+Duplicate a field:  Select
+:::
+on a field and select
+Duplicate
+.
+Delete a field: Select
+:::
+on a field and select
+Delete
+.
+Rearrange properties: Drag
+:::
+on a field
+to put your fields in a different order.
+You can hold the
+Shift
+key to select multiple fields.
+Edit a field: Hover over the field and select
+⋮
+next to the field name, then select
+Edit field
+.
+To sort or filter a field, Hover over it and select
+⋮
+next to the field name, then select from the sort and filter options.
+What each field does
+Each field type in your database serves a unique purpose, allowing you to tailor your entries with specific types of data, such as text, numbers, dates, and links. Understanding what each field does and the options available for customization will help you efficiently organize and utilize your database to its fullest potential.
+Basic fields
+Basic fields are the fundamental building blocks of your database, designed to capture essential information such as text, images, numbers, and dates. These fields provide the foundation for organizing and categorizing your data effectively.
+Text
+The text field is best for summaries or descriptions. For example, describing what a project is about.
+Image
+Within the image field, you can add visual assets to your database. For example, logos or pictures of team members. You can drag a file from your computer into the property to upload it.
+Number
+The number field is for values that should only contain numbers in a consistent format—for example, the expected project costs in dollars.
+Field options
+Description
+Format
+The format configuration controls how numbers are displayed once entered. You can select from three preset formats:
+Number, Percent,
+and
+Currency
+.
+For more customization, you can also adjust
+Decimal places
+Thousands and decimal separators
+These options allow you to tailor the number display format to meet your specific needs.
+Date
+The date field type lets you add dates to entries.
+Tag
+Tags offer a configurable list of predefined options to select from. This lets you describe entries in more detail with keywords. These keywords can then be assigned to specific categories such as teams. Tags are also used to define columns when using the board layout for your database.
+Field options
+Description
+Add item
+Use this option to create selectable tabs.
+To customize the color of these tags, select the colored square next to the tag and select your desired color.
+Enable multi select
+You can enable this option to enter multiple tags per entry.
+User
+The user field type adds specific people to each entry.
+Field options
+Description
+Send notification to mentioned user
+You can disable this option if you do not wish to notify mentioned users.
+Enable multi select
+You can enable this option to enter multiple users per entry.
+Link
+Connect entries to external links outside of Confluence. You can link articles or pages from other tools to your Confluence database.
+Field options
+Description
+Automatic link text
+Controls how link text is generated:
+Enabled:
+Link text automatically pulled from the linked webpage's title (improves readability).
+Disabled (default):
+Link text displays as the full URL.
+Titles may not always be clear. Consider manually editing link text for better clarity.
+Enable multi select
+You can enable this option to enter multiple links per entry.
+Page and live doc fields
+Page and live doc fields allow you to integrate Confluence pages and live docs directly into your database entries, providing a smooth way to link, display, and manage detailed content. These fields enable you to connect entries with existing pages and live docs, create new pages and docs on the fly, and display various metadata, enhancing the contextual richness of your database.
+Page or live doc link
+Page and live doc link fields allow you to link entries to existing Confluence pages and live docs or create new ones on the fly. For example, when managing projects, you can connect and create a more detailed, project-specific page or doc with each project entry directly in the database.
+Field options
+Description
+Enable page creation
+Enable this option to create new pages and live docs from the page and live doc link field. Once enabled, you can configure additional settings to define the location and content of these new items.
+Parent item
+Select where newly created items are placed. Select a single parent item for all new pages.
+Initial content
+Define the starting content for new pages and live docs:
+None:
+Pages and live docs are created empty.
+Database entry on page or doc:
+Inserts the database entry at the top, providing an overview of the linked entry's fields.
+Templates:
+Choose a Confluence template or blueprint as the starting content.
+Enable multi select
+You can enable this option to link multiple items in one entry.
+Page or live doc status
+You can reference defined content statuses in Confluence and display the status of the Confluence page or doc linked in the page and live doc link field.
+Field options
+Description
+Page and live doc link
+Select the link field for which page or live doc to display the status.
+Enable status editing
+You can enable status editing here if you would like to edit the content status dynamically in the database.
+Page and live doc label
+The label field type displays all labels of a page or live doc referenced in the database with the page and live doc link field.
+Field options
+Description
+Page and live doc link
+Select the link field for which page or live doc to display the labels.
+Enable label editing
+You can enable status editing here if you would like to edit the labels dynamically in the database.
+Page and live doc details
+The details field enables you to display the metadata of a linked Confluence page or live doc. For example, to show who created this page or doc and when or to display rich text from your excerpt macro.
+Field options
+Description
+Page and live doc link
+Select the link field for which page or doc to display the details.
+Display detail
+Select the type of page metadata to display in your database:
+Created at
+– Display the date the page or doc was created.
+Created by
+– Display the user the page or doc was created by.
+Last updated at
+– Display the date the page or doc was last updated at.
+Last updated by
+– Display the user the page or doc was last updated by.
+Excerpt content
+– Display content from the first excerpt macro on the page.
+Version number
+– Displays the current version number of the page or doc.
+Include version comment
+– Display any comment created during the last update.
+All values shown in this field are read-only. They update dynamically once the metadata on the page or doc changes.
+Jira fields
+Jira fields enable smooth integration with Jira, allowing you to link entries and display related Jira data dynamically. These fields enhance your database's functionality by connecting to Jira work items, providing a comprehensive view of interconnected information.
+Jira work item field
+Fields in Jira work items allow you to link your database entry to one or multiple Jira work items. For example, if your team uses Jira to track their development efforts, you can use the Jira work item field to create a simple roadmap in Confluence.
+Field options
+Description
+Jira instance
+Select a connected Jira instance to link to.
+Enable mulit select
+You can enable this option to link multiple Jira work items in one entry.
+Jira work items details field
+The details field in Jira work items enables you to display Jira field details from a linked Jira work item in the same entry. For example, if you have linked a Jira work item in your entry, you can display its assignee in your Database. If the assignee is changed in Jira, it will automatically be updated in your Database.
+Field options
+Description
+Jira work item details
+Select a field in a Jira work item as a reference for the field details you want to show. You must have a Jira work item field added to your database.
+Jira field
+Select which field from the linked Jira instance you want to display in your database. Note that values in this field will be read-only, and they can only be edited from Jira.
+By default, only standard Jira fields show. To use custom fields, type the text field name into the select field.
+Other database fields
+Other database fields allow you to establish connections between different databases, enabling you to link entries, display related details, and maintain a cohesive network of interconnected data across multiple databases.
+Entry link
+The entry link field allows you to link to entries from another database. For example, if you have a customer database and a database for customer projects, you can link a customer project in one database with a customer from the other.
+Field options
+Description
+Database
+Select or paste the link for the database you want to reference.
+The linked entries are then displayed based on the name of their title field in their original database. Databases without a title field will show entries as ‘Unnamed entry’
+Enable multi select
+You can enable this option to link multiple entry links in one entry.
+Entry details
+The entry link details field lets you look up values from another database. The entry link details field automatically inserts all values of a chosen field from a different database based on your added entry field.
+For example, if you have connected the two databases described in the entry link field, you can then reference all entries for a chosen field from the customer database within the customer projects database, for example, the people location.
+Field options
+Description
+Entry link
+Select an entry link field as a reference base to look up values.
+For this option you need to already have an entry link field in your database, referencing the entries from another database.
+Entry value
+After adding the referenced entry link, select which field values you want to display. The values from this field will be automatically inserted into the current database.
+Entry backlink
+The backlink field is the complementary field type to the entry link field. Adding a backlink field to your database displays where the respective entry is referenced in an entry link in another database. For example, this can be useful when you connect two databases reciprocally; for instance, you want involved people to be displayed in the projects database and see which projects a customer is part of.
+Field options
+Description
+Database
+Select or paste the link to the database you want to scan for references to the individual entry. The references are then displayed for each entry.
+Display
+Select
+As number
+if you want to show how often the entry is referenced in the other database.
+Select
+As link
+to show the specific entries, where the currently edited entry is referenced.
 Was this helpful?
 Yes
 No
@@ -484,21 +663,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Search for answers using Atlassian Intelligence
-Write or edit content using Atlassian Intelligence
-Define terms using Atlassian Intelligence
-Use Atlassian Intelligence with Confluence automation
-Learn about pre-defined prompts in Atlassian Intelligence
+Create and edit databases
 Show more
-Create and organize work in Confluence Cloud
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
 Show more
-Upload and manage files
-Present your content with Presenter mode
-Atlassian Intelligence features in Confluence Cloud
-Use Loom in Confluence Cloud
-Create and edit whiteboards
-Show more
+On this page
+Manage fields
+What each field does
+Basic fields
+Page and live doc fields
+Jira fields
+Other database fields
 Community
 Questions, discussions, and articles
 Accessibility

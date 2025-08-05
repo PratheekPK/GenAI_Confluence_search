@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-iframe-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-is-confluence-cloud/
 
-Insert the iFrame macro | Confluence Cloud | Atlassian Support
+What is Confluence Cloud? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,81 +439,75 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to add visuals and images to Confluence pages
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
 Cloud
 Data Center
-Insert the iFrame macro
-The iFrame macro lets you embed a webpage inside a Confluence page or live doc.
-Use the iFrame macro
-To add the iFrame macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the iFrame macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Customizing iFrames
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Attribute
-Value
-Description
-Height
-pixels
-Set a fixed height and width for your iframe.
-This is especially helpful for content that won't display properly below a certain size.
-Width
-pixels
-Align
-left
-right
-Align the iframe to the left or right of the page.
-Set to
-left
-by default.
-frameborder
-show
-hide
-Draw a border around content in the iframe to help distinguish it from other content on the page or doc.
-Set to
-show
-by default.
-scrolling
-yes
-no
-auto
-Allow or prevent scrolling in the iFrame to see additional content.
-Set to
-auto
-by default.
-The remaining attributes (ID, class, styles, title, long description, margin height, margin width, name, text direction, and language code) are being deprecated. Changing the values of these attributes won't affect how content in the iFrame macro appears.
-Known issues
-Some websites may show up as blank when you try to include them as part of an iFrame. This could be because:
-The website administrators have invoked the
-x-frame-options
-response header
-to prevent browsers from rendering it in an iFrame.
-The browser you're using has blocked the website from loading as a security precaution.
-If the website you're trying to include isn't showing up in the iFrame, try:
-Replacing http:// with https:// at the start of the URL to access content more securely.
-Removing the iFrame macro and adding a link to the website instead.
+What is Confluence Cloud?
+Confluence is a collaboration tool that brings people, knowledge, and ideas together in a shared workspace, so you can do your best work with the confidence of your entire organization's expertise behind you.
+This page is going to take you through some of the key things you can do with Confluence, so you'll be able to take full advantage of it and determine how it can best meet your needs.
+Create
+You can use Confluence to create beautiful pages and live docs in a matter of minutes. While Confluence has all your typical text editing features, what makes it really powerful is all the dynamic content that it comes with, like roadmaps, expands, and search bars.
+Confluence also lets you bring your other apps and files together. Say you're working on a marketing plan, and have a series of graphic assets that you're planning on using, and a Trello board on which you're tracking your tasks. You can attach those graphic assets to the page, and embed the Trello board on there too.
+In fact, you can attach any files to a Confluence page or live doc. Some files can even be previewed and updated from within Confluence.
+You and your team can work on a live doc together, with collaborative editing supporting up to 30 simultaneous editors. Create anything from meeting notes and product requirements to marketing plans and HR policies. If it's something you have to create regularly, save time and create it as a template.
+Pages are best for when you need to publish versioned content such as documentation or policy.
+So next time you need to create something, start with a Confluence page or live doc.
+Check out
+Create, edit, and publish
+to learn how to create a page,
+Create and collaborate in real time with live docs
+to learn how to work with live docs,
+Add formatting to your page
+to see what fancy things you can add to it, and
+Blueprints and User Created Templates
+to get familiar with existing templates or to find out how to create your own.
+Collaborate
+Teamwork can get messy. Good ideas get lost in the email void, team members come and go, different timezones affect timelines, and the more time you spend looking for information, the less you have to get things done.
+Confluence changes that. In Confluence, everything is organized into spaces, which lets you have a distinct, self enclosed place for every project or team to work in, so you know where to go to find all the assets, information, and discussions related to that.
+Spaces have:
+An overview on which you can keep information about your team or project.
+A blog, which you can use for announcements and updates.
+Pages and live docs, for all your work. Organize these in a hierarchy or using labels, so it's easy to find whatever you're after.
+Confluence content isn't static, so when you make a change to any of your content, it updates immediately, regardless of who's viewing it, or from where. That means that if you've made a typo or need to update a policy, you just edit the page and make that change, without having to worry about redistributing anything.
+Confluence also has automatic versioning. That means that every time you upload a new version of a file, make realtime changes to a live doc, or update a page, Confluence saves a snapshot of that. Then, if you decide you've made a mistake (or someone else has), you can revert back to a previous version.
+Instead of having group conversations in email chains, where they're hard to find and invisible to anyone outside, put them on a live doc and move the discussion to the comments. Inline comments mean you can comment on a specific word or sentence (or file, or image) and have a whole discussion in context. For general feedback, leave a general comment in the footer, or from the comments side panel.
+When you come to a consensus, solidify it in a decision, create action items to follow up, and use @mentions to ensure that anyone else who needs to be kept informed remains in the know.
+Head to
+Organize your space
+to learn more about organizing content in Confluence,
+Versions and history
+to see how versioning works, and
+Comment on pages and blog posts
+to explore what you can do with comments.
+Share
+Confluence is open, so you're not working in silos. That means all of your organizational knowledge  - best practices, research and insights, customer feedback - is available to every employee, enabling them to move fast without starting from scratch.
+Working on a new project? Start with a quick search to see what information and resources your organization already has that you can build on, instead of starting from scratch. Check what other teams are working on, and identify opportunities for you to save time and effort by working together.
+Share resources like how-to's, guidelines and checklists across the organization for each team to modify according to their specific needs. As they get used, discussed, and experimented with, you can iterate on them based on the feedback so that they're constantly improving.
+Confluence brings the right people together to get things done. A great idea scribbled into a notebook might never amount to anything. But put your great idea on Confluence, and it can get shared with other people who have the passion and expertise to help you turn it into a reality.
+Openness isn't just about information. It's about a sense of shared purpose and experience, even if your team is spread out across different offices in different locations around the world. With Confluence, you can make sure everyone's on the same page about security and HR, but you can also plan team outings, share the photos afterward, and immortalize your in-jokes.
+It fosters a sense of community because we work better and feel more fulfilled when we all feel like part of the same team.
+Visit
+Share Confluence content
+for tips on how to share, and check out our detailed guides to various
+Confluence use-cases
+.
+Other things you should know:
+While Confluence is open by default, you can also
+set structured permissions and restrictions
+. That means that, for example, you could share a project with a client, and have them comment on it, without them seeing anything else that you're working on. Or you could make a space public so your customers can view your support content, but can't edit it.
+Learn more about permissions and restrictions.
+Confluence also has a
+mobile app
+, so you can use it on a phone or tablet, from anywhere there's an internet connection.
+Download Confluence for mobile.
+Confluence has an entire
+Marketplace of free and paid apps
+that let you add extra functionality to it, so you can retrofit it to suit a variety of specialized use cases.
+Check out the Marketplace.
+Everyone learns differently, so we've created some
+demo videos
+to help you and your team learn more about Confluence in a visual way. Follow the link to see more videos about creating content, organizing spaces, and collaborating with your teammates.
 Was this helpful?
 Yes
 No
@@ -521,17 +518,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add visuals and images to Confluence pages
-Insert the chart macro
-Insert the iFrame macro
-Insert the roadmap planner macro
-Add a trio of dynamic frames to your content with Carousel
-Display beautiful, dynamic content on your page or live doc with Cards
-Show more
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
 On this page
-Use the iFrame macro
-Customizing iFrames
-Known issues
+Create
+Collaborate
+Share
+Other things you should know:
 Community
 Questions, discussions, and articles
 Accessibility

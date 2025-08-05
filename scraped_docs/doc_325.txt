@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-apple-ios-calendar/
+URL: https://support.atlassian.com/confluence-cloud/docs/additional-pdf-export-settings/
 
-Subscribe to Team Calendars from Apple iOS Calendar | Confluence Cloud | Atlassian Support
+Additional PDF export settings | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,115 +439,191 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Space administration
+Set space-specific functionality
 Cloud
 Data Center
-Subscribe to Team Calendars from Apple iOS Calendar
-You can subscribe to Team Calendars from your iPhone or iPad device using the built-in Apple Calendar for iOS. This method may also work for other mobile calendar apps that support the ability to subscribe to calendar URLs.
-There are two ways to synchronize your calendar in iOS:
-Two-way sync
-(CalDAV) allows you to view and update Team Calendar events in iOS.
-Requires Team Calendars (available with Confluence Premium).
-One-way sync
-(iCal) allows you to view—but not update—Team Calendar events in iOS.
-Subscribe with two-way synchronization (CalDAV)
-Two-way synchronization allows you to view and update Team Calendar events in iOS.
-These instructions are for iPhone running iOS 14 or later. Your version may differ slightly.
-You will need the following:
-Confluence API token (this will be your password)
-Confluence Cloud server address
-Get your Confluence Cloud API token:
-Select your profile picture in the top nav >
-Settings
-Under
-YOUR SETTINGS
-, select
-Password
-In the
-API token
-section, select the link
-Create and manage API tokens
+Additional PDF export settings
+Note on
+@page
+Rules in Puppeteer PDF Generation
+Certain
+@page
+properties may render differently due to enhancements in browser rendering standards. This may require adjustments to your existing CSS to ensure compatibility with modern browsers. For best results and compatibility during PDF generation, please review the guide provided below for supported properties and best practices.
+Unsupported
+@page
+properties and alternatives
+1.
+@page :first
+Issue
+: The
+:first
+pseudo-class for targeting the first page is not supported in Puppeteer.
+Solution
+: Use
+body:first-of-type
+instead to target the content on the first page.
+Replace:
+@page :first {
+/* your css here */
+}
+With:
+@media print {
+body:first-of-type {
+/* your css here */
+}
+}
+2.
+Background Images in
+@page
+Issue
+: Background images applied directly to the
+@page
+rule are not rendered.
+Solution
+: Apply background images to
+body
+or a specific container with
+position: fixed
+.
+Replace:
+@page {
+background-image: url('https://your-confluence-instance.atlassian.net/wiki/download/attachments/SPACE_ID/background.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+With:
+@media print {
+body {
+background-image: url('https://your-confluence-instance.atlassian.net/wiki/download/attachments/SPACE_ID/background.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+}
+Why These Changes?
+Puppeteer uses Chromium’s rendering engine, which prioritizes modern, screen-based CSS standards over older or print-specific CSS rules like
+@page
+. By using
+@media print
+with modern CSS, you can ensure compatibility across browsers and Puppeteer for consistent PDF rendering.
+Summary Table of Replacements
+Unsupported
+Replacement
+@page :first
+body:first-of-type
+Background in
+@page
+Apply background to
+body
+Using Images and Fonts in Your Custom CSS
+If you'd like to use any images or fonts in your custom CSS for Confluence exports, follow these steps to ensure they are accessible:
+Upload Your Asset
+:
+Navigate to a Confluence page in your space. For better organization, create a dedicated page named something like
+"Assets"
+.
+Upload your images or font files to this page.
+Retrieve the Asset Link
+:
+Once the asset is uploaded, click the
+More Actions
+menu (three dots) on the page.
 Select
-Create API token
-Name your API token, select
-Create
-, and then select
-Copy
-(you won’t be able to copy this later)
-Get your Confluence Cloud server address:
-In the top nav, choose
-Apps > Calendars.
-Select the the More actions menu (
-) for your calendar in the side nav and choose
-Subscribe
+Attachments
+from the dropdown menu.
+Locate your uploaded file in the list of attachments.
+Right-click on the file name and select
+Copy Link Address
 .
-In the
-Calendar app
-dropdown, select
-Apple Calendar (iOS)
-.
-If prompted, add the calendar to
-My Calendars
-. If you don’t add it to My Calendars, it won’t sync.
-Copy the
-server address
-.
-Because Apple Calendar supports calendar discovery, this will be your Confluence URL, not the URL of an individual calendar. You'll be able to choose which calendars (that you've added to My Calendars) to sync in the app.
-Subscribe to a Team Calendar in the Apple Calendar app on your iOS device:
-Go to
-Settings
->
-Calendar > Accounts
->
-Add account
-.
-Select
-Other
->
-Add CalDAV account
-.
-Enter the
-server address
-you copied earlier from Confluence Cloud.
-In
-Username
-field, add the email account linked to your Confluence account.
-In the
-Password
-field, paste the API token you copied from Confluence Cloud.
-In the Apple Calendar iOS app, select
-Calendars
-and select the calendars you want to display.
-Subscribe with one-way synchronization (iCal)
-One-way synchronization means that you can view but not update Team Calendar events in your Apple Calendar iOS app.
-To subscribe with one-way synchronization:
-Open Confluence.
-In the top nav, choose
-Apps > Calendars.
-Select the the More actions menu (
-) for your calendar in the side nav and choose
-Subscribe
-.
-In the
-Calendar app
-dropdown, select
-iCal
-.
-Copy the
-server address
-.
-Open your Apple Calendar iOS app.
-Go to Settings > Calendar > Accounts > Add account.
-Choose Other > Add Subscribed Calendar
-.
-Paste the server address and select
-Next
-.
-Enter any other required information and select
-Save
-.
-You can now view (but not edit) Team Calendar events in Apple Calendar for iOS.
+Use the Link in Your CSS
+:
+Paste the copied link into your CSS file wherever an image or font is required. For example:
+@font-face {
+font-family: 'CustomFont';
+src: url('https://your-confluence-instance.atlassian.net/wiki/download/attachments/SPACE_ID/filename.ttf');
+}
+body, h1, h2, h3, h4, h5, h6, p, a, li, span, div {
+font-family: 'CustomFont' !important;
+}
+body {
+background-image: url('https://your-confluence-instance.atlassian.net/wiki/download/attachments/SPACE_ID/background.png');
+}
+Note
+: Ensure that the page containing the assets is accessible to the intended users of your Confluence content. Permissions on the asset page affect visibility.
+Table of Contents Styling Limitations
+It's important to note that while we're transitioning to a PDF V2, there are currently limitations in our implementation of table of contents (TOC) styling. Other CSS properties that were previously available will not work as expected in PDF v2 for now.
+Currently supported TOC properties:
+margin: Overall margin
+margin-top: Top margin
+margin-bottom: Bottom margin
+margin-left: Left margin
+margin-right: Right margin
+size
+: Page size
+display
+: Used to check if table of contents should be disabled (
+none
+)
+If you do want to modify the following properties for the table of contents make sure to use the following selector.
+div.toc-macro {
+display: none;
+/*other supported properties...*/
+}
+Custom HTML cannot be added to the the table of contents at the moment.
+Numbering Your Headings in CSS
+If you want to add automatic numbering to your headings in Confluence exports, use the following CSS:
+body { counter-reset: heading1_counter; }
+h1 {
+counter-reset: heading2_counter;
+}
+h2 {
+counter-reset: heading3_counter;
+}
+h3 {
+counter-reset: heading4_counter;
+}
+h4 {
+counter-reset: heading5_counter;
+}
+h1:before {
+counter-increment: heading1_counter;
+content: counter(heading1_counter) ". ";
+}
+h2:before {
+counter-increment: heading2_counter;
+content: counter(heading1_counter) "." counter(heading2_counter) ". ";
+}
+h3:before {
+counter-increment: heading3_counter;
+content: counter(heading1_counter) "." counter(heading2_counter) "." counter(heading3_counter) ". ";
+}
+h4:before {
+counter-increment: heading4_counter;
+content: counter(heading1_counter) "." counter(heading2_counter) "." counter(heading3_counter) "." counter(heading4_counter) ". ";
+}
+h5:before {
+counter-increment: heading5_counter;
+content: counter(heading1_counter) "." counter(heading2_counter) "." counter(heading3_counter) "." counter(heading4_counter) "." counter(heading5_counter) ". ";
+}
+This will automatically number your headings in a hierarchical format (e.g.,
+1.
+,
+1.1.
+,
+1.1.1.
+) for better structure and readability.
+Unsupported CSS Features in PDF Export
+When using the new PDF export system (PDF v2), certain advanced CSS features are no longer supported due to limitations in modern browsers. Specifically, CSS properties like
+target-counter()
+and
+leader()
+, which were previously used to enhance the formatting of PDFs (such as adding page numbers to a table of contents), are not supported in current browser technology.
+What Does This Mean for Your Content?
+If your custom CSS includes rules like the following:
+div.toc a::after {
+content: leader('.') target-counter(attr(href), page);
+}
+These rules will not work in the new PDF export system. As a result, features such as automatic page numbering in your table of contents or dotted leaders connecting headings to page numbers will not appear in the exported PDF.
 Was this helpful?
 Yes
 No
@@ -555,21 +634,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Show more
-Subscribe to Team Calendars from Google Calendar
-Subscribe to Team Calendars from Microsoft Outlook
-Subscribe to Team Calendars from Apple iOS Calendar
-Export to other calendars
-Set system properties
-Show more
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
 On this page
-Subscribe with two-way synchronization (CalDAV)
-Get your Confluence Cloud API token:
-Get your Confluence Cloud server address:
-Subscribe to a Team Calendar in the Apple Calendar app on your iOS device:
-Subscribe with one-way synchronization (iCal)
-To subscribe with one-way synchronization:
+Unsupported @page properties and alternatives
+1. @page :first
+2. Background Images in @page
+Why These Changes?
+Summary Table of Replacements
+Using Images and Fonts in Your Custom CSS
+Table of Contents Styling Limitations
+Numbering Your Headings in CSS
+Unsupported CSS Features in PDF Export
+What Does This Mean for Your Content?
 Community
 Questions, discussions, and articles
 Accessibility

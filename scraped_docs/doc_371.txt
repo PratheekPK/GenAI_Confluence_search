@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-email-notifications/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-are-votes-and-experts/
 
-Subscribe to email updates | Confluence Cloud | Atlassian Support
+What are votes and experts? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,121 +439,23 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Get notified about content and activity
+Extend the functionality of Confluence Cloud
+Use Questions for Confluence
 Cloud
 Data Center
-Subscribe to email updates
-When you
-watch or view
-a page, blog, or space, Confluence will email you each time someone makes changes to it. You can also subscribe to Confluence updates as described below. How much you leverage email to receive activity updates is up to you.
-However, if your Confluence administrator has turned off email and push notifications, you won’t be able to make or change selections.
-Email options
-You can choose to be receive emails when there are updates to content you’ve watched or viewed.
-This includes:
-Someone makes changes to content
-A blog is published or updated in any space you can view
-You comment on or edit content
-You create or edit content in a space you’re watching
-Daily digest
-You can choose to subscribe to a
-Daily Digest
-which consists of updates for content you’re watching. This includes:
-Comments and reactions
-New blogs, content, or whiteboards
-Content updates
-For Premium and Standard customers the
-Daily Digest
-also provides updates for content that’s been recently viewed, alongside content being watched.
-To edit your email settings:
-Select your profile picture in the top-right of the navigation
-Select
-Personal settings
-Select
-Email
-in the left panel
-Select
-Edit
-at the top
-Check or uncheck boxes to set which emails you’d like to receive
-Select
-Submit
-at the top
-To access email settings from the email footer:
-If you find you’re receiving too many emails, you can quickly jump to your Confluence email settings by clicking the
-Update your email settings
-link in the email footer. You may also see an option to simply
-Stop watching
-or to
-Manage notifications
-.
-If available, select the
-Update your email settings
-or other relevant link, located in the footer of the email
-Select
-Edit
-Check or uncheck boxes to set which emails you’d like to receive
-Select
-Submit
-Email settings table
-Here’s a reference chart of all the email settings, what they do, and how to manage them.
-If you aren’t watching any content or spaces, selecting any of the options below will not change your notifications.
-General
-Setting type
-Description
-Content you’ll be notified about
-Autowatch
-Selecting this option will automatically add you as a watcher to each page or post that you create, edit, or comment on. As a watcher on a piece of content, you’ll receive notifications of all future changes.
-Pages and blog posts that you create, edit, or comment on
-All blog posts
-You’ll receive an email when any blog post is created that you have permission to view, even if it’s in a space you’re not watching. You won’t receive emails for comments or edits to the blogs.
-New blog posts that you have permission to view
-Notify on my actions
-You’ll receive email notifications on actions you take within Confluence.
-All pages and spaces that you're watching
-Subscribe to
-Setting type
-Description
-Content you’ll be notified about
-Daily Digest
-Customizable daily email with an overview of updates and activity regarding the pages and spaces you’re watching.
-Daily Digest doesn't include information about attachments on a page or blog post that are added, edited or deleted.
-Customizable, can include updates on:
-Comments and reactions
-New blogs
-New pages
-New whiteboards
-Page updates
-Real-time updates
-Customizable notifications in real time on topics of your choice.
-New users or guests joining Confluence (admin only)
-Public links (admin only)
-Mentions
-Tasks
-Changes to content you’re watching
-Changes to content you own
-Note for admins
-Confluence administrators can turn email and push notifications
-on
-or
-off
-for their instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Then find
-Settings
->
-Configuration
-and select
-Further configuration
-. Select
-Edit
-to make changes.
-Site administrators have the ability to turn off specific emails for their entire tenant. Toggling settings to
-off
-means that no one on the Confluence instance will receive email, even if they turn it
-on
-in their personal email settings.
+What are votes and experts?
+Vote up and down
+Votes enable users to indicate whether they found a question or answer helpful, and to build user reputation.
+Up vote useful questions and answers, down vote the ones that are not helpful.
+Earn points
+Earn points by contributing to your Q&A community:
+15 points when your answer is accepted
+10 points each time your question or answer is upvoted
+-2 points each time your question or answer is down voted.
+You're not awarded points for answering or up voting your own questions!
+Become an expert
+Users can track their reputation on the Experts leader board. This is a great way to motivate users to answer questions and build a great community.
+The leader board recognizes the top experts for the current week, and the top experts of all time. There's also a leader board for each topic, to recognize experts in specific fields.
 Was this helpful?
 Yes
 No
@@ -561,22 +466,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Get notified about content and activity
-View your notifications
-Subscribe to email updates
-What is a Confluence RSS feed?
-Build an RSS feed
-Subscribe to pre-specified RSS feeds
-Show more
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
 On this page
-Email options
-Daily digest
-To edit your email settings:
-To access email settings from the email footer:
-Email settings table
-General
-Subscribe to
-Note for admins
+Vote up and down
+Earn points
+Become an expert
 Community
 Questions, discussions, and articles
 Accessibility

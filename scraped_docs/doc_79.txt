@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-and-manage-layouts/
+URL: https://support.atlassian.com/confluence-cloud/docs/archive-a-space/
 
-Create and manage layouts | Confluence Cloud | Atlassian Support
+Archive a space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,48 +439,73 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Space administration
+Remove a space
 Cloud
 Data Center
-Create and manage layouts
-Layouts can help the readability and the visual presentation of your content. Drag and drop content blocks next to each other to create layouts that optimize your content’s design.
-Create a layout
-To create a layout use the drag handle to drag-and-drop content blocks next to another.
-This will automatically create a layout.
-The dashed line indicates where to drop content to create your layout.
-You can also:
-Type
-/layout
-on the page.
-Select the
-Layouts
-icon in the Insert menu, or
-Copy and paste a
-Layout
-from another page or live doc
-Add or remove columns
-Once your default layout is on the page or live doc you can choose how many columns you’d like. When you change the column layout, any content already inserted will be saved.
-Choose between:
-Two
-Three
-Four, and
-Five columns.
-If you need more than five columns, we recommend using a
-table
-or
-database
+Archive a space
+Archiving a space hides it from basic site navigation, removing clutter so that it’s easier to find the most up-to-date and relevant content. You’ll always be able to find an archived space if you need it later, and you can restore it at any time.
+Archive a space
+Make sure you’re in the space you want to archive.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Archive space
 .
-Choose column position
-In two or three column layouts, you can choose if you prefer to have a left, right, or even sidebars.
-This helps you create more space for how you present content within these layouts.
-Manage layouts
-When you select the entire layout, a floating toolbar with layout controls appears. Use this toolbar to:
-Copy layouts
-Move layouts
-Remove layouts: To remove a layout, select the trash can icon in the floating toolbar.
-Adjust layout width: Layouts can be centered, wide, or full-width, allowing you to control how your content is displayed.
-By effectively using layouts, you can enhance the readability and visual impact of your written content, making it more engaging and accessible to your audience.
+Select the
+Archive space
+button.
+Select
+Archive
+to confirm your decision.
+How archived spaces behave on your site
+Archived spaces (and all content contained within them) won’t appear in the following:
+Any dropdown menus, including the Confluence quick navigation (which drops down when you enter text in the search box).
+The general list of spaces in the
+Space Directory
+. Instead, they’ll appear in the
+Archived Spaces
+list.
+Any activity streams, even if the archived space is updated.
+Archived spaces retain the following functionality:
+You can view the content as usual, by following a link or typing in a URL belonging to the archived space.
+You can edit the content as usual, as determined by the
+space permissions
+.
+RSS feeds
+,
+watches
+, and
+notifications
+remain active.
+They’ll still appear under any categories they’ve been labeled with.
+Public spaces (accessible to anyone on the Internet) will continue to appear in external search engines’ search results, like Google’s.
+Restore an archived space
+Select
+Spaces
+in the
+sidebar
+.
+Select
+View all spaces
+.
+Select the
+Archived
+button to filter the space list.
+Find your space and select
+More actions
+(•••), then
+Space settings
+.
+Open the
+General
+menu
+and select
+Archive space
+.
+Select
+Restore
+.
 Was this helpful?
 Yes
 No
@@ -488,19 +516,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
-Show more
-Format your content
-Format text
-Create and manage layouts
-Use symbols, emojis, and special characters
-Keyboard shortcuts and autocomplete
-Show more
+Remove a space
+Archive a space
+Delete a space
 On this page
-Create a layout
-Add or remove columns
-Choose column position
-Manage layouts
+Archive a space
+How archived spaces behave on your site
+Restore an archived space
 Community
 Questions, discussions, and articles
 Accessibility

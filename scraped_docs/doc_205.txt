@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-sections-to-enhance-and-highlight-your-company-hub-content/
+URL: https://support.atlassian.com/confluence-cloud/docs/navigation-tools-in-whiteboards/
 
-Use sections to enhance and highlight your Company Hub content | Confluence Cloud | Atlassian Support
+Navigation tools in whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,35 +439,67 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Company Hub to deliver key information to employees
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Use sections to enhance and highlight your Company Hub content
-As your Company Hub grows with more updates and expanded information, you may need a way to highlight, categorize, and present specific sets of links and images.
-With sections, you can add a background color and control the width of your content.
-Add your section
-Open the Company Hub editor, place your cursor where you want to add your section, and enter
-/section
+Navigation tools in whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-The new section has placeholder text and a Company Hub element for you to configure.
-Select the edit icon to choose a Company Hub element or select Delete to remove the placeholder.
-Sections are only available in Company Hub, not in Confluence pages, live docs, or blogs.
-Design your section
-Configure your section by adding other elements such as
-Cards
-,
-Carousel
-, or
-Spotlights
-. You can also add
-layouts
-,
-tables
-, and other design elements inside the section.
-Add a title and a brief description (optional)
-Select the Edit icon to open the configuration panel.
-Choose the width for your content, and select a background color. You can pick from the available palette or add a custom color to match your brand.
+Pan, zoom, and find content around your whiteboard in one of three ways:
+Use the cursor tool to select and move objects
+Select the cursor in the toolbar, or use the
+V
+key to activate the select tool.
+Select a single element.
+Select and hold an empty space, then drag your cursor to select multiple elements.
+Select and hold an element, then drag your cursor to move it.
+Use the ✋ Hand tool to pan and zoom
+The hand tool allows you to move around within your whiteboard without accidentally selecting, or moving elements around.
+Select the hand in the toolbar, or use the
+H
+key to activate the hand tool.
+Pan around the whiteboard using your mouse or trackpad:
+Mouse
+:
+select and drag to pan
+scroll to pan up and down
+scroll +
+Shift
+to pan left and right
+Trackpad
+:
+select and drag to pan
+use two fingers
+Zoom in or out using your mouse or trackpad:
+Mouse
+:
+Ctrl
++ scroll (Windows) or
+Command
++ scroll (Mac) to zoom
+use the zoom controls found at the bottom right of the whiteboard
+Trackpad
+:
+pinch to zoom
+Find text easily within your whiteboards
+Open a whiteboard and make sure to focus on the whiteboard.
+Use
+ctrl+f
+or
+cmd+f
+to open the search menu.
+You can also access the search feature from the top
+More actions (
+)
+menu.
+Type your search query into the search box.
+Use
+enter
+or
+shift+enter
+to navigate through the search results.
 Was this helpful?
 Yes
 No
@@ -475,17 +510,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Company Hub to deliver key information to employees
-Show more
-Manage your Company Hub
-Set up a menu of important links on Company Hub
-Use sections to enhance and highlight your Company Hub content
-Highlight important messages with a visual spotlight
-Add a rotating set of frames to your Company Hub
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
 Show more
 On this page
-Add your section
-Design your section
+Use the cursor tool to select and move objects
+Use the ✋ Hand tool to pan and zoom
+Find text easily within your whiteboards
 Community
 Questions, discussions, and articles
 Accessibility

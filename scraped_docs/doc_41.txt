@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/get-started-as-confluence-cloud-administrator/
+URL: https://support.atlassian.com/confluence-cloud/docs/organize-your-space/
 
-Get started as Confluence Cloud administrator | Confluence Cloud | Atlassian Support
+Organize your space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,46 +439,118 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Create and organize work in Confluence Cloud
+Use spaces to organize your work
 Cloud
 Data Center
-Get started as Confluence Cloud administrator
-If you're just starting out as Confluence administrator, this page is for you. You'll find this page useful if your Confluence instance is brand new, or if you're learning to administer an existing instance.
-Learn more about
-organization administration
-and
-user management
+Organize your space
+Here are a few tips that'll help you organize your space so that everyone can find what they're looking for and stay on top of what's important to them.
+How do I organize content within my space?
+Everything you create in Confluence, from meeting notes to retrospectives and everything in between, takes the form of either a page, live doc, or a blog post.
+Your overview will be the first thing that visitors to your site see. To help them find relevant content,
+start
+by curating your overview with useful elements and including information about what is in your space.
+If you’re creating content that’s highly collaborative and continuously evolving, like meeting notes or project planning, create a live doc.
+If you're creating versioned content like documentation or a policy that you want to serve as a source of truth that lasts, and evolves incrementally in stages, create and publish it as a page. Pages and live docs nest, so every one can have its own sub, or “child”, items. This lets you organize your content into categories and subcategories.
+If you're creating content that's specific mainly to the current time­frame, and won't change over time, create it as a blog post. The space blog displays the latest news first, and visitors can scroll down if they're interested in older content.
+Using labels
+Labels are keywords or tags that you can add to pages, live docs, blog posts, and attachments.
+Define your own labels and use them to categorize, identify, or bookmark content. For example, if you assign the label "accounting" to all accounts-related content on your site, you'll then be able to:
+Browse all content with that label in a single space or across the site
+Display a list of content with that label
+Search based on that label
+Use the
+Content by Label Macro
+to create a table of contents for your space that is organized by label categories.
+Labels aren't exclusive, so you can have as many labels as you want on a piece of content. That content will then appear under each of those categories.
+You can also
+use labels to categorize spaces
+, to make them easier to find in the space directory.
+How do I keep my space tidy?
+If you have lots of people creating in the same space, things can get messy over time. Tame the messy trying out the following.
+Create a set of guidelines
+Let your collaborators know about what folders to add content to, so nothing gets lost or misplaced.
+Decide on standard labels to add to pages, live docs, blog posts, and attachments, so all content gets neatly categorized.
+Mention these guidelines on your space overview to make sure everyone's aware of them.
+Use blueprints
+Blueprints
+are templates that come with formatting, macros and sample content. You can customize these Blueprints for each space. Everything created from a Blueprint will have its own index in the sidebar, so, for example, if you use the
+Meeting notes template
+, you can select "Meeting Notes" in the sidebar to see a list of all the meeting notes pages in your space.
+Create from template macro
+Make things simpler for other contributors by using the
+Create from Template Macro
+. The Create from Template Macro lets you put a button on a page or live doc that links to a specific template of your choice. When the button is clicked, the editor opens with your chosen template applied.
+Create your own templates
+Create your own templates
+for any content that you want formatted the same way every time. For example, if you have to create a regular report tracking the same criteria, create a template with headings, variable dates, tables, and spaces for any graphics, so that each time all you have to do is input the new data instead of creating the whole report from scratch.
+How do I help my team stay on top of what's important?
+If you've got a lot of content in Confluence, staying on top of everything may seem a little daunting. These features will help your team save time and track all the content they care about.
+Starred spaces
+Add any spaces that you want to be able to navigate to easily to your list of Starred Spaces. This list is in the Spaces menu in the Confluence navigation and in the Space Directory. You can also use the
+Spaces List Macro
+to display it on a page, live doc, or in a blog post.
+To add a space to your Starred list, either go to that space and click
+Star this Space
+, or find it under the space directory and click the
+star icon
+next to the space name.
+Star content
+If you only want links to certain content rather than a whole space, you can select
+More actions (
+) and choose
+Star.
+These items will appear under
+Recent
+in the Confluence navigation and on the
+For you page
+. You can use the
+Favorite Pages Macro
+to display a list of all of everything you've starred.
+Watch a page, live doc, blog or space
+If you want to keep track of all the changes made to a page, live doc, blog, or space, you can also
+watch
+them. Watching any content means that you will receive email notifications for all edits, deletions, attachments or comments made to that content.
+To watch content, navigate to the content you want to watch, then choose
+Watch
+settings
+from the
+More actions (…)
+menu. Select the option to either watch that content, watch its child items, or watch all content in the space.
+You can also manage watchers for your own space. This is useful when, for example, you're creating a new project and want the team members on that project to stay notified of its progress. Go to any content in that space and choose
+Watch
+>
+Manage watchers,
+then add or delete any names under
+Watching this space
 .
-How to administer and configure Confluence
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-If you have a Premium or Enterprise plan, you’ll land in the mission control center. If you have a Free or Standard plan, you’ll land in
-General configuration
-under settings.
-Getting started on a new Confluence instance
-Is this a new Confluence instance? Here are some things to get started with:
-Decide whether you want to allow
-public (anonymous) access
-to your instance.
-Add a
-space
-and some
-content
+The
+Manage watchers
+option is only available to administrators of a space.
+@mentions
+Use @mentions for any work where you need someone else's input or want to assign someone a task. Mentioning someone works like a tag—they'll immediately get a notification that they've been mentioned, and can click through to the content. If you mention someone when
+creating a task
+, it'll assign that task to them and they can find it in their profile.
+Want someone to look something over, add additional information, or approve anything? Put that work in Confluence and assign it to them as a task. They'll be able to make any changes or add comments in Confluence, and let you know when they're done by mentioning you back.
+Edit the space sidebar
+You can determine which items display in the sidebar. You can do this for overview, blog, and any apps, such as questions or calendars.
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
 .
-Invite
-some users to your instance.
-Now you can continue getting to know your instance.
-Getting to know an existing Confluence instance
-Has the instance been around a while, but you're new to Confluence administration? Take a look at these topics:
-Understand the Confluence
-permission
-scheme.
-Get to know the power of
-add-ons
-for extending and customizing your Confluence instance.
-Investigate more ways of
-customizing
-Confluence.
+Open the
+General
+menu
+and select
+Features
+.
+Choose what appears in your sidebar.
+The capabilities and cards available in Space settings depend on your permissions. Sidebar editing is only available to app and space administrators, along with permissions, look and feel, archiving, and deleting a space.
+Space shortcuts
+Shortcuts are helpful or important pages that members of a space might need to get to often. These shortcuts added by the space administrator.
+Space admins can link to pages in the space, other related spaces, or relevant external web content as well as reorder the shortcuts as needed.
 Was this helpful?
 Yes
 No
@@ -486,17 +561,29 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Confluence administration
-Get started as Confluence Cloud administrator
-Set Confluence-wide functionality
-Monitor and manage activity in Confluence Cloud
-Premium admin tools for Confluence Cloud
-Manage global permissions in Confluence administration
+Use spaces to organize your work
+Show more
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
 Show more
 On this page
-How to administer and configure Confluence
-Getting started on a new Confluence instance
-Getting to know an existing Confluence instance
+How do I organize content within my space?
+Using labels
+How do I keep my space tidy?
+Create a set of guidelines
+Use blueprints
+Create from template macro
+Create your own templates
+How do I help my team stay on top of what's important?
+Starred spaces
+Star content
+Watch a page, live doc, blog or space
+@mentions
+Edit the space sidebar
+Space shortcuts
 Community
 Questions, discussions, and articles
 Accessibility

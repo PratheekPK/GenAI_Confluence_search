@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-data-from-other-tools-into-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-and-delete-custom-event-types/
 
-Import data from other tools into Confluence | Confluence Cloud | Atlassian Support
+Add and delete custom event types | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,45 +439,40 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Import data from other tools into Confluence
-You can import your content, users, and workspaces from Notion into Confluence with the importing tool.
-We make importing convenient with a step-by-step process. This importer will not only save time and resources on manual data entry but also ensure that your project information is accurate and up-to-date with every import.
-Import data from Notion into Confluence
-You can directly import data from Notion into a new Confluence space.
-Learn more about importing directly from Notion into Confluence
-FAQ
-- Have more questions?
-Learn more about the frequently asked questions
-Troubleshooting
-- Did something not work as expected?
-Learn more about the troubleshooting steps you can take
-FAQ import data from HTML to Confluence
-FAQ import data from HTML to Confluence
-View topic
-FAQ import data from Notion to Confluence
-FAQ: Importing data from Notion into Confluence.
-View topic
-Import data from HTML to Confluence
-Import data from HTML to Confluence
-View topic
-Import data from Notion into Confluence
-Import your content, users, and workspaces from Notion into Confluence spaces.
-View topic
-Import multiple Miro boards to Confluence
-Learn how to import multiple Miro boards into Confluence
-View topic
-Troubleshooting import data from HTML to Confluence
-Troubleshooting import data from HTML to Confluence
-View topic
-Troubleshooting import data from Notion to Confluence
-Troubleshooting: Importing data from Notion into Confluence.
-View topic
-Troubleshooting import multiple Miro boards to Confluence
-Troubleshooting import multiple Miro boards to Confluence
-View topic
+Add and delete custom event types
+Event types allow you to categorize your events, making them easier to view and manage; custom event types take this a step further by giving you complete freedom to track any kind of event you can think of – so if you need to create events for training, email campaigns, outages, or anything else, Team Calendars is up to it.
+Add a custom event type
+You'll need
+editing privileges
+for the calendar to add custom event types.
+Choose
+to the right of the calendar's name, then
+Edit.
+Choose
+Event Types
+on the left, then choose
+Add new event type.
+Enter the
+Event Name
+, select an
+Event Icon,
+and hit
+Save.
+That's it! Your new event type won't appear in the sidebar immediately, but it'll show up as soon as you
+add an event
+of that type.
+Delete a custom event type
+If you no longer need a custom event type, you can delete it by choosing
+Edit
+>
+Event Types
+, then choose the
+icon to the right of the event type.
+Deleting a custom event type will delete all events within that event type! If there are any events you want to keep, make sure you move them to another event type before deleting.
 Was this helpful?
 Yes
 No
@@ -485,20 +483,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-FAQ import data from HTML to Confluence
-FAQ import data from Notion to Confluence
-Import data from HTML to Confluence
-Import data from Notion into Confluence
-Import multiple Miro boards to Confluence
+Use Team Calendars for Confluence (Premium feature)
 Show more
-Create and organize work in Confluence Cloud
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
 Show more
-Get to know the new and simplified content layout
-How to use the new toolbar and insert elements
-Import data from other tools into Confluence
-Review macros only available in the legacy editor
-The Confluence legacy editor
+On this page
+Add a custom event type
+Delete a custom event type
 Community
 Questions, discussions, and articles
 Accessibility

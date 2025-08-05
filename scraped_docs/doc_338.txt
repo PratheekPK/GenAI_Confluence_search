@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-network-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/inserting-links-to-your-whiteboard/
 
-Insert the network macro | Confluence Cloud | Atlassian Support
+Inserting links to your whiteboard | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,87 +440,56 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Create and edit whiteboards
 Cloud
 Data Center
-Insert the network macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Network macro displays a list of
-Network
-activity on a Confluence page or blog post. You can specify the user whose network activity you wish to show. These interactions include the users that the specified user is following or users who are following the specified user. The Network macro shows each listed user by their profile picture. It also provides a choice of two themes and the ability to limit the number of users in the list.
-Use the Network macro
-To add the Network macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Network macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Username
-Current user's username
-The username of the Confluence user whose network interactions you wish to show. If no username is specified, then current user's (that is, your) network interactions are shown.
-Mode
-following
-Determines which users are listed, with respect to the specified user:
-following
-– those who the user is following.
-followers
-– those who are following the user.
-This parameter is unnamed in storage format and wikimarkup.
-Theme
-full
-Determines how the user's network is displayed:
-full
-– shows a large version of user's profile pictures and, if the
-following
-mode is set, provides an entry field function to follow more users.
-tiny
-– shows only the small version of user's profile pictures.
-Maximum Results
-(max
-)
-No limit imposed up to a maximum of 30
-Restricts the number of users displayed. If the number of users exceeds the specified maximum, then a
-Show All
-link is provided. This link leads to the specified user's
-Network view
-, showing the complete list of network interactions.
-Disabling the Network macro
-The Network macro is provided by the 'network' module in the 'Profile Macros' plugin. To remove the macro from your site, you can disable the module in the plugin. See
-Disabling and enabling apps
+Inserting links to your whiteboard
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Wiki markup example
-Wiki markup is only supported in the legacy editor.
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Add more context to your whiteboarding sessions using links and Smart Links. You can link to content outside of whiteboards, Jira issues, Confluence pages and live docs, or your favorite cloud apps and websites.
+Here are three different ways to insert links into your whiteboards.
+URLs
+Add links as URLs:
+Go to the page or live doc for the link you want to use.
+Copy the URL.
+Paste the URL on the whiteboard wherever you want it to appear.
+Smart Links
+Smart Links are a richer way of hyperlinking from your favorite cloud apps and websites. They provide important context about the link without you needing to leave a whiteboard.
+Not all links are supported by Smart Links. When a link is not supported, you will see the link be inserted onto the whiteboard as a plain URL.
+Smart Link display
+In whiteboards, there are two different ways to display Smart Links:
+Display
+card
+The card view is a simplified view of the link’s content. It will generally show a brief summary of the link and its most important data. For example, for a Jira issue, you will see the issue type, issue key, issue summary, status, and the number of comments.
+Display
+embed
+An embed is the richest Smart Link view. It provides you with an interactive preview of the link’s content. For example, an embedded view of a Google Slide shows a slide deck that you can navigate through. Some links, like YouTube videos, can default to the embed view when you add them to a whiteboard.
+Switch between Smart Link displays
+Not all Smart Links have an embedded view. If possible you can switch from a card view to an embed using the floating toolbar.
+Select the Smart Link you’d like to change the display of.
+Choose which display you’d like for the Smart Link.
+Preview a Smart Link
+If a Smart Link has an embed, you can see an expanded view of it by clicking on the
+Preview
+button in the floating toolbar.
+Embed your whiteboard into Jira, Confluence, and Trello
+Easily embed ideas and add visualization to your workflows by embedding a whiteboard Smart Link to project posters, product roadmaps, kanban boards, and more.
+To embed your whiteboard:
+Copy the link to a whiteboard.
+Paste it into a Confluence page or live doc, Jira board, or Trello card.
+Select
+Embed
+as the view state in the floating toolbar.
+Smart Link permissions
+Smart Links respect the permissions of a link. If a link has permissions for who can and can’t see the link’s content, you may need to authenticate yourself.
+For any Smart Link that requires authentication, you will see a message in the Smart Link asking for you to authenticate. Select through the authentication flow to preview the Smart Link.
+If you’ve already authenticated for the Smart Link of an app (e.g. Google Docs) in another Atlassian apps, you won’t have to authenticate it again in whiteboards.
+Import Jira issues
+The Jira issue import dialog lets you search for and insert single or multiple Jira issue links into your whiteboard. You can import from the cloud versions of
+Jira
+, Jira Service Management, and Jira App Discovery.
+Learn more about importing Jira issues
 Was this helpful?
 Yes
 No
@@ -528,11 +500,23 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Create and edit whiteboards
+Show more
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Show more
 On this page
-Use the Network macro
-Parameters
-Disabling the Network macro
-Wiki markup example
+URLs
+Smart Links
+Smart Link display
+Switch between Smart Link displays
+Preview a Smart Link
+Embed your whiteboard into Jira, Confluence, and Trello
+Smart Link permissions
+Import Jira issues
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-company-hub-to-deliver-key-information-to-employees/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-chart-macro/
 
-Use Company Hub to deliver key information to employees | Confluence Cloud | Atlassian Support
+Insert the chart macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,36 +440,934 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
+Use macros to add visuals and images to Confluence pages
 Cloud
 Data Center
-Use Company Hub to deliver key information to employees
-This feature is only offered with
-Confluence Cloud Premium and Enterprise
+Insert the chart macro
+The Chart macro allows you to display a chart based on tabular data. When you add the macro to a page or live doc, you:
+supply the data to be charted by the macro as a table in the placeholder of the macro.
+edit the macro parameters in the Macro Browser to configure the format of the chart.
+Use the Chart macro
+To add the Chart macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To enter your chart data:
+Select a chart type using the
+Type
+parameter (see below).
+Choose other parameter settings in the macro browser, as described below.
+Use a zero to represent that there is no value for a data series or data type. Leaving the cell blank/null causes problems when showing the chart.
+To edit the Chart macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Chart Type Parameters
+These parameters determine the type of chart to display and the way the chart looks.
+Parameter
+Default
+Description
+Type
+pie
+The type of chart to display. XY charts have numerical x- and y-axes. The x values may optionally be time-based (see the
+Time Series
+parameter).
+Standard
+— pie, bar, line, area
+XY Plots
+— xyArea, xyBar, xyLine, xyStep, xyStepArea, scatter, timeSeries
+Other
+— gantt
+Display Orientation
+vertical
+Applies to area, bar and line charts.
+vertical
+— y-axis is vertical
+horizontal
+— x-axis is vertical
+Show in 3D
+false
+Applies to area, bar and line charts.
+Stacked Values
+false
+Applies to area and bar charts.
+Show shapes
+true
+Applies to line charts. Shapes are shown at each data point.
+Opacity
+75 percent for 3D charts
+50 percent for non-stacked area charts
+100 percent for all other charts
+A percentage value between 0 (transparent) and 100 (opaque) that determines how opaque the foreground areas and bars are.
+Display Control Parameters
+Parameter
+Default
+Description
+Width
+300
+The width of the chart in pixels.
+Height
+300
+The height of the chart in pixels.
+Display rendered data
+false
+Sets whether to display the rendered body of the macro (usually the data tables). By default, the chart data table isn't rendered.
+before
+— the data are displayed before the chart.
+after
+— the data are displayed after the chart.
+Image format
+png
+The image format to be used for the chart.
+png
+jpg
+Title and Label Parameters
+Parameter
+Default
+Description
+Chart Title
+none
+The title of the chart.
+Chart Subtitle
+none
+A subtitle for the chart, using a smaller font than for
+Title
 .
-With
-Company Hub
-, you can create and customize a beautiful, dynamic company-wide information central. This is where all employees can go for up-to-date announcements, news, key resources, and more.
-Create and customize a Company Hub
-Set up a dynamic news and information hub for your entire company using Confluence.
-View topic
-Manage your Company Hub
-Manage Company Hub settings and permissions, view and restore old versions, and deactivate your Company Hub.
-View topic
-Set up a menu of important links on Company Hub
-Add a menu of evergreen links and important information to the top of Company Hub.
-View topic
-Use sections to enhance and highlight your Company Hub content
-Highlight and organize your content with sections in Company Hub. Customize with background colors and enhance with elements like Cards and Carousels.
-View topic
-Highlight important messages with a visual spotlight
-Spotlight allows you to present important message with a large image, a colorful background, and an interactive link.
-View topic
-Add a rotating set of frames to your Company Hub
-Drive employee engagement with Company Hub using a set of rotating frames with custom colors, a large image, and a link.
-View topic
-Use cards to add beautiful dynamic content to Company Hub
-Add interactive visual cards to elevate your Company Hub. Add images, customize the design, and select a target audience.
-View topic
+Horizontal-axis Label
+none
+The label for the x-axis (domain).
+Vertical-axis Label
+none
+The label for the y-axis (range).
+Show Legend
+true
+Show a legend or key.
+Data Specification Parameters
+The data for the chart is taken from tables found when the macro body is rendered. These options control how this data is interpreted. By default, numeric and date values are interpreted according to the Confluence global default language (locale) formats. If conversion fails, other languages defined in Confluence will be tried. Additional conversion options can be specified using the parameters below.
+Parameter
+Default
+Description
+Tables
+all first level tables
+Comma separated list of table ids and/or table numbers (starting at 1) contained within the body of the macro that will be used as the data for the chart. If data tables are embedded in other tables, then table selection will be required. This occurs when more complex formatting is done (for example using section and column macros).
+Columns
+all columns
+Comma separated list of column labels and/or column titles and/or column numbers for tables used for chart data. This applies to all tables processed. Columns are enumerated starting at 1. Column label is the text for the column in the header row. Column title is the (html) title attribute for the column in the header row.
+Content Orientation
+horizontal
+vertical
+— data table columns will be interpreted as series.
+horizontal
+— data tables rows will be interpreted as series.
+Time Series
+false
+true — the x values in an XY plot will be treated as time series data and so will be converted according to date formats.
+Date format
+Confluence language defined date formats
+For time series data, the date format allows for additional customization of the conversion of data to date values. If a
+Date format
+is specified, it will be the first format used to interpret date values. Specify a format that matches the time series data. See
+simple date format
+.
+Time Period
+Day
+The time period for time series data. Defines the granularity of how the data is interpreted. Valid values are:
+Millisecond
+,
+Second
+,
+Minute
+,
+Hour
+, Day,
+Week
+,
+Month
+,
+Quarter
+,
+Year
+.
+Language
+none
+Use in combination with the
+Country
+parameter to form a locale. These additional number and date formats will be used for data conversion before the default languages.
+Valid values are 2 character
+ISO 639-1 alpha-2 codes
+.
+Country
+none
+Use in combination with the
+Language
+parameter to form a locale. Valid values are 2 character
+ISO 3166 codes
+.
+Forgive
+true
+true — the macro tries to convert numeric and date values that do not totally match any of the default or user-specified formats.
+false — enforce strict data format. Data format errors will cause the chart to not be produced.
+Color Parameters
+Colors are specified using hexadecimal notation or HTML color names.
+Parameter
+Default
+Description
+Background Color
+White
+Background of the chart.
+Border Color
+no border
+Border around the chart.
+Colors
+Comma-separated list of colors used to customize category, sections, and series colors.
+Axis Parameters
+Depending on the chart type, the range and domain axis may be customized. These values are automatically generated based on the data but can be overridden by specifying one or more more of these parameters.
+Parameter
+Default
+Description
+Range Minimum Value
+none
+Range axis lower bound.
+Range Maximum Value
+none
+Range axis upper bound.
+Range Axis Tick Unit
+none
+Range axis units between axis tick marks.
+Range Axis Label Angle
+none
+Angle for the range axis label in degrees.
+Domain Axis Lower Bound
+none
+Only applies to XY plots. Domain axis lower bound. For a date axis, this value must be expressed in the date format specified by the
+Date format
+parameter.
+Domain Axis Upper Bound
+none
+Only applies to XY plots. Domain axis upper bound. For a date axis, this value must be expressed in the date format specified by the
+Date format
+parameter.
+Domain Axis Tick Unit
+none
+Only applies to XY plots. Domain axis units between axis tick marks. For a date axis, this value represents a count of the units specified in the
+Time Period
+parameter. The
+Time Period
+unit can be overridden by specifying a trailing character: y (years), M (months), d (days), h (hours), m (minutes), s (seconds), u (milliseconds).
+Domain Axis Label Angle
+none
+Only applies to XY plots. The angle for the domain axis label, in degrees.
+Category Label Position
+none
+Placement of the axis label text for categories.
+up45
+— 45 degrees going upward
+up90
+— 90 degrees going upward
+down45
+— 45 degrees going downward
+down90
+— 90 degrees going downward
+Date Tick Mark Position
+start
+Placement of the date tick mark.
+start
+— tick mark is at the start of the date period.
+middle
+— tick mark is in the middle of the date period.
+end
+— tick mark is at the end of the date period.
+Pie Chart Parameters
+Parameter
+Default
+Description
+Pie Section Label
+Show only the pie section key value
+Format for how pie section labels are displayed. The format uses a string with special replacement variables:
+%0% is replaced by the pie section key.
+%1% is replaced by the pie section numeric value.
+%2% is replaced by the pie section percent value.
+Example 1: "%0% = %1%" would display something like "Independent = 20"
+Example 2: "%0% (%2%)" would display something like "Independent (20%)"
+Pie Section Explode
+No exploded sections
+Comma separated list of pie keys that are to be shown exploded. Note: requires jFreeChart version 1.0.3 or higher.
+Attachment Parameters
+These are advanced options that can be used for chart versioning, to enable automation and to improve performance. Use these options carefully! Normally, the chart image is regenerated each time the page pr doc is displayed. These options allow for the generated image to be saved as an attachment and have subsequent access re-use the attachment. This can be useful especially when combined with the Cache Plugin to improve performance. Depending on the options chosen, chart images can be versioned for historical purposes.
+Parameter
+Default
+Description
+Attachment
+none
+The name and location with which the chart image will be saved as an attachment. The user must be authorized to add attachments to the page specified.
+^attachmentName.png — the chart is saved as an attachment to the current page.
+page^attachmentName.png — the chart is saved as an attachment to the page name provided.
+space:page^attachmentName.png — the chart is saved as an attachment to the page name provided in the space indicated.
+Attachment Version
+new
+Defines the the versioning mechanism for saved charts.
+new — creates new version of the attachment.
+replace — replaces all previous versions of the chart. To replace an existing attachment, the user must be authorized to remove attachments for the page specified.
+keep — only saves a new attachment if an existing export of the same name does not exist. An existing attachment will not be changed or updated.
+Attachment Comment
+none
+Comment used for a saved chart attachment.
+Thumbnail
+false
+true — the chart image attachment will be shown as a thumbnail.
+Examples
+Pie Chart
+Parameters in Macro Browser
+Data Table in Macro Placeholder
+Rendered Chart
+Type
+pie
+Fish Type
+2011
+Herring
+9,500
+Salmon
+2,900
+Tuna
+1,500
+Chart Title
+Fish Sold 2011
+Show Legend
+true
+Content Orientation
+vertical
+Bar Chart
+Parameters in Macro Browser
+Data Table in Macro Placeholder
+Rendered Chart
+Type
+bar
+Fish Type
+2010
+2011
+Herring
+9,500
+8,300
+Salmon
+2,900
+4,200
+Tuna
+1,500
+1,500
+Chart Title
+Fish Sold
+Show Legend
+true
+3D Bar Chart
+Parameters in Macro Browser
+Data Table in Macro Placeholder
+Rendered Chart
+Type
+bar
+2009
+2010
+2011
+Revenue
+12.4
+31.8
+41.1
+Expense
+43.6
+41.8
+31.1
+Show in 3D
+true
+Opacity
+50
+Show Legend
+true
+Time Series Chart
+Parameters in Macro Browser
+Data Tables in Macro Placeholder
+Rendered Chart
+Type
+Time Series
+Month
+Revenue
+1/2011
+31.8
+2/2011
+41.8
+3/2011
+51.3
+4/2011
+33.8
+5/2011
+27.6
+6/2011
+49.8
+7/2011
+51.8
+8/2011
+77.3
+9/2011
+73.8
+10/2011
+97.6
+11/2011
+101.2
+12/2011
+113.7
+Month
+Expenses
+1/2011
+41.1
+2/2011
+43.8
+3/2011
+45.3
+4/2011
+45.0
+5/2011
+44.6
+6/2011
+43.8
+7/2011
+51.8
+8/2011
+52.3
+9/2011
+53.8
+10/2011
+55.6
+11/2011
+61.2
+12/2011
+63.7
+Date Format
+MM/yyyy
+Time Period
+Month
+Content Orientation
+vertical
+Range Axis Lower Bound
+0
+Show Legend
+true
+XY Line Chart
+Parameters in Macro Browser
+Data Table in Macro Placeholder
+Rendered Chart
+Type
+xyLine
+12
+14
+23
+Revenue
+41.1
+31.8
+12.4
+Expense
+31.1
+41.8
+43.6
+Show Legend
+true
+XY Area Chart
+Parameters in Macro Browser
+Data Table in Macro Placeholder
+Rendered Chart
+Type
+xyArea
+12
+14
+23
+Revenue
+41.1
+31.8
+12.4
+Expense
+31.1
+41.8
+43.6
+Show Legend
+true
+Area Charts
+Example 1
+Parameters in Macro Browser
+Data Table in Macro Placeholder
+Rendered Chart
+Type
+area
+Satisfaction
+2009
+2010
+2011
+Very satisfied
+20
+23
+34
+Satisfied
+40
+34
+23
+Dissatisfied
+25
+26
+25
+Very dissatisfied
+15
+17
+18
+Show Legend
+true
+Width
+300
+Height
+300
+Opacity
+50
+Example 2
+Parameters in Macro Browser
+Data Table in Macro Placeholder
+Rendered Chart
+Type
+area
+Satisfaction
+2009
+2010
+2011
+Very satisfied
+12
+23
+31
+Satisfied
+1
+34
+36
+Dissatisfied
+4
+6
+22
+Very dissatisfied
+2
+7
+12
+Show Legend
+true
+Width
+300
+Height
+300
+Stacked Values
+true
+Gantt Chart
+Parameters in Macro Browser
+Data Table in Macro Placeholder
+Rendered Chart
+Type
+gantt
+PlanStartEndStatusStage 1
+6/25/2013
+7/10/2013
+30%
+Stage 2
+7/13/2013
+11/28/2013
+40%
+Stage 3
+12/1/2013
+12/25/2013
+ActualStartEndStatusStage 1
+6/25/2013
+7/26/2013
+100%
+Stage 2
+7/29/2013
+12/01/2013
+40%
+Stage 3
+12/10/2013
+12/25/2013
+Width
+300
+Height
+200
+Columns
+,,1,2,3,4
+Date format
+MM/dd/yyyy
+Code examples
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Macro name:
+chart
+Macro body:
+Accepts rich text, consisting of tables that hold the chart's data.
+This macro recognizes a large number of parameters, listed here by type for convenience.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Chart type parameters
+These parameters determine the type of chart to display and how the chart looks.
+Parameter
+Required
+Default
+Description
+type
+No
+pie
+The type of chart to display. XY charts have numerical x- and y-axes. The x values may optionally be time-based. See the
+timeSeries
+parameter.
+Available values:
+Standard charts
+- pie, bar, line, area
+XY plots
+–
+xyArea, xyBar, xyLine, xyStep, xyStepArea, scatter, timeSeries
+Other charts
+–
+gantt
+orientation
+No
+vertical
+The display orientation. Applies to area, bar and line charts.
+Available values:
+vertical
+–  y-axis is vertical
+horizontal
+–  x-axis is vertical
+3D
+No
+false
+Show in three dimensions. Applies to area, bar and line charts.
+stacked
+No
+false
+Stacked values. Applies to area and bar charts.
+showShapes
+No
+true
+Applies to line charts. Shapes are shown at each data point.
+opacity
+No
+75 percent for 3D charts
+50 percent for non-stacked area charts
+100 percent for all other charts
+A percentage value between 0 (transparent) and 100 (opaque) that determines how opaque the foreground areas and bars are.
+Chart display parameters
+Parameter
+Required
+Default
+Description
+width
+No
+300
+The width of the chart in pixels.
+height
+No
+300
+The height of the chart in pixels.
+dataDisplay
+No
+false
+Determines whether to display the body of the macro, consisting of the data table. By default, the chart data table is not displayed.
+Available values:
+false – the data is not displayed.
+true
+or
+after
+–  the data is displayed after the chart.
+before –
+the data is displayed before the chart.
+imageFormat
+No
+png
+The image format to be used for the chart.
+Available values:
+png
+jpg
+Chart title and label parameters
+Parameter
+Required
+Default
+Description
+title
+No
+(None)
+The title of the chart.
+subTitle
+No
+(None)
+A subtitle for the chart.
+xLabel
+No
+(None)
+The label for the x-axis (domain).
+yLabel
+No
+(None)
+The label for the y-axis (range).
+legend
+No
+false
+Determines whether to show a legend (key) for the chart.
+Chart data parameters
+The data for the chart is taken from tables found in the macro body. The parameters below control how this data is interpreted. By default, numeric and date values are interpreted according to the Confluence global default language (locale) formats. If conversion fails, other languages defined in Confluence will be tried. You can specify additional conversion options using the parameters below.
+Parameter
+Required
+Default
+Description
+tables
+No
+All first level tables
+You can supply a comma-separated list of table IDs and/or table numbers (starting at 1) contained within the body of the macro that will be used as the data for the chart. If data tables are embedded in other tables, then table selection will be required. This occurs when more complex formatting is done (for example using section and column macros).
+columns
+No
+All columns
+You can supply a comma-separated list of column labels and/or column titles and/or column numbers for tables used for chart data. This applies to all tables processed. Columns are enumerated starting at 1. Column label is the text for the column in the header row. Column title is the HTML title attribute for the column in the header row.
+dataOrientation
+No
+horizontal
+The content orientation. By default, the data tables will be interpreted as columns (horizontally) representing domain and x values.
+Available values:
+vertical
+–  data table columns will be interpreted as series.
+horizontal –
+data tables rows will be interpreted as series.
+timeSeries
+No
+false
+If '
+true
+', the x values in an XY plot will be treated as time series data and so will be converted according date formats.
+dateFormat
+No
+Confluence language defined date formats
+For time series data, the date format allows for additional customization of the conversion of data to date values. If a
+dateFormat
+is specified, it will be the first format used to interpret date values. Specify a format that matches the time series data. See
+simple date format
+.
+timePeriod
+No
+day
+The time period for time series data. Defines the granularity of how the data is interpreted.
+Available values:
+millisecond, second, minute, hour, day, week, month, quarter, year
+language
+No
+(None)
+Use in combination with the
+country
+parameter to form a locale. These additional number and date formats will be used for data conversion before the default languages.
+Available values are the two-character
+ISO 639-1 alpha-2 codes
+.
+country
+No
+(None)
+Use in combination with the
+language
+parameter to form a locale. Valid values are the two-character
+ISO 3166 codes
+.
+forgive
+No
+true
+Determines whether the macro will forgive (allow) some data formatting errors.
+Available values:
+true
+— the macro tries to convert numeric and date values that do not totally match any of the default or user-specified formats.
+false
+— the macro enforces strict data formatting. If there are data format errors, the chart will not be produced.
+Chart color parameters
+Colors are specified using hexadecimal notation or HTML color names.
+Parameter
+Required
+Default
+Description
+bgColor
+No
+White
+Background color of the chart.
+borderColor
+No
+No border
+Color of the border around the chart.
+colors
+No
+A comma-separated list of colors used to customize the colors of categories, sections, and series.
+Chart axis parameters
+Depending on the chart type, the range and domain axis may be customized. These values are automatically generated based on the data but can be overridden by specifying one or more more of these parameters.
+Parameter
+Required
+Default
+Description
+rangeAxisLowerBound
+No
+(None)
+Minimum value for the range axis.
+rangeAxisUpperBound
+No
+(None)
+Maximum value for the range axis.
+rangeAxisTickUnit
+No
+(None)
+Range axis units between axis tick marks.
+rangeAxisLabelAngle
+No
+(None)
+Angle for the range axis label in degrees.
+domainAxisLowerBound
+No
+(None)
+Only applies to XY plots. Domain axis lower bound. For a date axis, this value must be expressed in the date format specified by the
+dateFormat
+parameter.
+domainAxisUpperBound
+No
+(None)
+Only applies to XY plots. Domain axis upper bound. For a date axis, this value must be expressed in the date format specified by the
+dateFormat
+parameter.
+domainAxisTickUnit
+No
+(None)
+Only applies to XY plots. Domain axis units between axis tick marks. For a date axis, this value represents a count of the units specified in the
+timePeriod
+parameter. The
+timePeriod
+unit can be overridden by specifying a trailing character:
+y
+(years),
+M
+(months),
+d
+(days),
+h
+(hours),
+m
+(minutes),
+s
+(seconds),
+u
+(milliseconds).
+domainAxisLabelAngle
+No
+(None)
+Only applies to XY plots. The angle for the domain axis label, in degrees.
+categoryLabelPosition
+No
+(None)
+Placement of the axis label text for categories.
+Available values:
+up45
+— 45 degrees going upward
+up90
+— 90 degrees going upward
+down45
+— 45 degrees going downward
+down90
+— 90 degrees going downward
+dateTickMarkPosition
+No
+start
+Placement of the date tick mark.
+Available values:
+start
+— tick mark is at the start of the date period.
+middle
+— tick mark is in the middle of the date period.
+end
+— tick mark is at the end of the date period.
+Pie chart Parameters
+Parameter
+Required
+Default
+Description
+pieSectionLabel
+No
+Show only the pie section key value
+Formatof pie section labels. The format uses a string with special replacement variables:
+%0%
+is replaced by the pie section key.
+%1%
+is replaced by the pie section numeric value.
+%2%
+is replaced by the pie section percent value.
+Example 1: To display something like 'Independent = 20':
+%0% = %1%
+Example 2: To display something like 'Independent (20%)':
+%0% (%2%)
+pieSectionExplode
+No
+No exploded sections
+A comma-separated list of pie keys that are to be shown exploded. Note: requires jFreeChart version 1.0.3 or higher.
+Chart attachment parameters
+These are advanced options that can be used for chart versioning, to enable automation and to improve performance. Use these options carefully! Normally, the chart image is regenerated each time the page or doc is displayed. These options allow for the generated image to be saved as an attachment and have subsequent access to re-use the attachment. This can be useful especially when combined with the Cache plugin to improve performance. Depending on the options chosen, chart images can be versioned for historical purposes.
+Parameter
+Required
+Default
+Description
+attachment
+No
+(None)
+The name and location where the chart image will be saved as an attachment. The user must be authorized to add attachments to the content specified.
+Available syntax for this parameter:
+^attachmentName.png
+— the chart is saved as an attachment to the current page or doc.
+page name^attachmentName.png
+— the chart is saved as an attachment to the page or doc name provided.
+spacekey:page name^attachmentName.png
+— the chart is saved as an attachment to the page or doc name provided in the space indicated.
+attachmentVersion
+No
+new
+Defines the the versioning mechanism for saved charts.
+Available values:
+new
+— creates new version of the attachment.
+replace
+— replaces all previous versions of the chart. To replace an existing attachment, the user must be authorized to remove attachments for the page or doc specified.
+keep
+— only saves a new attachment if an existing export of the same name does not exist. An existing attachment will not be changed or updated.
+attachmentComment
+No
+(None)
+Comment used for a saved chart attachment.
+thumbnail
+No
+false
+If
+true
+, the chart image attachment will be shown as a thumbnail (small, expandable) image.
+Wiki markup example
+Below is a simple example of a pie chart.
+{chart:type=pie|title=Fish Sold}
+|| Fish Type || 2004 || 2005 ||
+|| Herring | 9,500 | 8,300 |
+|| Salmon | 2,900 | 4,200 |
+|| Tuna | 1,500 | 1,500 |
+{chart}
 Was this helpful?
 Yes
 No
@@ -477,20 +1378,44 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Create and customize a Company Hub
-Manage your Company Hub
-Set up a menu of important links on Company Hub
-Use sections to enhance and highlight your Company Hub content
-Highlight important messages with a visual spotlight
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
 Show more
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
-Use Company Hub to deliver key information to employees
-Use Confluence with other applications
-Use macros to show Confluence content on pages and live docs
-Use macros to add development info on Confluence pages
-Show more
+On this page
+Use the Chart macro
+Parameters
+Chart Type Parameters
+Display Control Parameters
+Title and Label Parameters
+Data Specification Parameters
+Color Parameters
+Axis Parameters
+Pie Chart Parameters
+Attachment Parameters
+Examples
+Pie Chart
+Bar Chart
+3D Bar Chart
+Time Series Chart
+XY Line Chart
+XY Area Chart
+Area Charts
+Gantt Chart
+Code examples
+Parameters
+Chart type parameters
+Chart display parameters
+Chart title and label parameters
+Chart data parameters
+Chart color parameters
+Chart axis parameters
+Pie chart Parameters
+Chart attachment parameters
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

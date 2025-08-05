@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/team-calendars-faqs/
+URL: https://support.atlassian.com/confluence-cloud/docs/bring-all-your-work-into-confluence/
 
-Team Calendars FAQs | Confluence Cloud | Atlassian Support
+Bring all your work into Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,75 +439,55 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Team Calendars FAQs
-How do I set up Team Calendars?
-It's easy! See
-Use Team Calendars for Confluence (Premium feature)
+Bring all your work into Confluence
+Reduce overwhelm and improve productivity by bringing all your work to one place. Instead of switching between apps, centralize in Confluence using Smart Links in the content tree.
+Insert links and anchors
+(and in other Atlassian apps) already provide rich display options for links within pages and other content. Smart Links in the content tree take it a step further by letting you add these links directly to your content tree, so you can organize and access work from all your apps in your space.
+Add a Smart Link to the content tree
+There are two ways to add a Smart Link to the content tree.
+Select
+Create
+in the main navigation, then
+Smart Link
+. This will create in the space you are currently in or will default to your personal space/whichever space you have edit permissions.
+Select
+in the Content section of the space
+sidebar
+, then
+Smart Link.
+This will create the Smart Link in the content tree directly where you want it.
+After selecting
+Smart Link
+, you’ll be prompted for a URL. Select
+Add Smart Link
+to finish.
+If you don’t add a link, you will see an untitled Smart Link in the content tree until you finish adding the URL or archive/delete it.
+What can you do with a Smart Link in the content tree?
+Assuming you have all necessary permissions for the linked content, some Smart Links will have expanded functionality directly in Confluence (for example, playing a video or adding to a document). The degree of interaction within Confluence may vary depending on the source apps and other factors.
+Not every URL can fully display within Confluence. Some apps will only show a preview of the content and relevant metadata.
+Once you’ve added your link, you can rename it, star it for easy reference, share with teammates, or open the link in a new tab. You can also make a copy of the link, move it somewhere else, or (if you don’t need it anymore) archive/delete it.
+Restrictions and Smart Links in the content tree
+When you add a Smart Link to the content tree, the link you’ve added inherits the default permissions of the object above it (or, generally, the space where you’ve placed it).
+You can’t set additional restrictions on a Smart Link within Confluence. However, permissions on the added link might affect who can engage with the content.
+Viewing something via a Smart Link in Confluence doesn’t imply permissions to interact with the content in the source app.
+What data is sent and received when pasting a Smart Link?
+For example, if you add a link to a Google Sheets spreadsheet in a space that anyone can view, but under a whiteboard that only a handful of people can view, the spreadsheet would inherit the same restrictions as the whiteboard. And, if there were limits within the spreadsheet itself of who could edit it, some of your teammates might be able to view the spreadsheet linked in Confluence, but not be able to modify it without the permissions being updated in the source application.
+Replace a link
+You may start off with one link that made sense to bring into Confluence and later discover you need another one entirely. Instead of archiving the link in your content tree (which could potentially impact other pieces of work), you can just replace the referenced link with a new one.
+Select
+Replace link
+from the
+More actions
+(
+) menu.
+Type or paste the URL you want.
+Select
+Replace
 .
-Why are you charging for this plugin?
-There are a few reasons:
-We feel we can solve a lot of specific problems with the combination of events, people, projects (JIRA applications) and content. Atlassian sees this plugin working alongside your personal meeting or events calendar.
-Not every customer needs a team calendaring solution. Hence, by not bundling Team Calendars with Confluence, it doesn't increase the cost of Confluence for those customers who aren't going to use it.
-The old plugin was not maintained or supported. In contrast, Team Calendars is maintained and supported moving forward.
-What's happening with the old Confluence calendar plugin?
-The old calendar plugin was never officially supported and as such carries no support from Atlassian. It is currently available as an open-sourced component, available on
-plugins.atlassian.com
-for use with legacy versions of Confluence (3.4 and earlier). The old calendar plugin does not work with Confluence 3.5.x or later versions. There are currently no plans to continue development on the old calendar plugin. If you are currently using the old plugin, there is a manual migration path to Team Calendars available by importing your iCal files.
-Where can I give you feedback?
-To give the Team Calendars team feedback, raise an issue in the
-TEAMCAL project on jira.atlassian.com
-.
-Can I integrate Team Calendars with our company's Google Apps Calendar?
-Yes you can. Learn more about this here:
-Subscribe to Team Calendars from Google Calendar
-Subscribe to Google Calendars from Confluence
-Is Team Calendars available for Confluence Data Center?
-Yes. All you need is a Team Calendars license for Confluence Data Center.
-Learn more about Data Center licensing
-Can I map out custom issue date fields from JIRA applications?
-Yes, you can! This was released as part of Team Calendars 2. See
-Add Jira events
-for more information.
-Does Team Calendars work on my iPhone?
-Although this is not officially supported, it does work on the iPhone. All you have to do is select "subscribe" from a specific calendar menu and login using your Confluence details. iOS should automatically attempt to add the calendar to your iPhone. More instructions here:
-Subscribe to Team Calendars from Apple iOS Calendar
-Can I add more than one person to an event for my people calendar?
-Yes you can. Just add multiple names in the people field.
-Is Team Calendars available in my local language?
-As of Team Calendars 1.1, the plugin is available in English and the bundled Confluence languages (French and German). We hope to have this plugin also available on
-translations.atlassian.com
-for other language support.
-Can I change the date/time format (E.g. mm/dd or dd/mm)?
-The date format is dependent on your language settings and automatically adjusts accordingly - this is a Confluence user and global setting. An admin can set the site
-default language
-and you can also set your
-language preference
-.
-Can I change the starting day of the week?
-The Team Calendars follows per user language preferences to decide which day is at the start of the week. For example, if you want to make the start of the week to Sunday (US Calendar), you would need to install the
-US Language pack
-and edit your Confluence user preferences to choose
-US English
-. To do this, click
-User name
->
-Settings
->
-Edit
->
-Language
-and then choose
-US English
-.
-The Confluence default is to
-Automatically detect browser settings
-.
-Can I subscribe to Google Public Calendar from Team Calendars?
-Currently, it's not possible to subscribe to Google Public Calendar from Team Calendars. This is a known issue with Google Calendar; it appears that Google Calendar Public .ics file doesn't contain the data/event that can be read by Team Calendars to display events. Only Google Private Calendar can be subscribed from Team Calendars for now.
 Was this helpful?
 Yes
 No
@@ -515,27 +498,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
+Create and edit content
 Show more
-Subscribe to Team Calendars from Apple iOS Calendar
-Export to other calendars
-Set system properties
-Team Calendars FAQs
-Subscribe to Team Calendars from Google Calendar (Android)
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+Show more
 On this page
-How do I set up Team Calendars?
-Why are you charging for this plugin?
-What's happening with the old Confluence calendar plugin?
-Where can I give you feedback?
-Can I integrate Team Calendars with our company's Google Apps Calendar?
-Is Team Calendars available for Confluence Data Center?
-Can I map out custom issue date fields from JIRA applications?
-Does Team Calendars work on my iPhone?
-Can I add more than one person to an event for my people calendar?
-Is Team Calendars available in my local language?
-Can I change the date/time format (E.g. mm/dd or dd/mm)?
-Can I change the starting day of the week?
-Can I subscribe to Google Public Calendar from Team Calendars?
+Add a Smart Link to the content tree
+What can you do with a Smart Link in the content tree?
+Restrictions and Smart Links in the content tree
+Replace a link
 Community
 Questions, discussions, and articles
 Accessibility

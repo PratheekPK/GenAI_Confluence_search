@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/convert-pages-to-the-new-editor/
+URL: https://support.atlassian.com/confluence-cloud/docs/database-views/
 
-Convert pages to the cloud editor | Confluence Cloud | Atlassian Support
+Database views | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,116 +440,66 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit content
+Create and edit databases
 Cloud
 Data Center
-Convert pages to the cloud editor
-This guide provides a step-by-step process to help you convert legacy Confluence pages to the cloud editor. By converting pages to cloud, you get the latest updates and improvements to creating, collaborating, and organizing your content.
-Learn more about the cloud editor
-Advantages of using the cloud editor
-You can elevate your content creation experience with the cloud editor's powerful features:
-Enhanced collaboration:
-Work seamlessly with your team in real-time and witness edits as they happen, with changes auto-saved.
-Faster loading:
-Enjoy a user-friendly interface that lets you format your content with with faster loading times.
-Future-proof:
-Benefit from ongoing updates to the cloud editor, ensuring your content remains compatible with future advancements across Atlassian products. Since the cloud editor is the unified editing experience for all Atlassian apps, you'll gain access to platform features like
-Atlassian Intelligence
-and
-Smart Links
+Database views
+Databases aren’t available in the
+Atlassian Government environment
 .
-Coming soon: Deprecation of the legacy editor
-In June 2025, Atlassian
-announced the deprecation
-of the legacy editor. This will be a phased process beginning in January 2026. Find out more in the
-FAQ article
+Depending on your needs, you can view the same database in multiple ways and change between them. You can select a layout and add filters and sorts to categorize your content within a view easily.
+Create and switch views
+When you first create a database, the default view is View 1. After this, you can create a new view by selecting
++
+next to your existing views.
+Depending on your screen size, you may have to open the menu next to your current view and select
+Add view
 .
-When the process is complete in April 2026, all editing will take place in the cloud editor. Until then, you will continue to have the option to update pages in the legacy editor. However, there are some downsides to continuing to use the legacy editor:
-No bugs fixed unless it's a major incident.
-No enhancements.
-What’s the difference between the cloud and legacy toolbars?
-You can see which editor your page uses by looking at the differences in the editor toolbar.
-The cloud editor
-includes
-Publish…
-or
-Update
-and
-Close
-buttons in the top menu and the emoji icon
-The legacy editor
-has earlier versions of text-color picker and page formatting
-Convert your legacy editor pages to cloud
-Which pages are eligible for conversion?
-Eligible pages are those that can be converted to the cloud editor without displaying any "unsupported" content after conversion. These pages are fully compatible with the cloud editor, allowing users to view and edit them seamlessly. The introduction of the
-legacy content macro
-has made a lot more pages eligible.
-Identifying Eligible Pages:
-Convert Option:
-When you edit an eligible page, you’ll see the option to convert.
-Checkmark Indicator:
-While editing in the legacy editor, a checkmark  in the bottom left corner indicates eligibility.
-Ineligible pages:
-If a legacy editor page has content that can’t be converted, you won’t see the invitation to convert to the cloud editor. If you try to convert it anyway, you will see a warning that you could lose content.
-When you enter edit mode on an “eligible page,” you will see a pop-up to convert to the cloud editor. Select
-Update page
-to instantly convert the page to the cloud.
-If you select
-Not now
-your page will open in the legacy editor.
-A
-preview
-banner will remain visible, allowing you to preview your page in the cloud editor and convert it from there.
-If your page has content that is not yet supported in the cloud editor, the conversion process will add this content to one or more copies of the
-legacy content macro
-. This macro lets you continue to work with unsupported content. The legacy content macro dramatically increases the number of pages that are eligible for conversion.
-For more resources check out:
-What you can
-create in cloud
-a
-side by side feature comparison of the editors
-Auto-convert pages to cloud
-Admins can set an option to automatically prompt users to convert legacy editor pages.
-For all spaces in Confluence
-Confluence admins can
-enable auto-conversion
-of all legacy pages in Confluence to the new editor.
-For a single space
-Space admins can enable auto-conversion from legacy to the cloud editor for all pages with eligible content in a space.
-If auto-conversion is enabled, eligible pages will be converted to the cloud editor when someone views the page. You will be able to revert to the legacy version in
-More actions (
-)
-menu. Select
-Revert to legacy editor
+The
+View settings
+dialog will open. You must name the new view and configure the layout, filters, sorting, and hidden fields.
+Switch views by simply selecting the tab of the view you want to use.
+Temporary views
+You can change layouts, apply filters, sort, and hide fields without saving them as a new view. This allows you to change how you see the data in your database temporarily. Only you can view temporary views; you will lose any changes when you refresh the page or navigate away. To keep or share these view changes, you must save them as a new view or save the changes to an existing view.
+Customize views
+Each view of the database has several components that you can customize:
+Layout and Layout options:
+Choose how you want your database to be visually organized and configure options for your views selected layout.
+See
+Layouts and options
+for more information on different layout options.
+Filters:
+Add criteria based on field values to show or hide data.
+See
+Filter your data
+for more information on filter options.
+Sorts:
+Sort by a field to change the order in which you display entries.
+See
+Sort fields
+for more information on sorting fields.
+Hide field:
+Show or hide database fields for each view.
+See
+Hide fields in your database
+for more information on hiding fields in a view.
+View actions
+When you’re in a given view, select the arrow next to its name to access the following option:
+Edit view
+Make default
+Copy link
+Delete view
+Share views
+Once you've created your view, you can share it with others in two ways:
+Copy and paste the URL:
+With the desired view active, simply copy the URL from your web browser's address bar. This link will automatically display your chosen view when pasted onto a Confluence page, or anywhere that supports Smart Links.
+Use the 'Copy link' option:
+When you're in a given view, select the arrow next to its name, and select
+Copy link
+from the view actions menu. This will provide a ready-made URL to share.
+Want to learn more about advanced sharing options and permissions? Our documentation has a section on
+Share databases, entries, or values
 .
-To enable auto-convert:
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-General
-menu
-and select
-Convert pages
-.
-Turn on
-Convert pages automatically
-.
-Revert page migrations
-If you’d like to restore your page back to the legacy editor, you can
-restore the most recent version of the page before conversion, via the page version history
-.
-Support
-The cloud editor constantly evolves, offering regular updates and improvements. To stay updated with the latest features and functionalities, check out:
-Atlassian Community
-:
-Connect with other Confluence Cloud users and share your experiences.
-Support articles
-:
-Access more detailed guides and troubleshooting tips for Confluence Cloud.
 Was this helpful?
 Yes
 No
@@ -557,23 +510,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Create and edit databases
 Show more
-Import external documents
-Classify content
-How redaction works
-Learn about the Atlassian cloud editor
-Convert pages to the cloud editor
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Filter your data
+Show more
 On this page
-Advantages of using the cloud editor
-Coming soon: Deprecation of the legacy editor
-What’s the difference between the cloud and legacy toolbars?
-Convert your legacy editor pages to cloud
-Auto-convert pages to cloud
-For all spaces in Confluence
-For a single space
-Revert page migrations
-Support
+Create and switch views
+Temporary views
+Customize views
+View actions
+Share views
 Community
 Questions, discussions, and articles
 Accessibility

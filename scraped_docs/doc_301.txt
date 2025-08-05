@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-up-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-jira-chart-macro/
 
-Considering Confluence Cloud? | Confluence Cloud | Atlassian Support
+Insert the Jira chart macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,15 +439,109 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
+Extend the functionality of Confluence Cloud
+Use macros to add development info on Confluence pages
 Cloud
 Data Center
-Considering Confluence Cloud?
-Confluence Cloud functionality and features
-Review the Confluence Cloud features in each plan and dig into the benefits of using Confluence Cloud.
-View topics
-See how teams use Confluence Cloud
-Review the different ways Confluence can be used.
-View topics
+Insert the Jira chart macro
+If your Confluence site is connected to a Jira application, you can display issues as charts on Confluence pages or live docs. You can connect Confluence to any Jira application, including
+Jira
+and Jira Service Management.
+Adding the Jira Chart macro to a page or live doc
+To add a Jira chart macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+Pie chart
+Pie charts can be used to report on issue status, priority, assignee and more.
+To further control how this chart appears on your page or live doc, choose
+Display options
+:
+Chart by
+- select the field you want to segment the pie chart by such as:
+Status
+Fix version
+Assignee name
+Priority
+Component
+Issue type
+Width
+- define the total width of the chart area. You can enter values in pixels, percent or leave blank to auto fit.
+Show border
+- add a border around the chart area.
+Show chart information
+- include a text summary under the chart with the total issues count and chart by value.
+Created vs Resolved chart
+Created vs Resolved charts can be used to show the difference between the number of issues created versus the number of issues resolved over time.
+To further control how this chart appears on your page or live doc, choose
+Display options
+:
+Period
+- choose a time frame to report by (week, month, quarter etc).
+Days previously
+- the total number of days to report on (counting back from today).
+Cumulative totals
+- choose to progressively add totals or report individual values for each period.
+Show unresolved trend
+- add a subplot showing unresolved issues over time.
+Show versions
+- indicate version release dates as a vertical line on the chart.
+Width
+- define the total width of the chart area. Enter values in pixels, percent or leave blank to auto fit.
+Show border
+- add a border around the chart area
+Show chart information
+- include a text summary under the chart with the total issues count and chart by value.
+Two Dimensional Chart
+Two Dimensional Charts can be used to show issue statistics in a matrix. You can configure the X and Y axes to display these issue fields:
+Status
+Priority
+Assignee
+Fix version
+Component
+Issue type.
+For example you could use the chart to show issue types by status (as shown above).
+To configure the chart axes choose
+Display options
+:
+X Axis
+- the issue field to display on the X axis (columns).
+Y Axis
+- the issue field to display on the Y axis (rows).
+Rows to display
+- the maximum number to display in the chart.
+Disabling the Jira Chart macro
+The functionality is provided by an add-on (plugin) called 'Jira Macros'. This macro is also used for the Jira Issues macro. To make the macro unavailable on your site, you can disable the add-on. See
+Disabling and enabling apps
+.
+Authentication
+— If the query includes issues that require authentication (issues that are not visible to anonymous users in Jira), users will be prompted to authenticate to view charts on the Confluence page.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+On this page
+Adding the Jira Chart macro to a page or live doc
+Pie chart
+Created vs Resolved chart
+Two Dimensional Chart
+Disabling the Jira Chart macro
+Community
+Questions, discussions, and articles
 Accessibility
 Notice at Collection
 Privacy Policy

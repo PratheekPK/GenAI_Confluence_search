@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/customize-the-email-domain-sending-confluence-emails/
+URL: https://support.atlassian.com/confluence-cloud/docs/change-the-look-and-feel-of-confluence-cloud/
 
-Customize the email domain sending Confluence emails | Confluence Cloud | Atlassian Support
+Look and feel settings in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,47 +440,41 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
-Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Customize the email domain sending Confluence emails
-Confluence
-email notifications
-are sent from the Atlassian domain by default (for example <confluence@space.atlassian.net>). However, personalizing notifications with your company’s domain can
-improve delivery rates and security
-and may simply be more familiar to your users.
-If your team would like notification emails (that is, emails related to Confluence activity) to originate from your company’s domain, administrators can configure it in the settings. This is otherwise known as
-setting up DMARC
-(Domain-based Message Authentication, Reporting, and Conformance).
-Confluence emails sent from a domain other than
-atlassian.net
-can be rejected by DMARC if sent without a domain-specific DKIM signature.
-First an organization administrator must
-add email addresses to Atlassian Administration
-(we recommend a group list like <confluence@acme.org>). This is what will populate the email options in Confluence.
-Then a Confluence administrator can select a custom domain from those options.
-To change the sender of Confluence email notifications:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Configuration
-in the left-hand navigation.
-Select
-Notifications
+Look and feel settings in Confluence Cloud
+You can change the appearance, or look and feel of
+Confluence Cloud
+for the whole instance (globally) or for individual spaces.
+Changes you make to the whole instance will also apply to all spaces that are inheriting the global look and feel.  Users with space administrator permissions can further customize the appearance of a space and override the global look and feel for that space. See
+Customize your space
+for more.
+Ways to customize the look and feel of Confluence:
+Add your own logo. See
+Change your site and space logos
 .
-Find the
-Email addresses
-field and select the email address you want to use.
-Select
-Save changes
-. It can take up to an hour for the email change to take effect.
-An exception:
-Emails that notify users when
-pages or live docs are shared
-with them will continue to show Atlassian as the sender even if a custom domain is selected.
-We are aware of this discrepancy and are working to fix it.
+Change the
+color scheme
+of the user interface. See
+Customize the navigation colors
+.
+Use
+themes
+for advanced layout customization. See
+Install a theme
+.
+Install a theme
+Download and install themes for your site from the Atlassian Marketplace.
+View topic
+Set the default theme
+Set the default layout and colors of your Confluence instance.
+View topic
+Customize the navigation colors
+Change the colors of your Confluence navigation background and Create button.
+View topic
+Change your site and space logos
+Upload site and space logos or set a new favicon for your instance.
+View topic
 Was this helpful?
 Yes
 No
@@ -488,13 +485,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
+Explore more
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Confluence administration
 Show more
-Configure attachment size
-Configure shortcut links
-Install a custom language font for PDF exports
-Confluence wiki markup syntax for the legacy editor
-Customize the email domain sending Confluence emails
+Configuration settings in Confluence Cloud
+Security settings in Confluence Cloud
+Look and feel settings in Confluence Cloud
+Data management in Confluence Cloud
+Atlassian Marketplace apps
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

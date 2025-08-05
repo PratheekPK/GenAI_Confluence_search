@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-live-docs-in-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/change-the-space-name-and-logo/
 
-Configure live docs in Confluence | Confluence Cloud | Atlassian Support
+Change the space name and logo | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,63 +439,34 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Set Confluence-wide functionality
+Space administration
+Customize your space
 Cloud
 Data Center
-Configure live docs in Confluence
-What are live docs?
-Live docs
-offer a dynamic, efficient, and collaborative way to create and share written content in Confluence.
-With live docs, you can create frictionless content that can be edited and collaborated on instantly. Any changes made to your live doc are automatically saved and reflected to all viewers in real time.
-How do I turn live docs on or off for my space?
-Live docs can be turned
-on
-or
-off
-in any given space by admins.
-To turn live docs
-on
-in any space, so that anyone in the space can create them, admins can select
-Space settings
-from the
+Change the space name and logo
+To customize your space’s name and icon:
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
 More actions
-(
-…
-) menu of any space.
-Then, select
-Features
-from the
-General
-menu. A menu of feature toggles will appear.
-Under
-Content
-, toggle
-Live docs
-on
-in order to allow users in the space to create them.
-Live docs are distinct from pages, and existing pages in the space will not be affected.
-This toggle can be turned off anytime. Live docs that were created while the toggle was on
-will remain as is
-.
-Creating a brand new space and toggling the
-Live docs
-feature on will also provide default access to live docs.
-Note
-: With the new content layout enabled, Marketplace app buttons in the header of pages and live docs will not be supported. Impacted apps are in the process of being supported in other locations. To learn more, visit this
-status page
-.
-Bulk conversion
-Admins can convert pages to live docs in bulk via
-Content manager
-in
+(•••), then
 Space settings
 .
-Select all pages you want to convert to live docs from the
-Title
-column, then select
-Convert to live doc
-from the floating toolbar. Once you confirm that you’re ready to convert all items, you should see a success message that the conversion is complete.
+Select
+Space details
+.
+Input a new
+Name
+and select
+Save
+.
+To edit the space icon, select the Space icon field.
+Upload your own logo or select
+Gallery
+to choose from existing illustrations.
+Select
+Save
+.
+You can't change the space icon for your personal space, which uses your profile picture as the space logo.
 Was this helpful?
 Yes
 No
@@ -503,17 +477,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
-Show more
-Create a custom space overview template
-Turn off page reactions
-Customize layout for PDF exports in Confluence Cloud
-Convert legacy editor pages in all spaces
-Configure live docs in Confluence
-On this page
-What are live docs?
-How do I turn live docs on or off for my space?
-Bulk conversion
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
 Community
 Questions, discussions, and articles
 Accessibility

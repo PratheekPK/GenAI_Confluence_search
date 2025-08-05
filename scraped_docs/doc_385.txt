@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/voting-in-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/navigate-around-confluence/
 
-Voting in whiteboards | Confluence Cloud | Atlassian Support
+Navigate around Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,68 +440,21 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
 Cloud
 Data Center
-Voting in whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-Simplify collaborative decision-making with voting in whiteboards. Use it for brainstorming, retrospectives, and more with your team. Anyone on the whiteboard can start, manage, and conclude voting sessions.
-View detailed results with the top-voted items and individual votes.
-Starting a voting session
-To start a voting session:
-Select the voting icon in the right-side toolbar.
-Enter a name for the voting session.
-To hide collaborator votes, toggle
-Enable anonymous voting
-on.
-Choose the number of votes allowed per person by using the + and - or select the number and type in the number of votes.
-Select
-Start
-.
-Note:
-There is a maximum of 99 votes per person.
-Voting
-You can vote on any sticky note on the whiteboard. To vote:
-Select the + icon on an element to add a vote. You can vote for the same element multiple times.
-Select the - icon to remove a vote.
-Select
-I’m done
-to indicate that you are done voting to everyone on the whiteboard.
-Ending a session
-Anyone can end a voting session.
-To end a voting session and display results:
-Select
-End for everyone
-in the voting modal.
-Confirm and select
-End voting
-.
-A voting session cannot be restarted.
-View voting results
-When a voting session ends, everyone will see the results of that session.
-Click on a result in the voting panel to navigate to that element.
-Hover over the “thumb” icon to view the individuals who voted for that element.
-If anonymous voting was enabled for the session, names will not be visible on element votes.
-To view the results of any previous voting session on a whiteboard:
-Select the voting icon in the right-side toolbar.
-Select the
-Results
-tab.
-Delete a voting session
-To delete a voting session:
-Select the session you want to delete from the
-Results
-tab.
-Select the more icon in the top right of the panel.
-Select
-Delete
-.
-Confirm and select
-Delete
-.
-Results are deleted permanently.
+Navigate around Confluence
+What is the new navigation in Confluence?
+The new navigation is customizable, offers a new look and feel, and makes moving between work more efficient.
+View topic
+Use For you to jump into work and see what's happening
+Start your day on the Home page with access to your recent and starred things, as well as the site activity feed.
+View topic
+Confluence navigation
+Learn about the different ways to navigate through your Confluence content.
+View topic
+View written content
+Get details and information about the pages and live docs you're viewing
+View topic
 Was this helpful?
 Yes
 No
@@ -509,19 +465,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Explore more
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+Use spaces to organize your work
+Find content in Confluence Cloud
+Create and edit content
+Keep content organized
 Show more
-Atlassian Intelligence in Confluence whiteboards
-Draw freeform lines with pen
-Private mode in whiteboards
-Voting in whiteboards
-Whiteboard history
-On this page
-Starting a voting session
-Voting
-Ending a session
-View voting results
-Delete a voting session
 Community
 Questions, discussions, and articles
 Accessibility

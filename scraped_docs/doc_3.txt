@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/administer-global-templates/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-oauth-access-tokens/
 
-Manage Confluence page and doc templates | Confluence Cloud | Atlassian Support
+Manage OAuth access tokens | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,47 +439,61 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Manage your account and permissions in Confluence Cloud
+Manage your account
 Cloud
 Data Center
-Manage Confluence page and doc templates
-Global templates are page and doc templates that are available in every space on your instance. As a
-Confluence administrator
-, you can control which templates are available globally, edit existing templates, create your own, and even install new ones from the
-Atlassian Marketplace
-.
-You can also learn about managing
-page/doc templates
-, blueprints, and reports in a specific space.
-What’s the difference between a template and a blueprint?
-Blueprints are templates created by Atlassian or by third-party developers. From an end-user perspective, blueprints and templates are the same, but there are some important differences for administrators.
-Site administrators
-can:
-Install global blueprints from the
-Atlassian Marketplace
-Enable and disable global blueprints
-Edit existing global blueprints
-Promote and unpromote global blueprints
-Space administrators
-can:
-Enable and disable blueprints for the space they manage
-Edit blueprints to customize them for their space
-Promote and unpromote blueprints within their space
-Neither site administrators nor space administrators can create blueprints. However, they can
-create custom templates
-.
-Create a global page template
-Add custom pages templates to your Confluence template gallery.
-View topic
-Edit a global page or doc template
-Edit a global template.
-View topic
-Install a global blueprint
-Find and install global templates in the Atlassian Marketplace.
-View topic
-Manage global page templates, doc templates, and blueprints
-Learn how to delete global templates and disable global blueprints.
-View topic
+Manage OAuth access tokens
+OAuth access tokens allow you to use a Confluence gadget on an external web application or website (also known as the 'consumer')
+and
+grant this gadget access to Confluence data which is restricted or privy to your Confluence user account.
+OAuth access tokens will only appear in your user profile if the following conditions have been met:
+Your Confluence administrator has established an OAuth relationship between your Confluence site and the consumer.
+You've accessed a Confluence gadget on the consumer and have completed the following tasks:
+Logged in to your Confluence user account via the gadget
+Clicked the
+Approve Access
+button to allow the gadget access to data that's privy to your Confluence user account
+Confluence will then send the consumer an OAuth 'access token', which is specific to this gadget. You can view the details of this access token from your Confluence site's user account.
+Confluence Administrators should refer to
+Configuring OAuth
+for more information about establishing these OAuth relationships.
+An OAuth access token acts as a type of 'key'.
+As long as the consumer is in possession of this access token, the Confluence gadget on the consumer will be able to access Confluence data that's both publicly available and privy to your Confluence user account.
+As a Confluence user, you can revoke this access token at any time.
+All access tokens expire after seven days. Once the access token is revoked or has expired, the Confluence gadget will only have access to publicly available Confluence data.
+View your OAuth Access Tokens
+To view all of your Confluence user account's OAuth access tokens:
+Choose your profile picture at the right side of the navigation, then choose
+Settings
+Click
+View OAuth Access Tokens
+OAuth Access Token Details
+Your list of OAuth access tokens is presented in a table, with a row for each access token and a column for each property:
+Column Name
+Description
+Consumer
+The name of the Confluence gadget that was added on the consumer.
+Consumer Description
+A description of this consumer application. This information would have been obtained from the consumer's own OAuth settings when an OAuth relationship was established between Confluence and that consumer.
+If the consumer is another Atlassian application, this information is obtained from the
+Consumer Info
+tab's
+Description
+field of the OAuth Administration settings. The application's administrator can customize this Consumer Info detail.
+Issued On
+The date on which the OAuth access token was issued to the consumer by Confluence. This would have occurred immediately after you approved this gadget access to your Confluence data (privy to your Confluence user account).
+Expires On
+The date when the OAuth access token expires. This is seven days after the "Issued On" date. When this date is reached, the access token is automatically removed from this list.
+Actions
+For revoking the access token.
+Revoke your OAuth Access Tokens
+To revoke one of your OAuth access tokens:
+View your Confluence user account's OAuth access tokens (described above).
+Click
+Revoke OAuth Access Token
+for the OAuth access token you want to revoke.
+The gadget's access token is revoked and the Confluence gadget on the consumer will only have access to publicly available Confluence data.
 Was this helpful?
 Yes
 No
@@ -487,19 +504,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Create a global page template
-Edit a global page or doc template
-Install a global blueprint
-Manage global page templates, doc templates, and blueprints
-Confluence administration
+Manage your account
 Show more
-Manage global permissions in Confluence administration
-Manage analytics permissions in Confluence administration
-Manage Confluence page and doc templates
-Configuration settings in Confluence Cloud
-Security settings in Confluence Cloud
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
 Show more
+On this page
+View your OAuth Access Tokens
+OAuth Access Token Details
+Revoke your OAuth Access Tokens
 Community
 Questions, discussions, and articles
 Accessibility

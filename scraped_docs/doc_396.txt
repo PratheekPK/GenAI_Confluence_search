@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-third-party-calendars/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-are-space-permissions/
 
-Subscribe to Team Calendars from third-party calendars | Confluence Cloud | Atlassian Support
+What are space permissions? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,46 +439,83 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Space administration
+Manage permissions at the space level
 Cloud
 Data Center
-Subscribe to Team Calendars from third-party calendars
-Subscribing to Team Calendars from your favorite third-party calendar app is a great way to view your Team Calendars events when you're not in Confluence.
-There are two ways to synchronize a Team Calendar with your calendar app:
-Two-way sync (CalDAV)
-allows you to view and update Team Calendars events in your calendar app.
-One-way sync (iCal)
-allows you to view but not update Team Calendars events in your calendar app.
-Not all calendar apps support two-way sync (CalDAV) with Team Calendars. Apps that do support CalDAV should integrate with Team Calendars just fine. We've tested the following apps and can confirm they will integrate well:
-Apple Calendar (MacOS)
-Apple Calendar (iOS)
-Google Calendar (Android)
-Microsoft Outlook
-Thunderbird
-Other calendar apps
-If the calendar app you use isn't listed above, you may still be able to subscribe to Team Calendars. Check your app's documentation to find out whether it supports the iCal or CalDAV standard. If it supports iCal, then you should be able to set up one-way synchronization. If it supports CalDAV, you should be able to set up two-way synchronization.
-To subscribe to a calendar app that's not listed above:
-In Confluence, Select
-Subscribe
-at the top of your calendar.
-Select either
-iCal
-or
-CalDAV
-from the
-Calendar app
-dropdown (check your calendar app's documentation to find out which standard it supports).
-Copy the
-Calendar URL
+What are space permissions?
+Each space in Confluence has its own set of permissions, which can be granted and revoked by a space admin. The user who creates a space is automatically an admin of that space, and they can add other space admins by giving another user or group the
+Admin
+permission. Space admins can assign permissions for the space to individual users, groups, or anonymous users.
+Space permissions aren’t customizable on the
+Free plan
 .
-Then, in your Calendar app, follow the steps in your app's documentation to add or subscribe to the calendar.
-Timezones
-Timezones can be confusing! Here's how we decide what time to display.
-We display the time of an event in Confluence using the timezone set in your Confluence profile.
-We display the time of an event in your calendar app using the timezone set in your app or device.
-We store events using the timezone defined in the Team Calendar itself, and then convert them to the appropriate timezone when you view the event.
-You should always see the correct time, but if you change locations, make sure you update your Confluence profile so you don't see a discrepancy between your calendar app and Confluence.
+To find out who the space admins are for a particular space:
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Space details
+from the
+Manage space
+card.
+See
+Administrators
+.
+To change permissions for a space, see
+Assign space permissions
+.
+Space admins can also manage watchers for that space by selecting the watch icon
+at the top right of any page in the space and selecting
+Manage watchers
+.
+If you accidentally deny all admin access to a space so that nobody has access to administer the space any more, you can ask someone with Confluence Administrator global permission to
+recover space permissions
+and provide space admin access to the appropriate people.
+This page is about
+space permissions
+. Confluence also lets you set
+page restrictions
+.
+Assignable permissions for each space
+View
+User can view all the content in your space, except when they're restricted from doing so on individual content items.
+Add
+User can add new pages, live docs, blogs, comments, or attachments in your space.
+You can assign "Add" permissions individually by content type. If assigned, the user can also edit all of that content type in your space, except when restricted from doing so on individual content items.
+Delete
+User can delete any page, live doc, comment, or attachment in your space. You can assign "Delete" permissions individually by content type.
+Delete Own
+User can
+only
+delete content they created or attachments they added. (Note: If user can add comments, they can delete their own.)
+Restrictions
+User can edit restrictions on all pages and live docs in your space, which govern who can view or edit a page or live doc.
+Export
+User can export the whole space. (Page or doc-level export is governed by the "View" permission. anyone who can view a page or live doc can also export it.)
+Admin
+User can administer the space, which includes the ability to pass on admin permissions to other users.
+Confluence admins aren't necessarily space admins. In order for them to be a space admin, they must belong to a group which has both view permission and space admin permission in the space, or they must be granted those permissions as an individual in the space.
+Space permissions are additive
+Space permissions are additive. If a user is granted permissions as an individual or as a member of one or more groups, Confluence will combine these permissions together.
+Example
+Sasha is a member of the
+confluence-users
+group and the
+developers
+group. The
+confluence-users
+group has 'export' permission, but does not have 'restrict' permission. The
+developers
+group has 'restrict' permission but does not have 'export' permission.
+By being a member of these two groups, Sasha can restrict
+and
+export content. The permissions do not conflict, they combine to determine what Sasha is allowed to do in this space.
 Was this helpful?
 Yes
 No
@@ -486,17 +526,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Subscribe to Team Calendars from third-party calendars
-Getting started with team calendars
-Add events
-Add Jira events
-See standard event types
-Show more
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
 On this page
-Other calendar apps
-To subscribe to a calendar app that's not listed above:
-Timezones
+Assignable permissions for each space
+Space permissions are additive
 Community
 Questions, discussions, and articles
 Accessibility

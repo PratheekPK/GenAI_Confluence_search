@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-are-macros/
+URL: https://support.atlassian.com/confluence-cloud/docs/integrate-questions-with-your-spaces/
 
-What are macros? | Confluence Cloud | Atlassian Support
+Integrate questions with your spaces | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,118 +439,106 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Space administration
+Manage Questions for Confluence
 Cloud
 Data Center
-What are macros?
-Using macros helps you to extend the capabilities of your Confluence pages and live docs, allowing you to add extra functionality or include dynamic content. For example, use the
-Attachments macro
-to list files attached to content, or use the
-Widget Connector macro
-to include things like a YouTube video or Twitter feed.
-Add a macro to your page or live doc
-To add a macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit a macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Macro parameters
-Many macros have optional parameters you can use to control the macro's output.
-With the Attachments Macro, for instance, you have two optional parameters allowing you to:
-Specify the file formats of the attachments displayed
-Choose whether or not you want old versions of the attachments displayed
-Macro placeholders
-Macro placeholders are displayed in the editor where you have added a macro to a page or doc.
-When editing, you can:
-Double-click a macro placeholder (or click the placeholder and choose
-Edit
-) to open the macro dialog window and edit the macro's parameters
-Select a macro placeholder to cut, copy and paste the macro
-Conflicts between two macros
-Some Marketplace macros, or apps, can’t be installed together because they were given the same internal ID. When you try to install an app with a name that conflicts with a previously installed macro, you will see this error message:
-Unable to install <app B>
-Your instance has <app A> from the same partner that does not allow installation of ‘App B’ due to technical constraints.
-The quickest solution is to uninstall one app so that you can install the other.
-You may also want to contact the developer through the Atlassian Marketplace and ask them to address the error.
-Macros available in the editor
-Below is a list of the macros available in the editor.
-Select a macro name for details of the usage, including optional parameters and examples.
-Anchor Macro
-Attachments Macro
-Blog Posts Macro
-Change-History Macro
-Chart Macro
-Children Display Macro
-Content by Label Macro
-Content Report Table Macro
-Contributors Macro
-Contributors Summary Macro
-Create from Template Macro
-Excerpt Include Macro
-Excerpt Macro
-Gallery Macro
-iFrame Macro
-Include Page Macro
-Microsoft Office macros
-Jira Chart Macro
-Jira Issues Macro
-Jira Roadmap Macro
-Labels List Macro
-Livesearch Macro
-Microsoft OneDrive for Business Macro
-Network Macro
-Page Index Macro
-Content Properties Macro
-Content Properties Report Macro
-Page Tree Macro
-Page Tree Search Macro
-PDF Macro
-Popular Labels Macro
-Profile Picture Macro
-Recently Updated Dashboard Macro
-Recently Updated Macro
-Related Labels Macro
-Roadmap Planner Macro
-Spaces List Macro
-Table of Contents Macro
-Table of Content Zone Macro
-Task Report Macro
-User List Macro
-User Profile Macro
-Widget Connector Macro
-Macros from the Marketplace
-Many more macros are available from the
-Atlassian Marketplace
+Integrate questions with your spaces
+Confluence organizes its content in spaces. Questions recognizes that some content should be available anywhere—so questions can be created in the
+global questions space
+and organized just by topic, or asked
+inside
+a space, to inherit space permissions and keep things together.
+If you have permissions to use Questions, you'll see
+Questions
+under the
+Apps
+menu in the Confluence
+sidebar
+, and questions will appear in your search results.
+See questions asked in a space
+When asking a question, people can choose to ask a question in a space. This might be for permissions reasons (to make the question private and only visible to people who can see that space) or to keep questions and content for a team or project together.
+To view and search for questions in a space select
+Questions
+in the
+Apps
+menu of the
+sidebar
 .
-Blocked macros
-When you navigate to a page or live doc in Confluence, some macros may appear with a message informing you that an administrator has blocked this app:
-When using macros that leverage apps from the
-Atlassian Marketplace
-, it is possible for your organization admin to block an app’s access to your data through a
-data security policy
-with an
-app access rule
-. When this rule is applied, you can no longer use macros that were provided by apps that have been blocked in the coverage selected by your organization.
-Contact your Confluence admin to discuss available options.
-What happens to app data associated with a macro that is blocked?
-Data that is stored by a blocked macro is subject to the retention policy of the partner who developed the macro. After the retention period, this data may be deleted and may not be able to be restored. Therefore, if you notice missing data, discuss it with your Confluence admin so that any required steps can be taken to preserve the data.
-What if I don’t want my users to see the ‘blocked app’ error on the page?
-As a workaround, you can remove the app blocked message from the content by removing the macro from the page or live doc. This will also delete any data on it that the app has stored within the macro, but will not remove data the macro may have stored in app storage that is subject to the partner’s retention policy, as above.
+The global questions space
+When you install Questions for Confluence, a space for global questions is created. Global questions are questions that aren't asked in a specific Confluence space, but are instead posed to your whole site. You shouldn't delete this space, as deleting it will delete vital Questions info and Questions won't function as it should.
+Questions macros
+Add a list of questions to a page or live doc
+One way to encourage users to use questions is to display them on pages and live docs using the Questions List macro. For example, if you use Confluence as your intranet, you might include the 5 most popular questions with the topic "human-resources" on pages for new starters in your team.
+To add the macro to a page or live doc:
+Begin typing /
+Questions List
+Select
+Questions List
+Enter the number of questions to display
+Select a
+filter
+(you can choose to show recent, popular, or unanswered questions)
+Enter
+topics
+(you can choose to match
+all
+or
+any
+of the topics you enter)
+Choose a
+Space
+(leave this blank if you want to show all questions)
+Hit
+Insert
+The macro will show all matching questions (including questions asked in any spaces you have permission to view).
+Add an
+Ask a question
+link to a page or live doc
+Encourage your users to ask their own questions by including a link to the
+Create question
+page or live doc.
+To add an
+Ask a question
+link to a page or live doc:
+Choose the link icon from the toolbar. This will open up the
+Insert link
+dialog.
+Select
+Web link
+, then in the
+Address
+field, use the following URL, replacing <hostname> with your site URL (for example, on this site, we would use
+confluence.atlassian.com
+)
+https://<hostname>/wiki/plugins/servlet/ac/com.atlassian.confluence.plugins.confluence-questions/globalQuestionsViewer?ac.com.atlassian.confluence.plugins.confluence-questions.path=/questions/ask
+This asks a question without limiting it by space. If you want the question to be asked in a specific space, use the following URL instead, replacing <hostname> with your site URL, and replacing <spaceKey> with that space's space key:
+https://<hostname>/wiki/display/<spaceKey>/customcontent/list/ac:com.atlassian.confluence.plugins.confluence-questions:question?ac.com.atlassian.confluence.plugins.confluence-questions.path=/questions/ask
+Add in the
+Link text
+(for example, you might choose
+Ask a question
+), then click
+Save
+.
+Users who click on the text will then get taken to the following screen.
+Clicking Ask a question will take users to this screen
+Use Confluence macros with questions
+The Filter by Label macro is great for displaying a list of questions, pages, live docs, and blogs that have a specific label (or topic) applied.
+To add the macro to a page or live doc:
+Begin typing
+/Filter by label
+Select
+Filter by Label
+Enter the topic or topics that you want displayed in the
+Labels
+field
+Leave the
+Include this Content Type Only field
+blank
+Hit
+Insert
+All content, including questions, pages, live docs, and blogs that contain the topics specified will appear in the list.
 Was this helpful?
 Yes
 No
@@ -558,23 +549,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
-What are macros?
-Learn which macros are being removed
-Insert the attachments macro
-Insert the blog posts macro
-Insert the change history macro
-Show more
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
 On this page
-Add a macro to your page or live doc
-Macro parameters
-Macro placeholders
-Conflicts between two macros
-Macros available in the editor
-Macros from the Marketplace
-Blocked macros
-What happens to app data associated with a macro that is blocked?
-What if I don’t want my users to see the ‘blocked app’ error on the page?
+See questions asked in a space
+The global questions space
+Questions macros
+Use Confluence macros with questions
 Community
 Questions, discussions, and articles
 Accessibility

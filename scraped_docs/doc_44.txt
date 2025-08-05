@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-are-questions-permissions/
+URL: https://support.atlassian.com/confluence-cloud/docs/learn-how-confluence-cloud-works/
 
-Assign Questions for Confluence permissions | Confluence Cloud | Atlassian Support
+Confluence Cloud functionality and features | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,48 +439,19 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Manage permissions at the space level
+Considering Confluence Cloud?
 Cloud
 Data Center
-Assign Questions for Confluence permissions
-Questions access is governed by
-Confluence space permissions
-. If someone has access to a space, they'll be able to view, ask, and interact with questions in that space.
-To change permissions for a space:
-Go to the space in
-Confluence Cloud
-.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
-menu
-and select
-Apps
-.
-Select
-Edit permissions
-.
-Change the
-View
-,
-Add
-, or
-Delete
-permissions for Questions for Confluence.
-Select
-Save all
-.
-For example, if you don't want all Confluence users to be able to access a particular space, and by extension its questions, remove the "View" permission for the default "confluence-users" group. If certain users can't see the space, they're already blocked from seeing questions in the space (they'll be able to see
-topics
-created with questions, but not the questions themselves).
-Global questions permissions
-When you install Questions for Confluence, A "global questions" space, called Questions for Confluence by default, is created. This space is where questions are kept when they're asked across your whole site rather than in a specific space.
-To make sure anyone logged in to Confluence has access to global questions, make sure the permissions for this space are left on their default settings (open to Confluence users).
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn how you can create, collaborate, and share content in Confluence Cloud.
+View topic
+Learn about the features of Confluence Cloud plans
+Learn what's included in different Confluence Cloud plans, and how to change from plan to another.
+View topic
+Confluence Standard
+Learn all about the Confluence Standard plan
+View topic
 Was this helpful?
 Yes
 No
@@ -488,12 +462,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage permissions at the space level
-What are space permissions?
-Copy space permissions
-Assign space permissions
-Make a space public with anonymous access
-Assign Questions for Confluence permissions
+Explore more
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+See how teams use Confluence Cloud
 Community
 Questions, discussions, and articles
 Accessibility

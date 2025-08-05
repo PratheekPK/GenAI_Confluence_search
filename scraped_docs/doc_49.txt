@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/database-tour/
+URL: https://support.atlassian.com/confluence-cloud/docs/summarize-comments-using-atlassian-intelligence/
 
-Database tour | Confluence Cloud | Atlassian Support
+Summarize comments using Atlassian Intelligence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,40 +440,36 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit databases
+Atlassian Intelligence features in Confluence Cloud
 Cloud
 Data Center
-Database tour
-Databases aren’t available in the
-Atlassian Government environment
+Summarize comments using Atlassian Intelligence
+This Atlassian Intelligence feature is in beta. Read more about
+Atlassian Intelligence features.
+Save time and get the information you need to engage with teammates faster by generating a summary of general page or doc comments with
+Atlassian Intelligence
+(currently, it is not possible to summarize in-line comments).
+Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
+Settings > Atlassian Intelligence
+in Atlassian Administration.
+Atlassian Intelligence isn’t available for
+Atlassian Government
+apps.
+Summarize general comments with Atlassian Intelligence
+Open
+Rovo
+via the button at the bottom-right of your screen.
+Select
+Summarize comments
+from the panel.
+Atlassian Intelligence will generate a summary of general page or doc comments.
+You can copy the summary to your clipboard, update it to include new comments as they’re added, rate the quality of the summary, and provide feedback on the feature.
+Atlassian Intelligence will only generate a summary if there are at least two general comments, and it won’t generate a summary of comments that appear to violate Atlassian’s
+Acceptable Use Policy
 .
-Every Confluence database has the same sets of options. Here's a quick walkthrough.
-Views
-— Create and save views accessible to anyone using the database that defines the data you see, using different layouts, filters, and sorting options.
-Layouts
-— Select the way your database is displayed by picking one of the layouts in the menu:
-Table — Structure your content in a table.
-Card — Display your entries as separate cards.
-Board — Create simple Kanban workflows with columns based on a single field in your Database.
-Filter entries
-— Filters allow you to define specific data display criteria. When defining multiple filters, you can decide whether the entries should be displayed based on matching all or any specified filters.
-Sort by field
-— Define the order of your entries based on a field value. You can sort a field in ascending (arrow up) or descending (arrow down) sequence. Switch between both options by using the arrow next to the field name.
-Hide fields
-— Hide fields from your view by deselecting them in the menu list.
-More
-—
-The More menu contains the following other actions available to the database:
-Undo
-Redo
-Lock structure
-Copy structure
-Import
-Export
-Get help
-Give feedback
-Quick search
-- Use this to find entries in the database quickly.
+For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
+the Atlassian Trust Center
+.
 Was this helpful?
 Yes
 No
@@ -481,12 +480,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
-Get started with Confluence databases
-Database tour
-Create a database
-Database fields
-Share databases, entries, or values
+Atlassian Intelligence features in Confluence Cloud
+Show more
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
 Show more
 Community
 Questions, discussions, and articles

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-a-trio-of-dynamic-frames-to-your-page-with-carousel/
+URL: https://support.atlassian.com/confluence-cloud/docs/troubleshoot-access-problems-to-content/
 
-Add a trio of dynamic frames to your content with Carousel | Confluence Cloud | Atlassian Support
+Troubleshoot access problems to content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,49 +439,99 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to add visuals and images to Confluence pages
+Manage your account and permissions in Confluence Cloud
+Manage permissions at the content level
 Cloud
 Data Center
-Add a trio of dynamic frames to your content with Carousel
-This feature is only offered with
-Confluence Cloud Premium and Enterprise
+Troubleshoot access problems to content
+Confluence offers a few different tools to help you troubleshoot access problems to content, whether you’re trying to figure out why someone can’t access content or why someone
+can
+access it but shouldn’t.
+Unblock someone’s access
+There are a few different reasons why someone wouldn’t have the level of access they should.
+Space permissions vs content permissions
+The first thing to remember is that permissions in Confluence are inherited from the container above. This means that if someone doesn’t have access to a content item, then it could be because of:
+settings on the content item itself,
+settings inherited from one of its parent items,
+and/or settings inherited from the space.
+You may be able to fix access issues, depending on where the access issue is coming from.
+Issue on the content item itself
+— To fix these issues, you need to have edit access to the content and space-level permission to edit content restrictions, or else contact someone who does.
+Issue inherited from a parent item
+— To fix these issues, you need to have edit access to the parent item and space-level permission to edit content restrictions, or else contact someone who does.
+Issue inherited from the space
+— To fix these issues, you need to be a space admin, or else contact one.
+For a list of all space-level permissions and what they control, see
+Assign space permissions
 .
-Carousel allows you to display a rotating, interactive series of three frames on your page or live doc. It is ideal for for showcasing information in a visually appealing way, or presenting a collection of related items.
-Carousel can transform Confluence, Jira, and Atlas links or external URLs into dynamic, clickable frames. You can customize them in a variety of ways.
-To add a carousel to your page or live doc:
-Select (+) from the toolbar, then find
-Carousel
-. Or, type
-/carousel
-while editing your content.
-Upon selection, a carousel of three empty frames will appear on your page or doc.
-To customize and configure your carousel:
-1. Select the frame of the carousel that
-you want to configure, then select
-Edit
-(
-) to open the configuration panel.
-2. Customize your frames using the configuration options available. Frames can be generated from Confluence pages or Jira links, for example, or external URLs.
-Be aware:
-Content displayed in your carousel that comes directly from the links you’ve selected could be visible to anyone with access to your page, even if they don’t have access to the link itself.
-3. Your selections will appear instantly.
-4. Upon publishing your page, anyone with permission to view it will now be able to see your carousel, manually rotate through its frames, and navigate to any links provided.
-Configuration
-You can customize exactly how your carousel appears with the following options:
-Configuration options
-Option
-Description
-Link
-Display content on your frame directly sourced from Confluence, Jira, Atlas, or external URLs.
-Be aware:
-Content displayed in your carousel that comes directly from the links you’ve selected will be visible to anyone with access to your page, even if they don’t have access to the link itself.
-Title
-We highly recommend adding a header title to your frame. Character maximum: 255.
-Description
-Add a caption or other text below the title of your frame. Character maximum: 700.
-Image
-You can add an image to your frame by browsing and selecting from Unsplash, selecting the image we’ve sourced from any link added, or uploading an image directly. We recommend images that are 700 px or wider.
+When someone doesn’t have access
+Confluence will let you know when you try to share with people who won’t actually be able to access the content before you’re finished sharing with them.
+Confluence will also tell you when someone already added to the content doesn’t have the indicated access to the content, but only when a person or a group has been explicitly added to the
+Specific
+access
+list.
+This in-line warning message will only appear when a listed person or group:
+needs space access
+needs view access to a parent item
+needs permission at the space level to edit content in the space
+When the content inherits restrictions from a parent
+Confluence will tell you when content inherits access restrictions from one of its parent items in the content tree.
+To troubleshoot inherited access problems:
+Open the
+Share
+window on the content item you want to give someone access to.
+Select
+this parent
+in the statement “Anyone on
+this parent
+”. This will take you to the immediate parent item causing the access restriction. (There may be other parent items with view restrictions.)
+Open the
+Share
+window on that parent item and see if the person or group has access. If not, add them.
+After adding them, if this parent item doesn’t inherit restrictions from any of
+its
+parents, go back to the original content item and refresh to confirm the access problem has been resolved.
+If this parent item does inherit restrictions from one of its parents, follow the same process until you’ve added the person or group to all restricted parents.
+If you have permission to move content in the space, you can also try moving the child content out from under the restricted parent item where it’s organized in the content tree.
+An easier way to troubleshoot on Premium
+If you’re on the premium plan, you can use the
+inspect permissions feature
+to easily see at which levels of hierarchy someone is being denied access (parent content, space, and/or app).
+You can find this feature in the
+Share
+window, in the More options menu (•••).
+Restrict someone’s access
+If someone can access content they shouldn’t, there are a couple of things to consider.
+First, you can remove access for everyone and individually add back only the people who should have access.
+To remove access for everyone and add back individually:
+Open the
+Share
+window.
+Change
+General access
+from
+Open
+>
+Restricted
+.
+Add individual people or groups back to the access list.
+Select
+Save
+.
+Second, you might need to look for additive permissions.
+Additive permissions and groups
+Confluence operates on a model of additive permissions, which means that if someone has access to content in two or more ways, they always get the greater access.
+For example, let’s say you have a page that is restricted to the group “Marketing team”. Only that group should be able to view and edit the page. This means that
+General access
+is set to “Restricted” and that the group “Marketing team” appears in
+Specific access
+with “Can edit” permission.
+But let’s say that Omar, who is a member of the “Marketing team” group, should
+not
+be able to edit the page, and to accomplish this, someone added Omar explicitly to the page with “Can view” permission.
+This does NOT mean Omar is restricted from editing the page.
+This is because, even though Omar is explicitly listed as “Can view”, he can still edit the page because he has access to the page through another source — as a member of the “Marketing team” group — which has “Can edit” assigned.
+Thus, part of troubleshooting why someone has a certain level of access to content that they shouldn’t have is figuring out all the ways they might have access and determining the greatest access across those sources.
 Was this helpful?
 Yes
 No
@@ -489,18 +542,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add visuals and images to Confluence pages
-Show more
-Insert the iFrame macro
-Insert the roadmap planner macro
-Add a trio of dynamic frames to your content with Carousel
-Display beautiful, dynamic content on your page or live doc with Cards
-Insert the expand macro
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
 On this page
-To add a carousel to your page or live doc:
-To customize and configure your carousel:
-Configuration
-Configuration options
+Unblock someone’s access
+Space permissions vs content permissions
+When someone doesn’t have access
+When the content inherits restrictions from a parent
+Restrict someone’s access
+Additive permissions and groups
 Community
 Questions, discussions, and articles
 Accessibility

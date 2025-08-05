@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-favorite-pages-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/install-a-global-blueprint/
 
-Insert the favorite pages macro | Confluence Cloud | Atlassian Support
+Install a global blueprint | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,40 +439,35 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Confluence administration
+Manage Confluence content templates
 Cloud
 Data Center
-Insert the favorite pages macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-Use the Favorite Pages macro to list the pages you've
-saved for later
-on a Confluence page. You can also get to your saved pages from the Dashboard.
-Use the Favorite Pages macro
-To add the Favorite Pages macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-There are no parameters to edit for this macro.
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-favpages
-Macro body:
-None.
-Parameters:
-None.
-{favpages}
+Install a global blueprint
+Confluence Cloud
+comes with more than 70 templates and blueprints, but you can find more in the
+Atlassian Marketplace
+.
+To install a blueprint from the Atlassian Marketplace on your
+Confluence Cloud
+site:
+In a separate tab, navigate to
+marketplace.atlassian.com
+.
+From the sidebar, select
+Blueprints
+(under
+Categories
+).
+Select the card for the blueprint you’d like to install.
+Select
+Get it Now
+to install the blueprint on your site.* If you're an administrator for more than one Confluence site, you will be prompted to select a site first.
+*Some blueprints may cost money to install. However, you can try before you buy. To start a trial of a paid blueprint, click
+Try it Free
+instead of
+Get it Now
+in Step 4.
 Was this helpful?
 Yes
 No
@@ -480,9 +478,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-On this page
-Use the Favorite Pages macro
-Wiki markup example
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
+Install a global blueprint
+Manage global content templates and blueprints
 Community
 Questions, discussions, and articles
 Accessibility

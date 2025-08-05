@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-home-to-jump-into-work-and-see-whats-happening/
+URL: https://support.atlassian.com/confluence-cloud/docs/discover-relevant-content-with-related-pages/
 
-Use For you to jump into work and see what's happening | Confluence Cloud | Atlassian Support
+Discover relevant content with related content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,30 +440,62 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Navigate around Confluence
+Find content in Confluence Cloud
 Cloud
 Data Center
-Use For you to jump into work and see what's happening
-Whether you need to check on things you’ve worked on recently, keep up with what your teammates are doing, or see what content is popular on your site,
-For you
-lets you see it all.
-For you lets you jump into things in a couple different ways:
-Pick up where you left off
-— See the five items that you interacted with most recently; interactions include visits, edits, and comments.
-Discover what’s happening
-— View the most popular items on your site; popularity is determined by interactions like comments and reactions. You can also follow certain people or spaces to fine-tune the
-Following
-section so that you see a list of activity that’s meaningful to you.
-Popular —
-View trending content in Confluence.
-Announcements
-— See information from your site's administrator. If your administrator hasn't created announcement content, this section won't appear. If you are the admin, you can customize the information from here.
-Calendars
-— Review the calendars and events in your team calendars. This section only appears if the
-Team Calendars for Confluence app
-has been added to your Confluence site.
-What’s new in Confluence
-— Review updates and new releases from the Confluence team.
+Discover relevant content with related content
+Not sure what to read next after finishing a page? Gain context on collaborative work faster and quickly discover relevant articles in a knowledge base with related pages.
+Related content is automatically generated suggestions for further reading, based on pages and live docs that are viewed or are organized together. This linked content can be found at the end of a page, before the comments section, along with the reason why it’s been recommended.
+Requirements
+Related content will only show on pages and live docs that have content—that is, aren’t empty or only include macros.
+Blog posts will not show related pages, but can be included in the suggestions on a page.
+A page has to have been read by multiple people before suggestions start populating.
+You’ll only ever see suggestions for related pages that you have access to.
+Each related content card shows why it has been suggested, either because it is organized together or often read together with the current page. If content is
+Organized together
+, there’s a structural relationship with the current page (for example, a parent page, sibling page, child page).
+Often read together
+recommendations are determined by behavioral patterns—in other words, people who have read the current page often have also read the recommended content.
+Space admins control whether related pages are on to begin with, as well as the default behavior (if pages should start off being shown or hidden). If they turn related pages on for a space, anyone with edit permissions for a particular page can choose to show or hide page recommendations for it.
+To change related pages settings as a space admin:
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+General
+menu
+You can toggle the feature on or off.
+Remember, if turned off, related content will not generate for any page in the space.
+Select the default behavior,
+Hidden on each page or live doc
+or
+Shown on each page or live doc
+.
+If hidden, suggestions will not automatically show, but can be turned on for individual pages by anyone with permission to edit.
+If shown, suggestions will automatically show (when available), but can be turned off for individual content items by anyone with permission to edit.
+When related content is on for a space, you can still control if it appears on a content item, as long as you have permission to edit it.
+When you show or hide suggestions , you show or hide them for everyone. You can always hide or show them again later if you change your mind.
+To show related pages for an individual doc:
+When viewing the page, select
+More actions
+(
+)
+, then
+Advanced details > Show related pages
+.
+Suggestions might not be available immediately for every page, so check back later if nothing shows up.
+To hide related pages for an individual page:
+Select
+(
+)
+above the related pages, then
+Hide for everyone…
+Confirm you want to
+Hide for everyone
+You can also hide related pages through the More actions menu (
+) the way you can show them.
 Was this helpful?
 Yes
 No
@@ -471,11 +506,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Navigate around Confluence
-What is the new navigation in Confluence?
-Use For you to jump into work and see what's happening
-Confluence navigation
-View written content
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-data-from-html-to-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/view-insights-on-your-site/
 
-Import data from HTML to Confluence | Confluence Cloud | Atlassian Support
+View insights on your site | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,58 +439,116 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Import data from other tools into Confluence
+Collaborate on content and get notified in Confluence Cloud
+View Confluence analytics to see how content is performing
 Cloud
 Data Center
-Import data from HTML to Confluence
-You can import your content from HTML into Confluence spaces with our new importing tool. This guide outlines the process of importing your content from HTML. Additionally, you can find detailed information on
-what content gets transferred
-and how it will look in Confluence.
-You must have create space permission in Confluence to initiate the import process. Confluence site admins control space creation permissions.
-Upload HTML content
-To import content from HTML, verify that you first have permission to create a space. To select the content you want to import from HTML:
-In Confluence, select
+View insights on your site
+Get an overview of the usage of your site, then view insights on your spaces, users, and searches.
+To access site analytics:
+Select the
+Apps
+menu in the
+sidebar
+.
+Select
+Analytics
+.
+The Overview tab shows analytics data for your site as a whole.
+Use the shortcuts at the top to select the date range (seven days, one month, three months, year-to-date, or custom) for your data. You can also decide how you want to group the data, whether to display it by total number of users or unique users.
+Hover over points on the chart to view a summary of data for a specific date.
+The cards below the chart show top rankings for a key insight found in each of the
 Spaces
-from the top navigation, then
-Import from other tools
+,
+Users
+, and
+Searches
+tabs:
+Popular spaces
+– The spaces with the most views for the chosen date range
+Most active readers
+– The users who have viewed content on your site the most number of times in the chosen date range
+Trending searches
+– The terms users most often searched for in the chosen date range
+Selecting
+View all
+takes you to the full list of rankings in each tab.
+View insights on your site's spaces
+From the
+Spaces
+tab of site analytics, you can view the following insights:
+Name
+- The name of the space
+Views
+- The total number of times pages in the space have been viewed within the selected date range
+Users Viewed
+- The total number of users that have viewed content in the space within the selected date range
+Last Viewed
+- The last time any content in the space was viewed
+Updated
+- The total number of times content in the space have been edited within the selected date range
+Created
+- The number of content items that have been created in the space within the selected date range
+Space analytics
+can also be accessed from a space’s
+sidebar
 .
+Export reports on spaces
+You can export a Microsoft Excel report of analytics for the spaces on your site.
 Select
-HTML
-.
-Upload your HTML Zipfile.
+Export as CSV
+on the top right of the
+Spaces
+tab. The file, with data separated by commas, will download automatically.
+View insights on your site's users
+From the
+Users
+tab of site analytics, you can view the following insights:
+Name
+- The name of the user
+Created
+- The number of content items created by a specific user within the selected date range
+Updated
+- The total number of times a specific user has edited content within the selected date range
+Comments
+- The total number of times a specific user has commented on content within the selected the date range
+Search
+- The total number of times a specific user has performed a search within the selected date range
+Views
+- The total number of times a user has viewed content within the selected date range
+Export reports on users
+You can export a Microsoft Excel report of analytics for the users on your site.
 Select
-Next
-.
-Your file will be uploaded in the background. Want to know more about how your content will look?
-Check out our FAQ
-.
-Set up space
-To configure your new space:
-Enter a name for the new space in Confluence.
-Select the restrictions to apply to the new space:
-Default space permissions
-- apply your organization’s default restrictions.
-Note:
-If your organization uses open permissions by default, private content may be exposed. If you’re unsure, use
-Restricted to you
-and then update the restrictions after the import.
-Only visible to me
-- only you will be able to view and access the content.
-Note:
-because only you will be able to access the content, all pages and comments will be labeled as created by you (the importing user).
-Select
-Next
-.
-Review the notification email
-You’ll have a chance to review everything before you start the import process. Make sure everything looks correct. Select a step to edit anything that doesn’t look correct.
-After the upload is complete, select
-Start import
-. This process can take a while. Depending on the complexity, bandwidth, size of the transfer, and other factors, it can take a few hours or more to finish. You will receive a notification email when the import is complete.
-This process can take a while. Depending on the complexity, bandwidth, size of the transfer, and other factors, it can take a few hours or more to finish.
-Congratulations! You’ll receive a notification email confirming the transfer is complete. You successfully imported your HTML content and can get started right away. If you encounter any errors or failure notifications in the email, read our
-troubleshooting
-article for common fixes.
+Export as CSV
+on the top right of the
+Users
+tab. The file, with data separated by commas, will download automatically.
+View insights on searches in your site
+From the
+Searches
+tab of site analytics, you can view the following insights on terms users are searching for:
+Search term
+- The term users have searched for
+Searches
+- The total number of searches for the search term within the selected date range
+Users searched
+-
+The number of unique users that have searched for the search term within the selected date range
+Click-through rate
+- The percentage of times users have clicked through to content from results after searching on the term within the selected date range
+Select a row to view additional insights for a specific search term:
+Searches
+– Charts how many times users searched for this term in the chosen date range
+Click-through rate
+– Charts how many times users selected a search result in the chosen date range
+Most-clicked content
+– The content from the search results that users most often selected, in the chosen date range
+Most-clicked spaces
+– The spaces from the search results that users most often selected, in the chosen date range
+The counts displayed in the main table may differ slightly from those shown after clicking on a row because our search insights are based on large-scale approximations. For more accurate counts in these cases, refer to the additional insights panel.
+Keep in mind that you’ll only see spaces and content that you have
+permission
+to view.
 Was this helpful?
 Yes
 No
@@ -498,17 +559,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Import data from other tools into Confluence
-FAQ import data from HTML to Confluence
-FAQ import data from Notion to Confluence
-Import data from HTML to Confluence
-Import data from Notion into Confluence
-Import multiple Miro boards to Confluence
-Show more
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
 On this page
-Upload HTML content
-Set up space
-Review the notification email
+View insights on your site's spaces
+Export reports on spaces
+View insights on your site's users
+Export reports on users
+View insights on searches in your site
 Community
 Questions, discussions, and articles
 Accessibility

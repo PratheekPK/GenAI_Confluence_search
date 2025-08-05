@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/link-jira-issues-from-your-whiteboard/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-the-site-homepage/
 
-Link Jira issues from your whiteboard | Confluence Cloud | Atlassian Support
+Change the landing page | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,68 +439,65 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
-Link Jira issues from your whiteboard
-Whiteboards aren’t available in
-Atlassian Government environments
+Change the landing page
+Confluence Cloud
+has a default homepage and sidebar, where you can see activity, resume your work, access the space directory, and more. Alternatively, you can choose to set the overview page of a
+Confluence Cloud
+space as the homepage for your users.
+This can be useful if most people will be reading, rather than creating, content in your instance. However, if you want to encourage teams to collaborate, the default homepage and sidebar provide the best tools for resuming work in progress and keeping up with what's happening across Confluence.
+To change your Confluence homepage to a space’s overview:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+General configuration
 .
-Adding connector lines between Jira issues on the whiteboard helps you visualize the relationships, hierarchies, and dependencies between different pieces of work. These lines can then be turned into issue links in Jira. Any link between two Jira issues created in a whiteboard will update the “Linked issues” field in Jira.
-Whiteboards only support linking issues from Jira Cloud sites.
-Link Jira issues from your whiteboard
-Add Jira issues to your whiteboard. You can do this by:
-importing Jira issues
-copy and paste the link to a Jira issue
-turning sticky notes into single or multiple Jira issues
-Connect the Jira issues
-with a line
+Select a space from the
+Confluence landing page
+dropdown menu. When users log in or click the site logo,
+Confluence Cloud
+will go to the overview page of the space you choose.
+Select
+Save configuration changes
 .
-Select the line.
-Select the
-Link issues
-button on the floating toolbar.
-From the menu that appears, choose the type of link (for example, "blocked by").
-To change the direction of the link, select the
-Reverse
-icon that appears to the right of the menu.
+Note about permissions
+Before changing the homepage, you should check that the default "confluence-users" or "users" groups have permissions to view the space, and that the overview page itself isn't restricted to particular people or groups.
+If your instance is public, you'll also need to make sure anonymous users have permissions to view the space, otherwise they'll be directed to the default
+Confluence Cloud
+homepage instead.
+Add a default homepage link to the app switcher
+If you choose to set a space’s overview page as your homepage but would also like users to be able to access the default home and sidebar, you can add a link to the application switcher.
+To add the default home and sidebar to the application navigator:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
 Select
-Link.
-The line now has a label that shows the link you created in Jira.
-Edit links in Jira from your whiteboard
-You can edit the links you’ve created from the whiteboard (for example, changing "blocks" to “depends on”). Editing links from the whiteboard will update the link in Jira.
-To edit a link:
-Select the line between the two Jira issues.
-Select the
-Edit link
-button from the floating toolbar.
-From the menu that appears, change the type of link.
-To change the direction of the link, select the
-Reverse
-icon that appears to the right of the menu.
+from the top left, then select
+Manage list
+.
+Enter the
+Name
+for your link (for example, "Dashboard").
+Enter the
+URL
+for your instance’s default home (for example,
+https://yoursite.atlassian.net/wiki/dashboard.action
+)
 Select
-Update.
-The line label now shows the link you updated in Jira.
-Remove links in Jira from your whiteboard
-You can remove links between Jira issues by
-unlinking
-them. Unlinking issues from the whiteboard will also remove the link in Jira.
-To remove a link:
-Select the line between the two Jira issues.
-Select the
-Edit link
-button from the floating toolbar.
-Select the
-Unlink
-icon that appears to the right of the menu.
-Select
-Unlink.
-The line label is now removed, and the link has been removed in Jira.
-You can also remove links from inside Jira. Links removed from inside Jira will also be removed from the whiteboard.
-Learn more about removing links from Jira.
-Deleting and disconnecting lines
-Deleting or disconnecting a line doesn’t remove links between issues in Jira.
+Add
+.
+A link to the default homepage will now appear in the application navigator.
 Was this helpful?
 Yes
 No
@@ -508,19 +508,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
 Show more
-Hide collaborator cursors
-Integrate whiteboards into your Atlassian workflow
-Link Jira issues from your whiteboard
-Take bulk Jira actions with smart sections
-Set your whiteboard preferences
-Show more
-On this page
-Link Jira issues from your whiteboard
-Edit links in Jira from your whiteboard
-Remove links in Jira from your whiteboard
-Deleting and disconnecting lines
 Community
 Questions, discussions, and articles
 Accessibility

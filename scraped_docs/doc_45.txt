@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/change-your-theme/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-section-macro/
 
-Change your theme | Confluence Cloud | Atlassian Support
+Insert the section macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,27 +439,47 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage your account
+Create and organize work in Confluence Cloud
+Review macros only available in the legacy editor
 Cloud
 Data Center
-Change your theme
-You can set a theme to change how Confluence looks.
-To change your theme:
-Select your profile avatar at the right of the navigation bar, then select
-Theme
+Insert the section macro
+In June 2025, Atlassian announced the upcoming
+deprecation of the legacy editor
+as well as
+information about converting
+to the cloud editor.
+Before the deprecation begins in January 2026, this macro will still work. See our
+article on legacy editor macros
+for more.
+Used with the Column macro to define columns on a page. See
+Format a Confluence Page
 .
-Select one of the theme options:
-Light:
-Sets Confluence to display in lighter colors. This is the default theme.
-Dark:
-Sets Confluence to display in darker colors.
-Match Browser:
-This will match the theme you set in your browser. If you don’t have this set, you will see the default theme.
-The theme you select will be saved to your account, so your choice will apply even if you use Confluence on another device.
-Themes change your current view of Confluence and don’t impact how a reader sees your page.
-Admin-driven themes
-If you switch to Dark theme and your top navigation bar doesn’t look right, your admin may have set custom colors that don’t work well with Dark theme. Contact your admin to update the colors.
+Parameters
+Parameter name
+Required
+Default
+Parameter description and accepted values
+border
+No
+False
+If the value is
+true
+, the columns in this section will have a dashed border.
+Wiki markup example
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Macro name:
+section
+Macro body:
+Rich text, consisting of one or more Column macros.
+{section:border=true}
+{column:width=100px}
+This is the content of *column 1*.
+{column}
+{column}
+This is the content of *column 2*.
+{column}
+{section}
 Was this helpful?
 Yes
 No
@@ -467,13 +490,9 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage your account
-Show more
-Change your Confluence password
-Manage OAuth access tokens
-Delete your account
-Change your theme
-Set your email visibility
+On this page
+Parameters
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-a-database/
+URL: https://support.atlassian.com/confluence-cloud/docs/inspect-a-users-permissions/
 
-Create a database | Confluence Cloud | Atlassian Support
+Inspect a user's permissions | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,55 +439,76 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Confluence administration
+Premium admin tools for Confluence Cloud
 Cloud
 Data Center
-Create a database
-Databases aren’t available in the
-Atlassian Government environment
+Inspect a user's permissions
+This feature is offered with
+Confluence Cloud Premium
 .
-Create a database
-There are three ways to create a database in Confluence:
-the
-Create
-button in the main navigation
-the
-+
-button next to the Content section or a parent item in the space
-sidebar
-by using the
-+
-insert menu or
-/
-command when editing a page
-Create a database using the Create button
-Select the
-Create
-button in the navigation.
-Select
-Database
+If you’re not sure why a user doesn’t have (or has) permission to view, edit, or comment on a piece of content, you can inspect their permissions from that content. You’ll get a report showing at which level of the content, space, and product hierarchy they’re being denied (or allowed) permissions. For example, the item may allow the user permissions to view and edit it, but the space denies them edit permissions. The report helps you pinpoint where you need to adjust the user’s permissions.
+Learn about
+permissions and restrictions
+in Confluence.
+Permissions you can inspect
+You can inspect the following permissions for a user:
+Can view
+Can view and edit
+Can view and comment
+How to inspect a user’s permissions
+You can inspect permissions on any content you're viewing.
+Browse to the content you want to inspect permissions on.
+Click the restrictions (lock) icon at the top of the page. The
+Restrictions
+dialog
+appears.
+Click the
+Inspect permission
+s link.
+Type the name of the user whose permissions you want to view.
+Choose the permission you want to inspect:
+Can view
+,
+Can view and edit
+, or
+Can view and comment
 .
-This will create a new blank database in your current space. If you don't have edit permissions in that space, it will default to your personal space.
-Create a database in the content tree
-Select the
-+
-button next to the Content section in the space
-sidebar
+A report appears and shows whether the user has the permission at each level of the content, space, and product hierarchy.
+How to read the report
+When you inspect the permissions on a piece of content, you'll get a report that looks like this:
+The report displays one of the following results for each level of the content, space, and product hierarchy:
+Allowed
+: The user is allowed the permission at this level
+Denied
+: The user is denied the permission at this level
+Inherited
+: (
+Appears for pages and live docs only
+) The content inherits a restriction from a parent or the space. Check its parent items and space to see if they deny the user the permission.
+Irrelevant
+: (
+Appears for pages and live docs only
+) The content has a restriction denying the permission, but it’s not relevant to the content you’re inspecting. You can ignore these rows.
+To further investigate the issue:
+Click a row to expand it, view more information, or take one of the following actions:
+Click the
+View page
+,
+View space permissions
+, or
+View global permissions
+link (depending on which level you’re at). From there, you can troubleshoot the issue.
+Click the
+Contact content owner
+,
+Contact space admins
+, or
+Contact Confluence admins
+link (again, depending on the level you’re at) and send them an email asking for help.
+When you’re finished viewing the report, click
+OK
 .
-Select
-Database
-to create a database in the current space.
-You can also create a database under an item in the content tree using the
-+
-button. The button appears when hovering over the content's title in the sidebar.
-Create a database from within a page
-Database setup
-Once you have created a new database, you will be guided through some options for the initial setup. During the setup, you have the option to do one of the following:
-Connect to a Jira instance and insert issues into the database.
-Use a template to help you get started.
-Import data from a CSV file.
-You can start with a blank database and create a custom structure to suit your needs.
 Was this helpful?
 Yes
 No
@@ -495,19 +519,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
-Get started with Confluence databases
-Database tour
-Create a database
-Database fields
-Share databases, entries, or values
-Show more
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
 On this page
-Create a database
-Create a database using the Create button
-Create a database in the content tree
-Create a database from within a page
-Database setup
+Permissions you can inspect
+How to inspect a user’s permissions
+How to read the report
 Community
 Questions, discussions, and articles
 Accessibility

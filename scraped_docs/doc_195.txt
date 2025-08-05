@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/transfer-ownership-of-your-content-item/
+URL: https://support.atlassian.com/confluence-cloud/docs/archive-pages/
 
-Transfer ownership of your content item | Confluence Cloud | Atlassian Support
+Archive content items | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,34 +440,227 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit content
+Keep content organized
 Cloud
 Data Center
-Transfer ownership of your content item
-When you create a page, live doc, whiteboard, database, or Smart Link in the content tree in Confluence, you’re known as both the creator and, by default, the owner of that content.
-At any time, you can choose to transfer ownership of your content item to another user. This can be helpful for indicating who should be the “point person” responsible for the content going forward.
-It’s not currently possible to transfer ownership of
-space overview pages
-or blogs.
-You can’t change the owner of a content item while using the Confluence mobile app.
-To transfer ownership to someone else, select the content owner avatar and name from the area below the title. Then, select the
-Change owner
-button to the right of the content owner’s name.
-You can also open the
-Details
-panel
-from the floating action bar at the bottom right of your screen.
-To the right of the content owner’s name, select the “
-Change owner
-” button.
-Next, use the search field to find a new owner by name or email. The new owner must have access to the space and edit access to the item for you to be able to make them the owner.
-Once you’ve chosen the correct person, select
-Change owner
-to confirm the transfer.
-After changing ownership to someone else, you still retain edit access, but won’t be able to change the owner back to yourself (unless you’re also an admin).
-Confluence space and product admins can also
-transfer ownership of your content
-, if needed.
+Archive content items
+Archiving a page or other item lets you take an outdated or no-longer-relevant piece of content and store it away from your daily workspace. When you archive an item, you not only remove it from the content tree, you also remove it from quick search. This offers several benefits:
+Makes it easier for you and your team to find what’s relevant to your current work
+Reassures people who rely on your content that it’s accurate and up-to-date
+Keeps your content tree neat and presentable
+What happens when an item is archived
+Archiving an item removes it from your content tree and stores it in the archive. It does not fully delete your content, it just changes access to the item, as described:
+Archived content is excluded from quick search and analytics to keep those functions focused and relevant. However, there's an option to include archived content in an advanced search.
+Links to archived items will still work. These links will have an “Archived” lozenge next to it, letting users know it’s a link to an archived item.
+Archiving an item disables certain actions, some of which include editing, commenting, and liking the item. This is designed to preserve the state of items at the time they’re archived. To get this functionality back, simply
+restore the items from the archive
+.
+Find archived items
+To navigate to your space’s archive, select
+Space settings
+in your space side navigation and then
+Archived
+from under “Content.”
+Anyone with space access can view the space’s archived content. Restrictions still apply, which means that anyone who doesn’t have permission to view an archived item will neither see it in the archived content list, nor be able to access it through a direct link.
+Each space has its own archive; there is no site-level archive for items. When you archive an item in a particular space, it goes to that space’s archive. Likewise, restored items return to that space’s content tree. From there, you can move them to another space.
+Archive an item
+Before archiving an item, be sure to check if it has inherited permissions. If it does, then the item is relying on one of its parent items to control who can view and you might be exposing it to a wider audience by archiving it. To avoid this, set view restrictions on the item that you’re archiving.
+To archive an item:
+Navigate to the top of the item you want to archive
+Select
+More actions
+(•••)
+Select
+Archive
+(optional) Add a note to document why this item was archived.
+Select Archive.
+You’ll get an email notification if someone else archives an item you created.
+Alternatively:
+Find the item in the content tree and hover over the title
+Select
+More actions
+(•••)
+Select
+Archive
+(optional) Add a note to document why this item was archived.
+Select Archive.
+Archive an item with all of its nested items
+When archiving an item, you’ll have the option to include any nested items the selected parent item may have—all in one archiving action. This offers you the ability to archive entire branches of your content tree at once.
+Keep in mind that nested archiving is an all or nothing action. You can choose to archive all the nested items (that you have permission to archive), or none of them; there’s no middle ground. If you’d like to keep any of the selected item’s nested items in the content tree, consider moving them so they’re not nested under it anymore.
+Any nested item you don’t have permission to archive (or view) will remain in the content tree and move up according to the new hierarchy (assuming you choose to continue with the nested archive action).
+Watch out for inherited permissions on nested items.
+Any nested items “left behind” in the content tree as a result of a nested archive action will have a new parent item. If any items that are left behind don’t have view restrictions set on them, you could be exposing content to a wider audience than intended.
+All items archived together will maintain their hierarchy in the archived content list, to preserve the context in which they were organized in the content tree.
+Bulk actions (premium)
+Space admins with Confluence Premium or Enterprise can bulk archive or bulk delete content.
+To ensure Confluence performs at its highest levels, we capped the number of items you can archive in a single attempt at 500 items. Deleting is capped at 100 items.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Content manager
+from the
+sidebar
+.
+Select the boxes next to the items you want to archive or delete. Selecting a page or live doc will select it and all of its nested items. To deselect individual nested items, simply uncheck the boxes.
+When ready,
+Archive
+or
+Delete
+.
+Adding and editing notes on archived items
+A note is a message that explains why an item was archived. There are two methods to add or modify a note on an archived item:
+directly from the archived item itself or
+from the space’s list of
+Archived
+content
+If you did not include a note when you first archived an item, you have the option to include or edit one at a later time. Only the person who archived an item can add or modify its note.
+Add note from the archived item
+When you view an archived item, a banner message will appear at the top identifying it as archived. If you were the one who archived the content, you will also have links in the banner to either add or edit a note.
+Select
+Add a note
+or
+Edit note
+.
+Enter text explaining why the item was archived.
+Select
+Add
+or
+Update
+to save your note.
+Add note from the space’s archived content list
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Content
+menu and select
+Archived
+.
+Find the item you want in the list of archived items.
+Select
+More actions (•••)
+Select
+Add note
+or
+Edit note
+.
+Enter text explaining why the item was archived.
+Select
+Add
+or
+Update
+to save your note.
+When a note is added, it will appear in the banner at the top of the item and in the Note column within the archived content list for all team members to view.
+Who can archive an item
+There are two archiving permissions:
+permission to archive any item in a space
+permission to archive only your own items
+Give user permission to archive any item in a space
+The Archive space permission grants the ability to archive any item in the space. This also covers restoring items back to the content tree. Any item you can archive, you can restore too.
+Even with the space-level archive permission, you can’t archive an item you don’t have permission to view.
+Only space admins can assign archiving permissions.
+To assign the space-level archive permission:
+Go to the space in
+Confluence Cloud
+.
+Select
+Space settings
+from the sidebar.
+Open the
+Space access
+menu.
+Under the
+Groups
+or
+Users
+menu item, select
+Edit.
+Click into the search field at the bottom of either section and search for the user or group.
+Select
+Add.
+Make sure to check the box for
+Archive
+under the
+Pages…etc
+column.
+Select
+Save all
+at the bottom of the page.
+All users inherently have the permission to archive any item they themselves created. As long as they have the permission to view items in the space, they can archive their own items.
+Limited actions available on an archived item
+To preserve the state of items at the time they are archived, some actions will be disabled. If you want to take a disabled action on an archived item, first restore it to the content tree.
+If the item permissions allow the following actions, they are available to someone when viewing an archived item.
+Action
+Available for archived pages
+View
+YES
+View comments (inline and general)
+YES
+Watch/Unwatch
+YES
+Star/Unstar
+YES
+Add/Remove labels
+YES
+Delete
+YES
+View restrictions
+YES
+Edit restrictions
+YES
+View attachments
+YES
+View history
+YES
+Analytics
+YES
+Content information
+YES
+View resolved comments
+YES
+Link to this item
+YES
+View source
+YES
+Import Word document
+YES
+Export to PDF
+YES
+Export to Word
+YES
+Tasks
+YES
+Slack notifications
+YES
+Restore
+YES
+Edit
+NO
+Move
+NO
+Duplicate
+NO
+Like content
+NO
+Share
+NO
+Add/Edit/Reply to comments (inline and general)
+NO
+Like comments (inline and general)
+NO
+Resolve/Delete comments (inline and general)
+NO
+View item in hierarchy
+NO
+Compare versions and revert
+NO
+Add/Edit/ Delete attachments
+NO
 Was this helpful?
 Yes
 No
@@ -475,14 +671,26 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Keep content organized
 Show more
-Insert and manage links on your pages and live docs
-Add elements to a page or live doc
-Transfer ownership of your content item
-Add a status to your content
-Make your content and its title more memorable
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
 Show more
+On this page
+What happens when an item is archived
+Find archived items
+Archive an item
+Archive an item with all of its nested items
+Bulk actions (premium)
+Adding and editing notes on archived items
+Add note from the archived item
+Add note from the space’s archived content list
+Who can archive an item
+Give user permission to archive any item in a space
+Limited actions available on an archived item
 Community
 Questions, discussions, and articles
 Accessibility

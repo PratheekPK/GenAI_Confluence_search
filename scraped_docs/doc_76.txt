@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/browser-support-and-settings-for-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-favorite-pages-macro/
 
-Browser support and settings for whiteboards | Confluence Cloud | Atlassian Support
+Insert the favorite pages macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,108 +440,39 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Review macros only available in the legacy editor
 Cloud
 Data Center
-Browser support and settings for whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-What platforms/browsers support Confluence whiteboards?
-Today, Confluence whiteboards are supported on the following browsers:
-Chrome
-Firefox
-Microsoft Edge
-Safari
-Please update your browser to the latest version to prevent performance issues.
-We support viewing Confluence whiteboards through web browsers on mobile devices.
-Whiteboards are not yet supported on Confluence’s native mobile app.
-Browser settings
-Hardware acceleration
-You must enable hardware acceleration to use Confluence whiteboards.
-To support the rendering of many elements on whiteboards, the whiteboard application uses hardware acceleration to use high-performance rendering capabilities inside modern browsers.
-To enable hardware acceleration:
-For Chrome
-These instructions are for Chrome version 121.0.6167.85. See
-Chrome support documentation
-for more information.
-Launch Chrome
-Navigate to the
-Settings
-page (select the three dots icon in the top-right corner of your browser)
-Select the
-System
-tab
-Toggle ‘
-Use hardware acceleration when available
-’ on
-For Firefox
-These instructions are for Firefox version 122. See
-Firefox support documentation
-for more information.
-Launch Firefox
-Navigate to the
-Settings
-page (select the three lines icon in the top-right corner of your browser)
-In the
-General
-tab, scroll to the
-Performance
-section
-Uncheck ‘
-Use recommended performance settings
-’
-Check ‘
-Use hardware acceleration when available
-’
-For Microsoft Edge
-These instructions are for Microsoft Edge version 121.0.2277.98. See
-Microsoft Edge support documentation
-for more information.
-Launch Microsoft Edge
-Navigate to the
-Settings
-page (select the three dots icon in the top-right corner of your browser)
-Select the
-System and Performance
-tab
-Toggle ‘
-Use hardware acceleration when available
-’ on
-WebGL
-You must have WebGL installed and enabled to use Confluence whiteboards.
-WebGL is a capability available in all modern browsers which enables high-performance rendering.
-To check if your browser supports WebGL - follow
-this
-link and the steps provided.
-Advanced rendering might not be available due to your company's security policies. If this is the case, please contact your IT team for assistance.
-For Chrome & Microsoft Edge
-Chrome & Microsoft Edge browsers fully support WebGL.
-Ensure your browser is updated to the most recent version & ensure hardware acceleration is enabled to prevent any issues.
-For Firefox
-Navigate to about:config
-Search for
-webgl.force-enabled
-and toggle this preference to true
-Search for
-webgl.disabled
-and toggle this preference to false
-Restart your Firefox browser to apply these new settings
-Troubleshooting issues
-Error screens
-If you see the “Update your display driver” error, hardware acceleration will likely be disabled. To fix this, follow the steps above.
-If you consistently see “Looks like you’re offline. We’ll sync any offline changes when you’re back.” You may need to contact your IT team to whitelist
-*.atlassian.com
-or ensure
-http://canvas-workers.atlassian.com/
-is on your allowlist and that web-sockets protocols are allowed. To check your compatibility with the whiteboards editor, use our
-compatibility check tool
-.
-Slow performance
-If your application is slow - it is likely WebGL is not enabled & installed or hardware acceleration has been turned off.
-If you need help, contact support
-here
-.
+Insert the favorite pages macro
+In June 2025, Atlassian announced the upcoming
+deprecation of the legacy editor
+as well as
+information about converting
+to the cloud editor.
+Before the deprecation begins in January 2026, this macro will still work. See our
+article on legacy editor macros
+for more.
+Use the Favorite Pages macro to list the pages you've
+saved for later
+on a Confluence page. You can also get to your saved pages from the Dashboard.
+Use the Favorite Pages macro
+To add the Favorite Pages macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+There are no parameters to edit for this macro.
+Wiki markup example
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Macro name:
+favpages
+Macro body:
+None.
+Parameters:
+None.
+{favpages}
 Was this helpful?
 Yes
 No
@@ -549,22 +483,9 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Show more
-Whiteboards impact on third-party apps
-Understand Confluence whiteboards plans and features
-Browser support and settings for whiteboards
-Atlassian Intelligence in Confluence whiteboards
-Draw freeform lines with pen
-Show more
 On this page
-What platforms/browsers support Confluence whiteboards?
-Browser settings
-Hardware acceleration
-WebGL
-For Chrome & Microsoft Edge
-For Firefox
-Troubleshooting issues
+Use the Favorite Pages macro
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

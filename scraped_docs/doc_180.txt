@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/how-to-use-the-new-toolbar-and-insert-elements/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-live-docs-in-confluence/
 
-How to use the new toolbar and insert elements | Confluence Cloud | Atlassian Support
+Configure live docs in Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,87 +439,63 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
-How to use the new toolbar and insert elements
-You can choose where your formatting toolbar appears:
-Pinned at the top, or
-Unpinned, appearing in-line when you select text.
-The default setting is pinned for Pages and unpinned for
-Live Docs
+Configure live docs in Confluence
+What are live docs?
+Live docs
+offer a dynamic, efficient, and collaborative way to create and share written content in Confluence.
+With live docs, you can create frictionless content that can be edited and collaborated on instantly. Any changes made to your live doc are automatically saved and reflected to all viewers in real time.
+How do I turn live docs on or off for my space?
+Live docs can be turned
+on
+or
+off
+in any given space by admins.
+To turn live docs
+on
+in any space, so that anyone in the space can create them, admins can select
+Space settings
+from the
+More actions
+(
+…
+) menu of any space.
+Then, select
+Features
+from the
+General
+menu. A menu of feature toggles will appear.
+Under
+Content
+, toggle
+Live docs
+on
+in order to allow users in the space to create them.
+Live docs are distinct from pages, and existing pages in the space will not be affected.
+This toggle can be turned off anytime. Live docs that were created while the toggle was on
+will remain as is
 .
-If you change this, your preference will be saved for both content types.
-We're iterating the toolbar and formatting experience with features subject to change.
-Your previous browser tabs may show an earlier experience. Refresh your page to receive the latest available experience for your account.
-This page outlines updates in the latest release. It may take a few months to land in your site, or to be accurately reflected across our documentation.
-How to manage changes for your organization
-How to manage Atlassian experiments
-What to expect
-Select the pin or unpinned icon to the right of the toolbar
-Access
-Undo
-,
-Redo
-, and
-Find and replace
-next to the top-right
-Share
-button, via the
-...
-menu.
-Improved access elements like tables, media, and the date by clicking the + button when you hover on any content block, or type
-/
-anywhere.
-Share your feedback with our team
-Send us feedback about these changes via in-product help.
-Select the
-icon at the bottom left of your content.
-Select
-Editor
-as the component in the feedback modal.
-Submit your feedback, providing as much detail as possible.
-Pin or unpin your toolbar
-Select the pin icon from the toolbar menu to pin or unpin your toolbar.
-For both toolbar experiences your preference saves in Confluence.
-If you use multiple Confluence sites, you’ll need to choose your toolbar preference for each one.
-Your teammates can choose their own preferences which will save for them.
-Pinned top toolbar
-Fixed at the top is how the toolbar has traditionally appeared in Confluence. When you fix your toolbar at the top, more elements such as media, tables, and emojis will appear.
-In-line toolbar, appears when you select text
-For a more minimalist feel you can let it appear in-line when you select text. The in-line toolbar lets the formatting tools come to you, rather than having to scroll or move to the top of the page.
-To select text:
-Drag your cursor over words
-Select the
-drag and drop handle. This will highlight text within a content block.
-Use keyboard shortcuts:
-Mac
-Command + Shift + Left/Right arrow
-Windows
-Ctrl + Shift + Left/Right arrow
-The unpinned toolbar aims to reduce visual clutter for customers who prefer to search for and insert elements with the keyboard
-/
-command.
-Insert elements: tables, the date, and more
-Elements include tables, layouts, media, checkboxes and more.
-Search for or insert elements by:
-Typing the forward slash key “/” anywhere on the page
-Selecting the + button that appears when you’re hovering over a content block
-Start typing to search for what you’re looking for.
-When you select
-...View more
-in the + or / menu, the element browser will pop-up. You can browse all elements and macros such as tables, charts, the date, and more.
-How to insert elements into a page
-Keyboard shortcuts
-While editing you can access keyboard shortcuts via the
-button on the bottom-left of your content. To open this modal with a keyboard shortcut, use:
-Mac
-Command + /
-Windows
-Ctrl + /
-More shortcut resources
-Keyboard shortcuts and autocomplete
-Confluence magic shortcuts in Community
+Creating a brand new space and toggling the
+Live docs
+feature on will also provide default access to live docs.
+Note
+: With the new content layout enabled, Marketplace app buttons in the header of pages and live docs will not be supported. Impacted apps are in the process of being supported in other locations. To learn more, visit this
+status page
+.
+Bulk conversion
+Admins can convert pages to live docs in bulk via
+Content manager
+in
+Space settings
+.
+Select all pages you want to convert to live docs from the
+Title
+column, then select
+Convert to live doc
+from the floating toolbar. Once you confirm that you’re ready to convert all items, you should see a success message that the conversion is complete.
 Was this helpful?
 Yes
 No
@@ -527,21 +506,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and organize work in Confluence Cloud
+Set Confluence-wide functionality
 Show more
-Export content from Confluence Cloud
-Get to know the new and simplified content layout
-How to use the new toolbar and insert elements
-Import data from other tools into Confluence
-Review macros only available in the legacy editor
-Show more
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
 On this page
-What to expect
-Pin or unpin your toolbar
-Pinned top toolbar
-In-line toolbar, appears when you select text
-Insert elements: tables, the date, and more
-Keyboard shortcuts
+What are live docs?
+How do I turn live docs on or off for my space?
+Bulk conversion
 Community
 Questions, discussions, and articles
 Accessibility

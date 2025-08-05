@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/assign-space-permissions/
+URL: https://support.atlassian.com/confluence-cloud/docs/edit-your-user-settings/
 
-Assign space permissions | Confluence Cloud | Atlassian Support
+Edit your user settings | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,273 +439,52 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Manage permissions at the space level
+Manage your account and permissions in Confluence Cloud
+Manage your account
 Cloud
 Data Center
-Assign space permissions
-If you’re a space admin for a space, you can assign or revoke a number of permissions for that space, such as who can see content in the space, and what they can do with it. Space permissions can be assigned or revoked for both individual users and
-groups
+Edit your user settings
+Tailor Confluence to fit your needs with personalized settings and preferences, including your:
+Display language, time zone, and other general preferences
+Editor settings, such as autocomplete and autoformatting
+Email notification settings
+OAuth access tokens
+This page tells you how to edit your general preferences and editor settings.
+Edit your general preferences
+To edit your general preferences:
+Tap your profile picture at the right of the navigation, then select
+Personal Settings
 .
-Whatever you choose to assign or revoke is applied broadly to all content in the space. Finer controls can be applied
-at the page level
-.
-You are the space admin for your own personal space, by default.
-Space permissions aren’t customizable on the
-Free plan
-.
-Tip: Manage space permissions using groups instead of individual people
-Confluence groups let you manage space permissions quickly and at scale.
-For example, let's say you want to change space permissions for 10 people. If they were all added individually, then you have to make 10 changes, the same change for each individual. But if those 10 people were added as a single Confluence group, then you only have to make one change.
-That said, if you're not also an organization, user access, or site admin, then you won't have direct control over the makeup of the groups and will have to rely on other administrators to create and edit groups. If that's a bit of an unwieldy or unreliable process, then it might not make sense to use groups. But, in general, using groups should make your life as a space admin a lot easier.
-To change space permissions for people:
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Space access
-and
-the submenu relevant to whose permissions you want to change:
-Users
-to add or remove individual people, or change their permissions
-Groups
-to add or remove groups, or change a group’s permissions
-Guests
-to add or remove guests, or change their permissions
-Anonymous access
-to allow or block anonymous users from accessing your space, or to change what permissions they have in the space
-Select
+Tap
 Edit
+and make your changes.
+Tap
+Submit
 .
-Find the row for the user, group, or guest and check or uncheck boxes for the available permissions.
-Uncheck the
-View
-permission to remove all space access.
-Or use the search bar to find and add a user or group.
-Select
-Save.
-Additive permissions
-Keep in mind, permissions in Confluence are additive.
-If someone is a member of multiple groups in your space (A, B, C, etc.), what they're able to see and do is the sum of the permissions granted to Group A + Group B + Group C, and so on, plus whether they're listed in the Individual Users section.
-Which is to say, to truly revoke a permission for someone, it needs to be revoked for them everywhere in the space.
-For example, consider the following:
-Group A (can view in space)
-User A (cannot view in space)
-If User A is a member of Group A, then they still have permission to view because the sum of permissions between User A + Group A = "can view".
-To prevent User A from viewing content in your space, you'd have to either revoke permission to view in your space from Group A, too, or ask an organization, user access, or site admin to remove User A from Group A.
-There's no way to change permissions for multiple spaces at once. However, if you’re a Confluence admin or a site admin, you can set default space permissions, which will apply to all new spaces.
-Add people to your space
-To add groups or individuals to your space:
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Users
+How language settings interact
+You can choose your
+display language
+for Confluence, but if you don't, Confluence will default to the language you set in your browser. If you don't have a language preference set for Confluence
 or
-Groups
-in the
-Space access
-menu.
-Note: The
-Space access
-menu in
-Space settings
-is only visible if you're a space admin in that space.
-Select
-Edit
-.
-Use the search bar to find groups or individual users to add to your space.
-You can add multiple groups or users at a time.
-When you’re ready, select
-Add
-to add them to the list.
-Check or uncheck to give them the desired permissions.
-Tip: Instead of going one by one, you can bulk select all permissions by checking the box to
-Select all
-.
-Select
-Save.
-If you have a long list, you may need to scroll up to find the Save button.
-To remove a user or group from your space:
-Find the row in the list for the user or group you want to remove.
-Make sure no boxes are checked for that user or group.
-Tip: Instead of going one by one, you can bulk deselect all permissions by unchecking the
-Select all
-box.
-Select
-Save
-to apply changes.
-Note: This will remove all entries that have no boxes checked.
-Override all permissions on a space
-A quick way to make a global change to space permissions is to override all of its permissions. You have two ways to override all permissions:
-Default permissions
-: Choosing this will reset space permissions to the
-default set for all spaces
-, dictated by your Confluence admin.
-Copy permissions from another space
-: (
-Only available on the Premium plan)
-Copy the space permissions setup from another space. You can only copy permissions from spaces in which you're a space admin.
-You can't undo an override action.
-Copy permissions from another space
-Only available on the Premium plan.
-You can quickly change a space’s permissions by copying the space permissions configuration from another space, as long as you’re the space admin in that other space.
-You can find how to copy space permissions on
-Copy space permissions
-.
-Assigning permissions for anonymous access
-Anonymous access, for all intents and purposes, means
-public access
-. It's a feature that is
-disabled by default
-, and must first be turned on for the whole instance by a Confluence admin or a site admin.
-Learn more about anonymous access
-Once anonymous access is enabled, you'll be able to change the permissions for anonymous users.
-Recover space permissions
-Confluence and site admins are always able to access permissions for any spaces in their Confluence instance. If a space is ever without a space admin — for example, if the only space admin for a space left the organization — a Confluence or site admin can always recover control over space permissions by becoming a space admin. This can be done temporarily, long enough to assign another person as admin of the space.
-To recover space permissions:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
+your browser, we'll use the site-wide language preference set by your site administrator.
+Edit your editor settings
+You can turn on or off some settings that affect how the Confluence editor works for you. The choices you make won't affect how Confluence works for other people on your site.
+To edit your editor settings:
+Tap your profile picture at the right of the navigation, then select
+Personal
 Settings
->
-Security
-in the left-hand navigation.
-Select
-Space permissions
 .
-Locate the space in the
-Individual Spaces
-list and select
-Recover Permissions.
-(If you're already an admin in the space, you'll see
-Manage Permissions.
-)
-Selecting
-Recover Permissions
-will be recorded in the
-Confluence audit log
+Choose
+Editor
+(under
+Your Personal settings
+) from the panel on the left.
+Tap
+Edit
+and make your changes.
+Tap
+Submit
 .
-What the individual space permissions do
-ALL
-View
-Controls who can view content in your space
-If the view permission is granted to the user or group, they can view all content in your space (except when they're restricted from doing so on individual content items).
-If the view permission is revoked for the user or group, they won't be able to view any content in the space. They won't be able to find the space or any of its content, either in search results or by browsing spaces in the instance.
-Delete own
-Controls who can delete their own content in your space
-If the delete own permission is granted to the user or group, they can delete any content they currently own. This includes pages, live docs, blogs, and attachments. They won't be able to delete content owned by anyone else.
-Creators can’t delete content they created unless they’re still the owner.
-To allow people to delete any content owned by someone else, make sure they're granted the
-Delete
-permission under
-Content.
-If the delete own permission is revoked for the user or group and no other content
-Delete
-permissions are granted, then they won't be able to delete any content they own in the space.
-Note: Revoking the
-Delete own
-permission does not affect users' ability to delete their own comments.
-PAGES
-Add
-Controls who can create and edit content in your space
-If the add content permission is granted to the user or group, they can create content in your space. They can also edit any content in your space, except when restricted from doing so on individual items.
-If the add content permission is revoked for the user or group, they can neither create nor edit any pages or live docs in your space.
-Archive
-Controls who can
-archive content
-in your space
-If the archive content permission is granted to the user or group, they can archive any page or live doc in your space. They can also restore any pages or live docs to the content tree from the archived pages list.
-They can't archive or restore any content that they don't have permission to view.
-Everyone with access to your space can inherently archive any content they themselves created.
-If the archive content permission is revoked for the user or group, they will only be able to archive content they themselves created.
-Delete
-Controls who can delete content in your space
-If the delete content permission is granted to the user or group, they can delete any given content in your space.
-They can't delete any content that they don't have permission to view.
-If the delete content permission is revoked for the user or group, they can't delete any given content in your space.
-If the
-Delete Own
-permission is assigned, then they can only delete content they themselves created. If the delete own permission also isn't granted, then they can't delete any content in your space, period.
-BLOG
-Add
-Controls who can create blogs in your space
-If the add blog permission is granted to the user or group, they can create blogs in your space. They can also edit any blogs in your space, unless restricted from doing so on individual blogs.
-If the add blog permission is revoked for the user or group, they can neither create nor edit blogs in your space.
-Delete
-Controls who can delete blogs in your space
-If the delete blog permission is granted to the user or group, they can delete any given blog in your space.
-They can't delete any blog that they don't have permission to view.
-If the delete blog permission is revoked for the user or group, they can't delete any given blog in your space.
-If the
-Delete Own
-permission is granted, then they can only delete blogs they themselves created, or that they currently own. If the delete own permission isn't granted, though, then they can't delete any blogs in your space, period.
-COMMENTS
-Add
-Controls who can leave comments in your space
-If the add comment permission is granted to the user or group, they can leave comments (both general and inline) on any pages (and live docs and blogs) in your space that they have permission to view.
-This also means they can delete their own comments.
-Only the author of a comment can edit it.
-If the add comment permission is revoked for the user or group, they can't leave comments anywhere in your space.
-Delete
-Controls who can delete comments in your space
-If the delete comment permission is granted to the user or group, they can delete any given comment in your space, not just their own.
-They can't delete comments on any page, live doc, or blog that they don't have permission to view.
-If the delete blog permission is revoked for the user or group, they can't delete any given comment left by anyone in your space.
-ATTACHMENTS
-Add
-Controls who can upload attachments to pages and live docs in your space
-If the add attachment permission is granted to the user or group, they can upload attachments anywhere in your space.
-Attachments can only be added in edit mode, so they must have permission to edit the page before they can upload anything to it. This means to successfully upload attachments to a page, they must first have the
-Add content
-permission in the space and not be restricted from editing on the page itself.
-If the add attachment permission is revoked for the user or group, they can't upload attachments anywhere in your space.
-Delete
-Controls who can delete attachments in your space
-If the delete attachment permission is granted to the user or group, they can delete any given attachment in your space, not just their own.
-They can't delete attachments on pages that they don't have permission to view.
-If the delete attachment permission is revoked for the user or group, they can't delete any given attachment in your space.
-If the
-Delete Own
-permission is granted, then they can only delete attachments they themselves created. If the delete own permission isn't granted, though, then they can't delete any attachments in your space, period.
-RESTRICTIONS
-Add/Delete
-Controls who can edit restrictions on individual content items in your space
-If the add/delete restrictions permission is granted to the user or group, they can edit the restrictions on any given content item in your space, not just their own.
-Learn more about what restrictions they can edit
-.
-They can't edit restrictions on content items that they don't have permission to view.
-They still need permission to edit a content item to change access to it. If they can only view a content item, they can’t change its access.
-Space admins always have this permission, regardless if it is granted or revoked. It's included in the Space Admin permission.
-If the add/delete restrictions permission is revoked for the user or group, they can't edit restrictions on any given content item in your space.
-If the
-Add
-permission under
-Content
-is granted, then they can still edit the restrictions on any content they own.
-SPACE
-Export
-Controls who can
-export your space
-If the export space permission is granted to the user or group, they can export the whole space, including each comment and attachment.
-This includes pages or live docs they don't have permission to view.
-Blogs are not included in space export.
-If the export space permission is revoked for the user or group, they can't export the whole space.
-Content-level export is governed by the "View" permission. Anyone who can view a page or live doc can also export it.
-Admin
-Controls who the
-space admins
-are in your space
-If the space admin permission is granted to the user or group, they can view and make changes to certain elements of the space reserved for space admins. They can also grant or revoke space permissions for any user or group, including the space admin permission itself.
-Note
-: Space admins can add and delete restrictions on any content they have permission to view. They don’t need to have been granted the Restrictions space permission.
-If the space admin permission is revoked for the user or group, they can't grant or revoke space permissions for anyone.
 Was this helpful?
 Yes
 No
@@ -713,20 +495,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage permissions at the space level
-What are space permissions?
-Copy space permissions
-Assign space permissions
-Make a space public with anonymous access
-Assign Questions for Confluence permissions
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Show more
 On this page
-Additive permissions
-Add people to your space
-Override all permissions on a space
-Copy permissions from another space
-Assigning permissions for anonymous access
-Recover space permissions
-What the individual space permissions do
+Edit your general preferences
+How language settings interact
+Edit your editor settings
 Community
 Questions, discussions, and articles
 Accessibility

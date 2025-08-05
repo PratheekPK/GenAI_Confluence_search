@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/remove-a-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/disable-anonymous-access-to-remote-api/
 
-Remove a space | Confluence Cloud | Atlassian Support
+Disable anonymous access to remote API | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,16 +439,46 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Confluence administration
+Security settings in Confluence Cloud
 Cloud
 Data Center
-Remove a space
-Archive a space
-Learn about archiving spaces and how to use it effectively.
-View topic
-Delete a space
-Understand when deleting a space is the right choice.
-View topic
+Disable anonymous access to remote API
+Confluence administrators may wish to disable anonymous access to the
+Confluence Cloud
+remote API, to make it harder for malicious users to write "bots" that perform bulk changes to the instance.
+This setting is disabled by default.
+To enable anonymous access to the
+Confluence Cloud
+remote API
+— raise a
+support request
+.
+To toggle anonymous access to the remote API:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Security
+in the left-hand navigation.
+Select
+Security configuration
+.
+Check or uncheck the
+Anonymous Access to Remote API
+box.
+Select
+Save
+at the bottom of the page.
+This page is about access to the remote API. If you're looking for info about preventing anonymous users from accessing
+Confluence Cloud
+, see
+Manage global permissions
+.
 Was this helpful?
 Yes
 No
@@ -456,17 +489,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Archive a space
-Delete a space
-Space administration
-Show more
-Manage permissions at the space level
-Manage content in a space
-Remove a space
-Create templates, blueprints, and reports
-Manage team calendars
-Show more
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
 Community
 Questions, discussions, and articles
 Accessibility

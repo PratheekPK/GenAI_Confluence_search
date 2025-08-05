@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-include-media-on-confluence-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/voting-in-whiteboards/
 
-Use macros to include media on Confluence pages | Confluence Cloud | Atlassian Support
+Voting in whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,16 +439,69 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Use macros to include media on Confluence pages
-Insert Microsoft Office macros
-Display the content of Microsoft office files on your page or live doc with the Office Word, Office Excel, or Office Powerpoint macros.
-View topic
-Insert the widget connector macro
-Embed multimedia content from external websites on your page or live doc.
-View topic
+Voting in whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
+.
+Simplify collaborative decision-making with voting in whiteboards. Use it for brainstorming, retrospectives, and more with your team. Anyone on the whiteboard can start, manage, and conclude voting sessions.
+View detailed results with the top-voted items and individual votes.
+Starting a voting session
+To start a voting session:
+Select the voting icon in the right-side toolbar.
+Enter a name for the voting session.
+To hide collaborator votes, toggle
+Enable anonymous voting
+on.
+Choose the number of votes allowed per person by using the + and - or select the number and type in the number of votes.
+Select
+Start
+.
+Note:
+There is a maximum of 99 votes per person.
+Voting
+You can vote on any sticky note on the whiteboard. To vote:
+Select the + icon on an element to add a vote. You can vote for the same element multiple times.
+Select the - icon to remove a vote.
+Select
+I’m done
+to indicate that you are done voting to everyone on the whiteboard.
+Ending a session
+Anyone can end a voting session.
+To end a voting session and display results:
+Select
+End for everyone
+in the voting modal.
+Confirm and select
+End voting
+.
+A voting session cannot be restarted.
+View voting results
+When a voting session ends, everyone will see the results of that session.
+Click on a result in the voting panel to navigate to that element.
+Hover over the “thumb” icon to view the individuals who voted for that element.
+If anonymous voting was enabled for the session, names will not be visible on element votes.
+To view the results of any previous voting session on a whiteboard:
+Select the voting icon in the right-side toolbar.
+Select the
+Results
+tab.
+Delete a voting session
+To delete a voting session:
+Select the session you want to delete from the
+Results
+tab.
+Select the more icon in the top right of the panel.
+Select
+Delete
+.
+Confirm and select
+Delete
+.
+Results are deleted permanently.
 Was this helpful?
 Yes
 No
@@ -456,17 +512,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Insert Microsoft Office macros
-Insert the widget connector macro
-Extend the functionality of Confluence Cloud
+Create and edit whiteboards
 Show more
-Use macros to show Confluence content on pages and live docs
-Use macros to add development info on Confluence pages
-Use macros to include media on Confluence pages
-Use macros to add navigation on Confluence pages
-Use macros to add reporting info to Confluence pages
-Show more
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard version history
+On this page
+Starting a voting session
+Voting
+Ending a session
+View voting results
+Delete a voting session
 Community
 Questions, discussions, and articles
 Accessibility

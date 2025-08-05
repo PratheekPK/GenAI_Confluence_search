@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-is-the-new-navigation-in-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-microsoft-teams-and-confluence-together/
 
-What is the new navigation in Confluence? | Confluence Cloud | Atlassian Support
+Use Microsoft Teams and Confluence together | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,159 +439,155 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Navigate around Confluence
+Extend the functionality of Confluence Cloud
+Use Confluence with other applications
 Cloud
 Data Center
-What is the new navigation in Confluence?
-The new navigation is centered around customization capabilities and ease-of-use improvements. With a design familiar to anyone who uses software apps, we’re creating a new navigation that’ll eventually fit all Atlassian apps.
-See your brand or products, and switch Atlassian sites or apps
-Access essentials like
-For you
-,
-Recent
-,
-Starred
-,
-Spaces
-and
+Use Microsoft Teams and Confluence together
+This integration isn't available in the
+Atlassian Government environment
+.
+You can soon
+create, edit, and share Confluence pages and live docs without leaving Microsoft Teams.
+Need to quickly find a Confluence page or doc? Add it to a tab.
+You can even let other teammates know about it too.
+Collaborating in Confluence without leaving Microsoft Teams
+It’s a time-saving way to collaborate with your teammates. And helps avoid the dreaded “too many open browsers” overload.
+Create and edit pages and live docs
+. Minimizes context-switching.
+Add a page or doc in a tab
+. An easy way to keep track without going back and forth between browsers.
+Get notified about edits and new content
+. Stay in the know.
+People can preview content you share
+. Take a quick look or read all the info right away.
+Search within Teams for previously shared pages and live docs
+. Information is never lost.
+Capture and share meeting notes as a group
+. Make decisions and agree on action items together.
+Get started
+To add the Confluence Cloud for Microsoft Teams app:
+Open your Microsoft Teams app.
+Select
 Apps
-Go to your
-company hub
-Find
-More
-navigation items and
-Customize sidebar
-Quickly access
-Starred spaces
-when no spaces are open
-Explore the contents of a space when it’s open
-Browse available
-Spaces
+in the bottom right corner.
 Search
-across all apps on your site, and
-Create
-content
-Use
-AI
-Chat
-and find utility items like
-Notifications
-,
-Settings
-(
-)
-, and
-Account
-Key features
-Navigation starts from the sidebar
-Work across multiple spaces straight from the
-sidebar
-.
-For you
-: A personalized hub with your recently viewed pages alongside popular content, all curated for easy discovery
-Recent
-: Pages, blogs, and whiteboards, and other content you’ve visited.
-Starred
-: Essential items you’ve marked with a star.
-Customize your sidebar
-Show, reorder, and hide navigation items by going to
-More
-(
-), then
-Customize sidebar
-.
-Show items: To add an item to your
-sidebar
-, check its checkbox.
-Reorder items: To rearrange the order of items in your
-sidebar
-, drag them to your preferred positions.
-Hide items: To remove items from your
-sidebar
-, uncheck its checkbox.
-Use
-(up and down arrow keys) from your keyboard to reorder items in your
-sidebar
-.
-Show or hide sidebar
-If the
-sidebar
-takes up too much space, you can either resize or collapse it. You’ll always be able to expand the
-sidebar
-when you need to navigate again.
-Tip
-: Press
-[
-to expand or collapse the
-sidebar
-. If you’re editing a page, press
-Ctrl/Cmd + [
-.
-Space settings
-As an admin, you’ll find space settings by selecting
-More actions
-(
-) next to a space’s name.
-Apps
-Access both your system and Marketplace apps from the
-sidebar
-. Admins can select
-More actions
-(
-) next to
-Apps
-to find and manage apps.
-Manage your rollout (admin only)
-This feature is only available:
-After the new navigation reaches your Confluence site
-Before the new navigation is turned on for everyone on your Confluence site
-If the new navigation hasn’t reached or has already been turned on for everyone on your Confluence site, you won’t be able to follow the below steps.
-When a large change is introduced to your team, proper planning can go a long way. To help your team adapt comfortable to the new navigation, we’ve added a way for admins to control the team’s rollout. Before we turn the new navigation on automatically, admins can:
-Turn on the new navigation only for themselves
-Turn on the new navigation for everyone on the Confluence site
-Admins will be notified with a banner when this feature becomes available.
-Your Confluence site will automatically switch to the new navigation a few weeks after it becomes available to admins, even if no admin has manually turned it on.
-To manage your rollout as an admin:
-From the top right corner, select
-Settings
-(
-) >
-Configuration
-.
-Go to
-New features
-and find
-New navigation
-.
-Under
-Turn on just for you
-, select
-Turn on
-.
-Test the new navigation yourself and prepare your team.
-When you’re ready for your entire team to use the new navigation, select
-Turn on for everyone
-.
-Frequently asked questions
-Question
-Answer/Response
-Why don’t I have the new navigation?
-We’re cautiously rolling out the new navigation for General Availability (GA) in waves from March 2025 onwards.
-We’ll notify you and your admins when the new navigation is enabled for your site a few weeks prior.
-Who is affected when I customize the sidebar?
-Only you.
-Customizing the sidebar is personal to your account and won’t be visible to anyone else on your site.
-How do I give feedback?
-To give feedback on the new navigation:
+Confluence Cloud.
 Select
-Give feedback
-at the bottom of the sidebar
-Choose an option under
-Select feedback
-Describe in detail the feedback you have for us
+Open
+and follow the prompts to connect it.
+To share Confluence pages and live docs in Teams channels:
+Go to the chat window.
 Select
-Send feedback
+…
+Type in Confluence Cloud to add the app.
+You need to join Confluence to collaborate on content within Microsoft Teams. When you connect the app, you can request access to Confluence from your Confluence admin.
+Create a new Confluence page
+Select
+Teams
+tab in the left panel.
+Select one of your channels.
+Click
++
+in the top right.
+Click
+Confluence Cloud for Microsoft Teams app
+.
+Select
+Create page
+Select the
+Confluence site
+, then a
+Parent page
+.
+Add your page title and start writing.
+You can choose to save as a draft, share, and publish - it’s the same way you’d normally create a page, you’re just doing it from within Microsoft Teams.
+It’s not currently possible to create a new live doc from Teams.
+Need to update page permissions? Set them directly in Confluence.
+Add an existing Confluence page or live doc
+If you have multiple Confluence sites, you'll need to choose which site to search for content from.
+Select
+Teams
+tab in the left panel.
+Select one of your channels.
+Click
++
+in the top right.
+Click
+Confluence Cloud for Microsoft Teams app
+.
+Select
+Attach page
+or
+doc.
+Search by title or choose a recently viewed page.
+You can select
+Post to the channel about this tab
+.
+Select
+Save
+.
+Share a Confluence page or live doc in a channel
+Start a new conversation with someone or your team.
+Click the Confluence Cloud icon at the bottom.
+Select which page or doc you want to share.
+Type message and send.
+Use Confluence during a Teams meeting
+Click
+Calendar
+in the left menu.
+Click
+New Meeting.
+Create a
+meeting title
+and add
+required attendees
+(You'll need to add someone to the invitation first).
+Click
+Send
+and you'll see the meeting on your Calendar.
+Open the meeting and click
++
+in the top right.
+Select
+Confluence Cloud
+to add notes to your meeting.
+Click
+Add.
+Click
+Save.
+You'll see a button for
+Start Notes
+to show you've successfully added the Confluence app to your meeting.
+Take notes
+You can start taking notes before, during, or after the meeting.
+Select
+Start Notes.
+Select
+Join
+will allow you to enter a meeting.
+Select the
+Confluence logo
+at the top right - that will open a side panel for you to take notes during your meeting.
+Select
+Publish
+then choose which Space to publish the notes to.
+After your meeting ends, the notes you took will also be sent to your meeting conversation.
+Uninstall the app
+You’ll see the
+Confluence logo
+in the left panel.
+Right-click the icon.
+Select
+Uninstall.
+Confirm
+Uninstall.
+Need support?
+This is built and maintained by Atlassian. If you need support, visit
+https://support.atlassian.com
+or contact
+support@atlassian.com
+.
 Was this helpful?
 Yes
 No
@@ -599,20 +598,23 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Navigate around Confluence
-What is the new navigation in Confluence?
-Use For you to jump into work and see what's happening
-Confluence navigation
-View written content
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
 On this page
-Key features
-Navigation starts from the sidebar
-Customize your sidebar
-Show or hide sidebar
-Space settings
-Apps
-Manage your rollout (admin only)
-Frequently asked questions
+Collaborating in Confluence without leaving Microsoft Teams
+Get started
+To add the Confluence Cloud for Microsoft Teams app:
+To share Confluence pages and live docs in Teams channels:
+Create a new Confluence page
+Add an existing Confluence page or live doc
+Share a Confluence page or live doc in a channel
+Use Confluence during a Teams meeting
+Take notes
+Uninstall the app
+Need support?
 Community
 Questions, discussions, and articles
 Accessibility

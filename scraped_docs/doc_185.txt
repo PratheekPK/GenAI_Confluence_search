@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/sort-fields/
+URL: https://support.atlassian.com/confluence-cloud/docs/transfer-ownership-of-your-content-item/
 
-Sort fields | Confluence Cloud | Atlassian Support
+Transfer ownership of your content item | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,48 +440,34 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit databases
+Create and edit content
 Cloud
 Data Center
-Sort fields
-Sorting in views
-Sorting can be saved as part of a view. For more information on creating and using views, check out our page on
-Database views
-.
-Databases aren’t available in the
-Atlassian Government environment
-.
-You can sort your database so that items show in order based on a selected field. Items can appear in ascending or descending order.
-Add a sort
-To create a sort:
-Select
-Sort
-at the top of your database or the
-Sort
-option while editing a view.
-Select the
-+ Add sort
-button.
-Select the field that you'd like to sort by from the list of unsorted fields in the database.
-Select the sort criteria (ascending or descending).
-Different fields are sorted by different logic, depending on their value type.
-To edit a sort:
-Select the sort criteria dropdown.
-Select the updated desired sort.
-Alternatively, sorts can be edited by selecting the arrows for sorted fields in the field header, changing between ascending and descending.
-To delete a sort:
-Select
-More actions
-on an existing sort.
-Select the
-Delete sort
-option.
-To reorder a sort:
-All entries are sorted based on the criteria of the sorts and the order they are listed.
-Select
-More actions
-on an existing sort.
-Select the reordering option relevant to your desired order.
+Transfer ownership of your content item
+When you create a page, live doc, whiteboard, database, or Smart Link in the content tree in Confluence, you’re known as both the creator and, by default, the owner of that content.
+At any time, you can choose to transfer ownership of your content item to another user. This can be helpful for indicating who should be the “point person” responsible for the content going forward.
+It’s not currently possible to transfer ownership of
+space overview pages
+or blogs.
+You can’t change the owner of a content item while using the Confluence mobile app.
+To transfer ownership to someone else, select the content owner avatar and name from the area below the title. Then, select the
+Change owner
+button to the right of the content owner’s name.
+You can also open the
+Details
+panel
+from the floating action bar at the bottom right of your screen.
+To the right of the content owner’s name, select the “
+Change owner
+” button.
+Next, use the search field to find a new owner by name or email. The new owner must have access to the space and edit access to the item for you to be able to make them the owner.
+Once you’ve chosen the correct person, select
+Change owner
+to confirm the transfer.
+After changing ownership to someone else, you still retain edit access, but won’t be able to change the owner back to yourself (unless you’re also an admin).
+Confluence space and product admins can also
+transfer ownership of your content
+, if needed.
 Was this helpful?
 Yes
 No
@@ -489,20 +478,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
+Create and edit content
 Show more
-Layouts and options
-Filter your data
-Sort fields
-Hide fields in your database
-Import data into your database
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
 Show more
-On this page
-Add a sort
-To create a sort:
-To edit a sort:
-To delete a sort:
-To reorder a sort:
 Community
 Questions, discussions, and articles
 Accessibility

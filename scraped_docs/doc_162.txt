@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-contributors-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/customize-your-personal-space/
 
-Insert the contributors macro | Confluence Cloud | Atlassian Support
+Customize your personal space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,177 +439,85 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Create and organize work in Confluence Cloud
+Use spaces to organize your work
 Cloud
 Data Center
-Insert the contributors macro
-The contributors macro displays a list of Confluence users who have made a contribution of some type to a page. It can also be used to list watchers of the page.
-The scope of this macro can be extended to include the immediate children or descendants of the specified page. The list of contributors can be based on people who have:
-authored or edited the page(s)
-contributed comments or added labels to the page(s), or
-are simply watching the page(s).
-To add the contributors macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the contributors macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Contribution Type
-(include
-)
-authors
-Filters by either the type of contribution made to a page (and optionally its descendant pages), or the watches on the page. Contribution types are:
-authors
-- includes people who created or have edited the page(s)
-comments
-- includes people who have added comments to the page(s)
-labels
-- includes people who have added labels to the page(s)
-watches
-- includes people who are watching the page(s).
-You can specify one or more contribution types, separated by commas.
-Sort By
-(order
-)
-count
-Specifies the criteria used to sort contributors. Sort criteria are:
-count
-- sorts people based on the total number of contributions to the page(s)
-name
-- sorts people into alphabetical order
-update
-- sorts people based on the date of their last contribution to the page(s).
-Reverse Sort
-(reverse
-)
-false
-Reverses the sort order of contributors in the list. Must be used in conjunction with the
-Sort By
-parameter.
-Maximum Number of Contributors
-(limit
-)
-no limit
-Limits the number of contributors in the list. If a number is not specified, all contributors are included.
-Display Format
-(mode
-)
-inline
-Sets how the list of contributor's names is formatted:
-inline
-— a comma-separated list
-list
-— a bullet list.
-Show Anonymous Contributions?
-(showAnonymous
-)
-false
-Sets whether to include those who contributed anonymously to a page.
-Show Count?
-(showCount
-)
-false
-Sets whether to show the number of times each person made a contribution of the specified
-Contribution Type
+Customize your personal space
+Spaces are Confluence's way of organizing content into meaningful categories. Think of them as different folders where you can store your work. A personal space is an area in your Confluence site that is
+automatically
+created for you to store everything you're working on individually, to keep your to-do lists, and to polish any content before you move it into another shared space.
+If a personal space wasn’t automatically created for you, you can create one.
+Select your profile icon at the top right of the global navigation bar
+Select
+Add Personal Space
+Give your space a name
+Select
+Create
+Set up your personal space
+You can use your personal space to jot down new ideas, introduce yourself to your team, keep track of tasks, store important items or files, polish content before sharing with others and more. There are three ways to get to your personal space:
+Select
+Spaces
+in the
+sidebar
+. Your personal space is automatically starred for easy access.
+Select your profile icon at the top right of the
+top navigation
+and select
+Personal Space
 .
-Show Last Contribution Time?
-(showLastTime
+Select
+For you
+in the
+sidebar
+. Up to six starred and recent spaces are shown on the right.
+To customize your space overview:
+Select the space’s name in the space sidebar. Some basic sections have been added to the page for you, but you can modify it and make it your own.
+Select the edit icon at the top right.
+Keep the parts of the page that work for you, or add new elements like you would to a page or live doc.
+Select
+Update
+when you are done editing to proceed with publishing it. You can come back any time and update the page.
+Use templates to add content to your space
+You can use Confluence templates to help build out your personal space. Popular templates include the User Manual (contains preferred working hours, how you like to work, etc.), To-Do List, Blog, and Meeting Notes, but there are many more to choose from in the template gallery.
+Next to the
+Share
+button, select
+More actions
+(
 )
-false
-Sets whether to show the last time each person made a contribution of the specified
-Contribution Type
-.
-Page Name
-(page
-)
-current
-Specifies the page to use when generating the list of contributors. If
-Page Name
-and
-Space(s)
-are left blank, the current page is assumed.
-Label(s)
-(labels
-)
-none
-Filters the list of contributors to those who created the specified labels from a page. You can specify one or more labels, separated by commas.
-Space(s)
-(spaces
-)
-current
-Specifies the space key of the Confluence space that contains the page set in
-Page Name
-or alternatively, specifies the spaces to search. Space keys are case-sensitive.
-This parameter also takes special values, including:
-@global
-— All site spaces.
-@personal
-— All personal spaces.
-@all
-— All spaces in your Confluence site.
-You can specify one or more space keys or special values, separated by commas.
-If no
-Page Name
-and
-Label(s)
-are specified, all pages from the specified set of spaces are included.
-Content Type
-(contentType
-)
-both pages and blog posts
-Restricts the content type to use when generating the list of contributors:
-pages
-— pages
-blogposts
-— blog posts.
-Blog Post Date
-(publishDate
-)
-none
-Specifies the publish date for a blog post. The date format required is: YYYY/MM/DD.
-Include Page Hierarchy
-(scope
-)
-specified page only
-Specifies additional pages to include when generating the list of contributors:
-children
-— just the child pages of the specified page
-descendants
-— all descendants of the specified page.
-Show Selected Pages
-(showPages
-)
-false
-Sets whether to show a list of the pages used to generate the list of contributors.
-Custom "None Found" Message
-(noneFoundMessage
-)
-default message
-Specifies the message to be used to override the default message that is displayed when no contributors are found.
+and choose the
+Templates and import
+option.
+Set permissions
+Since the space is completely yours, you can set permissions to restrict access, allow certain people to view and edit, or keep it open to all. Unless you set a permission, the pages will default as accessible to your team.
+To determine who can see a page and edit it, select the
+Share
+button at the top right of a page to change permissions.
+Learn more about setting permissions
+Share content
+Once your content is ready to share, you can invite others to view and edit or you can move the content to another space. It's easy to
+move
+content from one space to another so if you move something by accident, you can simply move it back.
+Another way to share updates and announcements is to
+blog
+to your key internal groups and teams. A blog post is created by selecting the
+next to
+Blog
+in the
+sidebar
+. The same tools and elements available when authoring a page are available for blogs. Published blogs live outside of the page tree in a space and are organized by date and are often more conversational in tone.
+Manage your content
+There are other actions you can choose for your personal space content by using the
+More actions
+(
+)  menu at the top right of the page.
+Export
+the page or attachments as a PDF or Microsoft Word document
+Archive
+content that you don’t want to delete but still want to keep
+Delete
+the space
 Was this helpful?
 Yes
 No
@@ -617,14 +528,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
 Show more
-Insert the filter by label macro
-Insert the content report table macro
-Insert the contributors macro
-Insert the contributors summary macro
-Insert the create from template macro
-Show more
+On this page
+Set up your personal space
+Use templates to add content to your space
+Set permissions
+Share content
+Manage your content
 Community
 Questions, discussions, and articles
 Accessibility

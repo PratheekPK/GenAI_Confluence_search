@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-a-page/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-and-customize-a-company-hub/
 
-View written content | Confluence Cloud | Atlassian Support
+Create and customize a Company Hub | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,103 +439,66 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Navigate around Confluence
+Extend the functionality of Confluence Cloud
+Use Company Hub to deliver key information to employees
 Cloud
 Data Center
-View written content
-After you’ve created a live doc or published a page, information about the content are presented at the top of the screen and in the
-Details
-panel. Learn about these features, including how to manage avatar visibility for published pages.
-Your Confluence administrator determines what information is presented at the top. This means your content may look a little different.
-Content information can include:
-While viewing or editing a page
-Last updated :
-Shows when the page was last published or updated.
-Breadcrumbs :
-Navigation path that shows the location of the page in the content tree.
-More actions :
-Frequently used actions such as Star, Watch, Present, Version history, Copy, Move, Convert to live doc, and more.
-Owner
-is shown below the title.
-Read time:
-The estimated time it takes to read the page. Read time is based on an average reading speed of 265 words per minute.
-Analytics
+Create and customize a Company Hub
+This feature is only offered with
+Confluence Cloud Premium and Enterprise
+.
+With
+Company Hub
+, you can create and customize a beautiful company-wide information central. This is where all employees can go for up-to-date announcements, news, verified resources, and more.
+An inviting and up-to-date
+Company Hub
+can help close communication gaps and promote productivity and collaboration by connecting teams, content, and resources in one central place.
+You can craft a Hub that looks and feels like your company’s go-to destination by adding a custom name along with image carousels, visual cards, quick links, a menu of important links, and more with ease.
+Set up your hub
+Only app and site admins can see and set up this feature, unless they choose to delegate additional editors to assist them in setting it up. App admins, site admins, and anyone else with hub-specific edit permissions can start setting up their Hub by selecting
+Company Hub
+from the
+sidebar
+.
+Until your hub has been activated upon being published for the first time, only those with hub-specific edit permissions can see or access it.
+Choose a name
+To get started, choose a unique name for your
+Company Hub
+.
+This name will be visible to everyone from the navigation bar, and when visiting the hub itself.
+You can opt to change this name later on, or not name your hub at all.
+Feel free to get creative and playful with your Company Hub name and use it to express your organization’s culture and values. Names that are unique and memorable are more likely to attract an audience.
+Customize your Company Hub
+After naming, a helpful starter template will appear.
+You can select
+Edit
 (
-Premium
-)
-:
-Get insights on page views.
-Classification
-(Atlassian Guard Premium): Define classification levels into which users can categorize their content.
-Apps
-your team has installed from the
-Atlassian Marketplace
-or
-built themselves
+) to customize this template, or start from scratch if desired, to make a hub that perfectly suits your company’s needs and preferences.
+Taking your Company Hub to the next level
+Here are some ways to design an amazing Company Hub that will drive employee engagement and get the word out about important internal information.
+From the top: Important links available any time
+Add a
+Links menu
+to the top with your most important evergreen content. You can organize the menu into categories and provide links to any internal or external URL. Frequently accessed content such as employee or team directories, major departments, or employee resources like benefits can be added in a prominent location at the top of the Hub.
+Catch the eye: Use a compelling image to spotlight key messages
+Next, add a
+Spotlight
+element. Spotlights can present a large message with a colorful background and either a short message or a link to longer content. Call attention to key messages by presenting Confluence, Jira, and Atlas links or external URLs as large presentation pieces. Craft your messaging and add upload an image or choose one from our library.
+Stack the deck: Cards provide visual interest to your content
+Display links to Confluence, Jira, Atlas, or external URLs with a visual flare. A set of
+cards
+lets you add images, a short description, and an outbound link for any content. You can set up manual cards with specific you choose or dynamic cards that populate based on your set of filters.
+Looking for some inspiration on what to include in your hub?
+Give these ideas a try:
+Employee kudos section
+Team celebrations
+Executive leadership update
+New hire onboarding guide
+Benefits policy quick links
+Manage hub settings
+App admins have default edit permissions for the hub. They can add other editors in
+Company Hub settings
 .
-Avatars
-of other viewers (while viewing)
-Avatars
-of other editors (while editing)
-Select their avatar to find them in the page, if they are currently active.
-Telepointers
-of editors: Hover over telepointer to see full name.
-While viewing and editing a live doc
-Last updated :
-Shows when the content was last edited.
-Breadcrumbs :
-Navigation path that shows the location of the doc in the content tree.
-More actions :
-Frequently used actions such as Star, Watch, Present, View changes, Version history, Copy, Move, Convert to page, and more.
-Owner
-is shown below the title.
-Read time:
-The estimated time it takes to read the doc. Read time is based on an average reading speed of 265 words per minute.
-Analytics
-(
-Premium
-)
-:
-Get insights on views.
-Classification
-(Atlassian Guard Premium): Define classification levels into which users can categorize their content.
-Apps
-your team has installed from the
-Atlassian Marketplace
-or
-built themselves
-.
-Avatars
-of live collaborators and viewers.
-Select an editor’s avatar to find them in the live doc, if they are currently active.
-Telepointers
-of editors: Hover over telepointer to see full name.
-Avatar visibility on published pages
-Real-time avatar visibility improves collaboration on published pages by showing who’s viewing, in addition to already showing who’s editing at any given time.
-Depending on
-how admins set public settings
-, anonymous users may also see who is on the page.
-Turn avatar visibility on or off
-By default, avatar visibility is turned on at the site level.
-Some teams may choose to turn this feature off due to the sensitive nature of content they may have on their Confluence site. You can turn this feature off for the entire site or individual spaces, but not for specific pages.
-To turn avatar visibility off:
-Site-level admins can visit
-Settings
->
-General configuration
->
-Avatars on published pages
-Space-level admins can visit
-Space settings
->
-General
->
-Avatars and status
->
-Avatars on published pages
-.
-These settings only control visibility of viewers on published pages. The visibility of co-editors' avatars is a Confluence feature that cannot be turned off.
 Was this helpful?
 Yes
 No
@@ -543,16 +509,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Navigate around Confluence
-What is the new navigation in Confluence?
-Use For you to jump into work and see what's happening
-Confluence navigation
-View written content
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Show more
 On this page
-While viewing or editing a page
-While viewing and editing a live doc
-Avatar visibility on published pages
-Turn avatar visibility on or off
+Set up your hub
+Choose a name
+Customize your Company Hub
+Taking your Company Hub to the next level
+From the top: Important links available any time
+Stack the deck: Cards provide visual interest to your content
+Manage hub settings
 Community
 Questions, discussions, and articles
 Accessibility

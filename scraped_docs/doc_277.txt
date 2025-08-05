@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/actions-that-require-an-organization-or-site-admin/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-confluence-whiteboards-dont-support/
 
-Actions that require an organization or site admin | Confluence Cloud | Atlassian Support
+What Confluence whiteboards don't support | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,25 +439,28 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Atlassian administration for Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Actions that require an organization or site admin
-Manage your storage usage
-Manage storage usage in Confluence
-View topic
-Invite guests to Confluence
-Invite guests to collaborate securely with clients, contractors, or other "external" people.
-View topic
-Removing users and downgrading to Confluence Free
-Preparing to move from a paid plan to Confluence Free.
-View topic
-Adjust permissions before downgrading to Confluence Free
-Learn what permissions options Free users have available to them and what will change if you move to Free from Standard or Premium.
-View topic
-What happens when an account is deactivated vs. deleted?
-Understand the implications of deactivating or deleting an account.
-View topic
+What Confluence whiteboards don't support
+Whiteboards aren’t available in
+Atlassian Government environments
+.
+Whiteboards does not currently support or work with certain Confluence features. Below is a list of some of the critical unsupported features. This list is not exhaustive.
+Whiteboards don't currently support:
+Atlassian Analytics
+Atlassian Data Lake
+data connectors
+screen readers & keyboard navigation
+some Marketplace apps*
+linking Jira from Data Center sites
+Please note that most of these features may not be initially supported for whiteboards. However, we plan to add support for many of these features shortly. Please ensure you read the
+Atlassian Cloud Terms of Service
+before proceeding. This outlines our terms & conditions.
+*Some Marketplace apps might be partially affected when whiteboards are added in a space. See
+Whiteboards impact on third-party apps
+to learn more.
 Was this helpful?
 Yes
 No
@@ -465,14 +471,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Manage your storage usage
-Invite guests to Confluence
-Removing users and downgrading to Confluence Free
-Adjust permissions before downgrading to Confluence Free
-What happens when an account is deactivated vs. deleted?
-Atlassian administration for Confluence Cloud
-Actions that require an organization or site admin
+Create and edit whiteboards
+Show more
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

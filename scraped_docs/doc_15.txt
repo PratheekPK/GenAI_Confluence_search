@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-add-and-edit-calendars/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-page-index-macro/
 
-Getting started with team calendars | Confluence Cloud | Atlassian Support
+Insert the Page Index macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,115 +440,24 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Use macros to add navigation on Confluence pages
 Cloud
 Data Center
-Getting started with team calendars
-Team calendars is a feature in all Premium or higher subscriptions in Confluence. Before getting started, verify that you are on a Confluence Premium subscription.  If you are new to Confluence, get started on a free trial of Confluence Premium
-here.
-You can create new calendars or add existing calendars in any Confluence space. Existing calendars can be other calendars from your Confluence site or Google Calendars
-Team calendars is not currently supported on mobile devices.
-Create a calendar
-Select
-Calendars
-in the space
-sidebar
-. A
-Calendars
-panel opens.
-Select the
-button at the top right of the
-Calendars
-panel and select
-Add new calendar
-. The
-Create calendar
-modal window appears.
-Enter a name for the calendar.
-Select
-Create
-.
-Add an existing calendar
-Select
-Calendars
-in the space sidebar. A calendar panel opens.
-Select the
-button at the top right of the
-Calendars
-panel and select
-Add existing calendar
-. The
-Add existing calendar
-modal window appears.
-Search or browse for calendars to add.
-Select the check boxes for the calendars to be added to the space.
-Clear the
-Watch selected calendars
-checkbox if you don't want notifications when changes are made to the selected calendars.
-Select
-Add
-.
-Import a calendar
-Select
-Calendars
-in the space sidebar. A calendar panel opens.
-Select the
-button at the top right of the
-Calendars
-panel and select
-Import calendar
-. The
-Import calendar
-modal window appears.
-Enter a name for the calendar.
-Choose a file from the
-Upload iCal
-field.
-Select the .ics file to be imported and select
-Open
-.
-Select
-Import
-.
-Subscribe by URL
-Select
-Calendars
-in the space sidebar. A calendar panel opens.
-Select the
-button at the top right of the
-Calendars
-panel and select
-Subscribe by URL
-. The
-Subscribe
-modal window appears.
-Enter a name for the calendar.
-Paste the URL for the calendar in the iCal URL field.
-Select
-Subscribe
-.
-See
-Subscribe to Google Calendars from Confluence
-for more information.
-Edit a calendar
-To change the name of a calendar, hide certain event types, or move the calendar to another space, you can edit the calendar provided you have the right permissions.
-Select
-Calendars
-in the space sidebar.
-Select
-to the right of the calendar name, then select
-Edit
-.
-Change the calendar's name or move it to another space.
-Select
-Save
-.
-You can also
-add custom event types
-and hide default event types to tailor the calendar to your needs.
-Did you know you can
-add a calendar to a Confluence page
-?
+Insert the Page Index macro
+The Page Index macro creates a hyperlinked alphabetical index of all page titles within the current space.
+The top section of the index contains a cell for each letter of the alphabet, with cells for numbers and symbols. Each cell indicates how many pages are in the corresponding list.
+The lower section contains lists of page titles followed by the first few sentences of content on that page.
+Each letter, number or symbol in the top section is hyperlinked to the corresponding cell in the lower section. Each page title in the lower section is hyperlinked to the page in the space.
+The Page Index macro only works in spaces with fewer than 500 pages.
+Use the Page Index macro
+To add the Page Index macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+There aren't any parameters to enter for this macro.
 Was this helpful?
 Yes
 No
@@ -556,19 +468,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Subscribe to Team Calendars from third-party calendars
-Getting started with team calendars
-Add events
-Add Jira events
-See standard event types
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
 Show more
-On this page
-Create a calendar
-Add an existing calendar
-Import a calendar
-Subscribe by URL
-Edit a calendar
 Community
 Questions, discussions, and articles
 Accessibility

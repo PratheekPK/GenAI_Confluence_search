@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/differences-using-confluence-legacy-editor-and-cloud-editor/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-a-confluence-cloud-space/
 
-Differences using Confluence legacy editor and cloud editor | Confluence Cloud | Atlassian Support
+Import a Confluence Cloud space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,267 +439,108 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-The Confluence legacy editor
+Confluence administration
+Data management in Confluence Cloud
 Cloud
 Data Center
-Differences using Confluence legacy editor and cloud editor
-This page outlines the differences your team can expect
-as a Confluence Data Center end-user
-when moving to Confluence Cloud. Some of the capabilities listed below apply to more than one
-App
+Import a Confluence Cloud space
+This document is specific to importing a Confluence space from one cloud site to another cloud site. To migrate a space from Confluence Data Center to a cloud site, we recommend using the
+Confluence Cloud Migration Assistant
 .
-Summary of differences
-This table shows an overview of key differences between the cloud editor and the legacy editor. See below for more details. The
-cloud editor
-will elevate your content creation experience by offering enhanced collaboration, faster loading, and features such as
-Atlassian Intelligence
-and
-Smart Links
+For instructions on how to migrate an entire cloud site, see
+Migrate a Confluence Cloud instance or merge instances from multiple sites
 .
-Cloud editor
-Legacy editor
-Creation: Rich, interactive content
-Drag-n-drop layouts
-WYSIWYG experience
-Smart links
-Native charts
-Manual creation
-Nested tables
-Nested bodied macros
-Support for previously created content
-Collaboration: real-time collaboration
-Live docs
-Inline commenting
-Workflows: Supercharged workflows
-Automation
-AI Agents
-AI-powered search
-Contextual formatting
-We’ve organized this list by how different the experience is:
-Works differently in Cloud
-Not available in Cloud
-Only available in Cloud
-You may want to factor in these differences when planning the change management and onboarding activities for your team. Interested in the differences you can expect as an administrator?
-Differences administering Confluence Data Center and Cloud
-1. Works differently in Cloud
-Editor (cloud editor)
-Works differently in Cloud.
-What’s different
-The editor in Confluence Cloud is significantly more modern and user-friendly than the editor in Confluence Data Center, known as the legacy editor. New pages are created using the cloud editor. Tables, images, macros, and page layouts all work a little differently, but are easier to use once you become familiar with the change. We’ve included more information about the most significant differences below.
-How it works in Cloud
-Draft, publish, and update a page
-Confluence Cloud roadmap
-Who it affects
-Users
-Confluence
-Editor (legacy editor)
-Works differently in Cloud.
-What’s different
-When you migrate, your existing pages will use the legacy editor, which is very similar to the editor in Confluence Server and Data Center. Users will have the option to convert existing pages to the new editor on a page-by-page basis, to avoid losing any formatting or macro data that isn't available in the new editor. Admins can also set up auto-conversion to streamline conversions on a space- or site-level.
-When a page is converted, all compatible content is automatically converted to use the cloud editor elements. Incompatible content such as nested macros, will be added to the page inside the
-legacy content macro
-. This macro allows you to work with legacy content – with some limitations – on cloud editor pages.
-By default, new pages are created in the cloud editor.
-How it works in Cloud
-Convert pages to the cloud editor
-Suggestion CONFCLOUD-70955: Bulk convert pages to the new editor
-Convert legacy pages in all spaces
-Who it affects
-Users
-Confluence
-Macros
-Works differently in the cloud editor.
-What’s different
-The way macros work in the cloud editor in Confluence Cloud is significantly more user-friendly than in Confluence Data Center. Many render visually in the editor, rather than as a placeholder. Some macros have been combined, while others are not available. Another significant difference is that macros can’t be nested (for example, you can’t put a code macro inside a panel macro).
-Many of the Confluence Data Center macros are still available in the legacy editor template, and in migrated content that has not been converted to the new editor.
-How it works in Cloud
-What are macros?
-Learn which macros are being removed
-Who it affects
-Users
-Confluence
-Nested macros
-Works differently in the cloud editor.
-What’s different
-In Confluence Server there were not many restrictions on how macros could be used together. In the new editor, a macro with a body can’t be nested inside another macro. For example, you can’t put a code macro inside a panel macro. When an eligible page is converted to the cloud editor, your nested and incompatible macros will be inserted into the legacy content macro. Additionally, many third-party cloud apps have been updated to support nested body macros.
-How it works in Cloud
-The legacy content macro
-Who it affects
-Users
-Confluence
-Tables
-Works differently in the cloud editor.
-What’s different
-In Confluence Server, table options were provided in the editor toolbar. In Confluence Cloud, the way you interact with a table is a little different. The options are integrated into the table itself, which makes it more intuitive to add, remove, copy, and paste columns and rows, change the column width, cell color, and other characteristics of your table. The most significant changes your team might notice include that you can only choose from three preset table widths (no custom width), and you can’t nest one table inside another.
-How it works in Cloud
-Format your content
-Suggestion CONFCLOUD-67748: Custom table width
-Who it affects
-Users
-Confluence
-Templates
-Works differently in the cloud editor.
-What’s different
-In Confluence Server, you select a template from the Create dialog when creating a page. In Confluence Cloud, you choose a template from within the page, and will get a preview of how it will look. There are over 100 templates to choose from, and you can download more from our website. Your existing templates will also be available.
-How it works in Cloud
-Format a page, live doc, or blog post with a template
-See what templates are available
-Who it affects
-Users
-Confluence
-View unpublished pages
-Works differently in Cloud.
-What’s different
-In Confluence Server, unpublished pages (often known as drafts) were accessed from the Drafts list in your profile or Recently worked on in the dashboard. In Confluence Cloud, people can access pages they have contributed to from the page tree in the sidebar and the Recent drop-down menu in the header. Unpublished pages are much easier to access in Confluence Cloud.
-How it works in Cloud
-Draft, publish, and update a page
-Who it affects
-Users
-Confluence
-Delete content and child items
-Works differently in the cloud.
-What’s different
-In Confluence Server, users can delete the current page, or the current page and any child pages.
-In Confluence Cloud:
-For Standard plans, the users can delete the current content item (including pages, live docs, folders, whiteboards, and databases), or the current item and any child items.
-For Enterprise and Premium plans, the users can delete pages in bulk by selecting the
-Purge All
-option under
-Space settings > Manage content > Trash
+To learn about importing user accounts, which lets you give users app access and add them to groups, read the Confluence section of
+Determine your user migration strategy
+. To integrate an existing G Suite user directory, see
+Integrate with G Suite
 .
-How it works in Cloud
-Delete, restore, or purge a content item
-Who it affects
-Users
-Confluence
-2. Not available in Cloud
-Adding attachments from other pages
-Not available in Cloud.
-What’s different
-In Confluence Data Center, users could upload attachments from existing pages. In the cloud editor, you can only upload attachments from your computer, not from another page or space.
-How it works in Cloud
-Upload and manage files
-Suggestion CONFCLOUD-65344: Add attachments from other pages
-Who it affects
-Users
-Confluence
-Copy pages without attachments
-Not available in Cloud.
-What’s different
-In Confluence Server, you had the option to exclude attachments when copying pages. This option is not available in Confluence Cloud.
-How it works in Cloud
-Suggestion CONFCLOUD-19389: Copy pages without attachments
-Who it affects
-Users
-Confluence
-Edit files using Companion
-Not available in Cloud.
-What’s different
-In Confluence Data Center, users could edit an attached file in any compatible application using the Companion app. The Companion app was removed from Confluence Cloud in March 2022. To edit an attached file, you need to download the file, edit it in a compatible application, then manually re-upload it to the page.
-How it works in Cloud
-Companion App removal announcement
-Who it affects
-Users
-Confluence
-Right-to-left language support for editing and searching
-Not available in Cloud.
-What’s different
-Right-to-left languages are supported in Confluence Data Center. This is not available in Confluence Cloud, although there are some Marketplace apps that provide this functionality.
-How it works in Cloud
-Suggestion CONFCLOUD-1373: Support right-to-left languages
-Who it affects
-Users
-Confluence
-3. Only available in cloud
-We’ve included some significant features that are only available in cloud, as you may want to prepare your team for these as well.
-Archive pages
-Available in Cloud, on selected plans.
-What’s different
-In Confluence Server, you could archive a space to exclude pages in that space from search. In Confluence Cloud you can archive a space, or choose to archive individual pages. Archived pages don’t appear in the page tree, are still easy to access under Archived in the sidebar. You can bulk archive pages with a Premium or Enterprise plan.
-How it works in Cloud
-Archive content items
-Who it affects
-Users
-Confluence
-Cloud automation
-Available in Cloud, on selected plans.
-What’s different
-Automation for Confluence allows you to create automation rules to perform many types of manual, repetitive tasks. The simple rule builder allows users to configure powerful automation rules to handle even the most complex scenarios. Requires a Premium or Enterprise plan.
-How it works in Cloud
-Automation basics
-Confluence Cloud automation
-Jira Cloud automation
-Who it affects
-Administrators, Users
-Confluence, Jira Software, Jira Service Management
-Convert tables to charts
-Available in Cloud.
-What’s different
-Present table data dynamically as pie charts, bar charts, and line charts in your Confluence page. Make charts from your tables to do things like track work, create financial reports, and visualize survey data.
-How it works in Cloud
-Turn tables into compelling charts
-Who it affects
-Users
-Confluence
-Inline comments in the editor
-Available in Cloud.
-What’s different
-In Confluence Server, you could only add inline comments while viewing a page. In Confluence Cloud, you can also add inline comments when editing a page. This allows for more collaboration before the page is published, and makes actioning the comments even easier.
-How it works in Cloud
-Comment on pages, live docs, whiteboards, and blog posts
-Who it affects
-Users
-Confluence
-Live macro preview
-Available in Cloud.
-What’s different
-The way macros work in the new editor is significantly more user-friendly. While configuring macros, many render visually in the editor, rather than as a placeholder.
-How it works in Cloud
-What are macros?
-Who it affects
-Users
-Confluence
-Actions from the sidebar
-Available in Cloud.
-What’s different
-In Confluence Server, actions like creating, editing, and moving pages can only be done from the top navigation or directly in the page. In Confluence Cloud, you can also perform these actions from the page tree in the sidebar.
-How it works in Cloud
-Draft, publish, and update a page
-Who it affects
-Users
-Confluence
-Page headers, emojis, and page status
-Available in Cloud.
-What’s different
-In Confluence Cloud you can customize a page in a number of ways, including adding an emoji to the page title (which appears in the page tree), adding an image to the header, and a customizable status to represent the current state of the page.
-How it works in Cloud
-Make your content and its title more memorable
-Add a status to your content
-Who it affects
-Users
-Confluence
-Schedule publish
-Available in Cloud.
-What’s different
-In Confluence Cloud you can schedule the date and time for a page to be published. This is useful for things like company announcements, or pages that aren’t applicable until a particular date.
-How it works in Cloud
-Draft, publish, and update a page
-Who it affects
-Users
-Confluence
-Smart links
-Available in Cloud.
-What’s different
-When a link is pasted into the cloud editor it becomes a Smart link, and you have several options for how you want the link and its content to appear on your page. This gives you more control over how links appear.
-How it works in Cloud
-Insert links and anchors
-Who it affects
-Users
-Confluence
-Need help choosing?
-Still deciding whether cloud or Data Center is right for your organization? Head to our comparison page to explore the benefits of each.
-Learn more about the differences between Confluence Cloud and Data Center
+On this page, the terms 'source Confluence site' or 'source site' are used to mean the cloud site that Confluence Cloud data is being copied from.
+Before you start
+If your site also has Jira, you can link a Confluence space to a Jira project when importing a space by selecting the project from the
+Link to Cloud project
+dropdown on the import screen.
+Importing or migrating your Jira project
+If you are also importing or migrating a Jira project that is linked to your Confluence space, complete the Jira import
+before
+you import your Confluence space. This is so that Confluence can update any Jira macros to pull the Jira data from the new location.
+Changing space keys
+App admins can
+change space keys
+. If it is important to you to have a different space key, you can a;sp choose to create a new space with a different key, move your pages into that space, and then import the new space.
+The space importer does not overwrite existing spaces, so if your Confluence instance already has a space with the same space key as a space you are trying to import, Confluence will not be able to import that space.
+This applies to all space types, including personal spaces.
+Export the Confluence Cloud space content from the source site
+You must be the space admin to export.
+We can’t currently export databases
+They will appear in the tree when exported but won’t retain their content, data, or functionality.
+To export the space you want to copy:
+Go to your source site and select the
+Confluence Cloud
+space.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+General
+menu
+, then select
+Export space
+.
+This option will only be visible if you have the Export space permission.
+Only content that is visible to you will be exported except if you are a site admin, in which case all content will be exported.
+Select
+CSV
+and select
+Next.
+For detailed instructions, please refer to
+Export Content to Word, CSV, PDF, HTML and XML
+.
+If you're using a Mac to download the CSV export of a space, OS X may unzip the backup, place the unzipped folder in your downloads folder, and put the zipped backup in the trash. In this case, you should retrieve the zip from the trash and upload it to be imported into Confluence.
+If you try to upload the unzipped folder, you won't be able to successfully import and you'll get an error saying that Confluence can't find the
+exportDescriptor.properties
+file.
+Import the space content to the destination site
+You must be a site admin to import spaces.
+We can’t import whiteboards or databases
+Whiteboards and databases imported in this space won’t retain their content, data, or functionality.
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Data management
+in the left-hand navigation.
+Select
+Import spaces
+.
+Specify your file using
+Browse
+.
+If you're using Jira Cloud, you can also specify the Jira project you'd like to link to this space.
+Select
+Import.
+Imported spaces will be found under the spaces menu: Spaces >> View all spaces.
+If you're importing more than one space, once the first import has been completed, you can click
+Import another space
+and repeat as often as necessary until all your spaces have been imported.
+This procedure will not import:
+user accounts, meaning it doesn't give users app access or add them to any groups. It will, however, import some user data connected to the spaces you're importing. This is to make sure that mentions, comments, and page history stay active. User data that will be imported includes:
+full name
+username (discarded after importing)
+email address
+any groups.
+Any permissions settings (space or page) associated with groups will be lost during import, unless a group with the same name already exists in the destination site. To maintain your groups' permissions settings, make sure all your groups have a corresponding group with the same name that already exists in the destination site
+before importing the space
+. An easy way to do this is to first import users and groups,
+then
+import any spaces.
+If you have exported a space that was using the documentation theme, make sure you make a note of any wiki markup customizations you may have made to the theme, as these will not be automatically applied to the default theme when the space is imported.
 Was this helpful?
 Yes
 No
@@ -707,38 +551,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-The Confluence legacy editor
-FAQ: Understanding legacy editor deprecation
-Convert legacy editor pages
-Differences using Confluence legacy editor and cloud editor
-The legacy content macro
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
 On this page
-Summary of differences
-1. Works differently in Cloud
-Editor (cloud editor)
-Editor (legacy editor)
-Macros
-Nested macros
-Tables
-Templates
-View unpublished pages
-Delete content and child items
-2. Not available in Cloud
-Adding attachments from other pages
-Copy pages without attachments
-Edit files using Companion
-Right-to-left language support for editing and searching
-3. Only available in cloud
-Archive pages
-Cloud automation
-Convert tables to charts
-Inline comments in the editor
-Live macro preview
-Actions from the sidebar
-Page headers, emojis, and page status
-Schedule publish
-Smart links
-Need help choosing?
+Before you start
+Importing or migrating your Jira project
+Changing space keys
+Export the Confluence Cloud space content from the source site
+Import the space content to the destination site
 Community
 Questions, discussions, and articles
 Accessibility

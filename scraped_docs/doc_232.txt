@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/copy-space-permissions/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-are-questions-permissions/
 
-Copy space permissions  | Confluence Cloud | Atlassian Support
+Assign Questions for Confluence permissions | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -440,22 +443,14 @@ Space administration
 Manage permissions at the space level
 Cloud
 Data Center
-Copy space permissions
-Copy permissions from one space to another to save time and prevent mistakes. This feature will simplify permissions setup and ensure that all permission settings are consistent across all spaces.
-Requirements
-This feature is for users with a Premium plan.
-You must be a
-Confluence admin
-or
-space admin
-to use this feature. You must also have the
-Create space
-permission enabled.  Learn more about the Confluence
-permissions and restrictions
+Assign Questions for Confluence permissions
+Questions access is governed by
+Confluence space permissions
+. If someone has access to a space, they'll be able to view, ask, and interact with questions in that space.
+To change permissions for a space:
+Go to the space in
+Confluence Cloud
 .
-Copy the space permissions configuration from another space
-As a space admin, you can reuse permissions from an existing space and copy them into a new or existing space.
-Go to your space that you’d like to change permissions for (not the space you want to copy permissions from).
 Next to your space's name in the sidebar, select
 More actions
 (•••), then
@@ -464,15 +459,28 @@ Space settings
 Open the
 Space access
 menu
-and select any option.
-Note: This menu is only visible if you're a space admin in that space.
-Open the
-Copy permissions from another space
-dropdown menu.
-You can either search for a specific space or choose from your starred spaces.
-Select
-Apply
+and select
+Apps
 .
+Select
+Edit permissions
+.
+Change the
+View
+,
+Add
+, or
+Delete
+permissions for Questions for Confluence.
+Select
+Save all
+.
+For example, if you don't want all Confluence users to be able to access a particular space, and by extension its questions, remove the "View" permission for the default "confluence-users" group. If certain users can't see the space, they're already blocked from seeing questions in the space (they'll be able to see
+topics
+created with questions, but not the questions themselves).
+Global questions permissions
+When you install Questions for Confluence, A "global questions" space, called Questions for Confluence by default, is created. This space is where questions are kept when they're asked across your whole site rather than in a specific space.
+To make sure anyone logged in to Confluence has access to global questions, make sure the permissions for this space are left on their default settings (open to Confluence users).
 Was this helpful?
 Yes
 No
@@ -489,9 +497,6 @@ Copy space permissions
 Assign space permissions
 Make a space public with anonymous access
 Assign Questions for Confluence permissions
-On this page
-Requirements
-Copy the space permissions configuration from another space
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-microsoft-teams-and-confluence-together/
+URL: https://support.atlassian.com/confluence-cloud/docs/set-a-default-classification-level-for-content/
 
-Use Microsoft Teams and Confluence together | Confluence Cloud | Atlassian Support
+Set a default classification level for content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,154 +439,26 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Confluence with other applications
+Space administration
+Set space-specific functionality
 Cloud
 Data Center
-Use Microsoft Teams and Confluence together
-This integration isn't available in the
-Atlassian Government environment
-.
-You can soon
-create, edit, and share Confluence pages and live docs without leaving Microsoft Teams.
-Need to quickly find a Confluence page or doc? Add it to a tab.
-You can even let other teammates know about it too.
-Collaborating in Confluence without leaving Microsoft Teams
-It’s a time-saving way to collaborate with your teammates. And helps avoid the dreaded “too many open browsers” overload.
-Create and edit pages and live docs
-. Minimizes context-switching.
-Add a page or doc in a tab
-. An easy way to keep track without going back and forth between browsers.
-Get notified about edits and new content
-. Stay in the know.
-People can preview content you share
-. Take a quick look or read all the info right away.
-Search within Teams for previously shared pages and live docs
-. Information is never lost.
-Capture and share meeting notes as a group
-. Make decisions and agree on action items together.
-Get started
-To add the Confluence Cloud for Microsoft Teams app:
-Open your Microsoft Teams app.
+Set a default classification level for content
+Ensure your content in a chosen space is always classified by setting a default classification level for that space.
+What is a default classification level?
+You can set a default classification level for a space once your organization admin has set up classification levels for your organization.
+You must be a space admin to set a default classification level.
+To set a default classification level for a space:
+Go to the space in Confluence Cloud.
 Select
-Apps
-in the bottom right corner.
-Search
-Confluence Cloud.
+Space Settings
+from the sidebar.
 Select
-Open
-and follow the prompts to connect it.
-To share Confluence pages and live docs in Teams channels:
-Go to the chat window.
-Select
-…
-Type in Confluence Cloud to add the app.
-You need to join Confluence to collaborate on content within Microsoft Teams. When you connect the app, you can request access to Confluence from your Confluence admin.
-Create a new Confluence page
-Select
-Teams
-tab in the left panel.
-Select one of your channels.
-Click
-+
-in the top right.
-Click
-Confluence Cloud for Microsoft Teams app
-.
-Select
-Create page
-Select the
-Confluence site
-, then a
-Parent page
-.
-Add your page title and start writing.
-You can choose to save as a draft, share, and publish - it’s the same way you’d normally create a page, you’re just doing it from within Microsoft Teams.
-It’s not currently possible to create a new live doc from Teams.
-Need to update page permissions? Set them directly in Confluence.
-Add an existing Confluence page or live doc
-If you have multiple Confluence sites, you'll need to choose which site to search for content from.
-Select
-Teams
-tab in the left panel.
-Select one of your channels.
-Click
-+
-in the top right.
-Click
-Confluence Cloud for Microsoft Teams app
-.
-Select
-Attach page
-or
-doc.
-Search by title or choose a recently viewed page.
-You can select
-Post to the channel about this tab
-.
+Data classification
+from the Data protection card.
+Choose the classification level you want to apply as the default for items in this space.
 Select
 Save
-.
-Share a Confluence page or live doc in a channel
-Start a new conversation with someone or your team.
-Click the Confluence Cloud icon at the bottom.
-Select which page or doc you want to share.
-Type message and send.
-Use Confluence during a Teams meeting
-Click
-Calendar
-in the left menu.
-Click
-New Meeting.
-Create a
-meeting title
-and add
-required attendees
-(You'll need to add someone to the invitation first).
-Click
-Send
-and you'll see the meeting on your Calendar.
-Open the meeting and click
-+
-in the top right.
-Select
-Confluence Cloud
-to add notes to your meeting.
-Click
-Add.
-Click
-Save.
-You'll see a button for
-Start Notes
-to show you've successfully added the Confluence app to your meeting.
-Take notes
-You can start taking notes before, during, or after the meeting.
-Select
-Start Notes.
-Select
-Join
-will allow you to enter a meeting.
-Select the
-Confluence logo
-at the top right - that will open a side panel for you to take notes during your meeting.
-Select
-Publish
-then choose which Space to publish the notes to.
-After your meeting ends, the notes you took will also be sent to your meeting conversation.
-Uninstall the app
-You’ll see the
-Confluence logo
-in the left panel.
-Right-click the icon.
-Select
-Uninstall.
-Confirm
-Uninstall.
-Need support?
-This is built and maintained by Atlassian. If you need support, visit
-https://support.atlassian.com
-or contact
-support@atlassian.com
 .
 Was this helpful?
 Yes
@@ -595,23 +470,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Confluence with other applications
-Use Slack and Confluence together
-Use Jira and Confluence together
-Use Trello and Confluence together
-Use Microsoft Teams and Confluence together
-On this page
-Collaborating in Confluence without leaving Microsoft Teams
-Get started
-To add the Confluence Cloud for Microsoft Teams app:
-To share Confluence pages and live docs in Teams channels:
-Create a new Confluence page
-Add an existing Confluence page or live doc
-Share a Confluence page or live doc in a channel
-Use Confluence during a Teams meeting
-Take notes
-Uninstall the app
-Need support?
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
 Community
 Questions, discussions, and articles
 Accessibility

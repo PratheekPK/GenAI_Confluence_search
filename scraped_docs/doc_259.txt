@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/cases-where-pdf-export-may-revert-to-legacy-exporter/
+URL: https://support.atlassian.com/confluence-cloud/docs/give-access-to-unlicensed-users-from-jira-service-management/
 
-Cases where PDF Export may revert to using legacy exporter  | Confluence Cloud | Atlassian Support
+Give access to unlicensed users from Jira Service Management | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,33 +439,52 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Export content from Confluence Cloud
+Confluence administration
+Manage global permissions in Confluence administration
 Cloud
 Data Center
-Cases where PDF Export may revert to using legacy exporter
-PDF exporter will default to using legacy exporter when you’re exporting more than 2000 pages in the space or 1000 attachments. We recommend that you split the space to export.
-Watch our progress on scaling export features:
-CONFCLOUD-76314
-- Support space PDF exports above 2000 pages or 1000 attachments
-How do I determine which version of PDF export is being used?
-Space PDF export
-V1 Legacy PDF
-Progress bar shows text like
-Converted 33 pages of 44 to intermediate HTML
-In inspect network tab in developer tools it shows network calls with
-runningtaskxml.action
-to get progress
-V2 New PDF
-Progress bar doesn't show any text
-In inspect network tab in developer tools it shows network calls with
-progress
-to get progress
-Learn more about
-PDF export customizations
-and
-exporting content to PDF, CSV, HTML, and XML
+Give access to unlicensed users from Jira Service Management
+If you're using Confluence to power your
+Jira Service Management
+knowledge base, you can choose to allow all active users and customers (that is, logged-in users who do not have access to Confluence) to view specific spaces.
+This lets
+Jira Service Management
+agents and customers access articles from the help center and from the
+service project
 .
+To ensure
+Jira Service Management
+agents have access to view and edit articles in the knowledge base, a Confluence admin should:
+Go to Confluence Settings
+Select
+Global Permissions
+Select
+JSM Access
+tab
+Check “Use Confluence”
+Now in your
+Jira Service Management
+project:
+Navigate to the Project Settings
+Select
+Knowledge base
+Select
+All logged-in users
+under “Who can view”
+for your linked spaces
+If desired, select
+Service project users
+under “Who can edit”
+for your linked spaces
+This global Confluence permission will be enabled by default if your Confluence instance was initially created to serve as a knowledge base for Jira Service Management. It will also override all existing space permissions. This means that any logged-in Confluence user will also be able to see the space regardless of their group membership.
+Active users who don't have access to Confluence have very limited access to Confluence. They can view content, but can't like, comment, edit, view the dashboard, use the space directory, see user profiles, or search your full instance.
+You can edit this permission at any time to revoke access to a space, but access for JSM agents and customers can only be fully re-enabled from
+Jira Service Management
+project settings.
+You can also change permissions in the JSM Access tab of
+global permissions
+.
+Learn how to use Jira Service Management and Confluence together.
 Was this helpful?
 Yes
 No
@@ -473,9 +495,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Export content from Confluence Cloud
-Wide tables may be cut off in PDF export
-Cases where PDF Export may revert to using legacy exporter
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/wide-tables-may-be-cut-off-in-pdf-export/
+URL: https://support.atlassian.com/confluence-cloud/docs/monitor-and-manage-activity-in-confluence-cloud/
 
-Wide tables may be cut off in PDF export | Confluence Cloud | Atlassian Support
+Monitor and manage activity in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,52 +439,19 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Export content from Confluence Cloud
+Confluence administration
 Cloud
 Data Center
-Wide tables may be cut off in PDF export
-In Q2 2023 we released an update to PDF export that renders Confluence content more accurately.
-This update enables the use of installed languages without needing to install a custom font. If you’d like to use a custom font continue using the instructions on this page.
-You may still see the need for this if PDF export is falling back to the older method of PDF export which may occur with the following:
-IP Whitelisting Enabled
-Customize exports to PDF
-Advanced PDF export customizations
-Spaces over 2000 pages or 1000 attachments
-Even though a page or live doc may look great within Confluence, it will end up looking a bit different when exported to a PDF document. The most important change you need to be aware of occurs when you have tables on your content, especially when they contain images.
-Why are tables particularly problematic? PDF documents are almost always going to be narrower than your screen width, so we have to try and fit the same amount of content in less space. For most content, this isn’t a huge deal - text just spills onto the next line.
-However, rows within tables can’t do that - they have to stay as one unbroken row! When you have unbreakable content in a table, like images, there is a chance that it might get cut off because it won’t fit any more.
-What can I do to make sure my tables don’t get cut off?
-The easiest way to get around this is to try and keep your tables narrow. Here are a few things you can try:
-Resize your images to be a bit smaller when they’re inside a table.
-Invert the rows and columns so that your table gets taller rather than getting wider. As an example:
-First name
-Last name
-D.O.B
-Hair color
-Eye color
-Shirt size
-John
-Doe
-30 Dec 2017
-Black
-Brown
-Medium
-First name
-John
-Last name
-Doe
-D.O.B
-30 Dec 2017
-Hair color
-Black
-Eye color
-Brown
-Shirt size
-Medium
-Customize exports to PDF
-Using a combination of HTML and CSS, each space in your Confluence instance can have its own customized export.
-Another option to try is printing to pdf in landscape mode via your browser print command.
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Learn how the mission control center helps Confluence administrators proactively respond to activity across Confluence.
+View topic
+Download a spaces report
+Simplify space administration with reports that contain detailed information about your spaces.
+View topic
+View the audit log
+Use the audit log to troubleshoot problems or simply keep a record of changes made in your Confluence Cloud instance.
+View topic
 Was this helpful?
 Yes
 No
@@ -492,9 +462,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Export content from Confluence Cloud
-Wide tables may be cut off in PDF export
-Cases where PDF Export may revert to using legacy exporter
+Explore more
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Monitor and manage activity in Confluence Cloud
+Premium admin tools for Confluence Cloud
+Manage global permissions in Confluence administration
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/invite-guests-for-external-collaboration/
+URL: https://support.atlassian.com/confluence-cloud/docs/bypass-access-restrictions-on-a-page-with-admin-key/
 
-Invite guests to Confluence | Confluence Cloud | Atlassian Support
+Bypass page restrictions with admin key | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,200 +439,38 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Atlassian administration for Confluence Cloud
-Actions that require an organization or site admin
+Confluence administration
+Premium admin tools for Confluence Cloud
 Cloud
 Data Center
-Invite guests to Confluence
-Not all teamwork happens inside the (sometimes virtual) walls of a single organization. Sometimes you need to partner with other companies to build integrations, work with agencies to bring marketing campaigns to life, bring in contractors and consultants to help get big projects over the line, and so on.
-With single space guests, you can do all of that work without leaving Confluence.
-Guests are free of charge (
-up to 5 guests per paid user
-). Total number of users (paid + guests) can't exceed the current Confluence site
-user limit
+Bypass page restrictions with admin key
+This feature is offered with
+Confluence Cloud Premium and Enterprise
 .
-Important policy information
-You may not convert current or former paid users to guests. The purpose behind the guest feature is to invite users outside of your organization.
-Atlassian reserves the right to restrict your access to the feature if you’re not using it in compliance with this purpose and the guidelines outlined in Atlassian documentation. Atlassian also reserves the right to change the ratio of guests to paid users.
-To dive deeper into what to expect when collaborating with guests, see
-What can guests see and do in Confluence?
-Guests are not currently supported in Confluence mobile apps. For more information, see
-https://jira.atlassian.com/browse/CONFCLOUD-76382
-.
-Give guests access to your Confluence site
-To give guests access to your site, you need to:
-Invite them to join your Atlassian organization.
-Give them app access to Confluence as a guest.
-Assign them the space they’ll be collaborating in.
-Guests can’t use Confluence at all without space access
-See
-Assign space access to guests
-for directions on how to get guests assigned the right space access.
-Note:
-Any guest that has app access to Confluence can access any spaces on that site that
-allow anonymous users
-.
-Manage external users with added security
-When bringing external people into your Confluence data, there’s always tension between the value of that collaboration and having clear and confident control over what areas of your data those external people should access.
-With Atlassian’s external user security features, you can sleep well at night. These include:
-Two-step verification
-Periodic re-verification
-Reviewing external users before changing security settings
-API token access
-Learn more about external user security
-Invite guests and give them Confluence access
-Only organization or site admins can invite guests to Confluence.
-The first step in getting guests set up and collaborating on your Confluence site is to invite them to join your Atlassian organization. Next, those guests need to be given access to Confluence.
-Give guests Confluence access individually
-You can invite up to 10 guests at a time using this path.
-Go to
-admin.atlassian.com
-. If you have more than one organization, select the one you want.
-Select
-Directory
->
-Users
-.
-Select
-Invite users
-.
-Add the email addresses of the guests you want to invite. (You can invite up to 10 guests at time.)
-Open the app role dropdown for Confluence.
-Unselect the
-User
-role.
-If you don’t unselect this, the user will be considered a regular paid user.
-Select the
-Guest
-role.
-Make sure to select the correct role for all other apps. (Guests are only available in Confluence.)
-If in doubt, skip the
-Group membership
-field. It’s not required.
-(Optional) Personalize the email invite that the guests will receive.
-Select
-Invite users.
-This is the 1st of a 2 step process.
-Guests can’t access Confluence until you assign space access for them.
-Give guests Confluence access via a guest group
-Access management is often easier to manage (especially at scale) using groups.
-To create a group
-, see
-Create groups
-.
-To change a group into a guest group:
-Go to
-admin.atlassian.com
-and select the
-Directory
-tab.
-Select
-Groups
-in the side navigation.
-Search for the group you want to make a guest group.
-Select the group name or
-Show details
-.
-Go to the
-Group app access
-section at the bottom.
-Find the right Confluence site and change the app role to
-Guest
-.
-The group itself (as an object) won’t be added to Confluence. The system will read all members of the group and add them individually.
-To invite new guests and give them Confluence access via a guest group:
-Go to
-admin.atlassian.com
-.
-Select
-Directory
->
-Users
-.
-Select
-Invite users
-.
-Add the email addresses of the guests you want to invite. (You can invite up to 10 guests at time.)
-Unselect all roles for all apps.
-Search for and select the group or groups that you want to assign the guest to.
-(Optional) Personalize the email invite that the guests will receive.
-Select
-Invite users.
-As long as all groups you’ve selected have the guest role assigned to them, the users you’re adding to them will be granted the guest role automatically.
-Make sure all groups are assigned the guest role
-If any groups you add guests to have the “User” or “App admin” role, the guests will be given regular access to Confluence and considered paid users.
-Give guests full access to Confluence
-If working with your guest requires deeper collaboration, you can promote them into a licensed user with full access to Confluence.
-To give a guest full access:
-Go to
-admin.atlassian.com
-.
-Select
-Directory
->
-Users
-.
-Search for the guest you want to promote.
-Select the user’s name or ••• >
-Show details
-.
-In
-App access
-, find the right Confluence site and open the app role dropdown.
-Select
-User.
-Unselect
-Guest
-.
-To give a guest group full access:
-Go to
-admin.atlassian.com
-and select the
-Directory
-tab.
-Select
-Groups
-in the side navigation.
-Search for the group you want to make a guest group.
-Select the group name or
-Show details
-.
-Go to the
-Group app access
-section at the bottom.
-Find the right Confluence site and change the app role to
-User
-.
-Remove a guest’s access to Confluence
-There are 2 ways to stop a guest from accessing Confluence:
-unassign them from a space
-remove their app access
-To unassign a guest from a space,
-see instructions in
-Assign space access to guests
-.
-Without access to any space, a guest can’t access Confluence at all but will remain in the guest list. An app admin or space admin can reassign them to a space at any time.
-To remove a guest from Confluence altogether:
-Go to
-admin.atlassian.com
-.
-Select
-Directory
->
-Users
-.
-Search for the guest you want to remove app access for.
-Select the user’s name or ••• >
-Show details
-.
-In
-App access
-, find the right Confluence site, open the app role dropdown, and unselect the check next to
-Guest
-.
-This will remove the guest from the guest list in Confluence’s
-Global permissions
-.
+As an organization admin, there may be times when you need to access content that you haven’t been given permission to view. For example, you may need to unlock a restricted page or space created by an inactive user, or you may need to diagnose content access issues. Admin key allows organization admins to access restricted content so they can address these needs. Site admins on the
+original user management
+experience can also use admin key.
+Use admin key to access a restricted page
+To use admin key, go to the page you need to access, and click
+View now
+in the admin key panel.
+This enables admin key and gives you full access to the page. When you use admin key to access a page or other piece of content, we’ll record it in the audit log and send an email notification to the content owner. We’ll also record any changes you make in the audit log and version history.
+Once admin key is enabled, you’ll be able to see and navigate to other restricted content on your instance. If a content item is restricted, there will be a red lock icon next to its name in the content tree.
+When you’re done using admin key, select
+Stop using admin key
+from the banner at the top of your screen. For security reasons, you’ll lose access to restricted content after a few minutes of inactivity.
+What's in the audit log and email notification?
+When you use admin key to access a piece of content, we record the following information in the audit log:
+Your name
+The date and time you used admin key
+The fact that you logged in and out of admin key
+The name of the content you accessed and whether you viewed or edited the content
+Permissions changes you made, if any
+We also send an email notification to the content owner. The email notification includes the following information:
+Your name
+The name of the content you accessed
+An explanation of why admins typically use admin key
+And, we let the content owner know your changes are recorded in the audit log and verison history.
 Was this helpful?
 Yes
 No
@@ -640,20 +481,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Actions that require an organization or site admin
-Manage your storage usage
-Invite guests to Confluence
-Removing users and downgrading to Confluence Free
-Adjust permissions before downgrading to Confluence Free
-What happens when an account is deactivated vs. deleted?
+Premium admin tools for Confluence Cloud
+Post Confluence-wide announcements in a banner
+Inspect a user's permissions
+Bypass page restrictions with admin key
 On this page
-Give guests access to your Confluence site
-Manage external users with added security
-Invite guests and give them Confluence access
-Give guests Confluence access individually
-Give guests Confluence access via a guest group
-Give guests full access to Confluence
-Remove a guest’s access to Confluence
+Use admin key to access a restricted page
+What's in the audit log and email notification?
 Community
 Questions, discussions, and articles
 Accessibility

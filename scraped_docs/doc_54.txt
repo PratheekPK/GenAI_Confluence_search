@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/database-views/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-jira-events/
 
-Database views | Confluence Cloud | Atlassian Support
+Add Jira events | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,67 +439,72 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Database views
-Databases aren’t available in the
-Atlassian Government environment
+Add Jira events
+Jira events enable you to visualize versions, issues or sprint dates from
+Jira applications
+. To use this feature, you must have Confluence and your Jira applications set up with a secure connection between them. See
+Install Team Calendars
 .
-Depending on your needs, you can view the same database in multiple ways and change between them. You can select a layout and add filters and sorts to categorize your content within a view easily.
-Create and switch views
-When you first create a database, the default view is View 1. After this, you can create a new view by selecting
-+
-next to your existing views.
-Depending on your screen size, you may have to open the menu next to your current view and select
-Add view
-.
-The
-View settings
-dialog will open. You must name the new view and configure the layout, filters, sorting, and hidden fields.
-Switch views by simply selecting the tab of the view you want to use.
-Temporary views
-You can change layouts, apply filters, sort, and hide fields without saving them as a new view. This allows you to change how you see the data in your database temporarily. Only you can view temporary views; you will lose any changes when you refresh the page or navigate away. To keep or share these view changes, you must save them as a new view or save the changes to an existing view.
-Customize views
-Each view of the database has several components that you can customize:
-Layout and Layout options:
-Choose how you want your database to be visually organized and configure options for your views selected layout.
-See
-Layouts and options
-for more information on different layout options.
-Filters:
-Add criteria based on field values to show or hide data.
-See
-Filter your data
-for more information on filter options.
-Sorts:
-Sort by a field to change the order in which you display entries.
-See
-Sort fields
-for more information on sorting fields.
-Hide field:
-Show or hide database fields for each view.
-See
-Hide fields in your database
-for more information on hiding fields in a view.
-View actions
-When you’re in a given view, select the arrow next to its name to access the following option:
-Edit view
-Make default
-Copy link
-Delete view
-Share views
-Once you've created your view, you can share it with others in two ways:
-Copy and paste the URL:
-With the desired view active, simply copy the URL from your web browser's address bar. This link will automatically display your chosen view when pasted onto a Confluence page, or anywhere that supports Smart Links.
-Use the 'Copy link' option:
-When you're in a given view, select the arrow next to its name, and select
-Copy link
-from the view actions menu. This will provide a ready-made URL to share.
-Want to learn more about advanced sharing options and permissions? Our documentation has a section on
-Share databases, entries, or values
-.
+Add Jira events
+When you create an event, there are multiple Jira event types you can choose from. These are:
+Jira Issue Dates
+– Embed a single Jira issue date or the duration between any two issue dates. For example, embed due dates for Jira issues, or, if you have custom fields, embed a scheduled deployment date.
+What if you want to see the duration for a particular issue? You may have fields like 'Deployment Start Date' and 'Deployment End Date' or 'Issue Start' and 'Issue End Date'. Team Calendars allows you to visualize the duration between any two dates.
+Jira
+Sprints
+– If your team is using
+Jira
+to plan their work, you can also embed your Sprints inside your Team Calendar. This helps you see the duration of your sprint and how your team's availability or other team events could impact the sprint.
+Jira Project Releases –
+Jira versions help you define a release for your projects. You can embed and visualize your Jira project versions to see how your releases are progressing.
+Update Jira events in Team Calendars
+From Team Calendars, you can:
+Update Jira project version dates
+Update Issue dates
+Drag-and-drop the event or update its date, and it will automatically update in your Jira application. Currently, you can't update your
+Jira
+sprint dates.
+Add Jira issue dates
+You can embed virtually any issue date in Team Calendars from your Jira application. Embed Jira issue dates as:
+A single date
+A duration between two specified dates
+When adding Jira issue dates, you'll be presented with the following display options:
+Project
+– A quick and easy way to map out project issues on a calendar
+Saved filter
+– For more advanced filtering as well as support for multiple projects.
+JQL
+– Power users can use
+JQL
+to create a Jira calendar.
+If you select
+Saved filter
+or
+JQL
+, Team Calendars will render all available date fields that are available for all projects selected in your filter. If there are dates that are only available to one project, and not another in the filter, they will not render in the list of possible fields to show.
+Upon selecting a Project, Saved Filter or JQL, you'll be presented with all possible dates that can be rendered in Team Calendars. For those of you with
+Jira
+, Team Calendars can also embed your
+Jira
+sprint durations right on your Jira Calendars.
+Once the calendar is created, depending on what you've selected, you can see:
+Issue dates
+Jira project version due dates
+Jira
+sprint durations
+You can't add content to Jira calendars as they source all of their date information from the Jira system. To add issues and version deadlines, add them in the JIRA application's interface.
+You can drag-and-drop your Jira issue dates and project versions to re-schedule them right from Team Calendars.
+When you create a Jira calendar, all users in your system can see the calendar name in Confluence. The actual calendar events (issues, versions, sprints), however, automatically respect your
+Jira application permissions
+, so it's possible for users to be subscribed to a Jira calendar and not see all events.
+Next steps
+Subscribe to and from Team Calendars from other calendars.
+Subscribe to Google Calendars from Confluence
+Export to other calendars
 Was this helpful?
 Yes
 No
@@ -507,20 +515,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
+Use Team Calendars for Confluence (Premium feature)
 Show more
-Database fields
-Share databases, entries, or values
-Database views
-Layouts and options
-Filter your data
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
 Show more
 On this page
-Create and switch views
-Temporary views
-Customize views
-View actions
-Share views
+Add Jira events
+Update Jira events in Team Calendars
+Add Jira issue dates
+Next steps
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/pre-format-your-content-with-templates/
+URL: https://support.atlassian.com/confluence-cloud/docs/celebrate-your-work-with-confluence-recap/
 
-Create templates, blueprints, and reports | Confluence Cloud | Atlassian Support
+Celebrate your work with Confluence Recap | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,51 +439,51 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Collaborate on content and get notified in Confluence Cloud
+Get notified about content and activity
 Cloud
 Data Center
-Create templates, blueprints, and reports
-When you add new content, you don't have to start from scratch. Instead, you can base your new content on a template – with predefined content. Confluence Cloud comes with
-more than 70 templates
-to help you with everything from taking meeting notes to defining your business strategy. If that’s not enough, you’ll find more templates on the
-Atlassian Marketplace
-, and you can even
-create your own
+Celebrate your work with Confluence Recap
+View a seasonal Recap of your work in Confluence. Celebrate the work you and your teammates have done over six months (July- December 2024)!
+What’s included in your recap
+We’ve included stats on the content you created and worked on, including anything you may have commented on or edited.
+Section
+Data
+You’ve been quite productive
+Total number of pages, live docs, whiteboards, databases, blogs, and Smart Links you’ve created OR edited in the 6 month period.
+Your most edited pages and live docs
+Pages and live docs you worked on during the 6 month period that had the most number of updates or versions.
+People love your work
+Pages you owned during the 6 month period that received the most number of comments or reactions.
+Silos were no match for you
+A list of spaces you’ve worked in during the 6 month period. We order this list based on the number of times you’ve created or updated content in each space.
+Teamwork makes the dream work
+People you collaborated with via comments or edits.
+Confluence Personality
+We match you with a personality based on your activity patterns in Confluence.
+Finding your Confluence Recap
+There are 2 ways to find your recap. We send a notification via email and in-app.
+In your email, you should have received a link to your Confluence Recap. Be sure to check your spam folder as well.
+You also should have received a notification in Confluence. To learn more about in-app notifications, review this guide
+View your notifications
 .
-This section contains information on how to use content templates, as well as how
-space administrators
-can manage them for an individual space. For information on how to manage templates for your whole site, see
-Administering site templates
-.
-What’s the difference between a template and a blueprint?
-Blueprints are templates created by Atlassian or by third-party developers. From an end-user perspective, blueprints and templates are the same, but there are some important differences for administrators.
-Site administrators
-can:
-Install global blueprints from the
-Atlassian Marketplace
-Enable and disable global blueprints
-Edit existing global blueprints
-Promote and unpromote global blueprints
-Space administrators
-can:
-Enable and disable blueprints for the space they manage
-Edit blueprints to customize them for their space
-Promote and unpromote blueprints within their space
-Neither site administrators nor space administrators can create blueprints. However, they can
-create custom templates
-.
-Create a template
-Create custom templates to ensure that content on similar pages or other items is consistent.
-View topic
-Edit a template
-Edit an existing template to add or remove content.
-View topic
-Promote a template
-Promote useful or popular templates to make them easier to find.
-View topic
-Create a custom report
-Combine templates and macros to create custom reports in Confluence.
-View topic
+Note: If you unsubscribe from Confluence emails, the only way to access your Recap is through the in-app notification. To receive future Recap emails, make sure you are subscribed to Confluence emails.
+Who can see my Recap?
+All Recaps are in draft states. Only you can see your recap until you’ve published it.
+Note: If you have enabled Live Docs in your personal space, then your Recap will be published when you click the notification to view it.
+What can I do with my Recap?
+We encourage you to spark a conversation and share it with a friend or coworker. Publish your page to share your awesome stats and compare your Confluence personalities.
+Is there a way I can see specific dates for my Recap?
+The recap is only available for the second half of 2024. Keep a lookout for future versions of the Confluence Recap so you can stay in tune with all the awesome work you’ve done.
+I didn’t receive a recap
+To receive the Confluence Recap, the following conditions must be met:
+Users must be active between July 2024 - December 2024. Active means having completed one of the following actions in Confluence during this time:
+Created
+Viewed
+Commented
+The site must have at least 3 total active users to receive the Confluence Recap.
+The user must have a personal space at the time the Recap is sent.
+Pro tip: To enjoy the best Recap experience on mobile, be sure to update to the latest version of Confluence from the app store.
 Was this helpful?
 Yes
 No
@@ -491,19 +494,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Create a template
-Edit a template
-Promote a template
-Create a custom report
-Space administration
+Get notified about content and activity
 Show more
-Manage content in a space
-Remove a space
-Create templates, blueprints, and reports
-Manage team calendars
-Manage Questions for Confluence
-Show more
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+On this page
+What’s included in your recap
+Finding your Confluence Recap
+Who can see my Recap?
+What can I do with my Recap?
+Is there a way I can see specific dates for my Recap?
+I didn’t receive a recap
 Community
 Questions, discussions, and articles
 Accessibility

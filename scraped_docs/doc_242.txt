@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-are-votes-and-experts/
+URL: https://support.atlassian.com/confluence-cloud/docs/administer-confluence-cloud-sites/
 
-What are votes and experts? | Confluence Cloud | Atlassian Support
+Confluence administration | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,45 +439,47 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Questions for Confluence
 Cloud
 Data Center
-What are votes and experts?
-Vote up and down
-Votes enable users to indicate whether they found a question or answer helpful, and to build user reputation.
-Up vote useful questions and answers, down vote the ones that are not helpful.
-Earn points
-Earn points by contributing to your Q&A community:
-15 points when your answer is accepted
-10 points each time your question or answer is upvoted
--2 points each time your question or answer is down voted.
-You're not awarded points for answering or up voting your own questions!
-Become an expert
-Users can track their reputation on the Experts leader board. This is a great way to motivate users to answer questions and build a great community.
-The leader board recognizes the top experts for the current week, and the top experts of all time. There's also a leader board for each topic, to recognize experts in specific fields.
-Was this helpful?
-Yes
-No
-It wasn't accurate
-It wasn't clear
-It wasn't relevant
-Provide feedback about this article
-Still need help?
-The Atlassian Community is here for you.
-Ask the Community
-Use Questions for Confluence
-Install Questions for Confluence
-Ask a question
-Watch and edit topics
-What are votes and experts?
-Admin settings for Questions for Confluence
-On this page
-Vote up and down
-Earn points
-Become an expert
-Community
-Questions, discussions, and articles
+Confluence administration
+Get started as Confluence Cloud administrator
+Get started on the things you need to know as a Confluence Cloud admin.
+View topic
+Set Confluence-wide functionality
+Set up default settings for Confluence Cloud.
+View topics
+Monitor and manage activity in Confluence Cloud
+Confluence administrators can learn where to proactively monitor and respond to insights and events across Confluence.
+View topics
+Premium admin tools for Confluence Cloud
+Learn about premium tools available to Confluence administrators with a Premium or Enterprise plan.
+View topics
+Manage global permissions in Confluence administration
+Everything a Confluence admin needs to know about managing global permissions.
+View topics
+Manage analytics permissions in Confluence administration
+What a Confluence admin needs to know about setting Confluence analytics permissions.
+View topics
+Manage Confluence content templates
+Learn about global templates and how to administer them.
+View topics
+Configuration settings in Confluence Cloud
+Focus on the settings and configurations you can manage in Confluence Cloud.
+View topics
+Security settings in Confluence Cloud
+Customize security-related settings in Confluence Cloud like preventing spam or hiding links from search engines.
+View topics
+Look and feel settings in Confluence Cloud
+Customize the look and feel of a Confluence Cloud instance to match your organization's branding.
+View topics
+Data management in Confluence Cloud
+Review the steps needed to export and/or migrate Confluence Cloud data to a new instance or space.
+View topics
+Atlassian Marketplace apps
+Install or uninstall add-on Atlassian Marketplace apps that extend Confluence functionality.
+View topics
+Confluence automation administration
+View topics
 Accessibility
 Notice at Collection
 Privacy Policy

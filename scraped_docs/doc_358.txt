@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/display-files-and-images/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-add-navigation-on-confluence-pages/
 
-Display files and images | Confluence Cloud | Atlassian Support
+Use macros to add navigation on Confluence pages | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,95 +439,31 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Upload and manage files
+Extend the functionality of Confluence Cloud
 Cloud
 Data Center
-Display files and images
-You can upload most file types to the Editor. How you display these depends on the type of file uploaded.
-How to upload files to the Editor
-Insert a file, image, or video into your page
-To upload a file, you'll need
-Add Attachments
-permission for your Space. Otherwise, the relevant options in the editing toolbar will not appear.
-Images and videos
-Inserting a file, image, or link to a page or live doc also adds it as an attachment.
-To insert a file, image, or link while editing:
-Drag the file directly onto the page.
-Select the
-Add image, video, or file
-button from the main toolbar.
-Type
-/files
-or
-/images
-, select
-Image, video, or file
-.
-After an image or video is inserted, you can:
-Resize it by dragging the handles on either side.
-Set its width or height in pixels by entering a value in the toolbar.
-Add a caption. The caption’s text size and alignment can't be changed, but you can apply other formatting.
-When you select an uploaded image or video, a floating toolbar appears.
-The floating toolbar lets you control:
-Border options —
-Add borders and change their color and size.
-Image alignment —
-Determine how the image or video is aligned on the page and how the text should flow around your image or video.
-Inline (images only) —
-Display the image or video within the text.
-Original size (images only) —
-Display the image as a separate block element.
-Width and Height —
-Set the width or height of an image or video.
-Add or view comment —
-Add or view comments on an image or video.
-Link (images only) —
-Add a link to a Confluence page or an external URL.
-Preview (images only) —
-Preview the image full size while editing.
-Edit alt text —
-Add supplemental text accompanying an image or video for all users. Alt text can help add more context and meaning to the image or video and can be very effective in assisting people of all types to understand the image or video better.
-Copy —
-Copy the image to paste it somewhere else.
-Remove —
-Remove the image from the page or live doc.
-If you delete an image from a page or live doc, you will need to upload it again to add it back. You cannot add an image from the
-Attachments
-view.
-Files
-When you insert a file onto a page or live doc, it will appear as an inline tile or a thumbnail.
-You can use the files' floating toolbar to control:
-View inline or as a card
-— Display the file inline or as a thumbnail.
-Preview
-— Preview the file in fullscreen view. Select
-to close the preview.
-Download
-— Download the file to your computer or device.
-Copy —
-Copy the file to paste it somewhere else.
-Remove —
-Remove the file from the page or live doc.
-Delete files from your content
-When editing a page or live doc there are several ways to delete a file:
-Select the
-icon in the floating toolbar for an image
-Select the X icon or the Delete key when focused on a file.
-If you delete a file or image in the editor, the attached file isn't deleted.
-To completely remove the file from a page or live doc:
-Go to the
-...
-menu →
-Attachments
-→
-Files
-→
-Delete
-.
-If you see a
-Failed to load
-placeholder on your page or live doc that indicated the attached file has been deleted from the page or live doc (or another content item).
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Create an anchor link next to text you want to be able to hyperlink to from another place.
+View topic
+Insert the Live Search macro
+Add a search box to a page or live doc with parameters you set, like space, content type and label.
+View topic
+Insert the Page Index macro
+Create an alphabetical index of all page titles in a current space.
+View topic
+Insert the content tree macro
+Present a dynamic, hierarchical list of content starting from a specified parent (root) item.
+View topic
+Insert the page tree search macro
+Add a search box so that others can search in a certain section of the page tree.
+View topic
+Insert the table of contents macro
+Configure the table of contents macro to display certain heading levels from the current page or live doc.
+View topic
+Insert the table of content zone macro
+Use the table of contents zone macro to determine which section of the page's content is used as the page TOC.
+View topic
 Was this helpful?
 Yes
 No
@@ -535,16 +474,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Upload and manage files
-Upload a file
-Display files and images
-Manage uploaded files
-Share and comment on files
-On this page
-Insert a file, image, or video into your page
-Images and videos
-Files
-Delete files from your content
+Explore more
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Show more
+Extend the functionality of Confluence Cloud
+Show more
+Use macros to add development info on Confluence pages
+Use macros to include media on Confluence pages
+Use macros to add navigation on Confluence pages
+Use macros to add reporting info to Confluence pages
+Use macros to add visuals and images to Confluence pages
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

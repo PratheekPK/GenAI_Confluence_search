@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-viewing-permissions-for-analytics/
+URL: https://support.atlassian.com/confluence-cloud/docs/duplicate-a-database-setup/
 
-Control which groups can use analytics | Confluence Cloud | Atlassian Support
+Duplicate a database setup | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,59 +439,40 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Manage analytics permissions in Confluence administration
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Control which groups can use analytics
-This feature is offered with
-Confluence Cloud Premium and Enterprise
+Duplicate a database setup
+Databases aren’t available in the
+Atlassian Government environment
 .
-Set who can view analytics in Confluence
-If you're a Confluence administrator, you can control who can view analytics on your instance. Set
-global permissions
-by allowing or denying groups access to analytics.
-Browse to the Confluence administration.
-Click
-Security
->
-Analytics permissions
-in the sidebar.
-Edit, select the groups, and click
-Save
+A good database structure can take time to setup perfectly. So don't let everyone in your company figure it out alone. Instead, enable other teams to use your progress by copying a database structure.
+This article will teach you how to copy your database setup to another space and what limitations to look out for.
+How to copy your database structure
+Copying the database structure does not mean copying the values and entries in a database. Use
+Copy
+from the More menu next to share an exact copy of both the data and structure
+Navigate to your database.
+Open more menu and select
+Copy structure
 .
-Notes on global permissions:
-When no restrictions are applied at the global level, new groups added to your instance will have access to analytics.
-When at least one group is denied access to analytics, all new groups will also be denied access by default.
-Anonymous users can't view analytics.
-Set who can view analytics in a space
-If you're a space administrator, you can control who can view analytics in your space. Set
-space permissions
-by allowing or denying users or groups access to analytics.
-A user or group must have analytics permissions at the global Confluence level before they can be granted space-level permissions.
-Go to the space in
-Confluence Cloud
-.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
-menu
-and select
-Analytics Permissions
-.
+Enter a name and select a space for your new database.
 Select
-Viewing analytics restricted
-from the drop-down menu.
-Type a name into the search box to find a person or group, then select the correct entry to grant them access. To revoke access, select
-Remove
-next to their name on the list.
-Select
-Save
-to save your changes.
+Copy
+to create and open the new copy of your database.
+Limitations
+This process copies your database structure. Please make sure to copy over excluded elements if needed manually.
+What is copied:
+Database name (set during copy)
+Settings
+Fields and their field settings
+Saved views and their view options
+What isn't copied:
+Permissions
+Links to database embeds
+Database page (selected as parent page in your page link settings)
+Space templates (selected as default content in your page link settings)
 Was this helpful?
 Yes
 No
@@ -499,11 +483,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage analytics permissions in Confluence administration
-Control which groups can use analytics
+Create and edit databases
+Show more
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Show more
 On this page
-Set who can view analytics in Confluence
-Set who can view analytics in a space
+How to copy your database structure
+Limitations
 Community
 Questions, discussions, and articles
 Accessibility

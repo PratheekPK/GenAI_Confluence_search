@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-miro-boards-in-confluence-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-team-calendars-for-confluence/
 
-Import Miro boards in Confluence whiteboards | Confluence Cloud | Atlassian Support
+Use Team Calendars for Confluence (Premium feature) | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,86 +439,66 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Extend the functionality of Confluence Cloud
 Cloud
 Data Center
-Import Miro boards in Confluence whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-Bring your Miro content to Confluence whiteboards and collaborate seamlessly with your team. Import your whiteboards from Miro into Confluence to unlock features like smart connectors, smart sections, real-time editing, and experience brainstorming and collaboration like never before. Plus, keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
-Export your Miro board
-In Miro, open the board you wish to export.
-Open the export menu in the top-left corner of the board, then select
-Save as image
-.
-Select the area of the board that you’d like to export.
-Select the
-Vector
-option.
-Click the
-Export
-button.
-For more information on exporting Miro boards,
-see the Miro support documentation
-.
-You must
-Save as image
-to import editable elements to your Confluence whiteboard.
-Import to whiteboards
-Whiteboards currently only support PDF or image file importing.
-Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
-You can import your content in two ways:
-Drag your image or file into your whiteboard.
-On the toolbar, select the More menu (
-…
-), select
-Whiteboard import,
-navigate to your file, and select it.
-Select your content type.
-The import process will complete.
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
-For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
-How Miro elements import to Confluence whiteboards
-Miro
-Confluence whiteboards
-Sticky notes
-Sticky notes
-Frames
-Rectangles
-Borders
-Borders
-Draw
-Images
-Website embeds
-Images
-Jira cards
-Jira Smart Links
-Tables
-Recreated with lines and rectangles
-GIFs
-Images
-Text
-Text
-Stamps
-Images
-Tags
-Text in rectangles
-Mind maps
-Rectangles, lines, and connectors
-Limitations
-Some limitations and differences between your Miro board and Confluence whiteboard will occur.
-Importing comments is not supported, but you can comment on Confluence whiteboards.
-Colors will be mapped to the closest Confluence whiteboards colors.
-Connectors will not import, but they can be recreated in Confluence whiteboards.
-Rotated elements will import unrotated.
-Shapes supported in whiteboards will import as shapes. Shapes that are not supported will import as images.
-Locked elements will not remain locked when imported, but you can manually lock them in Confluence whiteboards.
-Talk tracks are not supported in whiteboards.
-Whiteboards have a 10,000 element limit.
-Importing may take longer than a minute for boards with many elements, large images, or a lot of content.
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Learn about the Team Calendars feature that is available with a Premium licence.
+View topic
+Getting started with team calendars
+Create calendars for yourself and your team, and view other calendars from your organization, all in one place.
+View topic
+Add events
+Add events to your calendars and categorize them into different event types for easier viewing and management.
+View topic
+Add Jira events
+Use Jira events to visualize versions, issues, or sprint dates from Jira applications that are connected to your Confluence site.
+View topic
+See standard event types
+Classify different events in your Team Calendars.
+View topic
+Add and delete custom event types
+Manage custom event types in your Team Calendars.
+View topic
+Add reminders to events
+Create event reminders in your Team Calendars.
+View topic
+Embed calendars on Confluence content
+Learn how to embed Team Calendars in your Confluence pages and live docs.
+View topic
+Watch a calendar
+Stay up-to-date on changes made in Team Calendars using the watch feature.
+View topic
+Subscribe to Team Calendars from Apple Calendar
+Subscribing to Team Calendars from an Apple calendar is a great way to keep track of your team's activities.
+View topic
+Subscribe to Team Calendars from Thunderbird
+View topic
+Subscribe to Google Calendars from Confluence
+Subscribing to Google Calendars from Team Calendars is a convenient way to see all your events in one place.
+View topic
+Subscribe to Team Calendars from Google Calendar
+Subscribing to Team Calendars from a Google calendar is a great way to keep track of your team's activities.
+View topic
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribing to Team Calendars from a Microsoft Outlook calendar is a great way to keep track of your team's activities.
+View topic
+Subscribe to Team Calendars from Apple iOS Calendar
+Subscribing to Team Calendars from an Apple iOS calendar is a great way to keep track of your team's activities.
+View topic
+Export to other calendars
+Export your Team Calendar data for inport into other calendars.
+View topic
+Set system properties
+Learn how to troubleshoot issues with Team Calendars by enabling configuration and debugging settings.
+View topic
+Team Calendars FAQs
+Review the top frequently asked questions about Team Calendars.
+View topic
+Subscribe to Team Calendars from Google Calendar (Android)
+View and update Team Calendar events in Google Calendar.
+View topic
 Was this helpful?
 Yes
 No
@@ -526,20 +509,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Explore more
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
 Show more
-Set your whiteboard preferences
-Import Figjam boards in Confluence whiteboards
-Import Miro boards in Confluence whiteboards
-Import Mural boards in Confluence whiteboards
-Import Jamboard whiteboards in Confluence whiteboards
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Use Company Hub to deliver key information to employees
+Use Confluence with other applications
+Use macros to show Confluence content on pages and live docs
+Use macros to add development info on Confluence pages
 Show more
-On this page
-Export your Miro board
-Import to whiteboards
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-How Miro elements import to Confluence whiteboards
-Limitations
 Community
 Questions, discussions, and articles
 Accessibility

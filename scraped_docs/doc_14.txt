@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/
+URL: https://support.atlassian.com/confluence-cloud/docs/view-a-page/
 
-Manage permissions at the content level | Confluence Cloud | Atlassian Support
+View written content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,61 +439,103 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
+Create and organize work in Confluence Cloud
+Navigate around Confluence
 Cloud
 Data Center
-Manage permissions at the content level
-What are content-level permissions?
-Confluence lets you customize permissions at the site, space, and page level so that they're just right for you.
-You can’t restrict access to content on the
-Free plan
+View written content
+After you’ve created a live doc or published a page, information about the content are presented at the top of the screen and in the
+Details
+panel. Learn about these features, including how to manage avatar visibility for published pages.
+Your Confluence administrator determines what information is presented at the top. This means your content may look a little different.
+Content information can include:
+While viewing or editing a page
+Last updated :
+Shows when the page was last published or updated.
+Breadcrumbs :
+Navigation path that shows the location of the page in the content tree.
+More actions :
+Frequently used actions such as Star, Watch, Present, Version history, Copy, Move, Convert to live doc, and more.
+Owner
+is shown below the title.
+Read time:
+The estimated time it takes to read the page. Read time is based on an average reading speed of 265 words per minute.
+Analytics
+(
+Premium
+)
+:
+Get insights on page views.
+Classification
+(Atlassian Guard Premium): Define classification levels into which users can categorize their content.
+Apps
+your team has installed from the
+Atlassian Marketplace
+or
+built themselves
 .
-Here's a quick rundown of permissions at different levels within Confluence:
-Global-level permissions
-Confluence admins control this. At the global level, admins can control global permissions, such as who can create spaces in Confluence, and default space permissions, where admins can configure the default permissions settings for new spaces created.
-Space-level permissions
-Space admins control this. At the space level, admins decide what each user or group can do in
-that
-space.
-Content-level permissions
-Anyone who has permission to edit the content
-and
-to overall edit content in the space can change access to content items.
-Tip:
-If there are no content restrictions on a content item but someone still can't view or edit it, it's likely because they don't have the necessary
-space permissions
-. See
-Troubleshoot access problems to content
-to learn more.
-Some other things to keep in mind
-Open by default
-Confluence is open by default, which means it starts from a place of ‘everyone can access everything’ but lets you restrict where you need to.
-Confluence groups
-Instead of applying restrictions to individuals, use
-Confluence groups
-to save on typing out individual names.
-Additive permissions
-Confluence permissions are additive. This means that if someone is in two Confluence groups, and one group has permission to view a content item while the other does not, that person will still be able to view the content item because at least one of the groups they're in has permission to view it.
-A restrictive model
-Confluence's permissions model is set up so that content can only be further restricted from whatever the container is set at. A content item cannot have greater access than its container, which may be the space or another content item.
-Anonymous access
-You can make certain spaces (or even your whole site)
-available to the public
-, which means that anyone on the internet would be able to access your content.
-Mentioning users
-If a user doesn't have access to the content, they won't receive a notification when @ mentioned.
-Change who can find content and what they can do with it
-Set view and edit restrictions on a content item that you're not ready to share with everyone, or on one that contains sensitive information
-View topic
-Confluence permissions structure
-Gain a general overview of Confluence Cloud's permissions model.
-View topic
-Troubleshoot access problems to content
-Solve any issues you're having with people accessing your content.
-View topic
-What is a Confluence group?
-Learn how to use Confluence groups to streamline how you and your organization manage permissions at scale.
-View topic
+Avatars
+of other viewers (while viewing)
+Avatars
+of other editors (while editing)
+Select their avatar to find them in the page, if they are currently active.
+Telepointers
+of editors: Hover over telepointer to see full name.
+While viewing and editing a live doc
+Last updated :
+Shows when the content was last edited.
+Breadcrumbs :
+Navigation path that shows the location of the doc in the content tree.
+More actions :
+Frequently used actions such as Star, Watch, Present, View changes, Version history, Copy, Move, Convert to page, and more.
+Owner
+is shown below the title.
+Read time:
+The estimated time it takes to read the doc. Read time is based on an average reading speed of 265 words per minute.
+Analytics
+(
+Premium
+)
+:
+Get insights on views.
+Classification
+(Atlassian Guard Premium): Define classification levels into which users can categorize their content.
+Apps
+your team has installed from the
+Atlassian Marketplace
+or
+built themselves
+.
+Avatars
+of live collaborators and viewers.
+Select an editor’s avatar to find them in the live doc, if they are currently active.
+Telepointers
+of editors: Hover over telepointer to see full name.
+Avatar visibility on published pages
+Real-time avatar visibility improves collaboration on published pages by showing who’s viewing, in addition to already showing who’s editing at any given time.
+Depending on
+how admins set public settings
+, anonymous users may also see who is on the page.
+Turn avatar visibility on or off
+By default, avatar visibility is turned on at the site level.
+Some teams may choose to turn this feature off due to the sensitive nature of content they may have on their Confluence site. You can turn this feature off for the entire site or individual spaces, but not for specific pages.
+To turn avatar visibility off:
+Site-level admins can visit
+Settings
+>
+General configuration
+>
+Avatars on published pages
+Space-level admins can visit
+Space settings
+>
+General
+>
+Avatars and status
+>
+Avatars on published pages
+.
+These settings only control visibility of viewers on published pages. The visibility of co-editors' avatars is a Confluence feature that cannot be turned off.
 Was this helpful?
 Yes
 No
@@ -501,17 +546,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Change who can find content and what they can do with it
-Confluence permissions structure
-Troubleshoot access problems to content
-What is a Confluence group?
-Manage your account and permissions in Confluence Cloud
-Manage your account
-Manage permissions at the content level
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
 On this page
-What are content-level permissions?
-Some other things to keep in mind
+While viewing or editing a page
+While viewing and editing a live doc
+Avatar visibility on published pages
+Turn avatar visibility on or off
 Community
 Questions, discussions, and articles
 Accessibility

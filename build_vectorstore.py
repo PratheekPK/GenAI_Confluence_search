@@ -26,8 +26,11 @@ def load_documents():
 def build_index():
     docs = load_documents()
     texts = [doc.page_content for doc in docs]
-    embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-    #embeddings = embedding_model.encode(texts, convert_to_numpy=True, show_progress_bar=True)
+
+    # Define function wrapper
+    embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    #embedding_function = lambda x: model.encode(x, convert_to_numpy=True)
+    
     db = FAISS.from_documents(docs, embedding_model)
     db.save_local(VECTORSTORE_DIR)
     print(f"FAISS index saved to: {VECTORSTORE_DIR}")

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/troubleshooting-import-multiple-miro-boards-to-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/improved-confluence-navigation/
 
-Troubleshooting import multiple Miro boards to Confluence | Confluence Cloud | Atlassian Support
+Confluence navigation | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,83 +440,102 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Import data from other tools into Confluence
+Navigate around Confluence
 Cloud
 Data Center
-Troubleshooting import multiple Miro boards to Confluence
-If you encounter issues during your import, follow these steps to identify and resolve the problem.
-Step 1: Check your import summary email
-When your import is complete, you’ll receive a notification email with details about what was transferred. The email will list the spaces, pages, and users that were successfully imported. If part or all of your import couldn’t be completed, the email will include a brief message explaining the issue.
-Use the table below to find your error message and follow the recommended troubleshooting steps.
-Step 2: Identify your error scenario and follow the recommended troubleshooting steps
-If part of your import was unsuccessful or failed:
-Notification example
-How to fix it
-5 users couldn’t be imported
-Check the missing users' status in Miro and ensure they are not deactivated. Retry importing content that includes these users.
-If no users could be imported at all, ensure you entered the correct Miro User Access Token. Follow these step-by-step instructions to verify your token:
-Import multiple Miro boards to Confluence
-1 space couldn’t be created
-If possible, make yourself the workspace owner in Miro. Otherwise, ask the workspace owner or a Miro admin to grant you ownership before retrying the import.
-11 whiteboards couldn’t be imported, or were imported incorrectly
-Tip:
-If several boards failed, retry the full import. If only a few boards didn’t import, use the Single Miro Importer to import them individually.
-Import Miro boards in Confluence whiteboards
-Go to Miro and re-export the failed boards, ensuring  they meet the following import file size and type requirement before retrying import:
-✅
-Is the file a Vector PDF?
-To check, open the PDF and zoom in.
-If the text and graphics stay sharp without pixelation, it’s likely a vector PDF.
-If the file isn’t a vector PDF, re-export it from Miro in the correct format and retry the import.
-✅
-Is the file larger than 100MB?
-Files over 100MB cannot be imported.
-If your board exceeds 100MB, try re-exporting only the essential parts of the board or exporting the board in smaller subsections before retrying.
-✅
-Does the board contain too many elements?
-If the board meets the format and size requirements but still won’t import, it may contain too many elements.
-Try re-exporting only the essential parts of the board or exporting the board in smaller subsections before retrying.
-If the entire import failed:
-Notification example
-How to fix it
-Your import from Miro was unsuccessful.
-Check the
-Miro import FAQ
-to see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
-Your import from Miro was unsuccessful.
-You have imported
-37 users
-from Miro.
-Check the
-Miro import FAQ
-to see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
-Your import from Miro was unsuccessful because
-we couldn’t get content from your export file
+Confluence navigation
+Great content that you can’t find might as well not exist. We totally understand that it's our job to give you the tools to find the content you need.
+From the navigation, you'll find clearly labeled buttons and menus to help you find and do the things you need to.
+Top navigation
+Search
+— Find pages, live docs, spaces, and other content.
+Create
+— Select to create a new page, live doc, database, Loom video, or whiteboard.
+Chat
+— Chat with
+Rovo
+, powered by Atlassian Intelligence.
+Notifications
+— Find out what's happening in spaces and items you watch in Confluence and activity like replies, mentions, and task assignments.
+Help
+— Get online help, and find out what's new in your Atlassian Cloud apps.
+Your profile and settings
+— Go to or create your personal space, adjust your Confluence settings, or provide feedback about your Confluence experience.
+The sidebar
+Expand/Collapse
+— Open and close the sidebar.
+App switcher
+— Switch to other Atlassian Cloud apps, like Jira.
+Confluence logo and name
+— Select to go to the Confluence
+For you page
 .
-To fix this, ensure that your uploaded file meets the following requirements:
-A ZIP file
-In Vector PDF format
-From a Miro export
-Once confirmed, retry the import process.
-Need step-by-step instructions on how to export from Miro?
-See this guide
-Step 3: Contact support if you need further assistance
-If you're unable to resolve the issue,
-open a support ticket
-via the Atlassian Support Portal.
-Only
-app administrators
-can submit support tickets.
-How to submit your request:
-Open a support ticket via the
-Atlassian Support
-portal (if you are an app administrator).
-Select
-Technical issues and bugs
-as your support category.
-Include your Task ID
-in the details section of your support ticket
-→ This helps our team diagnose the issue faster. You can find your Task ID in your import summary email.
+For you
+— Start your Confluence journey with easy access to important spaces, content, and updates.
+Recent
+— Access items you’ve recently visited and worked on as well as drafts or starred items. Expand the filter controls to reduce the full list.
+Today
+— Pages, live docs, blogs, and whiteboards you have viewed, including those that you’ve edited and commented on.
+Worked on
+— Pages, live docs, blogs, and whiteboards you created, edited, and commented on; this includes drafts.
+Owned by me
+— Pages, live docs, blogs, and whiteboards you own.
+Starred
+— Easily return to your favorite content.
+Spaces
+— Get to spaces you’ve recently visited and starred.
+Apps
+— Access content from integrated apps like Calendars for Confluence.
+More
+— Open additional options.
+Teams
+— Find people you work with frequently
+Drafts
+— Manage your unpublished pages and blogs.
+Company Hub
+— Access your
+Company Hub
+. This is only shown if you organization has created and published a
+Company Hub
+. It may have a customized name unique to your org.
+Customize sidebar
+— Customize the order of your sidebar.
+Customization and Settings
+Custom Color Schemes and Site Homepage
+: Admins can customize the site's color scheme and set a specific space overview page as the site homepage. Custom homepages and the Confluence "For you" page can coexist.
+Space Sidebar
+: Access the space overview, pages, live docs, blogs, whiteboards, and more. Minimize or collapse the sidebar for a streamlined view.
+Space Shortcuts
+: Add shortcuts to frequently accessed content within the space.
+Minimize the space sidebar
+You can minimize or collapse the space sidebar to make more room for viewing your content. Use either of these methods:
+Select the
+Expand/Collapse
+icon in the upper left.
+Type [
+Edit the space sidebar
+You can determine which items display in the sidebar. You can do this for overview, blog, and apps such as questions or calendars.
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+General
+menu
+and select
+Features
+.
+Choose what appears in your
+sidebar
+.
+The options available in
+Space settings
+depend on your permissions. App and space administrators can change settings for access, content, data protection, look and feel, archiving, and deleting, and integrations.
+Space shortcuts
+Shortcuts are helpful or important pieces of content that members of a space might need to get to often. These shortcuts added by the space administrator.
+Space admins can link to content in the space, other related spaces, or relevant external web content as well as reorder the shortcuts as needed.
 Was this helpful?
 Yes
 No
@@ -524,17 +546,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Import data from other tools into Confluence
-Show more
-Import data from Notion into Confluence
-Import multiple Miro boards to Confluence
-Troubleshooting import data from HTML to Confluence
-Troubleshooting import data from Notion to Confluence
-Troubleshooting import multiple Miro boards to Confluence
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
 On this page
-If part of your import was unsuccessful or failed:
-If the entire import failed:
-How to submit your request:
+Top navigation
+The sidebar
+Customization and Settings
+Minimize the space sidebar
+Edit the space sidebar
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-can-guests-see-and-do-on-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-expand-macro/
 
-What can guests see and do in Confluence? | Confluence Cloud | Atlassian Support
+Insert the expand macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,123 +439,19 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Collaborate on content
+Extend the functionality of Confluence Cloud
+Use macros to add visuals and images to Confluence pages
 Cloud
 Data Center
-What can guests see and do in Confluence?
-Not all teamwork happens inside the (sometimes virtual) walls of a single organization. Sometimes you need to partner with other companies to build integrations, work with agencies to bring marketing campaigns to life, bring in contractors and consultants to help get big projects over the line, and so on.
-With single space guests, you can do all of that work without leaving Confluence.
-For instructions on how to get guests set up, see
-Invite guests to Confluence
-.
-If you’re looking for help getting guests assigned to a space so that they can start collaborating in Confluence, see
-Assign space access to guests
-.
-What can guests do in Confluence?
-Guests are a different type of user than a regular Confluence user — they can only have access to one space at a time (assigned by an admin) and that access has certain limitations.
-Guests are allowed to use features that enable basic collaboration. Value-add features and Premium features including Team Calendar, Atlassian Intelligence, and Analytics are not available to guests.
-Guests can also access spaces that allow anonymous access
-Any guest that has app access to Confluence can access any spaces on that site that
-allow anonymous users
-.
-This is true even if the guest with app access has no space assigned.
-Manage guests with added security
-When bringing guests into Confluence, there’s always tension between the value of that collaboration and having clear and confident control over what areas of Confluence and what data guests should access to.
-With Atlassian’s external user security features, you can sleep well at night. These include:
-Two-step verification
-Periodic re-verification
-Reviewing external users before changing security settings
-API token access
-Learn more about external user security
-Guests have different default space permissions
-By default, guests will have the following space permission settings.
-Space admins can grant guests all space permissions except the following:
-Space admin
-Export space
-Restrictions
-For more information on what those permissions control, see
-Assign space permissions
-.
-Guests have limited access to internal user info
-Confluence blocks guests' access to the
-people directory
-, which contains Confluence-wide user information.
-Functions that query the people directory of the entire instance include:
-@ mentions
-the
-Teams
-tab in the top nav bar
-user search
-user pickers
-These are systemically blocked for all guests.
-Apps
-Guests are restricted from using Confluence’s system apps, including:
-Confluence analytics
-Space analytics
-Team calendars
-Confluence Questions
-Guests can’t add or manage any apps.
-Marketplace apps
-Just as guests have free access to Confluence, so will they have free access to all
-Marketplace apps
-you’re using on Confluence.
-If Marketplace app developers want to, they can block guests from accessing their apps.
-Learn how
-Many Marketplace apps are not provided by Atlassian. Learn more about how guests interact with third-party apps below.
-Third-party apps
-If a third-party app used by your organization is enabled in any spaces or on any pages that guests have access to, then those guests will be able to interact with it.
-Your organization is responsible for the information shared with Marketplace apps and what access guests would have to this information within the apps.
-Guest limitations override JSM unlicensed access
-It is Confluence’s policy that guests in Confluence can only access one space. This supersedes any unlicensed access that JSM users have to associated knowledge base spaces in Confluence.
-This means that JSM users could lose access to knowledge base spaces in Confluence if they’re also added as a guest in that instance.
-To avoid this, you can:
-Upgrade the guest to a licensed user
-Make sure the guest has access to the knowledge base space
-Make the knowledge base space public (allow anonymous access)
-Host knowledge base content in a separate Confluence instance from where the guest needs to collaborate
-How guests are identified in Confluence
-Guests have limited access in Confluence, but it’s important that you and your internal teams clearly understand who may be external to your organization (guests) and where they have access.
-This is critical awareness to have so that the wrong information isn’t shared with the wrong people.
-To help you know who is a guest and where they have access, Confluence employs a number of markers in the UI.
-Individuals
-Individual users who are guests will be identified with a
-GUEST
-label next to their name wherever they appear in the UI, whether they’ve left a comment or you’re searching for people in any of Confluence’s user pickers.
-Spaces
-Any spaces where guests have access will be called out with a combination of persistent content in the UI and helpful in-app messages. You’ll be reminded there are guests present during key high security interactions, such as moving or copying content, updating content restrictions, and publishing new or updated content.
-Space admins will be notified via email whenever a guest has been given access to their space. They can turn this setting off to stop receiving these email notifications in email settings of their profile.
-Confluence admins can see all guests who have access by looking in the
-Global permissions > Guest access
-tab.
-Space admins can see all guests that have access to their space in the space’s settings.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Then open the
-Space access
-menu and select
-Guests
-.
-Guests can manage their own email settings
-Changing email settings is the same for a guest as it is for a regular user.
-To change email settings:
-Select your profile avatar in the top right.
-Select
-Personal settings
-.
-Select
-Email
-.
-Select
-Edit
-.
-Check or uncheck the available email settings.
-Select
-Submit
-.
+Insert the expand macro
+The Expand macro displays an expandable/collapsible section of text on your page.
+When you export the page to PDF or HTML, the macro is expanded so that readers can see the content in the PDF or HTML export.
+Using the Expand macro
+When editing, select
+from the toolbar or use the slash command ( / ).
+Find the Expand macro in the list and select it.
+Update the title (by default, “Click here to expand…”) with the text you want to appear next to the expand/collapse icon.
+Add the content you want inside of the expand.
 Was this helpful?
 Yes
 No
@@ -563,24 +462,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Collaborate on content
+Use macros to add visuals and images to Confluence pages
 Show more
-Comment on pages, live docs, whiteboards, and blog posts
-Watch pages, live docs, spaces, whiteboards, and blogs
-Add people to Confluence from Google, Slack, or Microsoft
-What can guests see and do in Confluence?
-Share content externally with public links
-On this page
-What can guests do in Confluence?
-Manage guests with added security
-Guests have different default space permissions
-Guests have limited access to internal user info
-Apps
-Marketplace apps
-Third-party apps
-Guest limitations override JSM unlicensed access
-How guests are identified in Confluence
-Guests can manage their own email settings
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
 Community
 Questions, discussions, and articles
 Accessibility

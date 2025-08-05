@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-contributors-summary-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-contributors-macro/
 
-Insert the contributors summary macro | Confluence Cloud | Atlassian Support
+Insert the contributors macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -440,21 +443,20 @@ Extend the functionality of Confluence Cloud
 Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Insert the contributors summary macro
-The contributors summary macro displays a table of contribution-based statistics for a set of pages. These statistics can be grouped according to individual pages or individual contributors.
-The default scope for this macro is an individual page, but this can be extended to include the immediate children or descendants of a specified page. The statistics cover the following types of contributions:
-edits to the page(s)
-comments added to the page(s)
-labels added to the page(s)
-people watching the page(s)
-To add the contributors summary macro:
+Insert the contributors macro
+The contributors macro displays a list of Confluence users who have made a contribution of some type to a page. It can also be used to list watchers of the page.
+The scope of this macro can be extended to include the immediate children or descendants of the specified page. The list of contributors can be based on people who have:
+authored or edited the page(s)
+contributed comments or added labels to the page(s), or
+are simply watching the page(s).
+To add the contributors macro:
 When editing, select
 from the toolbar
 Find the macro by name and select it
 Configure it as needed
 You can also type / on the page to bring up the same list you'd see by selecting
 from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the contributors summary macro:
+To edit the contributors macro:
 Select the macro placeholder.
 Select the Edit
 icon
@@ -476,102 +478,100 @@ example
 Parameter
 Default
 Description
-Group By
-(groupby
+Contribution Type
+(include
 )
-contributors
-Specifies the basis for grouping contribution-based statistics:
-contributors
-— group by the people who have contributed
-pages
-— group by the pages used to find contributors.
-Columns to Display
-(columns
-)
-edits, comments, labels
-Sets the columns that should appear in the table. The statistics or type of information presented depends on the basis for grouping set with the
-Group By
-parameter. Statistics may be calculated for:
-edits
-— the number of times each contributor has edited the page(s) or the number of edits made to each page.
-edited
-— a list of the pages edited by each contributor or a list of contributors who have edited each page.
+authors
+Filters by either the type of contribution made to a page (and optionally its descendant pages), or the watches on the page. Contribution types are:
+authors
+- includes people who created or have edited the page(s)
 comments
-— the number of times each contributor has added comments to the page(s) or the number of comments on each page.
-commented
-— a list of pages to which each contributor has added comments or a list of contributors who have commented on each page.
+- includes people who have added comments to the page(s)
 labels
-— the number of times each contributor has added labels to the page(s) or the number of labels on each page.
-labeled
-— a list of pages to which each contributor has added labels or a list of contributors who have added a label to each page.
-labellist
-— a list of labels either added by each contributor or on each page.
+- includes people who have added labels to the page(s)
 watches
-— the number of pages being watched by each contributor/person or the number of contributors/people watching each page.
-watching
-— a list of pages being watched by each contributor/person or a list of contributors/people watching each page.
-lastupdate
-— the last time each contributor made an update or when each page was last updated. Valid updates can include edit, comment or label modifications to a page.
-One or more columns can be used.
+- includes people who are watching the page(s).
+You can specify one or more contribution types, separated by commas.
 Sort By
 (order
 )
-edits
-Sets the criterion used for sorting items in the table. The items sorted depend on the basis for grouping set with the
-Group By
-parameter. Sort criteria are:
-edits
-— sorts items in the table based on the total number of edits made, either by a contributor or to a page.
+count
+Specifies the criteria used to sort contributors. Sort criteria are:
+count
+- sorts people based on the total number of contributions to the page(s)
 name
-— sorts items in the table in alphabetical order, either by contributor or page name.
-editTime
-— sorts items in the table based on when the contributor last edited a page (or a specified set of pages) or when the page was lasted edited.
+- sorts people into alphabetical order
 update
-— sorts items in the table based on when the contributor last made any contribution to a page (or a specified set of pages) or when the page last had any contribution made to it.
+- sorts people based on the date of their last contribution to the page(s).
 Reverse Sort
 (reverse
 )
 false
-Reverses the sort order of items in the table, as specified using the
+Reverses the sort order of contributors in the list. Must be used in conjunction with the
 Sort By
-parameter. (Used only in conjunction with the
-Sort By
-parameter.)
-Maximum Number of Items
+parameter.
+Maximum Number of Contributors
 (limit
 )
 no limit
-Limits the number of contributors or pages in the table to the value specified. If no number is specified, all items are included.
+Limits the number of contributors in the list. If a number is not specified, all contributors are included.
+Display Format
+(mode
+)
+inline
+Sets how the list of contributor's names is formatted:
+inline
+— a comma-separated list
+list
+— a bullet list.
 Show Anonymous Contributions?
 (showAnonymous
 )
 false
-Includes individuals who have made anonymous contributions to a page.
-Show Zero Counts?
-(showZeroCounts
+Sets whether to include those who contributed anonymously to a page.
+Show Count?
+(showCount
 )
 false
-Sets whether contributors or pages are included for which a calculated statistic is zero.
+Sets whether to show the number of times each person made a contribution of the specified
+Contribution Type
+.
+Show Last Contribution Time?
+(showLastTime
+)
+false
+Sets whether to show the last time each person made a contribution of the specified
+Contribution Type
+.
 Page Name
 (page
 )
 current
-Sets the page for which to calculate the contribution-based statistics. If no values for
+Specifies the page to use when generating the list of contributors. If
 Page Name
 and
 Space(s)
-are specified, the current page is assumed.
+are left blank, the current page is assumed.
 Label(s)
 (labels
 )
 none
-Restricts the contribution-based statistics to the specified labels only. You can specify one or more labels, separated by commas.
+Filters the list of contributors to those who created the specified labels from a page. You can specify one or more labels, separated by commas.
 Space(s)
 (spaces
 )
 current
-Specifies the space key of the Confluence space which contains the specified page name or alternatively, specifies a scope of spaces to search. Space keys are case-sensitive.
-You can specify one or more space keys, separated by commas.
+Specifies the space key of the Confluence space that contains the page set in
+Page Name
+or alternatively, specifies the spaces to search. Space keys are case-sensitive.
+This parameter also takes special values, including:
+@global
+— All site spaces.
+@personal
+— All personal spaces.
+@all
+— All spaces in your Confluence site.
+You can specify one or more space keys or special values, separated by commas.
 If no
 Page Name
 and
@@ -580,13 +580,12 @@ are specified, all pages from the specified set of spaces are included.
 Content Type
 (contentType
 )
-both pages and blogs
-Restricts page types to either pages or blogs. If no value is specified, both pages and blogs are included.
-Available values are
+both pages and blog posts
+Restricts the content type to use when generating the list of contributors:
 pages
-and
+— pages
 blogposts
-.
+— blog posts.
 Blog Post Date
 (publishDate
 )
@@ -596,11 +595,21 @@ Include Page Hierarchy
 (scope
 )
 specified page only
-Includes either the immediate
+Specifies additional pages to include when generating the list of contributors:
 children
-or all
+— just the child pages of the specified page
 descendants
-of the specified page. If no value is indicated, only the specified page is included.
+— all descendants of the specified page.
+Show Selected Pages
+(showPages
+)
+false
+Sets whether to show a list of the pages used to generate the list of contributors.
+Custom "None Found" Message
+(noneFoundMessage
+)
+default message
+Specifies the message to be used to override the default message that is displayed when no contributors are found.
 Was this helpful?
 Yes
 No
@@ -613,11 +622,11 @@ The Atlassian Community is here for you.
 Ask the Community
 Use macros to show Confluence content on pages and live docs
 Show more
+Insert the filter by label macro
 Insert the content report table macro
 Insert the contributors macro
 Insert the contributors summary macro
 Insert the create from template macro
-Insert the decision report macro
 Show more
 Community
 Questions, discussions, and articles

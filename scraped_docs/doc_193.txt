@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/learn-how-confluence-cloud-works/
+URL: https://support.atlassian.com/confluence-cloud/docs/take-quick-action-from-the-page-title/
 
-Confluence Cloud functionality and features | Confluence Cloud | Atlassian Support
+Take quick action from the content title | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,19 +439,37 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Considering Confluence Cloud?
+Create and organize work in Confluence Cloud
+Keep content organized
 Cloud
 Data Center
-Confluence Cloud functionality and features
-What is Confluence Cloud?
-Learn how you can create, collaborate, and share content in Confluence Cloud.
-View topic
-Learn about the features of Confluence Cloud plans
-Learn what's included in different Confluence Cloud plans, and how to change from plan to another.
-View topic
-Confluence Standard
-Learn all about the Confluence Standard plan
-View topic
+Take quick action from the content title
+Quick actions have been added to the content tree in your space sidebar to make it faster and easier to do common tasks. Because you can take action without selecting an item and moving away from the sidebar, getting your job done will take less time and effort.
+When you hover over the title, a
+More actions
+( ••• ) menu appears, giving you the choice to:
+Edit
+— Jump into editing without having to navigate to the page and select edit
+Rename
+— Change the item’s title directly in the content tree
+Star
+— Add or remove an item from your list of
+starred items
+Get link
+— Copy the item’s URL to your clipboard
+Copy
+—
+Duplicate the item
+within the current space or into another one
+Move
+—
+Move the item
+to a new place in the current space or into another one
+Archive
+—
+Remove the item from the sidebar
+and search results
+If you don’t have permission to do an action, the action will be greyed out.
 Was this helpful?
 Yes
 No
@@ -459,13 +480,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-What is Confluence Cloud?
-Learn about the features of Confluence Cloud plans
-Confluence Standard
-Considering Confluence Cloud?
-Confluence Cloud functionality and features
-See how teams use Confluence Cloud
+Keep content organized
+Take quick action from the content title
+Use labels to organize content and attachments
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

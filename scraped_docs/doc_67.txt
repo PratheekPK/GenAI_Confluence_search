@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/additional-pdf-export-settings/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-elements-into-a-page/
 
-Additional PDF export settings | Confluence Cloud | Atlassian Support
+Add elements to a page or live doc | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,191 +439,100 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Set space-specific functionality
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Additional PDF export settings
-Note on
-@page
-Rules in Puppeteer PDF Generation
-Certain
-@page
-properties may render differently due to enhancements in browser rendering standards. This may require adjustments to your existing CSS to ensure compatibility with modern browsers. For best results and compatibility during PDF generation, please review the guide provided below for supported properties and best practices.
-Unsupported
-@page
-properties and alternatives
-1.
-@page :first
-Issue
-: The
-:first
-pseudo-class for targeting the first page is not supported in Puppeteer.
-Solution
-: Use
-body:first-of-type
-instead to target the content on the first page.
-Replace:
-@page :first {
-/* your css here */
-}
-With:
-@media print {
-body:first-of-type {
-/* your css here */
-}
-}
-2.
-Background Images in
-@page
-Issue
-: Background images applied directly to the
-@page
-rule are not rendered.
-Solution
-: Apply background images to
-body
-or a specific container with
-position: fixed
-.
-Replace:
-@page {
-background-image: url('https://your-confluence-instance.atlassian.net/wiki/download/attachments/SPACE_ID/background.png');
-background-size: cover;
-background-repeat: no-repeat;
-}
-With:
-@media print {
-body {
-background-image: url('https://your-confluence-instance.atlassian.net/wiki/download/attachments/SPACE_ID/background.png');
-background-size: cover;
-background-repeat: no-repeat;
-}
-}
-Why These Changes?
-Puppeteer uses Chromium’s rendering engine, which prioritizes modern, screen-based CSS standards over older or print-specific CSS rules like
-@page
-. By using
-@media print
-with modern CSS, you can ensure compatibility across browsers and Puppeteer for consistent PDF rendering.
-Summary Table of Replacements
-Unsupported
-Replacement
-@page :first
-body:first-of-type
-Background in
-@page
-Apply background to
-body
-Using Images and Fonts in Your Custom CSS
-If you'd like to use any images or fonts in your custom CSS for Confluence exports, follow these steps to ensure they are accessible:
-Upload Your Asset
-:
-Navigate to a Confluence page in your space. For better organization, create a dedicated page named something like
-"Assets"
-.
-Upload your images or font files to this page.
-Retrieve the Asset Link
-:
-Once the asset is uploaded, click the
-More Actions
-menu (three dots) on the page.
+Add elements to a page or live doc
+Along with the text you add to a page or live doc, elements are the building blocks that help you organize and present information in the way you want.
+All the items that can be inserted onto a page are
+elements.
+Elements include dates, status lozenges, panels, Confluence macros, and Marketplace macros.
+What are macros?
+Confluence macros are a sub-set of elements that help you extend functionality. Macros usually have a more complex setup than basic elements like a date or a status.
+Learn more about macros
+Does your toolbar look different?
+Your toolbar or editing controls may appear differently from usual, or from how they appear in this documentation. We’re rolling out features that are subject to change.
+How to pin your toolbar and navigate editing updates
+Basic elements
+These elements can be inserted from the
+menu, from the toolbar, or from the slash command menu.
+Action items
+Add a checklist item and assign the task to another person using an @ mention. Items assigned to others show up in their tasks list under their profile. They can tick them off as the task is completed. If a date is added, the task turns red if it becomes past due.
+Type
+/action
+to quickly add this element from the slash command.
+Code snippet
+Code snippets let you format source code with numbered rows and syntax highlighting based on the language you choose.
+They can be added in a few different ways:
 Select
-Attachments
-from the dropdown menu.
-Locate your uploaded file in the list of attachments.
-Right-click on the file name and select
-Copy Link Address
+Code
+from the
+More formatting
+menu in the main toolbar.
+Type
+/code
+to quickly add this element from the slash command, or select it manually from the
+Insert/
+menu in the main toolbar.
+Type three back ticks, i.e ``` with the keyboard to create a code block. You can also type ``` before a line of text to add this to the code block.
+Type text between two back ticks, i.e `some text` to create inline code.
+Date
+Make a date stand out with grey background; the default date format is
+Mon DD, YYYY
 .
-Use the Link in Your CSS
-:
-Paste the copied link into your CSS file wherever an image or font is required. For example:
-@font-face {
-font-family: 'CustomFont';
-src: url('https://your-confluence-instance.atlassian.net/wiki/download/attachments/SPACE_ID/filename.ttf');
-}
-body, h1, h2, h3, h4, h5, h6, p, a, li, span, div {
-font-family: 'CustomFont' !important;
-}
-body {
-background-image: url('https://your-confluence-instance.atlassian.net/wiki/download/attachments/SPACE_ID/background.png');
-}
-Note
-: Ensure that the page containing the assets is accessible to the intended users of your Confluence content. Permissions on the asset page affect visibility.
-Table of Contents Styling Limitations
-It's important to note that while we're transitioning to a PDF V2, there are currently limitations in our implementation of table of contents (TOC) styling. Other CSS properties that were previously available will not work as expected in PDF v2 for now.
-Currently supported TOC properties:
-margin: Overall margin
-margin-top: Top margin
-margin-bottom: Bottom margin
-margin-left: Left margin
-margin-right: Right margin
-size
-: Page size
-display
-: Used to check if table of contents should be disabled (
-none
-)
-If you do want to modify the following properties for the table of contents make sure to use the following selector.
-div.toc-macro {
-display: none;
-/*other supported properties...*/
-}
-Custom HTML cannot be added to the the table of contents at the moment.
-Numbering Your Headings in CSS
-If you want to add automatic numbering to your headings in Confluence exports, use the following CSS:
-body { counter-reset: heading1_counter; }
-h1 {
-counter-reset: heading2_counter;
-}
-h2 {
-counter-reset: heading3_counter;
-}
-h3 {
-counter-reset: heading4_counter;
-}
-h4 {
-counter-reset: heading5_counter;
-}
-h1:before {
-counter-increment: heading1_counter;
-content: counter(heading1_counter) ". ";
-}
-h2:before {
-counter-increment: heading2_counter;
-content: counter(heading1_counter) "." counter(heading2_counter) ". ";
-}
-h3:before {
-counter-increment: heading3_counter;
-content: counter(heading1_counter) "." counter(heading2_counter) "." counter(heading3_counter) ". ";
-}
-h4:before {
-counter-increment: heading4_counter;
-content: counter(heading1_counter) "." counter(heading2_counter) "." counter(heading3_counter) "." counter(heading4_counter) ". ";
-}
-h5:before {
-counter-increment: heading5_counter;
-content: counter(heading1_counter) "." counter(heading2_counter) "." counter(heading3_counter) "." counter(heading4_counter) "." counter(heading5_counter) ". ";
-}
-This will automatically number your headings in a hierarchical format (e.g.,
-1.
-,
-1.1.
-,
-1.1.1.
-) for better structure and readability.
-Unsupported CSS Features in PDF Export
-When using the new PDF export system (PDF v2), certain advanced CSS features are no longer supported due to limitations in modern browsers. Specifically, CSS properties like
-target-counter()
-and
-leader()
-, which were previously used to enhance the formatting of PDFs (such as adding page numbers to a table of contents), are not supported in current browser technology.
-What Does This Mean for Your Content?
-If your custom CSS includes rules like the following:
-div.toc a::after {
-content: leader('.') target-counter(attr(href), page);
-}
-These rules will not work in the new PDF export system. As a result, features such as automatic page numbering in your table of contents or dotted leaders connecting headings to page numbers will not appear in the exported PDF.
+Type
+//
+to bring up a date picker.
+Decision
+Emphasize a distinct decision made for a project or by a team by adding a grey background panel and a green icon.
+Type
+/decision
+to quickly add this element from the slash command.
+Divider
+Separate sections of text using a horizontal line.
+Type
+/divider
+to quickly add this element from the slash command.
+Emoji
+Express a feeling, emotion, or info type with an image. The library of emojis available are a combination of standard Confluence emojis and those added by users of your site.
+Learn more about emojis
+Type
+/emoji
+to quickly add this element from the slash command.
+Expand
+Create a collapsed section that reveals more information for the people who seek it. This is a useful formatting element when the amount of info on a page or doc is overwhelming at first glance.
+Type
+/expand
+to quickly add this element from the slash command.
+Heading
+Format text to represent the hierarchy of information on a page or live doc. Once headings are created, use the
+Table of Contents Macro
+to generate a list of links pointing to the headings on your content. The list of links appears wherever you add the macro, and it automatically updates each time someone changes the wording of a heading or the heading level.
+Type
+/heading
+to quickly see the options and add this element from the slash command.
+Mention
+Reference a person and let them know about it. The user mentioned receives a notification.
+Type
+@
+and enter part of a name to narrow the list of matches.
+Panel
+Emphasize information by choosing a preset panel type to consistently communicate ideas like info, note, error, success, and warning. The preset types include an emoji and a background color.
+In addition to the five preset panel options, you can customize panels by choosing one of the 20 background colors available. Panels can have emojis, or you can remove the emoji to meet the needs of your content. The emojis available to you are the same set that you already use in Confluence; this includes custom emojis you and your teammates have added.
+Type
+/panel
+to quickly see the options and add this element from the slash command.
+Quote
+Emphasize a quote by adding a vertical line on its left margin and adjusting the font color.
+Type
+/quote
+to quickly add this element from the slash command.
+Status
+Highlight text to stand out and choose the background color that fits its meaning.
+Type
+/status
+to quickly add this element from the slash command.
 Was this helpful?
 Yes
 No
@@ -631,21 +543,28 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set space-specific functionality
-Additional PDF export settings
-Advanced PDF export customizations
-Set a default classification level for content
+Create and edit content
+Show more
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Show more
 On this page
-Unsupported @page properties and alternatives
-1. @page :first
-2. Background Images in @page
-Why These Changes?
-Summary Table of Replacements
-Using Images and Fonts in Your Custom CSS
-Table of Contents Styling Limitations
-Numbering Your Headings in CSS
-Unsupported CSS Features in PDF Export
-What Does This Mean for Your Content?
+Basic elements
+Action items
+Code snippet
+Date
+Decision
+Divider
+Emoji
+Expand
+Heading
+Mention
+Panel
+Quote
+Status
 Community
 Questions, discussions, and articles
 Accessibility

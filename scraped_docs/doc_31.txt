@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-sections-to-organize-your-work/
+URL: https://support.atlassian.com/confluence-cloud/docs/convert-legacy-pages-in-all-spaces/
 
-Use sections to organize your work | Confluence Cloud | Atlassian Support
+Convert legacy editor pages in all spaces | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,47 +439,47 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
-Use sections to organize your work
-Whiteboards aren’t available in
-Atlassian Government environments
+Convert legacy editor pages in all spaces
+Coming soon: Deprecation of the legacy editor
+In June 2025, Atlassian
+announced the deprecation
+of the legacy editor. This will be a phased process beginning in January 2026. Find out more in the
+FAQ article
 .
-Use sections to organize your board. With sections, you can group and move related ideas or guide people through workshops with multiple activities, each in its own section.
-Create a section from the toolbar
-Select the
-Section
-icon in the toolbar.
-A section will appear on hover. Select and drag the section to the location of the board where you’d like the section to go.
-Add elements to a section
-Select and move an element into a section using mouse or keyboard arrows. You can add any whiteboard element to a section except for another section.
-Once you have moved elements inside the section, they’ll stay with the section when you move it around your whiteboard.
-You can also select and drag to select multiple objects and add them to a section.
-Edit a section title
-To edit a section title:
-Create or select a section on the board.
-Change the name from untitled to a new name and press Return / Enter.
-You can also double-click the section’s name to edit.
-To remove the title:
-Double-click title.
-Delete text.
-Press Return / Enter.
-Change the appearance of a section
-You can change the size and color of a section.
-To resize a section:
-Select the section.
-Select and drag the resize handles of the section.
-To change the color of a section:
-Select the section.
-Select the color picker icon in the floating toolbar.
-Select a new color.
-Delete a section
-To delete a section:
-Select the section.
-Press Delete / Backspace.
-Deleting a section also deletes its contents. To delete a section without deleting its contents, select everything in the section and drag it to another place on the whiteboard.
+When the process is complete in April 2026, all editing will take place in the cloud editor. Until then, you will continue to have the option to update pages in the legacy editor. However, there are some downsides to continuing to use the legacy editor:
+No bugs fixed unless it's a major incident.
+No enhancements.
+Confluence admins can enable
+auto-conversion of all legacy pages
+within Confluence to the new editor.
+When page auto-conversion is turned on for the instance, users will see a banner notification at the top of each legacy page when they are in edit mode. The page will be previewed with new editor formatting, but won’t change until the page is updated.
+To enable auto-conversion of pages across Confluence:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Configuration
+in the left-hand navigation.
+Select
+General configuration
+.
+Find
+Convert pages automatically
+and check
+Enable.
+Select
+Save.
+If auto-conversion is enabled, eligible pages will be converted to the cloud editor when someone views the page. You will be able to revert to the legacy version in
+More actions (
+)
+menu. Select
+Revert to legacy editor
+.
 Was this helpful?
 Yes
 No
@@ -487,20 +490,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Set Confluence-wide functionality
 Show more
-Build flows and diagrams with flows and connectors
-Inserting links to your whiteboard
-Use sections to organize your work
-Add and edit images on whiteboards
-Add the feels with stamps and stickers
-Show more
-On this page
-Create a section from the toolbar
-Add elements to a section
-Edit a section title
-Change the appearance of a section
-Delete a section
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
 Community
 Questions, discussions, and articles
 Accessibility

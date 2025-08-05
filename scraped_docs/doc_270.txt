@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-time-and-date-formats/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-a-trio-of-dynamic-frames-to-your-page-with-carousel/
 
-Configure time and date formats | Confluence Cloud | Atlassian Support
+Add a trio of dynamic frames to your content with Carousel | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,50 +439,49 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use macros to add visuals and images to Confluence pages
 Cloud
 Data Center
-Configure time and date formats
-You can localize the formats that
-Confluence Cloud
-uses to display dates and times within the web interface. The settings use the syntax of Java's SimpleDateFormat class, as described in this document:
-Java SimpleDateFormat
+Add a trio of dynamic frames to your content with Carousel
+This feature is only offered with
+Confluence Cloud Premium and Enterprise
 .
-There are three time and date format settings:
-Time format: Used when displaying only the time of day. For example, when a blog post is published. Example of configuration:
-h:mm a
-Date time format: Used when displaying both the date and the time of day. For example, in historical versions of pages. Example of configuration:
-MMM dd, yyyy HH:mm
-Date format: Used when displaying only the date. For example, the creation and most recent modification dates of pages. Example of configuration:
-MMM dd, yyyy
-To change the time and date formats:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
+Carousel allows you to display a rotating, interactive series of three frames on your page or live doc. It is ideal for for showcasing information in a visually appealing way, or presenting a collection of related items.
+Carousel can transform Confluence, Jira, and Atlas links or external URLs into dynamic, clickable frames. You can customize them in a variety of ways.
+To add a carousel to your page or live doc:
+Select (+) from the toolbar, then find
+Carousel
+. Or, type
+/carousel
+while editing your content.
+Upon selection, a carousel of three empty frames will appear on your page or doc.
+To customize and configure your carousel:
+1. Select the frame of the carousel that
+you want to configure, then select
+Edit
+(
+) to open the configuration panel.
+2. Customize your frames using the configuration options available. Frames can be generated from Confluence pages or Jira links, for example, or external URLs.
+Be aware:
+Content displayed in your carousel that comes directly from the links you’ve selected could be visible to anyone with access to your page, even if they don’t have access to the link itself.
+3. Your selections will appear instantly.
+4. Upon publishing your page, anyone with permission to view it will now be able to see your carousel, manually rotate through its frames, and navigate to any links provided.
 Configuration
->
-General configuration
-.
-Scroll down to
-Formatting and international settings
-.
-Enter the values for
-Time format
-,
-Date time format
-and
-Date format
-that suit your requirements.
-Select
-Save configuration changes
-.
+You can customize exactly how your carousel appears with the following options:
+Configuration options
+Option
+Description
+Link
+Display content on your frame directly sourced from Confluence, Jira, Atlas, or external URLs.
+Be aware:
+Content displayed in your carousel that comes directly from the links you’ve selected will be visible to anyone with access to your page, even if they don’t have access to the link itself.
+Title
+We highly recommend adding a header title to your frame. Character maximum: 255.
+Description
+Add a caption or other text below the title of your frame. Character maximum: 700.
+Image
+You can add an image to your frame by browsing and selecting from Unsplash, selecting the image we’ve sourced from any link added, or uploading an image directly. We recommend images that are 700 px or wider.
 Was this helpful?
 Yes
 No
@@ -490,14 +492,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
+Use macros to add visuals and images to Confluence pages
 Show more
-Choose a default language
-Configure the indexing language
-Configure time and date formats
-Configure number formats
-Configure attachment size
-Show more
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
+Insert the expand macro
+On this page
+To add a carousel to your page or live doc:
+To customize and configure your carousel:
+Configuration
+Configuration options
 Community
 Questions, discussions, and articles
 Accessibility

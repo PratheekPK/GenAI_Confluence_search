@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/confluence-automation/
+URL: https://support.atlassian.com/confluence-cloud/docs/embed-calendars-on-confluence-pages/
 
-Confluence automation administration | Confluence Cloud | Atlassian Support
+Embed calendars on Confluence content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,17 +439,25 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Confluence automation administration
-Learn what Confluence automation is, see admin functions and usage, and familiarize yourself with common terms.
-Confluence automation
-Learn what automation is, why it’s useful in Confluence Cloud, and familiarize yourself with common terms.
-View topic
-Confluence automation usage
-Learn how to view and track your automation usage in Confluence Cloud.
-View topic
+Embed calendars on Confluence content
+You can embed a calendar on any page or live doc in Confluence, making it easy to track and manage events. When you embed a calendar, the calendar will also appear in the
+Calendars
+section of the space the content is in.
+Using calendar macro in the editor
+While editing a page or live doc, select the
+Insert (+) icon
+and enter
+Team Calendar.
+Alternatively, you may use the command
+/team calendar
+directly in the editor.
+Under
+calendars
+, search for and select the name of the calendar you’d like to add. You should see your team’s calendar and its contents directly on the page or live doc.
 Was this helpful?
 Yes
 No
@@ -457,16 +468,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Confluence automation
-Confluence automation usage
-Confluence administration
+Use Team Calendars for Confluence (Premium feature)
 Show more
-Security settings in Confluence Cloud
-Look and feel settings in Confluence Cloud
-Data management in Confluence Cloud
-Atlassian Marketplace apps
-Confluence automation administration
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-and-collaborate-in-real-time-with-live-docs/
+URL: https://support.atlassian.com/confluence-cloud/docs/delete-a-space/
 
-Create and collaborate in real time with live docs | Confluence Cloud | Atlassian Support
+Delete a space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,149 +439,91 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Space administration
+Remove a space
 Cloud
 Data Center
-Create and collaborate in real time with live docs
-Have questions, concerns, or feedback?
-We’d love to hear from you via the
-Help portal (
-)
-at the bottom-left of every live doc.
-Need help with admin-related matters?
-Visit
-Configure live docs in Confluence
-now.
-What are live docs?
-Live docs provide a dynamic, efficient, and collaborative way to create and edit written content in Confluence.
-This live-edit feature will allow you to create frictionless docs that can be updated and collaborated on instantly in real time, without the need to publish. Any changes made to a live doc are automatically saved and reflected to all viewers in real time.
-How do I get started?
-To get started working with live docs, the feature must be turned on in the space you’re in. Live docs can be turned
-on
-or
-off
-in any given space by admins.
-You can create a new live doc by selecting
-Live Doc
-from the
-Create
-menu, or
-+
-from the sidebar.
-Note
-: Whenever you create a new live doc, it is immediately visible in the sidebar, and anyone with access to the space can see it. You can make it private anytime.
-How does collaborating work?
-Multiple users can edit the same live doc at the same time and see each other's changes instantly. This makes it easy to work together and avoid conflicts.
-You can see who else is currently editing the doc by looking at the circular user avatars on the toolbar.
-From the area under the title, you can also view and interact with the content owner, content status, classification, read time, any emoji reactions and - for those with Premium or Enterprise - views.  Read time and views will only appear once there is content added to the doc and more than one view has taken place.
-Editing vs. Viewing
-When you have edit access to a live doc, you can make instant changes to it without having to publish.
-While reading a page, you can switch yourself to “view only” mode to prevent yourself from making accidental edits while getting the information you need. From the
+Delete a space
+To remove a space and all of its content from Confluence, you can send it to the trash.
+You must have space admin permissions to send a space to the trash. Members of the
+confluence-administrators
+group can also trash spaces, including personal spaces.
+Once trashed, a space can only be restored or permanently deleted by a Confluence admin. If you prefer the option of restoring the space yourself later, you can
+archive
+it instead.
+You may want to
+create a CSV export
+of the space as a backup first, to have the option of restoring from the export later.
+To send a space to the trash:
+Next to your space's name in the sidebar, select
 More actions
-menu, select
-Switch to viewing
-. Or, use the keyboard shortcut
-Cmd+Shift+E
+(•••), then
+Space settings
 .
-When you’re ready to go back to editing, you can use the keyboard shortcut
-E
-or select
-Resume editing
-from the
-More actions
-menu.
-Pin or unpin your toolbar
-When using live docs by default your toolbar is unpinned. It appears in-line when you select text.
-Type
-/
-or press + when you hover over content to search for and insert elements such as tables, the date, media, and more. You can pin your toolbar by selecting the pin icon to the right of the toolbar.
-How to use the new toolbar and insert elements
-Access
-Undo
-,
-Redo
-, and
-Find and replace
-via the
-...
-menu next to the top-right
-Share
-button.
-Sharing and permissions
-Whenever you first create a live doc, it is immediately visible in the sidebar, and anyone with access to the space can see it. You can review or adjust who has access to view and edit your doc at any time by selecting
-Share
-on the toolbar.
-You can invite others to view and/or collaborate on your live doc by sharing a link to it using the
-Copy link
-button on the toolbar, or via
-Share
-. Those with access will be able to navigate to your doc and make edits in real time.
-Comments
-Highlight text to leave inline comments in order to provide feedback, suggest changes, or ask questions. Or, you can add general comments to the comments panel that appears on the right when you select
-Show comments
-from the floating action bar.
-To find out what else you can do from the floating action bar, see:
-Get to know the new and simplified content layout
-Copy and move
-Live docs can be copied and moved within and across spaces in the same way pages can be now. To find out more about copying and moving content within Confluence, see
-Move, copy, and hide content items
-Labels
-Labels are key words that you can add to live docs to make them easier to group and find. To add labels to your live doc, select the
-Details
-icon from the bottom-right floating action bar, then select
-+
-from
-Labels
+Open the
+General
+menu
+then select
+Send space to trash
 .
-How can I be sure my content is saved?
-Confluence will automatically save your edits, so you don't have to worry about manually saving your work. Check the save icon on the toolbar for info on when your content was last saved.
-Confluence will also store a new version of your doc in
-Version history
-when editing begins and finalize it approximately 10-15 minutes after the last edit is complete.
-You can view the version history of your page by selecting
-Version history
-from the
-…
-(
-More actions
-) menu.
-Version history
-allows you to compare doc versions, revert to previous versions if needed, and track the evolution of your live doc.
-What about publishing? Can I do that?
-The beauty of live docs is that they do not require you to publish to display your content or share updates with your team. All edits are instantly visible to everyone with access to the doc.
-However, you can
-convert your live doc
-to a
-page
-and publish it as documentation (or another formal type of content) with a separate view and edit mode, if needed. To do this, select
-Convert to page
-from the
-…
-(
-More actions
-) menu, then review and confirm your publish settings.
-Can I convert published pages to live docs?
-Yes!
-To convert any published page to a live doc, select
-Convert to live doc
-from the
-…
-(
-More actions
-)
-menu. Then confirm that you’re ready to make the switch by selecting
-Confirm.
-Note that version history will remain saved, but comments at the footer of the page will not be visible in your live doc. They will, however, reappear if and when the doc is converted and published once again.
-What is
-not
-included in this experience?
-Any new collaboration space will offer full access to live docs in Confluence. However, a small portion of Confluence’s current functionality is not yet available in this experience.
-Here’s what may not yet be fully functional while using live docs in Confluence:
-With the new content layout enabled, Marketplace app buttons in the header of your pages and live docs will not be supported. Impacted apps are in the process of being supported in other locations. To learn more, visit this
-status page
+Select
+Send this space to trash
 .
-The bulk AI issue creation feature
+Confirm you want to
+Send to trash
+.
+You can
+Archive
+instead or
+Cancel
+the process at this point.
+Trashed spaces
+Once a space is sent to the trash, it remains trashed indefinitely until a Confluence admin either restores the space or permanently deletes the space.
+Starting on
+January 6th, 2025
+, we will permanently delete spaces that have been in the trash for at least 60 days. We recommend that all Confluence admins go to
+Confluence administration
+>
+Data management
+>
+Trashed spaces
+before that date to make sure there aren’t any spaces in the trash that shouldn’t be.
+You must be a Confluence admin to restore or permanently delete a trashed space.
+The space key of a trashed space cannot be reused unless the space is permanently deleted.
+Similarly, you cannot create a new personal space immediately after sending a current personal space to the trash. The trashed personal space must be permanently deleted before a new one can be created.
+Restore a space
+Restoring a space will immediately return the space and all of its content to Confluence.
+To restore a space:
+Select
+Confluence administration
+(
+).
+From under the Data Management section of Settings, select
+Trashed spaces
+.
+For the space that you want to restore, select
+Restore space
+under Action.
+Confirm restoration by selecting
+OK
+.
+Permanently delete a space
+Permanently deleting a trashed space (and all its content) cannot be undone.
+To permanently delete a space:
+Select
+Confluence administration
+(
+).
+From under the Data Management section of Settings, select
+Trashed spaces
+.
+For the space that you want to delete, select
+Permanently delete
+under Action.
+Confirm deletion by selecting
+Delete this space
+.
+Depending on the size of the space, deletion can take up to a few hours. A progress bar will let you know the time elapsed, estimated time remaining, and the percent completed.
 Was this helpful?
 Yes
 No
@@ -589,27 +534,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
-Draft, publish, and update a page
-Create and collaborate in real time with live docs
-Format a page, live doc, or blog post with a template
-Format your content
-Format text
-Show more
+Remove a space
+Archive a space
+Delete a space
 On this page
-What are live docs?
-How do I get started?
-How does collaborating work?
-Editing vs. Viewing
-Pin or unpin your toolbar
-Sharing and permissions
-Comments
-Copy and move
-Labels
-How can I be sure my content is saved?
-What about publishing? Can I do that?
-Can I convert published pages to live docs?
-What is not included in this experience?
+Trashed spaces
+Restore a space
+Permanently delete a space
 Community
 Questions, discussions, and articles
 Accessibility

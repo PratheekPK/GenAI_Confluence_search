@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/customize-default-space-content/
+URL: https://support.atlassian.com/confluence-cloud/docs/make-your-page-and-its-title-more-memorable/
 
-Create a custom space overview template | Confluence Cloud | Atlassian Support
+Make your content and its title more memorable | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,72 +439,76 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Set Confluence-wide functionality
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Create a custom space overview template
-Confluence administrators can edit the template that is used to create the overview page in new spaces. There is a different template for general spaces, personal spaces, and space blueprints.
-Any changes to the space overview templates will only appear in new spaces (those that are created after editing the content). They will not affect existing overviews.
-Edit the space overview template
-To edit the (blank) space overview template:
-If you aren’t already there, go to your
+Make your content and its title more memorable
+Sometimes you need more than words to tell a story and make content stand out. Whether the page, live doc, or blog post is new or one that you’ve had around for awhile, you can add an emoji to the title or an image above the title in the header area.
+Whenever a page, doc, or post is shown in the
+sidebar
+or on a card in the space or
+For you
+page, the emoji you add to the title shows up too. Emojis can be a convenient way to make the purpose of the content clear at a glance.
+Add an emoji to a title
+Hover over the title when editing a page, live doc, or blog post in
 Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
+.
 Select
-Configuration
->
-Global templates and blueprints
+Add emoji
 .
-Select the edit icon (
-)
-next to "Default Space Content" or "Default Personal Space Content" (depending on whether you want to customize the content for general space or personal space overviews).
-Add variables, macros, and other content as you want it to appear.
-Select
-Save
-.
-The following variables are available to be added to the default space overview templates:
-For general spaces
-$spaceKey
-inserts the space key
-$spaceName
-inserts the space name
-For personal spaces
-$userFullName
-inserts the user (owner of the personal space) into the personal space overview
-$userEmail
-inserts the email address of the user (owner of the personal space) into the personal space overview.
-Default space templates differ from ordinary page templates in that they don't present the user with a form to complete, so variables should be limited to those listed in the
-Variables
-menu.
-Some macros, like the Table of Contents macro, may not display correctly when you preview the template because they are designed to work on a page. However when a new space is created, the macros will display correctly.
-For more information on editing a template, including adding macros, see
-Edit a template
-.
-Restore default space overview content
-To reset the original default content:
-If you aren’t already there, go to your
+Select an emoji. You can also add your own.
+Change an emoji in the title
+Select the existing emoji when editing a page, live doc, or blog post in
 Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Configuration
->
-Global templates and blueprints
+.
+Select the new emoji.
+Remove an emoji from the title
+Hover over the title when editing a page, live doc, or blog post in
+Confluence Cloud
 .
 Select
-Reset to default
-next to the template you wish to reset.
-From this point on, all new space overviews will be created with the original default content.
+Remove emoji
+.
+Once someone finds your content and views it, the image you add to the header of the page, live doc, or blog post can give it even more personality and information. These images are shown above the title when someone views the content.
+Add an image to a header
+Hover over the title when editing a page, live doc, or blog post in
+Confluence Cloud
+.
+Select
+Add header image
+.
+Search the library of images from Unsplash or upload your own.
+Drag to reposition the image and select
+Apply
+.
+Select
+Cancel
+to exit if you don’t need to reposition the image.
+We recommend uploading a high quality image 1100 px or wider to avoid pixelation.
+Change an image in the header
+Hover over the existing header image when editing a page, live doc, or blog post in
+Confluence Cloud
+.
+Select the image.
+Select
+Change image
+.
+Search the library of images from Unsplash or upload your own.
+Drag to reposition the image and select
+Apply
+.
+Select
+Cancel
+to exit if you don’t need to reposition the image.
+Remove an image from the header
+Hover over the existing header image when editing a page, live doc, or blog post in
+Confluence Cloud
+.
+Select the image.
+Select
+Remove image
+.
 Was this helpful?
 Yes
 No
@@ -512,17 +519,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
+Create and edit content
 Show more
-Change the landing page
-Change the Confluence Home welcome message
-Create a custom space overview template
-Turn off page reactions
-Customize layout for PDF exports in Confluence Cloud
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
 Show more
-On this page
-Edit the space overview template
-Restore default space overview content
 Community
 Questions, discussions, and articles
 Accessibility

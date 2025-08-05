@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/premium-admin-tools-for-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/set-up-confluence-cloud/
 
-Premium admin tools for Confluence Cloud | Confluence Cloud | Atlassian Support
+Considering Confluence Cloud? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,43 +439,15 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
 Cloud
 Data Center
-Premium admin tools for Confluence Cloud
-Post Confluence-wide announcements in a banner
-Quickly communicate important information to everyone in Confluence.
-View topic
-Inspect a user's permissions
-Inspect a single user's permissions status on a page to identify the root cause of any access issues.
-View topic
-Bypass page restrictions with admin key
-Admin key allows organization admins to access any page that has been restricted.
-View topic
-Was this helpful?
-Yes
-No
-It wasn't accurate
-It wasn't clear
-It wasn't relevant
-Provide feedback about this article
-Still need help?
-The Atlassian Community is here for you.
-Ask the Community
-Explore more
-Post Confluence-wide announcements in a banner
-Inspect a user's permissions
-Bypass page restrictions with admin key
-Confluence administration
-Show more
-Set Confluence-wide functionality
-Monitor and manage activity in Confluence Cloud
-Premium admin tools for Confluence Cloud
-Manage global permissions in Confluence administration
-Manage analytics permissions in Confluence administration
-Show more
-Community
-Questions, discussions, and articles
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+Review the Confluence Cloud features in each plan and dig into the benefits of using Confluence Cloud.
+View topics
+See how teams use Confluence Cloud
+Review the different ways Confluence can be used.
+View topics
 Accessibility
 Notice at Collection
 Privacy Policy

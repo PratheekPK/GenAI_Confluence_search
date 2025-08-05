@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-your-notifications/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-storage-usage/
 
-View your notifications | Confluence Cloud | Atlassian Support
+Manage your storage usage | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,102 +439,55 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Get notified about content and activity
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
 Cloud
 Data Center
-View your notifications
-Confluence has a
-notifications drawer where you can view recent activity that pertains to you. For example, you’ll receive a notification if you were
-@mentioned
-in a comment, a task was assigned to you, or content you’re
-watching
-was updated. If your Confluence instance is linked to
-Jira
-, Jira App Discovery, or Jira Service Management, you'll also see notifications from there (for example, if a Jira ticket was assigned to you).
-When it comes to collaboration, the notifications drawer is a convenient way to track and respond to requests from your team, and to follow the progress of work that is important to you.
-Looking to manage your email messages instead? See
-Email Notifications
-View notifications
-To open your notifications drawer, select the bell icon
-in the top-right of the
-Confluence navigation
-bar.
-Which notifications are included?
-Notifications are added to the notifications drawer when someone:
-Shares
-a page, live doc, or blog with you
-Mentions
-you in a page, live doc, blog, comment, or task
-Comments on a page, live doc, or blog that you're
-watching
-Likes
-a page, live doc, or blog that you're watching
-Notifications won’t include activity related to spaces you are watching. You must watch a specific page, live doc, or blog to receive a related notification.
-If your Confluence instance is linked to a Jira application, you'll also see the following Jira notifications:
-Comments on issues that you're watching
-Mentions
-Shares of issues, filters, and searches
-Hide notifications marked as read
-You can use the
-Only show unread
-feature to easily filter relevant notifications from the noise.
-To do this:
-Select the notification bell icon in the top nav bar to open the notification drawer.
-Select the
-Only show unread
-button so that it is switched
-on
-(green).
-To hide a single notification from view, select the blue dot on the right side of the notification. This marks the notification as "read" and because
-Only show unread
-is active, the now "read" notification will be hidden.
-To clear all your unread notifications, select
-Mark all as read.
-Notifications aren't deleted, so nothing is ever lost.
-If you want to see hidden notifications later:
-Select the notification bell icon in the top nav bar to open the notification center.
-Select the
-Only show unread
-button so that it is switched
-off
-(gray). All notification, read or unread, will now appear in the notification center.
-To unhide a notification, simply select
-Mark as unread
-and it will stay displaying in your list once you switch
-Only show unread
-back on.
-Notifications are automatically removed from the list after 30 days. Older notifications can still be found in your email.
-Keyboard shortcuts
-Shortcut
-Action
-g then n
-Open the notifications drawer
-j
-Move down to the next notification in the list
-k
-Move up to the previous notification in the list
-n
-Move down to the next notification for a particular page, live doc, or blog
-p
-Move up to the previous notification for a particular page, live doc, or blog
-Enter
-Open the selected notification
-u
-Return to the notification list after opening a particular notification
-Mobile notifications
-The
-Confluence Cloud mobile app
-is available for iOS and Android and lets you view and respond to notifications wherever you are.
-View and manage notifications from a single page
-From the notifications page, users can view the latest updates and filter past notifications by app.
-To view and manage your notifications from a single page:
-Select the
-bell icon
-from the top-right menu.
-Hover your mouse and select the
-‘Open in a new tab’
-icon.
+Manage your storage usage
+With Confluence, you can feel confident knowing that your files and data are safeguarded in a secure environment. Each Confluence subscription offers a different amount of storage for your team’s needs.
+Confluence Free- 2 GB
+Confluence Standard- 250 GB
+Confluence Premium- Unlimited storage
+Tracking your storage usage
+You must be a Confluence admin to view and track your storage.
+Go to
+admin.atlassian.com
+and select your organization(if you have more than one). You can also get to this page by switching to the
+Administration
+tab using the menu in Confluence.
+This step is different depending on your user management settings:
+- Original: On the left nav bar, select the
+site's name
+and
+URL
+to open the
+Admin
+for that site.
+- Centralized: Select
+Apps
+then select the
+site's name
+and
+URL
+to open the
+Admin
+for that site.
+Under
+Site settings
+, select
+Storage
+.
+For each app, you’ll see the amount of storage used and the amount remaining (if it’s not unlimited).
+This data may not reflect your most current storage usage, since it’s updated only every 4 hours.
+Managing your storage
+All pages, live docs, attachments, files, and comments take up storage. We recommend removing the biggest attachments and files to help free up some storage space. The quickest way to clear storage would be to delete pages or live docs with attachments.
+Removing attachments
+Archiving content that contain attachments in Confluence will
+not
+free up any storage. This is because Confluence keeps files to make historical data available to you. To free storage, we recommend deleting the content altogether.
+Regarding attachments, you’ll need to delete them from archived pages and live docs or delete archived page or live docs completely. Once again, this is because Confluence stores all attachments for version history purposes.
+What happens if I exceed my storage limit?
+When you reach storage limits for your Confluence plan, you’ll either need to upgrade to a higher plan or remove content that is taking up storage.  If you don't take action within the dedicated time frame, your team will not be able to edit or create spaces, pages, live pages, whiteboards, and content within your Confluence site.
 Was this helpful?
 Yes
 No
@@ -542,20 +498,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Get notified about content and activity
-View your notifications
-Subscribe to email updates
-What is a Confluence RSS feed?
-Build an RSS feed
-Subscribe to pre-specified RSS feeds
-Show more
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
 On this page
-View notifications
-Which notifications are included?
-Hide notifications marked as read
-Keyboard shortcuts
-Mobile notifications
-View and manage notifications from a single page
+Tracking your storage usage
+Managing your storage
+Removing attachments
+What happens if I exceed my storage limit?
 Community
 Questions, discussions, and articles
 Accessibility

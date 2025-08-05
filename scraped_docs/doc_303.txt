@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/atlassian-administration-for-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/see-standard-event-types/
 
-Atlassian administration for Confluence Cloud | Confluence Cloud | Atlassian Support
+See standard event types | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,12 +439,71 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Atlassian administration for Confluence Cloud
-Actions that require an organization or site admin
-Learn about Confluence actions that must be done in Atlassian administration.
-View topics
+See standard event types
+Each calendar includes a standard set of event types, which you can use to classify the different events in the calendar. You can also
+create custom event types
+to capture events that don't fit into the standard event types.
+Standard event types
+Leave
+– For tracking holidays and breaks. Who is out of the office and when.
+Travel
+– For tracking your team's travel plans.
+Birthdays
+– To help you celebrate those special moments with your team members.
+Events
+– A generic event type where you can create any type of event.
+Team Calendars integrates with Jira applications and allows you to plan your Jira projects and see how your team's availability may impact them. You can create
+Add Jira events
+for:
+Jira Versions
+– To plan your releases.
+Jira
+Sprints
+– Visualize your teams Agile Sprints inside your calendar to see how your team's leave could impact your project.
+Jira Issue Dates
+If you don't want to use any of the standard event types, hide them by choosing the calendar's drop-down menu, then select
+Edit > Event Types
+. Choose the minus
+icon to hide the event type.
+Color-code event types
+All events are color-coded according to the event type they belong to. Changing event type colors changes the appearance of its events for you, but not for other viewers of the calendar. Each person viewing the calendar is free to set their preferred color scheme.
+To change the color of events in a particular event type:
+Hover over the event type and click the
+that appears to the right
+Choose the appropriate color for the event type
+Filter events
+If you've got a lot of events on your Team Calendar, you may want to show or hide certain event types or calendars to reduce clutter. Click on an event type to show or hide its events, or hit
+next to a calendar and choose
+Hide events
+to hide all events in that calendar.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Use Team Calendars for Confluence (Premium feature)
+Show more
+Add events
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Show more
+On this page
+Standard event types
+Color-code event types
+Filter events
+Community
+Questions, discussions, and articles
 Accessibility
 Notice at Collection
 Privacy Policy

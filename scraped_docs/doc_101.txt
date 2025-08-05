@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/promote-a-template/
+URL: https://support.atlassian.com/confluence-cloud/docs/whiteboard-history/
 
-Promote a template | Confluence Cloud | Atlassian Support
+Whiteboard version history | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,29 +439,29 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Create templates, blueprints, and reports
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Promote a template
-Space admins can promote specific templates in the spaces they administer to make them easier to find. When you promote a template, it will appear near the top of the list in the panel.
-To promote a template:
-Go to the space in
-Confluence Cloud
+Whiteboard version history
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
+Version history is useful for viewing recent changes, especially on whiteboards with many collaborators. You can also restore a previous version of a whiteboard.
+To restore a version of a whiteboard:
+Go to the whiteboard and select
+>
+History
+from the top right.
+Select a version to view it.
 Select
-Templates
-from the
-Look and feel
-card.
-Find the template in the table and select
-Promote
+Restore as new whiteboard
 .
+Restoring an old version of a whiteboard does not delete the current version or versions that come after it. Confluence creates a copy of the old version as a new whiteboard.
+Since restoring an old version creates a new whiteboard, it will count towards your plan limit.
+Review Confluence whiteboards plan limits
+. Alternatively, you can copy content from an old version and paste it in an existing whiteboard instead.
+Whiteboard history is only available for the past 30 days. Any whiteboards created before history was made available may not show the full history.
 Was this helpful?
 Yes
 No
@@ -469,11 +472,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create templates, blueprints, and reports
-Create a template
-Edit a template
-Promote a template
-Create a custom report
+Create and edit whiteboards
+Show more
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard version history
 Community
 Questions, discussions, and articles
 Accessibility

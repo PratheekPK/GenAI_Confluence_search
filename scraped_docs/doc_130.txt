@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/faq-import-data-from-html-to-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/summarize-changes-with-atlassian-intelligence/
 
-FAQ import data from HTML to Confluence | Confluence Cloud | Atlassian Support
+Summarize changes with Atlassian Intelligence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,88 +440,34 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Import data from other tools into Confluence
+Atlassian Intelligence features in Confluence Cloud
 Cloud
 Data Center
-FAQ import data from HTML to Confluence
-Who has permission to import?
-All users who can create spaces will also be able to import HTML files into Confluence. If you can’t import, reach out to your admin and check your space permissions.
-How do I increase my attachment size limit?
-You’ll need to reach out to your admin to do so.
-Admin-only:
-To import your HTML content into Confluence, ensure that your file size limit exceeds the size of the file you are importing. Follow these steps:
-Select the gear icon to navigate to
-Settings
->
-Global permissions
+Summarize changes with Atlassian Intelligence
+This Atlassian Intelligence feature is in beta. Read more about
+Atlassian Intelligence features.
+Quickly get the information you need to dive back into collaborative work by generating a summary of changes since you last visited a page or blog post with
+Atlassian Intelligence
+. Currently, this summary doesn’t include content from macros, images, or links.
+Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
+Settings > Atlassian Intelligence
+in Atlassian Administration.
+Atlassian Intelligence isn’t available for
+Atlassian Government
+apps.
+Summarize changes with Atlassian Intelligence
+Navigate to a Confluence page or blog post that you’ve visited before.
+Select
+Summarize changes
+from the drop-down menu inside the
+Summarize
+button on the top right.
+Atlassian Intelligence will generate a summary of changes since you last visited the page or post.
+You can copy the summary to your clipboard, rate the quality of the summary, and provide feedback on the feature.
+Atlassian Intelligence will only generate a summary of changes if someone has edited the page since your last visit. If no one has made changes to the page since your last visit, Atlassian Intelligence will generate a page summary instead.
+Atlassian Intelligence won’t generate a summary if any content appears to violate Atlassian’s
+Acceptable Use Policy
 .
-Go to the
-General Configuration
-section.
-Scroll down to the Attachment Size setting and increase the byte size to be larger than your HTML zipfile.
-To increase the file size only temporarily, after the import, revert to the original limit.
-Can I restrict content to be only visible to me?
-Yes! You can set
-Only visible to me
-in the permissions section of the the
-Set up space
-step. We recommend that you restrict sensitive spaces and then remove restrictions for non-sensitive spaces, rather than using open permissions initially. This way, you won’t accidentally reveal any sensitive information.
-Private pages will transfer to a new, restricted space.
-Note:
-Because only you will be able to access the
-Restricted to you
-content, all pages and comments will be labeled as created by you (the importing user).
-What file type can I upload?
-You can only upload a .zip file containing a folder (the name of the folder will apply as the space name) containing .html files. The name of the .html file will become the name of the created page, and any supplemental media used in the page must be stored in a folder with the same name as the page. Any unsupported media will be ignored.
-What content gets transferred from HTML?
-The content formatting we preserve includes:
-Headings, paragraph list
-Center alignment
-Bold text
-Hyperlinks
-Images
-Tables
-Number list
-Normal + Italic text
-Emojis
-Links
-Bulleted lists
-Quotes
-Dividers
-Inline code
-Superscript
-Unsupported features
-The following features are either will often show up as plain text or similar after the import or are not supported:
-HTML
-Confluence
-Audio .mp4
-Unsupported
-Title
-Unsupported
-Figure
-Unsupported
-Nav
-Unsupported
-iframe
-Unsupported
-Block equation
-Plain text only
-Button
-Unsupported
-Code block
-Plain text
-Customized text (text color, background color)
-Stylized text
-Inline equation
-Plain text
-Link to page
-Hyperlink
-Video (embedded link)
-Hyperlink
-Are there any storage limits?
-Our
-Premium and Enterprise plans
-offer unlimited storage. Pick your plan and enter your team size in our price calculator to see if your plan will be affected by adding users. If you exceed your storage limit for the Standard or Free plan because of the import process, we will attempt to automatically offer you a free trial on the plan that fits your storage limits. If we can’t do this automatically, we will show a banner that says you have 14 days to reduce storage or convert to a different plan.
 Was this helpful?
 Yes
 No
@@ -529,21 +478,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Import data from other tools into Confluence
-FAQ import data from HTML to Confluence
-FAQ import data from Notion to Confluence
-Import data from HTML to Confluence
-Import data from Notion into Confluence
-Import multiple Miro boards to Confluence
+Atlassian Intelligence features in Confluence Cloud
 Show more
-On this page
-Who has permission to import?
-How do I increase my attachment size limit?
-Can I restrict content to be only visible to me?
-What file type can I upload?
-What content gets transferred from HTML?
-Unsupported features
-Are there any storage limits?
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
 Community
 Questions, discussions, and articles
 Accessibility

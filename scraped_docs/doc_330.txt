@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/delete-your-account/
+URL: https://support.atlassian.com/confluence-cloud/docs/share-databases-entries-or-values/
 
-Delete your account | Confluence Cloud | Atlassian Support
+Share databases, entries, or values | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,31 +439,67 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage your account
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Delete your account
-You can
-delete your account
-when you no longer need to use Atlassian account services. When you do, you’ll immediately lose access to Confluence and all other Atlassian account services, and we’ll stop billing your organization for your account. We’ll also delete your personal data from Atlassian account services.
-Once your account has been deleted, you won’t be able to reactivate it or restore your personal data.
-What’s deleted
-When you delete your account, we’ll permanently delete your
-personal data
-from all Atlassian account services. Your name will be replaced by
-Former user
-throughout Confluence, and your Confluence personal space will be archived.
-We won’t delete:
-Content, comments, or files.
-To manually delete the content you’ve created, follow the instructions in
-Delete, restore, or purge content
+Share databases, entries, or values
+Databases aren’t available in the
+Atlassian Government environment
 .
-Personal data in user-generated content.
-If your personal data, such as your name, email address, or phone number, appears in the text of a Confluence Cloud page or live doc, it will remain on Confluence Cloud until the content or the site is deleted. To delete personal data from a page, live doc, blog post, or comment, you'll need to find the content using global search, then edit it to manually remove your data.
-Once an account has been deleted, both the account and the personal data in it are gone forever.
-How you'll appear
-This is what you’ll look like to other Confluence users once you delete your account:
+Effectively presenting your database information is crucial for your team's success. Whether you're working within Confluence or using other platforms, there are several ways to share and view your databases. This article will guide you through embedding databases on your Confluence pages and using Smart Links to display your database content.
+Embedding databases pages
+Using the
+/embed database
+command, you can embed an entire database, a specific database entry, or even a single database value onto a Confluence page. Follow these steps to embed your database content:
+When editing a Confluence page, select the
++
+button from the toolbar and find
+embed database
+, or type
+/embed
+and select
+embed database
+.
+Search for or paste a link to the database you want to embed in the
+database
+field.
+Select or create an entry from the
+entry
+field if you want to display a specific entry. To display a particular value, select the value from the
+value
+field.
+Select
+Embed
+to insert the selected database, entry, or value onto the page.
+The embedded content will appear as a Smart Link, providing a dynamic and interactive view of your database directly within your Confluence page.
+Using Smart Links
+Smart Links offer a flexible way to share and display database content on Confluence pages and anywhere that supports Smart Links. Smart Links can display an entire database, a specific view, an individual entry, or a particular value.
+Displaying the whole database
+Go to the database you want to share and copy the URL from your web browser's address bar.
+Open the Confluence page or another location where you want to embed the database.
+Paste the URL, and it will create a Smart Link to the database.
+Displaying a selected view
+Navigate to the specific view of the database you want to share.
+Copy the URL from the address bar of your web browser. You can also use the
+Copy link
+option from the view actions menu.
+Paste the URL into the Confluence page or another location to create a Smart Link to the selected view.
+Displaying a database entry
+Find and open the entry you want to share from your database.
+Use the
+Copy link
+icon.
+Paste the URL into the desired location, and a Smart Link to the database entry will be created.
+Displaying a database value
+In the table layout, navigate to and select the value you want to share.
+Use the
+Copy link
+icon for the specific value.
+Paste the URL into the desired location, and a Smart Link to the database value will be created.
+Smart Links are dynamic and will update when the linked content changes. This ensures that the information you share is always up-to-date.
+For more detailed information on using Smart Links in Confluence, refer to
+Insert links and anchors
 Was this helpful?
 Yes
 No
@@ -471,16 +510,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage your account
+Create and edit databases
 Show more
-Change your Confluence password
-Manage OAuth access tokens
-Delete your account
-Change your theme
-Set your email visibility
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Show more
 On this page
-What’s deleted
-How you'll appear
+Embedding databases pages
+Using Smart Links
+Displaying the whole database
+Displaying a selected view
+Displaying a database entry
+Displaying a database value
 Community
 Questions, discussions, and articles
 Accessibility

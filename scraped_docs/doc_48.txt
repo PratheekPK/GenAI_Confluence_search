@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-content-into-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-company-hub-to-deliver-key-information-to-employees/
 
-Import external documents | Confluence Cloud | Atlassian Support
+Use Company Hub to deliver key information to employees | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,137 +439,40 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Extend the functionality of Confluence Cloud
 Cloud
 Data Center
-Import external documents
-Easily bring existing work over to Confluence from Word, Google Docs, or OneDrive documents.
-To start, open a blank page or live doc by selecting
-Create
-in the top navigation (or by using the + next to
-Content
-in the sidebar).
-Next to the
-Share
-button, select
-More actions
-(
-)
-, then
-Templates and import
-. The template browser will open on the right.
-Select the
-Import
-tab.
-Decide which document type you want to import:
-Word document (.docx)
-,
-Google Doc
-, or
-OneDrive
+Use Company Hub to deliver key information to employees
+This feature is only offered with
+Confluence Cloud Premium and Enterprise
 .
-The template browser (and Import tab) will disappear as soon as you start typing. To reopen, select
-Templates & import doc
-from the more actions menu
-(…)
-in the upper right of the new draft page or live doc.
-External documents can be imported one at a time or several at once, but there are different requirements for files imported on their own versus in bulk and may vary by document type (Word, Google Doc, or OneDrive)
-Single file limit
-Bulk limit
-Google Doc
-5 MB for doc (excluding attachments)
-10 MB total
-Up to 30 files, 50 MB total
-Each file cannot exceed 10 MB
-Word document (.docx)
-5 MB for doc (excluding attachments)
-100 MB for attachments
-Up to 30 files, 50 MB total
-Each file cannot exceed 10 MB
-OneDrive
-5 MB for doc (excluding attachments)
-100 MB for attachments
-Up to 30 files, 50 MB total
-Each file cannot exceed 10 MB
-Each file imported will be its own Confluence page or live doc. When you import more than one file at a time, they are added as child items under a restricted placeholder page or live doc (titled “Imported pages” with the date and time information). This means you can privately review the imported content, then organize it and set appropriate
-permissions
-.
-If you only import a single file, it will generate as a live doc or draft page that you can then modify and publish (if need be) as you would other Confluence content.
-Not all images can be be successfully imported to Confluence. If a document contains an unsupported image file, the image is replaced with placeholder text on Confluence.
-We currently support importing the following image file types in documents: BMP, CUR, DDS, GIF, ICO, JPG, PNG, PSD, SVG, and WEBP.
-Import OneDrive documents
-Select
-OneDrive
-from under
-Import
-.
-If you haven’t already, you’ll be prompted to connect your Microsoft account and allow importing into Confluence.
-Select the documents you want to import from your files and then
-Open
-. Only .docx files can be imported from OneDrive.
-After the documents have been successfully imported, select
-Finish
-.
-Import Google Docs
-Select
-Google Doc
-from under
-Import
-.
-If you haven’t already, you’ll be prompted to connect your Google account and allow importing into Confluence.
-Choose the documents you want to import from your files and then
-Select
-.
-After the documents have been successfully imported, select
-Finish
-.
-Import Word documents
-If you import Word documents with shapes in them, the shapes will be replaced with placeholders in Confluence.
-Select
-Word document (.docx)
-from under
-Import
-.
-Select the documents you want to import from your files and then
-Open
-. Only Word documents with the .docx extension can be imported.
-After the documents have been successfully imported, select
-Finish
-.
-Import web content
-If you have web content that you want to import into Confluence, you'll need to import it page by page. Any text with basic formatting can be pasted directly into the editor, and you can use the
-Widget Connector Macro
-to display videos, slide shows, tweets, and more.
-Additional customization is available using the
-Confluence APIs
-.
-Other import methods can be found in the Atlassian Marketplace:
-Import and export spreadsheets using
-Excellentable Spreadsheet for Confluence
-Embed Google Drive and Docs files with
-Google Drive & Docs for Confluence
-Display and search for Salesforce data from Confluence using the
-Salesforce & Confluence Cloud Connector
-Import data into Confluence to use it as your CRM with
-Atlas CRM for Confluence
-Import Visio, Gliffy, and Omnigraffle diagrams using
-Lucidchart Diagrams for Confluence
-or
-draw.io Diagrams for Confluence
-Import markdown, macros, and other information using
-Github Macros for Confluence
-,
-Gister: GitHub Gist Macro for Confluence
-,
-Github Links for Confluence
-,
-Include Bitbucket for Confluence
-, or
-Markdown, HTML, PlantUML, LaTeX, Diagrams, Open API, Mermaid
-.
-Connect various cloud accounts and embed a whole range of documents into Confluence with
-Office Files & Documents for Confluence
+With
+Company Hub
+, you can create and customize a beautiful, dynamic company-wide information central. This is where all employees can go for up-to-date announcements, news, key resources, and more.
+Create and customize a Company Hub
+Set up a dynamic news and information hub for your entire company using Confluence.
+View topic
+Manage your Company Hub
+Manage Company Hub settings and permissions, view and restore old versions, and deactivate your Company Hub.
+View topic
+Set up a menu of important links on Company Hub
+Add a menu of evergreen links and important information to the top of Company Hub.
+View topic
+Use sections to enhance and highlight your Company Hub content
+Highlight and organize your content with sections in Company Hub. Customize with background colors and enhance with elements like Cards and Carousels.
+View topic
+Highlight important messages with a visual spotlight
+Spotlight allows you to present important message with a large image, a colorful background, and an interactive link.
+View topic
+Add a rotating set of frames to your Company Hub
+Drive employee engagement with Company Hub using a set of rotating frames with custom colors, a large image, and a link.
+View topic
+Use cards to add beautiful dynamic content to Company Hub
+Add interactive visual cards to elevate your Company Hub. Add images, customize the design, and select a target audience.
+View topic
+Curate search results in Company Hub
+Add a customized search field to your Company Hub.
+View topic
 Was this helpful?
 Yes
 No
@@ -577,19 +483,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Explore more
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
 Show more
-Add a status to your content
-Make your content and its title more memorable
-Import external documents
-Classify content
-How redaction works
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Use Company Hub to deliver key information to employees
+Use Confluence with other applications
+Use macros to show Confluence content on pages and live docs
+Use macros to add development info on Confluence pages
 Show more
-On this page
-Import OneDrive documents
-Import Google Docs
-Import Word documents
-Import web content
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-labels-to-categorize-spaces/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-a-new-whiteboard/
 
-Use labels to categorize spaces | Confluence Cloud | Atlassian Support
+Create a new whiteboard | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,84 +440,36 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Use spaces to organize your work
+Create and edit whiteboards
 Cloud
 Data Center
-Use labels to categorize spaces
-If you've got lots of related spaces, you can use labels to group them together into categories in the
-Space Directory
+Create a new whiteboard
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-For example, if you're in an IT team who work on a number of projects, each in a different space, you could label each space 'IT-projects-open'. Then in the Space Directory you could select IT-projects-open to see all your current IT project spaces.
-You can add as many space categories to a space as you need, so that if, for example, two different teams are working on a project together, you can add labels for both teams and space will appear under both categories.
-You can add or remove labels as your needs change.
-Categorize a space
-You need space administrator permissions to add categories to a space.
-Navigate to the appropriate space.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Space details
-.
-Select
-More details.
-Select the
-Categories
-field to search or choose from a dropdown list.
-Select
-Save.
-Add a space description
-Help make it easier to find the right space within a category by adding a description to your space:
-Navigate to the appropriate space.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Space details
-.
-Input a
-Description.
-Select
-Save.
-View spaces in a category
-Select
-Spaces
-in the
+There are two ways to create a whiteboard today in Confluence.
+Option 1 — Select the
+Create
+button in the navigation, and select ‘Whiteboard’. This will create a whiteboard in the space you are currently in or will default to your personal space/whichever space you have edit permissions.
+Option 2 — Select the
++ button
+next to the Content section in the space
 sidebar
-and select
-View all spaces
-, then select one of the categories at the top of the
-All spaces
-list.
-You can also view spaces by category by using the
-Spaces List Macro
-and filtering by category.
-Head to the
-Spaces
-menu in the navigation to see all your starred spaces. When viewing a space, you can choose the star icon next to the space title in the sidebar to add it to your
-Starred
-Spaces
-so that it's easier to find later.
-Remove a space from a category
-Navigate to the appropriate space.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
+, and select ‘Whiteboard’ to create a whiteboard in your space.
+You can also create a whiteboard under a page/whiteboard using the
++ button
+that appears when hovering over the content’s title in the
+sidebar
 .
+Get started with a template
+When you land in a new whiteboard you will be prompted to select a template from our template picker.
+Select from a number of best-practice templates from the
+Atlassian Team Playbook
+to help you get started.
+Hover over a template in the template picker.
 Select
-Space details
-.
-Select the
-icon next to a category label to delete it.
-Select
-Save
-.
-If you remove all spaces from a category, the category will no longer appear in the Space Directory. There's no way to bulk remove a category. You can choose the category in the Space Directory to find all the spaces it appears on, then remove it from each space.
+Use template.
+To prevent this picker from showing on each whiteboard load, uncheck the box ‘Show when creating a whiteboard'.
 Was this helpful?
 Yes
 No
@@ -525,18 +480,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use spaces to organize your work
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
 Show more
-Organize your space
-Find content in a space
-Customize your space's overview
-Use labels to categorize spaces
-Delete or disable a template
-On this page
-Categorize a space
-Add a space description
-View spaces in a category
-Remove a space from a category
 Community
 Questions, discussions, and articles
 Accessibility

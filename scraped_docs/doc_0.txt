@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-links-and-anchors/
+URL: https://support.atlassian.com/confluence-cloud/docs/delete-or-remove-a-calendar/
 
-Insert links and anchors | Confluence Cloud | Atlassian Support
+Delete or remove a calendar | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,243 +439,56 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Space administration
+Manage team calendars
 Cloud
 Data Center
-Insert links and anchors
-Create and insert links
-Highlight words or phrases then use
-Cmd + K
-for Mac or
-Ctrl + K
-for Windows
-to convert them into links. You may also select the link icon
-from the top menu.
-Most links (also known as hyperlinks and URLs) will automatically unfurl or convert into a Smart Link when you paste them in a Confluence page or live doc.
-You can cancel this by using keyboard shortcuts:
-For Mac:
-Cmd + Z
-For Windows:
-Ctrl + Z
-You can also select the link and choose your preferred display view from the
-Smart Link
-toolbar.
-Link to an anchor, heading or section
-To insert a link leading to a specific anchor, heading or section of a page or live doc:
-Hover to the right of the heading until the link icon appears.
-Select the link icon. This will copy the URL of the heading link.
-Use the URL you copied to create the link.
-To link to an
-anchor link macro
-on the same page or live doc:
-Make note of the name of the anchor to which you want to link. The name is displayed on the anchor when editing.
-Highlight the text you want to use as the link.
-Select the link tool
-.
-Enter the name of the macro prefaced by a # symbol. If your Anchor Name is
-topofpage
-, you'll enter
-#topofpage
-when creating your link.
-Note:
-Anchor link names are case sensitive.
-To link to an
-anchor link macro
-on another page or live doc:
-Copy the URL of the page or live doc whose anchor you want to link.
-Make note of the name of the anchor to which you want to link. The name is displayed on the anchor when editing.
-Go to the page or live doc where you want to add the link and edit it.
-Highlight the text to be used as the link.
-Select the link tool .
-Paste the URL to the copied page or live doc in the link field followed by a # symbol and the anchor name.
-Example
-page name =
-Project notes
-Anchor name =
-notes from today
-Link =
-sitename.domain/wiki/Project+notes#notes-from-today
-Pro tip
-— if you are adding a link to an anchor from a Gliffy diagram, you must use the entire URL, not just the pagename#anchorname portion.
-Link to a Confluence comment
-To insert a link leading to a comment from Confluence page or live doc.
-Hover over the comment date until the link icon appears.
-Select the link icon. This will copy the URL of the heading link.
-Use the URL you copied to create the link.
-Link to an email address
-To insert a link that will create a message directed to a specific email address:
-Use
-Cmd + K
-for Mac or
-Ctrl + K
-for Windows, or select the link icon(icon).
-Type ‘mailto:’ followed by the email address in the link field. For example: '
-mailto:iamawesome@email.com
-'
-Choose the text to display.
+Delete or remove a calendar
+If you don't want to see a calendar in a space or on your My Calendars page anymore, there are two ways you can remove it. How you proceed depends upon whether you're just hiding the calendar from your view or deleting it completely.
+Remove a calendar
+You want to "Remove" a calendar if you just want to hide it from a particular view of calendars, but not delete it entirely.
+To remove a calendar from a space's calendar view:
 Select
-Insert
-.
-Link to attachments
-To link to a page or live doc’s attachment:
-Go to the live doc or published version of the page containing the attachment to which you want to link.
-Go to
-More  > Attachments
-.
-Right-click on the file name of the attachment, and select Copy Link Address.
-Go to and edit the live doc and page where you want to link to the attachment.
-Paste the URL in the link tool pop-up, and give it a more friendly name if desired.
-To link to the latest version of an attachment on another page or live doc:
-Go to the published version of the page containing the attachment to which you want to link.
-Go to
-More
-> Attachments
-.
-Right-click on the file name of the attachment, and select
-Copy Link Address
-.
-Go to and edit the page where you want to link to the attachment.
-Paste the URL in the link tool pop-up, remove any text after the file extension in the URL, and give it a more friendly name if desired.
-Create and link to an undefined placeholder page
-Sometimes you want to link to a Confluence page that doesn't exist yet. To do this, you can add an undefined link and come back to it later. When you select on the link, Confluence will create a draft page with that title for you to then add content to and publish when you're ready.
-Undefined placeholder links can't be added to templates.
-Type
-[Placeholder Page Name]()
-.
-This follows the syntax as the keyboard shortcut for adding defined links
-[Link] (http://a.com)
-.
-Press
-Enter
-or
-Return
-to create the placeholder.
-Select
-Close
-to keep the page as a DRAFT or select
-Publish…
-or
-Update
-.
-A link to an undefined page is shown in red. Until you actually publish this newly created page, anyone with
-create
-permissions in that space can select on the link, while viewing or editing, and it will continue to create new draft pages.
-View undefined pages in a space
-The
-Undefined
-page shows you all the undefined pages in your space.
-To view a list of the undefined links in a space:
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Content
+Apps
 , then
-Undefined
-.
-The undefined page links have a green badge to remind you that these pages haven't been published yet. Select an undefined page link to create a draft and add content to it.
-Smart Links
-Smart Links make it easy to create, edit, and view work across Atlassian and third-party apps. With Confluence, Jira, and other Atlassian apps, every link is a
-Smart Link
-.
-Smart Link view options
-Smart Link list view
-Smart Links from Jira and other apps
-Summarize Smart Links with AI
-What data is sent and received when pasting a Smart Link?
-Smart Link preferences
-Search with Smart Links
-Smart Links from Jira and other apps
-You may insert links from other apps and convert them into Smart Links.
-For example:
-Display Jira work items in a list
-Display your Assets data on a Confluence page
-Share a Jira board in Confluence
-Share Jira dashboards in Confluence
-Discover the full list of
-apps that supported by Smart Links
-.
-Authentication for Smart Links
-You must be logged in to non-Atlassian apps that require authentication before you can display the Smart Link in your page or live doc. You’ll only need to do this once, and that app’s links will work across all of Atlassian Cloud.
-For links to non-Atlassian apps that requires access to view, readers need to be logged in for Smart Links to display in the correct view.
-What data is sent and received when pasting a Smart Link?
-Summarize Smart Links with AI
-Save time by summarizing the content of a Smart Link with
-Atlassian Intelligence
-.
-To use Atlassian Intelligence in Confluence, your organization admin needs to
-Activate Atlassian Intelligence for apps
-.
-To summarize a Smart Link with AI:
-Navigate to the Confluence page, live doc, or blog post containing a Smart Link.
-Hover over any Smart Link.
+Calendar
+in the space sidebar to see all the calendars linked to the space.
+In the left panel of the space's calendars view, select
+next to the calendar you want to remove and select
+Remove from space calendar.
 Select
-Summarize with AI
-.
-Atlassian Intelligence will generate a summary.
-A summary will not generate if there isn’t enough content to summarize or if summarizing the content might go against
-Atlassian’s Acceptable Use Policy
-.
-For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
-the Atlassian Trust Center
-.
-Smart Link preferences
-You can set your preferences on how links are displayed across Confluence, Atlas, Jira and soon for other Atlassian apps. Your chosen link display option appears when you edit content or comment on issues.
-Go to
-link preferences
-from Confluence:
-Select your avatar from the top-right menu.
+Remove
+to confirm.
+To remove a calendar from My Calendars view:
 Select
-Manage Account
+Apps
+in the top nav and select
+Calendars
 .
-Select the
-Link preferences
-tab at the top.
-Go to link preferences from Jira:
-Select the settings cog
-on the top-right menu.
-Under Personal settings, select
-Atlassian account settings
-.
-From the left-side menu, select
-Link preferences
-.
-Set your default display for new links
-You can choose how to display links you create:
-From
-Link preferences
-, go to the
-Default display
-section.
-Choose your preferred display option from the dropdown.
-Links created by other users will appear depending on the display option they choose.
-Remember to refresh active editor sessions after you update your preferences.
-Exceptions for specific domains
-You can set different display options for links from specific domains:
-From
-Link preferences
-, go to the section labeled
-Exceptions for specific domains
-.
-Type or paste in a domain or URL.
-Choose your preferred display option from the dropdown.
+In the left panel of your My Calendars view, select
+next to the calendar you want to remove and select
+Remove from my calendar.
 Select
-Submit
+Remove
+to confirm.
+Delete a calendar
+This action will permanently delete the calendar for all users.
+You can only delete a calendar if you are a site admin, app admin, space admin, or the original calendar creator. To delete a calendar:
+Find the calendar in a space or on your team calendars page.
+Select details icon (
+) next to the calendar name and select
+Delete calendar.
+Lastly, select
+Delete
+to confirm.
+If you are the original calendar creator and can’t delete it, have your admin check the space settings and verify that the permission
+Delete own
+is enabled.
+If you're using Confluence Cloud, and you'd like Atlassian Cloud site admins to be able to delete calendars, in addition to the calendar's owner, you can enable that option in your Team Calendars settings. Type
+Team Calendars
+in the Confluence quick search to get to your Team Calendars settings, then tick
+Allow site administrators to manage calendars
 .
-Add exceptions for other domains if needed.
-Exceptions for subdomains
-You may enter subdomains as your URL to set default display options for links from specific sections of a website.
-For example, if you set a preference for links from
-google.com
-to display as a card, all subdomains will follow the same rule.
-If you only set an exception for
-slides.google.com
-, the other Google domains display as the default setting or any custom preferences you may have set.
-If a domain cannot be displayed as an embed, your link will default to inline.
 Was this helpful?
 Yes
 No
@@ -683,29 +499,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
-Show more
-Use Atlassian Intelligence to help write or edit content
-Bring all your work into Confluence
-Insert links and anchors
-Get started with Smart Links in the content tree
-What data is sent and received when pasting a Smart Link?
-Show more
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
 On this page
-Create and insert links
-Link to an anchor, heading or section
-Link to a Confluence comment
-Link to an email address
-Link to attachments
-Create and link to an undefined placeholder page
-Smart Links
-Smart Links from Jira and other apps
-Authentication for Smart Links
-Summarize Smart Links with AI
-Smart Link preferences
-Set your default display for new links
-Exceptions for specific domains
-Exceptions for subdomains
+Remove a calendar
+Delete a calendar
 Community
 Questions, discussions, and articles
 Accessibility

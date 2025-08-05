@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-the-site-homepage/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-and-edit-databases/
 
-Change the landing page | Confluence Cloud | Atlassian Support
+Create and edit databases | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,65 +439,73 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Set Confluence-wide functionality
+Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Change the landing page
-Confluence Cloud
-has a default homepage and sidebar, where you can see activity, resume your work, access the space directory, and more. Alternatively, you can choose to set the overview page of a
-Confluence Cloud
-space as the homepage for your users.
-This can be useful if most people will be reading, rather than creating, pages in your instance. However, if you want to encourage teams to collaborate, the default homepage and sidebar provide the best tools for resuming work in progress and keeping up with what's happening across Confluence.
-To change your Confluence homepage to a space’s overview:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Configuration
->
-General configuration
+Create and edit databases
+Databases aren’t available in the
+Atlassian Government environment
 .
-Select a space from the
-Confluence landing page
-dropdown menu. When users log in or click the site logo,
-Confluence Cloud
-will go to the overview page of the space you choose.
-Select
-Save configuration changes
-.
-Note about permissions
-Before changing the homepage, you should check that the default "confluence-users" or "users" groups have permissions to view the space, and that the overview page itself isn't restricted to particular people or groups.
-If your instance is public, you'll also need to make sure anonymous users have permissions to view the space, otherwise they'll be directed to the default
-Confluence Cloud
-homepage instead.
-Add a default homepage link to the app switcher
-If you choose to set a space’s overview page as your homepage but would also like users to be able to access the default home and sidebar, you can add a link to the application switcher.
-To add the default home and sidebar to the application navigator:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select
-from the top left, then select
-Manage list
-.
-Enter the
-Name
-for your link (for example, "Dashboard").
-Enter the
-URL
-for your instance’s default home (for example,
-https://yoursite.atlassian.net/wiki/dashboard.action
-)
-Select
-Add
-.
-A link to the default homepage will now appear in the application navigator.
+What is a Confluence database?
+Databases in Confluence allow you to store structured data in a native format. Databases are similar to pages and other content types. They live in the content tree, can be searched and linked, and have permissions set at the space level.
+A database organizes content into fields and entries:
+Fields define the structure and are shown as columns. They describe the data type, like text, numbers, or dates.
+Entries make up the content and are shown as rows. Each entry represents a set of values stored in the fields.
+With databases, you can connect and organize structured data like customer IDs and unstructured data like meeting notes and images. This makes them a powerful way to bring all your content together in one place or even within your other Confluence pages and content.
+Get started with Confluence databases
+Get started quickly with Confluence databases.
+View topic
+Database tour
+Explore the database interface, including customizable views, layouts, filters, and more.
+View topic
+Create a database
+Learn three simple methods to create a new database and organize your data efficiently.
+View topic
+Database fields
+Customize your database with a comprehensive guide to all available field types and their configurations.
+View topic
+Share databases, entries, or values
+Learn how to seamlessly share and embed your database content using Smart Links and the /embed database command for dynamic, up-to-date information sharing.
+View topic
+Database views
+Discover how to create, customize, and manage versatile views in your database for enhanced data organization and sharing.
+View topic
+Layouts and options
+Explore the various layout options in databases, including Table, Card, and Board views, to present your data in the most effective way.
+View topic
+Filter your data
+Learn how to save filters as views in Confluence databases. Create and customize filters.
+View topic
+Sort fields
+Learn how to sort your database items by selected fields to organize your data in the most meaningful order.
+View topic
+Hide fields in your database
+Streamline your database by learning how to hide and manage fields to focus on the most relevant information.
+View topic
+Import data into your database
+Import and integrate data into your database with this step-by-step guide.
+View topic
+Export your database data
+Discover how to export your database data into CSV, HTML, or PDF formats for easy sharing and data management.
+View topic
+Duplicate a database setup
+Efficiently duplicate your database structure to another space, ensuring consistency and saving setup time.
+View topic
+Lock your database structure
+Safeguard your database fields from accidental changes by learning how to lock your database structure effectively.
+View topic
+What Confluence databases don't support
+Learn more about the Confluence feature that databases are yet to support.
+View topic
+Database impact on third-party apps
+Learn how third-party app are affected by Confluence databases.
+View topic
+Database version history
+View and restore older versions of a database
+View topic
+Perform simple calculations on your data
+Learn how to perform simple calculations using database data
+View topic
 Was this helpful?
 Yes
 No
@@ -505,12 +516,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
-Control whether spaces can allow public links
-Control whether spaces can turn on anonymous access
-Change the landing page
-Change the Confluence Home welcome message
-Create a custom space overview template
+Explore more
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Show more
+Create and organize work in Confluence Cloud
+Show more
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Create and edit databases
+Export content from Confluence Cloud
+Get to know the new and simplified content layout
 Show more
 Community
 Questions, discussions, and articles

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/collaboration-limits-on-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-symbols-emojis-and-special-characters/
 
-Collaboration limits on whiteboards | Confluence Cloud | Atlassian Support
+Use symbols, emojis, and special characters | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,19 +440,62 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Create and edit content
 Cloud
 Data Center
-Collaboration limits on whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+Use symbols, emojis, and special characters
+Sometimes words just aren't enough. When that's the case, use symbols, emojis, and special characters to add extra meaning and dazzle to your pages, live docs, blogs, and other Confluence content.
+Insert symbols and special characters
+Symbols and special characters were removed from the cloud editor, so your operating system's symbols will be more comprehensive.
+While we cannot provide comprehensive instructions for every operating system and device in these documents, the basic instructions for inserting symbols and special characters on Windows and Apple computers are below.
+To insert special characters on a Windows computer while editing Confluence content:
+Select NUM LOCK on your keyboard if it is not already enabled.
+Hold ALT and enter the four-digit Unicode value for the character you'd like to enter.
+You must use the numpad to enter this value. You can also copy and paste the symbol from Windows Character Map application.
+To insert special characters on an Apple computer while editing Confluence content:
+Hold CTRL+CMD and press the space bar to bring up the Character Viewer.
+Select a category from the options on the right.
+Double click on a symbol to add it to your page or live doc.
+Insert emojis
+When you edit a page or live doc, choose the emoji item in the toolbar, then click an emoji to add it to your content.
+Shortcut tip:
+When editing, enter the keyboard shortcut
+:
+to open the emoji browser.
+Add your own emoji
+Custom emojis won't display when shared on different platforms.
+You can upload your own emojis through the emoji insert tool. Image file types must be a JPG, PNG, or GIF and can't be larger than 1MB.  Regardless of the original file's dimensions, the emoji created will be 20 pixels by 20 pixels.
+Click the emoji item
+in the toolbar
+Click
+Add your own emoji
+Enter a name for the emoji
+Click
+Choose file
+Browse for and select the file
+Click
+Open
+Site administrators can manage and delete custom emojis using https://[yourdomain].atlassian.net/admin/emoji.
+Disable emojis
+Don't want your :) to turn into a smiley face? You can use
+Ctrl+z
+to undo the conversion, or turn this feature off altogether by disabling keyboard shortcuts.
+To disable keyboard shortcuts:
+Click your avatar in the top-right navigation.
+Select
+Personal settings
 .
-Confluence whiteboards are designed to facilitate smooth collaboration among people. To ensure an optimal experience, there are certain limits in place:
-Maximum number of collaborators
-The maximum number of people who can actively collaborate on a single whiteboard is set at 60. This limit ensures that collaborative sessions remain efficient and responsive, allowing a diverse group of participants to engage simultaneously.
-Maximum number of elements
-For effective whiteboard management, there is a limit of 10,000 elements that can be added to a whiteboard. Elements include shapes, text, pictures, and any other content contributed to the whiteboard. This constraint is implemented to maintain optimal performance and responsiveness even in large-scale collaborative sessions.
-These limits are designed to strike a balance between a rich collaborative experience and system efficiency. We're actively working on increasing these limits! If you reach these limits, we would love to hear from you. You can give feedback using the menu at the top right of your whiteboard. Please include any context for your use case and the impact the limits had on your work.
+Select
+Edit
+, then uncheck the box labeled
+Enable
+next to
+Keyboard Shortcuts
+.
+Select
+Submit
+to confirm your changes.
+If you change your mind, you can always enable keyboard shortcuts again.
 Was this helpful?
 Yes
 No
@@ -460,17 +506,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Create and edit content
 Show more
-Import Jamboard whiteboards in Confluence whiteboards
-Export your whiteboard
-Collaboration limits on whiteboards
-What Confluence whiteboards don't support
-Whiteboards impact on third-party apps
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
 Show more
 On this page
-Maximum number of collaborators
-Maximum number of elements
+Insert symbols and special characters
+Insert emojis
+Add your own emoji
+Disable emojis
 Community
 Questions, discussions, and articles
 Accessibility

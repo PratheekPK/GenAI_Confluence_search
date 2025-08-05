@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-your-confluence-automation-usage/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-and-edit-content/
 
-Confluence automation usage | Confluence Cloud | Atlassian Support
+Create and edit content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,41 +439,104 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Confluence automation administration
+Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Confluence automation usage
-When a Confluence automation rule runs successfully, that is, it performs at least one
-action
-, it counts as an execution. Each successful rule execution counts only once toward usage, even if the rule performs multiple actions. If a rule is triggered but fails without performing an action, it does not count as an execution.
-Monitoring automation usage
-Usage
-is important to monitor if your plan is limited to a certain number of rule executions per month.
-Confluence admins can view statistics on usage:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Admin tools
-in the left-hand navigation.
-Select
-Automation
-.
-Select the
-Usage
-tab.
-Usage limits by edition
-Confluence Enterprise
-has an unlimited number of executions. Keeping an eye on usage can help flag problems like when a rule is failing (usage drops) or running more than expected (usage increases), but there’s no need to patrol the specific number of executions your team is using.
-Confluence Premium
-is limited each month to a pooled sum that’s equivalent to 1,000 rule executions for every user. For example if your Confluence instance has 2,000 users, you have a total of 2 million rule executions every month [2,000 users x 1,000 executions = 2,000,000 available rule executions each month]. If your team hits the number of allotted executions, your rules will fail to run until usage renews on the first of the following month. Unused executions from the previous month will not roll over.
-Confluence Standard
-is limited each month to a total of 100 executions across all users.
-Confluence Free
-comes with a monthly total of 10 executions across all users.
-To confirm that your rules are executing successfully, view the
-automation audit log
-.
+Create and edit content
+In Confluence, you create content in a space as pages, live docs, blog posts, whiteboards, databases, or Smart Links in the content tree.
+Templates
+are pre-formatted and feature relevant macros and instructions to help you create retros, meeting minutes, how-to-articles, decisions, and more. You can edit any of these templates to suit your own needs, or you can create your own templates from scratch.
+Just like other documents you've used, you can fill pages, live docs, and blog posts with text and tables, and format them to look pretty, funny, or professional. Confluence also lets you use
+macros
+and embed
+files
+so that you can have dynamic content in your documents, like videos, Jira issues, roadmaps, and automated reports.
+The differences between pages and blogs include the following:
+Published blogs are available in the Blog section of your space and are grouped chronologically. This means that they have a sense of timeliness and are more suited to announcements, news, and updates.
+Published pages start as drafts and live in the content tree. They are highly versioned with a bifurcated view and edit mode, lending themselves well toward uses like documentation or policy creation. They can be nested and organized hierarchically, so you can have pages under pages (under pages). This lets you give your content structure and highlight relationships between pages, such as when you have a parent page about cats, and then child pages under that about different breeds of cats.
+Live docs never have to be published and are best for fast, real-time, and collaborative work.  They’re perfect for capturing meeting notes, group reviews, or idea sessions. They’re also organized in the content tree and can nest, like pages. Pages and live docs can be converted into each other as needed anytime.
+Every Confluence space, including your personal space, allows you to create pages and live docs in it, and has its own blog in which you can create posts.
+Draft, publish, and update a page
+Understand the lifecycle of published content and how to manage content versioning.
+View topic
+Create and collaborate in real time with live docs
+Boost your productivity and collaboration with live docs.
+View topic
+Format a page, live doc, or blog post with a template
+Use templates to create pages and live docs that come pre-populated with useful content.
+View topic
+Format your content
+Use formatting to add emphasis to your content in Confluence.
+View topic
+Format text
+Learn how to format text on a page or live doc with various styles, emphasis options, and alignment tools for clear and visually appealing content.
+View topic
+Create and manage layouts
+Create and manage different column layouts to enhance readability and visual impact of your pages and live docs.
+View topic
+Use symbols, emojis, and special characters
+Learn how to use symbols, emojis, and special characters in Confluence.
+View topic
+Keyboard shortcuts and autocomplete
+Review Confluence keyboard shortcuts and learn about markdown and autocomplete.
+View topic
+Available markdown commands
+See a list of markdown commands you can use to quickly format text in the editor.
+View topic
+Simplify data with tables
+Create, edit, and manage tables for organized and easy-to-read data presentation.
+View topic
+Charts and connected data
+Create and customize dynamic charts from table data on your page or live doc for enhanced data visualization and analysis.
+View topic
+Work with images, videos, and files
+Manage file settings and collaborate on media to enhance visual presentation and team interaction.
+View topic
+Use Atlassian Intelligence to help write or edit content
+Learn how to use Atlassian Intelligence to help write or edit your pages, live docs, comments, and blogs.
+View topic
+Bring all your work into Confluence
+Learn how to bring work from other apps into Confluence by using Smart Links in the content tree.
+View topic
+Insert links and anchors
+Learn how to use Smart Links and insert anchors into a Confluence page or live doc.
+View topic
+Get started with Smart Links in the content tree
+Learn how to bring work from other products into Confluence by using Smart Links in the content tree.
+View topic
+What data is sent and received when pasting a Smart Link?
+Learn about the security and privacy implications of pasting a Smart Link in Atlassian Cloud products.
+View topic
+Insert and manage links on your pages and live docs
+Easily insert and manage links on your pages and live docs in for better navigation and resource referencing.
+View topic
+Add elements to a page or live doc
+Get familiar with the elements you can add to a page or live doc in Confluence to help you organize and present information your way.
+View topic
+Transfer ownership of your content item
+Understand what it means to be a content item owner and how to transfer ownership to another person.
+View topic
+Add a status to your content
+Learn about this space admin-managed feature and how you can use it to let others know the state of your content
+View topic
+Make your content and its title more memorable
+Add emojis and images to make your pages, live docs, and blog posts stand out.
+View topic
+Import external documents
+Learn how to import content into Confluence from external sources or from other Confluence sites.
+View topic
+Classify content
+Help people recognize when they’re viewing or working on sensitive information.
+View topic
+How redaction works
+Understand how redaction works and how sensitive data is deleted.
+View topic
+Learn about the Atlassian cloud editor
+Explore the Atlassian cloud editor. Learn about real-time collaboration, rich formatting, and seamless integration for enhanced productivity.
+View topic
+Convert pages to the cloud editor
+Learn how to convert a page from using the legacy editor to using the cloud editor.
+View topic
 Was this helpful?
 Yes
 No
@@ -481,12 +547,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Confluence automation administration
-Confluence automation
-Confluence automation usage
-On this page
-Monitoring automation usage
-Usage limits by edition
+Explore more
+Draft, publish, and update a page
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Show more
+Create and organize work in Confluence Cloud
+Show more
+Use spaces to organize your work
+Find content in Confluence Cloud
+Create and edit content
+Keep content organized
+Upload and manage files
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

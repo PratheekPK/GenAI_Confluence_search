@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-events/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-team-calendars/
 
-Add events | Confluence Cloud | Atlassian Support
+Manage team calendars | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,42 +439,16 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Space administration
 Cloud
 Data Center
-Add events
-You can quickly add events to your calendars and categorize them into different event types for easier viewing and management.
-Add an event
-Do any of the following:
-Choose
-Add Event
-Click a date on the calendar in either the month or week view
-Double-click on the Timeline view
-Select which type of event you'd like to add from the
-Event Type
-drop-down
-Complete the other details for your event and choose
-Add
-Event types
-Each calendar includes a standard set of
-event types
-, which you can use to classify the different events in the calendar. You can also
-create custom event types
-to capture events that don't fit into the standard event types.
-Delete an event
-To delete an event, select the event and choose
-Delete
-from the inline dialog.
-If you don't see the
-Delete
-option, the reason is usually:
-You don't have
-edit permissions
-on the calendar
-The event you're trying to edit is a
-JIRA event
-(sprint, version, or issue). If this is the case, the change to the JIRA item has to happen in JIRA.
+Manage team calendars
+Delete or remove a calendar
+Understand the impact of deleting or removing a Team Calendar.
+View topic
+Restrict a calendar
+Restrict viewing and editing of Team Calendars.
+View topic
 Was this helpful?
 Yes
 No
@@ -482,17 +459,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Subscribe to Team Calendars from third-party calendars
-Getting started with team calendars
-Add events
-Add Jira events
-See standard event types
+Explore more
+Delete or remove a calendar
+Restrict a calendar
+Space administration
 Show more
-On this page
-Add an event
-Event types
-Delete an event
+Remove a space
+Create templates, blueprints, and reports
+Manage team calendars
+Manage Questions for Confluence
+Customize your space
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-public-links-across-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-gallery-macro/
 
-Manage public links across Confluence Cloud | Confluence Cloud | Atlassian Support
+Insert the gallery macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,241 +439,152 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Manage global permissions in Confluence administration
+Create and organize work in Confluence Cloud
+Review macros only available in the legacy editor
 Cloud
 Data Center
-Manage public links across Confluence Cloud
-If your Confluence instance
-allows public links
-, we know it’s critical that you have visibility into and control over how public links are used. To that end, Confluence has a table where you can see which spaces allow public links and which specific content items have active public links, and make changes as needed.
-View which spaces allow public links
-In the
-Public links
-tab of
-Global permissions
-, Confluence admins will find a list of all the spaces on the instance and whether a space allows or doesn’t allow public links. This doesn’t indicate whether anything is public — it simply indicates whether it’s
-possible
-to make anything public. A space could allow public links but have 0 active public links. As a reminder, public links are allowed in all spaces by default.
-On the
-Standard plan
-, you’ll see two statuses:
-ALLOWED
-= people can turn on the public link for any content  in that space
-NOT ALLOWED
-= no one can turn on the public link for any content in that space
-If you’re on the
-Premium or Enterprise plan
-, you’ll see 3 statuses. The ability to block gives Confluence admins a higher level of control:
-ALLOWED
-= people can turn on the public link for any content in that space
-NOT ALLOWED
-= no one can turn on the public link for any content in that space but space admins in the space are free to change that to allow public links at any time
-BLOCKED FROM ALLOWING
-= no one can turn on the public link for any content in that space and space admins are blocked from allowing public links
-To see which spaces allow public links or not:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Security
-in the left-hand navigation.
-Select
-Global permissions
+Insert the gallery macro
+In June 2025, Atlassian announced the upcoming
+deprecation of the legacy editor
+as well as
+information about converting
+to the cloud editor.
+Before the deprecation begins in January 2026, this macro will still work. See our
+article on legacy editor macros
+for more.
+The Gallery macro displays a collection of thumbnail images in a table, based on the images attached to a Confluence page. When viewing the page, a user can click a thumbnail image to zoom into a screen-sized image and then view the images as a slide show.
+Overview:
+The images shown in the gallery are taken from the files attached to the Confluence page. You can also specify a different page where the attachments are located. For information about attaching images to a page, see
+Upload files
 .
-Select the
-Public links
-tab.
-Scroll and page through the table of spaces and their statuses.
-Or you can use the search and filter functions to arrive at different views.
-Manage which spaces allow public links
-To allow public links in a specific space:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
+The captions below the images are drawn from the comments on the attachments. For information about adding comments to attachments, see
+Upload files
 .
-Find
-Settings
->
-Security
-in the left-hand navigation.
-Select
-Global permissions
+By default, the gallery will include all the images attached to the page. You can also exclude or include images using parameters.
+You can sort your images into a particular order.
+You can specify a title for the gallery and also configure how many columns you want for the table in which your images are displayed.
+Use the Gallery macro
+To add the Gallery macro
+:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the Gallery macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+The full list of parameters is shown in the following table. If the name of an attached file or page contains a comma, you can refer to it in the relevant parameters below by enclosing it in single or double quotes, for example
+"this,that.jpg", theother.png
+Parameter
+Default
+Description
+Gallery Title
+(
+title
+)
+Nothing
+Specify a title for your gallery.
+Number of Columns
+(columns
+)
+4
+Specify the number of columns for your table.
+Images to Exclude
+(exclude
+)
+No exclusions. Include all the pictures on the page.
+The gallery will ignore any pictures specified. You can specify more than one picture, separated by commas.
+Note: The filename and filetype for this parameter are case-sensitive. For example, 'my picture.PNG' will not be recognized as 'my picture.png'.
+Include these Images Only
+(include
+)
+Include all the pictures on the page.
+If you specifically include one or more pictures, the gallery will show only those pictures. You can specify more than one picture, separated by commas.
+The filename and filetype for this parameter are case-sensitive. For example, 'my picture.PNG' will not be recognized as 'my picture.png'.
+Exclude Images with these Labels
+(excludeLabel
+)
+No exclusions. Include all the pictures on the page.
+The gallery will ignore any pictures that have the specified label. You can specify more than one label, separated by commas. For information on labeling the attachments, see
+Use labels to organize pages and attachments
 .
-Select the
-Public links
-tab.
-Scroll, search, and/or filter the table of spaces to find the space you want to allow public links in.
-Open the more actions menu (•••).
-Select
-Allow.
-To stop allowing public links in a specific space:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Security
-in the left-hand navigation.
-Select
-Global permissions
+Include Images with these Labels Only
+(includeLabel
+)
+None. The images are not filtered by label.
+Filters the images to display, based on a list of labels. Separate multiple labels with commas. Confluence will show any image that has
+at least one of the labels
+you specify (it's an OR match as opposed to an AND).
+For info on labeling attachments, see
+Use labels to organize pages and attachments
 .
-Select the
-Public links
-tab.
-Scroll, search, and/or filter the table of spaces to find the space you want to stop allowing public links in.
-Open the more actions menu (•••).
-Select
-Stop allowing.
-When you stop allowing public links in a specific space, all active public links in that space will change from an
-ON
-state to an
-OFF
-state. If public links are ever allowed in that space again, all public links will remain in an
-OFF
-state until manually turned back
-ON
-.
-If a content item’s public link can’t be turned on (e.g., if public links aren’t allowed in a space), the public link option in the content item’s
-Share
-window will appear grayed out, turned off, and disabled.
-To block a specific space from allowing public links:
-Go to
-Global permissions
->
-Public links
-.
-Scroll, search, and/or filter the table of spaces to find the space you want to allow public links in.
-Open the more actions menu (•••).
-Select
-Block
-.
-Only Confluence admins can block spaces from allowing public links.
-When you block public links from being allowed in a space that has active public links, all active public links will be changed from an
-ON
-state to an
-OFF
-state. If public links are ever allowed in that space again, all public links will remain in an
-OFF
-state until manually turned back
-ON
-.
-To unblock a specific space from allowing public links:
-Go to
-Global permissions
->
-Public links
-.
-Scroll, search, and/or filter the table of spaces to find the space you want to allow public links in.
-Open the more actions menu (•••).
-Select
-Unblock and allow
-.
-Unblocking a space returns it to the default state, which is
-ALLOWED
-. The table doesn’t support unblocking directly into
-NOT ALLOWED
-.
-To preemptively block a space from allowing public links:
-Go to
-Global permissions
->
-Public links
-.
-Make sure the global toggle to
-Allow public links on this site
-is in an off position.
-Scroll, search, and/or filter the table of spaces to find the space you want to allow public links in.
-Open the more actions menu (•••).
-Select
-Block
-.
-Basically, this lets you set up which spaces on your instance should never be allowed to have public links
-before
-you enable the global toggle that allows the use of public links on your instance.
-Remember, as soon as the global toggle is moved to an on position, all spaces not blocked from allowing will by default switch from
-NOT
-ALLOWED
-to
-ALLOWED
-.
-View and manage which spaces allow public links in bulk
-If you’re on the
-Premium plan
-, you also have powerful bulk actions at your disposal.
-To make
-bulk
-changes to which spaces allow public links:
-Go to
-Global permissions
->
-Public links
-.
-Scroll, search, and/or filter the table of spaces to find the space you want to allow public links in.
-Select multiple spaces or select the top checkbox to bulk select all spaces currently loaded on the page.
-Select one of the bulk actions:
-Stop allowing
-Block
-Allow
-(in the ••• more bulk actions menu)
-Unblock
-(in the ••• more bulk actions menu)
-Manage individual public links from global permissions
-From within
-Global permissions
->
-Public links
-,
-you can drill down into any space to get more details about the active public links in that space without leaving global permissions. Simply select the number value in the
-Public content
-column of the table or open the more actions menu (•••) and select
-View public link details
-.
-In the space’s public links drilldown view, you’ll find a table that shows the individual public links in a space. It will only show content that are
-ON
-or
-BLOCKED
-. It won’t show content items that don’t have active public links and aren’t blocked.
-ON
-= anyone with access to the content item can copy the public link and share it with anyone on the internet
-BLOCKED
-= the content item’s public link is off and no one can turn it on until the content is unblocked
-You can search and filter this list of content items and turn off or block active public links. On the
-Premium plan
-, you can multi-select content items and turn off or block them in bulk.
-To turn off a public link from the content view in global permissions:
-Find the content item in the list you want to turn off.
-Open the actions menu (•••).
-Select
-Turn off.
-To block a public link from the content view in global permissions:
-Find the content item in the list you want to block.
-Open the actions menu (•••).
-Select
-Block.
-To view the public version of the content:
-Find the content item in the list.
-Open the actions menu (•••).
-Select
-View public link.
-Public links that are blocked are in an off state and so don’t have a public link to view.
-Manage public links with automation rules
-Automation is
-an admin feature
-available in
-Confluence Premium
-and
-Enterprise
-.
-When admins create and enable automation rules, Confluence automation works behind the scenes to complete routine functions that would otherwise have to be done manually.
-Admins can use an
-automation trigger
-to disable or block existing public links on one or more content items or block public links in a space.
-For example, an admin could create a rule that automatically disables the public link for a content item any time a user labels the content item “private.”
-Automation rules only work on existing public links. This means they don’t apply to content that has never had a public link turned on. If you create a rule based on an action such as labelling, you should temporarily turn the public link on before you apply the label.
-Get notified about key public link activity
-To learn more about what notifications you get from Confluence to help you maintain awareness and control over how public links are used on your instance and in your space, go to
-How secure are public links?
+Use Images in these Pages
+(page
+)
+If no page is specified, the gallery macro displays the images attached to the page on which the macro is used.
+Specify the title of the page which contains the images you want displayed. You can specify more than one page name, separated by commas. To specify a page in a different space, use the following syntax:
+SPACEKEY:Page Title
+Sort Images By
+(sort
+)
+None. The sort order is unspecified and therefore unpredictable.
+Specify an attribute to sort the images by. Sort order is ascending, unless you select the
+Reverse Sort
+parameter (see below). Options are:
+name
+– file name.
+comment
+– comment linked to the attached file.
+date
+– date/time last modified.
+size
+– size of the attached file.
+Reverse Sort
+(reverse
+)
+Off. Sort order is ascending
+Used in combination with the
+Sort Images By
+parameter above. Use
+Reverse Sort
+to reverse the sort order, from ascending to descending.
+Available values in storage format and wikimarkup:
+true
+– Sort order is descending.
+false
+– Sort order is ascending.
+Image file formats
+You can attach image files of any format to a page. Confluence supports the following image formats in the Gallery macro and when displaying an image on a page:
+gif
+jpeg
+png
+bmp (depending on browser support)
+Wiki markup example
+Wiki markup is only supported in the legacy editor.
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Macro name:
+gallery
+Macro body:
+None.
+{gallery:title=My holiday pictures|reverse=true|sort=size|page=My page1, ds:Welcome to Confluence|excludeLabel=badlabel1, badlabel2|columns=3|exclude=badpicture.png}
 Was this helpful?
 Yes
 No
@@ -681,19 +595,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage global permissions in Confluence administration
-Manage global permissions
-Assign space access to guests
-Manage public links across Confluence Cloud
-How secure are public links?
-Give access to unlicensed users from Jira Service Management
 On this page
-View which spaces allow public links
-Manage which spaces allow public links
-View and manage which spaces allow public links in bulk
-Manage individual public links from global permissions
-Manage public links with automation rules
-Get notified about key public link activity
+Use the Gallery macro
+Parameters
+Image file formats
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

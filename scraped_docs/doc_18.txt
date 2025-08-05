@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/learn-about-the-atlassian-cloud-editor/
+URL: https://support.atlassian.com/confluence-cloud/docs/whiteboards-impact-on-third-party-apps/
 
-Learn about the Atlassian cloud editor | Confluence Cloud | Atlassian Support
+Whiteboards impact on third-party apps | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,47 +440,26 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit content
+Create and edit whiteboards
 Cloud
 Data Center
-Learn about the Atlassian cloud editor
-The Atlassian cloud editor is your place for creating and managing content in Confluence Cloud. This intuitive editing environment has a user-friendly interface, empowering you to craft clear, concise, and appealing content with ease.
-Key features and benefits of the cloud editor
-Real-time collaboration:
-Work together with your team! The cloud editor allows you and other users to
-edit a page or live doc
-simultaneously, ensuring everyone sees the latest updates as they happen. Foster communication and
-provide feedback through mentions and comments
-within the editing interface.
-Rich formatting options:
-Take control of your content with a variety of formatting tools. From
-headings and subheadings
-to
-tables
-,
-layouts
-, and
-code snippets
-, you can structure your content for optimal readability and clarity.
-Streamlined workflows:
-Experience a smooth and efficient editing process. The cloud editor simplifies content creation with intuitive table drag-and-drop functionality and effortless media embedding. Additionally,
-explore keyboard shortcuts
-for faster editing and navigation.
-Centralized content management:
-The cloud editor integrates seamlessly with the broader Atlassian ecosystem. Link to existing pages, live docs, whiteboards, databases, or Jira issues for easy reference with Smart Links. Use macros to create advanced layouts and features in your content.
-Advanced features
-Confluence Cloud offers many advanced features for experienced users. Explore features like Atlassian Intelligence, use templates for consistent content, add powerful third-party macros from the Marketplace for advanced layouts, and leverage content visibility options for managing access.
-Integration with Atlassian products
-The Confluence Cloud editor is the editing experience used across all Atlassian products. This offers a significant benefit: you only need to learn one editing platform for your entire Atlassian workflow.
-Next steps and support
-Remember, the cloud editor constantly evolves, offering regular updates and improvements. To stay on top of the latest features, explore the following resources:
-Atlassian Community
-:
-Connect with other Confluence Cloud users and share your experiences.
-Support articles
-:
-Access more detailed guides and troubleshooting tips for Confluence Cloud.
-We encourage you to explore the cloud editor and discover how it can transform your content creation experience!
+Whiteboards impact on third-party apps
+Whiteboards aren’t available in
+Atlassian Government environments
+.
+With the introduction of whiteboards, some third-party apps on Confluence may experience partial disruptions. Our team is working closely with app developers to address any known issues. Below is the list of affected third-party apps and their current status:
+Application
+Status
+Scroll PDF Exporter
+Partial Impact (mitigation* enabled)
+Scroll Documents
+Partial Impact (mitigation* enabled)
+Advance Tables for Confluence
+Partial Impact (mitigation* enabled)
+ViewTracker - Analytics for Confluence
+Partial Impact (mitigation* enabled)
+*Mitigation ensures that the app continues to run smoothly for existing pages by essentially ignoring whiteboards in the content tree. Once app developers update the app to handle whiteboards properly, this mitigation will be disabled.
+This article will be updated as progress is made.
 Was this helpful?
 Yes
 No
@@ -488,18 +470,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Create and edit whiteboards
 Show more
-Import external documents
-Classify content
-How redaction works
-Learn about the Atlassian cloud editor
-Convert pages to the cloud editor
-On this page
-Key features and benefits of the cloud editor
-Advanced features
-Integration with Atlassian products
-Next steps and support
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

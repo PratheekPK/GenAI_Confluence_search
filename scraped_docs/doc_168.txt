@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/private-mode-in-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/lock-your-database-structure/
 
-Private mode in whiteboards | Confluence Cloud | Atlassian Support
+Lock your database structure | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,31 +440,23 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Create and edit databases
 Cloud
 Data Center
-Private mode in whiteboards
-Use private mode in whiteboards for more open collaboration with your team.
-Turn private mode on
-Select the private mode icon in the right-side toolbar.
-To keep authors anonymous after a private mode session ends, toggle
-Keep authors anonymous
-on.
-Select
-Start for everyone
+Lock your database structure
+Databases aren’t available in the
+Atlassian Government environment
 .
-Turn private mode off
-Anyone can end a private mode session. When you are ready to end a private session:
-Select the private mode icon in the right-side toolbar.
-Select
-Turn off private mode
-.
-Select
-Confirm
-.
-Things to know
-If you copy a whiteboard, edits made during private mode will not be included.
-Edits made during private mode will not appear in version history.
+The lock structure feature helps safeguard your database fields from accidental changes while allowing users to add and edit data entries.
+How to lock your database structure
+Navigate to the database you want to secure.
+Select the
+•••
+(More) menu at the top right corner of the database.
+Find the
+Lock structure
+option in the menu and switch it on.
+Once enabled, no one will be able to add new fields or modify existing field settings unless the Lock structure feature is turned off. However, users with editing access can toggle this lock on or off at any time, making it a convenient safeguard against accidental structural changes.
 Was this helpful?
 Yes
 No
@@ -472,17 +467,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Create and edit databases
 Show more
-Atlassian Intelligence in Confluence whiteboards
-Draw freeform lines with pen
-Private mode in whiteboards
-Voting in whiteboards
-Whiteboard history
-On this page
-Turn private mode on
-Turn private mode off
-Things to know
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

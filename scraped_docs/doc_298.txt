@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-pre-specified-rss-feeds/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-time-and-date-formats/
 
-Subscribe to pre-specified RSS feeds | Confluence Cloud | Atlassian Support
+Configure time and date formats | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,46 +439,50 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Get notified about content and activity
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Subscribe to pre-specified RSS feeds
-This page is about subscribing to an RSS feed that Confluence has predefined for you.
-To subscribe to predefined RSS feeds for a particular space:
-Go to the space in
+Configure time and date formats
+You can localize the formats that
 Confluence Cloud
+uses to display dates and times within the web interface. The settings use the syntax of Java's SimpleDateFormat class, as described in this document:
+Java SimpleDateFormat
 .
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
+There are three time and date format settings:
+Time format: Used when displaying only the time of day. For example, when a blog post is published. Example of configuration:
+h:mm a
+Date time format: Used when displaying both the date and the time of day. For example, in historical versions of pages. Example of configuration:
+MMM dd, yyyy HH:mm
+Date format: Used when displaying only the date. For example, the creation and most recent modification dates of pages. Example of configuration:
+MMM dd, yyyy
+To change the time and date formats:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
 Select
-RSS feeds
-from the
-Integrations
-card.
-Copy and paste the link for one of the feeds into your RSS newsreader.
-Feeds include:
-Pages
-Blog
-Mail
-Comments
-Attachments
-All content
-To subscribe to predefined RSS feeds for a particular screen (where available):
-A "screen" in this sense means a screen in the Confluence UI, rather than a page that contains Confluence content. For example, your
-network
-view offers an RSS feed.
-Go to the screen to which you want to subscribe
-Locate the orange
-RSS feed icon
-, which is available in the top-right corner of certain pages
-Copy and paste the icon's link into your RSS newsreader
-The predefined RSS feed will return no more than 10 entries within the last 5 days. To customize your Confluence RSS feed (for example, use a label to filter your feed), use the
-RSS Feedbuilder
-instead of the above instructions.
+Configuration
+>
+General configuration
+.
+Scroll down to
+Formatting and international settings
+.
+Enter the values for
+Time format
+,
+Date time format
+and
+Date format
+that suit your requirements.
+Select
+Save configuration changes
+.
 Was this helpful?
 Yes
 No
@@ -486,13 +493,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Get notified about content and activity
+Configuration settings in Confluence Cloud
 Show more
-What is a Confluence RSS feed?
-Build an RSS feed
-Subscribe to pre-specified RSS feeds
-Subscribe to a network RSS feed
-Celebrate your work with Confluence Recap
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

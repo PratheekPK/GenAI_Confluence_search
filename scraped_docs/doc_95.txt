@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-a-template/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-and-organize-work-in-confluence-cloud/
 
-Create a template | Confluence Cloud | Atlassian Support
+Create and organize work in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,182 +439,59 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Create templates, blueprints, and reports
 Cloud
 Data Center
-Create a template
-Space administrators can create their own custom content templates in
-Confluence Cloud
-. To learn about creating global content templates—templates available to others—see
-Create a global template
-.
-Only space administrators can create or edit templates in
-Confluence Cloud
-.
-If you don’t have
-Admin
-permission for a space, you won’t see the
-Look and feel
-card when you go to
-Space settings
-and you won’t be able to create templates.
-To create a template in a space:
-Go to the space in
-Confluence Cloud
-.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Templates
-from the
-Look and feel
-card.
-Select
-Create new template
-.
-Help people discover custom templates by adding a description that will appear in the template gallery.
-To add or edit a template’s description, go to
-Space Settings
-and select
-Templates
-from the
-Look and feel
-card, then select the pencil icon from the
-Description
-column.
-Editing a
-template
-is a lot like editing a page or live doc– there are only a few small differences. Currently, there’s no way to add images or attachments in templates. However, you can include variables, placeholder text, and
-labels
-. These features help people using these templates create rich and dynamic pages quickly.
-Variables
-When someone creates pages or live docs from a template with variables, they’ll fill out a form with text fields or lists for each variable in the template. The information they provide will be added to pages and live docs automatically.
-Add a variable to a template
-You can only add variables to templates created with the new editor.
-To add a variable:
-Type
-/variable
-, then hit
-Enter
-.
-Select the variable token, then select
-to edit it.
-Enter a name for the variable, then select
-Text
-,
-Multi-line Text
-, or
-List
-.
-A
-Text
-variable offers a single line of input text, a
-Multi-line
-variable is configurable for multiple rows and columns of input, and a
-List
-produces drop-down lists with definable options.
-Select
-Save
-.
-Variables with the same name must have the same parameters, as Confluence treats these as copies of the same variable. When someone creates pages or live docs from a template with two or more copies of the same variable, the text they enter for one variable will appear everywhere that a copy of that variable appears.
-Example
-The example below shows a custom template with five text variables — one for “New Hire,” one for “Company,” one for “Job Title,” one for “Team,” and one for “Manager”:
-When someone creates pages or live docs from this template, they will be prompted to enter text into the fields where the variables appear:
-When they’re finished, the text they entered will appear on the page or live docs in edit mode.
-Placeholder text
-Use placeholder text to add instructions or sample text to pages or live docs created from a template. Placeholder text will only appear when pages or live docs are being edited – it’s invisible to anyone who’s viewing the published version.
-Add placeholder text to a template
-To add placeholder text to a template in the legacy editor:
-Select
-+
-, then select
-Placeholder text
-.
-Type in your placeholder text, then hit
-Enter
-.
-To add placeholder text to a template in the new editor:
-Type
-/placeholder
-where you want the text to appear, then hit
-Enter
-.
-Type in your placeholder text, then hit
-Enter
-again.
-Example
-The example below shows a section of the Design Systems Template that comes with
-Confluence Cloud
-. The grey text is placeholder text:
-When someone creates pages or live docs from this template, they will see grey placeholder text while they are editing the template. However, the text will not appear in view mode. This way, it is possible to provide instructions to the person creating pages or live docs from the template without any viewers of the page seeing them.
-Labels
-Add a
-label
-to a template to apply it to pages or live docs created from that template. This is helpful if you want to create a page
-properties report
-to keep track of similar pages or live docs.
-Add labels to a template
-To add labels to a template in the legacy editor:
-Select
-.
-Enter labels into the box, separated by the
-Space
-key.
-Select
-Add
-.
-Select
-Close
-.
-To add labels to a template in the new editor:
-Select
->
-Add labels
-.
-Enter labels into the box, separated by the
-Space
-key.
-Select
-Add
-.
-Select
-Close
-.
-Example
-See
-Create a custom report
-for several examples of templates with labels.
-Was this helpful?
-Yes
-No
-It wasn't accurate
-It wasn't clear
-It wasn't relevant
-Provide feedback about this article
-Still need help?
-The Atlassian Community is here for you.
-Ask the Community
-Create templates, blueprints, and reports
-Create a template
-Edit a template
-Promote a template
-Create a custom report
-On this page
-Variables
-Add a variable to a template
-Example
-Placeholder text
-Add placeholder text to a template
-Example
-Labels
-Add labels to a template
-Example
-Community
-Questions, discussions, and articles
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+Find out how to get around Confluence using the ever-present navigation bar and the Home page.
+View topics
+Use spaces to organize your work
+Pick up various suggestions for using spaces to organize your team's work.
+View topics
+Find content in Confluence Cloud
+Learn about the various ways to find the pages and blogs you need.
+View topics
+Create and edit content
+Create beautiful pages that get the job done.
+View topics
+Keep content organized
+Learn how to keep content organized by moving, copying, and hiding pages, as well as how to manage the page lifecyle.
+View topics
+Upload and manage files
+Get the details you need to upload, edit, manage, and share files.
+View topics
+Present your content with Presenter mode
+Showcase the content on a page or blog post with reduced distractions using Presenter mode.
+View topic
+Atlassian Intelligence features in Confluence Cloud
+Learn how to use Atlassian Intelligence features in Confluence Cloud to help improve your writing and streamline your work.
+View topics
+Use Loom in Confluence Cloud
+Learn how to record and share Loom videos in Confluence.
+View topics
+Create and edit whiteboards
+Learn how to create and use whiteboards in Confluence Cloud.
+View topics
+Create and edit databases
+Learn how to create and use databases in Confluence Cloud.
+View topics
+Export content from Confluence Cloud
+Learn how admins can customize PDF exports and how users can export content to Word, PDF, HTML, and XML.
+View topics
+Get to know the new and simplified content layout
+Stay informed about beta improvements to headers, menus, and toolbars across Confluence
+View topics
+How to use the new toolbar and insert elements
+Stay informed about beta improvements to headers, menus, and toolbars across Confluence
+View topics
+Import data from other tools into Confluence
+Learn how to import data into Confluence.
+View topics
+Review macros only available in the legacy editor
+Learn more about the macros that are only available in the legacy editor.
+View topics
+The Confluence legacy editor
+View topics
 Accessibility
 Notice at Collection
 Privacy Policy

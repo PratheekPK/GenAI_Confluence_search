@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/keep-content-organized/
+URL: https://support.atlassian.com/confluence-cloud/docs/disable-reactions/
 
-Keep content organized | Confluence Cloud | Atlassian Support
+Turn off page reactions | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,34 +439,39 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
-Keep content organized
-Take quick action from the content title
-Hover over an item in the content tree to see the actions you can do
-View topic
-Use labels to organize content and attachments
-Apply labels to pages and attachments to keep content organized, and search by labels to find related content quickly.
-View topic
-Move, copy, and hide content items
-Understand how to copy items in a space, move items within a space or to another space, and to hide an item from the content tree.
-View topic
-Archive content items
-Send outdated content to the archive to declutter spaces and make it easier to find the content you need.
-View topic
-Restore archived items to the content tree
-Return archived items to the content tree if they were archived by accident or are once again relevant.
-View topic
-Delete, restore, or purge a content item
-Learn how to send content items to the trash, restore them, or delete them permanently.
-View topic
-Save a page, live doc, or other content item for later
-Save pages or other content items you want to look at later, and learn where to find your saved pages and live docs.
-View topic
-Use folders to organize your work
-Learn how to create and delete folders in Confluence, and turn the feature on or off for a space.
-View topic
+Turn off page reactions
+Clicking “add a reaction” on a piece of content sends the author a notification, and is useful for letting users know that you've viewed, approved of, or enjoyed a piece of content. Content that receives a large number of reactions appears on the Popular tab of the
+Activity
+section in the sidebar. Some instances, especially ones that have external users, may prefer not to have reactions enabled for reasons such as cross-client confidentiality.
+Reactions are enabled by default, but a Confluence administrator (see
+Manage global permissions
+) can disable and re-enable them for their entire
+Confluence Cloud
+instance.
+To enable or disable reactions:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Configuration
+in the left-hand navigation.
+Select
+General configuration
+.
+Find
+Likes/reactions
+and check or uncheck the box.
+Select
+Save configuration changes
+.
 Was this helpful?
 Yes
 No
@@ -474,20 +482,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Take quick action from the content title
-Use labels to organize content and attachments
-Move, copy, and hide content items
-Archive content items
-Restore archived items to the content tree
+Set Confluence-wide functionality
 Show more
-Create and organize work in Confluence Cloud
-Show more
-Find content in Confluence Cloud
-Create and edit content
-Keep content organized
-Upload and manage files
-Present your content with Presenter mode
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
 Show more
 Community
 Questions, discussions, and articles

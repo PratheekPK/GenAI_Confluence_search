@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-widget-connector-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-thunderbird/
 
-Insert the widget connector macro | Confluence Cloud | Atlassian Support
+Subscribe to Team Calendars from Thunderbird | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,111 +440,99 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use macros to include media on Confluence pages
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Insert the widget connector macro
-Embed online videos, slideshows, photostreams and more directly into your page or live doc with the Widget Connector macro.
-The macro currently supports content from these sites:
-YouTube
-Vimeo
-Flickr
-Twitter
-Slide Rocket
-To embed Google Drive files into a page or doc, use one of the
-Google Drive macros
-instead.
-Use the Widget Connector
-To add the Widget Connector macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Widget Connector macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Description
-Web Site's Widget URL
-(url
-)
-This is the external site's URL. In some sites this will be the URL shown in the address bar of your browser, and in other sites you may need to click a Share or Link button to get the URL.
-Pixel Height (Value Only)
-(height
-)
-The height of the display, in pixels.
-Pixel Width (Value Only)
-(width
-)
-The width of the display, in pixels.
-Examples
-Every site is a little different, so we've put together some info on what you'll need to do to embed each site's content on a page or doc.
-YouTube
-The fastest way to embed a YouTube video is to paste the URL into the editor. Confluence will autoconvert the link and insert the macro for you, like magic. Autoconvert works with both long and short YouTube URLs.
-If you're pasting the URL into the Widget Connector macro URL field manually, you'll need to use the long URL (from the address bar). Long URLs look something like this
-https://www.youtube.com/watch?v=CNeuec8ybc4
-.
-If you're not able to see the video in some browsers, try using https rather than http in your link.
-Links that contain a parameter to start a video at a particular time won't autoconvert or work in the Widget Connector macro, like this link:
-https://youtu.be/CNeuec8ybc4?si=EbkKUF8Kk9aUYyjA&t=8
-. Paste in the short sharing URL to be sure it works.
-Vimeo
-The fastest way to embed a Vimeo video is to paste the URL into the editor. Confluence will autoconvert the link and insert the macro for you.
-You can use the URL from the address bar in your browser or the
-Share
-button in Vimeo.
-Flickr
-You can embed a single photo, a set, an entire user's photo stream or collection of photos with a particular tag.
-The fastest way is to paste a URL into the editor. This works for sets and tags.  For other URLs you'll need to add the Widget Connector macro to the page first and then paste your link into the URL field.
-Use the URL from the address bar in your browser.
-Twitter
-To embed a single tweet you'll need to click the
-Details
-link on the tweet so you can grab the URL for just that tweet.  The URL will look something like
-https://twitter.com/atlassian/status/346976521250037760
-.
-To embed a dynamic list of tweets you'll need to create a Widget in Twitter first:
-In Twitter, click your profile picture and go to
-Settings
+Subscribe to Team Calendars from Thunderbird
+If you want your Team Calendars events to appear in Thunderbird, you can subscribe to Team Calendars.
+There are two ways to synchronize your calendar in Thunderbird:
+Two-way sync
+(CalDAV) - allows you to view and update Team Calendars events in Thunderbird.
+One-way sync
+(iCal) - allows you to view, but not update, Team Calendars events in Thunderbird.
+Subscribe with two-way synchronization (CalDAV)
+Two-way synchronization allows you to view and update Team Calendars events in Thunderbird.
+These instructions are for Thunderbird 68 on MacOS Catalina. Your version may differ slightly.
+1. Grab your Team Calendars URL
+In Confluence:
+Select
+Subscribe
+at the top of your calendar.
+Select
+Thunderbird
+from the
+Calendar app
+dropdown.
+Copy the calendar URL.
+2. Add the calendar in Thunderbird
+In Thunderbird:
+From the
+Home
+tab, select
+Create a new calendar
 >
-Widgets
-Create a "Search" widget to display the tweets you want to embed (search by hashtag or handle, for example)
-Save the widget, then hit
-Edit
-and copy the page URL (from your address bar).
-The URL should look like this: https://twitter.com/settings/widgets/354381809263472640/edit
-Do not copy the code Twitter tells you to copy and paste into the HMTL of your site, this will not work with the Widget Connector.
-In Confluence, paste the URL into the Widget Connector, but delete the
-/edit
-on the end of the URL
-SlideRocket
-We don't autoconvert SlideRocket presentations, so you'll need to add the Widget Connector macro to your page first, and then paste the video's URL into the URL field.
-You can get the URL from the
-Sharing
-button on the SlideRocket player.
-Troubleshooting
-We rely on the external website's APIs to display content in the Widget Connector macro. APIs do change from time to time and this can cause the Widget Connector macro to stop rendering content.
-If you have trouble with the widget connector, you can
-open a support ticket
-to let us know.
+On the network
+Select
+CalDAV
+Enter
+Username
+,
+like john@atlassian.com
+Paste the
+Calendar URL
+you copied earlier in the
+Location
+field.
+Name the calendar. This is the name that will appear in the Thunderbird calendar list.
+Enter your Confluence
+username
+password
+Login to Confluence
+Select your profile picture at the upper right
+Select
+Password
+under Your Settings on the left
+Create an API token. You could use the existing one also.
+Repeat this process for any other Team Calendars you want to add.
+Subscribe with one-way synchronization (iCal)
+These instructions are for Thunderbird 52 on MacOS High Sierra. Your version may differ slightly.
+1. Grab your Team Calendars URL
+In Confluence:
+Select
+Subscribe
+at the top of your calendar
+Select
+iCal
+from the
+Calendar app
+dropdown. Be sure that you don't select Thunderbird for one-way sync.
+Copy the calendar URL
+2. Add the calendar in Thunderbird
+In Thunderbird:
+From the
+Home
+tab, select
+Create a new calendar
+>
+On the network
+Select
+iCalendar (ICS)
+Paste the
+Calendar URL
+you copied earlier in the
+Location
+field
+Name the calendar. This is the name that will appear in the Thunderbird calendar list.
+Enter your Confluence
+username
+password
+Login to Confluence
+Select your profile picture at the upper right
+Select
+Password
+under Your Settings on the left
+Create an API token. You could use the existing one also.
+You can now view, but not edit, Team Calendar events in Thunderbird.
 Was this helpful?
 Yes
 No
@@ -552,19 +543,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to include media on Confluence pages
-Insert Microsoft Office macros
-Insert the widget connector macro
+Use Team Calendars for Confluence (Premium feature)
+Show more
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Show more
 On this page
-Use the Widget Connector
-Parameters
-Examples
-YouTube
-Vimeo
-Flickr
-Twitter
-SlideRocket
-Troubleshooting
+Subscribe with two-way synchronization (CalDAV)
+Subscribe with one-way synchronization (iCal)
 Community
 Questions, discussions, and articles
 Accessibility

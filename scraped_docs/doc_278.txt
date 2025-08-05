@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/find-content-in-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-content-tree/
 
-Find content in Confluence Cloud | Confluence Cloud | Atlassian Support
+Clean up a space with the content manager | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,25 +439,126 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Space administration
+Manage content in a space
 Cloud
 Data Center
-Find content in Confluence Cloud
-Search for content
-Search for pages, live docs, posts, and other items that are most meaningful to you.
-View topic
-Search for people and teams
-Use the people directory to search for people and follow their activity.
-View topic
-Confluence search syntax
-Use Confluence's search syntax to refine your search queries.
-View topic
-Discover relevant content with related content
-Learn about this space admin-managed feature and how you can use it to quickly discover relevant content.
-View topic
-Use Atlassian Intelligence to search for answers
-Ask Atlassian Intelligence questions to find the Confluence content you’re looking for.
-View topic
+Clean up a space with the content manager
+The content manager is an admin tool available in
+Confluence Premium
+and
+Enterprise
+.
+Space admins of Confluence Premium or Enterprise can use the content manager to organize all of a space’s content except blogs.
+Teammates and administrators of Confluence Standard don’t have access to this tool, but they can
+archive a nested group
+or delete a nested group, directly from the content tree.
+Filters and actions
+Let us know what other filters and actions you’d like to see here, by clicking the
+Give Feedback
+banner in
+Space settings
+.
+Available filters
+Last active (Over 7 days ago, over 1 month ago, Over 3 months ago, Over 6 months ago)
+Pages deactivated owners
+Statuses
+Labels
+Types (databases, folders, pages, live docs, smart links, whiteboards)
+Contributors
+Last updated (within a date range)
+Created (within a date range)
+Available actions
+Archive
+Delete
+Change owner
+Change status
+Automation
+Convert pages to live docs
+As a best practice we recommend using the content manager for heavy bulk cleanup — and using
+automation rules
+(another premium feature) to keep things tidy moving forward.
+To filter inactive pages
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Content manager
+.
+Open the
+Last active
+dropdown above the table.
+Select a timeframe from the dropdown.
+“Last active” won’t return a complete list.
+It specifically filters pages that don’t have children.
+This serves as a safety measure due to the way permissions are inherited in Confluence:
+Nested content
+inherits view permissions
+from the parent by default. If either the child or parent are moved without first setting specific permissions for each page, there is a risk of accidentally revealing content to an unintended audience.
+To archive or delete a nested group in its entirety, select the preferred action from the parent’s
+More actions
+menu. You’ll see an option to include nested content when you archive or delete.
+After a nested group is archived, inherited permissions will remain intact in the archive — and in the content tree if the nested group is
+restored
+.
+To filter pages with deactivated owners
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Content manager
+.
+Select the
+Owner
+dropdown.
+Select
+Deactivated
+.
+Select one or more deactivated users or use the search bar to find a specific user.
+To archive, delete, change owner, change status, run an automation, or convert to live docs
+The content tree in the table shows all published pages and
+whiteboards
+. Drafts are excluded because they are only visible to their author.
+Databases
+are excluded because they are still in beta.
+Apply a filter (optional).
+Last active
+shows pages that haven’t been viewed, updated, or commented on.
+Pages with children are excluded as a precaution (see the warning above).
+Selecting
+deactivated
+in the Owner field shows pages owned by users who are deactivated.
+Use the checkboxes to make selections.
+Available actions appear after selecting a checkbox in a floating toolbar.
+Apply an action.
+Archive
+up to 500 items at a time.
+This moves content to the space’s archive where it can still be viewed but won’t clutter the content tree.
+Delete
+up to 100 items at a time.
+This moves content to the trash where an admin can permanently purge it.
+Change owner
+of up to 100 items at a time.
+Change status
+of a content item
+Automation
+lets you apply an automation rule to selected content
+Convert to live docs
+to convert selected pages into live docs
+Selecting a checkbox beside parent content will automatically select its nested items as well. Expand the nested group to view and deselect them.
+Keyboard shortcuts
+Press and hold Shift to make a selection of multiple rows at once
+Press and hold Command (or Alt) to select a checkbox without its nested items
 Was this helpful?
 Yes
 No
@@ -465,19 +569,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Search for content
-Search for people and teams
-Confluence search syntax
-Discover relevant content with related content
-Use Atlassian Intelligence to search for answers
-Create and organize work in Confluence Cloud
-Navigate around Confluence
-Use spaces to organize your work
-Find content in Confluence Cloud
-Create and edit content
-Keep content organized
-Show more
+Manage content in a space
+Clean up a space with the content manager
+Transfer content item ownership from one user to another
+Manage page watchers
+Export a space's content as Word, PDF, or data files
+On this page
+Filters and actions
+To filter inactive pages
+To filter pages with deactivated owners
+To archive, delete, change owner, change status, run an automation, or convert to live docs
 Community
 Questions, discussions, and articles
 Accessibility

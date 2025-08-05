@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/act-on-insights-from-mission-control/
+URL: https://support.atlassian.com/confluence-cloud/docs/share-confluence-content/
 
-Act on insights from mission control | Confluence Cloud | Atlassian Support
+Share Confluence content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,74 +439,99 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Monitor and manage activity in Confluence Cloud
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
 Cloud
 Data Center
-Act on insights from mission control
-The mission control center is available to Confluence admins with a
-Premium
-or
-Enterprise
-plan.
-Confluence administrators with a Premium or Enterprise plan have a mission control center to keep them aligned, informed, and proactive while overseeing global activity.
-When they select
-Confluence administration this is the first place they’ll land — a hub that provides better visibility and a big-picture view of what’s happening across Confluence. With key notifications, metrics, and analytics-based insights, Confluence admins can:
-Establish a baseline of normal activity so it’s more obvious if something is wrong
-Know how much content they have, who owns it, who can access it, and if it's being updated
-Easily locate and access the administrative tools and controls that help them take action
-When Confluence administrators with Standard or Free plans select
-Confluence administration, they will land in
-General configuration
-under settings.
-They’ll see mission control in their side navigation, but will need to start a Confluence Premium trial in order to use it.
-Alerts
-If something needs the immediate attention of an administrator, it gets surfaced as a blue alert at the top of the page. For example, if there are guest users waiting to be assigned to a space. Once any Confluence administrator completes the action, the alert will disappear.
-Metrics
-Next there’s a row of high-level metrics. Metrics data are refreshed approximately every 24 hours. This is where Confluence administrators can see any unusual spikes in recent activity.
-Total spaces
-The total number of spaces (“All spaces”), including personal spaces, that exist in the Confluence
-space directory
-as of the most recent refresh.
-This won’t include archived or trashed spaces.
-Total content
-The total number of pages, blogs, and whiteboards that exist in the content tree as of the most recent refresh.
-This won’t include databases since they are still in beta.
-Confluence searches
-The total number of searches that were conducted the day before via Confluence
-quick search
-,
-advanced search
-, and/or
-Ask AI
+Share Confluence content
+You can use the
+Share
+window in Confluence to send people a link to your page, live doc, blog, whiteboard, database, or Smart Link in the content tree. This is a great way to invite your team to collaborate or to distribute information to large groups of people.
+Share by email
+Using the
+Share
+button to share content with specific people, groups, teams, or email addresses will trigger an email notification to the recipients that contains a link to the content.
+Recipients will also receive a
+Confluence notification
+in the notification bell, as well as push notifications in Confluence mobile.
+To share Confluence content by email:
+Open the content item in Confluence Cloud.
+Select the
+Share
+button in the top right.
+Start typing the name of a person or group to see a list of suggestions, then select the right ones from the list.
+Or you can one-click add suggested users who will appear along the bottom of the search bar.
+Repeat this step to add multiple recipients.
+Note:
+teams
+are not yet compatible with
+Share
 .
-Summary cards
-Summary cards surface when optional features are enabled and who has administrative access. Features that are on will have a green
-check mark. Features that are off will have a gray
-cross mark.
-External access features card
-External access features are powerful tools for collaboration and sharing, and we want admins to feel confident they are aware when these features are enabled. The
-External access features
-card lists all the available features that could open the instance to unlicensed users, including the general public.
-Manage global permissions
-leads directly to where these can be turned on or off.
-This card is always visible.
-Beta features card
-The
-Beta features
-contains new features that Confluence is actively beta-testing with an open opt-in. This won’t include features that are part of closed testing, like our early access programs.
-Manage beta features
-leads to the New features setting to learn more about opting in.
-This card is only visible when there are open beta programs available.
-Confluence admins card
-The
-Confluence admins
-card is a consolidated list of everyone who has Confluence administrator privileges in the instance. If someone also has organization admin privileges, they’ll be identified with a lozenge beside their name. This provides an appropriate point of contact regarding user or billing questions.
-This card is always visible.
-Dashboards
-Dashboards take the analytics available to all Confluence users (
-when enabled
-), and synthesizes them into actionable areas of focus for Confluence admins. We’re continually reviewing customer feedback to add and revise the most valuable data points, but here are some examples of what you might see. Dashboard views can be changed by selecting different time frames from the dropdowns.
+If applicable, choose whether they should be able to view or edit. (This will apply to everyone you’ve added in the search bar.)
+Emails and teams can’t be assigned permissions, only notified.
+Leave the notify box checked to send a notification. Uncheck it to prevent notifications from being sent.
+(Optional) Add a custom message.
+Select
+Share
+.
+Need to troubleshoot access to your content?
+If you’re on the Premium or Enterprise plan, you can use the
+inspect permissions
+feature to quickly find out what’s blocking someone from accessing a content item.
+For more tips, see
+Troubleshoot access problems to content
+.
+Share using a link
+If you don’t want to use a Confluence notification to notify people about content, or if you want to include a link to the content item in an email you create yourself, you can copy the link to the content item.
+Sharing the link alone doesn't grant access
+Giving someone a link doesn’t automatically grant them access to the content. Check the content item’s access settings in
+Share
+to make sure people have the right access.
+For help interpreting who has access, check out
+Change who can find content and what they can do with it
+.
+To share using a link:
+You’ll find a link icon next to the
+Share
+button. Select it to copy the link.
+You can also just copy the content item’s URL from your browser window.
+Paste the link into an email, Slack, or anywhere else you want to share it.
+Share to Slack
+Save yourself the context switching and extra clicks of sharing Confluence content in Slack by doing it directly from Confluence. You can find the
+Share to Slack
+functionality in the
+Share
+window.
+The Confluence Slack app is a system app and is installed by default for all Confluence sites, so anyone can use it without needing an admin to install it.
+Connect a Slack workspace
+When you first use Share to Slack, you’ll be prompted to connect the Slack workspace where you want to share. Simply
+Sign in
+to enable sharing to Slack directly from Confluence. To connect an additional workspace, select
+Add new workspace
+.
+Send content to Slack channels
+After selecting
+Share to Slack
+for the content you want to share:
+Choose which Slack workspace to send to.
+Choose the channel or person in that workspace.
+(Optional) Add a custom message.
+Select
+Share
+.
+Inviting external users
+When you share content with someone outside of Confluence, we send them an email inviting them to join your site. They’ll be prompted to create an Atlassian account before they can access your content.
+When you invite an external user, you grant them access to Confluence, not just to your specifically shared content. We add them to the default product group and start billing you for the new user.
+In some cases, your invitation will be sent to an admin for approval first. This happens when:
+Your site doesn’t allow existing users to invite others to join.
+The recipient’s email address domain, like
+@gmail.com
+, isn’t on your site’s list of approved domains.
+If an admin declines your request, you’ll be notified by email. The external recipient won’t be notified.
+Want to share a content item externally to anyone on the internet?
+If
+public links
+public links are allowed on your site, you can share individual content items publicly with anyone on the internet.
 Was this helpful?
 Yes
 No
@@ -514,18 +542,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Monitor and manage activity in Confluence Cloud
-Act on insights from mission control
-Download a spaces report
-View the audit log
+Collaborate on content
+Show more
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Show more
 On this page
-Alerts
-Metrics
-Summary cards
-External access features card
-Beta features card
-Confluence admins card
-Dashboards
+Share by email
+Share using a link
+Share to Slack
+Connect a Slack workspace
+Send content to Slack channels
+Inviting external users
 Community
 Questions, discussions, and articles
 Accessibility

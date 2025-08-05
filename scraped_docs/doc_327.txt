@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/faq-understanding-legacy-editor-deprecation/
+URL: https://support.atlassian.com/confluence-cloud/docs/display-your-assets-data-on-a-confluence-page/
 
-FAQ: Understanding legacy editor deprecation | Confluence Cloud | Atlassian Support
+Display your Assets data on a Confluence page | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,108 +439,49 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-The Confluence legacy editor
+Extend the functionality of Confluence Cloud
+Use macros to add development info on Confluence pages
 Cloud
 Data Center
-FAQ: Understanding legacy editor deprecation
-Key Deprecation Dates
-Atlassian is taking a phased approach to deprecating the
-legacy editor
-to ensure a smooth and successful transition for all customers. The top priorities are to remove blockers from the conversion process—so your content remains intact—and to close key gaps between the legacy and cloud editors before the deprecation is complete.
-Phase 1 (January 2026)
-: New pages can't be created in the legacy editor, including copying legacy pages or creating new pages from legacy editor templates.
-Phase 2 (January 2026 - March 2026)
-: Viewing or editing a legacy page will automatically convert it to the cloud editor.
-Phase 3 (April 2026)
-: The legacy editor is fully deprecated; all content is viewed and edited in the cloud editor and pages can't be reverted back to legacy editor.
-Frequently Asked Questions
-Question
-Response
-1
-How can I share feedback or concerns?
-You can share feedback in the following ways:
-Select
-in the header (next to your profile photo), select “Give Feedback,” and choose “Editor” from the menu.
-Vote or comment on feature suggestions in
-jira.atlassian.com
+Display your Assets data on a Confluence page
+Assets
+is a powerful tool that gives teams the ability to track and manage all kinds of data. This data can be displayed in relevant Confluence pages and live docs for reports, stakeholder management, or even just general communications.
+You must be a Jira admin and / or have permissions to see the relevant object schema in
+Assets
+as well as an active Confluence licence in order to see the schema and manage this macro in Confluence.
+Users who do not have a Premium license are not able to insert or update the
+Assets
+macro on Confluence pages and live docs.
+Learn more about roles in Assets.
+NOTE:
+Giving someone a role in
+Assets
+so they have permissions to see the data will grant access to all object data in this schema from outside
+Assets
+, including Confluence.
+To embed a table with
+Assets
+objects in a Confluence page or live doc:
+Navigate to a Confluence page or live doc you own.
+When editing, select
+from the toolbar
+. You can also type forward slash ( / ) on the page or doc to bring up the same list you'd see by selecting from the toolbar.
+Search for
+Assets
+in the dropdown menu search bar, then select
+Assets
 .
-Participate in the
-deprecation community group
-.
-2
-Legacy features not available in cloud editor
-Why are some features from the cloud editor not available in the legacy editor, and when will missing features be added?
-Atlassian is actively working to address the most critical gaps between the legacy and cloud editor so that, by the time of deprecation, nearly all pages can be converted seamlessly with minimal manual effort.
-Some features from the legacy editor have intentionally not been replicated in the cloud editor due to technical limitations and our focus on building a modern, scalable editing experience for the cloud.
-If there are specific features that are important to your workflows, please search for them under Confluence Cloud suggestions on
-jira.atlassian.com
-. Voting and commenting on suggestions helps us prioritize improvements that matter most to you.
-3
-How do I know how many pages in a space or site are using the legacy editor or have unsupported content?
-Admins can use a script to export a CSV-formated list containing the coversion eligibility of all legacy editor pages. Follow these
-detailed instructions
-to use this tool to list the status of all legacy content on your Confluence site.
-4
-We have a large dependency on third-party macros in our content. Will these macros continue to function normally after the legacy editor is deprecated?
-Many third-party macros on legacy pages, including those with nested  macros, will be converted automatically to the cloud editor using our
-Legacy Content Macro
-. However, because the third-party ecosystem is so broad, there may be some edge cases that are not fully addressed by the solution.
-If you encounter issues with a specific third-party macro, reach out directly to the app developer and also provide feedback to Atlassian.
-5
-If we detect that some pages still have feature parity gaps in the cloud editor, can we keep these pages in the legacy editor?
-You can continue using the legacy editor for your pages until Phase 3 of the deprecation. In Phase 2, all eligible pages will be automatically converted, but you’ll still have the option to manually revert them if needed. You can do so by
-restoring the most recent version of the page before conversion, via the page’s version history
-. Once Phase 3 begins, all pages will transition to the cloud editor, and reverting will no longer be possible.
-Please provide feedback about any critical issues or concerns with the cloud editor so we can better support you and focus on the capabilities that matter most.
-6
-Is there any way to control who can convert a page from legacy to the cloud editor?
-Anyone with permission to edit a page can convert it from the legacy editor to the new cloud editor. At this time, there isn’t a way to restrict this action to specific users.
-7
-My organization has a lot of legacy pages and I’m worried about the timeline of the deprecation. Do I need to take any action to prepare for the legacy editor deprecation?
-You are not required to take specific action for this deprecation. These solutions are designed to enable a smooth, automatic conversion. They are focused on ensuring the transition to the cloud editor is as straightforward and smooth as possible.
-Eligible legacy pages will be automatically converted to the cloud editor according to the deprecation timeline. Your content will remain viewable and editable after the deprecation, even without manual intervention.
-While no action is required for most customers, if you have especially complex legacy pages, it’s helpful to convert eligible pages early and share feedback—your input helps Atlassian refine the solutions and support you better.
-8
-Can you disable the “Get the latest editing experience” prompt that encourages users to Update page to get the latest editor experience?
-This prompt only appears on pages
-eligible
-for conversion to cloud, where no "
-unsupported
-" content will be displayed after conversion. These pages are fully compatible with the cloud editor, allowing users to view and edit them seamlessly.
-This prompt encourages users to switch to the cloud editor because the legacy editor is unsupported, and soon to be deprecated. While you can still edit existing pages in the legacy editor, converting to the cloud editor gives the best experience and support.
-Currently, this prompt can't be disabled, but you can vote and comment on the
-related suggestion
-to provide feedback to us and receive status updates. We’d also appreciate understanding your reasons for wanting to disable the prompt, as this helps us better support you and address your concerns.
-9
-How do I know if a page is eligible before converting?
-Eligible
-pages are those that can be converted to the cloud editor without displaying any unsupported content after conversion. These pages are fully compatible with the cloud editor, allowing users to view and edit them seamlessly. The introduction of the
-legacy content macro
-has made a lot more pages eligible and we’re actively expanding support for additional use cases over the next quarter.
-Identifying Eligible Pages:
-“Get the latest editing experience” prompt:
-When you edit an eligible page, you’ll see a prompt to update your page.
-Checkmark Indicator:
-While editing in the legacy editor, a checkmark
-in the bottom left corner indicates eligibility.
-Ineligible pages:
-If a legacy editor page has content that can’t be converted, you won’t see the prompt to convert to the cloud editor. If you try to convert it anyway, you will see a warning that you could lose content.
-For additional details, please
-visit our page on converting pages to the cloud editor
-.
-10
-What happens to my templates that use the legacy editor?
-We’re committed to ensuring a smooth transition for customers using legacy editor templates. By Phase 1 of the deprecation, templates using the legacy editor will be convertible to the cloud editor.
-Our team is actively working on this
-capability
-as a priority for the upcoming quarter, so you can continue to use your templates seamlessly in the cloud editing experience.
-11
-My organization has a lot of legacy pages and I’m worried about the timeline of the deprecation. How can I get a head start on converting our pages to the cloud editor?
-Site and space admins can enable autoconversion settings at any time to help streamline the transition for their teams. Autoconversion applies to eligible pages—those that can be converted to the cloud editor without unsupported content. Once converted, these pages can be seamlessly viewed and edited in the cloud editor.
-Pages containing unsupported content will remain in the legacy editor until support becomes available, at which point they’ll become eligible for conversion. If auto-conversion is already enabled, no further action is needed as we expand support for additional use cases.
-To learn more about converting pages, visit the
-procedure for converting pages
+After
+Insert objects from,
+select the object schema that stores the objects you want to display.
+Enter AQL to filter the objects you want to be displayed.
+Learn more about Atlassian Query Language (AQL).
+Results returned from the query will be displayed on a table. To add other attributes, go to :board: at the top of the column, then select from the dropdown menu.
+Once you’re happy with the table, select
+Insert objects.
+The AQL queries anyAttribute and connectedTickets() do not work with this macro.
+If a user does not have permission to see an attribute (e.g. an attribute that references an object in a restricted schema), then the cell will appear empty or say
+Unknown
 .
 Was this helpful?
 Yes
@@ -549,14 +493,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-The Confluence legacy editor
-FAQ: Understanding legacy editor deprecation
-Convert legacy editor pages
-Differences using Confluence legacy editor and cloud editor
-The legacy content macro
-On this page
-Key Deprecation Dates
-Frequently Asked Questions
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
 Community
 Questions, discussions, and articles
 Accessibility

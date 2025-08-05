@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/watch-a-calendar/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-third-party-calendars/
 
-Watch a calendar | Confluence Cloud | Atlassian Support
+Subscribe to Team Calendars from third-party calendars | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -440,24 +443,42 @@ Extend the functionality of Confluence Cloud
 Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Watch a calendar
-Watching a calendar is a great way to stay up-to-date on changes made in the calendar, without necessarily adding it to your My Calendars page. When you watch a calendar, you'll be sent an email notification when any of the following events occur:
-A new event is created
-An existing event is edited
-An event is deleted
-The entire calendar is deleted
-When you watch a Confluence space, it includes watching all calendars in that space, so there's no need to manually watch calendars for your team or project.
-Watch a calendar
-To watch a calendar, choose
-to the right of a calendar name and select
-Watch
-. Notifications will be sent to your email address.
-Stop watching a Calendar
-If you want to stop watching a calendar (no longer want to receive email notifications about changes to the calendar), choose
-to the right of the calendar name and select
-Stop Watching
+Subscribe to Team Calendars from third-party calendars
+Subscribing to Team Calendars from your favorite third-party calendar app is a great way to view your Team Calendars events when you're not in Confluence.
+There are two ways to synchronize a Team Calendar with your calendar app:
+Two-way sync (CalDAV)
+allows you to view and update Team Calendars events in your calendar app.
+One-way sync (iCal)
+allows you to view but not update Team Calendars events in your calendar app.
+Not all calendar apps support two-way sync (CalDAV) with Team Calendars. Apps that do support CalDAV should integrate with Team Calendars just fine. We've tested the following apps and can confirm they will integrate well:
+Apple Calendar (MacOS)
+Apple Calendar (iOS)
+Google Calendar (Android)
+Microsoft Outlook
+Thunderbird
+Other calendar apps
+If the calendar app you use isn't listed above, you may still be able to subscribe to Team Calendars. Check your app's documentation to find out whether it supports the iCal or CalDAV standard. If it supports iCal, then you should be able to set up one-way synchronization. If it supports CalDAV, you should be able to set up two-way synchronization.
+To subscribe to a calendar app that's not listed above:
+In Confluence, Select
+Subscribe
+at the top of your calendar.
+Select either
+iCal
+or
+CalDAV
+from the
+Calendar app
+dropdown (check your calendar app's documentation to find out which standard it supports).
+Copy the
+Calendar URL
 .
-If the menu says 'Watching', you're watching the calendar because you're either watching a page the calendar is embedded on or you're watching the related space for the calendar. To stop watching in this case, you'd need to stop watching the relevant page or space containing the calendar.
+Then, in your Calendar app, follow the steps in your app's documentation to add or subscribe to the calendar.
+Timezones
+Timezones can be confusing! Here's how we decide what time to display.
+We display the time of an event in Confluence using the timezone set in your Confluence profile.
+We display the time of an event in your calendar app using the timezone set in your app or device.
+We store events using the timezone defined in the Team Calendar itself, and then convert them to the appropriate timezone when you view the event.
+You should always see the correct time, but if you change locations, make sure you update your Confluence profile so you don't see a discrepancy between your calendar app and Confluence.
 Was this helpful?
 Yes
 No
@@ -469,16 +490,16 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Use Team Calendars for Confluence (Premium feature)
-Show more
-Add reminders to events
-Embed calendars on Confluence content
-Watch a calendar
-Subscribe to Team Calendars from Apple Calendar
-Subscribe to Team Calendars from Thunderbird
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
 Show more
 On this page
-Watch a calendar
-Stop watching a Calendar
+Other calendar apps
+To subscribe to a calendar app that's not listed above:
+Timezones
 Community
 Questions, discussions, and articles
 Accessibility

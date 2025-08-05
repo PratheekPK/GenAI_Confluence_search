@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/classify-a-page-or-blogpost/
 
-Configuration settings in Confluence Cloud | Confluence Cloud | Atlassian Support
+Classify content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,46 +439,38 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Configuration settings in Confluence Cloud
-This section focuses on settings and configurations within
-Confluence Cloud
+Classify content
+Classify content to help people recognize the sensitivity of information they’re viewing or working on.
+You can classify content once your organization admin has set up classification levels for your organization.
+To classify an item:
+Edit the item (only required for pages and blogposts).
+Select the More actions menu (•••) >
+Classify content
 .
-Change the site title
-Set a custom title for your instance.
-View topic
-Configure the administrator contact page
-Edit the information on your administrator contact page.
-View topic
-Choose a default language
-Change the default language across Confluence.
-View topic
-Configure the indexing language
-Learn how sysadmins can change the indexing language to improve search results in Confluence Cloud.
-View topic
-Configure time and date formats
-Change how the date and time are displayed on your Confluence instance.
-View topic
-Configure number formats
-Change how numbers are formatted on your Confluence site.
-View topic
-Configure attachment size
-Set the maximum size for attachments in your Confluence Cloud instance.
-View topic
-Configure shortcut links
-Create shortcut links for your Confluence site.
-View topic
-Install a custom language font for PDF exports
-Install a font that supports a certain language so you can create PDFs in that language.
-View topic
-Confluence wiki markup syntax for the legacy editor
-Learn how to use Confluence wiki markup to format text in some administrative pages.
-View topic
-Customize the email domain sending Confluence emails
-Learn how to send your Confluence site email notifications from a custom domain email.
-View topic
+Choose a classification level.
+Select
+Update
+.
+Why is my content already classified?
+You may find that the item you’ve just created has been classified without any action by you or another user. This could be the result of a default classification level set by the space admin.
+What is a default classification level?
+To change the classification level of an item:
+Edit the item (only required for pages and blog posts).
+Select the classification level badge.
+Select
+Change level
+(only required for whiteboards, databases and live pages).
+Choose a classification level.
+Select
+Update
+.
+You can't remove a classification level, but you can change it to
+No classification
+or to the default level set by your admin.
 Was this helpful?
 Yes
 No
@@ -486,20 +481,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Change the site title
-Configure the administrator contact page
-Choose a default language
-Configure the indexing language
-Configure time and date formats
+Create and edit content
 Show more
-Confluence administration
-Show more
-Manage analytics permissions in Confluence administration
-Manage Confluence page and doc templates
-Configuration settings in Confluence Cloud
-Security settings in Confluence Cloud
-Look and feel settings in Confluence Cloud
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
 Show more
 Community
 Questions, discussions, and articles

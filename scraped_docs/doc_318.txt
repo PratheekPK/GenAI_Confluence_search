@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-jira-timeline-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/customize-a-sites-color-schemes/
 
-Insert the Jira timeline macro | Confluence Cloud | Atlassian Support
+Customize the navigation colors | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,41 +439,63 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to add development info on Confluence pages
+Confluence administration
+Look and feel settings in Confluence Cloud
 Cloud
 Data Center
-Insert the Jira timeline macro
-If you're using a
-next-gen Jira Cloud project
-, the Jira timeline macro allows you to add your project's timeline to a Confluence Cloud page or live doc.
-Add your timeline to a Confluence Cloud page or live doc
-You can add your team's timeline to a Confluence Cloud page or live doc using the Jira timeline macro. Timelines you add to a Confluence Cloud page or live doc will update in real-time, and you can interact with it just as you would in Jira.
-There are three ways to add your timeline to a Confluence Cloud page or live doc.
-Option 1: Paste a URL
-Go to your team-managed
-software project
-and view the
-Timeline
-.
-Copy the URL from your browser.
-Paste that URL directly into your Confluence page or live doc.
-It will automatically be transformed into a Jira timeline macro.
-Option 2: Macro shortcut menu
-Bring up the macro shortcuts menu with either '
-/
-' (in the new Confluence Cloud editor) or '
-{
-' (in the classic editor).
-Search for
-Jira timeline
-.
-Option 3: Macro menu
-Select the macro menu (
-+
-).
+Customize the navigation colors
+As a Confluence admin, you can configure a custom color scheme for the navigation. It might be to brand your instance with your corporate colors, or just because you like a particular color.
+To quickly change your color scheme,
+upload your company logo
+. Confluence will use the colors to automatically update the color scheme.
+When modifying the color scheme, you can control the following areas.
+Highlight color
+— This setting lets you control the
+Create
+button’s background color
+If the application is taking a little time to load, a progress bar shown below the navigation bar uses the accent color.
+Background color
+— You can customize the top navigation bar’s background color. If you set a background color in earlier versions of Confluence, that background color is maintained.
+Change the color scheme
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
 Select
-Jira timeline.
+Look and feel
+>
+Customize navigation
+.
+(Optional)
+Upload a custom logo
+.
+Enter a color code or use the color-picker to choose a new color.
+Select
+Save.
+Any changes you save are immediately reflected across Confluence.
+The navigation text color is automatically chosen for you in order to optimize legibility. For example, if your background color is white, the text color chosen provides the greatest contrast with some shade of dark grey; if you background is black or blue, the text color is some shade of white.
+Your selected background colors will also respond to the user’s choice of Dark or Light themes. When the user is in Dark theme, the background color will be slightly darker.
+Reset your color scheme after uploading a site logo
+When you upload a site logo, Confluence automatically detects the colors in your logo and customizes the color scheme for you. You can change the color scheme as above, or reset your color scheme back to the default (and still keep your new site logo).
+To reset the color scheme:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Look and feel
+>
+Customize navigation
+.
+Select the
+Highlight color
+or
+Background color
+dropdown to open the color picker.
+Select
+Reset to default.
 Was this helpful?
 Yes
 No
@@ -481,11 +506,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add development info on Confluence pages
-Display Jira work items in a list
-Insert the Jira chart macro
-Insert the Jira timeline macro
-Display your Assets data on a Confluence page
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+On this page
+Change the color scheme
+Reset your color scheme after uploading a site logo
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-panel-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/decide-how-you-see-pages-in-a-space/
 
-Insert the panel macro | Confluence Cloud | Atlassian Support
+Find content in a space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,90 +440,55 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Use spaces to organize your work
 Cloud
 Data Center
-Insert the panel macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-Use the Panel macro
-To add the Panel macro:
-When editing , select
-from the toolbar
-Find the item to be inserted and select it
-Select
-Insert
-To edit the Panel macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Panel Title
-(title
-)
-none
-The title of the panel. If specified, this title will be displayed in its own title row.
-Border Style
-(borderStyle
-)
-solid
-The style of the panel's border. Accepted values are
-solid
-,
-dashed
-and other valid CSS border styles.
-Border Color
-(borderColor
-)
-The color of the panel's border. Colors can be specified as HTML color names or hexadecimal codes.
-Border Pixel Width (Value Only)
-(borderWidth
-)
-The width of the panel's border (in pixels).
-Background Color
-(bgColor
-)
-The background color of the panel. Colors can be specified as HTML color names or hexadecimal codes.
-Title Background Color
-(titleBGColor
-)
-The background color of the title row of the panel. Colors can be specified as HTML color names or hexadecimal codes.
-Title Text Color
-(titleColor
-)
-The color of the text in the title row of the panel. Colors can be specified as HTML color names or hexadecimal codes.
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-panel
-Macro body:
-Accepts rich text.
-{panel:title=My title|borderStyle=dashed|borderColor=blue|titleBGColor=#00a400|titleColor=white|bgColor=#72bc72}
-A formatted panel
-{panel}
+Find content in a space
+Trying to find a specific page, live doc, or whiteboard is hard when you remember some things about it but you don’t remember what it’s called. Searching for it might seem challenging.
+When you are in a space, you have a couple of ways of finding the right item.
+Search for item’s titles in the space
+To search in a space:
+Enter some of the item’s title in the
+Search by title
+field, located in the space’s
+sidebar
+. When entering multiple words, the operator used is OR. Enter
+product requirements
+, and the results will contain
+product
+OR
+requirements
+.
+Press
+Enter
+PRO TIP
+You can use the
+Confluence search syntax
+in the search field to really focus your search results.
+Hover over titles to see cards
+Sometimes an item’s title just isn’t enough to pick the right one. When you hover over an item in the
+sidebar
+of a space, you can see more details about it — like when it was updated last and who owns the item.
+The actions you can take from the item cards in the sidebar include:
+Jump directly to
+edit
+Star
+the item to save it for later
+Sharing and watching items aren’t available here.
+How to turn off hover cards
+Seeing cards on hover is something each user can control, so if you don’t find this useful, you can turn it off in your user settings. In user settings, uncheck the content card hover option.
+View items differently
+Navigating through a structured content tree is useful to some people some of the time. But if you aren’t familiar with a space or if the content tree gets overgrown, it can be more challenging to find the right item.
+To make the list of items fit you, you can switch the view from the tree view to a flat list that is sorted as you want. Once you select your view in a space, it stays that way until you change it.
+Tree
+—
+view the items in their standard hierarchical structure
+My visits — view the items you accessed most recently at the top of a flat list
+Last updated
+— view the items created or edited most recently by anyone in the space at the top of a flat list
+Title - A to Z
+— view the items in a flat alphabetical list, starting with content containing numbers and special characters
+Reordering items in the sidebar using drag and drop is only available in the default tree view. If you need to reorder items, switch back to the default view.
 Was this helpful?
 Yes
 No
@@ -531,10 +499,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Use spaces to organize your work
+Show more
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Show more
 On this page
-Use the Panel macro
-Parameters
-Wiki markup example
+Search for item’s titles in the space
+Hover over titles to see cards
+View items differently
 Community
 Questions, discussions, and articles
 Accessibility

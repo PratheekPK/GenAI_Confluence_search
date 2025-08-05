@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/define-terms-using-atlassian-intelligence/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-analytics-permissions-in-confluence-administration/
 
-Define terms using Atlassian Intelligence | Confluence Cloud | Atlassian Support
+Manage analytics permissions in Confluence administration | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,39 +439,13 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Atlassian Intelligence features in Confluence Cloud
+Confluence administration
 Cloud
 Data Center
-Define terms using Atlassian Intelligence
-This Atlassian Intelligence feature is in beta. Read more about
-Atlassian Intelligence features.
-One of the most challenging things about consuming content in Confluence can be getting the context you need to understand what you’re reading. Abbreviations, acronyms, unfamiliar terms, and team or project-specific names can lead to a lengthy search for the information you need.
-Atlassian Intelligence
-can save you time by defining these things for you, without navigating away from what you’re reading.
-Define terms with Atlassian Intelligence
-Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
-Settings > Atlassian Intelligence
-in Atlassian Administration.
-Atlassian Intelligence isn’t available for
-Atlassian Government
-apps.
-You can only define terms with Atlassian Intelligence while
-viewing
-a Confluence page, live doc, or blog, not while editing.
-Highlight what you want to define.
-Select
-Define
-(to the right of the
-Comment
-option).
-Atlassian Intelligence generates a definition.
-If you need more information about a definition, you can review the linked sources used to generate it. You can also rate the quality of the definition or report any issues.
-This feature works best when you select a term, abbreviation/acronym, or team/project name that is referenced often in your Confluence site. This is because Atlassian Intelligence relies on the information in your Confluence that you have access to in order to generate a definition.
-If you try to select more than a few words, you will likely encounter an error.
-For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
-the Atlassian Trust Center
-.
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Control who can view analytics on a Confluence instance or spaces.
+View topic
 Was this helpful?
 Yes
 No
@@ -479,12 +456,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Atlassian Intelligence features in Confluence Cloud
-Search for answers using Atlassian Intelligence
-Write or edit content using Atlassian Intelligence
-Define terms using Atlassian Intelligence
-Use Atlassian Intelligence with Confluence automation
-Learn about pre-defined prompts in Atlassian Intelligence
+Explore more
+Control which groups can use analytics
+Confluence administration
+Show more
+Premium admin tools for Confluence Cloud
+Manage global permissions in Confluence administration
+Manage analytics permissions in Confluence administration
+Manage Confluence content templates
+Configuration settings in Confluence Cloud
 Show more
 Community
 Questions, discussions, and articles

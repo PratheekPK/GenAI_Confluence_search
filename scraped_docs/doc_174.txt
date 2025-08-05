@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-gallery-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/change-the-default-behavior-and-content-in-confluence-cloud/
 
-Insert the gallery macro | Confluence Cloud | Atlassian Support
+Set Confluence-wide functionality | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,152 +439,39 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Confluence administration
 Cloud
 Data Center
-Insert the gallery macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Gallery macro displays a collection of thumbnail images in a table, based on the images attached to a Confluence page. When viewing the page, a user can click a thumbnail image to zoom into a screen-sized image and then view the images as a slide show.
-Overview:
-The images shown in the gallery are taken from the files attached to the Confluence page. You can also specify a different page where the attachments are located. For information about attaching images to a page, see
-Upload files
-.
-The captions below the images are drawn from the comments on the attachments. For information about adding comments to attachments, see
-Upload files
-.
-By default, the gallery will include all the images attached to the page. You can also exclude or include images using parameters.
-You can sort your images into a particular order.
-You can specify a title for the gallery and also configure how many columns you want for the table in which your images are displayed.
-Use the Gallery macro
-To add the Gallery macro
-:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Gallery macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
+Set Confluence-wide functionality
 Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-The full list of parameters is shown in the following table. If the name of an attached file or page contains a comma, you can refer to it in the relevant parameters below by enclosing it in single or double quotes, for example
-"this,that.jpg", theother.png
-Parameter
-Default
-Description
-Gallery Title
-(
-title
-)
-Nothing
-Specify a title for your gallery.
-Number of Columns
-(columns
-)
-4
-Specify the number of columns for your table.
-Images to Exclude
-(exclude
-)
-No exclusions. Include all the pictures on the page.
-The gallery will ignore any pictures specified. You can specify more than one picture, separated by commas.
-Note: The filename and filetype for this parameter are case-sensitive. For example, 'my picture.PNG' will not be recognized as 'my picture.png'.
-Include these Images Only
-(include
-)
-Include all the pictures on the page.
-If you specifically include one or more pictures, the gallery will show only those pictures. You can specify more than one picture, separated by commas.
-The filename and filetype for this parameter are case-sensitive. For example, 'my picture.PNG' will not be recognized as 'my picture.png'.
-Exclude Images with these Labels
-(excludeLabel
-)
-No exclusions. Include all the pictures on the page.
-The gallery will ignore any pictures that have the specified label. You can specify more than one label, separated by commas. For information on labeling the attachments, see
-Use labels to organize pages and attachments
-.
-Include Images with these Labels Only
-(includeLabel
-)
-None. The images are not filtered by label.
-Filters the images to display, based on a list of labels. Separate multiple labels with commas. Confluence will show any image that has
-at least one of the labels
-you specify (it's an OR match as opposed to an AND).
-For info on labeling attachments, see
-Use labels to organize pages and attachments
-.
-Use Images in these Pages
-(page
-)
-If no page is specified, the gallery macro displays the images attached to the page on which the macro is used.
-Specify the title of the page which contains the images you want displayed. You can specify more than one page name, separated by commas. To specify a page in a different space, use the following syntax:
-SPACEKEY:Page Title
-Sort Images By
-(sort
-)
-None. The sort order is unspecified and therefore unpredictable.
-Specify an attribute to sort the images by. Sort order is ascending, unless you select the
-Reverse Sort
-parameter (see below). Options are:
-name
-– file name.
-comment
-– comment linked to the attached file.
-date
-– date/time last modified.
-size
-– size of the attached file.
-Reverse Sort
-(reverse
-)
-Off. Sort order is ascending
-Used in combination with the
-Sort Images By
-parameter above. Use
-Reverse Sort
-to reverse the sort order, from ascending to descending.
-Available values in storage format and wikimarkup:
-true
-– Sort order is descending.
-false
-– Sort order is ascending.
-Image file formats
-You can attach image files of any format to a page. Confluence supports the following image formats in the Gallery macro and when displaying an image on a page:
-gif
-jpeg
-png
-bmp (depending on browser support)
-Wiki markup example
-Wiki markup is only supported in the legacy editor.
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-gallery
-Macro body:
-None.
-{gallery:title=My holiday pictures|reverse=true|sort=size|page=My page1, ds:Welcome to Confluence|excludeLabel=badlabel1, badlabel2|columns=3|exclude=badpicture.png}
+administrators can set defaults like specifying where place people land when navigating to Confluence, and the default content for new spaces.
+Control whether spaces can allow public links
+Change whether your Confluence instance and spaces allow public links.
+View topic
+Control whether spaces can turn on anonymous access
+Turn on public access to allow anyone on the internet to view content on your Confluence instance.
+View topic
+Change the landing page
+Change your Confluence homepage.
+View topic
+Change the Confluence Home welcome message
+Create a custom welcome message for your Confluence instance.
+View topic
+Create a custom space overview template
+Change what appears on the overview page of new Confluence spaces.
+View topic
+Turn off page reactions
+Turn off likes and other reactions for a Confluence Cloud instance.
+View topic
+Customize layout for PDF exports in Confluence Cloud
+Learn how Confluence admins can customize the layout and style of a PDF export.
+View topic
+Convert legacy editor pages in all spaces
+Auto-convert all Confluence pages that were created with legacy editor formatting to the new editor.
+View topic
+Configure live docs in Confluence
+Find out how to turn on or off the live docs feature, and bulk convert pages to live docs.
+View topic
 Was this helpful?
 Yes
 No
@@ -592,11 +482,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-On this page
-Use the Gallery macro
-Parameters
-Image file formats
-Wiki markup example
+Explore more
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Show more
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Monitor and manage activity in Confluence Cloud
+Premium admin tools for Confluence Cloud
+Manage global permissions in Confluence administration
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

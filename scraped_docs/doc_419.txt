@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/build-flows-and-diagrams-with-flows-and-connectors/
+URL: https://support.atlassian.com/confluence-cloud/docs/get-started-as-confluence-cloud-administrator/
 
-Build flows and diagrams with flows and connectors | Confluence Cloud | Atlassian Support
+Get started as Confluence Cloud administrator | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,91 +439,46 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Confluence administration
 Cloud
 Data Center
-Build flows and diagrams with flows and connectors
-Whiteboards aren’t available in
-Atlassian Government environments
+Get started as Confluence Cloud administrator
+If you're just starting out as Confluence administrator, this page is for you. You'll find this page useful if your Confluence instance is brand new, or if you're learning to administer an existing instance.
+Learn more about
+organization administration
+and
+user management
 .
-Use lines to create paths between sticky notes, text objects, or shapes. They’ll help you organize your whiteboard and create a flow of thought.
-You can customize the color, endpoints, and stroke weight of all your lines.
-In whiteboards, we have:
-Straight lines:
-A direct path between elements on your whiteboard. Straight lines will always remain straight, regardless of how they’re resized or moved around.
-Dynamic lines:
-A path between elements on your whiteboard that dynamically changes shape as you resize it and move the components attached to it around.
-Create a line
-There are multiple ways to create a line.
-Create a line by dragging it from the toolbar
-Select the line icon in the toolbar.
-Choose between either the straight or dynamic line icon (we’ll select the straight line by default).
-Select and drag the line icon in the toolbar to drag and drop a line onto your whiteboard.
-Create a line by drawing it on your whiteboard
-Select the line icon in the toolbar.
-Select either the straight or dynamic line icon (we’ll select the straight line by default).
-Using your cursor, choose and select where you want to start drawing your line on your whiteboard.
-Drag the cursor to draw the start of your line.
-Select again to finish drawing the line.
-Create a line by using the anchor points on an element
-Select any element on your whiteboard (for example, shapes).
-Hover over one of the anchor points that appear on each of the element’s sides.
-Select your chosen anchor point.
-Hold and drag your cursor to start drawing a line and release it to finish drawing the line.
-You can place the end of your line in a free space on your whiteboard. Alternatively, you can hover over an anchor point on another element to connect the end of your line to that element.
-Move lines
-Lines can be moved around your whiteboard and connected to other elements. Move them to illustrate a flow better or make space for other elements and ideas.
-Move the start and end points of a line
-If your line is connected to an element on the whiteboard, you can move a line's start or end point to a new place.
-To move the start or end point of a line:
-Select and hold the end of the line you want to move.
-Draw it to either free space on your whiteboard or a different anchor point on the same or different elements.
-Release your mouse to place the endpoint of the line.
-Move an entire line
-Like any other element, a line can be moved around your whiteboard.
-To move an entire line around your whiteboard:
-Select the line.
-Move it to your chosen area on the whiteboard.
-Select where you want to place the line to drop it on the whiteboard.
-Note: If your line is connected to an element, the element will be moved with the line.
-Edit lines
-Lines can be edited to change their appearance. Edit a line to change the color, thickness, styling, or type.
-Edit line color
-To change the color of a line:
-Select the line.
-Open the color picker from the floating toolbar.
-Select a new color.
-Edit line thickness
-To change the line thickness:
-Select the line.
-Open the line thickness menu in the floating toolbar.
-Select a new thickness.
-Edit line end styling
-You can choose to either have nothing or an arrow on the endpoints of your line.
-To change the end styling of a line:
-Select the line.
-Select from the two menus to the left or the right of the line type icon in the floating toolbar. Each will change the styling of one of the ends.
-Select either the arrow or no end style icon from the menu.
-Edit line type
-You can change your line from a straight line to a dynamic or curved line.
-To change the line type:
-Select the line.
-Select the line type icon in the floating toolbar.
-Choose from a straight line, dynamic line, or curved line.
-Shaping lines
-Create custom lines with multiple curves and angles on dynamic and curved lines.
-To shape a line:
-Select the line.
-Drag the line editing points.
-Outlined points indicate existing points you can move on the line. Drag the filled points to add new curves or angles.
-Add a line label
-You can use labels to add descriptions to lines.
-To add a line label:
-Select the line.
-Select the line label icon in the floating toolbar.
-Enter the text for the line label.
-Select and drag the label to move it anywhere on the line.
+How to administer and configure Confluence
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+If you have a Premium or Enterprise plan, you’ll land in the mission control center. If you have a Free or Standard plan, you’ll land in
+General configuration
+under settings.
+Getting started on a new Confluence instance
+Is this a new Confluence instance? Here are some things to get started with:
+Decide whether you want to allow
+public (anonymous) access
+to your instance.
+Add a
+space
+and some
+content
+.
+Invite
+some users to your instance.
+Now you can continue getting to know your instance.
+Getting to know an existing Confluence instance
+Has the instance been around a while, but you're new to Confluence administration? Take a look at these topics:
+Understand the Confluence
+permission
+scheme.
+Get to know the power of
+add-ons
+for extending and customizing your Confluence instance.
+Investigate more ways of
+customizing
+Confluence.
 Was this helpful?
 Yes
 No
@@ -531,29 +489,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Show more
-Use shapes to visualize ideas
-Add and edit text on whiteboards
-Build flows and diagrams with flows and connectors
-Inserting links to your whiteboard
-Use sections to organize your work
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Monitor and manage activity in Confluence Cloud
+Premium admin tools for Confluence Cloud
+Manage global permissions in Confluence administration
 Show more
 On this page
-Create a line
-Create a line by dragging it from the toolbar
-Create a line by drawing it on your whiteboard
-Create a line by using the anchor points on an element
-Move lines
-Move the start and end points of a line
-Move an entire line
-Edit lines
-Edit line color
-Edit line thickness
-Edit line end styling
-Edit line type
-Shaping lines
-Add a line label
+How to administer and configure Confluence
+Getting started on a new Confluence instance
+Getting to know an existing Confluence instance
 Community
 Questions, discussions, and articles
 Accessibility

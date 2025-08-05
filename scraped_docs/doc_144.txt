@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-space-specific-functionality/
+URL: https://support.atlassian.com/confluence-cloud/docs/merge-multiple-confluence-cloud-sites/
 
-Set space-specific functionality | Confluence Cloud | Atlassian Support
+Migrate a Confluence Cloud instance or merge instances from multiple sites | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,19 +439,144 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Confluence administration
+Data management in Confluence Cloud
 Cloud
 Data Center
-Set space-specific functionality
-Additional PDF export settings
-Review updated limitations and workarounds for exporting PDF files from Confluence.
-View topic
-Advanced PDF export customizations
-Dig deeper into how site and space admins can do advanced customizations of space-specific PDF exports using CSS and HTML.
-View topic
-Set a default classification level for content
-Ensure your content in a chosen space is always classified.
-View topic
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+This page is for people who are currently using Confluence Cloud, and want to move their entire instance to a different cloud site — or merge Confluence Cloud instances from multiple sites.
+For migrating from Confluence Server to Confluence Cloud, see the
+Server to cloud migration guide
+.
+Migrating a Confluence Cloud instance to an existing Confluence Cloud instance
+When to use this method
+When you want to move from an existing Confluence Cloud instance to a Confluence Cloud instance on another site.
+When your new cloud site is Confluence-only. If you have both Confluence and Jira in your cloud site, you’ll need to import all of your spaces individually. See
+Import a Confluence Cloud space
+for information on how to do that.
+Before you begin
+This process will replace all content and users from your Confluence Cloud instance, including:
+The content of all spaces exported from the other instance.
+The users exported from the other instance, including all administrators and non-administrators.
+The groups, and user memberships of those groups, exported from the other instance.
+We can’t currently export databases
+They will appear in the tree when exported but won’t retain their content, data, or functionality.
+On this page, we will use the term 'source Confluence site' or 'source site' to mean the cloud site you are copying the information from. The 'destination site' is the Cloud instance you are copying the information to.
+Step 1: Back up your destination cloud site
+The import will remove all data on your destination site, including content, users, and groups. We strongly recommend you make a backup copy of the destination site and save the backup file on your local file system. To export the contents of your source cloud site, follow the steps described in
+Export a data backup file of your instance
+.
+Before you back up your site, make sure all user accounts have a unique email address associated with them. If this isn't done, the import will fail. If you started an import and noticed that it imported all the data, and then failed, this may be the cause.
+Step 2: Export the Confluence Cloud contents of your source site
+To export the contents of Confluence Cloud from your source site, follow the steps described in
+Export a data backup file of your instance
+.
+Remember to include attachments in your backup
+Make sure all user accounts have a unique email address associated with them
+Step 3: Check the size limits
+Site import in Confluence Cloud is restricted to a maximum 200 megabytes for the uncompressed XML files inside the backup zip file. This is the 'data size' of the backup. There's no limit to the file size and number of attachments.
+When you try to do the import, Confluence Cloud will inform you if the backup data is too large.
+To manually check the data size of the backup:
+Unzip the backup file.
+Sum the sizes of the XML files in the root directory of the zip file (this will be at least the file named
+entities.xml
+and may also include XML files added by plugins).
+What if the data size is okay?
+If the data size of your site backup file is within the limits, import the site backup directly into the destination Confluence Cloud instance. See below.
+What if the size limit is exceeded?
+If the size of your site backup file is too large, you'll need to move the content space by space and ensure your user data is imported, too. This involves exporting each space individually. You can do this in your cloud site.
+Step 4: Import the site content into Confluence Cloud on your source site
+If the data size of your site backup file is within the limit described above, import the site backup directly into the destination Confluence Cloud instance.
+To import a space:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Select
+Import spaces
+from the sidebar (under
+Data management
+).
+Select
+Select file
+to upload the export file from your computer.
+(Optional) If you're using Jira Cloud, select the Cloud project you'd like to link to this space.
+Select
+Import
+.
+(Optional) If you're importing more than one space, select
+Import another space
+and repeat steps 1-5.
+Once you've imported all your spaces, select
+Next step
+. This will trigger the Jira macro repair, which will find and fix any broken Jira macros on your instance.
+Apps
+After migrating your data, you'll need to re-install any compatible apps, like Questions for Confluence and team calendars.
+You can check whether your essential apps are available for Confluence Server, Cloud or both on the
+Atlassian Marketplace
+.
+For migrating from Confluence Server to Confluence Cloud, see the
+Server to cloud migration guide
+.
+Merging Confluence Cloud instances from multiple sites
+Confluence Cloud does not support merging multiple sites, although that work is on our roadmap. You can watch this request for updates:
+CLOUD-11495
+- Confluence Cloud to Cloud migration tooling
+IN PROGRESS
+. Workarounds are available. The workaround you choose depends on your needs, including how many Confluence sites you want to merge.
+To merge two sites
+, we recommend using a Confluence Data Center instance to facilitate the merging process. This is the simplest way to maintain your set up and configuration and only requires downtime for one of your cloud sites.
+To merge three or more sites
+, follow the instructions to
+import a Confluence Cloud space
+to an existing cloud site.
+In the instructions below, the site that Confluence Cloud data is being copied from is referred to as the source site, and the site that Confluence Cloud data is being copied to is referred to as the destination site.
+Notify support of your migration window
+If you’ll be performing your migration over a weekend or holiday, or are migrating over 1,000 users to cloud,
+get in touch
+at least two weeks in advance to let us know. This is so we can ensure we have extra support on hand during your migration.
+Learn more about how we support cloud migrations
+Merging Confluence Cloud instances from two sites
+This method requires setting up a Confluence Data Center instance. You’ll need to create a backup of the data from your source cloud site, restore this backup in the Data Center instance, and use the
+Confluence Cloud Migration Assistant
+to import the data into your destination cloud site. You can use this method to consolidate two cloud sites or move specific Confluence Cloud spaces from one site to another.
+This is the simplest way to maintain your setup and configuration and only requires downtime for one of your cloud sites.
+This method may not work for all customers. We recommend that you test this method before performing a production migration. This will help you anticipate the issues that you may encounter during your migration and resolve them in advance.
+Instructions
+Customers with two cloud sites can move all or some Confluence Cloud spaces from one site into the other in order to have a single, consolidated site.
+This method requires setting up a Data Center instance.
+To merge sites:
+Install the latest version of Confluence Data Center
+. You can do this by generating a free trial license from
+my.atlassian.com
+. Note that Confluence Data Center trial licenses last for 30 days. If you need more time to complete your migration,
+licenses can be extended to 90 days upon request
+.
+Export a data backup file of your instance
+of
+Confluence Cloud B
+. This will contain the users and spaces you want to import to Confluence Cloud A.
+Import your data
+from
+Confluence Cloud B
+to Confluence Data Center.
+Use the
+Confluence Cloud Migration Assistant
+to import your users and spaces from Confluence Data Center to
+Confluence Cloud A
+.
+Limitations
+App data isn’t supported. After migrating your data, you’ll need to re-install any apps you need in the cloud.
+Some configurations might not be supported. Before choosing this method,
+check what gets migrated with the Confluence Cloud Migration Assistant
+.
+Knowledge of how to install and set up a Confluence Cloud Data Center instance is required.
+We strongly encourage performing a dry-run of the import and doing User Acceptance Testing on a
+test cloud site
+(which can be created using a free trial) before proceeding with the import on your production cloud site.
+Merging Confluence Cloud from three or more sites
+The method outlined above using a Confluence Data Center instance is only suitable for merging two Confluence Cloud sites.
+To merge three or more sites, follow these instructions to
+import a Confluence Cloud space
+to an existing cloud site.
 Was this helpful?
 Yes
 No
@@ -459,17 +587,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Additional PDF export settings
-Advanced PDF export customizations
-Set a default classification level for content
-Space administration
-Set space-specific functionality
-Manage permissions at the space level
-Manage content in a space
-Remove a space
-Create templates, blueprints, and reports
-Show more
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+On this page
+Migrating a Confluence Cloud instance to an existing Confluence Cloud instance
+Merging Confluence Cloud instances from multiple sites
+Merging Confluence Cloud instances from two sites
+Merging Confluence Cloud from three or more sites
 Community
 Questions, discussions, and articles
 Accessibility

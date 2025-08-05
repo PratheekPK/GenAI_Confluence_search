@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-are-confluence-cloud-permissions-and-restrictions/
+URL: https://support.atlassian.com/confluence-cloud/docs/see-how-teams-use-confluence-cloud/
 
-Confluence permissions structure | Confluence Cloud | Atlassian Support
+See how teams use Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,55 +439,17 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage permissions at the content level
+Considering Confluence Cloud?
 Cloud
 Data Center
-Confluence permissions structure
-As a tool for communication and collaboration, we believe Confluence is at its best when everyone can participate fully. Confluence keeps a history of all changes to pages and other content, so it's easy to see who has changed what, and reverse any changes if you need to.
-Confluence does, however, give you the choice to make your instance, spaces, and content as open or closed as you want to.
-Permissions and restrictions aren’t customizable on the
-Free plan
-.
-Levels of permission
-There are three levels of permissions in Confluence: global permissions, space permissions, and content restrictions.
-Global permissions
-Global permissions
-are Confluence-wide permissions, and are assigned by
-Confluence administrators
-.
-These permissions are pretty broad, and don't really interact with space permissions or content restrictions.
-For full details, check out the
-Manage global permissions
-in the
-Administrator's Guide
-.
-Space permissions
-Every space has its
-own independent set of permissions
-, managed by the space admin(s), which determine the access settings for different users and groups.
-They can be used to
-grant or revoke permission
-to view, add, edit, and delete content within that space, and can be applied to groups, users, and even to anonymous users (users who aren't logged in) if need be.
-One thing to watch out for is where a user is a member of multiple groups. You may have revoked permission for that individual user to add content, for example, but if they're a member of a group that
-is
-allowed to add content, they'll still be able to create new content in the space.
-If you can't get the result you want from space permissions, or you're not sure, check with one of your Confluence administrators to determine what permissions you should apply to individuals and groups.
-Content restrictions
-Content restrictions work a little differently to global and space permissions. Content is open to viewing or editing by default, but you can
-restrict either viewing or editing
-to certain users or groups if you need to.
-Don't forget, every piece of content in Confluence lives within a space, and space permissions allow the
-space admin
-to revoke permission to view content for the whole space. Even the ability to apply restrictions to content is controlled by the 'restrict content' space permission.
-How do permissions and restrictions interact?
-You can restrict viewing of a content item to certain users or groups, so that even if someone has 'view' permission for the space, they won't be able to view that content.
-If someone's a space admin and you've used content restrictions to prevent them viewing a piece of content, they won't be able to see the content when they navigate to it. As a space admin though, they can see a list of restricted content in the space and remove the restrictions.
-What about links?
-Space permissions and content restrictions affect how links to content are displayed.
-If someone doesn't have 'View' space permission, links to content in that space won't be shown at all.
-If someone has the "View" space permission, but the content has view restrictions, the link will be visible but they'll get an "access denied" message when they click the link.
-Links to attachments are also affected. If the visitor doesn't have permission to view the content the attachment lives on, the link won't be rendered.
+See how teams use Confluence Cloud
+This section describes some specific use cases for Confluence.
+Use Confluence for technical documentation
+Create a documentation space to develop technical documentation in Confluence.
+View topic
+Use Confluence for software teams
+Learn about best practices for using Confluence Cloud with software teams.
+View topic
 Was this helpful?
 Yes
 No
@@ -495,18 +460,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage permissions at the content level
-Change who can find content and what they can do with it
-Confluence permissions structure
-Troubleshoot access problems to content
-What is a Confluence group?
-On this page
-Levels of permission
-Global permissions
-Space permissions
-Content restrictions
-How do permissions and restrictions interact?
-What about links?
+Explore more
+Use Confluence for technical documentation
+Use Confluence for software teams
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+See how teams use Confluence Cloud
 Community
 Questions, discussions, and articles
 Accessibility

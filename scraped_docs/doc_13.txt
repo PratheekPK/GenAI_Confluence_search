@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/database-impact-on-third-party-apps/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-a-status-to-your-page-or-blog/
 
-Database impact on third-party apps | Confluence Cloud | Atlassian Support
+Add a status to your content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,26 +440,46 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit databases
+Create and edit content
 Cloud
 Data Center
-Database impact on third-party apps
-Databases aren’t available in the
-Atlassian Government environment
+Add a status to your content
+Give your content a status to help set expectations for viewers and collaborators when they come to a page, live doc, or blog post. This avoids the need to add “draft” or “work in progress” to your title when you want to communicate that the content isn’t final yet. After all, no one wants to assume that something is done and spend time and energy commenting before you are ready for their feedback and questions!
+Content statuses are only available in the cloud editor.
+Each status is a combination of a colored indicator (purple, blue, red, yellow, or green) and a label (up to 20 characters) that can help people easily understand where your content is in its lifecycle. They can also be useful when reviewing version history and deciding which versions to compare.
+Space admins control whether content statuses are on to begin with and if content authors/editors can add their own custom statuses. Additionally, admins can decide what (if any) default statuses should be suggested.
+Space settings
+To change content statuses settings:
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
 .
-With the introduction of databases, some third-party apps on Confluence may experience partial disruptions. Our team is working closely with app developers to address any known issues. Below is the list of affected third-party apps and their current status:
-Application
+Open the
+General
+menu
+and select
+Avatars and status
+.
+The space admin can:
+Turn content statuses off for a space (or turn them back on)
+Suggest certain statuses for use in the space
+The three default suggested statuses are Rough draft, In progress, and Ready for review. You can remove these statuses or add new ones (up to five for a space) by selecting
+Create a status
+. To revert to the original default three, just select
+Restore defaults
+.
+Allow or prevent people in the space from adding new statuses
+If prevented from adding custom statuses, authors will only be able to use the suggested statuses determined by space admins.
+Add a status
+If a space admin allows statuses in a space, you can add or change them at the top of your content when editing. That means anyone with edit permissions can set the content status, choosing from the suggested options defined by the space admin or creating your own.
+Select
 Status
-Scroll PDF Exporter
-Partial Impact (mitigation* enabled)
-Scroll Documents
-Partial Impact (mitigation* enabled)
-Advance Tables for Confluence
-Partial Impact (mitigation* enabled)
-ViewTracker - Analytics for Confluence
-Partial Impact (mitigation* enabled)
-*Mitigation ensures that the app continues to run smoothly for existing pages by essentially ignoring databases in the content tree. Once app developers update the app to handle databases properly, this mitigation will be disabled.
-This article will be updated as progress is made.
+from above the title while editing.
+Choose between a suggested or custom status from those listed or add a new one (depending on the settings chosen by the space admin.
+Your custom statuses are not available to anyone else.
+Viewers can only see the content status on a page or blog after it has been published, but statuses on live docs are instantly visible.
+Because admins control the statuses available, statuses can differ from space to space. If content is moved from one space to another, the person moving the content will be alerted to any differences in the way statuses work in the new space.
 Was this helpful?
 Yes
 No
@@ -467,13 +490,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
+Create and edit content
 Show more
-Export your database data
-Duplicate a database setup
-Lock your database structure
-What Confluence databases don't support
-Database impact on third-party apps
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Show more
+On this page
+Space settings
+Add a status
 Community
 Questions, discussions, and articles
 Accessibility

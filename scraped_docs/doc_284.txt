@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/edit-a-template/
+URL: https://support.atlassian.com/confluence-cloud/docs/browser-support-and-settings-for-whiteboards/
 
-Edit a template | Confluence Cloud | Atlassian Support
+Browser support and settings for whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,145 +439,109 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Create templates, blueprints, and reports
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Edit a template
-Space admins can edit content templates in the spaces they administer. To learn about editing global content templates, see
-Edit a global template
+Browser support and settings for whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Only space administrators can create or edit templates in
-Confluence Cloud
-. If you do not have the
-Admin
-permission
-for a space, you won’t see the
-Templates
-link appear in the
-Look and feel
-card when you go to
-Space settings
+What platforms/browsers support Confluence whiteboards?
+Today, Confluence whiteboards are supported on the following browsers:
+Chrome
+Firefox
+Microsoft Edge
+Safari
+Please update your browser to the latest version to prevent performance issues.
+We support viewing Confluence whiteboards through web browsers on mobile devices.
+Whiteboards are not yet supported on Confluence’s native mobile app.
+Browser settings
+Hardware acceleration
+You must enable hardware acceleration to use Confluence whiteboards.
+To support the rendering of many elements on whiteboards, the whiteboard application uses hardware acceleration to use high-performance rendering capabilities inside modern browsers.
+To enable hardware acceleration:
+For Chrome
+These instructions are for Chrome version 121.0.6167.85. See
+Chrome support documentation
+for more information.
+Launch Chrome
+Navigate to the
+Settings
+page (select the three dots icon in the top-right corner of your browser)
+Select the
+System
+tab
+Toggle ‘
+Use hardware acceleration when available
+’ on
+For Firefox
+These instructions are for Firefox version 122. See
+Firefox support documentation
+for more information.
+Launch Firefox
+Navigate to the
+Settings
+page (select the three lines icon in the top-right corner of your browser)
+In the
+General
+tab, scroll to the
+Performance
+section
+Uncheck ‘
+Use recommended performance settings
+’
+Check ‘
+Use hardware acceleration when available
+’
+For Microsoft Edge
+These instructions are for Microsoft Edge version 121.0.2277.98. See
+Microsoft Edge support documentation
+for more information.
+Launch Microsoft Edge
+Navigate to the
+Settings
+page (select the three dots icon in the top-right corner of your browser)
+Select the
+System and Performance
+tab
+Toggle ‘
+Use hardware acceleration when available
+’ on
+WebGL
+You must have WebGL installed and enabled to use Confluence whiteboards.
+WebGL is a capability available in all modern browsers which enables high-performance rendering.
+To check if your browser supports WebGL - follow
+this
+link and the steps provided.
+Advanced rendering might not be available due to your company's security policies. If this is the case, please contact your IT team for assistance.
+For Chrome & Microsoft Edge
+Chrome & Microsoft Edge browsers fully support WebGL.
+Ensure your browser is updated to the most recent version & ensure hardware acceleration is enabled to prevent any issues.
+For Firefox
+Navigate to about:config
+Search for
+webgl.force-enabled
+and toggle this preference to true
+Search for
+webgl.disabled
+and toggle this preference to false
+Restart your Firefox browser to apply these new settings
+Troubleshooting issues
+Error screens
+If you see the “Update your display driver” error, hardware acceleration will likely be disabled. To fix this, follow the steps above.
+If you consistently see “Looks like you’re offline. We’ll sync any offline changes when you’re back.” You may need to contact your IT team to whitelist
+*.atlassian.com
+or ensure
+http://canvas-workers.atlassian.com/
+is on your allowlist and that web-sockets protocols are allowed. To check your compatibility with the whiteboards editor, use our
+compatibility check tool
 .
-To edit a content template for a space:
-Go to the space in
-Confluence Cloud
+Slow performance
+If your application is slow - it is likely WebGL is not enabled & installed or hardware acceleration has been turned off.
+If you need help, contact support
+here
 .
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Templates
-from the
-Look and feel
-card.
-Find the template in the table and select
-Edit
-.
-Editing a
-template
-is a lot like editing a page or live doc– there are only a few small differences. Currently, there’s no way to add images or attachments in templates. However, you can include variables, placeholder text, and
-labels
-. These features help people using these templates create rich and dynamic pages quickly.
-Variables
-When someone creates pages or live docs from a template with variables, they’ll fill out a form with text fields or lists for each variable in the template. The information they provide will be added to pages and live docs automatically.
-Add a variable to a template
-You can only add variables to templates created with the new editor.
-To add a variable:
-Type
-/variable
-, then hit
-Enter
-.
-Select the variable token, then select
-to edit it.
-Enter a name for the variable, then select
-Text
-,
-Multi-line Text
-, or
-List
-.
-A
-Text
-variable offers a single line of input text, a
-Multi-line
-variable is configurable for multiple rows and columns of input, and a
-List
-produces drop-down lists with definable options.
-Select
-Save
-.
-Variables with the same name must have the same parameters, as Confluence treats these as copies of the same variable. When someone creates pages or live docs from a template with two or more copies of the same variable, the text they enter for one variable will appear everywhere that a copy of that variable appears.
-Example
-The example below shows a custom template with five text variables — one for “New Hire,” one for “Company,” one for “Job Title,” one for “Team,” and one for “Manager”:
-When someone creates pages or live docs from this template, they will be prompted to enter text into the fields where the variables appear:
-When they’re finished, the text they entered will appear on the page or live docs in edit mode.
-Placeholder text
-Use placeholder text to add instructions or sample text to pages or live docs created from a template. Placeholder text will only appear when pages or live docs are being edited – it’s invisible to anyone who’s viewing the published version.
-Add placeholder text to a template
-To add placeholder text to a template in the legacy editor:
-Select
-+
-, then select
-Placeholder text
-.
-Type in your placeholder text, then hit
-Enter
-.
-To add placeholder text to a template in the new editor:
-Type
-/placeholder
-where you want the text to appear, then hit
-Enter
-.
-Type in your placeholder text, then hit
-Enter
-again.
-Example
-The example below shows a section of the Design Systems Template that comes with
-Confluence Cloud
-. The grey text is placeholder text:
-When someone creates pages or live docs from this template, they will see grey placeholder text while they are editing the template. However, the text will not appear in view mode. This way, it is possible to provide instructions to the person creating pages or live docs from the template without any viewers of the page seeing them.
-Labels
-Add a
-label
-to a template to apply it to pages or live docs created from that template. This is helpful if you want to create a page
-properties report
-to keep track of similar pages or live docs.
-Add labels to a template
-To add labels to a template in the legacy editor:
-Select
-.
-Enter labels into the box, separated by the
-Space
-key.
-Select
-Add
-.
-Select
-Close
-.
-To add labels to a template in the new editor:
-Select
->
-Add labels
-.
-Enter labels into the box, separated by the
-Space
-key.
-Select
-Add
-.
-Select
-Close
-.
-Example
-See
-Create a custom report
-for several examples of templates with labels.
 Was this helpful?
 Yes
 No
@@ -585,21 +552,22 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create templates, blueprints, and reports
-Create a template
-Edit a template
-Promote a template
-Create a custom report
+Create and edit whiteboards
+Show more
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
+Browser support and settings for whiteboards
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Show more
 On this page
-Variables
-Add a variable to a template
-Example
-Placeholder text
-Add placeholder text to a template
-Example
-Labels
-Add labels to a template
-Example
+What platforms/browsers support Confluence whiteboards?
+Browser settings
+Hardware acceleration
+WebGL
+For Chrome & Microsoft Edge
+For Firefox
+Troubleshooting issues
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/customize-exports-to-pdf/
+URL: https://support.atlassian.com/confluence-cloud/docs/get-started-with-questions-for-confluence/
 
-Customize layout for PDF exports in Confluence Cloud | Confluence Cloud | Atlassian Support
+Get started with Questions for Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,339 +439,41 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Set Confluence-wide functionality
+Space administration
+Manage Questions for Confluence
 Cloud
 Data Center
-Customize layout for PDF exports in Confluence Cloud
-Confluence and space admins can customize the PDF exports for individual spaces.
-Considerations
-PDF customizations use a combination of HTML and CSS
-PDF customizations are unique to each space
-PDF customization only applies to space exports (not single page exports via
-More actions (
-) >
-Export > Export to PDF
-)
-To achieve a particular requirement in the exported PDF file, you make changes to the following:
-The layout in
-PDF export
-, where HTML is used to define the structure of the exported content, including features such as the title page, headers and footers.
-The
-PDF stylesheet
-, where CSS is used to define the style of elements in the exported content, such as page size and margins, font, color, and list numbering.
-For further customizations, see the
-Advanced PDF Export Customizations
-page.
-Customizing the PDF layout
-Confluence admins can add their own HTML to customize the title page, page headers, and page footers in the PDF export output.
-Setting a global PDF layout:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Look and feel
-in the left-hand navigation.
-Select
-PDF export
+Get started with Questions for Confluence
+Confluence organizes its content in spaces. Questions recognizes that some content should be available anywhere, so you're free to ask questions
+outside
+spaces (global questions) and have them organized by topic or in spaces and have them respect Confluence space permissions.
+In a Confluence site with Questions for Confluence installed, click
+Apps
+, then
+Questions
+in the Confluence
+sidebar
+to get started.
+Starting a community from scratch can be challenging, so here are our tips for getting started.
+To get started:
+Enable the Questions for Confluence add-on
+Questions for Confluence is
+available on the Atlassian Marketplace
+for all Confluence Cloud sites. Once enabled, you can access Questions by going to
+Apps
+, then
+Questions
+in the Confluence
+sidebar
 .
-Select
-Edit.
-Enter your customizations in the Title, Header, and Footer fields.
-You can enter HTML and CSS that will be rendered on the PDF title page, as well as page headers and footers.
-Select
-Save
-.
-Setting the PDF layout at space level:
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Look and Feel
-menu
-and select
-PDF export
-.
-You'll need
-space admin permission
-to do this.
-Add HTML to customize the Title, Header, and/or Footer fields.
-You can include inline CSS in the HTML.
-Select
-Save
-.
-Customizing the PDF stylesheet
-You can adjust the appearance of the PDF pages by customizing the CSS in the PDF stylesheet field.
-To get started, download the default CSS rules for the PDF stylesheet:
-confluencedefaultpdf.css
-. Any rule defined in this file can be customized and added to the PDF Export Stylesheet field. Your customizations override any default CSS rule. If no customizations are defined, the default CSS rules are applied.
-By default, the export doesn't include a title page, headers, or footers. You can define these in the PDF layout.
-Setting a global PDF stylesheet
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Look and feel
-in the left-hand navigation.
-Select
-PDF export
-.
-Select
-Edit.
-Enter your customizations in the
-PDF stylesheet
-field.
-Add CSS to render the same content on each page.
-Select
-Save
-.
-Setting a space PDF Stylesheet
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Look and Feel
-menu
-and select
-PDF export
-You'll need
-space admin permission
-to do this.
-Enter your customizations in the
-PDF stylesheet
-field.
-Add CSS to render the same content on each page.
-Select
-Save
-.
-Example Customizations
-This section provides examples of typical customizations you can add. You can also check out
-Advanced PDF Customizations
-.
-Page Size
-The default page size is based on the location of your Confluence instance. For example, if this instance is located in the US then the default paper size of your PDF export will be US Letter (8.5 inches wide by 11 inches long). If the instance is located in Australia, the default paper size will be A4 (210 mm wide by 297 mm long). More information about paper sizes can be found on
-Wikipedia
-.
-To modify the page size to A4, edit the PDF Stylesheet to add a
-size
-property to the
-CSS@page
-rule, like this:
-@media print {
-@page {
-size: A4;
-}
-}
-or
-@media print {
-@page {
-size: 8in 10in;
-}
-}
-Page orientation: Landscape or Portrait
-To change the page orientation of your PDF document, simply reverse the order of the values declared in the
-@page
-rule's
-size
-property. The first and second values of this property represent the width and height of the page, respectively.
-For example, to generate PDF space exports in A4-sized landscape orientation, your
-@page
-rule might look like this:
-@media print {
-@page {
-size: A4 landscape;
-}
-}
-Page margins
-To set all margins to 15 mm, with a paper size of A4, edit the
-CSS @page
-rule in the PDF Stylesheet, like this:
-@media print {
-@page {
-margin: 11mm;
-}
-}
-To set the margins independently, edit the
-@page
-rule as follows:
-@media print {
-@page {
-margin-top: 1.5in;
-margin-right: 0.5in;
-margin-bottom: 1in;
-margin-left: 0.5in;
-}
-}
-To set margins to provide a gutter for binding a printed document, use the
-:left
-and
-:right
-pseudo-classes, as follows:
-@media print {
-@page {
-margin-left: 4cm;
-margin-right: 3cm;
-}
-@page :left {
-margin-left: 4cm;
-margin-right: 3cm;
-}
-@page :right {
-margin-left: 3cm;
-margin-right: 4cm;
-}
-@page :first {
-margin-top: 10cm; /* Top margin on first page 10cm */
-}
-}
-Note the use of the
-:first
-pseudo-class in the example above to define distinct margins for a cover or title page.
-Page breaks
-By default, Confluence pages are exported without page breaks, so that shorter pages will appear on the same PDF page.
-To make each Confluence page appear on a separate page in the PDF file, add the following rule in the PDF Stylesheet:
-.pagetitle {
-page-break-before: always;
-}
-Title page
-You can add a title page to your PDF document by adding HTML to the Title field of the PDF Layout. The following example creates the title page and adds a title:
-<div style="margin: 0; padding: 0; height: 100%; display: flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; width: 100%;">
-<h1 style="font-size: 3em; color: #333;">Title Page</h1>
-</div>
-Use CSS rules in the PDF stylesheet field to control the appearance of the title page and the title text:
-.fsTitlePage {
-margin-left: auto;
-margin-top: 50mm;
-margin-right: auto;
-page-break-after: always;
-}
-.fsTitle {
-font-size: 42px;
-font-weight: bold;
-margin: 72px 0 4px 0;
-text-align: center;
-}
-In the example above, the title page includes an image called "titlepage.png," centered in the middle of the page. The "590719" in the
-src
-attribute is the ID of the page to which the image is attached.
-Follow these instructions to include an image on your title page:
-Attach the image to a Confluence page
-View the list of attachments on that page, then right-click the image and copy its location
-Paste the link into the appropriate
-src=""
-attribute in your PDF Stylesheet as shown above
-Edit the image URL so that it's relative by removing the first part of the URL before
-/download/...
-Table of contents
-By default, a table of contents will be generated after the title page, or at the beginning of the PDF document if no title page is defined in the PDF Layout. To see the default CSS rules applied to the table of contents, download the default CSS rules (
-confluencedefaultpdf.css
-) and examine the specific rules with
-toc
-in their name.
-To make changes to the appearance of the table of contents, define CSS rules in the PDF Stylesheet.
-Disabling the table of contents
-To prevent the table of contents from being generated in your PDF document, add the
-div.toc-macro
-rule to the PDF Stylesheet and set its
-display
-property to none:
-div.toc-macro {
-display: none;
-}
-Changing the leader character in the table of contents
-The leader character is used to link a heading in the table of contents with its page number. By default, the leader character is the '.' (dot) character. Leader values of
-dotted
-,
-solid
-and
-space
-are allowed. You can also use a string, for example
-leader(". . . ")
-.
-To change the leader character to a solid line, modify the
-leader()
-value on the
-content
-property of the CSS rule as follows:
-span.toclead:before {
-content: leader(solid);
-}
-Headers and footers
-You can add headers and footers to your PDF pages using the
-Header
-and
-Footer
-fields in
-PDF export
-. By default, headers and footers only apply to a space export and not to exports of single pages (however, see
-Advanced PDF Export Customizations
-). The following example adds a simple copyright notice.
-<div style="width: 100%; text-align: left; margin-left: 0.5in; font-size: 10px; height: 20px; overflow: hidden;">
-<span style="font-weight: bold; font-size: 12px;">Your Custom Header Text Here</span>
-</div>
-Page numbering
-To add page numbering, you need to combine customized HTML with customized CSS in the PDF stylesheet field.
-Layout fields HTML: In the Footer section (or the Header section), use an empty span element with a unique ID, for example
-pageNum,
-to act as a placeholder for the page number.
-<div style="width: 100%; text-align: center; font-size: 12px; padding: 10px; font-family: Arial, sans-serif;">
-<span id="pageNum"></span>
-</div>
-PDF stylesheet CSS: Create the following CSS selector rule for the empty span:
-#pageNum:before {
-content: "Page " counter(page);
-font-weight: bold;
-font-size: 12px;
-color: #333;
-font-family: Arial, sans-serif;
-}
-Analyzing the above CSS selector rule in more detail:
-The
-#pageNum
-rule selects the HTML element with the specified ID of "pageNum", which is the
-span
-element we created for the header or footer.
-The
-:before
-part of the selector is a pseudo class that allows the insertion of content before the
-span
-element is processed.
-The
-counter(page)
-is a function that returns the current page number as its content.
-The
-content
-property tells the CSS processor that dynamic content (that is, an incrementing page number) is to be inserted at the span tag.
-Wrapping long words
-In order to break long words or words that are not separated by whitespace, add a selector to the PDF stylesheet containing the
-word-wrap
-property with a value of
-break-word
-:
-div {
-word-wrap: break-word;
-}
-General formatting
-You can use the stylesheet to customize the output of just about anything else that will influence the look and feel of the final document. This includes fonts, tables, line spacing, macros, etc. The export engine works directly from the HTML output produced by Confluence. Therefore, the first step in customizing something is to find a selector for the HTML element produced by Confluence or the Confluence macro. Then add a CSS rule to the PDF stylesheet. Your customization will appear in the PDF export.
-Demotion of heading elements:
-h1
-,
-h2
-, and so on. Due to the hierarchical manner in which a space is exported, Confluence will modify the heading elements to generate a uniform appearance for the entire space export. This means that headings will be demoted. This will affect the application of custom PDF Stylesheets. It is possible to calculate the amount by which a heading will be demoted in order to have the correct CSS styling applied. A heading will be demoted by the value of its depth in the export tree. A page at the first level will be demoted by 1 (all
-<h1>
-elements will become
-<h2>
-elements, and so on). A page at the second level will be demoted by 2, and so on.
-Atlassian support for PDF customization is limited.
-We support the mechanism for customizing the PDF layout with HTML and CSS, and we will help if the mechanism is broken or does not work as we say it should in our published examples. But, since custom HTML and CSS offer potentially limitless possibilities, Atlassian will not support issues that are caused by or related to PDF customizations.
+Brainstorm some topics
+Topics help create structure and allow you to group like questions together. Users can choose to watch specific topics, and can use them to navigate to other questions. Topics are added as people ask questions, but if you are an administrator you can create them in the topic list once the first question has been asked.
+Seed some questions and answers
+We've found the best way to get your community up and running is to seed some frequently asked questions. Do you already have an FAQ?  Add these questions, along with useful answers, to get your community moving.
+Engage your experts
+Helpful answers to questions are what'll build your community, so recruit people to act as experts in the early stages. Encourage them to watch topics that interest them, and provide answers. Upvote helpful answers, and downvote unhelpful answers. Get people on board early.
+Share questions
+Sharing is one of the easiest ways to encourage adoption. Share an unanswered question with someone you think can provide an answer; share an answered question with someone who needs an answer.
 Was this helpful?
 Yes
 No
@@ -779,22 +484,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
-Show more
-Create a custom space overview template
-Turn off page reactions
-Customize layout for PDF exports in Confluence Cloud
-Convert legacy editor pages in all spaces
-Configure live docs in Confluence
-On this page
-Customizing the PDF layout
-Setting a global PDF layout:
-Setting the PDF layout at space level:
-Customizing the PDF stylesheet
-Setting a global PDF stylesheet
-Setting a space PDF Stylesheet
-Example Customizations
-General formatting
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
 Community
 Questions, discussions, and articles
 Accessibility

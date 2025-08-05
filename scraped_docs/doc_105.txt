@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-change-history-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-captcha-for-spam-prevention/
 
-Insert the change history macro | Confluence Cloud | Atlassian Support
+Turn on Captcha for spam prevention or failed logins | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,19 +439,44 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Confluence administration
+Security settings in Confluence Cloud
 Cloud
 Data Center
-Insert the change history macro
-The change history macro shows the history of updates made to a page or live doc: version number, author, date, and comment. It displays the information inline.
-Use the change history macro
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
+Turn on Captcha for spam prevention or failed logins
+If your Confluence Cloud instance is open to the public (you allow anonymous users to add comments, create content, etc) you may find that automated spam is being added, in the form of comments or new pages and live docs.
+You can deter automated spam by enabling Captcha. Captcha is a test that can distinguish a human being from an automated agent such as a web spider or robot. When Captcha is on, anonymous users will see a distorted picture of a word, and must enter it in a text field before they can:
+Add a comment
+Create content
+Edit a page
+Send a request to Confluence administrators
+To enable Captcha for anonymous users
+— and/or to enforce Captcha for all users or members of particular groups — raise a
+support request
+.
+Captcha can also be enabled to display after a certain number of failed login attempts. The default number in Confluence Cloud is 3 attempts, but can be changed in settings.
+To configure Captcha for failed logins:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Security
+in the left-hand navigation.
+Select
+Security configuration
+.
+Find
+CAPTCHA on login.
+Check the
+Enable
+box to turn it on.
+Enter the number of
+maximum authentication attempts allowed
+.
+Select
+Save
+at the bottom of the page.
 Was this helpful?
 Yes
 No
@@ -459,14 +487,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
-Show more
-Insert the attachments macro
-Insert the blog posts macro
-Insert the change history macro
-Insert the child items macro
-Insert the filter by label macro
-Show more
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
 Community
 Questions, discussions, and articles
 Accessibility

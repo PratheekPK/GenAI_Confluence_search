@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/the-confluence-legacy-editor/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-number-formats/
 
-The Confluence legacy editor | Confluence Cloud | Atlassian Support
+Configure number formats | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,38 +439,49 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-The Confluence legacy editor
-What's the legacy editor?
-The legacy editor was the original editing environment in
+Configure number formats
+There are two number format settings in
 Confluence Cloud
-, largely mirroring the Confluence server experience. Our cloud editor is now the default in
+:
+Long number format. For example:
+###############
+Decimal number format. For example:
+###############.##########
 Confluence Cloud
-and across Atlassian. While the legacy editor is no longer available for newly created pages, you can still view and edit older pages that were created in it. Pages migrated from Server or Data Center land in Confluence Cloud in legacy format.
-In June 2025, Atlassian
-announced the deprecation
-of the legacy editor. This will be a phased process beginning in January 2026. The means no new features are being implemented and we only fix bugs that are part of major incidents.
-We are improving the conversion path for legacy editor pages, which will allow a smooth process to get all your content into the
-cloud editor
+uses the guidelines in this Java document from Oracle:
+Class NumberFormat
 .
-Full details are also available on the
-status of macros that existed only in the legacy editor
-. In most case, there is a new solution providing similar functionality in the cloud editor.
-For details on how to convert content, consult the support topics listed here.
-FAQ: Understanding legacy editor deprecation
-Learn about the phased deprecation of the legacy editor and find the answers to frequently asked questions.
-View topic
-Convert legacy editor pages
-Learn how to convert a page from using the legacy editor to using the cloud editor.
-View topic
-Differences using Confluence legacy editor and cloud editor
-Dig into the details of how using Confluence Cloud is different from Confluence Data Center and Server for your end users.
-View topic
-The legacy content macro
-Work with legacy editor content in a cloud editor page
-View topic
+To change the number formats in
+Confluence Cloud
+:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+General configuration
+.
+Scroll down to
+Formatting and international settings
+.
+Update the
+Long number format
+and
+Long decimal format
+to suit your requirements
+Select
+Save
+.
 Was this helpful?
 Yes
 No
@@ -478,18 +492,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-FAQ: Understanding legacy editor deprecation
-Convert legacy editor pages
-Differences using Confluence legacy editor and cloud editor
-The legacy content macro
-Create and organize work in Confluence Cloud
+Configuration settings in Confluence Cloud
 Show more
-Get to know the new and simplified content layout
-How to use the new toolbar and insert elements
-Import data from other tools into Confluence
-Review macros only available in the legacy editor
-The Confluence legacy editor
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

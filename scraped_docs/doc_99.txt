@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/whiteboards-impact-on-third-party-apps/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-add-reporting-info-to-confluence-pages/
 
-Whiteboards impact on third-party apps | Confluence Cloud | Atlassian Support
+Use macros to add reporting info to Confluence pages | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,27 +439,19 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Extend the functionality of Confluence Cloud
 Cloud
 Data Center
-Whiteboards impact on third-party apps
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-With the introduction of whiteboards, some third-party apps on Confluence may experience partial disruptions. Our team is working closely with app developers to address any known issues. Below is the list of affected third-party apps and their current status:
-Application
-Status
-Scroll PDF Exporter
-Partial Impact (mitigation* enabled)
-Scroll Documents
-Partial Impact (mitigation* enabled)
-Advance Tables for Confluence
-Partial Impact (mitigation* enabled)
-ViewTracker - Analytics for Confluence
-Partial Impact (mitigation* enabled)
-*Mitigation ensures that the app continues to run smoothly for existing pages by essentially ignoring whiteboards in the content tree. Once app developers update the app to handle whiteboards properly, this mitigation will be disabled.
-This article will be updated as progress is made.
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert hidden or visible details on a page or live doc that can be used in the content properties report macro.
+View topic
+Insert the content properties report macro
+Insert the content properties report macro to display the properties of another page or live doc.
+View topic
+Insert the user list macro
+Present a list of Confluence users based on the groups in which they belong.
+View topic
 Was this helpful?
 Yes
 No
@@ -467,13 +462,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Explore more
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
+Extend the functionality of Confluence Cloud
 Show more
-Collaboration limits on whiteboards
-What Confluence whiteboards don't support
-Whiteboards impact on third-party apps
-Understand Confluence whiteboards plans and features
-Browser support and settings for whiteboards
+Use macros to include media on Confluence pages
+Use macros to add navigation on Confluence pages
+Use macros to add reporting info to Confluence pages
+Use macros to add visuals and images to Confluence pages
+Use gadgets to add dynamic content
 Show more
 Community
 Questions, discussions, and articles

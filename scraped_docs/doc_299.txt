@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-confluence-for-software-teams/
+URL: https://support.atlassian.com/confluence-cloud/docs/pre-format-your-content-with-templates/
 
-Use Confluence for software teams | Confluence Cloud | Atlassian Support
+Create templates, blueprints, and reports | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,26 +439,51 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Considering Confluence Cloud?
-See how teams use Confluence Cloud
+Space administration
 Cloud
 Data Center
-Use Confluence for software teams
-Welcome to the
-Software Team's guide to using Confluence
+Create templates, blueprints, and reports
+When you add new content, you don't have to start from scratch. Instead, you can base your new content on a template – with predefined content. Confluence Cloud comes with
+more than 70 templates
+to help you with everything from taking meeting notes to defining your business strategy. If that’s not enough, you’ll find more templates on the
+Atlassian Marketplace
+, and you can even
+create your own
 .
-Check out the articles in this collection or
-download the Software Team's Guide to Confluence ebook
-to get all of these tips in one place:
-How to write product requirements
-How to build a release planning page
-Creating insightful customer interview pages
-Create sprint retrospective and demo pages (like a BOSS)
-How to make better decisions as a development team
-How to document releases and share release notes
-Use blogs to share your development team's progress
-How to create technical and onboarding documentation
-Like what you see? Start creating these pages and more in Confluence!
+This section contains information on how to use content templates, as well as how
+space administrators
+can manage them for an individual space. For information on how to manage templates for your whole site, see
+Administering site templates
+.
+What’s the difference between a template and a blueprint?
+Blueprints are templates created by Atlassian or by third-party developers. From an end-user perspective, blueprints and templates are the same, but there are some important differences for administrators.
+Site administrators
+can:
+Install global blueprints from the
+Atlassian Marketplace
+Enable and disable global blueprints
+Edit existing global blueprints
+Promote and unpromote global blueprints
+Space administrators
+can:
+Enable and disable blueprints for the space they manage
+Edit blueprints to customize them for their space
+Promote and unpromote blueprints within their space
+Neither site administrators nor space administrators can create blueprints. However, they can
+create custom templates
+.
+Create a template
+Create custom templates to ensure that content on similar pages or other items is consistent.
+View topic
+Edit a template
+Edit an existing template to add or remove content.
+View topic
+Promote a template
+Promote useful or popular templates to make them easier to find.
+View topic
+Create a custom report
+Combine templates and macros to create custom reports in Confluence.
+View topic
 Was this helpful?
 Yes
 No
@@ -466,9 +494,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-See how teams use Confluence Cloud
-Use Confluence for technical documentation
-Use Confluence for software teams
+Explore more
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Space administration
+Show more
+Manage content in a space
+Remove a space
+Create templates, blueprints, and reports
+Manage team calendars
+Manage Questions for Confluence
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

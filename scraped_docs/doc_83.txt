@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-blog-posts-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/team-calendars-faqs/
 
-Insert the blog posts macro | Confluence Cloud | Atlassian Support
+Team Calendars FAQs | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -437,168 +440,74 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Insert the blog posts macro
-The blog posts macro allows you to display blog posts on a
-Confluence Cloud
-page or live doc. Selecting a title takes you to the blog post.
-To add the blog posts macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the blog posts macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Required
-Default
-Description
-Content Type to Display
-(
-content
-)
-No
-titles
-Available values:
-titles
-— Display the title, creator, space, and created date stamp for each blog post.
-excerpts
-— Display a short excerpt from each blog post. If the blog contains an excerpt macro, the blog posts macro will display the content defined in the excerpt macro. If the blog does not contain an excerpt macro, the blog posts macro will display either the first few sentences of the blog, or plain text information.
-entire
-- Display the entire content of each blog post.
-Time Frame
-(
-time
-)
-No
-no limit
-Specify how far back in time Confluence should look for the blogs to be displayed.
-Available values:
-m
-— Minutes
-h
-— Hours, so '
-12h
-' displays blogs created in the last twelve hours.
-d
-— Days, so '
-7d
-' displays blogs created in the last seven days.
-w
-— Weeks
-Restrict to these Labels
-(label
-)
-No
-None
-Filter the results by label. The macro will display only the blogs which are tagged with the label(s) you specify here.
-You can specify one or more label values, separated by a comma or a space.
-To exclude content which matches a given label, put a minus sign (-) immediately in front of that label value. For example: If you specify a label value of
--badpage
-you will get only content which is not labeled with 'badpage'.
-To indicate that the results
-must
-match a given label value, put a plus sign (+) immediately in front of that label value. For example: If you specify a label value of
-+superpage,+goodpage
-you will get only content which has at least two labels, being 'superpage' and 'goodpage'.
-Restrict to these
-Authors
-(author
-)
-No
-None
-Filter the results by author. The macro will display only the blogs which are written by the author(s) you specify here.
-Restrict to these Spaces
-(spaces
-)
-No
-@self, i.e. the space which contains the page on which the macro is coded
-This parameter allows you to filter content by space. The macro will display only the pages and live docs which belong to the space(s) you specify here.
-You can specify one or more space keys, separated by a comma or a space.
-To exclude content in a specific space, put a minus sign (-) immediately in front of that space key. For example: If you specify a space key of
--BADSPACE
-you will get only content which is not in the BADSPACE.
-To indicate that the results
-must
-come from a specific space, put a plus sign (+) immediately in front of that space key. For example: If you specify a space key of
-+GOODSPACE
-you will get only content in GOODSPACE. (Note that this is not particularly useful, because each content item belongs to one space only. If you put a plus sign next to one space key and list other space keys too, the other space keys will be ignored.)
-Special values:
-@self
-— The current space.
-@personal
-— All personal spaces.
-@global
-— All site spaces.
-@favorite
-— The spaces you have marked as favorite.
-@favourite
-— The same as
-@favorite
-above.
-@all
-— All spaces in your Confluence site.
-*
-— The same as
-@all
-above.
-When specifying a personal space, remember to use the tilde (~) sign in front of the username, such as
-~jbloggs
-or
-~jbloggs@example.com
+Team Calendars FAQs
+How do I set up Team Calendars?
+It's easy! See
+Use Team Calendars for Confluence (Premium feature)
 .
-Maximum Number of Blog Posts
-(max
-)
-No
-15
-Specify the maximum number of results to be displayed. Note that the results are sorted first, and then the maximum parameter is applied.
-Sort By
-(sort)
-No
-creation
-Specify how the results should be sorted. If this parameter is not specified, the sort order defaults to descending order (newest first) based on the creation date.
-Values:
-title
-— Sort alphabetically by title.
-creation
-— Sort by the date on which the content was added.
-modified
-— Sort by the date on which the content was last updated.
-Reverse Sort
-(reverse
-)
-No
-false
-Select to change the sort from descending to ascending order (oldest first). Use this parameter in conjunction with the
-Sort By
-parameter. This parameter is ignored if the
-Sort By
-parameter is not specified.
-In storage format, a value of
-true
-changes the sort order.
+Why are you charging for this plugin?
+There are a few reasons:
+We feel we can solve a lot of specific problems with the combination of events, people, projects (JIRA applications) and content. Atlassian sees this plugin working alongside your personal meeting or events calendar.
+Not every customer needs a team calendaring solution. Hence, by not bundling Team Calendars with Confluence, it doesn't increase the cost of Confluence for those customers who aren't going to use it.
+The old plugin was not maintained or supported. In contrast, Team Calendars is maintained and supported moving forward.
+What's happening with the old Confluence calendar plugin?
+The old calendar plugin was never officially supported and as such carries no support from Atlassian. It is currently available as an open-sourced component, available on
+plugins.atlassian.com
+for use with legacy versions of Confluence (3.4 and earlier). The old calendar plugin does not work with Confluence 3.5.x or later versions. There are currently no plans to continue development on the old calendar plugin. If you are currently using the old plugin, there is a manual migration path to Team Calendars available by importing your iCal files.
+Where can I give you feedback?
+To give the Team Calendars team feedback, raise an issue in the
+TEAMCAL project on jira.atlassian.com
+.
+Can I integrate Team Calendars with our company's Google Apps Calendar?
+Yes you can. Learn more about this here:
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Google Calendars from Confluence
+Is Team Calendars available for Confluence Data Center?
+Yes. All you need is a Team Calendars license for Confluence Data Center.
+Learn more about Data Center licensing
+Can I map out custom issue date fields from JIRA applications?
+Yes, you can! This was released as part of Team Calendars 2. See
+Add Jira events
+for more information.
+Does Team Calendars work on my iPhone?
+Although this is not officially supported, it does work on the iPhone. All you have to do is select "subscribe" from a specific calendar menu and login using your Confluence details. iOS should automatically attempt to add the calendar to your iPhone. More instructions here:
+Subscribe to Team Calendars from Apple iOS Calendar
+Can I add more than one person to an event for my people calendar?
+Yes you can. Just add multiple names in the people field.
+Is Team Calendars available in my local language?
+As of Team Calendars 1.1, the plugin is available in English and the bundled Confluence languages (French and German). We hope to have this plugin also available on
+translations.atlassian.com
+for other language support.
+Can I change the date/time format (E.g. mm/dd or dd/mm)?
+The date format is dependent on your language settings and automatically adjusts accordingly - this is a Confluence user and global setting. An admin can set the site
+default language
+and you can also set your
+language preference
+.
+Can I change the starting day of the week?
+The Team Calendars follows per user language preferences to decide which day is at the start of the week. For example, if you want to make the start of the week to Sunday (US Calendar), you would need to install the
+US Language pack
+and edit your Confluence user preferences to choose
+US English
+. To do this, click
+User name
+>
+Settings
+>
+Edit
+>
+Language
+and then choose
+US English
+.
+The Confluence default is to
+Automatically detect browser settings
+.
+Can I subscribe to Google Public Calendar from Team Calendars?
+Currently, it's not possible to subscribe to Google Public Calendar from Team Calendars. This is a known issue with Google Calendar; it appears that Google Calendar Public .ics file doesn't contain the data/event that can be read by Team Calendars to display events. Only Google Private Calendar can be subscribed from Team Calendars for now.
 Was this helpful?
 Yes
 No
@@ -609,14 +518,27 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
+Use Team Calendars for Confluence (Premium feature)
 Show more
-Learn which macros are being removed
-Insert the attachments macro
-Insert the blog posts macro
-Insert the change history macro
-Insert the child items macro
-Show more
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
+On this page
+How do I set up Team Calendars?
+Why are you charging for this plugin?
+What's happening with the old Confluence calendar plugin?
+Where can I give you feedback?
+Can I integrate Team Calendars with our company's Google Apps Calendar?
+Is Team Calendars available for Confluence Data Center?
+Can I map out custom issue date fields from JIRA applications?
+Does Team Calendars work on my iPhone?
+Can I add more than one person to an event for my people calendar?
+Is Team Calendars available in my local language?
+Can I change the date/time format (E.g. mm/dd or dd/mm)?
+Can I change the starting day of the week?
+Can I subscribe to Google Public Calendar from Team Calendars?
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/get-notified-about-content-and-activity/
+URL: https://support.atlassian.com/confluence-cloud/docs/review-macros-only-available-in-the-legacy-editor/
 
-Get notified about content and activity | Confluence Cloud | Atlassian Support
+Review macros only available in the legacy editor | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,30 +439,93 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
+Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Get notified about content and activity
-View your notifications
-Find your notifications in-app for content watches, shares, mentions, and tasks.
+Review macros only available in the legacy editor
+What's the legacy editor?
+The legacy editor was the original editing environment in
+Confluence Cloud
+, largely mirroring the Confluence server experience. Our cloud editor is now the default in
+Confluence Cloud
+and across Atlassian. While the legacy editor is no longer available for newly created pages, you can still view and edit older pages that were created in it. Pages migrated from Server or Data Center land in Confluence Cloud in legacy format.
+In June 2025, Atlassian
+announced the deprecation
+of the legacy editor. This will be a phased process beginning in January 2026. The means no new features are being implemented and we only fix bugs that are part of major incidents.
+Macros listed here are only available in the legacy editor or inside the
+legacy content macro
+in the cloud editor. You can still work with the text inside, but the macros can’t be moved outside the legacy content macro.
+Insert the cheese macro
+Display "I like cheese!" on a page.
 View topic
-Subscribe to email updates
-Understand how to configure your email notifications in order to stay on top of the things that matter.
+Insert the column macro
+Display a section of text in columns.
 View topic
-What is a Confluence RSS feed?
-Understand what a Confluence RSS feed is.
+Insert the content by user macro
+Show a list of all content created by a certain user.
 View topic
-Build an RSS feed
-Learn how to build an RSS feed to subscribe to changes in Confluence.
+Insert the create space button macro
+Learn how to add a Create Space button to a page.
 View topic
-Subscribe to pre-specified RSS feeds
-Subscribe to an RSS feed that Confluence has predefined for you.
+Insert the favorite pages macro
+Show a list of the pages you've saved for later.
 View topic
-Subscribe to a network RSS feed
-Create an RSS Feed from any user's network view to receive activity summaries.
+Insert the global reports macro
+Display a list of links to reports about content on your site.
 View topic
-Celebrate your work with Confluence Recap
-Learn how Confluence was your work partner by seeing your creation stats, viewing stats and collaboration stats.
+Insert the info, tip, note, and warning macros
+Display text in a themed panel using the info, tip, note, and warning macros.
+View topic
+Insert the JUnit report macro
+Preview JUnit test results on your page.
+View topic
+Insert the noformat macro
+Display a section of text in an unformatted, monospace font.
+View topic
+Insert the panel macro
+Display text in a customizable panel.
+View topic
+Insert the recently used labels macro
+Show a list of the labels that have been most recently added to a page, blog post, or attachment.
+View topic
+Insert the search results macro
+Display results based on search terms you specify in the macro.
+View topic
+Insert the section macro
+Use the section macro with the column macro to define the columns on your page.
+View topic
+Insert the space attachments macro
+Display the list of all files attached to pages in a space on your page.
+View topic
+Insert the space details macro
+Display the details of a Confluence space, including the space name, description, and more.
+View topic
+Insert the status macro
+Insert a colored, rounded box containing the text you enter.
+View topic
+Insert the code block macro
+Display a block of code on your page.
+View topic
+Insert the gallery macro
+Configure how you'd like your page attachments to be presented.
+View topic
+Insert the Google Drive macro
+Embed Google Docs, Sheets, or Slides on your page.
+View topic
+Insert the lorem ipsum macro
+Add lorem ipsum pseudo-latin text to your page.
+View topic
+Insert the multimedia macro
+Display video and other multimedia files on your page.
+View topic
+Insert the navigation map macro
+Display a navigable map of the pages tagged with a given label.
+View topic
+Insert the network macro
+Display the activity of one certain user or all users you follow from the Network tab in your settings.
+View topic
+Insert the PDF macro
+Embed a PDF in your page.
 View topic
 Was this helpful?
 Yes
@@ -472,16 +538,19 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Explore more
-View your notifications
-Subscribe to email updates
-What is a Confluence RSS feed?
-Build an RSS feed
-Subscribe to pre-specified RSS feeds
+Insert the cheese macro
+Insert the column macro
+Insert the content by user macro
+Insert the create space button macro
+Insert the favorite pages macro
 Show more
-Collaborate on content and get notified in Confluence Cloud
-Collaborate on content
-Get notified about content and activity
-View Confluence analytics to see how content is performing
+Create and organize work in Confluence Cloud
+Show more
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+Review macros only available in the legacy editor
+The Confluence legacy editor
 Community
 Questions, discussions, and articles
 Accessibility

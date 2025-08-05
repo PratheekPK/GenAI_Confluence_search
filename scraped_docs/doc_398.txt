@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-show-confluence-content-on-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-happens-when-an-account-is-deactivated-vs-deleted/
 
-Use macros to show Confluence content on pages and live docs | Confluence Cloud | Atlassian Support
+What happens when an account is deactivated vs. deleted? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,85 +439,35 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
 Cloud
 Data Center
-Use macros to show Confluence content on pages and live docs
-What are macros?
-Learn about macros and how they can enhance the presentation of information on your pages and live docs.
-View topic
-Learn which macros are being removed
-Find out which macros were deprecated and get alternative suggestions for accomplishing the same outcomes.
-View topic
-Insert the attachments macro
-Show a list of all the attachments on a page or live doc.
-View topic
-Insert the blog posts macro
-Learn how to show all blog posts that match your criteria.
-View topic
-Insert the change history macro
-Show a list of a page or live doc's version history.
-View topic
-Insert the child items macro
-List links to a page or live doc's nested items .
-View topic
-Insert the filter by label macro
-Display a list of pages, live docs, blog posts, or attachments that have particular labels.
-View topic
-Insert the content report table macro
-Learn how to display a set of pages, live docs, and blog posts as a table, based on the labels specified in the content report table macro.
-View topic
-Insert the contributors macro
-Display a list of Confluence users who have made a contribution of some type to a page, as well as a list of watchers of the page.
-View topic
-Insert the contributors summary macro
-Display a table of contribution-based statistics for a set of pages.
-View topic
-Insert the create from template macro
-Understand how to add a Create from Template button to a page. The button is linked to a specific template.
-View topic
-Insert the decision report macro
-Display a list of decisions by page and live doc using the decision report macro.
-View topic
-Insert the excerpt macro
-Understand how to mark text to be repurposed elsewhere.
-View topic
-Add excerpts to a page or live doc with the insert excerpt macro
-Insert text that was marked as an excerpt on another page or live doc.
-View topic
-Insert the include content macro
-Reuse the content from another page, live doc, or blog post.
-View topic
-Insert the labels list macro
-Show a list of all pages and live docs in a space with a certain label.
-View topic
-Insert the popular labels macro
-Display the most popular labels used throughout your Confluence site or within a space.
-View topic
-Insert the profile picture macro
-Display a user's profile picture on a page or live doc.
-View topic
-Insert the recent updates macro
-Display a list of the most recently updated content in a given space or set of spaces.
-View topic
-Insert the recently updated dashboard macro
-Display the most recent content organized as tabs.
-View topic
-Insert the related labels macro
-Create a list of labels from every page and live doc which has one or more labels in common with the current page or doc.
-View topic
-Insert the spaces list macro
-Display a list of spaces on a page.
-View topic
-Insert the task report macro
-Display a list of tasks on a page or live doc using filters by space, page/doc, user, label, and created date.
-View topic
-Insert the user profile macro
-Display a short summary of a Confluence user.
-View topic
-Legacy editor content in the cloud editor
-Work with legacy editor content in a cloud editor page
-View topic
+What happens when an account is deactivated vs. deleted?
+Organization admins can deactivate or delete accounts they manage for users who no longer need to use Atlassian account services. When an account is deactivated or deleted, the user will immediately lose access to Confluence and all other Atlassian account services, and we’ll stop billing for their account.
+If an organization admin
+deactivates
+a user’s account, the user’s personal data will remain in Atlassian account services, and the admin can reactivate their account at any time.
+If an organization admin
+deletes
+a user’s account, we’ll delete the user’s personal data from Atlassian account services, and no one will be able to reactivate their account.
+An organization admin can delete a previously deactivated account if they decide to later.
+What's deleted?
+When you delete a user’s account, we’ll permanently delete their
+personal data
+from all Atlassian account services. Their name will be replaced by
+Former user
+throughout Confluence, and their Confluence personal space will be archived.
+We won’t delete:
+Pages, live docs, blog posts, whiteboards, databases, comments, or files.
+To manually delete the content they’ve created, users will need to follow the instructions in
+Delete, restore, or content
+.
+Personal data in user-generated content.
+If the user’s personal data, such as their name, email address, or phone number, appears in the text of a Confluence Cloud page or live doc, it will remain on Confluence Cloud until the content or the site is deleted. To delete personal data from pages, live docs,  whiteboards, blog posts, or comments, the user will need to find the content using global search, then edit it to manually remove their data.
+Once an account has been deleted, both the account and the personal data in it are gone forever.
+How they'll appear
+This is what the deleted user will look like to other Confluence users once their account is deleted:
 Was this helpful?
 Yes
 No
@@ -525,21 +478,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-What are macros?
-Learn which macros are being removed
-Insert the attachments macro
-Insert the blog posts macro
-Insert the change history macro
-Show more
-Extend the functionality of Confluence Cloud
-Show more
-Use Company Hub to deliver key information to employees
-Use Confluence with other applications
-Use macros to show Confluence content on pages and live docs
-Use macros to add development info on Confluence pages
-Use macros to include media on Confluence pages
-Show more
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+On this page
+What's deleted?
+How they'll appear
 Community
 Questions, discussions, and articles
 Accessibility

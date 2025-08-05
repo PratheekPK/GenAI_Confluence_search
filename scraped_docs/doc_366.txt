@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-figjam-boards-in-confluence-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-sections-to-enhance-and-highlight-your-company-hub-content/
 
-Import Figjam boards in Confluence whiteboards | Confluence Cloud | Atlassian Support
+Use sections to enhance and highlight your Company Hub content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,64 +439,35 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Extend the functionality of Confluence Cloud
+Use Company Hub to deliver key information to employees
 Cloud
 Data Center
-Import Figjam boards in Confluence whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+Use sections to enhance and highlight your Company Hub content
+As your Company Hub grows with more updates and expanded information, you may need a way to highlight, categorize, and present specific sets of links and images.
+With sections, you can add a background color and control the width of your content.
+Add your section
+Open the Company Hub editor, place your cursor where you want to add your section, and enter
+/section
 .
-Bring your Figjam content to Confluence whiteboards and collaborate seamlessly with your team. Import your whiteboards from Figjam into Confluence to unlock features like smart connectors, smart sections, real-time editing, and experience brainstorming and collaboration like never before. Plus, keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
-Export your Figjam board
-In Figjam, open the board you wish to export.
-Select the Main menu icon in the top-left corner, then select
-File > Export As
-.
-In the Export dialog, select from
-PNG
+The new section has placeholder text and a Company Hub element for you to configure.
+Select the edit icon to choose a Company Hub element or select Delete to remove the placeholder.
+Sections are only available in Company Hub, not in Confluence pages, live docs, or blogs.
+Design your section
+Configure your section by adding other elements such as
+Cards
 ,
-JPG
+Carousel
 , or
-PDF
-.
-If exporting as PNG or JPG, select a
-Background
-option (Transparent, Solid, or Grid).
-For the Export area, you can select the entire board, or Selection only.
-Select the
-Export
-button.
-Select a location to save the file.
-For more information on exporting Figjam boards,
-see the Figma support documentation
-.
-Import to whiteboards
-Whiteboards currently only support PDF or image file importing.
-Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
-You can import your content in two ways:
-Drag your image or file into your whiteboard.
-On the toolbar, select the More menu (
-…
-), select
-Whiteboard import,
-navigate to your file, and select it.
-Select your content type.
-The import process will complete.
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
-For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
-Limitations
-Some limitations and differences between your FigJam board and Confluence whiteboard will occur.
-Importing comments is not supported, but you can comment on Confluence whiteboards.
-Colors will be mapped to the closest Confluence whiteboards colors.
-Connectors will not import, but they can be recreated in Confluence whiteboards.
-Rotated elements will import unrotated.
-Shapes supported in whiteboards will import as shapes. Shapes that are not supported will import as images.
-Locked elements will not remain locked when imported, but you can manually lock them in Confluence whiteboards.
-Talk tracks are not supported in whiteboards.
-Whiteboards have a 10,000 element limit.
-Importing may take longer than a minute for boards with many elements, large images, or a lot of content.
+Spotlights
+. You can also add
+layouts
+,
+tables
+, and other design elements inside the section.
+Add a title and a brief description (optional)
+Select the Edit icon to open the configuration panel.
+Choose the width for your content, and select a background color. You can pick from the available palette or add a custom color to match your brand.
 Was this helpful?
 Yes
 No
@@ -504,19 +478,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Use Company Hub to deliver key information to employees
 Show more
-Take bulk Jira actions with smart sections
-Set your whiteboard preferences
-Import Figjam boards in Confluence whiteboards
-Import Miro boards in Confluence whiteboards
-Import Mural boards in Confluence whiteboards
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
 Show more
 On this page
-Export your Figjam board
-Import to whiteboards
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-Limitations
+Add your section
+Design your section
 Community
 Questions, discussions, and articles
 Accessibility

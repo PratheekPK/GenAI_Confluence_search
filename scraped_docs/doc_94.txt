@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/change-your-site-and-space-logos/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-home-to-jump-into-work-and-see-whats-happening/
 
-Change your site and space logos | Confluence Cloud | Atlassian Support
+Use For you to jump into work and see what's happening | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,113 +439,31 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Look and feel settings in Confluence Cloud
+Create and organize work in Confluence Cloud
+Navigate around Confluence
 Cloud
 Data Center
-Change your site and space logos
-You can customize the look and feel of Confluence by changing the logo.
-You can change:
-the
-site logo
-the
-favicon
-(the small logo that appears in your browser tab
-the
-default space logo
-for all spaces
-the
-space logo
-for individual spaces
-Change the site logo
-The site logo appears on the left in the Confluence navigation bar. You must be a Confluence administrator to change it.
-To change the site logo:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-, then
-Look and feel
-in the left-hand navigation.
-Select
-Upload custom logo
-.
-Select
-Select a file to upload
-to upload a new logo image.
-Select
-Save.
-Confluence's auto Look and Feel will detect the colors in your new logo, and change your color scheme to match.
-To use the default
-color scheme
-with your custom logo:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-, then
-Look and feel
-in the left-hand navigation.
-Select
-Customize navigation
-.
-Use the
-Highlight color
-dropdown to open the color picker
-.
-Select
-Reset to default
-.
-Select
-Save
-.
-Change the site favicon
-The site favicon is the icon that appears in your browser tab. You must be a Confluence administrator to change it.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-then open the
-Configuration
-menu.
-Select
-General configuration
-.
-Under
-Favicon
-, select
-Select file to upload
-.
-Select
-Upload.
-You can upload PNG, GIF, JPEG, or ICO files. For best results images should be square, and at least 48x48 pixels. Maximum file size is 2 MB.
-Set a default space logo
-The space logo appears at the top of the space overview and as an icon in the space directory. The default space logo applies to all spaces that don't have a custom space logo applied.
-You must be a Confluence administrator to change the default space logo.
-To change the default space logo:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Look and feel
-in the left-hand navigation.
-Select
-Default space logo
-.
-Select
-Logo: ON
-Select
-Choose File
-to upload a new logo
-Select
-Upload Logo
-Select
-Save
-Change a specific space logo
-Space admins can change the logo for their space, which overrides the default space logo. See
-Customize your space
-to find out how to change the logo in a specific space.
+Use For you to jump into work and see what's happening
+Whether you need to check on things you’ve worked on recently, keep up with what your teammates are doing, or see what content is popular on your site,
+For you
+lets you see it all.
+For you lets you jump into things in a couple different ways:
+Pick up where you left off
+— See the five items that you interacted with most recently; interactions include visits, edits, and comments.
+Discover what’s happening
+— View the most popular items on your site; popularity is determined by interactions like comments and reactions. You can also follow certain people or spaces to fine-tune the
+Following
+section so that you see a list of activity that’s meaningful to you.
+Popular —
+View trending content in Confluence.
+Announcements
+— See information from your site's administrator. If your administrator hasn't created announcement content, this section won't appear. If you are the admin, you can customize the information from here.
+Calendars
+— Review the calendars and events in your team calendars. This section only appears if the
+Team Calendars for Confluence app
+has been added to your Confluence site.
+What’s new in Confluence
+— Review updates and new releases from the Confluence team.
 Was this helpful?
 Yes
 No
@@ -553,16 +474,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Look and feel settings in Confluence Cloud
-Install a theme
-Set the default theme
-Customize the navigation colors
-Change your site and space logos
-On this page
-Change the site logo
-Change the site favicon
-Set a default space logo
-Change a specific space logo
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/hide-external-links-from-search-engines/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-events/
 
-Hide external links from search engines | Confluence Cloud | Atlassian Support
+Add events | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,41 +439,42 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Security settings in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Hide external links from search engines
-Hiding external links from search engines helps to discourage spammers from posting links on your instance. If you turn this option on, any URLs inserted in pages and comments will be given the 'nofollow' attribute, which prevents search engines from following them.
-Shortcut links (e.g. CONF-2622@Jira) and internal links to other pages within
-Confluence Cloud
-are not tagged.
-To hide external links from search engines:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Security
-in the left-hand navigation.
-Select
-Security configuration
-.
-Check the
-Hide External Links From Search Engines
-box.
-Select
-Save
-at the bottom of the page.
-Background to the nofollow attribute
-As part of the effort to combat the spamming of wikis and blogs (
-Confluence Cloud
-serving in both capacities), Google came up with
-some markup
-that instructs search engines not to follow links. By removing the main benefit of wiki-spamming it's hoped that the practice will stop being cost-effective and eventually die out.
+Add events
+You can quickly add events to your calendars and categorize them into different event types for easier viewing and management.
+Add an event
+Do any of the following:
+Choose
+Add Event
+Click a date on the calendar in either the month or week view
+Double-click on the Timeline view
+Select which type of event you'd like to add from the
+Event Type
+drop-down
+Complete the other details for your event and choose
+Add
+Event types
+Each calendar includes a standard set of
+event types
+, which you can use to classify the different events in the calendar. You can also
+create custom event types
+to capture events that don't fit into the standard event types.
+Delete an event
+To delete an event, select the event and choose
+Delete
+from the inline dialog.
+If you don't see the
+Delete
+option, the reason is usually:
+You don't have
+edit permissions
+on the calendar
+The event you're trying to edit is a
+JIRA event
+(sprint, version, or issue). If this is the case, the change to the JIRA item has to happen in JIRA.
 Was this helpful?
 Yes
 No
@@ -481,10 +485,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Security settings in Confluence Cloud
-Hide external links from search engines
-Disable anonymous access to remote API
-Turn on Captcha for spam prevention or failed logins
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
+Show more
+On this page
+Add an event
+Event types
+Delete an event
 Community
 Questions, discussions, and articles
 Accessibility

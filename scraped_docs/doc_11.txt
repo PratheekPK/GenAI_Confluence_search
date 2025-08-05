@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-your-whiteboard-preferences/
+URL: https://support.atlassian.com/confluence-cloud/docs/security-settings-in-confluence-cloud/
 
-Set your whiteboard preferences | Confluence Cloud | Atlassian Support
+Security settings in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,24 +439,19 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Confluence administration
 Cloud
 Data Center
-Set your whiteboard preferences
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-Using the preference options, you can customize your whiteboard to suit your needs. These preferences are specific to the current whiteboard and can be accessed from the right-side toolbar.
-Preference options
-Scrolling and navigation: Enable the use of the mouse scroll wheel to zoom.
-Background: Select between a grid or plain (none) background.
-To set your preferences:
-Select the
-Preferences
-icon in the right-side toolbar.
-Adjust your preferences as desired.
-Close the preferences.
+Security settings in Confluence Cloud
+Hide external links from search engines
+Learn how to hide external links from search engines to discourage spammers from posting to your instnace.
+View topic
+Disable anonymous access to remote API
+Prevent anonymous users from accessing the Confluence remote API.
+View topic
+Turn on Captcha for spam prevention or failed logins
+Learn how to configure Captcha to prevent spam.
+View topic
 Was this helpful?
 Yes
 No
@@ -464,13 +462,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Explore more
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Confluence administration
 Show more
-Link Jira issues from your whiteboard
-Take bulk Jira actions with smart sections
-Set your whiteboard preferences
-Import Figjam boards in Confluence whiteboards
-Import Miro boards in Confluence whiteboards
+Manage Confluence content templates
+Configuration settings in Confluence Cloud
+Security settings in Confluence Cloud
+Look and feel settings in Confluence Cloud
+Data management in Confluence Cloud
 Show more
 Community
 Questions, discussions, and articles

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/disable-reactions/
+URL: https://support.atlassian.com/confluence-cloud/docs/customize-your-space/
 
-Turn off page reactions | Confluence Cloud | Atlassian Support
+Customize your space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,39 +439,24 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Set Confluence-wide functionality
+Space administration
 Cloud
 Data Center
-Turn off page reactions
-Clicking “add a reaction” on a piece of content sends the author a notification, and is useful for letting users know that you've viewed, approved of, or enjoyed a piece of content. Content that receives a large number of reactions appears on the Popular tab of the
-Activity
-section in the sidebar. Some instances, especially ones that have external users, may prefer not to have reactions enabled for reasons such as cross-client confidentiality.
-Reactions are enabled by default, but a Confluence administrator (see
-Manage global permissions
-) can disable and re-enable them for their entire
-Confluence Cloud
-instance.
-To enable or disable reactions:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Configuration
-in the left-hand navigation.
-Select
-General configuration
-.
-Find
-Likes/reactions
-and check or uncheck the box.
-Select
-Save configuration changes
-.
+Customize your space
+Space admins can customize the spaces they administer using
+Space settings
+in several ways, including changing the space name and logo, applying themes installed from the
+Atlassian Marketplace
+, and editing the features that contributors to the space can use.
+Apply a theme to a space
+Get step-by-step instructions for how to apply a theme from the Atlassian Marketplace to a space as a space admin.
+View topic
+Change the space name and logo
+Get step-by-step instructions for how to change the space name and logo as a space admin.
+View topic
+Edit features for a space
+Get step-by-step instructions on how to edit features for a space as a space admin.
+View topic
 Was this helpful?
 Yes
 No
@@ -479,14 +467,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
+Explore more
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
+Space administration
 Show more
-Change the Confluence Home welcome message
-Create a custom space overview template
-Turn off page reactions
-Customize layout for PDF exports in Confluence Cloud
-Convert legacy editor pages in all spaces
-Show more
+Remove a space
+Create templates, blueprints, and reports
+Manage team calendars
+Manage Questions for Confluence
+Customize your space
 Community
 Questions, discussions, and articles
 Accessibility

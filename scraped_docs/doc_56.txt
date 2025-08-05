@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/download-a-spaces-report/
+URL: https://support.atlassian.com/confluence-cloud/docs/actions-that-require-an-organization-or-site-admin/
 
-Download a spaces report | Confluence Cloud | Atlassian Support
+Actions that require an organization or site admin | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,70 +439,25 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Monitor and manage activity in Confluence Cloud
+Atlassian administration for Confluence Cloud
 Cloud
 Data Center
-Download a spaces report
-You must be an app, organization, or site administrator to use to this feature.
-Simplify space administration with reports that contain detailed information about your spaces.
-Examples
-You can use this CSV file to help you administer spaces with information like:
-User or group permissions for a space
-: Quickly assess access issues
-See a list of active/archived/deleted spaces:
-Free up storage and remove outdated information
-Recently created, inactive, or most active spaces
-: Clean up inactive spaces
-Spaces using the most storage
-: Free up storage
-Spaces with external access
-: Identify who has access
-Create a report
-Use these steps to create a report:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Select
-Data management
->
-Space reports
-.
-Select
-Create report
-. Then, select
-Download
-.
-Contents
-The file will contain a table with information like:
-Space key
-: Unique identifier for each space
-Space name
-: The name of the space
-Space type
-: Type of space (e.g., team, project)
-Space status
-: Current status of the space
-Creation date
-: When the space was created
-Creator account ID
-: ID of the user who created the space
-Creator full name
-: Name of the space creator
-Public link permission status
-: Whether the space has public links
-Number of public links
-: Count of public links in the space
-Anonymous access
-: Whether anonymous users can access the space
-Last viewed
-: The last time the space was accessed
-Number of content items
-: Total content items in the space
-Number of attachments
-: Total attachments in the space
-Storage used (MB)
-: Storage space used by the space
-You can view the last 10 reports created within the last 30 days.
+Actions that require an organization or site admin
+Manage your storage usage
+Manage storage usage in Confluence
+View topic
+Invite guests to Confluence
+Invite guests to collaborate securely with clients, contractors, or other "external" people.
+View topic
+Removing users and downgrading to Confluence Free
+Preparing to move from a paid plan to Confluence Free.
+View topic
+Adjust permissions before downgrading to Confluence Free
+Learn what permissions options Free users have available to them and what will change if you move to Free from Standard or Premium.
+View topic
+What happens when an account is deactivated vs. deleted?
+Understand the implications of deactivating or deleting an account.
+View topic
 Was this helpful?
 Yes
 No
@@ -510,14 +468,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Monitor and manage activity in Confluence Cloud
-Act on insights from mission control
-Download a spaces report
-View the audit log
-On this page
-Examples
-Create a report
-Contents
+Explore more
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
 Community
 Questions, discussions, and articles
 Accessibility

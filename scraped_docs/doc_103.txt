@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/customize-your-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/export-to-other-calendars/
 
-Customize your space | Confluence Cloud | Atlassian Support
+Export to other calendars | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -129,7 +129,7 @@ Atlassian Intelligence in Confluence whiteboards
 Draw freeform lines with pen
 Private mode in whiteboards
 Voting in whiteboards
-Whiteboard history
+Whiteboard version history
 Create and edit databases
 Get started with Confluence databases
 Database tour
@@ -147,6 +147,8 @@ Duplicate a database setup
 Lock your database structure
 What Confluence databases don't support
 Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Export content from Confluence Cloud
 Wide tables may be cut off in PDF export
 Cases where PDF Export may revert to using legacy exporter
@@ -258,6 +260,7 @@ Use sections to enhance and highlight your Company Hub content
 Highlight important messages with a visual spotlight
 Add a rotating set of frames to your Company Hub
 Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 Use Confluence with other applications
 Use Slack and Confluence together
 Use Jira and Confluence together
@@ -389,11 +392,11 @@ How secure are public links?
 Give access to unlicensed users from Jira Service Management
 Manage analytics permissions in Confluence administration
 Control which groups can use analytics
-Manage Confluence page and doc templates
-Create a global page template
-Edit a global page or doc template
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
 Install a global blueprint
-Manage global page templates, doc templates, and blueprints
+Manage global content templates and blueprints
 Configuration settings in Confluence Cloud
 Change the site title
 Configure the administrator contact page
@@ -436,24 +439,59 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Customize your space
-Space admins can customize the spaces they administer using
-Space settings
-in several ways, including changing the space name and logo, applying themes installed from the
-Atlassian Marketplace
-, and editing the features that contributors to the space can use.
-Apply a theme to a space
-Get step-by-step instructions for how to apply a theme from the Atlassian Marketplace to a space as a space admin.
-View topic
-Change the space name and logo
-Get step-by-step instructions for how to change the space name and logo as a space admin.
-View topic
-Edit features for a space
-Get step-by-step instructions on how to edit features for a space as a space admin.
-View topic
+Export to other calendars
+Team Calendars allows you to quickly export calendar data so you can open it in other calendar apps like Google Calendar, Apple Calendar, Microsoft Outlook, or any application that supports importing .ics files.
+The information you import into your chosen calendar app is no longer connected to Team Calendars and won't be updated when you update Team Calendars. If you'd like your calendar app to be updated when you update Team Calendars, see:
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Google Calendar
+Choose
+to the right of the calendar and choose
+Export to iCalendar
+Save the .ics file to your computer
+Open Google Calendar, and choose
+Settings
+>
+Calendars
+>
+Import calendar
+Locate and select the .ics file you saved and choose
+Import
+Outlook 2010
+Choose
+to the right of the calendar and choose
+Export to iCalendar
+Save the .ics file to your computer
+Open Outlook 2010 and choose
+File Tab
+>
+Open
+>
+Import
+Locate and select the .ics file you saved and choose
+Import
+Apple Calendar
+Choose
+to the right of the calendar and choose
+Export to iCalendar
+Save the .ics file to your computer
+Open the Calendar app on your Mac and choose
+File
+>
+Import
+>
+Import...
+Locate and select the .ics file you saved and choose
+Import
+Choose the calendar you want to import the events into or choose
+New Calendar
+, then choose
+OK
 Was this helpful?
 Yes
 No
@@ -464,17 +502,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Apply a theme to a space
-Change the space name and logo
-Edit features for a space
-Space administration
+Use Team Calendars for Confluence (Premium feature)
 Show more
-Remove a space
-Create templates, blueprints, and reports
-Manage team calendars
-Manage Questions for Confluence
-Customize your space
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Show more
+On this page
+Google Calendar
+Outlook 2010
+Apple Calendar
 Community
 Questions, discussions, and articles
 Accessibility
