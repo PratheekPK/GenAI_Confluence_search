@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/assign-space-access-to-guests/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-happens-when-an-account-is-deactivated-vs-deleted/
 
-Assign space access to guests | Confluence Cloud | Atlassian Support
+What happens when an account is deactivated vs. deleted? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,203 +439,35 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Manage global permissions in Confluence administration
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
 Cloud
 Data Center
-Assign space access to guests
-Assigning space access is the 2nd step of a 2-step process for inviting guests into Confluence to collaborate with your team. The first step is to
-Invite guests to Confluence
+What happens when an account is deactivated vs. deleted?
+Organization admins can deactivate or delete accounts they manage for users who no longer need to use Atlassian account services. When an account is deactivated or deleted, the user will immediately lose access to Confluence and all other Atlassian account services, and we’ll stop billing for their account.
+If an organization admin
+deactivates
+a user’s account, the user’s personal data will remain in Atlassian account services, and the admin can reactivate their account at any time.
+If an organization admin
+deletes
+a user’s account, we’ll delete the user’s personal data from Atlassian account services, and no one will be able to reactivate their account.
+An organization admin can delete a previously deactivated account if they decide to later.
+What's deleted?
+When you delete a user’s account, we’ll permanently delete their
+personal data
+from all Atlassian account services. Their name will be replaced by
+Former user
+throughout Confluence, and their Confluence personal space will be archived.
+We won’t delete:
+Pages, live docs, blog posts, whiteboards, databases, comments, or files.
+To manually delete the content they’ve created, users will need to follow the instructions in
+Delete, restore, or content
 .
-Not all teamwork happens inside the (sometimes virtual) walls of a single organization. Sometimes you need to partner with other companies to build integrations, work with agencies to bring marketing campaigns to life, bring in contractors and consultants to help get big projects over the line, and so on.
-With single space guests, you can do all of that work without leaving Confluence.
-Guests are free of charge (
-up to 5 guests per paid user
-). Total number of users (paid + guests) can't exceed the current Confluence instance’s
-user limit
-.
-Important policy information
-You may not convert current or former paid users to guests. The purpose behind the guest feature is to invite users outside of your organization.
-Atlassian reserves the right to restrict your access to the feature if you’re not using it in compliance with this purpose and the guidelines outlined in Atlassian documentation. Atlassian also reserves the right to change the ratio of guests to paid users.
-To dive deeper into what to expect when collaborating with guests, see
-What can guests see and do in Confluence?
-Find all guests that don’t have a space assigned
-Guests can’t use Confluence at all without space access
-Even if they’ve been granted product access to Confluence as a guest in
-admin.atlassian.com
-, guests will be blocked from Confluence if they don’t have a space they can access.
-To easily find all guests that don’t have a space assigned and assign them spaces in bulk:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Security
-in the left-hand navigation.
-Select
-Global permissions
-.
-Select the
-Guests
-tab.
-Select the quick filter
-Guests with no access
-.
-Multi-select specific guests or select all guests on the current page.
-Select
-Assign space
-.
-Select which space to assign.
-Select
-Assign
-.
-Or, if you want to simply assign a space to a single guest, just open their dropdown in the list and select a space.
-View all guests that have access to a specific space
-To find all of the guests that have been assigned to a specific space, you can use the space filter.
-In the
-Guest
-tab of
-Global permissions
-:
-Open
-More filters.
-Open the
-Guests in a space
-dropdown.
-Select a recent space you recently visited or start typing in the dropdown to search for a specific space.
-With the desired space selected in the dropdown, the list of guests will automatically filter those that have that space assigned.
-Assign space access for guests
-As a reminder,
-guests need to be invited to Confluence
-before they can be granted access to spaces.
-Set a default space
-In the
-Guest
-tab of
-Global permissions
-, set a default space, and all future added Guest users will be automatically added to that space. Note: Setting a default space does not impact existing Guest users.
-Up to 1,000 Guest users can be assigned to the default space at a time, so Confluence recommends adding Guest users in increments of 1,000 or fewer to avoid errors in default space assignment.
-To assign space access for an individual guest:
-Go to
-Global permissions
-.
-Select the
-Guests
-tab.
-Find the guest in the list. (Try searching or applying a group filter for an easier search.)
-Select the guest’s dropdown in the
-Confluence access
-column.
-Select a space. You can choose from spaces you recently visited or starting typing in the dropdown to search for a specific space. Or you can select the ( x ) next to the space assigned to remove access to it. This action removes space access for the guest and they will no longer be able to access Confluence.
-Guests can only have access to one space at a time.
-Guests must be given space access on an individual basis — within Confluence. You can
-use guest groups to give guests product access to Confluence in bulk
-but guest groups are only available in
-admin.atlassian.com
-.
-When a guest seems to have their own personal space
-Guests can’t have a personal space. If they seem to, then it’s likely that it’s a holdover from when they were a regular user. When a regular user who has a personal space is converted to a guest user, they’re automatically assigned their personal space as their single space.
-Assign space access in bulk
-If you choose to not set a default space for Guest users, or you need to assign specific Guest users a different space, perform this action manually from the
-Guest
-tab of
-Global permissions
-To quickly give multiple guests access to the same space:
-Select the checkboxes next to each guest you’d like to assign space access to.
-Select
-Assign space
-at the top of the list.
-In the window that pops up, select which space to assign.
-Select
-Assign
-.
-To quickly select all guests on the current page, select the checkbox floating above the guest list next to the column titles. Each page of the guest list maxes out at 25 guests. If you’re trying to select all guests on your instance and have more than 25 guests, then you’ll have to do this for each page of guests.
-If assigning a large number of Guests to one space, consider setting a default space, and then adding the Guest users after the default space is set for a more efficient setup.
-Remove space access for a guest
-To remove a guest’s space access:
-Go to
-Global permissions
-.
-Select the
-Guests
-tab.
-Find your guest in the list. You can use the search bar to help.
-Select the ( x ) within the dropdown field.
-You can remove space access for multiple guests at a time by using the checkboxes to select guests and the
-Remove space
-button.
-If you’re in a space, you can remove a guest’s access to it in
-Space permissions
-.
-Go to the space.
-Select
-Space settings
-in the sidebar.
-Select
-Guests
-in the
-Space permissions
-card.
-Select
-Edit.
-Find the guest you want to remove and uncheck their permission to
-View
-.
-Select
-Save.
-Remove guests from the instance
-The process for removing a guest from your Confluence instance is the same as removing a regular user from Confluence and must be done by an organization admin in
-admin.atlassian.com
-.
-Assign space access immediately after inviting guests
-For organization admins only.
-Immediately after you complete the process for inviting a guest, a confirmation message will appear in the bottom left of your screen.
-Select the
-Assign space
-link in the confirmation message. This will open Confluence’s global permissions screen with all of your guests' information pre-filled in the
-Add space access
-window.
-Choose the space the guest should have access to.
-Select
-Done.
-This is useful for when you know ahead of time which space a guest needs access to.
-If you don’t know which space to assign yet, that’s okay! You or a Confluence admin can always assign space access later by going directly to global permissions.
-Although they can’t directly invite guests to Confluence,
-Confluence admins
-and
-space admins
-can assign space access for any guests that have already been invited and given product access to Confluence.
-Assign space access from space permissions
-The process for adding and managing space access
-for guests is the same as it is for regular users, except you’ll add guests and manage permissions for them in the
-Guests
-tab of space permissions.
-To give space access to a guest on an individual basis:
-Go to the space you’ve chosen for them.
-Select
-Space settings
-in the sidebar.
-In the
-Space permissions
-card, select
-Guests
-.
-Select
-Edit.
-In the search bar, type in your guest’s name, select them, and select
-Add
-.
-Note:
-If you can’t find the guest, they may not be available to add to your space. This could either be because an organization admin hasn’t invited the guest and given them access to Confluence or because the guest is already using up their one space allotment in another space. A Confluence or organization admin should be able to help you here.
-Select
-Save all
-at the bottom of the page.
-Some space permissions
-cannot be granted to guests.
-Manage guests' access to pages
-The process and considerations for
-managing page access
-for guests is the same as it is for regular users.
+Personal data in user-generated content.
+If the user’s personal data, such as their name, email address, or phone number, appears in the text of a Confluence Cloud page or live doc, it will remain on Confluence Cloud until the content or the site is deleted. To delete personal data from pages, live docs,  whiteboards, blog posts, or comments, the user will need to find the content using global search, then edit it to manually remove their data.
+Once an account has been deleted, both the account and the personal data in it are gone forever.
+How they'll appear
+This is what the deleted user will look like to other Confluence users once their account is deleted:
 Was this helpful?
 Yes
 No
@@ -646,23 +478,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage global permissions in Confluence administration
-Manage global permissions
-Assign space access to guests
-Manage public links across Confluence Cloud
-How secure are public links?
-Give access to unlicensed users from Jira Service Management
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
 On this page
-Find all guests that don’t have a space assigned
-View all guests that have access to a specific space
-Assign space access for guests
-Set a default space
-Assign space access in bulk
-Remove space access for a guest
-Remove guests from the instance
-Assign space access immediately after inviting guests
-Assign space access from space permissions
-Manage guests' access to pages
+What's deleted?
+How they'll appear
 Community
 Questions, discussions, and articles
 Accessibility

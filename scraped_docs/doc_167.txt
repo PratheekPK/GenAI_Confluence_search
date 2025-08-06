@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-space-specific-functionality/
+URL: https://support.atlassian.com/confluence-cloud/docs/classify-a-page-or-blogpost/
 
-Set space-specific functionality | Confluence Cloud | Atlassian Support
+Classify content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,19 +439,38 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Set space-specific functionality
-Additional PDF export settings
-Review updated limitations and workarounds for exporting PDF files from Confluence.
-View topic
-Advanced PDF export customizations
-Dig deeper into how site and space admins can do advanced customizations of space-specific PDF exports using CSS and HTML.
-View topic
-Set a default classification level for content
-Ensure your content in a chosen space is always classified.
-View topic
+Classify content
+Classify content to help people recognize the sensitivity of information they’re viewing or working on.
+You can classify content once your organization admin has set up classification levels for your organization.
+To classify an item:
+Edit the item (only required for pages and blogposts).
+Select the More actions menu (•••) >
+Classify content
+.
+Choose a classification level.
+Select
+Update
+.
+Why is my content already classified?
+You may find that the item you’ve just created has been classified without any action by you or another user. This could be the result of a default classification level set by the space admin.
+What is a default classification level?
+To change the classification level of an item:
+Edit the item (only required for pages and blog posts).
+Select the classification level badge.
+Select
+Change level
+(only required for whiteboards, databases and live pages).
+Choose a classification level.
+Select
+Update
+.
+You can't remove a classification level, but you can change it to
+No classification
+or to the default level set by your admin.
 Was this helpful?
 Yes
 No
@@ -462,16 +481,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Additional PDF export settings
-Advanced PDF export customizations
-Set a default classification level for content
-Space administration
-Set space-specific functionality
-Manage permissions at the space level
-Manage content in a space
-Remove a space
-Create templates, blueprints, and reports
+Create and edit content
+Show more
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
 Show more
 Community
 Questions, discussions, and articles

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/filter-your-data/
+URL: https://support.atlassian.com/confluence-cloud/docs/pre-format-your-content-with-templates/
 
-Filter your data | Confluence Cloud | Atlassian Support
+Create templates, blueprints, and reports | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,79 +439,51 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Space administration
 Cloud
 Data Center
-Filter your data
-Save filters as views.
-Filters can be saved as part of a view. For more information on creating and using views, check out our page on
-Database views
+Create templates, blueprints, and reports
+When you add new content, you don't have to start from scratch. Instead, you can base your new content on a template – with predefined content. Confluence Cloud comes with
+more than 70 templates
+to help you with everything from taking meeting notes to defining your business strategy. If that’s not enough, you’ll find more templates on the
+Atlassian Marketplace
+, and you can even
+create your own
 .
-Databases aren’t available in the
-Atlassian Government environment
+This section contains information on how to use content templates, as well as how
+space administrators
+can manage them for an individual space. For information on how to manage templates for your whole site, see
+Administering site templates
 .
-Filters make it easy to display only the items in your database that meet a collection of specified criteria or individual conditions. This criteria determines what items to display depending on if it has or doesn’t have the specified properties. Filter groups and individual filters can be as simple or complex as needed.
-Add a filter
-To create a filter:
-By default, a filter will be created for a view when there are no existing filters. To remove the pre-made filter, select the
-Cancel
-button.
-Select the
-Filter
-button at the top of your database or the
-Filter
-option while editing a view.
-Select the field that you'd like to filter by.
-Select a suitable condition (is not, is, contains...).
-Enter the value you want to use as the filter.
-You can add another filter by selecting the
-+ Add filter
-button. You can have as many filters as you'd like!
-When you have multiple filters, you can decide whether the entries should show based on whether they match all (“and”) or any (“or”) of the filters.
-To edit a filter:
-Select
-More actions
-on an existing filter
-Select
-Edit
-Make a change to the field you’d like to filter by, the condition (is not, is, contains...), or the value you want to use as a filter
-Select
-Update
+What’s the difference between a template and a blueprint?
+Blueprints are templates created by Atlassian or by third-party developers. From an end-user perspective, blueprints and templates are the same, but there are some important differences for administrators.
+Site administrators
+can:
+Install global blueprints from the
+Atlassian Marketplace
+Enable and disable global blueprints
+Edit existing global blueprints
+Promote and unpromote global blueprints
+Space administrators
+can:
+Enable and disable blueprints for the space they manage
+Edit blueprints to customize them for their space
+Promote and unpromote blueprints within their space
+Neither site administrators nor space administrators can create blueprints. However, they can
+create custom templates
 .
-To delete a filter:
-Select
-More actions
-on an existing filter
-Select
-Delete
-Add a filter group
-To create a filter group:
-Select the
-Filter
-button at the top of your database or the
-Filter
-option while editing a view.
-Select the dropdown button next to the
-+ Add filter
-button.
-Select the
-Add filter group
-option.
-Select the field that you'd like to filter by.
-Select a suitable condition (is not, is, contains...).
-Enter the value you want to use as the filter.
-You can add another filter in the filter group by selecting the
-+ Add filter
-button within the group. You can have as many filters as you'd like!
-When you have multiple filters, you can decide whether the entries should show based on whether they match all (“and”) or any (“or”) of the filters in the group.
-To delete a filter group:
-For all filters in the filter group:
-Select
-More actions
-on an existing filter in the group
-Select
-Delete
+Create a template
+Create custom templates to ensure that content on similar pages or other items is consistent.
+View topic
+Edit a template
+Edit an existing template to add or remove content.
+View topic
+Promote a template
+Promote useful or popular templates to make them easier to find.
+View topic
+Create a custom report
+Combine templates and macros to create custom reports in Confluence.
+View topic
 Was this helpful?
 Yes
 No
@@ -522,22 +494,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
+Explore more
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+Space administration
 Show more
-Database views
-Layouts and options
-Filter your data
-Sort fields
-Hide fields in your database
+Manage content in a space
+Remove a space
+Create templates, blueprints, and reports
+Manage team calendars
+Manage Questions for Confluence
 Show more
-On this page
-Add a filter
-To create a filter:
-To edit a filter:
-To delete a filter:
-Add a filter group
-To create a filter group:
-To delete a filter group:
 Community
 Questions, discussions, and articles
 Accessibility

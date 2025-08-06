@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-symbols-emojis-and-special-characters/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-microsoft-teams-and-confluence-together/
 
-Use symbols, emojis, and special characters | Confluence Cloud | Atlassian Support
+Use Microsoft Teams and Confluence together | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,63 +439,155 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Extend the functionality of Confluence Cloud
+Use Confluence with other applications
 Cloud
 Data Center
-Use symbols, emojis, and special characters
-Sometimes words just aren't enough. When that's the case, use symbols, emojis, and special characters to add extra meaning and dazzle to your pages, live docs, blogs, and other Confluence content.
-Insert symbols and special characters
-Symbols and special characters were removed from the cloud editor, so your operating system's symbols will be more comprehensive.
-While we cannot provide comprehensive instructions for every operating system and device in these documents, the basic instructions for inserting symbols and special characters on Windows and Apple computers are below.
-To insert special characters on a Windows computer while editing Confluence content:
-Select NUM LOCK on your keyboard if it is not already enabled.
-Hold ALT and enter the four-digit Unicode value for the character you'd like to enter.
-You must use the numpad to enter this value. You can also copy and paste the symbol from Windows Character Map application.
-To insert special characters on an Apple computer while editing Confluence content:
-Hold CTRL+CMD and press the space bar to bring up the Character Viewer.
-Select a category from the options on the right.
-Double click on a symbol to add it to your page or live doc.
-Insert emojis
-When you edit a page or live doc, choose the emoji item in the toolbar, then click an emoji to add it to your content.
-Shortcut tip:
-When editing, enter the keyboard shortcut
-:
-to open the emoji browser.
-Add your own emoji
-Custom emojis won't display when shared on different platforms.
-You can upload your own emojis through the emoji insert tool. Image file types must be a JPG, PNG, or GIF and can't be larger than 1MB.  Regardless of the original file's dimensions, the emoji created will be 20 pixels by 20 pixels.
-Click the emoji item
-in the toolbar
-Click
-Add your own emoji
-Enter a name for the emoji
-Click
-Choose file
-Browse for and select the file
-Click
+Use Microsoft Teams and Confluence together
+This integration isn't available in the
+Atlassian Government environment
+.
+You can soon
+create, edit, and share Confluence pages and live docs without leaving Microsoft Teams.
+Need to quickly find a Confluence page or doc? Add it to a tab.
+You can even let other teammates know about it too.
+Collaborating in Confluence without leaving Microsoft Teams
+It’s a time-saving way to collaborate with your teammates. And helps avoid the dreaded “too many open browsers” overload.
+Create and edit pages and live docs
+. Minimizes context-switching.
+Add a page or doc in a tab
+. An easy way to keep track without going back and forth between browsers.
+Get notified about edits and new content
+. Stay in the know.
+People can preview content you share
+. Take a quick look or read all the info right away.
+Search within Teams for previously shared pages and live docs
+. Information is never lost.
+Capture and share meeting notes as a group
+. Make decisions and agree on action items together.
+Get started
+To add the Confluence Cloud for Microsoft Teams app:
+Open your Microsoft Teams app.
+Select
+Apps
+in the bottom right corner.
+Search
+Confluence Cloud.
+Select
 Open
-Site administrators can manage and delete custom emojis using https://[yourdomain].atlassian.net/admin/emoji.
-Disable emojis
-Don't want your :) to turn into a smiley face? You can use
-Ctrl+z
-to undo the conversion, or turn this feature off altogether by disabling keyboard shortcuts.
-To disable keyboard shortcuts:
-Click your avatar in the top-right navigation.
+and follow the prompts to connect it.
+To share Confluence pages and live docs in Teams channels:
+Go to the chat window.
 Select
-Personal settings
+…
+Type in Confluence Cloud to add the app.
+You need to join Confluence to collaborate on content within Microsoft Teams. When you connect the app, you can request access to Confluence from your Confluence admin.
+Create a new Confluence page
+Select
+Teams
+tab in the left panel.
+Select one of your channels.
+Click
++
+in the top right.
+Click
+Confluence Cloud for Microsoft Teams app
 .
 Select
-Edit
-, then uncheck the box labeled
-Enable
-next to
-Keyboard Shortcuts
+Create page
+Select the
+Confluence site
+, then a
+Parent page
+.
+Add your page title and start writing.
+You can choose to save as a draft, share, and publish - it’s the same way you’d normally create a page, you’re just doing it from within Microsoft Teams.
+It’s not currently possible to create a new live doc from Teams.
+Need to update page permissions? Set them directly in Confluence.
+Add an existing Confluence page or live doc
+If you have multiple Confluence sites, you'll need to choose which site to search for content from.
+Select
+Teams
+tab in the left panel.
+Select one of your channels.
+Click
++
+in the top right.
+Click
+Confluence Cloud for Microsoft Teams app
 .
 Select
-Submit
-to confirm your changes.
-If you change your mind, you can always enable keyboard shortcuts again.
+Attach page
+or
+doc.
+Search by title or choose a recently viewed page.
+You can select
+Post to the channel about this tab
+.
+Select
+Save
+.
+Share a Confluence page or live doc in a channel
+Start a new conversation with someone or your team.
+Click the Confluence Cloud icon at the bottom.
+Select which page or doc you want to share.
+Type message and send.
+Use Confluence during a Teams meeting
+Click
+Calendar
+in the left menu.
+Click
+New Meeting.
+Create a
+meeting title
+and add
+required attendees
+(You'll need to add someone to the invitation first).
+Click
+Send
+and you'll see the meeting on your Calendar.
+Open the meeting and click
++
+in the top right.
+Select
+Confluence Cloud
+to add notes to your meeting.
+Click
+Add.
+Click
+Save.
+You'll see a button for
+Start Notes
+to show you've successfully added the Confluence app to your meeting.
+Take notes
+You can start taking notes before, during, or after the meeting.
+Select
+Start Notes.
+Select
+Join
+will allow you to enter a meeting.
+Select the
+Confluence logo
+at the top right - that will open a side panel for you to take notes during your meeting.
+Select
+Publish
+then choose which Space to publish the notes to.
+After your meeting ends, the notes you took will also be sent to your meeting conversation.
+Uninstall the app
+You’ll see the
+Confluence logo
+in the left panel.
+Right-click the icon.
+Select
+Uninstall.
+Confirm
+Uninstall.
+Need support?
+This is built and maintained by Atlassian. If you need support, visit
+https://support.atlassian.com
+or contact
+support@atlassian.com
+.
 Was this helpful?
 Yes
 No
@@ -506,19 +598,23 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
-Show more
-Format text
-Create and manage layouts
-Use symbols, emojis, and special characters
-Keyboard shortcuts and autocomplete
-Available markdown commands
-Show more
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
 On this page
-Insert symbols and special characters
-Insert emojis
-Add your own emoji
-Disable emojis
+Collaborating in Confluence without leaving Microsoft Teams
+Get started
+To add the Confluence Cloud for Microsoft Teams app:
+To share Confluence pages and live docs in Teams channels:
+Create a new Confluence page
+Add an existing Confluence page or live doc
+Share a Confluence page or live doc in a channel
+Use Confluence during a Teams meeting
+Take notes
+Uninstall the app
+Need support?
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-content-by-user-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-multimedia-macro/
 
-Insert the content by user macro | Confluence Cloud | Atlassian Support
+Insert the multimedia macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,7 +443,7 @@ Create and organize work in Confluence Cloud
 Review macros only available in the legacy editor
 Cloud
 Data Center
-Insert the content by user macro
+Insert the multimedia macro
 In June 2025, Atlassian announced the upcoming
 deprecation of the legacy editor
 as well as
@@ -452,18 +452,25 @@ to the cloud editor.
 Before the deprecation begins in January 2026, this macro will still work. See our
 article on legacy editor macros
 for more.
-The Content by User macro generates a list of all the content created by a specified user across your Confluence site. This includes current pages, comments, and spaces created by that user. You can click on any item to be taken to the page, comment, or space in which it resides.
-Permissions
-The Content by User macro will only display content that the logged in user has permission to see. This means that the same macro may display different content to two users who each have different view permissions.
-Use the Content by User macro
-To add the Content by User macro:
+Use the multimedia macro to embed attached video, animation, and other multimedia files to your page. The macro uses the HTML5
+<video>
+tag, so the type of video your page viewers can see depends on the video formats their browser supports with the HTML5
+<video>
+tag. For example, Quicktime videos (.mov or .qt) can only be viewed in Safari, as that file type is not supported by other browsers.
+If you want to display online multimedia content, like YouTube and Vimeo videos, take a look at the
+Widget Connector Macro
+.
+The
+file preview
+also supports many audio and video files. This is handy when you want to play a video in a larger format.
+To add the Multimedia macro:
 When editing, select
 from the toolbar
 Find the macro by name and select it
 Configure it as needed
 You can also type / on the page to bring up the same list you'd see by selecting
 from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Content by User macro:
+To edit the Multimedia macro:
 Select the macro placeholder.
 Select the Edit
 icon
@@ -475,6 +482,7 @@ You can also select the centered
 , and full-width
 icons to adjust the width of some macros. Select the trashcan icon
 to remove the macro.
+Drag a supported multimedia file directly onto your page, and Confluence will attach the file and add the macro for you.
 Parameters
 Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
 If the parameter name used in
@@ -482,42 +490,47 @@ Confluence Cloud
 storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
 example
 ).
-Parameter
+Parameter name
 Required
 Default
-Description
-Username
-(author
+Parameter description and accepted values
+Page name
+(page)
+No
+Current page
+The name of the page to which the multimedia file is attached. Start typing the name of the page and then select it from list of suggested pages. Include the spacekey if you want to specify a page in another space (for example,
+MYSPACE:My Page Title
 )
-yes
-none
-The Confluence username for a person who has created content.
-Space(s)
-(spaceKey
-)
-no
-all
-Specify one or more space keys, separated by a comma or a space. The macro will display only the content which belongs to the space(s) specified here.
-The macro will insert a default value of 'all', but if no value is specified, it will search the current space.
-When specifying a personal space, remember to use the tilde (~) sign in front of the username, such as
-~jbloggs
-or
-~jbloggs@example.com
-.
-Maximum number of results to display at a time
-(max)
-no
-15
-The maximum value for this parameter is 500, which means that only 500 results can show at one time. You can click
-show more
-to see the next 500 results.
+File*
+(name)
+Yes
+None
+File name of the attached multimedia file.
+Width
+No
+If not specified, the browser will determine the width based on the file type.
+Width of the movie window to be displayed on the page. By default, this value is specified in pixels. You can also choose to specify a percentage of the window's width, or any other value accepted by HTML.
+Height
+No
+If not specified, the browser will determine the height based on the file type.
+Height of the movie window to be displayed on the page. By default, this value is specified in pixels. You can also choose to specify a percentage of the window's height, or any other value accepted by HTML.
+Autoplay
+(autostart)
+No
+false
+If the parameter is set to
+true
+then the video or audio file will start playing as soon as the page is loaded. If this option is set to
+false
+then the file will not play until the user clicks the icon or image on the page.
 Wiki markup example
+Wiki markup is only supported in the legacy editor.
 Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
 Macro name:
-content-by-user
+multimedia
 Macro body:
 None.
-{content-by-user:author=jsmith|spaceKey=all|max=25}
+{multimedia:space=DOC|page=My macros|name=ninjas.swf|autostart=true}
 Was this helpful?
 Yes
 No
@@ -529,8 +542,6 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 On this page
-Permissions
-Use the Content by User macro
 Parameters
 Wiki markup example
 Community

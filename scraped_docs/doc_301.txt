@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-jira-chart-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/learn-about-macros-on-confluence-mobile/
 
-Insert the Jira chart macro | Confluence Cloud | Atlassian Support
+Learn about macros on Confluence mobile | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,85 +440,32 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use macros to add development info on Confluence pages
 Cloud
 Data Center
-Insert the Jira chart macro
-If your Confluence site is connected to a Jira application, you can display issues as charts on Confluence pages or live docs. You can connect Confluence to any Jira application, including
-Jira
-and Jira Service Management.
-Adding the Jira Chart macro to a page or live doc
-To add a Jira chart macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-Pie chart
-Pie charts can be used to report on issue status, priority, assignee and more.
-To further control how this chart appears on your page or live doc, choose
-Display options
-:
-Chart by
-- select the field you want to segment the pie chart by such as:
-Status
-Fix version
-Assignee name
-Priority
-Component
-Issue type
-Width
-- define the total width of the chart area. You can enter values in pixels, percent or leave blank to auto fit.
-Show border
-- add a border around the chart area.
-Show chart information
-- include a text summary under the chart with the total issues count and chart by value.
-Created vs Resolved chart
-Created vs Resolved charts can be used to show the difference between the number of issues created versus the number of issues resolved over time.
-To further control how this chart appears on your page or live doc, choose
-Display options
-:
-Period
-- choose a time frame to report by (week, month, quarter etc).
-Days previously
-- the total number of days to report on (counting back from today).
-Cumulative totals
-- choose to progressively add totals or report individual values for each period.
-Show unresolved trend
-- add a subplot showing unresolved issues over time.
-Show versions
-- indicate version release dates as a vertical line on the chart.
-Width
-- define the total width of the chart area. Enter values in pixels, percent or leave blank to auto fit.
-Show border
-- add a border around the chart area
-Show chart information
-- include a text summary under the chart with the total issues count and chart by value.
-Two Dimensional Chart
-Two Dimensional Charts can be used to show issue statistics in a matrix. You can configure the X and Y axes to display these issue fields:
-Status
-Priority
-Assignee
-Fix version
-Component
-Issue type.
-For example you could use the chart to show issue types by status (as shown above).
-To configure the chart axes choose
-Display options
-:
-X Axis
-- the issue field to display on the X axis (columns).
-Y Axis
-- the issue field to display on the Y axis (rows).
-Rows to display
-- the maximum number to display in the chart.
-Disabling the Jira Chart macro
-The functionality is provided by an add-on (plugin) called 'Jira Macros'. This macro is also used for the Jira Issues macro. To make the macro unavailable on your site, you can disable the add-on. See
-Disabling and enabling apps
-.
-Authentication
-— If the query includes issues that require authentication (issues that are not visible to anonymous users in Jira), users will be prompted to authenticate to view charts on the Confluence page.
+Learn about macros on Confluence mobile
+The Confluence mobile app has support for a subset of macros available on web. Most macros can be viewed from a page on Confluence mobile, and behave similarly to those on the web.
+Add, edit, or delete macros
+To add new macros or edit macros, you’ll need to use the web editing experience. Changes you make to macros via web editing will be displayed for mobile users.
+Macros can be deleted while editing in mobile. To delete a macro:
+Ensure your page is in editing mode.
+Tap to the right or just below the macro.
+Tap backspace until the macro is deleted.
+Supported macros in Confluence mobile apps
+Below is a list of the macros with full support on mobile.
+Confluence macros
+Select a macro name for details of the usage.
+Anchor Macro
+Blog Posts Macro
+Profile Picture Macro
+Table of Contents Macro
+User Profile Macro
+Marketplace app macros
+Draw.io
+Partially supported macros
+Most other macros are partially supported on mobile. You might see a placeholder for these macros on the page – tap them to open a new screen where you can view and interact with the macro.
+Will more macros be supported on mobile in the future?
+We are always looking for ways to improve the mobile app experience. While we don't have a specific timeline for these updates, we are actively working on improvements. To show your interest in additional macro support,
+leave your feedback here as a comment on this ticket.
 Was this helpful?
 Yes
 No
@@ -529,17 +476,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add development info on Confluence pages
-Display Jira work items in a list
-Insert the Jira chart macro
-Insert the Jira timeline macro
-Display your Assets data on a Confluence page
+Extend the functionality of Confluence Cloud
+Show more
+Use macros to add visuals and images to Confluence pages
+Use gadgets to add dynamic content
+Use Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
 On this page
-Adding the Jira Chart macro to a page or live doc
-Pie chart
-Created vs Resolved chart
-Two Dimensional Chart
-Disabling the Jira Chart macro
+Add, edit, or delete macros
+Supported macros in Confluence mobile apps
+Will more macros be supported on mobile in the future?
 Community
 Questions, discussions, and articles
 Accessibility

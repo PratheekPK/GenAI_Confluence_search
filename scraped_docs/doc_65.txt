@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-and-customize-a-company-hub/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-popular-labels-macro/
 
-Create and customize a Company Hub | Confluence Cloud | Atlassian Support
+Insert the popular labels macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,65 +440,58 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use Company Hub to deliver key information to employees
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Create and customize a Company Hub
-This feature is only offered with
-Confluence Cloud Premium and Enterprise
-.
-With
-Company Hub
-, you can create and customize a beautiful company-wide information central. This is where all employees can go for up-to-date announcements, news, verified resources, and more.
-An inviting and up-to-date
-Company Hub
-can help close communication gaps and promote productivity and collaboration by connecting teams, content, and resources in one central place.
-You can craft a Hub that looks and feels like your company’s go-to destination by adding a custom name along with image carousels, visual cards, quick links, a menu of important links, and more with ease.
-Set up your hub
-Only app and site admins can see and set up this feature, unless they choose to delegate additional editors to assist them in setting it up. App admins, site admins, and anyone else with hub-specific edit permissions can start setting up their Hub by selecting
-Company Hub
-from the
-sidebar
-.
-Until your hub has been activated upon being published for the first time, only those with hub-specific edit permissions can see or access it.
-Choose a name
-To get started, choose a unique name for your
-Company Hub
-.
-This name will be visible to everyone from the navigation bar, and when visiting the hub itself.
-You can opt to change this name later on, or not name your hub at all.
-Feel free to get creative and playful with your Company Hub name and use it to express your organization’s culture and values. Names that are unique and memorable are more likely to attract an audience.
-Customize your Company Hub
-After naming, a helpful starter template will appear.
-You can select
-Edit
-(
-) to customize this template, or start from scratch if desired, to make a hub that perfectly suits your company’s needs and preferences.
-Taking your Company Hub to the next level
-Here are some ways to design an amazing Company Hub that will drive employee engagement and get the word out about important internal information.
-From the top: Important links available any time
-Add a
-Links menu
-to the top with your most important evergreen content. You can organize the menu into categories and provide links to any internal or external URL. Frequently accessed content such as employee or team directories, major departments, or employee resources like benefits can be added in a prominent location at the top of the Hub.
-Catch the eye: Use a compelling image to spotlight key messages
-Next, add a
-Spotlight
-element. Spotlights can present a large message with a colorful background and either a short message or a link to longer content. Call attention to key messages by presenting Confluence, Jira, and Atlas links or external URLs as large presentation pieces. Craft your messaging and add upload an image or choose one from our library.
-Stack the deck: Cards provide visual interest to your content
-Display links to Confluence, Jira, Atlas, or external URLs with a visual flare. A set of
-cards
-lets you add images, a short description, and an outbound link for any content. You can set up manual cards with specific you choose or dynamic cards that populate based on your set of filters.
-Looking for some inspiration on what to include in your hub?
-Give these ideas a try:
-Employee kudos section
-Team celebrations
-Executive leadership update
-New hire onboarding guide
-Benefits policy quick links
-Manage hub settings
-App admins have default edit permissions for the hub. They can add other editors in
-Company Hub settings
-.
+Insert the popular labels macro
+The popular labels macro displays the most popular labels used throughout your Confluence site or within a space. A popular label is a label that has been added to many pages and live docs.
+To add the popular labels macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the popular labels macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Parameter
+Default
+Description
+Number of Labels to Display
+(count
+)
+100
+Specifies the total number of labels to display in the heatmap.
+Restrict Labels to this Space Key
+(spaceKey
+)
+none
+Restricts the list of popular labels to the specified space.
+Style of Labels
+(style
+)
+list
+list
+– displays the popular labels as a bulleted list, ordered by popularity (highest first).
+heatmap
+– displays the popular labels using different font sizes for each label depending on the label's popularity, ordered by label names.
 Was this helpful?
 Yes
 No
@@ -509,21 +502,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Company Hub to deliver key information to employees
-Create and customize a Company Hub
-Manage your Company Hub
-Set up a menu of important links on Company Hub
-Use sections to enhance and highlight your Company Hub content
-Highlight important messages with a visual spotlight
+Use macros to show Confluence content on pages and live docs
 Show more
-On this page
-Set up your hub
-Choose a name
-Customize your Company Hub
-Taking your Company Hub to the next level
-From the top: Important links available any time
-Stack the deck: Cards provide visual interest to your content
-Manage hub settings
+Insert the include content macro
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

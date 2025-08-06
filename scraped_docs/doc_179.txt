@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-microsoft-outlook/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-and-edit-text-on-whiteboards/
 
-Subscribe to Team Calendars from Microsoft Outlook | Confluence Cloud | Atlassian Support
+Add and edit text on whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,146 +439,76 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Subscribe to Team Calendars from Microsoft Outlook
-There are two ways to synchronize Team Calendar in Microsoft Outlook:
-Two-way sync
-(CalDAV) - allows you to view and update Team Calendar events in Outlook.
-Requires Team Calendars (available with Confluence Premium).
-One-way sync
-(iCal) - allows you to view — but not update — Team Calendar events in Outlook.
-Subscribing with two-way sync (CalDAV)
-Two-way synchronization allows you to view and update Team Calendar events in Microsoft Outlook.
-You will need the following:
-Confluence API token
-Confluence Cloud server address
-CalDAVSynchronizer
-To get your Confluence API token:
-Select your profile picture in the Confluence top nav >
-Settings
-Under
-YOUR SETTINGS
+Add and edit text on whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
+.
+Add text to your whiteboard
+Select the
+<Aa>
+in the toolbar.
+Text elements add text on top of other elements or directly on the whiteboard.
+Text properties
+Most elements on your whiteboard will have some text – sticky notes, shapes, connectors, and the text element itself. When you select text and want to edit text, the floating toolbar will appear with ways to change the properties of the text.
+Bold, italics, or underline
+Use the bold, italics, and underline properties for any text that you want to stand out from the rest.
+For
+bold
 , select
-Password
-In the
-API token
-section, select the link
-Create and manage API tokens
-Select
-Create API token
-Name your API token, select
-Create
-, and then select
-Copy.
-Pro tip: paste this somewhere safe because
-you won’t be able to copy this again later. You can always create a new token, though.
-To get your Confluence Cloud server address:
-In the Confluence top nav, choose
-Apps > Calendars.
-Select the the More actions menu (
-) for your calendar in the side nav and choose
-Subscribe
-.
-In the
-Calendar app
-dropdown, select
-Microsoft Outlook (Windows desktop)
-.
-If prompted, add the calendar to
-My Calendars
-. If you don’t add it to My Calendars, it won’t sync.
-Copy the
-server address
-.
-Because Microsoft Outlook supports calendar discovery, this will be your server address, not the URL of an individual calendar. You'll be able to choose which calendars (that you've added to My Calendars) to sync in the app.
-To subscribe to a Team Calendar in Microsoft Outlook:
-If Outlook is open, close it.
-Download and install
-CalDAVSynchronizer
-.
-Open Microsoft Outlook.
-You should see a new tab called
-CalDav Synchronizer.
-In this tab, select
-Synchronization Profiles.
-In the toolbar that appears, select
-.
-Select
-Generic CalDAV / CardDAV
-from the
-Profile type
-screen.
-Set up the profile:
-In the
-Name
-field, give the profile a name.
-In the
-Outlook folder
-field, select or create a
-calendar profile.
-In the
-DAV URL
-field, paste the
-server address
-.
-In the
-Username
-field, use your Confluence username (the email address associated with your account).
-In the
-Password
-field, paste the
-API token
-you created earlier.
-In the
-Email address
-field, use the same email you used in the
-Username
-field.
-Under the
-Email address
-field, select
-Test or discover settings
-to bring up options for which Team Calendar you want to sync.
-Select
-OK.
-Subscribe with one-way synchronization (iCal)
-One-way synchronization means that you can view — but not update — Team Calendar events in Microsoft Outlook.
-To subscribe with one-way synchronization:
-Open Confluence.
-In the top nav, choose
-Apps > Calendars.
-Select the the More actions menu (
-) for your calendar in the side nav and choose
-Subscribe
-.
-In the
-Calendar app
-dropdown, select
-iCal
-or
-Microsoft Outlook (browser)
-.
-Copy the
-server address
-.
-Open Microsoft Outlook.
-In the
-Home
-tab, select
-Add
-(far right, next to
-Share
-) >
-From Internet.
-Paste the
-server address.
-Select
-OK
-.
-You can now view — but not edit — Team Calendar events in Microsoft Outlook.
+B
+in the floating toolbar or use the keyboard shortcut
+Cmd
++
+b
+Ctrl
++
+b
+For
+italics
+, select
+I
+in the floating toolbar or use the keyboard shortcut.
+Cmd
++
+i
+Ctrl
++
+i
+For
+underlining
+, select U in the floating toolbar or use the keyboard shortcut.
+Cmd
++
+u
+Ctrl
++
+u
+Lists
+Use lists for to-dos, note-taking, writing out tasks, ideating, or step-by-step instructions. Lists keep your text looking tidy and organized.
+Bulleted list
+To create a bulleted list, select the bullet list icon in the floating toolbar.
+You can also create a bulleted list on a new line by entering "-" followed by Space.
+Numbered lists
+To create a numbered list, select the numbered list icon in the floating toolbar.
+You can also create a numbered list on a new line by entering "1" followed by Space.
+Text size
+There are seven preset text sizes.
+By default, your text will be set to
+Normal text
+for all text elements. You can change the size of a part or all of the text.
+To use a preset size:
+Select the line or portion of text you want to resize.
+Select the size menu in the floating toolbar to change text size.
+Pick a size for the selected text or enter a custom size in the field.
+Resize a text element
+Text objects created using the text tool can be given a custom size.
+To resize a text element:
+Select the text element you want to resize.
+Select and drag a side of the text element.
 Was this helpful?
 Yes
 No
@@ -589,17 +519,23 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
+Create and edit whiteboards
 Show more
-Subscribe to Google Calendars from Confluence
-Subscribe to Team Calendars from Google Calendar
-Subscribe to Team Calendars from Microsoft Outlook
-Subscribe to Team Calendars from Apple iOS Calendar
-Export to other calendars
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
 Show more
 On this page
-Subscribing with two-way sync (CalDAV)
-Subscribe with one-way synchronization (iCal)
+Add text to your whiteboard
+Text properties
+Bold, italics, or underline
+Lists
+Bulleted list
+Numbered lists
+Text size
+Resize a text element
 Community
 Questions, discussions, and articles
 Accessibility

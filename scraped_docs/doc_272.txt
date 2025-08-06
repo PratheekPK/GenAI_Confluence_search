@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/atlassian-administration-for-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-a-network-of-users/
 
-Atlassian administration for Confluence Cloud | Confluence Cloud | Atlassian Support
+Create a network of users | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,12 +439,81 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
 Cloud
 Data Center
-Atlassian administration for Confluence Cloud
-Actions that require an organization or site admin
-Learn about Confluence actions that must be done in Atlassian administration.
-View topics
+Create a network of users
+You can create a
+network
+of users who are important to you, to make sure you're always up to date with their Confluence activity. You might want to follow your boss or teammates, to see what they're working on, or whoever creates the most entertaining blog posts.
+When someone's part of your network, we'll send you a notification when they:
+Add or edit
+pages, live docs, or blog posts
+Comment on pages, live docs, and blog posts
+, or edit a comment
+Update their
+user profile
+Follow another user
+You can follow (or unfollow) another user in multiple ways:
+Access their profile card by clicking or hovering over their avatar or name and then select
+Follow
+.
+To follow a user with their
+hover profile
+, hover your mouse over their profile picture when it appears on a page and choose
+Follow
+.
+To follow a user from your Network view:
+Choose your profile picture at the right side of the navigation, then choose
+Network
+Search for and select the user in the
+User name
+field and click
+Follow
+Reload your Network view and the profile picture of the user(s) you just followed will appear in the
+Following
+list on the right.
+Once you’re following a user, you’ll start seeing their activity in your Following feed on
+Home
+. This gives you a quick snapshot of the pages and projects that individual is focused on.
+Access your network view
+To see what's been happening in your network, access your network view as described above.
+You can access another user's network view using the hover profile by choosing
+More
+>
+Network Page
+.
+RSS feeds
+– You can subscribe to any Confluence user's network RSS feed and get summaries on the activity of other users they're following. See
+Subscribe to a network RSS feed
+.
+Email notifications
+– You can request email notifications of any activity in your network. See
+Subscribe to email notifications
+.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Show more
+On this page
+Follow another user
+Access your network view
+Community
+Questions, discussions, and articles
 Accessibility
 Notice at Collection
 Privacy Policy

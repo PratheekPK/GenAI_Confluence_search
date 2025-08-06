@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/keyboard-shortcuts-markdown-and-autocomplete/
+URL: https://support.atlassian.com/confluence-cloud/docs/customize-the-email-domain-sending-confluence-emails/
 
-Keyboard shortcuts and autocomplete | Confluence Cloud | Atlassian Support
+Customize the email domain sending Confluence emails | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,68 +439,48 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Keyboard shortcuts and autocomplete
-Want to be an absolute Confluence expert? Get to know the keyboard shortcuts and autocomplete, and in no time at all you won't even need to use a mouse or trackpad.
-We could give you a list here, but then you'd need to keep referring to this page. The best way to go is to show you how to find the list of keyboard shortcuts within Confluence.
-Keyboard shortcuts
-To view all Confluence keyboard shortcuts, do any of the following:
-Select the
-help icon
-from the navigation bar near your profile picture, then select
-Keyboard shortcuts
+Customize the email domain sending Confluence emails
+Confluence
+email notifications
+are sent from the Atlassian domain by default (for example <confluence@space.atlassian.net>). However, personalizing notifications with your company’s domain can
+improve delivery rates and security
+and may simply be more familiar to your users.
+If your team would like notification emails (that is, emails related to Confluence activity) to originate from your company’s domain, administrators can configure it in the settings. This is otherwise known as
+setting up DMARC
+(Domain-based Message Authentication, Reporting, and Conformance).
+Confluence emails sent from a domain other than
+atlassian.net
+can be rejected by DMARC if sent without a domain-specific DKIM signature.
+First an organization administrator must
+add email addresses to Atlassian Administration
+(we recommend a group list like <confluence@acme.org>). This is what will populate the email options in Confluence.
+Then a Confluence administrator can select a custom domain from those options.
+To change the sender of Confluence email notifications:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Configuration
+in the left-hand navigation.
+Select
+Notifications
 .
-When viewing a page or live doc, press
-shift
-+
-?
-Press
-Ctrl + /
-(Windows) or
-command + /
-(Mac) when editing a page or live doc.
-While editing a page or live doc, select the
-from the bottom left corner of the screen.
-You'll see the available keyboard shortcuts, for your operating system, in Confluence.
-The keyboard shortcuts are organized into five distinct categories:
-General
-– This includes global shortcuts and content shortcuts that are applicable across all Confluence content.
-Formatting
-– Shortcuts designed specifically for formatting while in edit mode of live docs and pages.
-Navigation
-– Shortcuts for navigating within Confluence and across comments.
-Tables
-– Shortcuts tailored for use while editing tables in a live doc or page.
-Markdown
-– Shortcuts for Markdown that function while editing live docs and pages.
-Whiteboard
-– Shortcuts specifically for whiteboards.
-You can turn the General keyboard shortcuts off when you visit the
-General
-tab in the keyboard shortcuts dialog.
-Autocomplete
-Certain key combinations and markdown can be used to quickly change formatting, create lists, and add tables.
-Use keyboard shortcuts and markdown
-Select the
-menu at the bottom left of the page, and select
-Editing keyboard shortcuts
-.
-The shortcuts you see in the application depend on the operating system you use.
-Use the slash command
-The slash command opens a menu that contains the following:
-Tools from the toolbar like paragraph formatting and lists as well as adding links, images, mentions, emojis, tables, and layouts
-Elements like expands, dates, adding files, quotes, code snippets, and statuses
-Macros
-Custom apps
-The items available in the slash command list are exactly the same as the items seen when selecting
-from the toolbar.
-Open the autocomplete menu:
-Type / then the first few characters of the shortcut.
-Choose the shortcut from the list of suggestions.
-Some of the shortcut combinations require a space to be added afterward, like Action item and Decision.
+Find the
+Email addresses
+field and select the email address you want to use.
+Select
+Save changes
+. It can take up to an hour for the email change to take effect.
+An exception:
+Emails that notify users when
+content is shared
+with them will continue to show Atlassian as the sender even if a custom domain is selected.
+We are aware of this discrepancy and are working to fix it.
 Was this helpful?
 Yes
 No
@@ -511,19 +491,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Configuration settings in Confluence Cloud
 Show more
-Create and manage layouts
-Use symbols, emojis, and special characters
-Keyboard shortcuts and autocomplete
-Available markdown commands
-Simplify data with tables
-Show more
-On this page
-Keyboard shortcuts
-Autocomplete
-Use keyboard shortcuts and markdown
-Use the slash command
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
 Community
 Questions, discussions, and articles
 Accessibility

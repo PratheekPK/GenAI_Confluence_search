@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/premium-admin-tools-for-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-pdf-using-custom-font/
 
-Premium admin tools for Confluence Cloud | Confluence Cloud | Atlassian Support
+Install a custom language font for PDF exports | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,18 +440,42 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Premium admin tools for Confluence Cloud
-Post Confluence-wide announcements in a banner
-Quickly communicate important information to everyone in Confluence.
-View topic
-Inspect a user's permissions
-Inspect a single user's permissions status on a page to identify the root cause of any access issues.
-View topic
-Bypass page restrictions with admin key
-Admin key allows organization admins to access any content item that has been restricted.
-View topic
+Install a custom language font for PDF exports
+In Q2 2023 we released an update to PDF export that renders Confluence pages and live docs more accurately.
+This update enables the use of installed languages without needing to install a custom font. If you’d like to use a custom font continue using the instructions on this page.
+You may still see the need for this if PDF export is falling back to the older method of PDF export which may occur with the following:
+IP Whitelisting Enabled
+Customize exports to PDF
+Advanced PDF export customizations
+Spaces over 2000 pages/ live docs or 1000 attachments
+Before you can export Confluence pages or live docs in a language other than English, you'll need to install a font that supports the language your pages and live docs were written in.
+Confluence only supports
+one
+font at a time. Installing a new font will replace the font you installed previously.
+To install a new font in Confluence:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Configuration
+in the left-hand navigation.
+Select
+PDF export language support
+.
+Select
+Choose File
+.
+Choose a TTF or TTC file to upload.
+Select
+Install
+to upload the font and install it on your instance.
+Once you've installed the appropriate font, follow the instructions for
+Export content to Word, PDF, HTML, and XML
+.
 Was this helpful?
 Yes
 No
@@ -462,18 +486,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Post Confluence-wide announcements in a banner
-Inspect a user's permissions
-Bypass page restrictions with admin key
-Confluence administration
+Configuration settings in Confluence Cloud
 Show more
-Set Confluence-wide functionality
-Monitor and manage activity in Confluence Cloud
-Premium admin tools for Confluence Cloud
-Manage global permissions in Confluence administration
-Manage analytics permissions in Confluence administration
-Show more
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
+Customize the email domain sending Confluence emails
 Community
 Questions, discussions, and articles
 Accessibility

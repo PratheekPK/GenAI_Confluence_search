@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-reminders-to-events/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-microsoft-outlook/
 
-Add reminders to events | Confluence Cloud | Atlassian Support
+Subscribe to Team Calendars from Microsoft Outlook | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,52 +443,142 @@ Extend the functionality of Confluence Cloud
 Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Add reminders to events
-There are some events that are just too important to miss, and you wouldn't want anyone in your team to miss them either.
-If you have edit permission for a calendar, you can set reminders for each
-event type
-so that anyone who's added the calendar to their 'My Calendars' page will receive an email at your chosen time.
-Add reminders to event types
-Choose
->
-Edit
-Choose
-Event Types
-Choose the pencil
-icon to edit an event type
-Add your reminder time and choose
-Save
-Repeat steps 3 and 4 for each event type you're adding a reminder to
-Choose
-OK
-If you only want to add reminders to one event type, choose the
-to the right of the event type, then choose
-Add a reminder
-.
-From a reminder email you can click to view the event, or turn off reminders for the event type if you don't need them. To
-remove
-reminders for an event type, follow the above procedure and set the reminder time to 'None'.
-Remember, when you change reminders for an event type, you're changing reminders for anyone who's added the calendar to their My Calendars page.
-Turn reminder emails on or off
-You can decide whether or not you want to receive reminder emails for each event type on your My Calendars page. This isn't about adding or removing reminders for an event type; it's essentially opting-in to or opting-out of the reminder emails.
-To turn reminders on or off:
-Choose
-Calendars
-in the Confluence header
-Choose the
-to the right of an event type
+Subscribe to Team Calendars from Microsoft Outlook
+There are two ways to synchronize Team Calendar in Microsoft Outlook:
+Two-way sync
+(CalDAV) - allows you to view and update Team Calendar events in Outlook.
+Requires Team Calendars (available with Confluence Premium).
+One-way sync
+(iCal) - allows you to view — but not update — Team Calendar events in Outlook.
+Subscribing with two-way sync (CalDAV)
+Two-way synchronization allows you to view and update Team Calendar events in Microsoft Outlook.
+You will need the following:
+Confluence API token
+Confluence Cloud server address
+CalDAVSynchronizer
+To get your Confluence API token:
+Select your profile picture in the Confluence top nav >
+Settings
+Under
+YOUR SETTINGS
+, select
+Password
+In the
+API token
+section, select the link
+Create and manage API tokens
 Select
-Turn on reminders
+Create API token
+Name your API token, select
+Create
+, and then select
+Copy.
+Pro tip: paste this somewhere safe because
+you won’t be able to copy this again later. You can always create a new token, though.
+To get your Confluence Cloud server address:
+In the Confluence top nav, choose
+Apps > Calendars.
+Select the the More actions menu (
+) for your calendar in the side nav and choose
+Subscribe
+.
+In the
+Calendar app
+dropdown, select
+Microsoft Outlook (Windows desktop)
+.
+If prompted, add the calendar to
+My Calendars
+. If you don’t add it to My Calendars, it won’t sync.
+Copy the
+server address
+.
+Because Microsoft Outlook supports calendar discovery, this will be your server address, not the URL of an individual calendar. You'll be able to choose which calendars (that you've added to My Calendars) to sync in the app.
+To subscribe to a Team Calendar in Microsoft Outlook:
+If Outlook is open, close it.
+Download and install
+CalDAVSynchronizer
+.
+Open Microsoft Outlook.
+You should see a new tab called
+CalDav Synchronizer.
+In this tab, select
+Synchronization Profiles.
+In the toolbar that appears, select
+.
+Select
+Generic CalDAV / CardDAV
+from the
+Profile type
+screen.
+Set up the profile:
+In the
+Name
+field, give the profile a name.
+In the
+Outlook folder
+field, select or create a
+calendar profile.
+In the
+DAV URL
+field, paste the
+server address
+.
+In the
+Username
+field, use your Confluence username (the email address associated with your account).
+In the
+Password
+field, paste the
+API token
+you created earlier.
+In the
+Email address
+field, use the same email you used in the
+Username
+field.
+Under the
+Email address
+field, select
+Test or discover settings
+to bring up options for which Team Calendar you want to sync.
+Select
+OK.
+Subscribe with one-way synchronization (iCal)
+One-way synchronization means that you can view — but not update — Team Calendar events in Microsoft Outlook.
+To subscribe with one-way synchronization:
+Open Confluence.
+In the top nav, choose
+Apps > Calendars.
+Select the the More actions menu (
+) for your calendar in the side nav and choose
+Subscribe
+.
+In the
+Calendar app
+dropdown, select
+iCal
 or
-Turn off reminders
-If it says
-Add a reminder
-when you get to step 3, it means there's no reminder set for the event type. Only choose that option if you want to
-set
-reminders for the event type, which will be sent to everyone who's added the calendar to their My Calendars page.
-You can also opt-out of reminder emails for an event type by clicking the
-Stop reminding me
-link in the reminder email.
+Microsoft Outlook (browser)
+.
+Copy the
+server address
+.
+Open Microsoft Outlook.
+In the
+Home
+tab, select
+Add
+(far right, next to
+Share
+) >
+From Internet.
+Paste the
+server address.
+Select
+OK
+.
+You can now view — but not edit — Team Calendar events in Microsoft Outlook.
 Was this helpful?
 Yes
 No
@@ -501,15 +591,15 @@ The Atlassian Community is here for you.
 Ask the Community
 Use Team Calendars for Confluence (Premium feature)
 Show more
-See standard event types
-Add and delete custom event types
-Add reminders to events
-Embed calendars on Confluence content
-Watch a calendar
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
 Show more
 On this page
-Add reminders to event types
-Turn reminder emails on or off
+Subscribing with two-way sync (CalDAV)
+Subscribe with one-way synchronization (iCal)
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-is-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-sections-to-organize-your-work/
 
-What is Confluence Cloud? | Confluence Cloud | Atlassian Support
+Use sections to organize your work | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,75 +439,47 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Considering Confluence Cloud?
-Confluence Cloud functionality and features
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-What is Confluence Cloud?
-Confluence is a collaboration tool that brings people, knowledge, and ideas together in a shared workspace, so you can do your best work with the confidence of your entire organization's expertise behind you.
-This page is going to take you through some of the key things you can do with Confluence, so you'll be able to take full advantage of it and determine how it can best meet your needs.
-Create
-You can use Confluence to create beautiful pages and live docs in a matter of minutes. While Confluence has all your typical text editing features, what makes it really powerful is all the dynamic content that it comes with, like roadmaps, expands, and search bars.
-Confluence also lets you bring your other apps and files together. Say you're working on a marketing plan, and have a series of graphic assets that you're planning on using, and a Trello board on which you're tracking your tasks. You can attach those graphic assets to the page, and embed the Trello board on there too.
-In fact, you can attach any files to a Confluence page or live doc. Some files can even be previewed and updated from within Confluence.
-You and your team can work on a live doc together, with collaborative editing supporting up to 30 simultaneous editors. Create anything from meeting notes and product requirements to marketing plans and HR policies. If it's something you have to create regularly, save time and create it as a template.
-Pages are best for when you need to publish versioned content such as documentation or policy.
-So next time you need to create something, start with a Confluence page or live doc.
-Check out
-Create, edit, and publish
-to learn how to create a page,
-Create and collaborate in real time with live docs
-to learn how to work with live docs,
-Add formatting to your page
-to see what fancy things you can add to it, and
-Blueprints and User Created Templates
-to get familiar with existing templates or to find out how to create your own.
-Collaborate
-Teamwork can get messy. Good ideas get lost in the email void, team members come and go, different timezones affect timelines, and the more time you spend looking for information, the less you have to get things done.
-Confluence changes that. In Confluence, everything is organized into spaces, which lets you have a distinct, self enclosed place for every project or team to work in, so you know where to go to find all the assets, information, and discussions related to that.
-Spaces have:
-An overview on which you can keep information about your team or project.
-A blog, which you can use for announcements and updates.
-Pages and live docs, for all your work. Organize these in a hierarchy or using labels, so it's easy to find whatever you're after.
-Confluence content isn't static, so when you make a change to any of your content, it updates immediately, regardless of who's viewing it, or from where. That means that if you've made a typo or need to update a policy, you just edit the page and make that change, without having to worry about redistributing anything.
-Confluence also has automatic versioning. That means that every time you upload a new version of a file, make realtime changes to a live doc, or update a page, Confluence saves a snapshot of that. Then, if you decide you've made a mistake (or someone else has), you can revert back to a previous version.
-Instead of having group conversations in email chains, where they're hard to find and invisible to anyone outside, put them on a live doc and move the discussion to the comments. Inline comments mean you can comment on a specific word or sentence (or file, or image) and have a whole discussion in context. For general feedback, leave a general comment in the footer, or from the comments side panel.
-When you come to a consensus, solidify it in a decision, create action items to follow up, and use @mentions to ensure that anyone else who needs to be kept informed remains in the know.
-Head to
-Organize your space
-to learn more about organizing content in Confluence,
-Versions and history
-to see how versioning works, and
-Comment on pages and blog posts
-to explore what you can do with comments.
-Share
-Confluence is open, so you're not working in silos. That means all of your organizational knowledge  - best practices, research and insights, customer feedback - is available to every employee, enabling them to move fast without starting from scratch.
-Working on a new project? Start with a quick search to see what information and resources your organization already has that you can build on, instead of starting from scratch. Check what other teams are working on, and identify opportunities for you to save time and effort by working together.
-Share resources like how-to's, guidelines and checklists across the organization for each team to modify according to their specific needs. As they get used, discussed, and experimented with, you can iterate on them based on the feedback so that they're constantly improving.
-Confluence brings the right people together to get things done. A great idea scribbled into a notebook might never amount to anything. But put your great idea on Confluence, and it can get shared with other people who have the passion and expertise to help you turn it into a reality.
-Openness isn't just about information. It's about a sense of shared purpose and experience, even if your team is spread out across different offices in different locations around the world. With Confluence, you can make sure everyone's on the same page about security and HR, but you can also plan team outings, share the photos afterward, and immortalize your in-jokes.
-It fosters a sense of community because we work better and feel more fulfilled when we all feel like part of the same team.
-Visit
-Share Confluence content
-for tips on how to share, and check out our detailed guides to various
-Confluence use-cases
+Use sections to organize your work
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Other things you should know:
-While Confluence is open by default, you can also
-set structured permissions and restrictions
-. That means that, for example, you could share a project with a client, and have them comment on it, without them seeing anything else that you're working on. Or you could make a space public so your customers can view your support content, but can't edit it.
-Learn more about permissions and restrictions.
-Confluence also has a
-mobile app
-, so you can use it on a phone or tablet, from anywhere there's an internet connection.
-Download Confluence for mobile.
-Confluence has an entire
-Marketplace of free and paid apps
-that let you add extra functionality to it, so you can retrofit it to suit a variety of specialized use cases.
-Check out the Marketplace.
-Everyone learns differently, so we've created some
-demo videos
-to help you and your team learn more about Confluence in a visual way. Follow the link to see more videos about creating content, organizing spaces, and collaborating with your teammates.
+Use sections to organize your board. With sections, you can group and move related ideas or guide people through workshops with multiple activities, each in its own section.
+Create a section from the toolbar
+Select the
+Section
+icon in the toolbar.
+A section will appear on hover. Select and drag the section to the location of the board where you’d like the section to go.
+Add elements to a section
+Select and move an element into a section using mouse or keyboard arrows. You can add any whiteboard element to a section except for another section.
+Once you have moved elements inside the section, they’ll stay with the section when you move it around your whiteboard.
+You can also select and drag to select multiple objects and add them to a section.
+Edit a section title
+To edit a section title:
+Create or select a section on the board.
+Change the name from untitled to a new name and press Return / Enter.
+You can also double-click the section’s name to edit.
+To remove the title:
+Double-click title.
+Delete text.
+Press Return / Enter.
+Change the appearance of a section
+You can change the size and color of a section.
+To resize a section:
+Select the section.
+Select and drag the resize handles of the section.
+To change the color of a section:
+Select the section.
+Select the color picker icon in the floating toolbar.
+Select a new color.
+Delete a section
+To delete a section:
+Select the section.
+Press Delete / Backspace.
+Deleting a section also deletes its contents. To delete a section without deleting its contents, select everything in the section and drag it to another place on the whiteboard.
 Was this helpful?
 Yes
 No
@@ -518,15 +490,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Confluence Cloud functionality and features
-What is Confluence Cloud?
-Learn about the features of Confluence Cloud plans
-Confluence Standard
+Create and edit whiteboards
+Show more
+Build flows and diagrams with flows and connectors
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Show more
 On this page
-Create
-Collaborate
-Share
-Other things you should know:
+Create a section from the toolbar
+Add elements to a section
+Edit a section title
+Change the appearance of a section
+Delete a section
 Community
 Questions, discussions, and articles
 Accessibility

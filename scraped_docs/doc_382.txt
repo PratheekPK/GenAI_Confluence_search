@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-a-network-rss-feed/
+URL: https://support.atlassian.com/confluence-cloud/docs/confluence-search-syntax/
 
-Subscribe to a network RSS feed | Confluence Cloud | Atlassian Support
+Confluence search syntax | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,72 +439,123 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Get notified about content and activity
+Create and organize work in Confluence Cloud
+Find content in Confluence Cloud
 Cloud
 Data Center
-Subscribe to a network RSS feed
-You can create an RSS Feed from any user's
-network
-view, allowing you to receive summaries on the activities of users they are following in their network. The types of activities tracked in these RSS feed summaries include:
-New
-pages, live docs, or blog posts
-or updates to existing ones
-Comments
-added to a page, live doc, or blog post or edits to existing comments
-Updates to a user’s
-profile
-Subscribe to a user's network feed
-To subscribe to a user's network RSS feed:
-Locate the orange
-RSS feed icon
-, which is available from the top-right of:
-The
-Recent activity of the users you are following
-section of your network page, or
-The
-Activity of followed users
-section of another user's network page.
-Copy and paste the icon's link into your RSS newsreader
-Customize your network RSS feed
-Confluence does not provide a way of customizing a network RSS feed via the user interface. However, you can modify the maximum number of results and type of content displayed in these feeds by directly editing the RSS feed link in your RSS newsreader.
-To modify the maximum number of results displayed in your RSS feed:
-Edit the RSS feed link in your RSS newsreader.
-Change the value of the
-max
-parameter from its default value of
-40
-to a value of your choice.
-Example:
-http://confluence.atlassian.com/feeds/network.action?username=MYNAME&max=60&publicFeed=false&os_authType=basic&rssType=atom
-Save the modified link in your RSS newsreader.
-To modify the type of content displayed in your RSS feed:
-Edit the RSS feed link in your RSS newsreader.
-Append the parameter
-contentType
-to the end of the link, followed by an equals sign (
-=
-) and then add the appropriate content type value of your choice:
-PAGE
-— restricts the RSS feed to page additions or updates.
-LIVE DOC
-— restricts the RSS feed to live doc additions or updates.
-BLOG
-— restricts the RSS feed to blog post additions or updates.
-ATTACHMENT
-— restricts the RSS feed to attachment additions or updates.
-COMMENT
-— restricts the RSS feed to comment additions or updates.
-Content type values are case-sensitive. Ensure that each parameter is separated from the other by an ampersand (
+Confluence search syntax
+This page describes the special words and punctuation marks you can use in the search field of the advanced search to refine your results.
+The following types of search are available:
+Search for exact matches
+Search for keywords using operators
+Search for keywords using wildcards
+Search for exact matches
+Surround the phrase you are searching for in double quotes to look for an exact phrase.
+Use case
+Example
+Results
+Phrase contains multiple words separated by spaces
+"product manager"
+Results WILL contain “product manager”
+Results WON’T contain
+just “product” or just “manager”
+Search results with exact match will be returned.
+Phrase contains stop words like
+and
+,
+the
+,
+or
+.
+"the admin"
+Results WILL contain
+“the admin”
+Results WON’T contain just “admin”
+Search results with exact match will be returned.
+Phrase contains the plural version of word(s)
+"entire boxes"
+Results WILL contain
+“entire boxes”
+Results WON’T contain
+“entire box”, just “entire”, or just “box”
+Search results with exact match will be returned.
+Phrase contains
+special characters
+like
+/
+,
 &
-).
-Example:
-http://confluence.atlassian.com/feeds/network.action?username=ggaskell&max=40&publicFeed=false&os_authType=basic&rssType=atom&contentType=BLOG
-Save the modified link in your RSS newsreader.
-Notes
-It is not possible to filter for more than one type of content by adding multiple values to the
-contentType
-parameter.
+,
+_
+"Dev/Prod"
+Results WILL contain
+”Dev/Prod”, ”Dev&Prod”, “Dev_Prod” or “Dev Prod”
+Results WON’T contain just “Dev”, “Prod”, or “Prod Dev”
+Ignoring the special character, search results with the exact match will be returned.
+If you'd like search results to match an exact phrase including special characters, cast your vote on this improvement request:
+CONFCLOUD-69222
+Search for keywords using operators
+When you don’t know the exact phrase that leads to the content you want, you can enter keywords and operators in the search field.
+OR search
+To search for content that contains one of the terms, 'chalk' or 'cheese', use the operator OR in capital letters:
+chalk OR cheese
+AND search
+To search for content that contains both the terms 'chalk' and 'cheese', use the operator AND in capital letters:
+chalk AND cheese
+NOT search
+To search for content that contains 'chalk' but NOT 'cheese', use the operator NOT in capital letters:
+chalk NOT cheese
+Group search terms
+To search for content that must contain 'chalk' but can contain either 'cheese' or 'butter', use brackets to group the search terms:
+(cheese OR butter) AND chalk
+Search for keywords using wildcards
+Inserting wildcard characters is an easy way to format your keyword to replace single characters or multiple characters in the results.
+To perform a single character wildcard search, use the
+?
+symbol.
+To perform a multiple character wildcard search, use the
+*
+symbol.
+Keywords or phrases containing wildcard characters cannot to be enclosed in quotation marks. To find a result that contains
+chalk and cheese
+, search for
+cha?k and che*
+, not
+"cha?k and che*"
+.
+Example
+To return https://www.atlassian.com/ or http://www.atlassian.jp/, search for:
+http*.atlassian.*
+Leading wildcards
+Confluence doesn't allow wildcards at the beginning of your search. For example, you can't search for
+*hum*
+or
+?hum*
+, as they begin with a wildcard.
+Single character
+Use a question mark
+?
+as a wildcard to replace a single character in your search.
+Example
+To return 'butter', 'bitter', 'better', or 'batter', search for:
+b?tter
+Multiple characters
+Use an asterisk
+*
+as a wildcard to replace multiple characters in your search.
+Example
+To return ‘chicken' or 'chickpea’, search for:
+chick*
+Multiple wildcards
+Use multiple wildcards in your search to replace single and multiple characters.
+Example
+To return 'chick', 'coconut', or 'chickpea', search for:
+c*c*
+You can also combine wildcard characters in one search. For example, the search term below will return 'chick' but not 'chickpea':
+c*c?
+Combined search
+You can also combine wildcards and various search terms:
+o?tag* AND past AND ("blog" AND "post")
 Was this helpful?
 Yes
 No
@@ -515,17 +566,25 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Get notified about content and activity
-Show more
-What is a Confluence RSS feed?
-Build an RSS feed
-Subscribe to pre-specified RSS feeds
-Subscribe to a network RSS feed
-Celebrate your work with Confluence Recap
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
 On this page
-Subscribe to a user's network feed
-Customize your network RSS feed
-Notes
+Search for exact matches
+Search for keywords using operators
+OR search
+AND search
+NOT search
+Group search terms
+Search for keywords using wildcards
+Example
+Single character
+Multiple characters
+Multiple wildcards
+Combined search
 Community
 Questions, discussions, and articles
 Accessibility

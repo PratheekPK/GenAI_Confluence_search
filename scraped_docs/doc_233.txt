@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-user-email-visibility/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-add-visuals-and-images-to-confluence-pages/
 
-Set your email visibility | Confluence Cloud | Atlassian Support
+Use macros to add visuals and images to Confluence pages | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,33 +439,28 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage your account
+Extend the functionality of Confluence Cloud
 Cloud
 Data Center
-Set your email visibility
-On your Atlassian account settings, you can control who can see your email address.
-To set your email visibility:
-Tap your profile picture at the right of the navigation, then select
-Manage account
-.
-Select the
-Profile and visibility
-tab at the top.
-Scroll down to the
-Contact
-section.
-Choose one of the options from the
-Who can see this?
-dropdown:
-Anyone
-:  visible to anyone who can view your content, including people outside of the Atlassian organization. Accessible by installed apps.
-Your organization
-: only visible to people who have access to your organization.
-Only you and admins
-: only visible to you and admins. To manage access to Atlassian products and services, admins need to view your email address too.
-Note: setting options can vary by type of account.
-Your new settings will be saved automatically.
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Display a chart (pie, bar, line, or area) based on data you added to a table.
+View topic
+Insert the iFrame macro
+Preview website content on your page or live doc.
+View topic
+Insert the roadmap planner macro
+Create simple, visual timelines that are useful for planning projects, software releases, and much more.
+View topic
+Add a trio of dynamic frames to your content with Carousel
+Add a rotating carousel of interactive frames to elevate your page or live doc.
+View topic
+Display beautiful, dynamic content on your page or live doc with Cards
+Add interactive visual cards to elevate your page or live doc. Select specific links or set up dynamic filters to update your cards automatically.
+View topic
+Insert the expand macro
+Use the expand macro to create a collapsible container for text.
+View topic
 Was this helpful?
 Yes
 No
@@ -476,13 +471,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage your account
+Explore more
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
 Show more
-Change your Confluence password
-Manage OAuth access tokens
-Delete your account
-Change your theme
-Set your email visibility
+Extend the functionality of Confluence Cloud
+Show more
+Use macros to add navigation on Confluence pages
+Use macros to add reporting info to Confluence pages
+Use macros to add visuals and images to Confluence pages
+Use gadgets to add dynamic content
+Use Questions for Confluence
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

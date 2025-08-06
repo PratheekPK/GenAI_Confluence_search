@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-loom-in-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/disable-anonymous-access-to-remote-api/
 
-Use Loom in Confluence Cloud | Confluence Cloud | Atlassian Support
+Disable anonymous access to remote API | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,62 +439,45 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Confluence administration
+Security settings in Confluence Cloud
 Cloud
 Data Center
-Use Loom in Confluence Cloud
-Record and insert Loom videos directly in Confluence to enhance documentation, explain your thoughts, provide feedback to teammates, and so much more.
-Loom videos are quick to create, easy to edit, and valuable for a variety of situations. You can share your screen or just your thoughts as a supplement to or in lieu of text on pages, live docs, blogs, and whiteboards.
-New to Loom? Dive into some
-best practices
-and
-tips and tricks for recording
+Disable anonymous access to remote API
+Confluence administrators may wish to disable anonymous access to the
+Confluence Cloud
+remote API, to make it harder for malicious users to write "bots" that perform bulk changes to the instance.
+This setting is disabled by default.
+To enable anonymous access to the
+Confluence Cloud
+remote API
+— raise a
+support request
 .
-Record Loom videos in Confluence
-Once your organization has added Loom, you can begin recording Loom videos directly in Confluence, with the flexibility to record from various starting points. After you’ve finished recording, select
-Copy link
-and share the Loom video wherever and however you’d like (including inserting right into the comment you’re writing, the page or live doc you’re editing, the whiteboard you’re viewing, and more).
-Record in a space
-From the main navigation, select
-Create
-, then
-Loom video
-.  This creates a
-Smart Link in the content tree
-for the video, either (depending on permissions) in the space you are currently in or your personal space.
-If you know exactly where in the content tree you’d like the Loom video to go, select instead
-+
-in the
-Content
-section of the space sidebar, then
-Loom video
-.
-Record on a live doc, page, or blog
-When viewing or editing a live doc, published page, or blog, you can start recording by selecting the
-Loom
-button from the floating action bar at the bottom right of your screen or by typing
-/loom
-and then select
-Record a Loom video
-.
-Want to leave a video comment? Select the Loom icon in an inline comment or page comment, then insert the video into the comment.
-Record on a whiteboard
-Select the Loom icon in any whiteboard you can edit, then
-Insert Loom video
-onto the whiteboard.
-Add existing Loom videos to Confluence
-If you have already recorded a Loom video you want to include in Confluence, you can insert it as a link. When adding a link, search for or view recent Loom videos in the link selector, or paste the video URL copied from Loom.
-Loom video permissions
-Loom videos that you record are stored in your Loom library on Loom.com and follow the default permissions of your team’s Loom workspace (typically, that anyone in your workspace can view). You can change the privacy settings for each Loom video you create. Loom videos can be restricted to anyone with the link, anyone in your Loom workspace, or only people you specifically add.
-The visibility of Loom videos added to Confluence will depend on both
-Confluence restrictions
-and Loom video
-privacy settings
-. As an example, if your Loom video itself is viewable by anyone in your workspace and items in the content tree of your personal space are only viewable by you, then only you would be able to view the embedded Loom video added to your personal space through
-Create
+To toggle anonymous access to the remote API:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
 >
-Loom
-video
+Security
+in the left-hand navigation.
+Select
+Security configuration
+.
+Check or uncheck the
+Anonymous Access to Remote API
+box.
+Select
+Save
+at the bottom of the page.
+This page is about access to the remote API. If you're looking for info about preventing anonymous users from accessing
+Confluence Cloud
+, see
+Manage global permissions
 .
 Was this helpful?
 Yes
@@ -506,21 +489,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and organize work in Confluence Cloud
-Show more
-Present your content with Presenter mode
-Atlassian Intelligence features in Confluence Cloud
-Use Loom in Confluence Cloud
-Create and edit whiteboards
-Create and edit databases
-Show more
-On this page
-Record Loom videos in Confluence
-Record in a space
-Record on a live doc, page, or blog
-Record on a whiteboard
-Add existing Loom videos to Confluence
-Loom video permissions
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
 Community
 Questions, discussions, and articles
 Accessibility

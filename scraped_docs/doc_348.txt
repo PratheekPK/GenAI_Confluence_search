@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/navigate-spaces/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-table-of-contents-macro/
 
-Navigate spaces | Confluence Cloud | Atlassian Support
+Insert the table of contents macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,41 +439,123 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Use spaces to organize your work
+Extend the functionality of Confluence Cloud
+Use macros to add navigation on Confluence pages
 Cloud
 Data Center
-Navigate spaces
-Think of a space as the container that holds all the important stuff a team, group, or project needs to work. Each space has its own pages, live docs, blog, and files.
-Each space also has an overview, which is the first page you'll see when you visit the space. You can edit the overview—just like other pages—and add shortcuts to the sidebar to help people navigate their way around your space.
-Spaces can't be nested—you can't have a space within a space—but you can
-use labels to categorize spaces
-. Spaces with the same label will appear together in the the space directory.
-Organize pages, live docs, and blog posts
-Inside the space, you can nest content and create as many levels of hierarchy as you need. When talking about nested content, we often refer to "child" items, which are items that are nested below another item, also called the "parent".
-Each space's blog lets you share news and make announcements. Blog posts help keep people involved in what's going on in your team or project. There's no need (or way) to arrange blog posts within a space, as they're arranged in date order—just post and it'll appear in the right spot under
-Blog
-in the sidebar.
-You can set different levels of access for each space, and the pages, live docs, and blogs within it, using
-permissions and restrictions
-.
-View spaces in Confluence
-There are two main ways to view spaces in Confluence:
-Spaces navigation menu
-– Get to spaces you’ve recently visited and starred.
-The space directory
-– Select
-Spaces
-in the
-sidebar
-and select
-View all spaces
-for a list of all the spaces you have permission to see. Filter the list of spaces by either typing in the
-Filter by title
-field or selecting from the categories on the left.
-The
-spaces list macro
-allows you to display a list of spaces on a Confluence page or live doc, and lets you filter them by category.
+Insert the table of contents macro
+The table of contents macro scans the headings on the current Confluence page or live doc to create a table of contents based on those headings. This helps readers find their way around lengthy content by summarizing the content structure and providing links to headings.
+To add a table of contents to your page or live doc:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To configure your table of contents:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+The table of contents macro offers
+Basic
+or
+Advanced
+configuration options.
+Your selections will display immediately.
+The macro only displays page, live doc, or blog post content. Any text formatted as a heading can be included in your table of contents, along with heading-formatted emojis, mentions, statuses, and dates.
+The macro only works within the page, live doc, blog, or macro to which it has been added, and cannot reference or be referenced across multiple pages, live docs, or blogs. When added to an
+excerpt
+macro, for example, it will only display headings located inside the excerpt and those heading links won’t navigate to the source content.
+Parameters
+To customize your table of contents, you can configure its basic and/or advanced parameters.
+Basic parameters
+Basic parameter
+Default
+Description
+Display as
+Vertical list
+Vertical list
+produces a typical list-type table of contents.
+Horizontal list
+produces a flat, horizontal menu-type series of links.
+Bullet style
+Bullet
+This parameter applies to vertical lists only.  Select from any of the following values:
+None
+No bullets are displayed
+Mixed
+The bullet style is a mix of shapes (filled and open)
+Bullet
+The bullet style is a filled circle
+Circle
+The bullet style is an open circle
+Square
+The bullet style is a filled square
+Numbered
+The list is numbered (1, 2, 3, 4, 5)
+Separate sections by
+Bracket
+This parameter applies to
+horizontal lists
+only.
+Select from any of the following values:
+Bracket
+Each item is enclosed by square brackets: [ ]
+Brace
+Each item is enclosed by braces: { }
+Pipe
+Each item is separated by a pipe: |
+Include heading levels from [#] to [#]
+1 to 6
+Select the minimum and maximum heading levels to include in your table of contents.
+Include section numbers
+Unchecked
+Select the checkbox to apply outline numbering to your headings. As an example: section 1.1, 1.2, 1.3.
+Advanced parameters
+If the parameter name used in Confluence Cloud storage format is different than the label used when inserting macros with the browser or the slash command, it will be listed below in brackets (
+example
+).
+Advanced parameter
+Description
+Indent headings
+(indent
+)
+Sets the indent for a vertical list according to a valid CSS unit value.
+Entering
+10px
+will successively indent heading groups by 10px. Level 1 headings will be indented 10px and level 2 headings will be indented an additional 10px.
+Include headings with:
+(include
+)
+Filter headings to include in your table of contents by inputting specific criteria. You can use wildcard characters and this field is case sensitive.
+As an example, if you only want headings with the words “Overview” and “Summary” to appear, you’d enter
+Overview|Summary
+in this field.
+Exclude headings with:
+(exclude
+)
+Filter headings to exclude from your table of contents by inputting specific criteria, separated by vertical lines { | }. This field is case sensitive.
+As an example, if you want to exclude headings with the words “Overview” and “Summary” from the table of contents, you’d enter
+Overview|Summary
+in this field.
+CSS class name
+(class
+)
+If you have custom table of contents styles in your CSS style sheet, use this parameter to output the table of contents inside
+<div
+tags with the specified class attribute.
+Exclude in PDF export
+(printable
+)
+If the box is checked, the table of contents will not be visible when you export to PDF or print it.
 Was this helpful?
 Yes
 No
@@ -484,17 +566,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use spaces to organize your work
+Use macros to add navigation on Confluence pages
 Show more
-Create a space
-Customize your personal space
-Navigate spaces
-Organize your space
-Find content in a space
-Show more
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
+Insert the table of content zone macro
 On this page
-Organize pages, live docs, and blog posts
-View spaces in Confluence
+Parameters
+Basic parameters
+Advanced parameters
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/learn-about-macros-on-confluence-mobile/
+URL: https://support.atlassian.com/confluence-cloud/docs/navigate-spaces/
 
-Learn about macros on Confluence mobile | Confluence Cloud | Atlassian Support
+Navigate spaces | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,33 +439,41 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Create and organize work in Confluence Cloud
+Use spaces to organize your work
 Cloud
 Data Center
-Learn about macros on Confluence mobile
-The Confluence mobile app has support for a subset of macros available on web. Most macros can be viewed from a page on Confluence mobile, and behave similarly to those on the web.
-Add, edit, or delete macros
-To add new macros or edit macros, you’ll need to use the web editing experience. Changes you make to macros via web editing will be displayed for mobile users.
-Macros can be deleted while editing in mobile. To delete a macro:
-Ensure your page is in editing mode.
-Tap to the right or just below the macro.
-Tap backspace until the macro is deleted.
-Supported macros in Confluence mobile apps
-Below is a list of the macros with full support on mobile.
-Confluence macros
-Select a macro name for details of the usage.
-Anchor Macro
-Blog Posts Macro
-Profile Picture Macro
-Table of Contents Macro
-User Profile Macro
-Marketplace app macros
-Draw.io
-Partially supported macros
-Most other macros are partially supported on mobile. You might see a placeholder for these macros on the page – tap them to open a new screen where you can view and interact with the macro.
-Will more macros be supported on mobile in the future?
-We are always looking for ways to improve the mobile app experience. While we don't have a specific timeline for these updates, we are actively working on improvements. To show your interest in additional macro support,
-leave your feedback here as a comment on this ticket.
+Navigate spaces
+Think of a space as the container that holds all the important stuff a team, group, or project needs to work. Each space has its own pages, live docs, blog, and files.
+Each space also has an overview, which is the first page you'll see when you visit the space. You can edit the overview—just like other pages—and add shortcuts to the sidebar to help people navigate their way around your space.
+Spaces can't be nested—you can't have a space within a space—but you can
+use labels to categorize spaces
+. Spaces with the same label will appear together in the the space directory.
+Organize pages, live docs, and blog posts
+Inside the space, you can nest content and create as many levels of hierarchy as you need. When talking about nested content, we often refer to "child" items, which are items that are nested below another item, also called the "parent".
+Each space's blog lets you share news and make announcements. Blog posts help keep people involved in what's going on in your team or project. There's no need (or way) to arrange blog posts within a space, as they're arranged in date order—just post and it'll appear in the right spot under
+Blog
+in the sidebar.
+You can set different levels of access for each space, and the pages, live docs, and blogs within it, using
+permissions and restrictions
+.
+View spaces in Confluence
+There are two main ways to view spaces in Confluence:
+Spaces navigation menu
+– Get to spaces you’ve recently visited and starred.
+The space directory
+– Select
+Spaces
+in the
+sidebar
+and select
+View all spaces
+for a list of all the spaces you have permission to see. Filter the list of spaces by either typing in the
+Filter by title
+field or selecting from the categories on the left.
+The
+spaces list macro
+allows you to display a list of spaces on a Confluence page or live doc, and lets you filter them by category.
 Was this helpful?
 Yes
 No
@@ -476,17 +484,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Extend the functionality of Confluence Cloud
+Use spaces to organize your work
 Show more
-Use macros to add visuals and images to Confluence pages
-Use gadgets to add dynamic content
-Use Questions for Confluence
-Use automation for Confluence
-Learn about macros on Confluence mobile
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Find content in a space
+Show more
 On this page
-Add, edit, or delete macros
-Supported macros in Confluence mobile apps
-Will more macros be supported on mobile in the future?
+Organize pages, live docs, and blog posts
+View spaces in Confluence
 Community
 Questions, discussions, and articles
 Accessibility

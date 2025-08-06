@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-a-rotating-set-of-frames-to-your-company-hub/
+URL: https://support.atlassian.com/confluence-cloud/docs/export-content-from-confluence-cloud/
 
-Add a rotating set of frames to your Company Hub | Confluence Cloud | Atlassian Support
+Export content from Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,49 +439,16 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Company Hub to deliver key information to employees
+Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Add a rotating set of frames to your Company Hub
-This feature is only offered with
-Confluence Cloud Premium and Enterprise
-.
-Carousel allows you to display a rotating, interactive series of three frames on your page or live doc. It is ideal for for showcasing information in a visually appealing way, or presenting a collection of related items.
-Carousel can transform Confluence, Jira, and Atlas links or external URLs into dynamic, clickable frames. You can customize them in a variety of ways.
-To add a carousel to your page or live doc:
-Select (+) from the toolbar, then find
-Carousel
-. Or, type
-/carousel
-while editing your content.
-Upon selection, a carousel of three empty frames will appear on your page or doc.
-To customize and configure your carousel:
-1. Select the frame of the carousel that
-you want to configure, then select
-Edit
-(
-) to open the configuration panel.
-2. Customize your frames using the configuration options available. Frames can be generated from Confluence pages or Jira links, for example, or external URLs.
-Be aware:
-Content displayed in your carousel that comes directly from the links you’ve selected could be visible to anyone with access to your page, even if they don’t have access to the link itself.
-3. Your selections will appear instantly.
-4. Upon publishing your page, anyone with permission to view it will now be able to see your carousel, manually rotate through its frames, and navigate to any links provided.
-Configuration
-You can customize exactly how your carousel appears with the following options:
-Configuration options
-Option
-Description
-Link
-Display content on your frame directly sourced from Confluence, Jira, Atlas, or external URLs.
-Be aware:
-Content displayed in your carousel that comes directly from the links you’ve selected will be visible to anyone with access to your page, even if they don’t have access to the link itself.
-Title
-We highly recommend adding a header title to your frame. Character maximum: 255.
-Description
-Add a caption or other text below the title of your frame. Character maximum: 700.
-Image
-You can add an image to your frame by browsing and selecting from Unsplash, selecting the image we’ve sourced from any link added, or uploading an image directly. We recommend images that are 700 px or wider.
+Export content from Confluence Cloud
+Wide tables may be cut off in PDF export
+Review suggestions for ensuring that large tables don't get cut off when exporting content to PDF.
+View topic
+Cases where PDF Export may revert to using legacy exporter
+Learn about conditions when your PDF export might use an older version of the feature.
+View topic
 Was this helpful?
 Yes
 No
@@ -492,18 +459,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Company Hub to deliver key information to employees
+Explore more
+Wide tables may be cut off in PDF export
+Cases where PDF Export may revert to using legacy exporter
+Create and organize work in Confluence Cloud
 Show more
-Use sections to enhance and highlight your Company Hub content
-Highlight important messages with a visual spotlight
-Add a rotating set of frames to your Company Hub
-Use cards to add beautiful dynamic content to Company Hub
-Curate search results in Company Hub
-On this page
-To add a carousel to your page or live doc:
-To customize and configure your carousel:
-Configuration
-Configuration options
+Create and edit whiteboards
+Create and edit databases
+Export content from Confluence Cloud
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

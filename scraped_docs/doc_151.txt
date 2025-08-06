@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/faq-import-data-from-html-to-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/troubleshoot-access-problems-to-content/
 
-FAQ import data from HTML to Confluence | Confluence Cloud | Atlassian Support
+Troubleshoot access problems to content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,89 +439,99 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Import data from other tools into Confluence
+Manage your account and permissions in Confluence Cloud
+Manage permissions at the content level
 Cloud
 Data Center
-FAQ import data from HTML to Confluence
-Who has permission to import?
-All users who can create spaces will also be able to import HTML files into Confluence. If you can’t import, reach out to your admin and check your space permissions.
-How do I increase my attachment size limit?
-You’ll need to reach out to your admin to do so.
-Admin-only:
-To import your HTML content into Confluence, ensure that your file size limit exceeds the size of the file you are importing. Follow these steps:
-Select the gear icon to navigate to
-Settings
->
-Global permissions
+Troubleshoot access problems to content
+Confluence offers a few different tools to help you troubleshoot access problems to content, whether you’re trying to figure out why someone can’t access content or why someone
+can
+access it but shouldn’t.
+Unblock someone’s access
+There are a few different reasons why someone wouldn’t have the level of access they should.
+Space permissions vs content permissions
+The first thing to remember is that permissions in Confluence are inherited from the container above. This means that if someone doesn’t have access to a content item, then it could be because of:
+settings on the content item itself,
+settings inherited from one of its parent items,
+and/or settings inherited from the space.
+You may be able to fix access issues, depending on where the access issue is coming from.
+Issue on the content item itself
+— To fix these issues, you need to have edit access to the content and space-level permission to edit content restrictions, or else contact someone who does.
+Issue inherited from a parent item
+— To fix these issues, you need to have edit access to the parent item and space-level permission to edit content restrictions, or else contact someone who does.
+Issue inherited from the space
+— To fix these issues, you need to be a space admin, or else contact one.
+For a list of all space-level permissions and what they control, see
+Assign space permissions
 .
-Go to the
-General Configuration
-section.
-Scroll down to the Attachment Size setting and increase the byte size to be larger than your HTML zipfile.
-To increase the file size only temporarily, after the import, revert to the original limit.
-Can I restrict content to be only visible to me?
-Yes! You can set
-Only visible to me
-in the permissions section of the the
-Set up space
-step. We recommend that you restrict sensitive spaces and then remove restrictions for non-sensitive spaces, rather than using open permissions initially. This way, you won’t accidentally reveal any sensitive information.
-Private pages will transfer to a new, restricted space.
-Note:
-Because only you will be able to access the
-Restricted to you
-content, all pages and comments will be labeled as created by you (the importing user).
-What file type can I upload?
-You can only upload a .zip file containing a folder (the name of the folder will apply as the space name) containing .html files. The name of the .html file will become the name of the created page, and any supplemental media used in the page must be stored in a folder with the same name as the page. Any unsupported media will be ignored.
-What content gets transferred from HTML?
-The content formatting we preserve includes:
-Headings, paragraph list
-Center alignment
-Bold text
-Hyperlinks
-Images
-Tables
-Number list
-Normal + Italic text
-Emojis
-Links
-Bulleted lists
-Quotes
-Dividers
-Inline code
-Superscript
-Unsupported features
-The following features are either will often show up as plain text or similar after the import or are not supported:
-HTML
-Confluence
-Audio .mp4
-Unsupported
-Title
-Unsupported
-Figure
-Unsupported
-Nav
-Unsupported
-iframe
-Unsupported
-Block equation
-Plain text only
-Button
-Unsupported
-Code block
-Plain text
-Customized text (text color, background color)
-Stylized text
-Inline equation
-Plain text
-Link to page
-Hyperlink
-Video (embedded link)
-Hyperlink
-Are there any storage limits?
-Our
-Premium and Enterprise plans
-offer unlimited storage. Pick your plan and enter your team size in our price calculator to see if your plan will be affected by adding users. If you exceed your storage limit for the Standard or Free plan because of the import process, we will attempt to automatically offer you a free trial on the plan that fits your storage limits. If we can’t do this automatically, we will show a banner that says you have 14 days to reduce storage or convert to a different plan.
+When someone doesn’t have access
+Confluence will let you know when you try to share with people who won’t actually be able to access the content before you’re finished sharing with them.
+Confluence will also tell you when someone already added to the content doesn’t have the indicated access to the content, but only when a person or a group has been explicitly added to the
+Specific
+access
+list.
+This in-line warning message will only appear when a listed person or group:
+needs space access
+needs view access to a parent item
+needs permission at the space level to edit content in the space
+When the content inherits restrictions from a parent
+Confluence will tell you when content inherits access restrictions from one of its parent items in the content tree.
+To troubleshoot inherited access problems:
+Open the
+Share
+window on the content item you want to give someone access to.
+Select
+this parent
+in the statement “Anyone on
+this parent
+”. This will take you to the immediate parent item causing the access restriction. (There may be other parent items with view restrictions.)
+Open the
+Share
+window on that parent item and see if the person or group has access. If not, add them.
+After adding them, if this parent item doesn’t inherit restrictions from any of
+its
+parents, go back to the original content item and refresh to confirm the access problem has been resolved.
+If this parent item does inherit restrictions from one of its parents, follow the same process until you’ve added the person or group to all restricted parents.
+If you have permission to move content in the space, you can also try moving the child content out from under the restricted parent item where it’s organized in the content tree.
+An easier way to troubleshoot on Premium
+If you’re on the premium plan, you can use the
+inspect permissions feature
+to easily see at which levels of hierarchy someone is being denied access (parent content, space, and/or app).
+You can find this feature in the
+Share
+window, in the More options menu (•••).
+Restrict someone’s access
+If someone can access content they shouldn’t, there are a couple of things to consider.
+First, you can remove access for everyone and individually add back only the people who should have access.
+To remove access for everyone and add back individually:
+Open the
+Share
+window.
+Change
+General access
+from
+Open
+>
+Restricted
+.
+Add individual people or groups back to the access list.
+Select
+Save
+.
+Second, you might need to look for additive permissions.
+Additive permissions and groups
+Confluence operates on a model of additive permissions, which means that if someone has access to content in two or more ways, they always get the greater access.
+For example, let’s say you have a page that is restricted to the group “Marketing team”. Only that group should be able to view and edit the page. This means that
+General access
+is set to “Restricted” and that the group “Marketing team” appears in
+Specific access
+with “Can edit” permission.
+But let’s say that Omar, who is a member of the “Marketing team” group, should
+not
+be able to edit the page, and to accomplish this, someone added Omar explicitly to the page with “Can view” permission.
+This does NOT mean Omar is restricted from editing the page.
+This is because, even though Omar is explicitly listed as “Can view”, he can still edit the page because he has access to the page through another source — as a member of the “Marketing team” group — which has “Can edit” assigned.
+Thus, part of troubleshooting why someone has a certain level of access to content that they shouldn’t have is figuring out all the ways they might have access and determining the greatest access across those sources.
 Was this helpful?
 Yes
 No
@@ -532,21 +542,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Import data from other tools into Confluence
-FAQ import data from HTML to Confluence
-FAQ import data from Notion to Confluence
-Import data from HTML to Confluence
-Import data from Notion into Confluence
-Import multiple Miro boards to Confluence
-Show more
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
 On this page
-Who has permission to import?
-How do I increase my attachment size limit?
-Can I restrict content to be only visible to me?
-What file type can I upload?
-What content gets transferred from HTML?
-Unsupported features
-Are there any storage limits?
+Unblock someone’s access
+Space permissions vs content permissions
+When someone doesn’t have access
+When the content inherits restrictions from a parent
+Restrict someone’s access
+Additive permissions and groups
 Community
 Questions, discussions, and articles
 Accessibility

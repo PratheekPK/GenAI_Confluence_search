@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-add-and-edit-calendars/
+URL: https://support.atlassian.com/confluence-cloud/docs/simplify-data-with-tables/
 
-Getting started with team calendars | Confluence Cloud | Atlassian Support
+Simplify data with tables | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,116 +439,138 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Getting started with team calendars
-Team calendars is a feature in all Premium or higher subscriptions in Confluence. Before getting started, verify that you are on a Confluence Premium subscription.  If you are new to Confluence, get started on a free trial of Confluence Premium
-here.
-You can create new calendars or add existing calendars in any Confluence space. Existing calendars can be other calendars from your Confluence site or Google Calendars
-Team calendars is not currently supported on mobile devices.
-Create a calendar
+Simplify data with tables
+By using tables appropriately, you can ensure that your data is easy to read and understand while maintaining a clean and organized layout. In this guide, we will cover how to create, edit, format, and manage tables, ensuring that you get the most out of this versatile feature.
+Creating a table
+Creating a table in Confluence is straightforward and allows you to quickly organize and present your data. Follow these steps to add a table to your page or live doc:
+From the toolbar or / command:
 Select
-Calendars
-in the space
-sidebar
-. A
-Calendars
-panel opens.
-Select the
-button at the top right of the
-Calendars
-panel and select
-Add new calendar
-. The
-Create calendar
-modal window appears.
-Enter a name for the calendar.
-Select
-Create
+Table
+in the toolbar or type
+/table
 .
-Add an existing calendar
+You can also insert a table with keyboard shortcuts:
+shift
++
+option
++
+T
+for Mac or
+shift
++
+alt
++
+T
+for Windows.
+A three-column, three-row table (including a header row) will appear.
+Customizing table size:
+You can also select the
+Table size
+menu in the toolbar to set the number of columns and rows according to your needs.
+When you have large tables with many rows, the header row becomes “sticky” and doesn't scroll out of view when editing or viewing content. This helps maintain context while working with extensive data sets. Note that this doesn't work if you've merged several rows to create a bigger header row.
+Remember, while tables are excellent for presenting data. For more complex formatting, consider using macros or other layout options available in Confluence Cloud.
+Editing a table's rows and columns
+Editing the structure of a table is essential for organizing your data effectively. You can easily add, remove, merge, and split rows and columns to fit your needs. Here’s how:
+Adding and removing rows and columns
+Using the drag handle menu
+To add a column, select the column drag handle and select
+Add column left
+or
+Add column right
+from the menu.
+To add a row, select the row drag handle and select
+Add row above
+or
+Add row below
+from the menu.
+To remove a column, select the column drag handle and select
+Delete column
+from the menu.
+To remove a row, select the row drag handle and select
+Delete row
+from the menu.
+Using the insert options
+To add a new column, hover over the column line at the top of the table until the insert column option appears, then select it to add.
+To add a new row, hover over the row line to the left of the table until the insert row option appears, then select it to add.
+Using
+Tab
+from the final cell in a table will add a new row to the bottom of the table.
+Merging and splitting cells
+Merge cells:
+Select the cells you want to combine, then select the
+Merge cells
+option from the cell menu.
+Split cells:
+Select the merged cell you want to split, then select the
+Split cells
+option from the cell menu.
+Reordering columns and rows
+Drag and drop:
+You can reorder columns and rows by selecting, dragging, and dropping them into the desired position using the drag handles. This allows you to organize your table dynamically.
+Hold the
+Shift
+key to select multiple rows or columns before dragging and dropping them together.
+Table options for rows and columns
+Fixed column widths:
+Determine if your table behaves as a fixed-width or variable-width table on different screen sizes.
+Row and column header styles:
+For better readability and organization, make a row a header row or a column a header column with a grey-shaded background and bold text from
+Table options
+from the table toolbar.
+Numbered column:
+Insert a numbered column from
+Table options
+from the table toolbar to automatically number each row, useful for data that requires indexing.
+By editing your table’s rows and columns, you can ensure that your data is presented in a clear and structured manner, making it easier for users to read and understand.
+Sorting table data
+Sorting data within a table helps you organize information and make it easier to read. Here’s how you can sort your table data:
+Sort columns
+Select the column handle you want to sort.
+Select the option to sort the data in ascending or descending order from the menu that appears.
+Sorting your table data allows you to present information in a logical sequence, making it easier for users to understand and analyze the content.
+Changing table layout and style
+Changing the layout and style of your table helps enhance its readability and visual appeal. Here’s how you can customize your table:
+Changing cell background color
+Select the cells you want to format.
+Select the background color option from the cell menu to apply the desired color.
+Aligning tables
+Use the alignment button in the table toolbar to align tables to the left or center of the page or live doc.
+Note that tables inserted in full-width pages are left-aligned by default.
+Using guides for alignment
+Guides appear to help align your table width with other content on the page or live doc.
+Set your table width to one of the following three default widths: centered, wide, or full-width.
+By changing the layout and style of your table, you can ensure that your data is presented in an organized and visually appealing manner, making it easier for users to read and understand.
+Resizing tables and columns
+Customizing the size of tables and columns allows your data to fit well within your content layout. Here’s how to resize tables and columns:
+Resizing the whole table
+Locate the resize handle on the right side of the table.
+Drag the resize handle to adjust the table to the desired width.
+Resizing individual columns
+Drag the column borders to adjust the width of individual columns.
+Use the
+Distribute columns
+button to make selected columns the same width.
+Setting column widths to fixed
+Open the
+Table options
+in the table toolbar.
+Select the option to set column widths to fixed. This option is unchecked by default, allowing tables to scale dynamically.
+Fixed column widths ensure your table layout remains consistent even on narrow screens. For those who prefer dynamic responsiveness, we’ve increased the maximum scaling flexibility.
+By resizing your tables and columns, you can ensure your data presentation fits your content layout and enhances readability.
+Deleting a table
+Deleting a table is straightforward and helps you keep your content organized. Here’s how you can remove a table from your page or live doc:
+Select the table you want to delete.
 Select
-Calendars
-in the space sidebar. A calendar panel opens.
-Select the
-button at the top right of the
-Calendars
-panel and select
-Add existing calendar
-. The
-Add existing calendar
-modal window appears.
-Search or browse for calendars to add.
-Select the check boxes for the calendars to be added to the space.
-Clear the
-Watch selected calendars
-checkbox if you don't want notifications when changes are made to the selected calendars.
-Select
-Add
-.
-Import a calendar
-Select
-Calendars
-in the space sidebar. A calendar panel opens.
-Select the
-button at the top right of the
-Calendars
-panel and select
-Import calendar
-. The
-Import calendar
-modal window appears.
-Enter a name for the calendar.
-Choose a file from the
-Upload iCal
-field.
-Select the .ics file to be imported and select
-Open
-.
-Select
-Import
-.
-Subscribe by URL
-Select
-Calendars
-in the space sidebar. A calendar panel opens.
-Select the
-button at the top right of the
-Calendars
-panel and select
-Subscribe by URL
-. The
-Subscribe
-modal window appears.
-Enter a name for the calendar.
-Paste the URL for the calendar in the iCal URL field.
-Select
-Subscribe
-.
-See
-Subscribe to Google Calendars from Confluence
-for more information.
-Edit a calendar
-To change the name of a calendar, hide certain event types, or move the calendar to another space, you can edit the calendar provided you have the right permissions.
-Select
-Calendars
-in the space sidebar.
-Select
-to the right of the calendar name, then select
-Edit
-.
-Change the calendar's name or move it to another space.
-Select
-Save
-.
-You can also
-add custom event types
-and hide default event types to tailor the calendar to your needs.
-Did you know you can
-add a calendar to a Confluence page
-?
+Remove
+in the floating toolbar that appears below the table.
+If you have any charts linked to your table, you will be given the option of deleting them.
+By deleting unnecessary tables, you can maintain a clean and well-organized page or live doc, making it easier for users to find and focus on relevant information.
+Visualizing table data
+Transform your table data into dynamic charts to make it easier to review, monitor, and present. Visit Charts and connected data to learn how to create and customize charts from your table data.
 Was this helpful?
 Yes
 No
@@ -559,19 +581,29 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Subscribe to Team Calendars from third-party calendars
-Getting started with team calendars
-Add events
-Add Jira events
-See standard event types
+Create and edit content
+Show more
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
 Show more
 On this page
-Create a calendar
-Add an existing calendar
-Import a calendar
-Subscribe by URL
-Edit a calendar
+Creating a table
+Editing a table's rows and columns
+Adding and removing rows and columns
+Merging and splitting cells
+Reordering columns and rows
+Table options for rows and columns
+Sorting table data
+Changing table layout and style
+Changing cell background color
+Aligning tables
+Using guides for alignment
+Resizing tables and columns
+Deleting a table
+Visualizing table data
 Community
 Questions, discussions, and articles
 Accessibility

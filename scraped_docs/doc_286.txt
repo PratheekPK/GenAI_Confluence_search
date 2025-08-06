@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/collaborate-on-content-and-get-notified-in-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-add-development-info-on-confluence-pages/
 
-Collaborate on content and get notified in Confluence Cloud | Confluence Cloud | Atlassian Support
+Use macros to add development info on Confluence pages | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,18 +439,47 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
+Extend the functionality of Confluence Cloud
 Cloud
 Data Center
-Collaborate on content and get notified in Confluence Cloud
-Collaborate on content
-Learn how you can use Confluence features to stay connected to people and content.
-View topics
-Get notified about content and activity
-Learn how to view notifications, subscribe to email notifications, and build and subscribe to RSS feeds.
-View topics
-View Confluence analytics to see how content is performing
-Understand how Confluence analytics works, a Confluence Cloud Premium feature.
-View topics
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Display Jira work items on your Confluence page or live doc.
+View topic
+Insert the Jira chart macro
+Display Jira issue data on your page or live doc.
+View topic
+Insert the Jira timeline macro
+Display your project's Jira timeline on your page or live doc.
+View topic
+Display your Assets data on a Confluence page
+See how to display your Assets data on a Confluence page or live doc using the Assets macro.
+View topic
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Explore more
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
+Extend the functionality of Confluence Cloud
+Show more
+Use Confluence with other applications
+Use macros to show Confluence content on pages and live docs
+Use macros to add development info on Confluence pages
+Use macros to include media on Confluence pages
+Use macros to add navigation on Confluence pages
+Show more
+Community
+Questions, discussions, and articles
 Accessibility
 Notice at Collection
 Privacy Policy

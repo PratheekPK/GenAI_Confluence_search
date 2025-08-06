@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-team-calendars-for-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-column-macro/
 
-Use Team Calendars for Confluence (Premium feature) | Confluence Cloud | Atlassian Support
+Insert the column macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,66 +439,31 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Create and organize work in Confluence Cloud
+Review macros only available in the legacy editor
 Cloud
 Data Center
-Use Team Calendars for Confluence (Premium feature)
-Subscribe to Team Calendars from third-party calendars
-Learn about the Team Calendars feature that is available with a Premium licence.
-View topic
-Getting started with team calendars
-Create calendars for yourself and your team, and view other calendars from your organization, all in one place.
-View topic
-Add events
-Add events to your calendars and categorize them into different event types for easier viewing and management.
-View topic
-Add Jira events
-Use Jira events to visualize versions, issues, or sprint dates from Jira applications that are connected to your Confluence site.
-View topic
-See standard event types
-Classify different events in your Team Calendars.
-View topic
-Add and delete custom event types
-Manage custom event types in your Team Calendars.
-View topic
-Add reminders to events
-Create event reminders in your Team Calendars.
-View topic
-Embed calendars on Confluence content
-Learn how to embed Team Calendars in your Confluence pages and live docs.
-View topic
-Watch a calendar
-Stay up-to-date on changes made in Team Calendars using the watch feature.
-View topic
-Subscribe to Team Calendars from Apple Calendar
-Subscribing to Team Calendars from an Apple calendar is a great way to keep track of your team's activities.
-View topic
-Subscribe to Team Calendars from Thunderbird
-View topic
-Subscribe to Google Calendars from Confluence
-Subscribing to Google Calendars from Team Calendars is a convenient way to see all your events in one place.
-View topic
-Subscribe to Team Calendars from Google Calendar
-Subscribing to Team Calendars from a Google calendar is a great way to keep track of your team's activities.
-View topic
-Subscribe to Team Calendars from Microsoft Outlook
-Subscribing to Team Calendars from a Microsoft Outlook calendar is a great way to keep track of your team's activities.
-View topic
-Subscribe to Team Calendars from Apple iOS Calendar
-Subscribing to Team Calendars from an Apple iOS calendar is a great way to keep track of your team's activities.
-View topic
-Export to other calendars
-Export your Team Calendar data for inport into other calendars.
-View topic
-Set system properties
-Learn how to troubleshoot issues with Team Calendars by enabling configuration and debugging settings.
-View topic
-Team Calendars FAQs
-Review the top frequently asked questions about Team Calendars.
-View topic
-Subscribe to Team Calendars from Google Calendar (Android)
-View and update Team Calendar events in Google Calendar.
-View topic
+Insert the column macro
+In June 2025, Atlassian announced the upcoming
+deprecation of the legacy editor
+as well as
+information about converting
+to the cloud editor.
+Before the deprecation begins in January 2026, this macro will still work. See our
+article on legacy editor macros
+for more.
+Used with the Section macro to define columns on a page. See
+Add formatting to your page
+to learn how to use the updated cloud editor layout tools.
+Wiki markup example
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Macro name:
+column
+Macro body:
+Accepts rich text.
+{column:width=100px}
+This is the content of *column 1*.
+{column}
 Was this helpful?
 Yes
 No
@@ -509,20 +474,6 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Subscribe to Team Calendars from third-party calendars
-Getting started with team calendars
-Add events
-Add Jira events
-See standard event types
-Show more
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
-Use Company Hub to deliver key information to employees
-Use Confluence with other applications
-Use macros to show Confluence content on pages and live docs
-Use macros to add development info on Confluence pages
-Show more
 Community
 Questions, discussions, and articles
 Accessibility

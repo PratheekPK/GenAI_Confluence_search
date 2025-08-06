@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-account-permissions-in-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/space-administration/
 
-Manage your account and permissions in Confluence Cloud | Confluence Cloud | Atlassian Support
+Space administration | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -441,12 +441,30 @@ Confluence
 Resources
 Cloud
 Data Center
-Manage your account and permissions in Confluence Cloud
-Manage your account
-Learn how to edit and maintain your profile, settings, and password.
+Space administration
+Set space-specific functionality
+Set default functionality for a space in Confluence Cloud.
 View topics
-Manage permissions at the content level
-Adjust who can see and who can edit your page.
+Manage permissions at the space level
+Everything a space admin needs to know about managing permissions at the space level.
+View topics
+Manage content in a space
+See what space administrators can do to organize, update, export, or restore content.
+View topics
+Remove a space
+Learn the difference between archiving and deleting a space in Confluence Cloud.
+View topics
+Create templates, blueprints, and reports
+Use templates to jumpstart your page creation and maintain consistentency in how your information is presented.
+View topics
+Manage team calendars
+Learn what space administrators can do to manage team calendars in Confluence Cloud.
+View topics
+Manage Questions for Confluence
+Learn how space administrators can set up and manage Questions for Confluence.
+View topics
+Customize your space
+Learn how space admins can customize the look, feel, and functionality of a space.
 View topics
 Accessibility
 Notice at Collection

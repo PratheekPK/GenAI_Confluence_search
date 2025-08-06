@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/install-a-theme/
+URL: https://support.atlassian.com/confluence-cloud/docs/charts-and-connected-data/
 
-Install a theme | Confluence Cloud | Atlassian Support
+Charts and connected data | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,34 +439,71 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Look and feel settings in Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Install a theme
-Themes are used to let the admin change the appearance of a
-Confluence Cloud
-site or spaces.
-To install a new admin-driven theme on your site:
-In a separate tab, navigate to
-marketplace.atlassian.com
-.
-Use the menus in the sidebar to filter by app(Confluence) and hosting option (Cloud).
-Under
-Categories
-, select
-Themes & styles
-.
-Select the theme of your choice, then select
-Get it now
-.*
-*If the theme costs money to install, this button will say
-Try it free
-instead.
-When a new space is created, the theme applied to the whole site will be applied by default to the new space. To change colors for individual spaces, you'll need to download a theming app from the Atlassian Marketplace.
-Users can also
-select their own theme,
-choosing either Light or Dark. These choices are independent of the theme you choose in settings, however each theme responds to the user’s current choice, presenting slightly darker colors in Dark mode.
+Charts and connected data
+Visualizing table data as dynamic charts can make your information easier to review, monitor, and present. Here’s how you can create and customize charts from your table data:
+Inserting a chart
+Select the table you want to visualize.
+Select the
+Insert chart
+option in the floating toolbar.
+A new chart will be added below the table. You can then customize the chart you want to create.
+Customizing chart options
+Select your chart to customize.
+Select
+Chart options
+in the floating toolbar.
+Customize your chart by adjusting settings. Each chart type has its own unique customizations.
+Chart type
+Bar chart
+Line chart
+Pie chart
+Data
+X-axis
+Data series
+Aggregate data
+X-axis
+Data series
+Aggregate data
+Category
+Data series
+Aggregate data
+Style
+Plot area height
+Data series (table headings) colors
+Chart orientation
+Plot area height
+Data series (table headings) colors
+Show or hide data points
+Line smoothing
+Chart orientation
+Plot area height
+Data series (table headings) colors
+Title
+Chart title, x-axis, y-axis
+Chart title, x-axis, y-axis
+Chart title
+Legend
+Show or hide the chart legend
+Legend position
+Show or hide the chart legend
+Legend position
+Show or hide the chart legend
+Legend position
+Managing charts
+Adjust chart width:
+You can change the chart's width to be centered, wide, or full-width.
+Remove charts:
+To remove a chart, select it and click the trashcan icon in the floating toolbar. This action will not delete the source table.
+Keeping charts linked to source data
+Charts are linked to their source table, so changes you make to the table will reflect in the chart.
+If you want to show a chart but hide the source table, use the
+Expand
+macro to hide the table within an expandable section.
+By visualizing your table data, you can transform raw data into informative and visually appealing charts, making it easier for users to interpret and analyze the information. If you decide to split this section onto a new page or live doc, ensure the instructions and tips remain clear and accessible for users seeking to create and manage data visualizations in Confluence Cloud.
 Was this helpful?
 Yes
 No
@@ -477,11 +514,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Look and feel settings in Confluence Cloud
-Install a theme
-Set the default theme
-Customize the navigation colors
-Change your site and space logos
+Create and edit content
+Show more
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Show more
+On this page
+Inserting a chart
+Customizing chart options
+Managing charts
+Keeping charts linked to source data
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-analytics-permissions-in-confluence-administration/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-jira-timeline-macro/
 
-Manage analytics permissions in Confluence administration | Confluence Cloud | Atlassian Support
+Insert the Jira timeline macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,13 +439,41 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Extend the functionality of Confluence Cloud
+Use macros to add development info on Confluence pages
 Cloud
 Data Center
-Manage analytics permissions in Confluence administration
-Control which groups can use analytics
-Control who can view analytics on a Confluence instance or spaces.
-View topic
+Insert the Jira timeline macro
+If you're using a
+next-gen Jira Cloud project
+, the Jira timeline macro allows you to add your project's timeline to a Confluence Cloud page or live doc.
+Add your timeline to a Confluence Cloud page or live doc
+You can add your team's timeline to a Confluence Cloud page or live doc using the Jira timeline macro. Timelines you add to a Confluence Cloud page or live doc will update in real-time, and you can interact with it just as you would in Jira.
+There are three ways to add your timeline to a Confluence Cloud page or live doc.
+Option 1: Paste a URL
+Go to your team-managed
+software project
+and view the
+Timeline
+.
+Copy the URL from your browser.
+Paste that URL directly into your Confluence page or live doc.
+It will automatically be transformed into a Jira timeline macro.
+Option 2: Macro shortcut menu
+Bring up the macro shortcuts menu with either '
+/
+' (in the new Confluence Cloud editor) or '
+{
+' (in the classic editor).
+Search for
+Jira timeline
+.
+Option 3: Macro menu
+Select the macro menu (
++
+).
+Select
+Jira timeline.
 Was this helpful?
 Yes
 No
@@ -456,16 +484,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Control which groups can use analytics
-Confluence administration
-Show more
-Premium admin tools for Confluence Cloud
-Manage global permissions in Confluence administration
-Manage analytics permissions in Confluence administration
-Manage Confluence content templates
-Configuration settings in Confluence Cloud
-Show more
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-the-audit-log/
+URL: https://support.atlassian.com/confluence-cloud/docs/export-your-whiteboard/
 
-View the audit log | Confluence Cloud | Atlassian Support
+Export your whiteboard | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,74 +439,36 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Monitor and manage activity in Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-View the audit log
-You'll need Confluence administrator permissions to view the audit log. The audit log isn’t available on the
-Free plan
+Export your whiteboard
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-The audit log allows administrators to look back at the history of key changes and events that have happened in Confluence. This is useful when you need to troubleshoot a problem or if you need to keep a record of important events, such as changes to global permissions.
-To view the audit log:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Monitoring
-in the left-hand navigation.
+Exporting your whiteboard allows you to save your work in various file formats for easy sharing and documentation. Here are the available export options and the steps to export your whiteboard.
+Export options
+File type
+:
+PDF, PNG, JPG
+Export area
+:
+Entire board: Exports the entire whiteboard, capturing all content within it.
+Selected area:
+This option allows you to export specific parts of the whiteboard. Make sure some items on the board are selected to use this option.
+To export your whiteboard:
+Open the more menu (
+...
+) from the top of the whiteboard.
 Select
-Audit log
+Export
 .
-You can then filter the log by keyword and time to narrow down the results. Here's how it looks.
-Filter it:
-dig into the log by keyword or by time.
-More control:
-export the whole log or change how long to keep events
-Get detailed:
-see the details of each change.
-The audit log records information about the following types of events and notes if the change was made using
-admin key
-. This isn’t an exhaustive list, but gives you an idea of what you might see in the log.
-Spaces
-Created, archived, or deleted
-Exported or imported
-Configuration updated
-Logo uploaded
-Trash emptied
-Users and groups
-User created, deactivated, or reactivated
-User details updated
-User added to or removed from group
-Group added or deleted
-Global administration
-Global settings changed
-Site logo changed
-Color scheme modified
-Permissions
-Global permission added or removed
-including “anonymous” access
-Space permission added or removed
-including “anonymous” access
-Content restriction added or removed
-Public links
-Enabled or disabled
-Content
-Archived or restored
-Viewed with
-admin key
-Templates
-Created or updated
-The audit log doesn't record information related to content edits (you can view this in the version history) or changes to a content’s location.
-Events remain in the log, by default, for one year. We find that retaining log data for a full year can be particularly helpful when troubleshooting problems. However, you can adjust the log settings to keep events for as short as one standard month (31 days).
-Once a week the system will run a clean up and delete any log entries that are older than the time frame you’ve set. (This will happen on the same day at the same time, every week.)
-To change how long to keep events:
+Select a file type and export area.
 Select
-Settings in the top-right corner of the audit log.
-A screen will open, allowing you to save events for between 1 and 12 months.
-Select
-Save
+Export
 .
-To save a record of logs for longer than 12 months, or to explore the log in more detail, you can export the log to CSV format.
+The file for the exported whiteboard will begin downloading to your device.
 Was this helpful?
 Yes
 No
@@ -517,10 +479,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Monitor and manage activity in Confluence Cloud
-Act on insights from mission control
-Download a spaces report
-View the audit log
+Create and edit whiteboards
+Show more
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

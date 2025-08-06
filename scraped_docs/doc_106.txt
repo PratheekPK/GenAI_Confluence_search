@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-column-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/set-viewing-permissions-for-analytics/
 
-Insert the column macro | Confluence Cloud | Atlassian Support
+Control which groups can use analytics | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,31 +439,59 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Confluence administration
+Manage analytics permissions in Confluence administration
 Cloud
 Data Center
-Insert the column macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-Used with the Section macro to define columns on a page. See
-Add formatting to your page
-to learn how to use the updated cloud editor layout tools.
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-column
-Macro body:
-Accepts rich text.
-{column:width=100px}
-This is the content of *column 1*.
-{column}
+Control which groups can use analytics
+This feature is offered with
+Confluence Cloud Premium and Enterprise
+.
+Set who can view analytics in Confluence
+If you're a Confluence administrator, you can control who can view analytics on your instance. Set
+global permissions
+by allowing or denying groups access to analytics.
+Browse to the Confluence administration.
+Click
+Security
+>
+Analytics permissions
+in the sidebar.
+Edit, select the groups, and click
+Save
+.
+Notes on global permissions:
+When no restrictions are applied at the global level, new groups added to your instance will have access to analytics.
+When at least one group is denied access to analytics, all new groups will also be denied access by default.
+Anonymous users can't view analytics.
+Set who can view analytics in a space
+If you're a space administrator, you can control who can view analytics in your space. Set
+space permissions
+by allowing or denying users or groups access to analytics.
+A user or group must have analytics permissions at the global Confluence level before they can be granted space-level permissions.
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Space access
+menu
+and select
+Analytics Permissions
+.
+Select
+Viewing analytics restricted
+from the drop-down menu.
+Type a name into the search box to find a person or group, then select the correct entry to grant them access. To revoke access, select
+Remove
+next to their name on the list.
+Select
+Save
+to save your changes.
 Was this helpful?
 Yes
 No
@@ -474,6 +502,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+On this page
+Set who can view analytics in Confluence
+Set who can view analytics in a space
 Community
 Questions, discussions, and articles
 Accessibility

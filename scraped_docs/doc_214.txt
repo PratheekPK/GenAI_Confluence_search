@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/the-confluence-legacy-editor/
+URL: https://support.atlassian.com/confluence-cloud/docs/troubleshooting-import-data-from-html-to-confluence/
 
-The Confluence legacy editor | Confluence Cloud | Atlassian Support
+Troubleshooting import data from HTML to Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,37 +440,31 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
+Import data from other tools into Confluence
 Cloud
 Data Center
-The Confluence legacy editor
-What's the legacy editor?
-The legacy editor was the original editing environment in
-Confluence Cloud
-, largely mirroring the Confluence server experience. Our cloud editor is now the default in
-Confluence Cloud
-and across Atlassian. While the legacy editor is no longer available for newly created pages, you can still view and edit older pages that were created in it. Pages migrated from Server or Data Center land in Confluence Cloud in legacy format.
-In June 2025, Atlassian
-announced the deprecation
-of the legacy editor. This will be a phased process beginning in January 2026. The means no new features are being implemented and we only fix bugs that are part of major incidents.
-We are improving the conversion path for legacy editor pages, which will allow a smooth process to get all your content into the
-cloud editor
+Troubleshooting import data from HTML to Confluence
+How will I know if my HTML upload is successful?
+You’ll receive a notification email when the import is complete. If the import was a success, the email will contain which content was transferred. If any imports are partially or fully unsuccessful, you’ll receive a short indication about why it failed. The following table provides more information about each error message and steps you can take to solve them.
+Are there size limits for file uploads?
+It depends. If you encounter a size limit, please contact your admin, as they determine the size restrictions of HTML import files.
+What if i’m still experiencing errors?
+Check your file format and make sure it’s a ZIP HTML file and review our extensive HTML FAQ
+here
 .
-Full details are also available on the
-status of macros that existed only in the legacy editor
-. In most case, there is a new solution providing similar functionality in the cloud editor.
-For details on how to convert content, consult the support topics listed here.
-FAQ: Understanding legacy editor deprecation
-Learn about the phased deprecation of the legacy editor and find the answers to frequently asked questions.
-View topic
-Convert legacy editor pages
-Learn how to convert a page from using the legacy editor to using the cloud editor.
-View topic
-Differences using Confluence legacy editor and cloud editor
-Dig into the details of how using Confluence Cloud is different from Confluence Data Center and Server for your end users.
-View topic
-The legacy content macro
-Work with legacy editor content in a cloud editor page
-View topic
+If the import process fails, use the following table to figure out a solution and try again.
+Notification example
+How to fix it
+Your import from HTML was unsuccessful.
+Look through the
+HTML FAQ
+and see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
+Your import from HTML was unsuccessful because file does not contain HTML content
+No HTML file was added or the file did not contain any content. Check the file for content. and try uploading again.
+Your import from HTML was unsuccessful because we couldn’t get content from your export file
+There may be something wrong with the zipper service. Try again or reach out to Confluence support.
+Your import was unsuccessful because we failed to update pages with your content.
+The Confluence API is returning an error. Try again later or reach out to Confluence support.
 Was this helpful?
 Yes
 No
@@ -481,18 +475,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-FAQ: Understanding legacy editor deprecation
-Convert legacy editor pages
-Differences using Confluence legacy editor and cloud editor
-The legacy content macro
-Create and organize work in Confluence Cloud
-Show more
-Get to know the new and simplified content layout
-How to use the new toolbar and insert elements
 Import data from other tools into Confluence
-Review macros only available in the legacy editor
-The Confluence legacy editor
+Show more
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+On this page
+How will I know if my HTML upload is successful?
+Are there size limits for file uploads?
+What if i’m still experiencing errors?
 Community
 Questions, discussions, and articles
 Accessibility

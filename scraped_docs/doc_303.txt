@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/see-standard-event-types/
+URL: https://support.atlassian.com/confluence-cloud/docs/install-a-theme/
 
-See standard event types | Confluence Cloud | Atlassian Support
+Install a theme | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,47 +439,34 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Confluence administration
+Look and feel settings in Confluence Cloud
 Cloud
 Data Center
-See standard event types
-Each calendar includes a standard set of event types, which you can use to classify the different events in the calendar. You can also
-create custom event types
-to capture events that don't fit into the standard event types.
-Standard event types
-Leave
-– For tracking holidays and breaks. Who is out of the office and when.
-Travel
-– For tracking your team's travel plans.
-Birthdays
-– To help you celebrate those special moments with your team members.
-Events
-– A generic event type where you can create any type of event.
-Team Calendars integrates with Jira applications and allows you to plan your Jira projects and see how your team's availability may impact them. You can create
-Add Jira events
-for:
-Jira Versions
-– To plan your releases.
-Jira
-Sprints
-– Visualize your teams Agile Sprints inside your calendar to see how your team's leave could impact your project.
-Jira Issue Dates
-If you don't want to use any of the standard event types, hide them by choosing the calendar's drop-down menu, then select
-Edit > Event Types
-. Choose the minus
-icon to hide the event type.
-Color-code event types
-All events are color-coded according to the event type they belong to. Changing event type colors changes the appearance of its events for you, but not for other viewers of the calendar. Each person viewing the calendar is free to set their preferred color scheme.
-To change the color of events in a particular event type:
-Hover over the event type and click the
-that appears to the right
-Choose the appropriate color for the event type
-Filter events
-If you've got a lot of events on your Team Calendar, you may want to show or hide certain event types or calendars to reduce clutter. Click on an event type to show or hide its events, or hit
-next to a calendar and choose
-Hide events
-to hide all events in that calendar.
+Install a theme
+Themes are used to let the admin change the appearance of a
+Confluence Cloud
+site or spaces.
+To install a new admin-driven theme on your site:
+In a separate tab, navigate to
+marketplace.atlassian.com
+.
+Use the menus in the sidebar to filter by app(Confluence) and hosting option (Cloud).
+Under
+Categories
+, select
+Themes & styles
+.
+Select the theme of your choice, then select
+Get it now
+.*
+*If the theme costs money to install, this button will say
+Try it free
+instead.
+When a new space is created, the theme applied to the whole site will be applied by default to the new space. To change colors for individual spaces, you'll need to download a theming app from the Atlassian Marketplace.
+Users can also
+select their own theme,
+choosing either Light or Dark. These choices are independent of the theme you choose in settings, however each theme responds to the user’s current choice, presenting slightly darker colors in Dark mode.
 Was this helpful?
 Yes
 No
@@ -490,18 +477,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Show more
-Add events
-Add Jira events
-See standard event types
-Add and delete custom event types
-Add reminders to events
-Show more
-On this page
-Standard event types
-Color-code event types
-Filter events
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
 Community
 Questions, discussions, and articles
 Accessibility

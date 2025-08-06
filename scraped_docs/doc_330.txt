@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/share-databases-entries-or-values/
+URL: https://support.atlassian.com/confluence-cloud/docs/customize-your-personal-space/
 
-Share databases, entries, or values | Confluence Cloud | Atlassian Support
+Customize your personal space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,66 +440,84 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit databases
+Use spaces to organize your work
 Cloud
 Data Center
-Share databases, entries, or values
-Databases aren’t available in the
-Atlassian Government environment
-.
-Effectively presenting your database information is crucial for your team's success. Whether you're working within Confluence or using other platforms, there are several ways to share and view your databases. This article will guide you through embedding databases on your Confluence pages and using Smart Links to display your database content.
-Embedding databases pages
-Using the
-/embed database
-command, you can embed an entire database, a specific database entry, or even a single database value onto a Confluence page. Follow these steps to embed your database content:
-When editing a Confluence page, select the
-+
-button from the toolbar and find
-embed database
-, or type
-/embed
-and select
-embed database
-.
-Search for or paste a link to the database you want to embed in the
-database
-field.
-Select or create an entry from the
-entry
-field if you want to display a specific entry. To display a particular value, select the value from the
-value
-field.
+Customize your personal space
+Spaces are Confluence's way of organizing content into meaningful categories. Think of them as different folders where you can store your work. A personal space is an area in your Confluence site that is
+automatically
+created for you to store everything you're working on individually, to keep your to-do lists, and to polish any content before you move it into another shared space.
+If a personal space wasn’t automatically created for you, you can create one.
+Select your profile icon at the top right of the global navigation bar
 Select
-Embed
-to insert the selected database, entry, or value onto the page.
-The embedded content will appear as a Smart Link, providing a dynamic and interactive view of your database directly within your Confluence page.
-Using Smart Links
-Smart Links offer a flexible way to share and display database content on Confluence pages and anywhere that supports Smart Links. Smart Links can display an entire database, a specific view, an individual entry, or a particular value.
-Displaying the whole database
-Go to the database you want to share and copy the URL from your web browser's address bar.
-Open the Confluence page or another location where you want to embed the database.
-Paste the URL, and it will create a Smart Link to the database.
-Displaying a selected view
-Navigate to the specific view of the database you want to share.
-Copy the URL from the address bar of your web browser. You can also use the
-Copy link
-option from the view actions menu.
-Paste the URL into the Confluence page or another location to create a Smart Link to the selected view.
-Displaying a database entry
-Find and open the entry you want to share from your database.
-Use the
-Copy link
-icon.
-Paste the URL into the desired location, and a Smart Link to the database entry will be created.
-Displaying a database value
-In the table layout, navigate to and select the value you want to share.
-Use the
-Copy link
-icon for the specific value.
-Paste the URL into the desired location, and a Smart Link to the database value will be created.
-Smart Links are dynamic and will update when the linked content changes. This ensures that the information you share is always up-to-date.
-For more detailed information on using Smart Links in Confluence, refer to
-Insert links and anchors
+Add Personal Space
+Give your space a name
+Select
+Create
+Set up your personal space
+You can use your personal space to jot down new ideas, introduce yourself to your team, keep track of tasks, store important items or files, polish content before sharing with others and more. There are three ways to get to your personal space:
+Select
+Spaces
+in the
+sidebar
+. Your personal space is automatically starred for easy access.
+Select your profile icon at the top right of the
+top navigation
+and select
+Personal Space
+.
+Select
+For you
+in the
+sidebar
+. Up to six starred and recent spaces are shown on the right.
+To customize your space overview:
+Select the space’s name in the space sidebar. Some basic sections have been added to the page for you, but you can modify it and make it your own.
+Select the edit icon at the top right.
+Keep the parts of the page that work for you, or add new elements like you would to a page or live doc.
+Select
+Update
+when you are done editing to proceed with publishing it. You can come back any time and update the page.
+Use templates to add content to your space
+You can use Confluence templates to help build out your personal space. Popular templates include the User Manual (contains preferred working hours, how you like to work, etc.), To-Do List, Blog, and Meeting Notes, but there are many more to choose from in the template gallery.
+Next to the
+Share
+button, select
+More actions
+(
+)
+and choose the
+Templates and import
+option.
+Set permissions
+Since the space is completely yours, you can set permissions to restrict access, allow certain people to view and edit, or keep it open to all. Unless you set a permission, the pages will default as accessible to your team.
+To determine who can see a page and edit it, select the
+Share
+button at the top right of a page to change permissions.
+Learn more about setting permissions
+Share content
+Once your content is ready to share, you can invite others to view and edit or you can move the content to another space. It's easy to
+move
+content from one space to another so if you move something by accident, you can simply move it back.
+Another way to share updates and announcements is to
+blog
+to your key internal groups and teams. A blog post is created by selecting the
+next to
+Blog
+in the
+sidebar
+. The same tools and elements available when authoring a page are available for blogs. Published blogs live outside of the page tree in a space and are organized by date and are often more conversational in tone.
+Manage your content
+There are other actions you can choose for your personal space content by using the
+More actions
+(
+)  menu at the top right of the page.
+Export
+the page or attachments as a PDF or Microsoft Word document
+Archive
+content that you don’t want to delete but still want to keep
+Delete
+the space
 Was this helpful?
 Yes
 No
@@ -510,21 +528,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
-Show more
-Create a database
-Database fields
-Share databases, entries, or values
-Database views
-Layouts and options
+Use spaces to organize your work
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
 Show more
 On this page
-Embedding databases pages
-Using Smart Links
-Displaying the whole database
-Displaying a selected view
-Displaying a database entry
-Displaying a database value
+Set up your personal space
+Use templates to add content to your space
+Set permissions
+Share content
+Manage your content
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-a-site-backup/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-recent-updates-macro/
 
-Export a data backup file of your instance | Confluence Cloud | Atlassian Support
+Insert the recent updates macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,80 +439,139 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Data management in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Export a data backup file of your instance
-If you're migrating a Confluence Data Center instance to a cloud site, you can now use the
-Confluence Cloud Migration Assistant
+Insert the recent updates macro
+Use the Recent updates macro to insert a clickable list of the most recently created or updated pages and live docs, blog posts, attachments, and comments within a designated space, or across multiple spaces.
+This is useful, for example, if you want to create a landing or informational page for a project or team. People viewing the list will only see the links for content they have permission to view.
+You can customize what’s included in your list and how many results to display at a time.
+To add a list of recent updates to your page or live doc:
+From the editor, select (+) from the toolbar or type / to bring up the insert menu.
+Find the
+Recent updates
+macro and select it. You can also type
+/recentupdates
+to select this macro from the insert menu right in the body of your page or live doc.
+Upon selection, a list of recent updates will appear in the body of your page or doc, if the selected space has updates. If not, a placeholder will appear.
+A frameless list will appear.
+The items in this list are dynamic. Uf additional updates take place, they'll automatically be reflected in the list.
+To configure your recent updates macro:
+While editing, select the
+Recent updates macro
+you want to configure.
+Select the
+Edit
+(
+)
+icon to open the configuration panel.
+Customize the parameters of your list of recent updates via the
+Basic
+and/or
+Display
+tabs.
+Your selections will take effect instantly.
+You can also select the centered, medium-width, or full-width icon to adjust the width of your list. Select the copy icon to duplicate it elsewhere, and/or the trashcan icon to remove it entirely.
+Basic and display parameters
+You can customize exactly how your list of recent updates appears by configuring its
+Basic
+and/or
+Display
+parameters, depending on your needs and preference.
+If the parameter name in Confluence Cloud storage format is different than the label that appears when configuring the macro, it will be listed below in parenthesis
+(example)
 .
-We
-ended support of Confluence Server
-on February 15, 2024. Confluence Data Center is our only self-managed app offering, and our primary app offering outside of Confluence Cloud.
-Atlassian is also currently working on a
-new backup and restore solution
+Basic parameter
+Default
+Description
+Space
+(spaces
+)
+Current space
+Search and select the space(s) from which you want to source your list of recently updated content.
+Special values:
+@self
+— The current space.
+@personal
+— All
+personal
+spaces.
+@global
+— All
+site
+spaces.
+@favorite
+— The spaces you have marked as
+favorite
 .
-This page tells you how to get a copy of all the content in your Confluence Cloud instance using the backup manager. To export individual pages or spaces instead of the whole site in a variety of formats (including comma-separated values), see
-Export Content to Word, PDF, HTML and XML
-.
-After exporting the data via the backup manager, you can import the data into another Confluence Cloud instance, as described below.
-You can also save the backup file, as a way of taking occasional offline backups.
-The Cloud service takes backups for your instance every 24 hours for purposes of application recovery (not for rolling back application data). See
-About Your Data
-for more information.
-Back up (export) your Confluence instance
-Only one backup file is stored at a time. Any existing backup is overwritten by the new one.
-We regularly make backups of your data for application recovery purposes. However, these backups cannot be used to roll back changes.
-Learn more about how we back up your data
-.
-To back up all data of your Confluence instance:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find Settings >
-Data management
-in the left-hand navigation.
-Select
-Backup manager
-.
-If you want to include attachments, select
-Backup attachments
-.
-Choose
-Create backup for cloud.
-After the backup is complete, you will see the link to the backup file. You can download the file by following the link. This link is available for 14 days.
-What data is backed up?
-The backup includes the following data:
-Each space’s default classification level when applicable
-Pages, including their classification level when applicable
-Whiteboards
-Selected user and group settings, such as permissions.
-The backup does not include the full set of user and group settings because this process is intended to restore data to the same Atlassian site with its existing user account data.
-Team calendar data
-Attachments (if selected)
-The backup will include all attachments, including those in the archive or trash. This may cause a difference in the size of the backup file versus your reported storage usage.
-Soft-deleted spaces (spaces placed in the trash) will not be backed up. If you want to back up a space that is in the trash, you must first retrieve it from the trash.
-We can’t currently export databases
-They will appear in the tree when exported but won’t retain their content, data, or functionality.
-Import the backup data to Confluence Data Center
-You can import the backup data into Confluence Data Center
-6.0 or later
-.  This will overwrite all the content on that site. See
-Migrate from Confluence Cloud to Data Center
-.
-Data classification is a cloud feature, so while that information is backed up in the export file, it won’t appear in Confluence Data Center.
-If you plan to import this backup in Confluence Data Center, a site admin should perform the export. Because site admins can view all email addresses in the site, this ensures all user data is included in the export, regardless of
-profile visibility settings
-.
-Import the backup data to Confluence Cloud
-You can import the backup data into another Confluence Cloud instance, thus overwriting all the content on that site. Refer to the instructions on
-importing a Confluence Cloud instance
-.
-If your source site includes other applications in addition to Confluence,
-the cross-application links
-in the site, such as links to a source file page or to a Jira work item, will point back to the corresponding location after the import.
-Maximum supported size
-Confluence cloud backup file can be up to 30 GB in total size, plus 800 GB of attachments.
+@favourite
+— The same as
+@favorite
+above.
+@all
+— All spaces in your Confluence site.
+*
+— The same as
+@all
+above.
+Include in list
+(types
+)
+All
+Select the type of content update you want included in your list, choosing from the following:
+Pages and live docs
+Blog posts
+Comments
+Attachments
+You can select one, a combination of several, or all of the above.
+Show all updates
+Off
+Toggle on to display all recent updates within a selected space or spaces at once, or toggle off to manually customize how many updates to display at a time.
+Max number of updates
+(max
+)
+15
+When the
+Show all updates
+toggle is off, this input field allows you to select the number of updates you want to display in your list at a time, up to 200 entries.
+Display parameter
+Default
+Description
+List style
+(theme
+)
+Title + user name
+This dropdown allows you to configure the style of how your list is displayed.
+Title + user name
+- displays the titles of updated content items, along with the name of the user who contributed that update.
+Title
+- displays the titles of updated content items only.
+User name + profile picture
+- displays a user’s name and profile picture with content recently updated by them itemized below.
+Filter by user
+(author
+)
+None specified
+Search and select the specific user or users whose recent updates you want to display in your list.
+Filter by label
+(labels
+)
+None specified
+Search and select specific labels to filter the results in your list, so only content with the designated labels will display.
+Note: labels can only be applied to pages, live docs, and blog posts.
+List width
+(width
+)
+100%
+This dropdown allows you to choose what percentage of the macro frame your list will stretch across.
+Hide list header
+(hideHeading
+)
+Off
+Toggle off to display
+Recent updates
+as a header above your list on the page or doc. Toggle on to not include that header.
 Was this helpful?
 Yes
 No
@@ -523,17 +582,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Data management in Confluence Cloud
-Import a Confluence Cloud space
-Export a data backup file of your instance
-Migrate a Confluence Cloud instance or merge instances from multiple sites
-Migrate from Confluence Cloud to Data Center
-On this page
-Back up (export) your Confluence instance
-What data is backed up?
-Import the backup data to Confluence Data Center
-Import the backup data to Confluence Cloud
-Maximum supported size
+Use macros to show Confluence content on pages and live docs
+Show more
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

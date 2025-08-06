@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-content-report-table-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-page-tree-macro/
 
-Insert the content report table macro | Confluence Cloud | Atlassian Support
+Insert the content tree macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,20 +440,20 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Use macros to add navigation on Confluence pages
 Cloud
 Data Center
-Insert the content report table macro
-The Content Report Table macro displays a set of pages, live docs, and blog posts as a table, based on the labels specified in the macro parameters.
-Use the Content Report Table macro
-To add the Content Report Table macro:
+Insert the content tree macro
+The content tree macro displays a dynamic, hierarchical list of content starting from a specified parent (root) item. It can act as a table of contents or a list of related topics. When viewing the content tree, your reader can click a link to view any individual piece of content. The content’s current position is highlighted in the content tree.
+Use the content tree macro
+To add the content tree macro:
 When editing, select
 from the toolbar
 Find the macro by name and select it
 Configure it as needed
 You can also type / on the page to bring up the same list you'd see by selecting
 from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Content Report Table macro:
+To edit the content tree macro:
 Select the macro placeholder.
 Select the Edit
 icon
@@ -473,36 +473,72 @@ storage format is different than the label used when inserting macros using the 
 example
 ).
 Parameter
-Required
 Default
 Description
-Label(s)
-(labels
+Root content
+(root
 )
-Yes
-None
-This parameter is required. Specify one or more labels, separated by a comma. The macro will display the content tagged with any of the label(s) specified here.
-For example, if you specify labels 'A' and 'B', the macro will display all content that has the label 'A', and all content that has the label 'B', and all content that has both those labels.
-Space(s)
-(spaces
+The overview page of the space
+Specify the parent item for the content tree. The tree will include all nested children of the given parent item, plus their own nested items. The tree will
+not
+include the root parent itself.
+Specify the title or a special value as follows:
+Your content title — to specify a page or live doc name for the parent or root of the tree. The tree will include all children and grand-children of the specified root. The tree will
+not
+include the specified root item itself.
+'@home' — will include all content under the overview page of the space (default).
+'@self' — will include all pages and live doc nested under the current page or doc.
+'@parent' — will include all pages and live docs under the parent of the current page or doc, and that current page or doc.
+'@none' — will include all pages and live docs in the space, including orphaned items and the overview page.
+Sort content by
+(sort
 )
-No
-(All spaces)
-Specify one or more space keys, separated by a comma or a space. The macro will display only the content which belongs to the space(s) specified here.
-When specifying a personal space, remember to use the tilde (~) sign in front of the username, such as
-~jbloggs
-or
-~jbloggs@example.com
+position
+Specify the order to display the content in the tree. This sort order is for display purposes only. It does not permanently re-arrange the order of tree content. The value may be one of the following:
+bitwise
+— sort alphabetically, for example: title1, title10, title2.
+creation
+— sort by date of creation.
+modified
+— sort by order of date last modified.
+natural
+— sort in 'natural' alphabetical order, for example: title1, title2, title10.
+position
+— sort by the default Confluence sorting rules. If your content has been ordered manually, this sort will respect the defined order. Otherwise the content will be displayed in the 'natural' alphabetical order, such as: title1, title2, title10.
+Include excerpts in content tree
+(excerpt
+)
+false
+Select if you want the content tree to show excerpts from each content item. The excerpts must be defined on each item by the
+Excerpt macro
 .
-Maximum Number of Pages
-(maxResults
+Reverse order
+(reverse
 )
-No
-20
-Define the maximum number of pages and live docs that the macro will show in a single set of results. If there are more pages and docs to be shown, the macro will display a link labeled 'Find more results'. People viewing the content can choose the link to go to a search view, which shows all content tagged with the specified label(s).
-Which content will appear? Before displaying the results, Confluence will sort them by the date the content was last modified. The most-recently created/updated content will appear first.
-Wiki markup example
-Wiki markup is not available for this macro. You can't add this macro using wiki markup.
+false
+Select to show the content in reverse (descending) natural order. Must be used in combination with the
+Sort content by
+parameter.
+Include search box above content tree
+(searchBox
+)
+false
+Select if you want to include a search box above the content tree. The search box allows your readers to search within the content tree for the specified value.
+Show expand/collapse links
+(expandCollapseAll
+)
+false
+Select if you want to display the 'expand all' and 'collapse all' links at the top of your content tree. Your readers can click these links to open or close all branches of the tree at once.
+Available values in wikimarkup and storage format:
+true
+– Show the 'expand all' and 'collapse all' options.
+false
+– Do not show the options.
+Tree depth
+(startDepth
+)
+1
+Enter any number greater than 0 to set how many levels of children the tree should show when it opens for the first time.
 Was this helpful?
 Yes
 No
@@ -513,18 +549,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
+Use macros to add navigation on Confluence pages
 Show more
-Insert the child items macro
-Insert the filter by label macro
-Insert the content report table macro
-Insert the contributors macro
-Insert the contributors summary macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
+Insert the table of contents macro
 Show more
 On this page
-Use the Content Report Table macro
+Use the content tree macro
 Parameters
-Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

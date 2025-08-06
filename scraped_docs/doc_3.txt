@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-oauth-access-tokens/
+URL: https://support.atlassian.com/confluence-cloud/docs/confluence-automation/
 
-Manage OAuth access tokens | Confluence Cloud | Atlassian Support
+Confluence automation administration | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,61 +439,17 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage your account
+Confluence administration
 Cloud
 Data Center
-Manage OAuth access tokens
-OAuth access tokens allow you to use a Confluence gadget on an external web application or website (also known as the 'consumer')
-and
-grant this gadget access to Confluence data which is restricted or privy to your Confluence user account.
-OAuth access tokens will only appear in your user profile if the following conditions have been met:
-Your Confluence administrator has established an OAuth relationship between your Confluence site and the consumer.
-You've accessed a Confluence gadget on the consumer and have completed the following tasks:
-Logged in to your Confluence user account via the gadget
-Clicked the
-Approve Access
-button to allow the gadget access to data that's privy to your Confluence user account
-Confluence will then send the consumer an OAuth 'access token', which is specific to this gadget. You can view the details of this access token from your Confluence site's user account.
-Confluence Administrators should refer to
-Configuring OAuth
-for more information about establishing these OAuth relationships.
-An OAuth access token acts as a type of 'key'.
-As long as the consumer is in possession of this access token, the Confluence gadget on the consumer will be able to access Confluence data that's both publicly available and privy to your Confluence user account.
-As a Confluence user, you can revoke this access token at any time.
-All access tokens expire after seven days. Once the access token is revoked or has expired, the Confluence gadget will only have access to publicly available Confluence data.
-View your OAuth Access Tokens
-To view all of your Confluence user account's OAuth access tokens:
-Choose your profile picture at the right side of the navigation, then choose
-Settings
-Click
-View OAuth Access Tokens
-OAuth Access Token Details
-Your list of OAuth access tokens is presented in a table, with a row for each access token and a column for each property:
-Column Name
-Description
-Consumer
-The name of the Confluence gadget that was added on the consumer.
-Consumer Description
-A description of this consumer application. This information would have been obtained from the consumer's own OAuth settings when an OAuth relationship was established between Confluence and that consumer.
-If the consumer is another Atlassian application, this information is obtained from the
-Consumer Info
-tab's
-Description
-field of the OAuth Administration settings. The application's administrator can customize this Consumer Info detail.
-Issued On
-The date on which the OAuth access token was issued to the consumer by Confluence. This would have occurred immediately after you approved this gadget access to your Confluence data (privy to your Confluence user account).
-Expires On
-The date when the OAuth access token expires. This is seven days after the "Issued On" date. When this date is reached, the access token is automatically removed from this list.
-Actions
-For revoking the access token.
-Revoke your OAuth Access Tokens
-To revoke one of your OAuth access tokens:
-View your Confluence user account's OAuth access tokens (described above).
-Click
-Revoke OAuth Access Token
-for the OAuth access token you want to revoke.
-The gadget's access token is revoked and the Confluence gadget on the consumer will only have access to publicly available Confluence data.
+Confluence automation administration
+Learn what Confluence automation is, see admin functions and usage, and familiarize yourself with common terms.
+Confluence automation
+Learn what automation is, why it’s useful in Confluence Cloud, and familiarize yourself with common terms.
+View topic
+Confluence automation usage
+Learn how to view and track your automation usage in Confluence Cloud.
+View topic
 Was this helpful?
 Yes
 No
@@ -504,18 +460,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage your account
+Explore more
+Confluence automation
+Confluence automation usage
+Confluence administration
 Show more
-Edit your user settings
-Change your Confluence password
-Manage OAuth access tokens
-Delete your account
-Change your theme
-Show more
-On this page
-View your OAuth Access Tokens
-OAuth Access Token Details
-Revoke your OAuth Access Tokens
+Security settings in Confluence Cloud
+Look and feel settings in Confluence Cloud
+Data management in Confluence Cloud
+Atlassian Marketplace apps
+Confluence automation administration
 Community
 Questions, discussions, and articles
 Accessibility

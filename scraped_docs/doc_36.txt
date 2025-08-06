@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-mural-boards-in-confluence-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/troubleshooting-import-multiple-miro-boards-to-confluence/
 
-Import Mural boards in Confluence whiteboards | Confluence Cloud | Atlassian Support
+Troubleshooting import multiple Miro boards to Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,82 +440,83 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Import data from other tools into Confluence
 Cloud
 Data Center
-Import Mural boards in Confluence whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+Troubleshooting import multiple Miro boards to Confluence
+If you encounter issues during your import, follow these steps to identify and resolve the problem.
+Step 1: Check your import summary email
+When your import is complete, you’ll receive a notification email with details about what was transferred. The email will list the spaces, pages, and users that were successfully imported. If part or all of your import couldn’t be completed, the email will include a brief message explaining the issue.
+Use the table below to find your error message and follow the recommended troubleshooting steps.
+Step 2: Identify your error scenario and follow the recommended troubleshooting steps
+If part of your import was unsuccessful or failed:
+Notification example
+How to fix it
+5 users couldn’t be imported
+Check the missing users' status in Miro and ensure they are not deactivated. Retry importing content that includes these users.
+If no users could be imported at all, ensure you entered the correct Miro User Access Token. Follow these step-by-step instructions to verify your token:
+Import multiple Miro boards to Confluence
+1 space couldn’t be created
+If possible, make yourself the workspace owner in Miro. Otherwise, ask the workspace owner or a Miro admin to grant you ownership before retrying the import.
+11 whiteboards couldn’t be imported, or were imported incorrectly
+Tip:
+If several boards failed, retry the full import. If only a few boards didn’t import, use the Single Miro Importer to import them individually.
+Import Miro boards in Confluence whiteboards
+Go to Miro and re-export the failed boards, ensuring  they meet the following import file size and type requirement before retrying import:
+✅
+Is the file a Vector PDF?
+To check, open the PDF and zoom in.
+If the text and graphics stay sharp without pixelation, it’s likely a vector PDF.
+If the file isn’t a vector PDF, re-export it from Miro in the correct format and retry the import.
+✅
+Is the file larger than 100MB?
+Files over 100MB cannot be imported.
+If your board exceeds 100MB, try re-exporting only the essential parts of the board or exporting the board in smaller subsections before retrying.
+✅
+Does the board contain too many elements?
+If the board meets the format and size requirements but still won’t import, it may contain too many elements.
+Try re-exporting only the essential parts of the board or exporting the board in smaller subsections before retrying.
+If the entire import failed:
+Notification example
+How to fix it
+Your import from Miro was unsuccessful.
+Check the
+Miro import FAQ
+to see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
+Your import from Miro was unsuccessful.
+You have imported
+37 users
+from Miro.
+Check the
+Miro import FAQ
+to see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
+Your import from Miro was unsuccessful because
+we couldn’t get content from your export file
 .
-Bring your Mural content to Confluence whiteboards and collaborate seamlessly with your team.
-Import whiteboards from Mural into Confluence to unlock features such as smart connectors, smart sections, real-time editing, and experience brainstorming. Plus, you can keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
-Export your Mural board
-In Mural, open the board you wish to export.
-Open the export menu in the top-left corner of the board, then select
-Download mural
-, or right-click on your board’s background and select
-Download
-.
-Select the
-PDF Format
-and the selection of content you would like to export (All content, Selection, or Outline),
+To fix this, ensure that your uploaded file meets the following requirements:
+A ZIP file
+In Vector PDF format
+From a Miro export
+Once confirmed, retry the import process.
+Need step-by-step instructions on how to export from Miro?
+See this guide
+Step 3: Contact support if you need further assistance
+If you're unable to resolve the issue,
+open a support ticket
+via the Atlassian Support Portal.
+Only
+app administrators
+can submit support tickets.
+How to submit your request:
+Open a support ticket via the
+Atlassian Support
+portal (if you are an app administrator).
 Select
-Download
-. Select a location to save your file.
-For more information on exporting Mural boards,
-see the Mural support documentation
-.
-You must
-Save as PDF
-. This will let you import editable elements to your Confluence whiteboard.
-Import to whiteboards
-Whiteboards currently only support PDF or image file importing.
-Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
-You can import your content in two ways:
-Drag your image or file into your whiteboard.
-On the toolbar, select the More menu (
-…
-), select
-Whiteboard import,
-navigate to your file, and select it.
-Select your content type.
-The import process will complete.
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
-For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
-How Mural elements import to Confluence whiteboards
-Mural
-Confluence whiteboards
-Sticky notes
-Sticky notes
-Borders
-Borders
-Draw
-Lines
-Website embeds
-Images
-Tables
-Recreated with lines and rectangles
-GIFs
-Images
-Text
-Text
-Stamps
-Images
-Tags
-Text in rectangles
-Mind maps
-Rectangles, lines, and connectors
-Limitations
-Some limitations and differences between your Mural board and Confluence whiteboard will occur.
-Importing comments is not supported, but you can comment on Confluence whiteboards.
-Colors will be mapped to the closest Confluence whiteboards colors.
-Connections will not import, but they can be recreated in Confluence whiteboards.
-Rotated elements will import unrotated. However, if it’s an unsupported element, too-small shape, un-cropped image, or a sticker, then it will import rotated.
-Shapes supported in whiteboards will import as shapes. Shapes that are not supported will import as images.
-Locked elements will not remain locked when imported, but you can manually lock them in Confluence whiteboards.
-Whiteboards have a 10,000 element limit.
-Importing may take longer than a minute for boards with many elements, large images, or a lot of content.
+Technical issues and bugs
+as your support category.
+Include your Task ID
+in the details section of your support ticket
+→ This helps our team diagnose the issue faster. You can find your Task ID in your import summary email.
 Was this helpful?
 Yes
 No
@@ -526,20 +527,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Import data from other tools into Confluence
 Show more
-Import Figjam boards in Confluence whiteboards
-Import Miro boards in Confluence whiteboards
-Import Mural boards in Confluence whiteboards
-Import Jamboard whiteboards in Confluence whiteboards
-Export your whiteboard
-Show more
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
 On this page
-Export your Mural board
-Import to whiteboards
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-How Mural elements import to Confluence whiteboards
-Limitations
+If part of your import was unsuccessful or failed:
+If the entire import failed:
+How to submit your request:
 Community
 Questions, discussions, and articles
 Accessibility

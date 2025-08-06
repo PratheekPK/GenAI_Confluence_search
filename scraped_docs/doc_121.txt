@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-show-confluence-content-on-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-a-network-rss-feed/
 
-Use macros to show Confluence content on pages and live docs | Confluence Cloud | Atlassian Support
+Subscribe to a network RSS feed | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,85 +439,72 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Collaborate on content and get notified in Confluence Cloud
+Get notified about content and activity
 Cloud
 Data Center
-Use macros to show Confluence content on pages and live docs
-What are macros?
-Learn about macros and how they can enhance the presentation of information on your pages and live docs.
-View topic
-Learn which macros are being removed
-Find out which macros were deprecated and get alternative suggestions for accomplishing the same outcomes.
-View topic
-Insert the attachments macro
-Show a list of all the attachments on a page or live doc.
-View topic
-Insert the blog posts macro
-Learn how to show all blog posts that match your criteria.
-View topic
-Insert the change history macro
-Show a list of a page or live doc's version history.
-View topic
-Insert the child items macro
-List links to a page or live doc's nested items .
-View topic
-Insert the filter by label macro
-Display a list of pages, live docs, blog posts, or attachments that have particular labels.
-View topic
-Insert the content report table macro
-Learn how to display a set of pages, live docs, and blog posts as a table, based on the labels specified in the content report table macro.
-View topic
-Insert the contributors macro
-Display a list of Confluence users who have made a contribution of some type to a page, as well as a list of watchers of the page.
-View topic
-Insert the contributors summary macro
-Display a table of contribution-based statistics for a set of pages.
-View topic
-Insert the create from template macro
-Understand how to add a Create from Template button to a page. The button is linked to a specific template.
-View topic
-Insert the decision report macro
-Display a list of decisions by page and live doc using the decision report macro.
-View topic
-Insert the excerpt macro
-Understand how to mark text to be repurposed elsewhere.
-View topic
-Add excerpts to a page or live doc with the insert excerpt macro
-Insert text that was marked as an excerpt on another page or live doc.
-View topic
-Insert the include content macro
-Reuse the content from another page, live doc, or blog post.
-View topic
-Insert the labels list macro
-Show a list of all pages and live docs in a space with a certain label.
-View topic
-Insert the popular labels macro
-Display the most popular labels used throughout your Confluence site or within a space.
-View topic
-Insert the profile picture macro
-Display a user's profile picture on a page or live doc.
-View topic
-Insert the recent updates macro
-Display a list of the most recently updated content in a given space or set of spaces.
-View topic
-Insert the recently updated dashboard macro
-Display the most recent content organized as tabs.
-View topic
-Insert the related labels macro
-Create a list of labels from every page and live doc which has one or more labels in common with the current page or doc.
-View topic
-Insert the spaces list macro
-Display a list of spaces on a page.
-View topic
-Insert the task report macro
-Display a list of tasks on a page or live doc using filters by space, page/doc, user, label, and created date.
-View topic
-Insert the user profile macro
-Display a short summary of a Confluence user.
-View topic
-Legacy editor content in the cloud editor
-Work with legacy editor content in a cloud editor page
-View topic
+Subscribe to a network RSS feed
+You can create an RSS Feed from any user's
+network
+view, allowing you to receive summaries on the activities of users they are following in their network. The types of activities tracked in these RSS feed summaries include:
+New
+pages, live docs, or blog posts
+or updates to existing ones
+Comments
+added to a page, live doc, or blog post or edits to existing comments
+Updates to a user’s
+profile
+Subscribe to a user's network feed
+To subscribe to a user's network RSS feed:
+Locate the orange
+RSS feed icon
+, which is available from the top-right of:
+The
+Recent activity of the users you are following
+section of your network page, or
+The
+Activity of followed users
+section of another user's network page.
+Copy and paste the icon's link into your RSS newsreader
+Customize your network RSS feed
+Confluence does not provide a way of customizing a network RSS feed via the user interface. However, you can modify the maximum number of results and type of content displayed in these feeds by directly editing the RSS feed link in your RSS newsreader.
+To modify the maximum number of results displayed in your RSS feed:
+Edit the RSS feed link in your RSS newsreader.
+Change the value of the
+max
+parameter from its default value of
+40
+to a value of your choice.
+Example:
+http://confluence.atlassian.com/feeds/network.action?username=MYNAME&max=60&publicFeed=false&os_authType=basic&rssType=atom
+Save the modified link in your RSS newsreader.
+To modify the type of content displayed in your RSS feed:
+Edit the RSS feed link in your RSS newsreader.
+Append the parameter
+contentType
+to the end of the link, followed by an equals sign (
+=
+) and then add the appropriate content type value of your choice:
+PAGE
+— restricts the RSS feed to page additions or updates.
+LIVE DOC
+— restricts the RSS feed to live doc additions or updates.
+BLOG
+— restricts the RSS feed to blog post additions or updates.
+ATTACHMENT
+— restricts the RSS feed to attachment additions or updates.
+COMMENT
+— restricts the RSS feed to comment additions or updates.
+Content type values are case-sensitive. Ensure that each parameter is separated from the other by an ampersand (
+&
+).
+Example:
+http://confluence.atlassian.com/feeds/network.action?username=ggaskell&max=40&publicFeed=false&os_authType=basic&rssType=atom&contentType=BLOG
+Save the modified link in your RSS newsreader.
+Notes
+It is not possible to filter for more than one type of content by adding multiple values to the
+contentType
+parameter.
 Was this helpful?
 Yes
 No
@@ -528,21 +515,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-What are macros?
-Learn which macros are being removed
-Insert the attachments macro
-Insert the blog posts macro
-Insert the change history macro
+Get notified about content and activity
 Show more
-Extend the functionality of Confluence Cloud
-Show more
-Use Company Hub to deliver key information to employees
-Use Confluence with other applications
-Use macros to show Confluence content on pages and live docs
-Use macros to add development info on Confluence pages
-Use macros to include media on Confluence pages
-Show more
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
+On this page
+Subscribe to a user's network feed
+Customize your network RSS feed
+Notes
 Community
 Questions, discussions, and articles
 Accessibility

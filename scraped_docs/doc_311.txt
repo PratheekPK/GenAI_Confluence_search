@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-your-confluence-automation-usage/
+URL: https://support.atlassian.com/confluence-cloud/docs/perform-simple-calculations-on-your-data/
 
-Confluence automation usage | Confluence Cloud | Atlassian Support
+Perform simple calculations on your data | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,41 +439,47 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Confluence automation administration
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Confluence automation usage
-When a Confluence automation rule runs successfully, that is, it performs at least one
-action
-, it counts as an execution. Each successful rule execution counts only once toward usage, even if the rule performs multiple actions. If a rule is triggered but fails without performing an action, it does not count as an execution.
-Monitoring automation usage
-Usage
-is important to monitor if your plan is limited to a certain number of rule executions per month.
-Confluence admins can view statistics on usage:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Admin tools
-in the left-hand navigation.
+Perform simple calculations on your data
+Calculations can be saved as part of a view. For more information on creating and using views, check out our page on
+Database views
+.
+Databases aren’t available in the
+Atlassian Government environment
+.
+You can perform simple calculations based on your database data via the Calculate function, appended to the bottom of each field type.
+To perform a simple calculation:
 Select
-Automation
-.
-Select the
-Usage
-tab.
-Usage limits by edition
-Confluence Enterprise
-has an unlimited number of executions. Keeping an eye on usage can help flag problems like when a rule is failing (usage drops) or running more than expected (usage increases), but there’s no need to patrol the specific number of executions your team is using.
-Confluence Premium
-is limited each month to a pooled sum that’s equivalent to 1,000 rule executions for every user. For example if your Confluence instance has 2,000 users, you have a total of 2 million rule executions every month [2,000 users x 1,000 executions = 2,000,000 available rule executions each month]. If your team hits the number of allotted executions, your rules will fail to run until usage renews on the first of the following month. Unused executions from the previous month will not roll over.
-Confluence Standard
-is limited each month to a total of 100 executions across all users.
-Confluence Free
-comes with a monthly total of 10 executions across all users.
-To confirm that your rules are executing successfully, view the
-automation audit log
-.
+Calculate
+below any field and select the calculation you would like.
+Note:
+If you don’t see a
+Calculate
+button appear, hover over the space below the field.
+Alternatively, select any field’s handle, find
+Calculate
+in the dropdown, and select a calculation.
+To remove a calculation:
+Select
+None
+from the calculation drop-down menu.
+Number field calculations
+Other field calculations
+Sum
+Average
+Min
+Max
+Count values
+Count unique values
+Count empty
+Percent empty
+Count values
+Count unique values
+Count empty
+Percent empty
 Was this helpful?
 Yes
 No
@@ -484,12 +490,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Confluence automation administration
-Confluence automation
-Confluence automation usage
-On this page
-Monitoring automation usage
-Usage limits by edition
+Create and edit databases
+Show more
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Community
 Questions, discussions, and articles
 Accessibility

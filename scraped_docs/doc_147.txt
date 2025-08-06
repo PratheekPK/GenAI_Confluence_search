@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/install-questions-for-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/mention-a-person-or-team/
 
-Install Questions for Confluence | Confluence Cloud | Atlassian Support
+Mention a person or team | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,37 +439,58 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Questions for Confluence
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
 Cloud
 Data Center
-Install Questions for Confluence
-To enable the Questions for Confluence:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Atlassian Marketplace
->
-Find new apps
+Mention a person or team
+Mentions (also known as @mentions) are a seamless way to draw a person’s or team's attention to pages, live docs, comments, or a
+task
+you’ve assigned to them.
+There are two ways to add mentions in Confluence Cloud:
+using
+autocomplete
 .
-Search for
-Questions for Confluence.
-Select
-Try it free
-and follow the prompts.
-By default everyone in your
-users
-group will have permissions to use Questions. See
-Permissions
-if you wish to restrict access to particular groups.
-The global questions space
-When you install Questions for Confluence, we'll prompt you to create a space for global questions. Global questions are questions that aren't asked in a specific Confluence space, but are instead posed to your whole instance.
-We'll suggest a name and key for the space, but you can change these defaults if you like. You shouldn't delete this space, as deleting it will delete vital Questions info and Questions won't function as it should.
-Exporting to/importing from Questions for Confluence Data Center
-Right now there's no way to export to/import from Questions for Confluence Data Center. We're really hopeful we'll be able to support migration in future, but we unfortunately can't give any guarantees or time frame at this point. If and when the situation changes, we'll let you know.
+via the editor toolbar.
+People who are @mentioned will receive a
+notification
+and (if they’re
+subscribed
+) an email letting them know.
+An important exception: During the trial period of any Confluence Cloud plan, people who are @mentioned will receive the notification, but not the email. This is true even if the person is subscribed to email.
+Once the trial has concluded, email will be added as a secondary means of informing people when they’re @mentioned.
+Notifications and/or emails are sent the first time you mention people on a page, but not for subsequent mentions.
+If you need to catch someone's attention, and you've already mentioned them, try
+sharing content
+with them instead.
+Mention a person
+When you mention a person or assign a task to them, they'll receive a notification in their notification drawer as well as an email (if they’re subscribed). Any task assigned to them will also appear under
+Tasks
+.
+Use autocomplete
+To mention a person using autocomplete, type ‘@' in the editor, then start typing their name. Choose the person you want to mention from the list of suggestions.
+You can use autocomplete mentions in
+Jira
+Cloud as well. To learn about using mentions and other features to collaborate on Jira issues, go to
+this page
+.
+Use the editor or toolbar
+If you'd rather use the toolbar or editor, type @ or choose the
+@
+icon,
+then start typing the name of the person you want to mention. Choose the person you want to mention from the list of suggestions.
+Mention a team
+You can also mention a team in the same way you mention a person, but only for teams with 50 members or less.
+When you mention a team or assign them a task, individuals in that team will receive notifications in their notification drawer, as well as an email (if they’re subscribed). Any task assigned to them will also appear under
+Tasks
+.
+Use autocomplete
+To mention a team using autocomplete, type ‘@' in the editor, then start typing the team name. Choose the team you want to mention from the list of suggestions. The suggestions will also include teams whose profile description contains the word or phrase entered.
+Use the editor toolbar
+If you'd rather use the editor toolbar, choose the
+@
+icon,
+then start typing the name of the team you want to mention. Choose the team you want to mention from the list of suggestions. The suggestions will also include teams whose profile description contains the word or phrase entered.
 Was this helpful?
 Yes
 No
@@ -480,15 +501,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Questions for Confluence
-Install Questions for Confluence
-Ask a question
-Watch and edit topics
-What are votes and experts?
-Admin settings for Questions for Confluence
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Show more
 On this page
-The global questions space
-Exporting to/importing from Questions for Confluence Data Center
+Mention a person
+Use autocomplete
+Use the editor or toolbar
+Mention a team
+Use autocomplete
+Use the editor toolbar
 Community
 Questions, discussions, and articles
 Accessibility

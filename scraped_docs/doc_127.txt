@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-sections-to-organize-your-work/
+URL: https://support.atlassian.com/confluence-cloud/docs/define-terms-using-atlassian-intelligence/
 
-Use sections to organize your work | Confluence Cloud | Atlassian Support
+Define terms using Atlassian Intelligence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,46 +440,38 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Atlassian Intelligence features in Confluence Cloud
 Cloud
 Data Center
-Use sections to organize your work
-Whiteboards aren’t available in
-Atlassian Government environments
+Define terms using Atlassian Intelligence
+This Atlassian Intelligence feature is in beta. Read more about
+Atlassian Intelligence features.
+One of the most challenging things about consuming content in Confluence can be getting the context you need to understand what you’re reading. Abbreviations, acronyms, unfamiliar terms, and team or project-specific names can lead to a lengthy search for the information you need.
+Atlassian Intelligence
+can save you time by defining these things for you, without navigating away from what you’re reading.
+Define terms with Atlassian Intelligence
+Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
+Settings > Atlassian Intelligence
+in Atlassian Administration.
+Atlassian Intelligence isn’t available for
+Atlassian Government
+apps.
+You can only define terms with Atlassian Intelligence while
+viewing
+a Confluence page, live doc, or blog, not while editing.
+Highlight what you want to define.
+Select
+Define
+(to the right of the
+Comment
+option).
+Atlassian Intelligence generates a definition.
+If you need more information about a definition, you can review the linked sources used to generate it. You can also rate the quality of the definition or report any issues.
+This feature works best when you select a term, abbreviation/acronym, or team/project name that is referenced often in your Confluence site. This is because Atlassian Intelligence relies on the information in your Confluence that you have access to in order to generate a definition.
+If you try to select more than a few words, you will likely encounter an error.
+For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
+the Atlassian Trust Center
 .
-Use sections to organize your board. With sections, you can group and move related ideas or guide people through workshops with multiple activities, each in its own section.
-Create a section from the toolbar
-Select the
-Section
-icon in the toolbar.
-A section will appear on hover. Select and drag the section to the location of the board where you’d like the section to go.
-Add elements to a section
-Select and move an element into a section using mouse or keyboard arrows. You can add any whiteboard element to a section except for another section.
-Once you have moved elements inside the section, they’ll stay with the section when you move it around your whiteboard.
-You can also select and drag to select multiple objects and add them to a section.
-Edit a section title
-To edit a section title:
-Create or select a section on the board.
-Change the name from untitled to a new name and press Return / Enter.
-You can also double-click the section’s name to edit.
-To remove the title:
-Double-click title.
-Delete text.
-Press Return / Enter.
-Change the appearance of a section
-You can change the size and color of a section.
-To resize a section:
-Select the section.
-Select and drag the resize handles of the section.
-To change the color of a section:
-Select the section.
-Select the color picker icon in the floating toolbar.
-Select a new color.
-Delete a section
-To delete a section:
-Select the section.
-Press Delete / Backspace.
-Deleting a section also deletes its contents. To delete a section without deleting its contents, select everything in the section and drag it to another place on the whiteboard.
 Was this helpful?
 Yes
 No
@@ -490,20 +482,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Atlassian Intelligence features in Confluence Cloud
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
 Show more
-Build flows and diagrams with flows and connectors
-Inserting links to your whiteboard
-Use sections to organize your work
-Add and edit images on whiteboards
-Add the feels with stamps and stickers
-Show more
-On this page
-Create a section from the toolbar
-Add elements to a section
-Edit a section title
-Change the appearance of a section
-Delete a section
 Community
 Questions, discussions, and articles
 Accessibility

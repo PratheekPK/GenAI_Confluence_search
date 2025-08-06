@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/share-content-externally-with-public-links/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-oauth-access-tokens/
 
-Share content externally with public links | Confluence Cloud | Atlassian Support
+Manage OAuth access tokens | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,99 +439,61 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Collaborate on content
+Manage your account and permissions in Confluence Cloud
+Manage your account
 Cloud
 Data Center
-Share content externally with public links
-Public links allow teams to share individual Confluence content items with people outside of Confluence without giving them access to Confluence. This could be useful for sharing information to the public, like customer FAQs, release notes, shareholder letters, and more.
-On this page, you’ll find guidance on how to use public links to share your content with anyone on the internet.
-For details on how public links work, go to
-How secure are public links?
-If you’re an admin looking for guidance on how to get started with public links, go to
-Control whether spaces can allow public links
-.
-Public links are only available on Confluence’s paid plans (Standard, Premium, and Enterprise). Only Confluence pages, live docs, and whiteboards can have public links, not any other type of Confluence content (e.g., blogs, databases, etc.).
-Turn on a public link
-A public link is available for any page, live doc, and whiteboard in Confluence (your admin allows them). Always use caution when sharing content externally.
-Content items will only ever have one public link
-If you turn a public link off, anyone who already has it won’t be able to access the content anymore. But if you later turn the public link back on, those people will again be able to access the content because it’s the same link.
-To turn on and share a public link:
-Go to the content item you want a public link for.
-Open
-Share
-in the top right.
-Turn on the public link toggle at the bottom of the window.
-The public link will be automatically copied, for your convenience.
-Or if the public link toggle is already on, select
-Copy public link.
-Paste the link in an email, a chat tool, on social media — wherever you want to communicate with the audience for the content.
-If you can’t turn on a public link, then you don’t have permission to turn it on. This could be because:
-public links aren’t allowed in the space (or on your site)
-the specific public link has been blocked by an admin
-you don’t have permission to edit the content item
-you don’t have space permission to edit restrictions for content in the space
-Be aware that anyone you share a public link with can share that link with anyone they want to. As long as the public toggle is on, anyone on the internet with the public link can view the content, whether you shared directly with them or not.
-Also, be aware that anyone who can view your internal content item can copy its public link and share it with anyone on the internet.
-Make sure to share the correct link
-You need the actual public link from the
-Share
-window or else anyone on the internet you share with won’t be able to view the content. The link in your browser is not the public link.
-To view what public link visitors see:
-Copy the public link.
-Open a new tab in your browser.
-Paste the public link in the new tab.
-Or you can copy the public link, log out of your Atlassian account, and paste the public link in any browser tab.
-Note:
-Custom emojis will display on public content by default. If you want to prevent this and you’re an organization admin, you can go to
-Atlassian Administration
->
-Site settings
->
-Emoji
-and turn the toggle off for
-Allow custom emojis on publicly shared content
-. If custom emojis aren’t allowed on public content, they’ll display as text — their custom emoji name framed with two colons, such as
-:dancingbird:
-To turn off a public link:
-Go to the content item you want a public link for.
-Open
-Share
-in the top right.
-Turn off the public link toggle at the bottom of the window.
-Anyone on the internet who still has the public link is blocked from viewing the content as long as the public link toggle is off.
-What to know when sharing public links
-Always use caution when sharing content externally. Here are a few key points to know for using public links safely.
-Internal view restrictions don’t apply
-As long as your admins allow you to use public links, a public link will just work, regardless of any view restrictions. Public links ignore any restrictions to who can access a parent item, the space, and the site itself.
-No matter who is restricted from viewing the internal content item, anyone on the internet who you share the public link with will be able to view its content.
-Public links hide sensitive information
-Visitors will see a safe, view-only version of the content that hides any content outside of the shared content (content tree, macros, etc.) and locks most Confluence functionality.
-To learn more about what public link visitors can see, go to the “What is hidden from visitors” section of
-How secure are public links?
-Public links don’t share branches of the content tree
-Each public link corresponds to one content item only. If you turn on and share a public link for a content item that has any child items, the public link will only reveal the parent item, not any of the child items. To share the child items too, you’ll need to turn on their public links and share each of them individually.
-What to expect from public whiteboards
-Public whiteboards differ from public pages in that, firstly, whiteboard visitors can edit the whiteboard if the whiteboard’s public link has been set to
-Can edit
-.
-Secondly, whiteboards differ from pages in that they are live, in real-time; changes to them don’t need to be published before visitors can see them.
-This makes public whiteboards useful for sharing roadmaps, brainstorms, holding workshops, and more.
-Visitors are represented in the top toolbar and as a cursor moving across the whiteboard while they’re viewing and/or editing it. They can see collaborators working on the board and other anonymous visitors.
-Anyone visiting the public whiteboard will be represented as “Anonymous”, even if they can access the internal whiteboard link.
-Collaborators can see anonymous visitors and their cursors from the internal version of the whiteboard and can control what name appears under their cursor to anonymous visitors.
-Anonymous users will be able to view your
-public name
-. To update how your name appears to anonymous users:
-Select your avatar, then
-Manage Account
-.
-In the
-Profile and visibility
-tab, select your name under
-Public name
-.
-Enter how you would like your name to appear publicly, then save. Your changes will take effect within five minutes.
+Manage OAuth access tokens
+OAuth access tokens allow you to use a Confluence gadget on an external web application or website (also known as the 'consumer')
+and
+grant this gadget access to Confluence data which is restricted or privy to your Confluence user account.
+OAuth access tokens will only appear in your user profile if the following conditions have been met:
+Your Confluence administrator has established an OAuth relationship between your Confluence site and the consumer.
+You've accessed a Confluence gadget on the consumer and have completed the following tasks:
+Logged in to your Confluence user account via the gadget
+Clicked the
+Approve Access
+button to allow the gadget access to data that's privy to your Confluence user account
+Confluence will then send the consumer an OAuth 'access token', which is specific to this gadget. You can view the details of this access token from your Confluence site's user account.
+Confluence Administrators should refer to
+Configuring OAuth
+for more information about establishing these OAuth relationships.
+An OAuth access token acts as a type of 'key'.
+As long as the consumer is in possession of this access token, the Confluence gadget on the consumer will be able to access Confluence data that's both publicly available and privy to your Confluence user account.
+As a Confluence user, you can revoke this access token at any time.
+All access tokens expire after seven days. Once the access token is revoked or has expired, the Confluence gadget will only have access to publicly available Confluence data.
+View your OAuth Access Tokens
+To view all of your Confluence user account's OAuth access tokens:
+Choose your profile picture at the right side of the navigation, then choose
+Settings
+Click
+View OAuth Access Tokens
+OAuth Access Token Details
+Your list of OAuth access tokens is presented in a table, with a row for each access token and a column for each property:
+Column Name
+Description
+Consumer
+The name of the Confluence gadget that was added on the consumer.
+Consumer Description
+A description of this consumer application. This information would have been obtained from the consumer's own OAuth settings when an OAuth relationship was established between Confluence and that consumer.
+If the consumer is another Atlassian application, this information is obtained from the
+Consumer Info
+tab's
+Description
+field of the OAuth Administration settings. The application's administrator can customize this Consumer Info detail.
+Issued On
+The date on which the OAuth access token was issued to the consumer by Confluence. This would have occurred immediately after you approved this gadget access to your Confluence data (privy to your Confluence user account).
+Expires On
+The date when the OAuth access token expires. This is seven days after the "Issued On" date. When this date is reached, the access token is automatically removed from this list.
+Actions
+For revoking the access token.
+Revoke your OAuth Access Tokens
+To revoke one of your OAuth access tokens:
+View your Confluence user account's OAuth access tokens (described above).
+Click
+Revoke OAuth Access Token
+for the OAuth access token you want to revoke.
+The gadget's access token is revoked and the Confluence gadget on the consumer will only have access to publicly available Confluence data.
 Was this helpful?
 Yes
 No
@@ -542,20 +504,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Collaborate on content
+Manage your account
 Show more
-Comment on pages, live docs, whiteboards, and blog posts
-Watch pages, live docs, spaces, whiteboards, and blogs
-Add people to Confluence from Google, Slack, or Microsoft
-What can guests see and do in Confluence?
-Share content externally with public links
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Show more
 On this page
-Turn on a public link
-What to know when sharing public links
-Internal view restrictions don’t apply
-Public links hide sensitive information
-Public links don’t share branches of the content tree
-What to expect from public whiteboards
+View your OAuth Access Tokens
+OAuth Access Token Details
+Revoke your OAuth Access Tokens
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-the-indexing-language/
+URL: https://support.atlassian.com/confluence-cloud/docs/private-mode-in-whiteboards/
 
-Configure the indexing language | Confluence Cloud | Atlassian Support
+Private mode in whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,39 +439,32 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Configure the indexing language
-Changing the indexing language defined in
-Confluence Cloud
-may improve the accuracy of your search results, especially if the majority of the content of your site is in a language other than English.
-Confluence Cloud
-supports content indexing in English (default), German, Russian, Chinese, CJK, Custom Japanese, French, Portuguese, Czech and Greek.
-To configure the indexing language:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
+Private mode in whiteboards
+Use private mode in whiteboards for more open collaboration with your team.
+Turn private mode on
+Select the private mode icon in the right-side toolbar.
+To keep authors anonymous after a private mode session ends, toggle
+Keep authors anonymous
+on.
 Select
-Configuration
->
-General configuration
+Start for everyone
 .
-Scroll down to
-Internationalization
-.
-Select the
-Indexing language
-from the dropdown list.
+Turn private mode off
+Anyone can end a private mode session. When you are ready to end a private session:
+Select the private mode icon in the right-side toolbar.
 Select
-Save indexing language changes
+Turn off private mode
 .
+Select
+Confirm
+.
+Things to know
+If you copy a whiteboard, edits made during private mode will not be included.
+Edits made during private mode will not appear in version history.
 Was this helpful?
 Yes
 No
@@ -482,14 +475,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
+Create and edit whiteboards
 Show more
-Configure the administrator contact page
-Choose a default language
-Configure the indexing language
-Configure time and date formats
-Configure number formats
-Show more
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard version history
+On this page
+Turn private mode on
+Turn private mode off
+Things to know
 Community
 Questions, discussions, and articles
 Accessibility

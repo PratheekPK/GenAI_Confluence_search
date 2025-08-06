@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/archive-a-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/transfer-ownership-of-your-content-item/
 
-Archive a space | Confluence Cloud | Atlassian Support
+Transfer ownership of your content item | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,73 +439,35 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Remove a space
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Archive a space
-Archiving a space hides it from basic site navigation, removing clutter so that it’s easier to find the most up-to-date and relevant content. You’ll always be able to find an archived space if you need it later, and you can restore it at any time.
-Archive a space
-Make sure you’re in the space you want to archive.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Archive space
-.
-Select the
-Archive space
-button.
-Select
-Archive
-to confirm your decision.
-How archived spaces behave on your site
-Archived spaces (and all content contained within them) won’t appear in the following:
-Any dropdown menus, including the Confluence quick navigation (which drops down when you enter text in the search box).
-The general list of spaces in the
-Space Directory
-. Instead, they’ll appear in the
-Archived Spaces
-list.
-Any activity streams, even if the archived space is updated.
-Archived spaces retain the following functionality:
-You can view the content as usual, by following a link or typing in a URL belonging to the archived space.
-You can edit the content as usual, as determined by the
-space permissions
-.
-RSS feeds
-,
-watches
-, and
-notifications
-remain active.
-They’ll still appear under any categories they’ve been labeled with.
-Public spaces (accessible to anyone on the Internet) will continue to appear in external search engines’ search results, like Google’s.
-Restore an archived space
-Select
-Spaces
-in the
-sidebar
-.
-Select
-View all spaces
-.
-Select the
-Archived
-button to filter the space list.
-Find your space and select
-More actions
-(•••), then
-Space settings
-.
-Open the
-General
-menu
-and select
-Archive space
-.
-Select
-Restore
-.
+Transfer ownership of your content item
+When you create a page, live doc, whiteboard, database, or Smart Link in the content tree in Confluence, you’re known as both the creator and, by default, the owner of that content.
+At any time, you can choose to transfer ownership of your content item to another user. This can be helpful for indicating who should be the “point person” responsible for the content going forward.
+It’s not currently possible to transfer ownership of
+space overview pages
+or blogs.
+You can’t change the owner of a content item while using the Confluence mobile app.
+To transfer ownership to someone else, select the content owner avatar and name from the area below the title. Then, select the
+Change owner
+button to the right of the content owner’s name.
+You can also open the
+Details
+panel
+from the floating action bar at the bottom right of your screen.
+To the right of the content owner’s name, select the “
+Change owner
+” button.
+Next, use the search field to find a new owner by name or email. The new owner must have access to the space and edit access to the item for you to be able to make them the owner.
+Once you’ve chosen the correct person, select
+Change owner
+to confirm the transfer.
+After changing ownership to someone else, you still retain edit access, but won’t be able to change the owner back to yourself (unless you’re also an admin).
+Confluence space and product admins can also
+transfer ownership of your content
+, if needed.
 Was this helpful?
 Yes
 No
@@ -516,13 +478,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Remove a space
-Archive a space
-Delete a space
-On this page
-Archive a space
-How archived spaces behave on your site
-Restore an archived space
+Create and edit content
+Show more
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-confluence-for-software-teams/
+URL: https://support.atlassian.com/confluence-cloud/docs/make-your-page-and-its-title-more-memorable/
 
-Use Confluence for software teams | Confluence Cloud | Atlassian Support
+Make your content and its title more memorable | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,26 +439,76 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Considering Confluence Cloud?
-See how teams use Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Use Confluence for software teams
-Welcome to the
-Software Team's guide to using Confluence
+Make your content and its title more memorable
+Sometimes you need more than words to tell a story and make content stand out. Whether the page, live doc, or blog post is new or one that you’ve had around for awhile, you can add an emoji to the title or an image above the title in the header area.
+Whenever a page, doc, or post is shown in the
+sidebar
+or on a card in the space or
+For you
+page, the emoji you add to the title shows up too. Emojis can be a convenient way to make the purpose of the content clear at a glance.
+Add an emoji to a title
+Hover over the title when editing a page, live doc, or blog post in
+Confluence Cloud
 .
-Check out the articles in this collection or
-download the Software Team's Guide to Confluence ebook
-to get all of these tips in one place:
-How to write product requirements
-How to build a release planning page
-Creating insightful customer interview pages
-Create sprint retrospective and demo pages (like a BOSS)
-How to make better decisions as a development team
-How to document releases and share release notes
-Use blogs to share your development team's progress
-How to create technical and onboarding documentation
-Like what you see? Start creating these pages and more in Confluence!
+Select
+Add emoji
+.
+Select an emoji. You can also add your own.
+Change an emoji in the title
+Select the existing emoji when editing a page, live doc, or blog post in
+Confluence Cloud
+.
+Select the new emoji.
+Remove an emoji from the title
+Hover over the title when editing a page, live doc, or blog post in
+Confluence Cloud
+.
+Select
+Remove emoji
+.
+Once someone finds your content and views it, the image you add to the header of the page, live doc, or blog post can give it even more personality and information. These images are shown above the title when someone views the content.
+Add an image to a header
+Hover over the title when editing a page, live doc, or blog post in
+Confluence Cloud
+.
+Select
+Add header image
+.
+Search the library of images from Unsplash or upload your own.
+Drag to reposition the image and select
+Apply
+.
+Select
+Cancel
+to exit if you don’t need to reposition the image.
+We recommend uploading a high quality image 1100 px or wider to avoid pixelation.
+Change an image in the header
+Hover over the existing header image when editing a page, live doc, or blog post in
+Confluence Cloud
+.
+Select the image.
+Select
+Change image
+.
+Search the library of images from Unsplash or upload your own.
+Drag to reposition the image and select
+Apply
+.
+Select
+Cancel
+to exit if you don’t need to reposition the image.
+Remove an image from the header
+Hover over the existing header image when editing a page, live doc, or blog post in
+Confluence Cloud
+.
+Select the image.
+Select
+Remove image
+.
 Was this helpful?
 Yes
 No
@@ -469,9 +519,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-See how teams use Confluence Cloud
-Use Confluence for technical documentation
-Use Confluence for software teams
+Create and edit content
+Show more
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

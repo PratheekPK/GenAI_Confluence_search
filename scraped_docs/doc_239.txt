@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-and-manage-links-on-your-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-recently-updated-dashboard-macro/
 
-Insert and manage links on your pages and live docs | Confluence Cloud | Atlassian Support
+Insert the recently updated dashboard macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,40 +439,95 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Extend the functionality of Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Insert and manage links on your pages and live docs
-Links are essential for guiding users through your content, connecting related content, and referencing external resources. This article will show you how to easily insert and manage links on your pages and live docs.
-Inserting a link
-Using the toolbar
-Select the text you want to turn into a link, or place your cursor where you want the link to appear.
-Select the
-Link
-button on the toolbar, or use the keyboard shortcuts:
-Ctrl
-+
-K
-on Windows,
-Cmd
-+
-K
-on Mac.
-Choose your link destination:
-Internal links:
-Select a page, live doc, whiteboard, database, or blog post from your site.
-External links:
-Enter the external URL directly.
-Creating a link by pasting a URL
-You can simply paste a URL directly onto your page or doc. The system will automatically create the link, and if the URL is from your current site, the content’s name will be set as the link text.
-Alternatively, you can highlight a selection of content and paste a URL from your clipboard. This will instantly turn the highlighted text into a link using the pasted URL.
-Modifying link text
-You can customize the text that appears as your link. After selecting your link destination, enter or modify the link text in the provided field. If you leave this field blank, the system will use the content’s name or URL as the default link text.
-Advanced link options
-For more advanced linking needs, such as creating anchors or linking to specific sections within a page or doc, see
-Links and Anchors
-for how to link to particular types of content.
+Insert the recently updated dashboard macro
+The recently updated dashboard macro displays a list of the most recently changed pages and live docs, blogs, and files in your site. It is similar to the
+recent updates macro
+, but with tabs to allow you to see all updates, updates from your favorite spaces, or updates from your network (the people you follow).
+To add the recently updated dashboard macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the recently updated dashboard macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Parameter
+Default
+Description
+Space(s)
+(spaces
+)
+The space that contains the page or live doc on which the macro is added
+Filter content by space. The macro will display only the pages and live docs that belong to the spaces you specify here. You can specify one or more space keys, separated by commas.
+Use '
+*
+' for all spaces.
+Include these Content Types Only
+(types
+)
+All types
+Filter content by type. You can specify one or more types, separated by commas. Available types are:
+page
+,
+blogpost
+or
+news
+,
+spacedesc
+,
+attachment
+,
+comment
+,
+mail
+,
+userinfo
+.
+Label(s)
+(labels
+)
+None
+Filter content by label. The macro will display only the pages and live docs that are tagged with the labels you specify here. You can specify one or more labels, separated by commas.
+If there are
+no
+pages or live docs matching any of the specified labels, then Confluence will ignore the labels and will list all recently updated pages and docs.
+User(s)
+(users
+)
+All users
+Filter by username of the user who updated the content. The macro will only display content created and updated by the users you specify here. You can specify one or more usernames separated by commas.
+Width of Table
+(width
+)
+100%
+Specify the width of the macro display, as a percentage of the window width.
+Show User Profile Pictures
+(showProfilePic
+)
+False
+Select whether profile pictures of the users who updated the content are displayed.
 Was this helpful?
 Yes
 No
@@ -483,20 +538,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Use macros to show Confluence content on pages and live docs
 Show more
-Get started with Smart Links in the content tree
-What data is sent and received when pasting a Smart Link?
-Insert and manage links on your pages and live docs
-Add elements to a page or live doc
-Transfer ownership of your content item
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Insert the related labels macro
+Insert the spaces list macro
 Show more
-On this page
-Inserting a link
-Using the toolbar
-Creating a link by pasting a URL
-Modifying link text
-Advanced link options
 Community
 Questions, discussions, and articles
 Accessibility

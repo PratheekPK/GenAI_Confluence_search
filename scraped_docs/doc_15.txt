@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-page-index-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-a-database/
 
-Insert the Page Index macro | Confluence Cloud | Atlassian Support
+Create a database | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,25 +439,55 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to add navigation on Confluence pages
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Insert the Page Index macro
-The Page Index macro creates a hyperlinked alphabetical index of all page titles within the current space.
-The top section of the index contains a cell for each letter of the alphabet, with cells for numbers and symbols. Each cell indicates how many pages are in the corresponding list.
-The lower section contains lists of page titles followed by the first few sentences of content on that page.
-Each letter, number or symbol in the top section is hyperlinked to the corresponding cell in the lower section. Each page title in the lower section is hyperlinked to the page in the space.
-The Page Index macro only works in spaces with fewer than 500 pages.
-Use the Page Index macro
-To add the Page Index macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-There aren't any parameters to enter for this macro.
+Create a database
+Databases aren’t available in the
+Atlassian Government environment
+.
+Create a database
+There are three ways to create a database in Confluence:
+the
+Create
+button in the main navigation
+the
++
+button next to the Content section or a parent item in the space
+sidebar
+by using the
++
+insert menu or
+/
+command when editing a page
+Create a database using the Create button
+Select the
+Create
+button in the navigation.
+Select
+Database
+.
+This will create a new blank database in your current space. If you don't have edit permissions in that space, it will default to your personal space.
+Create a database in the content tree
+Select the
++
+button next to the Content section in the space
+sidebar
+.
+Select
+Database
+to create a database in the current space.
+You can also create a database under an item in the content tree using the
++
+button. The button appears when hovering over the content's title in the sidebar.
+Create a database from within a page
+Database setup
+Once you have created a new database, you will be guided through some options for the initial setup. During the setup, you have the option to do one of the following:
+Connect to a Jira instance and insert issues into the database.
+Use a template to help you get started.
+Import data from a CSV file.
+You can start with a blank database and create a custom structure to suit your needs.
 Was this helpful?
 Yes
 No
@@ -468,13 +498,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add navigation on Confluence pages
-Insert the anchor link macro
-Insert the Live Search macro
-Insert the Page Index macro
-Insert the content tree macro
-Insert the page tree search macro
+Create and edit databases
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
 Show more
+On this page
+Create a database
+Create a database using the Create button
+Create a database in the content tree
+Create a database from within a page
+Database setup
 Community
 Questions, discussions, and articles
 Accessibility

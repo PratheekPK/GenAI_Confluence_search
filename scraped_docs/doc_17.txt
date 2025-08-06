@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-a-page-from-a-template/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-email-notifications/
 
-Format a page, live doc, or blog post with a template | Confluence Cloud | Atlassian Support
+Subscribe to email updates | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,37 +439,121 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Collaborate on content and get notified in Confluence Cloud
+Get notified about content and activity
 Cloud
 Data Center
-Format a page, live doc, or blog post with a template
-When you create a new page, live doc, or blog post, you have the option of pre-formatting with a template. Using a template can help inspire you when it’s time to create content or ensure consistency with other work.
-To begin, select the
-Create
-button from the top navigation (or by using the + from the sidebar). The template browser will open on the right.
-The template browser will disappear as soon as you start typing. If you need to change templates, you can open the browser again: select
-Templates & import doc
-from the more actions menu (
-) in the upper right.
-You can browse through all templates in a space, filter templates by category, or search for a specific template by name or keyword. To preview a template without selecting it, hover over the template card.
-Once you've found the right template, select the card to apply it to your content.
-Add your favorite templates to the
-Starred
-category for easy access. Just hover over the template card and select the empty star icon.
-Find and use templates faster
-In addition to using the templates browser to discover templates, you can quickly get started creating when you find a page, live doc, or blog post that you like.
-If a piece of content was created using a template, you will see “with a template” next to “Created by” in the byline. Want to use the same template?
-Hover over the "with a template" part of the byline to see the template name and a description.
+Subscribe to email updates
+When you
+watch or view
+a page, blog, or space, Confluence will email you each time someone makes changes to it. You can also subscribe to Confluence updates as described below. How much you leverage email to receive activity updates is up to you.
+However, if your Confluence administrator has turned off email and push notifications, you won’t be able to make or change selections.
+Email options
+You can choose to be receive emails when there are updates to content you’ve watched or viewed.
+This includes:
+Someone makes changes to content
+A blog is published or updated in any space you can view
+You comment on or edit content
+You create or edit content in a space you’re watching
+Daily digest
+You can choose to subscribe to a
+Daily Digest
+which consists of updates for content you’re watching. This includes:
+Comments and reactions
+New blogs, content, or whiteboards
+Content updates
+For Premium and Standard customers the
+Daily Digest
+also provides updates for content that’s been recently viewed, alongside content being watched.
+To edit your email settings:
+Select your profile picture in the top-right of the navigation
 Select
-View
-to open the template in the template browser.
-To create a page with that template, select
-Use template
+Personal settings
+Select
+Email
+in the left panel
+Select
+Edit
+at the top
+Check or uncheck boxes to set which emails you’d like to receive
+Select
+Submit
+at the top
+To access email settings from the email footer:
+If you find you’re receiving too many emails, you can quickly jump to your Confluence email settings by clicking the
+Update your email settings
+link in the email footer. You may also see an option to simply
+Stop watching
+or to
+Manage notifications
 .
-About using templates
-Pages, live docs, and blog posts cannot be created from a template when on the Confluence mobile app.
-Also keep in mind that when you change templates, you create a new page, live doc, or blog post; any content you entered on the current item won’t carry over to the new template. You'll be prompted with an option to discard the current item when the new one is created. If you don’t discard it, it will be saved in the sidebar.
+If available, select the
+Update your email settings
+or other relevant link, located in the footer of the email
+Select
+Edit
+Check or uncheck boxes to set which emails you’d like to receive
+Select
+Submit
+Email settings table
+Here’s a reference chart of all the email settings, what they do, and how to manage them.
+If you aren’t watching any content or spaces, selecting any of the options below will not change your notifications.
+General
+Setting type
+Description
+Content you’ll be notified about
+Autowatch
+Selecting this option will automatically add you as a watcher to each page or post that you create, edit, or comment on. As a watcher on a piece of content, you’ll receive notifications of all future changes.
+Pages and blog posts that you create, edit, or comment on
+All blog posts
+You’ll receive an email when any blog post is created that you have permission to view, even if it’s in a space you’re not watching. You won’t receive emails for comments or edits to the blogs.
+New blog posts that you have permission to view
+Notify on my actions
+You’ll receive email notifications on actions you take within Confluence.
+All pages and spaces that you're watching
+Subscribe to
+Setting type
+Description
+Content you’ll be notified about
+Daily Digest
+Customizable daily email with an overview of updates and activity regarding the pages and spaces you’re watching.
+Daily Digest doesn't include information about attachments on a page or blog post that are added, edited or deleted.
+Customizable, can include updates on:
+Comments and reactions
+New blogs
+New pages
+New whiteboards
+Page updates
+Real-time updates
+Customizable notifications in real time on topics of your choice.
+New users or guests joining Confluence (admin only)
+Public links (admin only)
+Mentions
+Tasks
+Changes to content you’re watching
+Changes to content you own
+Note for admins
+Confluence administrators can turn email and push notifications
+on
+or
+off
+for their instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Then find
+Settings
+>
+Configuration
+and select
+Further configuration
+. Select
+Edit
+to make changes.
+Site administrators have the ability to turn off specific emails for their entire tenant. Toggling settings to
+off
+means that no one on the Confluence instance will receive email, even if they turn it
+on
+in their personal email settings.
 Was this helpful?
 Yes
 No
@@ -480,13 +564,22 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
-Draft, publish, and update a page
-Create and collaborate in real time with live docs
-Format a page, live doc, or blog post with a template
-Format your content
-Format text
+Get notified about content and activity
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
 Show more
+On this page
+Email options
+Daily digest
+To edit your email settings:
+To access email settings from the email footer:
+Email settings table
+General
+Subscribe to
+Note for admins
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-is-a-confluence-group/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-data-is-sent-and-received-when-pasting-a-smart-link/
 
-What is a Confluence group? | Confluence Cloud | Atlassian Support
+What data is sent and received when pasting a Smart Link? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,45 +439,49 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage permissions at the content level
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-What is a Confluence group?
-For Confluence administrators,
-grouping users in Confluence
-is a great way to cut down the work required when managing permissions and restrictions. Groups are also very useful, however, to anyone who's a
-space admin
-, or can apply page restrictions.
-If you're a space admin, you can assign a set of
-space permissions
-to a group rather than to each individual user. And as a page creator with 'Add/Delete Restrictions' permission, you can also
-add and remove page restrictions
-for groups.
-Default Confluence groups
-There are some default groups in every Confluence instance but, beyond that, Confluence administrators are free to set up and edit groups in any way they see fit.
-The two special groups in Confluence are:
-administrators
-- these users have permissions to add and administer users, and access the
-Confluence Admin
-console.
-users
-- this is the default group into which all new users are assigned. Permissions defined for this group will be assigned to all new Confluence users.
-Your Confluence instance may have other groups, and the names of your default groups may differ if they've been edited by a Confluence admin. See
-Create and update groups
+What data is sent and received when pasting a Smart Link?
+This is an outline of what happens when you paste a URL and it turns into a Smart Link. It’s a technical explanation, written for anyone who’s concerned about the security implications of Smart Links.
+We’ve used a
+Google Drive
+link in this example, but this information is true for other products too.
+What is a Smart Link?
+When you paste a link to a Google Drive document on Confluence or Jira, our system can turn it into a Smart Link. This means you’ll see more information about the file, like its title, last updated date, and a preview image.
+Learn more about Smart Links
+What happens when you paste a link?
+When you paste a link, our system will check if it's a valid Smart Link based on a domain pattern match (in this example, it’ll check for
+Google.com
+).
+If the domain matches, and if you’re logged in to your Google account, we’ll transform your link into a Smart Link.
+What happens if you’re not logged in?
+The system will ask you to connect and log in to your Google account; this is done using the
+OAuth2 protocol
+. This process allows you to log in to your Google account, get an authentication token, and store it securely within our system. This token is crucial for retrieving data from Google (more on that in the next section).
+Use the same connected account across Atlassian features and products
+After connecting your Google account, you don’t have to repeat the process of logging in and getting an authentication token. You may be asked to allow certain permissions when you need to use the same account in other products and features.
+For information on what information we receive after you connect,
+read our Privacy Policy
 .
-Anonymous Users
-All users who don't log in when they access Confluence are know as 'anonymous' users. By default, anonymous users don't have access to view or change any content in your Confluence instance, but Confluence admins can assign permissions to this group if it's required.
-Overlapping group and user permissions
-When a user is assigned more than one permission, the more powerful permission will prevail.
-Further explanation:
-A user may be assigned a permission specifically to their username. They may also be assigned a permission by belonging to a group, or even several groups.
-The user will then be able to perform all functions assigned to them.
-So if a user is allowed to do something over and above what the group can do, the user will be able to do it. And if the group is allowed to do something over and above the specific permissions granted to the user, the user will still be able to do it.
-If anonymous users are allowed to do something over and above what the user or group can do, the user will be able to do it, (even while logged in).
-Unlicensed users from linked applications
-If you're using Confluence as a knowledge base for Jira Service Desk, your Jira Service Desk administrator can choose to allow all active users and customers (that is logged in users who do not have a Confluence license) to view specific spaces.
-These users have very limited access, and cannot be granted permissions in the same was as an individual or group. However, it's important to note that this permission overrides all existing space permissions, so any logged in Confluence user will also be able to see the space (regardless of their group membership). This is due to the way Confluence inherits permissions.
+How is authentication and data managed in Smart Links?
+Once you’ve pasted a link and logged in, our system uses your authentication token (see previous section) to access Google’s API and receive data about the file like the title, preview image, and last updated date. These details are displayed in the Smart Link.
+Our system retrieves the data in real-time using your authentication token. This means you’ll only see details about the Google Drive file if you have permission to do so.
+For Rovo customers, we save data like filenames and URLs from Figma links securely in our servers and make it available to serve Rovo features like Search.
+Read more on how
+Rovo shows Figma results
+What happens if your link is unsupported?
+If the domain of the link you paste is unrecognized and not supported by Smart Links, our system skips the authentication process and calls a third-party service called
+iFramely
+.
+iFramely
+will take your link, search the web for metadata that's publicly available, and display it in the Smart Link. If the link requires authentication, we won’t be able to retrieve any information and will simply display the link as pasted.
+Either way, we don’t submit any user data or client information to any third-party services.
+Learn which products are supported by Smart Links
+Update the IP ranges of your allow-list
+As an Atlassian Cloud feature, Smart Links may not work if you don’t update your network restrictions to include the IP ranges in your allow-list.
+Read more on IP address ranges for Atlassian Cloud products and sites
 Was this helpful?
 Yes
 No
@@ -488,15 +492,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage permissions at the content level
-Change who can find content and what they can do with it
-Confluence permissions structure
-Troubleshoot access problems to content
-What is a Confluence group?
+Create and edit content
+Show more
+Insert links and anchors
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Show more
 On this page
-Default Confluence groups
-Anonymous Users
-Unlicensed users from linked applications
+What is a Smart Link?
+What happens when you paste a link?
+Use the same connected account across Atlassian features and products
+How is authentication and data managed in Smart Links?
+What happens if your link is unsupported?
+Update the IP ranges of your allow-list
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/search-the-people-directory/
+URL: https://support.atlassian.com/confluence-cloud/docs/navigate-around-confluence/
 
-Search for people and teams | Confluence Cloud | Atlassian Support
+Navigate around Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,20 +440,21 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Find content in Confluence Cloud
 Cloud
 Data Center
-Search for people and teams
-To view the people directory, select
-Teams
-in the
-sidebar
-.
-From under
-Teams
-, select
-Search teams
-to view or search for more people or teams. You can also add new teams or people to Confluence here.
+Navigate around Confluence
+What is the new navigation in Confluence?
+The new navigation is customizable, offers a new look and feel, and makes moving between work more efficient.
+View topic
+Use For you to jump into work and see what's happening
+Start your day on the Home page with access to your recent and starred things, as well as the site activity feed.
+View topic
+Confluence navigation
+Learn about the different ways to navigate through your Confluence content.
+View topic
+View written content
+Get details and information about the pages and live docs you're viewing
+View topic
 Was this helpful?
 Yes
 No
@@ -464,12 +465,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Explore more
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+Use spaces to organize your work
 Find content in Confluence Cloud
-Search for content
-Search for people and teams
-Confluence search syntax
-Discover relevant content with related content
-Use Atlassian Intelligence to search for answers
+Create and edit content
+Keep content organized
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

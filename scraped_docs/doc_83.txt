@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/team-calendars-faqs/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-captcha-for-spam-prevention/
 
-Team Calendars FAQs | Confluence Cloud | Atlassian Support
+Turn on Captcha for spam prevention or failed logins | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,75 +439,44 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Confluence administration
+Security settings in Confluence Cloud
 Cloud
 Data Center
-Team Calendars FAQs
-How do I set up Team Calendars?
-It's easy! See
-Use Team Calendars for Confluence (Premium feature)
+Turn on Captcha for spam prevention or failed logins
+If your Confluence Cloud instance is open to the public (you allow anonymous users to add comments, create content, etc) you may find that automated spam is being added, in the form of comments or new pages and live docs.
+You can deter automated spam by enabling Captcha. Captcha is a test that can distinguish a human being from an automated agent such as a web spider or robot. When Captcha is on, anonymous users will see a distorted picture of a word, and must enter it in a text field before they can:
+Add a comment
+Create content
+Edit a page
+Send a request to Confluence administrators
+To enable Captcha for anonymous users
+— and/or to enforce Captcha for all users or members of particular groups — raise a
+support request
 .
-Why are you charging for this plugin?
-There are a few reasons:
-We feel we can solve a lot of specific problems with the combination of events, people, projects (JIRA applications) and content. Atlassian sees this plugin working alongside your personal meeting or events calendar.
-Not every customer needs a team calendaring solution. Hence, by not bundling Team Calendars with Confluence, it doesn't increase the cost of Confluence for those customers who aren't going to use it.
-The old plugin was not maintained or supported. In contrast, Team Calendars is maintained and supported moving forward.
-What's happening with the old Confluence calendar plugin?
-The old calendar plugin was never officially supported and as such carries no support from Atlassian. It is currently available as an open-sourced component, available on
-plugins.atlassian.com
-for use with legacy versions of Confluence (3.4 and earlier). The old calendar plugin does not work with Confluence 3.5.x or later versions. There are currently no plans to continue development on the old calendar plugin. If you are currently using the old plugin, there is a manual migration path to Team Calendars available by importing your iCal files.
-Where can I give you feedback?
-To give the Team Calendars team feedback, raise an issue in the
-TEAMCAL project on jira.atlassian.com
-.
-Can I integrate Team Calendars with our company's Google Apps Calendar?
-Yes you can. Learn more about this here:
-Subscribe to Team Calendars from Google Calendar
-Subscribe to Google Calendars from Confluence
-Is Team Calendars available for Confluence Data Center?
-Yes. All you need is a Team Calendars license for Confluence Data Center.
-Learn more about Data Center licensing
-Can I map out custom issue date fields from JIRA applications?
-Yes, you can! This was released as part of Team Calendars 2. See
-Add Jira events
-for more information.
-Does Team Calendars work on my iPhone?
-Although this is not officially supported, it does work on the iPhone. All you have to do is select "subscribe" from a specific calendar menu and login using your Confluence details. iOS should automatically attempt to add the calendar to your iPhone. More instructions here:
-Subscribe to Team Calendars from Apple iOS Calendar
-Can I add more than one person to an event for my people calendar?
-Yes you can. Just add multiple names in the people field.
-Is Team Calendars available in my local language?
-As of Team Calendars 1.1, the plugin is available in English and the bundled Confluence languages (French and German). We hope to have this plugin also available on
-translations.atlassian.com
-for other language support.
-Can I change the date/time format (E.g. mm/dd or dd/mm)?
-The date format is dependent on your language settings and automatically adjusts accordingly - this is a Confluence user and global setting. An admin can set the site
-default language
-and you can also set your
-language preference
-.
-Can I change the starting day of the week?
-The Team Calendars follows per user language preferences to decide which day is at the start of the week. For example, if you want to make the start of the week to Sunday (US Calendar), you would need to install the
-US Language pack
-and edit your Confluence user preferences to choose
-US English
-. To do this, click
-User name
->
+Captcha can also be enabled to display after a certain number of failed login attempts. The default number in Confluence Cloud is 3 attempts, but can be changed in settings.
+To configure Captcha for failed logins:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
 Settings
 >
-Edit
->
-Language
-and then choose
-US English
+Security
+in the left-hand navigation.
+Select
+Security configuration
 .
-The Confluence default is to
-Automatically detect browser settings
+Find
+CAPTCHA on login.
+Check the
+Enable
+box to turn it on.
+Enter the number of
+maximum authentication attempts allowed
 .
-Can I subscribe to Google Public Calendar from Team Calendars?
-Currently, it's not possible to subscribe to Google Public Calendar from Team Calendars. This is a known issue with Google Calendar; it appears that Google Calendar Public .ics file doesn't contain the data/event that can be read by Team Calendars to display events. Only Google Private Calendar can be subscribed from Team Calendars for now.
+Select
+Save
+at the bottom of the page.
 Was this helpful?
 Yes
 No
@@ -518,27 +487,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Show more
-Subscribe to Team Calendars from Apple iOS Calendar
-Export to other calendars
-Set system properties
-Team Calendars FAQs
-Subscribe to Team Calendars from Google Calendar (Android)
-On this page
-How do I set up Team Calendars?
-Why are you charging for this plugin?
-What's happening with the old Confluence calendar plugin?
-Where can I give you feedback?
-Can I integrate Team Calendars with our company's Google Apps Calendar?
-Is Team Calendars available for Confluence Data Center?
-Can I map out custom issue date fields from JIRA applications?
-Does Team Calendars work on my iPhone?
-Can I add more than one person to an event for my people calendar?
-Is Team Calendars available in my local language?
-Can I change the date/time format (E.g. mm/dd or dd/mm)?
-Can I change the starting day of the week?
-Can I subscribe to Google Public Calendar from Team Calendars?
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
 Community
 Questions, discussions, and articles
 Accessibility

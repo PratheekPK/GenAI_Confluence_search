@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-a-default-classification-level-for-content/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-section-macro/
 
-Set a default classification level for content | Confluence Cloud | Atlassian Support
+Insert the section macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,27 +439,47 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Set space-specific functionality
+Create and organize work in Confluence Cloud
+Review macros only available in the legacy editor
 Cloud
 Data Center
-Set a default classification level for content
-Ensure your content in a chosen space is always classified by setting a default classification level for that space.
-What is a default classification level?
-You can set a default classification level for a space once your organization admin has set up classification levels for your organization.
-You must be a space admin to set a default classification level.
-To set a default classification level for a space:
-Go to the space in Confluence Cloud.
-Select
-Space Settings
-from the sidebar.
-Select
-Data classification
-from the Data protection card.
-Choose the classification level you want to apply as the default for items in this space.
-Select
-Save
+Insert the section macro
+In June 2025, Atlassian announced the upcoming
+deprecation of the legacy editor
+as well as
+information about converting
+to the cloud editor.
+Before the deprecation begins in January 2026, this macro will still work. See our
+article on legacy editor macros
+for more.
+Used with the Column macro to define columns on a page. See
+Format a Confluence Page
 .
+Parameters
+Parameter name
+Required
+Default
+Parameter description and accepted values
+border
+No
+False
+If the value is
+true
+, the columns in this section will have a dashed border.
+Wiki markup example
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Macro name:
+section
+Macro body:
+Rich text, consisting of one or more Column macros.
+{section:border=true}
+{column:width=100px}
+This is the content of *column 1*.
+{column}
+{column}
+This is the content of *column 2*.
+{column}
+{section}
 Was this helpful?
 Yes
 No
@@ -470,10 +490,9 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set space-specific functionality
-Additional PDF export settings
-Advanced PDF export customizations
-Set a default classification level for content
+On this page
+Parameters
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

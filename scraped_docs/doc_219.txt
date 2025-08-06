@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/confluence-standard/
+URL: https://support.atlassian.com/confluence-cloud/docs/display-your-assets-data-on-a-confluence-page/
 
-Confluence Standard  | Confluence Cloud | Atlassian Support
+Display your Assets data on a Confluence page | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,33 +439,50 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Considering Confluence Cloud?
-Confluence Cloud functionality and features
+Extend the functionality of Confluence Cloud
+Use macros to add development info on Confluence pages
 Cloud
 Data Center
-Confluence Standard
-Confluence Standard helps teams of all sizes work effectively and collaborate. They can add and manage teams of 10+ to 10,000. Our Standard plan gives teams more flexibility, content management and user management controls, and personalized support. It includes features like space and content permissions, content insights, content archive, audit logs, anonymous access, 9-5 support, and 250 GB of storage.
-Here’s a breakdown of our
-Standard
-features:
-User limit
-With Standard, you can add 10+ users (up to 20,000) on one instance.
-Storage
-250 GB for your team
-Support
-Access to our Confluence support experts
-Space and content permissions
-Assign, revoke, and modify space or content permissions to individual users, groups, or anonymous users (Free plans do not allow permission settings for spaces or pages).
-External Collaboration: Guests
-For each paid user, Admins can add up to 5 guests for no additional cost or licenses. Each guest is limited to a single space, but there are no limits to how many spaces can be shared or how many guests can be in each space.
-Archive and unarchive pages
-File away outdated content to keep content trees tidy with relevant content. Access archived content anytime for historical context.
-Content insights
-Get engagement analytics on content views, user views, and comments.
-Audit logs
-When you need to troubleshoot a problem or keep a record of important events, such as changes to global permissions, the audit log allows administrators to look back at changes that have been made in your site.
-Anonymous access
-Anonymous access makes your Confluence site publicly available, enabling access to your content to users outside of your organization. Confluence's anonymous access is most commonly used for customer-facing knowledge bases and documentation.
+Display your Assets data on a Confluence page
+Assets
+is a powerful tool that gives teams the ability to track and manage all kinds of data. This data can be displayed in relevant Confluence pages and live docs for reports, stakeholder management, or even just general communications.
+You must be a Jira admin and / or have permissions to see the relevant object schema in
+Assets
+as well as an active Confluence licence in order to see the schema and manage this macro in Confluence.
+Users who do not have a Premium license are not able to insert or update the
+Assets
+macro on Confluence pages and live docs.
+Learn more about roles in Assets.
+NOTE:
+Giving someone a role in
+Assets
+so they have permissions to see the data will grant access to all object data in this schema from outside
+Assets
+, including Confluence.
+To embed a table with
+Assets
+objects in a Confluence page or live doc:
+Navigate to a Confluence page or live doc you own.
+When editing, select
+from the toolbar
+. You can also type forward slash ( / ) on the page or doc to bring up the same list you'd see by selecting from the toolbar.
+Search for
+Assets
+in the dropdown menu search bar, then select
+Assets
+.
+After
+Insert objects from,
+select the object schema that stores the objects you want to display.
+Enter AQL to filter the objects you want to be displayed.
+Learn more about Atlassian Query Language (AQL).
+Results returned from the query will be displayed on a table. To add other attributes, go to :board: at the top of the column, then select from the dropdown menu.
+Once you’re happy with the table, select
+Insert objects.
+The AQL queries anyAttribute and connectedTickets() do not work with this macro.
+If a user does not have permission to see an attribute (e.g. an attribute that references an object in a restricted schema), then the cell will appear empty or say
+Unknown
+.
 Was this helpful?
 Yes
 No
@@ -476,10 +493,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Confluence Cloud functionality and features
-What is Confluence Cloud?
-Learn about the features of Confluence Cloud plans
-Confluence Standard
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/customize-a-sites-color-schemes/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-create-from-template-macro/
 
-Customize the navigation colors | Confluence Cloud | Atlassian Support
+Insert the create from template macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,63 +439,58 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Look and feel settings in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Customize the navigation colors
-As a Confluence admin, you can configure a custom color scheme for the navigation. It might be to brand your instance with your corporate colors, or just because you like a particular color.
-To quickly change your color scheme,
-upload your company logo
-. Confluence will use the colors to automatically update the color scheme.
-When modifying the color scheme, you can control the following areas.
-Highlight color
-— This setting lets you control the
-Create
-button’s background color
-If the application is taking a little time to load, a progress bar shown below the navigation bar uses the accent color.
-Background color
-— You can customize the top navigation bar’s background color. If you set a background color in earlier versions of Confluence, that background color is maintained.
-Change the color scheme
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Look and feel
->
-Customize navigation
-.
-(Optional)
-Upload a custom logo
-.
-Enter a color code or use the color-picker to choose a new color.
-Select
-Save.
-Any changes you save are immediately reflected across Confluence.
-The navigation text color is automatically chosen for you in order to optimize legibility. For example, if your background color is white, the text color chosen provides the greatest contrast with some shade of dark grey; if you background is black or blue, the text color is some shade of white.
-Your selected background colors will also respond to the user’s choice of Dark or Light themes. When the user is in Dark theme, the background color will be slightly darker.
-Reset your color scheme after uploading a site logo
-When you upload a site logo, Confluence automatically detects the colors in your logo and customizes the color scheme for you. You can change the color scheme as above, or reset your color scheme back to the default (and still keep your new site logo).
-To reset the color scheme:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Look and feel
->
-Customize navigation
-.
-Select the
-Highlight color
-or
-Background color
-dropdown to open the color picker.
-Select
-Reset to default.
+Insert the create from template macro
+The Create from Template macro displays a button on a page or live doc, linked to a specific template. When someone clicks the button, the macro opens the editor, ready to add a new page or doc, and adds content to the page or doc based on the given template.
+When adding the macro to a page or doc, you can specify a blueprint or a user-created template in the macro. You will also specify the name of the button displayed, and the space in which the new content will appear.
+Use the Create from Template macro
+To add the Create from Template macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the Create from Template macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Parameter
+Required
+Default
+Description
+Button Text
+'Create from Template'
+The description that people will see when viewing this macro on the page or doc.
+Template Name
+None
+Select the template or blueprint to base the new page on. Only global and user-created templates for the current space appear (unless you have specified a different space in the 'Space Key' field).
+Template Title
+Blank
+Specify a default title for content created using this macro (optional). You can include @currentDate, @spaceName and @spaceKey variables in the title.
+Space Key
+The space where the current page is located
+Supply the unique space identifier (space key), to determine where the new content will be created when someone uses this macro to create a page or live doc.
+Wiki markup example
+Wiki markup is not available for this macro. You cannot add this macro via wiki markup.
 Was this helpful?
 Yes
 No
@@ -506,14 +501,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Look and feel settings in Confluence Cloud
-Install a theme
-Set the default theme
-Customize the navigation colors
-Change your site and space logos
+Use macros to show Confluence content on pages and live docs
+Show more
+Insert the contributors macro
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Show more
 On this page
-Change the color scheme
-Reset your color scheme after uploading a site logo
+Use the Create from Template macro
+Parameters
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

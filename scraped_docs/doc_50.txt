@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-attachments-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-task-report-macro/
 
-Insert the attachments macro | Confluence Cloud | Atlassian Support
+Insert the task report macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,22 +443,22 @@ Extend the functionality of Confluence Cloud
 Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Insert the attachments macro
-The attachments macro displays a list of files attached to a page or live doc. It also allows users (with appropriate permissions) to:
-upload a file to the page or doc, directly from the list
-edit attachment properties and labels
-delete an attached file (this deletes all versions of the file)
-preview image attachments
-download all files attached to the page or doc.
-You can use the macro parameters to turn off previews if you have very large attachments.
-To add the attachments macro:
+Insert the task report macro
+Use the Task Report macro to display a list of tasks on a page or live doc. Filter the tasks by space, page/live doc, user, label, created date and more.
+See
+Format in Confluence
+for more information on creating and assigning tasks. You can also use the Task Report blueprint
+template
+, which will create a page and add this macro for you.
+Use the Task Report macro
+To add the Content Report Table macro:
 When editing, select
 from the toolbar
 Find the macro by name and select it
 Configure it as needed
 You can also type / on the page to bring up the same list you'd see by selecting
 from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the attachments macro:
+To edit the Content Report Table macro:
 Select the macro placeholder.
 Select the Edit
 icon
@@ -478,75 +478,68 @@ storage format is different than the label used when inserting macros using the 
 example
 ).
 Parameter
+Req'd
 Default
 Description
-Filename Patterns
-(patterns
+Space(s) and Page(s)
+(spaceAndPage
 )
-all
-A comma-separated list of regular expressions, used to filter the attachments by file name. Note that the parameter values must be regular expressions. For example:
-To match a file suffix of 'jpg', use
-.*jpg
-(not
-*.jpg
-).
-To match file names ending in 'jpg' or 'png', use
-.*jpg
-,
-.*png
-Attachment Labels
+Yes
+Space where the page was created
+Filter by the task location. The macro will only display tasks in the pages and live docs or spaces specified. You can enter a combination of spaces and pages/live docs.
+Label(s)
 (labels
 )
-(none)
-A list of labels, used to filter the attachments to display. If you wish to enter more than one label, separate the labels with commas. Confluence will show only attachments that have
-all
-the labels specified. (The match is an AND, not an OR.)
-Include Old Attachment Versions
-(old
+No
+None
+Filter by Label. The macro will only display tasks on pages and live docs with this label. You can enter multiple labels, separated by a comma.
+Assigned to
+(assignee
 )
-false
-A value of
-true
-will include previous attachment versions in the list.
-Sort By
+No
+None
+Filter by Assignee. The macro will only display tasks assigned to the users specified.
+Created by
+(creator
+)
+No
+None
+Filter by Creator. The macro will only display tasks created by the users specified.
+Created after
+(createddateFrom
+)
+No
+None
+Filter by created date. The macro will only display tasks created on or after the date specified. Date must be entered as
+dd-mm-yyyy
+.
+Task status
+(status
+)
+Yes
+Incomplete
+Show complete or incomplete tasks.
+Number of tasks to display
+(pageSize
+)
+No
+20
+The number of tasks to display on each page or live doc of results in the table. Choose from 10, 20 or 40.
+Display columns
+(columns
+)
+No
+description, duedate, assignee, location
+Columns to include in the table. Available columns include description, duedate, assignee, location, complete date and labels.
+Sort by
 (sortBy
 )
-date
-The sort order for attachments. Note that people viewing the page or doc can change the sort order by clicking the column headings. Valid values are:
-date
-– sorts by updated date in reverse chronological order (newest first)
-size
-– sorts largest to smallest
-name
-– sorts alphabetically
-created date
-- sorts by creation date in reverse chronological order (newest first)
-Sort Order
-(sortOrder
-)
-ascending
-Used in combination with the
-Sort By
-parameter, to sort the attachments in ascending or descending order.
-Allow Upload
-(upload
-)
-true
-If selected, the list of attachments will include options allowing users to browse for, and attach, new files.
-Page Title
-(page
-)
-(none)
-Used to display attachments from another page or doc. If you do not enter a title, the macro will display the files attached to the current page or doc.
-Show Previews
-(
-preview
-)
-true
-Used to display a preview of the attached file. If true, preview will be visible when the list item is expanded.
-Number of items to display
-(none)
-Number of items to display per page of results.
+No
+Due date
+Sort tasks by due date, assignee or title.
+Select the Reverse Sort check box to sort the table in reverse order.
+Wiki markup example
+Wiki markup is not available for this macro. You can’t add this macro via wiki markup.
 Was this helpful?
 Yes
 No
@@ -558,12 +551,16 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Use macros to show Confluence content on pages and live docs
-What are macros?
-Learn which macros are being removed
-Insert the attachments macro
-Insert the blog posts macro
-Insert the change history macro
 Show more
+Insert the related labels macro
+Insert the spaces list macro
+Insert the task report macro
+Insert the user profile macro
+Legacy editor content in the cloud editor
+On this page
+Use the Task Report macro
+Parameters
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

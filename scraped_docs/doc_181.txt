@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/inspect-a-users-permissions/
+URL: https://support.atlassian.com/confluence-cloud/docs/change-your-site-and-space-logos/
 
-Inspect a user's permissions | Confluence Cloud | Atlassian Support
+Change your site and space logos | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,75 +440,112 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
-Premium admin tools for Confluence Cloud
+Look and feel settings in Confluence Cloud
 Cloud
 Data Center
-Inspect a user's permissions
-This feature is offered with
-Confluence Cloud Premium
+Change your site and space logos
+You can customize the look and feel of Confluence by changing the logo.
+You can change:
+the
+site logo
+the
+favicon
+(the small logo that appears in your browser tab
+the
+default space logo
+for all spaces
+the
+space logo
+for individual spaces
+Change the site logo
+The site logo appears on the left in the Confluence navigation bar. You must be a Confluence administrator to change it.
+To change the site logo:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+, then
+Look and feel
+in the left-hand navigation.
+Select
+Upload custom logo
 .
-If you’re not sure why a user doesn’t have (or has) permission to view, edit, or comment on a piece of content, you can inspect their permissions from that content. You’ll get a report showing at which level of the content, space, and product hierarchy they’re being denied (or allowed) permissions. For example, the item may allow the user permissions to view and edit it, but the space denies them edit permissions. The report helps you pinpoint where you need to adjust the user’s permissions.
-Learn about
-permissions and restrictions
-in Confluence.
-Permissions you can inspect
-You can inspect the following permissions for a user:
-Can view
-Can view and edit
-Can view and comment
-How to inspect a user’s permissions
-You can inspect permissions on any content you're viewing.
-Browse to the content you want to inspect permissions on.
-Click the restrictions (lock) icon at the top of the page. The
-Restrictions
-dialog
-appears.
-Click the
-Inspect permission
-s link.
-Type the name of the user whose permissions you want to view.
-Choose the permission you want to inspect:
-Can view
-,
-Can view and edit
-, or
-Can view and comment
+Select
+Select a file to upload
+to upload a new logo image.
+Select
+Save.
+Confluence's auto Look and Feel will detect the colors in your new logo, and change your color scheme to match.
+To use the default
+color scheme
+with your custom logo:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+, then
+Look and feel
+in the left-hand navigation.
+Select
+Customize navigation
 .
-A report appears and shows whether the user has the permission at each level of the content, space, and product hierarchy.
-How to read the report
-When you inspect the permissions on a piece of content, you'll get a report that looks like this:
-The report displays one of the following results for each level of the content, space, and product hierarchy:
-Allowed
-: The user is allowed the permission at this level
-Denied
-: The user is denied the permission at this level
-Inherited
-: (
-Appears for pages and live docs only
-) The content inherits a restriction from a parent or the space. Check its parent items and space to see if they deny the user the permission.
-Irrelevant
-: (
-Appears for pages and live docs only
-) The content has a restriction denying the permission, but it’s not relevant to the content you’re inspecting. You can ignore these rows.
-To further investigate the issue:
-Click a row to expand it, view more information, or take one of the following actions:
-Click the
-View page
-,
-View space permissions
-, or
-View global permissions
-link (depending on which level you’re at). From there, you can troubleshoot the issue.
-Click the
-Contact content owner
-,
-Contact space admins
-, or
-Contact Confluence admins
-link (again, depending on the level you’re at) and send them an email asking for help.
-When you’re finished viewing the report, click
-OK
+Use the
+Highlight color
+dropdown to open the color picker
 .
+Select
+Reset to default
+.
+Select
+Save
+.
+Change the site favicon
+The site favicon is the icon that appears in your browser tab. You must be a Confluence administrator to change it.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+then open the
+Configuration
+menu.
+Select
+General configuration
+.
+Under
+Favicon
+, select
+Select file to upload
+.
+Select
+Upload.
+You can upload PNG, GIF, JPEG, or ICO files. For best results images should be square, and at least 48x48 pixels. Maximum file size is 2 MB.
+Set a default space logo
+The space logo appears at the top of the space overview and as an icon in the space directory. The default space logo applies to all spaces that don't have a custom space logo applied.
+You must be a Confluence administrator to change the default space logo.
+To change the default space logo:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Look and feel
+in the left-hand navigation.
+Select
+Default space logo
+.
+Select
+Logo: ON
+Select
+Choose File
+to upload a new logo
+Select
+Upload Logo
+Select
+Save
+Change a specific space logo
+Space admins can change the logo for their space, which overrides the default space logo. See
+Customize your space
+to find out how to change the logo in a specific space.
 Was this helpful?
 Yes
 No
@@ -519,14 +556,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Premium admin tools for Confluence Cloud
-Post Confluence-wide announcements in a banner
-Inspect a user's permissions
-Bypass page restrictions with admin key
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
 On this page
-Permissions you can inspect
-How to inspect a user’s permissions
-How to read the report
+Change the site logo
+Change the site favicon
+Set a default space logo
+Change a specific space logo
 Community
 Questions, discussions, and articles
 Accessibility

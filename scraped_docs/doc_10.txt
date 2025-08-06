@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-account/
+URL: https://support.atlassian.com/confluence-cloud/docs/the-confluence-legacy-editor/
 
-Manage your account | Confluence Cloud | Atlassian Support
+The Confluence legacy editor | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,39 +439,37 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
+Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Manage your account
-Confluence is very flexible — not only in the many ways you can create and share content, but also in how you can tailor your own Confluence experience. Things like your profile picture,
-starred content
-, and your
-personal space
-can say a lot about you, and can also make navigating Confluence much quicker and easier. Even a simple thing like
-adding shortcut links to the sidebar
-of your personal space, can save you a lot of time in finding the things you use all the time.
-Set up your personal space
-and take a look at any of the topics below to start making Confluence feel like home.
-Edit your profile
-Find out how to edit your profile and set your profile picture.
+The Confluence legacy editor
+What's the legacy editor?
+The legacy editor was the original editing environment in
+Confluence Cloud
+, largely mirroring the Confluence server experience. Our cloud editor is now the default in
+Confluence Cloud
+and across Atlassian. While the legacy editor is no longer available for newly created pages, you can still view and edit older pages that were created in it. Pages migrated from Server or Data Center land in Confluence Cloud in legacy format.
+In June 2025, Atlassian
+announced the deprecation
+of the legacy editor. This will be a phased process beginning in January 2026. The means no new features are being implemented and we only fix bugs that are part of major incidents.
+We are improving the conversion path for legacy editor pages, which will allow a smooth process to get all your content into the
+cloud editor
+.
+Full details are also available on the
+status of macros that existed only in the legacy editor
+. In most case, there is a new solution providing similar functionality in the cloud editor.
+For details on how to convert content, consult the support topics listed here.
+FAQ: Understanding legacy editor deprecation
+Learn about the phased deprecation of the legacy editor and find the answers to frequently asked questions.
 View topic
-Edit your user settings
-Tailor Confluence to fit your needs with personalized settings and preferences.
+Convert legacy editor pages
+Learn how to convert a page from using the legacy editor to using the cloud editor.
 View topic
-Change your Confluence password
-Find out how to change and reset your password.
+Differences using Confluence legacy editor and cloud editor
+Dig into the details of how using Confluence Cloud is different from Confluence Data Center and Server for your end users.
 View topic
-Manage OAuth access tokens
-Learn how to manage OAuth access tokens that act as a type of 'key'.
-View topic
-Delete your account
-Understand how to delete your Atlassian account and the impact of that choice.
-View topic
-Change your theme
-Switch between Light, Dark, and browser themes in Confluence.
-View topic
-Set your email visibility
-Choose the email visibility settings that are best for you.
+The legacy content macro
+Work with legacy editor content in a cloud editor page
 View topic
 Was this helpful?
 Yes
@@ -484,15 +482,17 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Explore more
-Edit your profile
-Edit your user settings
-Change your Confluence password
-Manage OAuth access tokens
-Delete your account
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
+Create and organize work in Confluence Cloud
 Show more
-Manage your account and permissions in Confluence Cloud
-Manage your account
-Manage permissions at the content level
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+Review macros only available in the legacy editor
+The Confluence legacy editor
 Community
 Questions, discussions, and articles
 Accessibility

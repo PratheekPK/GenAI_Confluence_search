@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/turn-on-privacy-mode-for-analytics-data/
+URL: https://support.atlassian.com/confluence-cloud/docs/edit-the-site-welcome-message/
 
-Turn on privacy mode for analytics data | Confluence Cloud | Atlassian Support
+Change the Confluence Home welcome message | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,39 +439,68 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-View Confluence analytics to see how content is performing
+Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
-Turn on privacy mode for analytics data
-Confluence admins can turn on privacy mode for  analytics. This will replace user names and avatars with a hashed user name.
-Privacy mode for Confluence
-Privacy mode will anonymize all existing analytics data by assigning a random user number to each account and displaying only this anonymized data in all analytics views. Future analytics data will also be recorded and shown as anonymized user data.
-When privacy mode is off, all data collected before it was used will again show accurate user names and avatars, but views recorded while privacy mode was in use will still show anonymized user data.
-Turn on privacy mode
+Change the Confluence Home welcome message
+Give the default homepage some personality by adding a custom welcome or primary announcement.
+The message appears at the top of the Announcements section in the Home tab — and is perfect for adding an important communication, useful links, or a fun photo from your last office party or team outing.
+You'll need Confluence administrator permissions to edit it.
+To edit the Home welcome message:
 Select the wheel icon (
 ) in the top-right corner to open Confluence administration.
-Under
+Find
 Settings
-, open the Security menu.
+in the left-hand navigation.
 Select
-Security configuration
+Configuration
+>
+Global templates and blueprints
 .
-Turn on
-Hide personal data in analytics
+Scroll down to
+System templates
+and locate the
+Default Welcome Message
 .
 Select
+Edit
+.
+Add your content, then select
 Save
 .
-Viewing page and space analytics in privacy mode
-Page analytics will show the recent history, but each viewer’s avatar and username will be replaced with a hashed username. Individual views by the same user are not recorded, which can lead to a inaccurate total view numbers.
-In space analytics, the
-Most active readers
-and
-Most active contributors
-elements and the
-Users
-tab will not appear.
+To go back to the original welcome message, select
+Reset to default
+next to the
+Default Welcome Message
+template.
+Hints for using the template editor
+The welcome message is a template, not a page, so you'll be using the template editor to make your changes.
+You can add text, links, and macros, as you would in any Confluence page, but the process for adding files, including images, is a little different.
+You can't upload an image or other file into a template directly. First you'll need to upload the file to a page in Confluence. Then, in the template, choose
+Insert
+>
+Files
+>
+Search on other pages
+to embed the file or image.
+You can't use template variables in the welcome message.
+Allowing other people to edit the welcome message
+You can allow people who aren't Confluence administrators edit the welcome message. To do this,
+Insert the include page macro
+to include content from elsewhere in Confluence rather than adding content directly to the template.
+To include content from a page in the welcome message:
+Create a new page in a space that's visible to all users.
+It's important that all users can see content in that space.
+If a person doesn't have permission to view the space where you've created the page, they won't be able to see the page content on the dashboard.
+Add some text, images or macros, and publish the page.
+Restrict
+who can edit the page (this is optional, but useful if you only want to allow some people to change the content).
+Edit the welcome message template (as described above) and
+Insert the include page macro
+to include the contents of your newly created page.
+Save the template.
+People with permission to edit the page will now be able to make changes at any time, and their changes will be visible on the dashboard as soon as the page is saved.
 Was this helpful?
 Yes
 No
@@ -482,15 +511,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-View Confluence analytics to see how content is performing
-View insights on your site
-View insights on spaces
-Content insights and analytics
-Turn on privacy mode for analytics data
+Set Confluence-wide functionality
+Show more
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Show more
 On this page
-Privacy mode for Confluence
-Turn on privacy mode
-Viewing page and space analytics in privacy mode
+Hints for using the template editor
+Allowing other people to edit the welcome message
 Community
 Questions, discussions, and articles
 Accessibility

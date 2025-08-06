@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-the-feels-with-stamps-and-stickers/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-jamboard-whiteboards-in-confluence-whiteboards/
 
-Add the feels with stamps and stickers | Confluence Cloud | Atlassian Support
+Import Jamboard whiteboards in Confluence whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,24 +443,37 @@ Create and organize work in Confluence Cloud
 Create and edit whiteboards
 Cloud
 Data Center
-Add the feels with stamps and stickers
+Import Jamboard whiteboards in Confluence whiteboards
 Whiteboards aren’t available in
 Atlassian Government environments
 .
-Stamps can be placed on a whiteboard for visual feedback for live and async collaboration. Use them to vote on an idea, generate heat maps, assign work to your team, and illustrate where ideas remain unclear. They are often granular representations of how people feel about a specific idea, piece of content on a board, etc.
-Stickers are more playful and illustrative. Use them to add an extra flair to your whiteboard, share how people feel at the start of a session, or just for fun. They are more macro-level and convey a feeling (not necessarily about a specific content on the board).
-Add a stamp
-Select the stamp tool from the toolbar.
-Select your stamp of choice.
-Select the whiteboard or an element where you want to place the stamp.
-Add a sticker
-Select the stickers tool from the toolbar.
-Select your sticker of choice.
-The sticker will be added to your whiteboard. You can select and move it to where you want to place it.
-Resizing
-Change the stamp size and stickers after placing them on your whiteboard using the bounding box.
-Select a sticker or stamp that's already been placed. A bounding box with handles will appear.
-Select and hold one of the handles, then drag your cursor to resize
+Bring your Google Jamboard content to Confluence whiteboards and collaborate seamlessly with your team. Import your whiteboards from Google Jamboard into Confluence to unlock features like smart connectors, smart sections, real-time editing, and experience brainstorming and collaboration like never before. Plus, keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
+Export your Jamboard
+In Jamboard, open the whiteboard you wish to export.
+Select the More
+menu in the top-right corner of the board, then select
+Download as PDF
+or
+Save frame as image
+.
+For more information on exporting Jamboards,
+see the Google Jamboard support documentation
+.
+Import to whiteboards
+Whiteboards currently only support PDF or image file importing.
+Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
+You can import your content in two ways:
+Drag your image or file into your whiteboard.
+On the toolbar, select the More menu (
+…
+), select
+Whiteboard import,
+navigate to your file, and select it.
+Select your content type.
+The import process will complete.
+When should I recreate my content in Confluence whiteboards vs. uploading a static image?
+For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
+For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
 Was this helpful?
 Yes
 No
@@ -473,16 +486,16 @@ The Atlassian Community is here for you.
 Ask the Community
 Create and edit whiteboards
 Show more
-Use sections to organize your work
-Add and edit images on whiteboards
-Add the feels with stamps and stickers
-Use a template to get started fast
-Keep on track with the timer
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
 Show more
 On this page
-Add a stamp
-Add a sticker
-Resizing
+Export your Jamboard
+Import to whiteboards
+When should I recreate my content in Confluence whiteboards vs. uploading a static image?
 Community
 Questions, discussions, and articles
 Accessibility

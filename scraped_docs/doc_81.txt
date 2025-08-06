@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-global-reports-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/apply-a-theme-to-a-site/
 
-Insert the global reports macro | Confluence Cloud | Atlassian Support
+Set the default theme | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,65 +439,47 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Confluence administration
+Look and feel settings in Confluence Cloud
 Cloud
 Data Center
-Insert the global reports macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Global Reports macro displays a list of links to some reports about content on your site.
-These reports include a list of new or updated pages, orphan pages, undefined pages, and
-RSS feeds
-for new pages and blog posts.
-Use the Global Reports Macro
-To add the Global Reports macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Global Reports macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
+Set the default theme
+Themes are used to change the appearance of your
 Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Width of Table
-(width
-)
-99%
-Specify the width of the table in which the links are displayed, as a percentage of the window width.
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-global-reports
-Macro body:
-None.
-{global-reports:width=50%}
+instance. See
+Install a theme
+for an overview of how you can add more themes.
+To change the default theme:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Look and feel
+>
+Themes
+.
+Select a theme from the list under
+Choose New Theme
+.
+If you don’t see any themes listed, you will need to
+Install a theme
+from the
+Atlassian Marketplace
+first.
+Select
+Confirm
+.
+All spaces that have the
+Global look and feel
+applied as their space theme will inherit this theme and any customizations you make to it.
+Users can also
+select their own theme,
+choosing either Light or Dark. These choices are independent of the theme you choose in settings, however each theme responds to the user’s current choice, presenting slightly darker colors in Dark mode.
 Was this helpful?
 Yes
 No
@@ -508,10 +490,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-On this page
-Use the Global Reports Macro
-Parameters
-Wiki markup example
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
 Community
 Questions, discussions, and articles
 Accessibility

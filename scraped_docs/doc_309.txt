@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/edit-features-for-a-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-the-administrator-contact-page/
 
-Edit features for a space | Confluence Cloud | Atlassian Support
+Configure the administrator contact page | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,66 +439,82 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Customize your space
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Edit features for a space
-You can control which features are available within your space. To edit the features that appear in a space:
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
+Configure the administrator contact page
+The administrator contact page is a form that allows a users to send a message to the administrators of
+Confluence Cloud
+. (In this context, administrators are the members of the default administrators group.)
+See
+Create and update groups
+to find out what your default administrators group is called.
+The title of the administrator contact page is
+Contact Site Administrators
+. Typically,
+Confluence Cloud
+users get to this page by clicking a link on an error screen such as the
+500 error
+page.
+Customizing the administrator contact message
+You can customize the message that is presented to the user on the
+Contact Site Administrators
+page.
+To edit the administrator contact message:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+General configuration
 .
-Open the
-General
-menu
-and select
-Features
+Enter your text in the
+Contact administrators message
+field (you can enter any text or
+Confluence wiki markup syntax
+).
+Select
+Save configuration changes
 .
-Choose what appears in your space.
-Turning a feature off hides it from view, so people with permission to create and edit content can’t use it. However, automations and apps can still access these features, and turning a feature off won’t delete or otherwise impact existing content.
-Your permissions determine which capabilities and cards available in Space settings. Only app and space administrators can edit features for a space.
-Available features
-Feature
-Description
-Blogs
-Blogs are similar to pages, but they appear in their own section in the content tree, and they’re organized chronologically.
-Calendars
-Team Calendars
-allow you to create calendars for yourself and your team — and view other calendars from your organization — all in one place.
-Calendars are only available for customers with the Premium plan.
-Analytics
-Analytics
-gives you an overview of how a space is performing with insights about the popularity of different pages and blog posts within the space, as well as the space’s most active readers and contributors.
-Analytics is only available for customers with the Premium plan.
-Automation
-Automation
-eliminates busywork by allowing you to automate routine tasks, such as sending a weekly progress report on your team’s work or applying correct labels to newly created content.
-Automation is only available for customers with the Premium plan.
-Whiteboards
-Whiteboards
-let teams brainstorm collaboratively in real time. For example, you can use whiteboards to:
-Sketch out ideas visually with stickies, lines, and sections,
-Keep collaborative sessions on track with timers, and
-Vote on favorite concepts or solutions using stamps.
-Databases
-Databases
-allow teams to store and organize structured data in one place. For example, you can use databases to:
-Create a single source of truth for documentation and information,
-Track the progress of projects and tasks, and
-Assign work and track who is responsible for what and by when.
-Smart Links
-Smart Links
-help you centralize your team’s work by letting you access content from other apps directly in Confluence.
-Folders beta
-Folders
-are simple containers for related work that you can use to structure and organize a space just like you would on your computer, without providing any additional information or context upfront.
-This feature is currently in beta and only available to select participants.
-Live docs
-Live docs
-let you create and edit written content instantly without the extra step of publishing. Whenever you or your collaborators make updates to a live doc, those changes are reflected in real time.
+The default administrator contact message
+By default, the message starts with "Please enter information..."
+To restore the message to its default, remove the custom message you entered when following the instructions above, so that the
+Custom Contact Administrators Message
+field is empty.
+Disable the Administrator Contact Form
+You can only disable the form if you first provide a custom "Contact Administrators Message" as described above.
+To enable or disable the administrator contact form:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+General configuration
+Uncheck the
+Contact administrators form
+box.
+Select
+Save configuration changes
+.
+Configuring spam prevention
+You can configure
+Confluence Cloud
+to use Captcha to help prevent spam, including the spamming of administrators. The administrator contact form is covered by Captcha settings as documented in
+Configure Captcha for spam prevention
+.
 Was this helpful?
 Yes
 No
@@ -509,10 +525,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Customize your space
-Apply a theme to a space
-Change the space name and logo
-Edit features for a space
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Show more
+On this page
+Customizing the administrator contact message
+The default administrator contact message
+Disable the Administrator Contact Form
+Configuring spam prevention
 Community
 Questions, discussions, and articles
 Accessibility

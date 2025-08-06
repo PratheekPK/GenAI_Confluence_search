@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/convert-legacy-editor-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/voting-in-whiteboards/
 
-Convert legacy editor pages | Confluence Cloud | Atlassian Support
+Voting in whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,116 +440,68 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-The Confluence legacy editor
+Create and edit whiteboards
 Cloud
 Data Center
-Convert legacy editor pages
-This guide provides a step-by-step process to help you convert legacy Confluence pages to the cloud editor. By converting pages to cloud, you get the latest updates and improvements to creating, collaborating, and organizing your content.
-Learn more about the cloud editor
-Advantages of using the cloud editor
-You can elevate your content creation experience with the cloud editor's powerful features:
-Enhanced collaboration:
-Work seamlessly with your team in real-time and witness edits as they happen, with changes auto-saved.
-Faster loading:
-Enjoy a user-friendly interface that lets you format your content with with faster loading times.
-Future-proof:
-Benefit from ongoing updates to the cloud editor, ensuring your content remains compatible with future advancements across Atlassian products. Since the cloud editor is the unified editing experience for all Atlassian apps, you'll gain access to platform features like
-Atlassian Intelligence
-and
-Smart Links
+Voting in whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Coming soon: Deprecation of the legacy editor
-In June 2025, Atlassian
-announced the deprecation
-of the legacy editor. This will be a phased process beginning in January 2026. Find out more in the
-FAQ article
+Simplify collaborative decision-making with voting in whiteboards. Use it for brainstorming, retrospectives, and more with your team. Anyone on the whiteboard can start, manage, and conclude voting sessions.
+View detailed results with the top-voted items and individual votes.
+Starting a voting session
+To start a voting session:
+Select the voting icon in the right-side toolbar.
+Enter a name for the voting session.
+To hide collaborator votes, toggle
+Enable anonymous voting
+on.
+Choose the number of votes allowed per person by using the + and - or select the number and type in the number of votes.
+Select
+Start
 .
-When the process is complete in April 2026, all editing will take place in the cloud editor. Until then, you will continue to have the option to update pages in the legacy editor. However, there are some downsides to continuing to use the legacy editor:
-No bugs fixed unless it's a major incident.
-No enhancements.
-What’s the difference between the cloud and legacy toolbars?
-You can see which editor your page uses by looking at the differences in the editor toolbar.
-The cloud editor
-includes
-Publish…
-or
-Update
-and
-Close
-buttons in the top menu and the emoji icon
-The legacy editor
-has earlier versions of text-color picker and page formatting
-Convert your legacy editor pages to cloud
-Which pages are eligible for conversion?
-Eligible pages are those that can be converted to the cloud editor without displaying any "unsupported" content after conversion. These pages are fully compatible with the cloud editor, allowing users to view and edit them seamlessly. The introduction of the
-legacy content macro
-has made a lot more pages eligible.
-Identifying Eligible Pages:
-Convert Option:
-When you edit an eligible page, you’ll see the option to convert.
-Checkmark Indicator:
-While editing in the legacy editor, a checkmark  in the bottom left corner indicates eligibility.
-Ineligible pages:
-If a legacy editor page has content that can’t be converted, you won’t see the invitation to convert to the cloud editor. If you try to convert it anyway, you will see a warning that you could lose content.
-When you enter edit mode on an “eligible page,” you will see a pop-up to convert to the cloud editor. Select
-Update page
-to instantly convert the page to the cloud.
-If you select
-Not now
-your page will open in the legacy editor.
-A
-preview
-banner will remain visible, allowing you to preview your page in the cloud editor and convert it from there.
-If your page has content that is not yet supported in the cloud editor, the conversion process will add this content to one or more copies of the
-legacy content macro
-. This macro lets you continue to work with unsupported content. The legacy content macro dramatically increases the number of pages that are eligible for conversion.
-For more resources check out:
-What you can
-create in cloud
-a
-side by side feature comparison of the editors
-Auto-convert pages to cloud
-Admins can set an option to automatically prompt users to convert legacy editor pages.
-For all spaces in Confluence
-Confluence admins can
-enable auto-conversion
-of all legacy pages in Confluence to the new editor.
-For a single space
-Space admins can enable auto-conversion from legacy to the cloud editor for all pages with eligible content in a space.
-If auto-conversion is enabled, eligible pages will be converted to the cloud editor when someone views the page. You will be able to revert to the legacy version in
-More actions (
-)
-menu. Select
-Revert to legacy editor
+Note:
+There is a maximum of 99 votes per person.
+Voting
+You can vote on any sticky note on the whiteboard. To vote:
+Select the + icon on an element to add a vote. You can vote for the same element multiple times.
+Select the - icon to remove a vote.
+Select
+I’m done
+to indicate that you are done voting to everyone on the whiteboard.
+Ending a session
+Anyone can end a voting session.
+To end a voting session and display results:
+Select
+End for everyone
+in the voting modal.
+Confirm and select
+End voting
 .
-To enable auto-convert:
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
+A voting session cannot be restarted.
+View voting results
+When a voting session ends, everyone will see the results of that session.
+Click on a result in the voting panel to navigate to that element.
+Hover over the “thumb” icon to view the individuals who voted for that element.
+If anonymous voting was enabled for the session, names will not be visible on element votes.
+To view the results of any previous voting session on a whiteboard:
+Select the voting icon in the right-side toolbar.
+Select the
+Results
+tab.
+Delete a voting session
+To delete a voting session:
+Select the session you want to delete from the
+Results
+tab.
+Select the more icon in the top right of the panel.
+Select
+Delete
 .
-Open the
-General
-menu
-and select
-Convert pages
+Confirm and select
+Delete
 .
-Turn on
-Convert pages automatically
-.
-Revert page migrations
-If you’d like to restore your page back to the legacy editor, you can
-restore the most recent version of the page before conversion, via the page version history
-.
-Support
-The cloud editor constantly evolves, offering regular updates and improvements. To stay updated with the latest features and functionalities, check out:
-Atlassian Community
-:
-Connect with other Confluence Cloud users and share your experiences.
-Support articles
-:
-Access more detailed guides and troubleshooting tips for Confluence Cloud.
+Results are deleted permanently.
 Was this helpful?
 Yes
 No
@@ -560,21 +512,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-The Confluence legacy editor
-FAQ: Understanding legacy editor deprecation
-Convert legacy editor pages
-Differences using Confluence legacy editor and cloud editor
-The legacy content macro
+Create and edit whiteboards
+Show more
+Atlassian Intelligence in Confluence whiteboards
+Draw freeform lines with pen
+Private mode in whiteboards
+Voting in whiteboards
+Whiteboard version history
 On this page
-Advantages of using the cloud editor
-Coming soon: Deprecation of the legacy editor
-What’s the difference between the cloud and legacy toolbars?
-Convert your legacy editor pages to cloud
-Auto-convert pages to cloud
-For all spaces in Confluence
-For a single space
-Revert page migrations
-Support
+Starting a voting session
+Voting
+Ending a session
+View voting results
+Delete a voting session
 Community
 Questions, discussions, and articles
 Accessibility

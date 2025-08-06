@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/edit-the-site-welcome-message/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-events/
 
-Change the Confluence Home welcome message | Confluence Cloud | Atlassian Support
+Add events | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,68 +439,42 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Set Confluence-wide functionality
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Change the Confluence Home welcome message
-Give the default homepage some personality by adding a custom welcome or primary announcement.
-The message appears at the top of the Announcements section in the Home tab — and is perfect for adding an important communication, useful links, or a fun photo from your last office party or team outing.
-You'll need Confluence administrator permissions to edit it.
-To edit the Home welcome message:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Configuration
->
-Global templates and blueprints
-.
-Scroll down to
-System templates
-and locate the
-Default Welcome Message
-.
-Select
-Edit
-.
-Add your content, then select
-Save
-.
-To go back to the original welcome message, select
-Reset to default
-next to the
-Default Welcome Message
-template.
-Hints for using the template editor
-The welcome message is a template, not a page, so you'll be using the template editor to make your changes.
-You can add text, links, and macros, as you would in any Confluence page, but the process for adding files, including images, is a little different.
-You can't upload an image or other file into a template directly. First you'll need to upload the file to a page in Confluence. Then, in the template, choose
-Insert
->
-Files
->
-Search on other pages
-to embed the file or image.
-You can't use template variables in the welcome message.
-Allowing other people to edit the welcome message
-You can allow people who aren't Confluence administrators edit the welcome message. To do this,
-Insert the include page macro
-to include content from elsewhere in Confluence rather than adding content directly to the template.
-To include content from a page in the welcome message:
-Create a new page in a space that's visible to all users.
-It's important that all users can see content in that space.
-If a person doesn't have permission to view the space where you've created the page, they won't be able to see the page content on the dashboard.
-Add some text, images or macros, and publish the page.
-Restrict
-who can edit the page (this is optional, but useful if you only want to allow some people to change the content).
-Edit the welcome message template (as described above) and
-Insert the include page macro
-to include the contents of your newly created page.
-Save the template.
-People with permission to edit the page will now be able to make changes at any time, and their changes will be visible on the dashboard as soon as the page is saved.
+Add events
+You can quickly add events to your calendars and categorize them into different event types for easier viewing and management.
+Add an event
+Do any of the following:
+Choose
+Add Event
+Click a date on the calendar in either the month or week view
+Double-click on the Timeline view
+Select which type of event you'd like to add from the
+Event Type
+drop-down
+Complete the other details for your event and choose
+Add
+Event types
+Each calendar includes a standard set of
+event types
+, which you can use to classify the different events in the calendar. You can also
+create custom event types
+to capture events that don't fit into the standard event types.
+Delete an event
+To delete an event, select the event and choose
+Delete
+from the inline dialog.
+If you don't see the
+Delete
+option, the reason is usually:
+You don't have
+edit permissions
+on the calendar
+The event you're trying to edit is a
+JIRA event
+(sprint, version, or issue). If this is the case, the change to the JIRA item has to happen in JIRA.
 Was this helpful?
 Yes
 No
@@ -511,17 +485,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
-Show more
-Control whether spaces can turn on anonymous access
-Change the landing page
-Change the Confluence Home welcome message
-Create a custom space overview template
-Turn off page reactions
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
 Show more
 On this page
-Hints for using the template editor
-Allowing other people to edit the welcome message
+Add an event
+Event types
+Delete an event
 Community
 Questions, discussions, and articles
 Accessibility

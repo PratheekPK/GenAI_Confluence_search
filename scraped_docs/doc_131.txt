@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/upload-and-manage-files/
+URL: https://support.atlassian.com/confluence-cloud/docs/actions-that-require-an-organization-or-site-admin/
 
-Upload and manage files | Confluence Cloud | Atlassian Support
+Actions that require an organization or site admin | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,36 +439,24 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Atlassian administration for Confluence Cloud
 Cloud
 Data Center
-Upload and manage files
-Share your team's PDFs, Office documents, images, and more in one place by uploading your files to Confluence. Automatic versioning, instant previews, permissions, and full-text search mean shared network drives can be a thing of the past for your team.
-A file added to page or live doc gets attached to it. You can attach anything, from project plans and design mockups to video and audio files. You and your colleagues can also collaborate by
-Share and comment on files
-displayed on Confluence pages and live docs.
-Using files
-Upload a file
-Display files and images
-Manage uploaded files
-Share and comment on files
-Permissions
-The 'Add attachment' and 'Delete attachment' permissions are used to control who can upload and delete attachments in a space.
-Users with 'Add content' permissions can insert existing attachments to their content, but not upload new attachments unless they also have the 'Add attachment' permission.
-There is no permission that controls who can download attachments. See our knowledge base article about
-disabling the download of attachments
-if you need to do this.
-Upload a file
-Learn how to upload files to Confluence.
+Actions that require an organization or site admin
+Manage your storage usage
+Manage storage usage in Confluence
 View topic
-Display files and images
-Insert files, images, and other attachments on a Confluence page or live doc
+Invite guests to Confluence
+Invite guests to collaborate securely with clients, contractors, or other "external" people.
 View topic
-Manage uploaded files
-Download, delete, move, or otherwise manage files you upload to Confluence.
+Removing users and downgrading to Confluence Free
+Preparing to move from a paid plan to Confluence Free.
 View topic
-Share and comment on files
-Share files with collaborators, or comment on files other people have shared.
+Adjust permissions before downgrading to Confluence Free
+Learn what permissions options Free users have available to them and what will change if you move to Free from Standard or Premium.
+View topic
+What happens when an account is deactivated vs. deleted?
+Understand the implications of deactivating or deleting an account.
 View topic
 Was this helpful?
 Yes
@@ -481,21 +469,13 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Explore more
-Upload a file
-Display files and images
-Manage uploaded files
-Share and comment on files
-Create and organize work in Confluence Cloud
-Show more
-Create and edit content
-Keep content organized
-Upload and manage files
-Present your content with Presenter mode
-Atlassian Intelligence features in Confluence Cloud
-Show more
-On this page
-Using files
-Permissions
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
 Community
 Questions, discussions, and articles
 Accessibility

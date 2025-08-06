@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/learn-about-the-atlassian-cloud-editor/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-folders-to-organize-your-work/
 
-Learn about the Atlassian cloud editor | Confluence Cloud | Atlassian Support
+Use folders to organize your work | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,47 +440,67 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit content
+Keep content organized
 Cloud
 Data Center
-Learn about the Atlassian cloud editor
-The Atlassian cloud editor is your place for creating and managing content in Confluence Cloud. This intuitive editing environment has a user-friendly interface, empowering you to craft clear, concise, and appealing content with ease.
-Key features and benefits of the cloud editor
-Real-time collaboration:
-Work together with your team! The cloud editor allows you and other users to
-edit a page or live doc
-simultaneously, ensuring everyone sees the latest updates as they happen. Foster communication and
-provide feedback through mentions and comments
-within the editing interface.
-Rich formatting options:
-Take control of your content with a variety of formatting tools. From
-headings and subheadings
-to
-tables
-,
-layouts
-, and
-code snippets
-, you can structure your content for optimal readability and clarity.
-Streamlined workflows:
-Experience a smooth and efficient editing process. The cloud editor simplifies content creation with intuitive table drag-and-drop functionality and effortless media embedding. Additionally,
-explore keyboard shortcuts
-for faster editing and navigation.
-Centralized content management:
-The cloud editor integrates seamlessly with the broader Atlassian ecosystem. Link to existing pages, live docs, whiteboards, databases, or Jira issues for easy reference with Smart Links. Use macros to create advanced layouts and features in your content.
-Advanced features
-Confluence Cloud offers many advanced features for experienced users. Explore features like Atlassian Intelligence, use templates for consistent content, add powerful third-party macros from the Marketplace for advanced layouts, and leverage content visibility options for managing access.
-Integration with Atlassian products
-The Confluence Cloud editor is the editing experience used across all Atlassian products. This offers a significant benefit: you only need to learn one editing platform for your entire Atlassian workflow.
-Next steps and support
-Remember, the cloud editor constantly evolves, offering regular updates and improvements. To stay on top of the latest features, explore the following resources:
-Atlassian Community
-:
-Connect with other Confluence Cloud users and share your experiences.
-Support articles
-:
-Access more detailed guides and troubleshooting tips for Confluence Cloud.
-We encourage you to explore the cloud editor and discover how it can transform your content creation experience!
+Use folders to organize your work
+You can add folders to your space to keep related work together, just like you do on your personal computer. Unlike parent items, which you can think of as containers with built-in “Read Me” files, folders are simple containers, without any information or context built into the container itself. Use parent items in situations where it’s helpful to know a bit more about the contents of a container going in. Use folders when all you need is a place to store related work.
+Create a new folder
+To create a folder:
+Navigate to a Confluence space.
+Hover over
+Content
+in the content tree, then select
++
+.
+Select
+Folder
+from the drop-down menu.
+Give your folder a title, making sure you
+don’t include any PHI
+.
+To nest a folder under another content item, hover over its title in the content tree, then select
++
+and repeat steps 3-4 above.
+Since folders add hierarchical structure to a space, new folders must be created from the content tree. It is not possible to add a folder using the global create button.
+Delete a folder
+To delete an existing folder:
+Hover over the folder title in the content tree.
+Select
+Delete
+from the
+More options
+••• menu.
+Select
+Delete
+again to confirm your choice.
+When you delete a folder, its contents will move up a level in the content tree. In the example below, “Marketing” is a child item of “Project Artemis”:
+Deleting “Marketing” will cause the page it contains, “Artemis AI launch campaign,” to move, becoming a child item of “Project Artemis”:
+Any restrictions “Artemis AI launch campaign” inherited from “Marketing” will be removed, leaving only restrictions on “Artemis AI launch campaign” itself and restrictions inherited from “Project Artemis.”
+Turn folders on or off for a space
+Turning folders on or off in a Confluence space allows you to control whether your team can use them to organize and structure work. Folders are turned on by default to give you and your team plenty of opportunities to try them out, but you can turn folders off — or turn them on if you’ve disabled them previously — in
+Space settings
+.
+Currently, it is not possible to turn folders on or off at the site level.
+To turn folders on or off for a space:
+Navigate to that space in Confluence.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+General
+menu
+and select
+Features
+.
+This option is only available to space admins.
+Select the toggle to the right of
+Folders
+(under
+Content
+).
 Was this helpful?
 Yes
 No
@@ -491,18 +511,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Keep content organized
 Show more
-Import external documents
-Classify content
-How redaction works
-Learn about the Atlassian cloud editor
-Convert pages to the cloud editor
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
 On this page
-Key features and benefits of the cloud editor
-Advanced features
-Integration with Atlassian products
-Next steps and support
+Create a new folder
+Delete a folder
+Turn folders on or off for a space
 Community
 Questions, discussions, and articles
 Accessibility

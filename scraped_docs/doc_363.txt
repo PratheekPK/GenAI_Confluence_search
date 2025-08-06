@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/space-administration/
+URL: https://support.atlassian.com/confluence-cloud/docs/decide-how-you-see-pages-in-a-space/
 
-Space administration | Confluence Cloud | Atlassian Support
+Find content in a space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,33 +439,80 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
+Create and organize work in Confluence Cloud
+Use spaces to organize your work
 Cloud
 Data Center
-Space administration
-Set space-specific functionality
-Set default functionality for a space in Confluence Cloud.
-View topics
-Manage permissions at the space level
-Everything a space admin needs to know about managing permissions at the space level.
-View topics
-Manage content in a space
-See what space administrators can do to organize, update, export, or restore content.
-View topics
-Remove a space
-Learn the difference between archiving and deleting a space in Confluence Cloud.
-View topics
-Create templates, blueprints, and reports
-Use templates to jumpstart your page creation and maintain consistentency in how your information is presented.
-View topics
-Manage team calendars
-Learn what space administrators can do to manage team calendars in Confluence Cloud.
-View topics
-Manage Questions for Confluence
-Learn how space administrators can set up and manage Questions for Confluence.
-View topics
-Customize your space
-Learn how space admins can customize the look, feel, and functionality of a space.
-View topics
+Find content in a space
+Trying to find a specific page, live doc, or whiteboard is hard when you remember some things about it but you don’t remember what it’s called. Searching for it might seem challenging.
+When you are in a space, you have a couple of ways of finding the right item.
+Search for item’s titles in the space
+To search in a space:
+Enter some of the item’s title in the
+Search by title
+field, located in the space’s
+sidebar
+. When entering multiple words, the operator used is OR. Enter
+product requirements
+, and the results will contain
+product
+OR
+requirements
+.
+Press
+Enter
+PRO TIP
+You can use the
+Confluence search syntax
+in the search field to really focus your search results.
+Hover over titles to see cards
+Sometimes an item’s title just isn’t enough to pick the right one. When you hover over an item in the
+sidebar
+of a space, you can see more details about it — like when it was updated last and who owns the item.
+The actions you can take from the item cards in the sidebar include:
+Jump directly to
+edit
+Star
+the item to save it for later
+Sharing and watching items aren’t available here.
+How to turn off hover cards
+Seeing cards on hover is something each user can control, so if you don’t find this useful, you can turn it off in your user settings. In user settings, uncheck the content card hover option.
+View items differently
+Navigating through a structured content tree is useful to some people some of the time. But if you aren’t familiar with a space or if the content tree gets overgrown, it can be more challenging to find the right item.
+To make the list of items fit you, you can switch the view from the tree view to a flat list that is sorted as you want. Once you select your view in a space, it stays that way until you change it.
+Tree
+—
+view the items in their standard hierarchical structure
+My visits — view the items you accessed most recently at the top of a flat list
+Last updated
+— view the items created or edited most recently by anyone in the space at the top of a flat list
+Title - A to Z
+— view the items in a flat alphabetical list, starting with content containing numbers and special characters
+Reordering items in the sidebar using drag and drop is only available in the default tree view. If you need to reorder items, switch back to the default view.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Use spaces to organize your work
+Show more
+Navigate spaces
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Show more
+On this page
+Search for item’s titles in the space
+Hover over titles to see cards
+View items differently
+Community
+Questions, discussions, and articles
 Accessibility
 Notice at Collection
 Privacy Policy

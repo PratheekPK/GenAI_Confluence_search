@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-and-manage-layouts/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-spaces-to-organize-your-work/
 
-Create and manage layouts | Confluence Cloud | Atlassian Support
+Use spaces to organize your work | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,47 +440,36 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit content
 Cloud
 Data Center
-Create and manage layouts
-Layouts can help the readability and the visual presentation of your content. Drag and drop content blocks next to each other to create layouts that optimize your content’s design.
-Create a layout
-To create a layout use the drag handle to drag-and-drop content blocks next to another.
-This will automatically create a layout.
-The dashed line indicates where to drop content to create your layout.
-You can also:
-Type
-/layout
-on the page.
-Select the
-Layouts
-icon in the Insert menu, or
-Copy and paste a
-Layout
-from another page or live doc
-Add or remove columns
-Once your default layout is on the page or live doc you can choose how many columns you’d like. When you change the column layout, any content already inserted will be saved.
-Choose between:
-Two
-Three
-Four, and
-Five columns.
-If you need more than five columns, we recommend using a
-table
-or
-database
-.
-Choose column position
-In two or three column layouts, you can choose if you prefer to have a left, right, or even sidebars.
-This helps you create more space for how you present content within these layouts.
-Manage layouts
-When you select the entire layout, a floating toolbar with layout controls appears. Use this toolbar to:
-Copy layouts
-Move layouts
-Remove layouts: To remove a layout, select the trash can icon in the floating toolbar.
-Adjust layout width: Layouts can be centered, wide, or full-width, allowing you to control how your content is displayed.
-By effectively using layouts, you can enhance the readability and visual impact of your written content, making it more engaging and accessible to your audience.
+Use spaces to organize your work
+What is a space?
+Learn about spaces and get tips for using them effectively.
+View topic
+Create a space
+Set up a space for your team or project.
+View topic
+Customize your personal space
+Find out how to customize and use the personal space created for you in Confluence
+View topic
+Navigate spaces
+Learn how spaces are set up and how to get around in them.
+View topic
+Organize your space
+Set up your space to meet the needs of your team or project mates.
+View topic
+Find content in a space
+Find the right content in your space by seeing more info at a glance
+View topic
+Customize your space's overview
+Create a useful landing page for your space.
+View topic
+Use labels to categorize spaces
+Use labels to tag content so that people can find it quickly.
+View topic
+Delete or disable a template
+Learn how to delete a template from your space.
+View topic
 Was this helpful?
 Yes
 No
@@ -491,19 +480,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Explore more
+What is a space?
+Create a space
+Customize your personal space
+Navigate spaces
+Organize your space
+Show more
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+Use spaces to organize your work
+Find content in Confluence Cloud
 Create and edit content
+Keep content organized
 Show more
-Format your content
-Format text
-Create and manage layouts
-Use symbols, emojis, and special characters
-Keyboard shortcuts and autocomplete
-Show more
-On this page
-Create a layout
-Add or remove columns
-Choose column position
-Manage layouts
 Community
 Questions, discussions, and articles
 Accessibility

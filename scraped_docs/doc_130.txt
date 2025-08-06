@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/summarize-changes-with-atlassian-intelligence/
+URL: https://support.atlassian.com/confluence-cloud/docs/atlassian-administration-for-confluence-cloud/
 
-Summarize changes with Atlassian Intelligence | Confluence Cloud | Atlassian Support
+Atlassian administration for Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,54 +439,12 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Atlassian Intelligence features in Confluence Cloud
 Cloud
 Data Center
-Summarize changes with Atlassian Intelligence
-This Atlassian Intelligence feature is in beta. Read more about
-Atlassian Intelligence features.
-Quickly get the information you need to dive back into collaborative work by generating a summary of changes since you last visited a page or blog post with
-Atlassian Intelligence
-. Currently, this summary doesn’t include content from macros, images, or links.
-Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
-Settings > Atlassian Intelligence
-in Atlassian Administration.
-Atlassian Intelligence isn’t available for
-Atlassian Government
-apps.
-Summarize changes with Atlassian Intelligence
-Navigate to a Confluence page or blog post that you’ve visited before.
-Select
-Summarize changes
-from the drop-down menu inside the
-Summarize
-button on the top right.
-Atlassian Intelligence will generate a summary of changes since you last visited the page or post.
-You can copy the summary to your clipboard, rate the quality of the summary, and provide feedback on the feature.
-Atlassian Intelligence will only generate a summary of changes if someone has edited the page since your last visit. If no one has made changes to the page since your last visit, Atlassian Intelligence will generate a page summary instead.
-Atlassian Intelligence won’t generate a summary if any content appears to violate Atlassian’s
-Acceptable Use Policy
-.
-Was this helpful?
-Yes
-No
-It wasn't accurate
-It wasn't clear
-It wasn't relevant
-Provide feedback about this article
-Still need help?
-The Atlassian Community is here for you.
-Ask the Community
-Atlassian Intelligence features in Confluence Cloud
-Show more
-Summarize a page, live doc, or blog using Atlassian Intelligence
-Summarize comments using Atlassian Intelligence
-Summarize changes with Atlassian Intelligence
-Summarize a whiteboard using Atlassian Intelligence
-Use Rovo to listen to audio briefings of Confluence content
-Community
-Questions, discussions, and articles
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
+Learn about Confluence actions that must be done in Atlassian administration.
+View topics
 Accessibility
 Notice at Collection
 Privacy Policy

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-jira-issues-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-are-confluence-cloud-permissions-and-restrictions/
 
-Display Jira work items in a list | Confluence Cloud | Atlassian Support
+Confluence permissions structure | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,184 +439,55 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to add development info on Confluence pages
+Manage your account and permissions in Confluence Cloud
+Manage permissions at the content level
 Cloud
 Data Center
-Display Jira work items in a list
-If your Confluence instance is connected to Jira, you can search and display Jira work items in a list on Confluence pages and live docs. You can then customize the display to add, remove, and reorder fields.
-Make changes to your search with keywords, filters, or
-JQL (Jira Query Language)
+Confluence permissions structure
+As a tool for communication and collaboration, we believe Confluence is at its best when everyone can participate fully. Confluence keeps a history of all changes to pages and other content, so it's easy to see who has changed what, and reverse any changes if you need to.
+Confluence does, however, give you the choice to make your instance, spaces, and content as open or closed as you want to.
+Permissions and restrictions aren’t customizable on the
+Free plan
 .
-If you’re an
-Atlassian Marketplace
-user, you may be looking for help on
-using the legacy Jira work item macro
+Levels of permission
+There are three levels of permissions in Confluence: global permissions, space permissions, and content restrictions.
+Global permissions
+Global permissions
+are Confluence-wide permissions, and are assigned by
+Confluence administrators
 .
-You can paste a link to a
-single Jira work item
-using
-Smart Link display options
-.
-Insert Jira work items
-Edit a Confluence page or live doc or create a new one. You have 3 options to insert Jira work items:
-Option 1
-Select
-from the toolbar and select
-Jira work items
-Option 2
-While editing, type
-/jira
-and select
-Jira work items.
-Option 3
-You have the option to search for work items in Jira and paste the search filter URL into a Confluence page or live doc.
-Search for work items
-Start inserting Jira work items by using filters with basic keyword search or with JQL.
-Learn how to search for Jira work items using
-JQL (Jira Query Language)
-.
-BASIC
-is selected by default. With this option, you can use filters and keywords to search for work items.
-If you select
-JQL
-, enter your query or search keywords. For example,
-project = 'Starfish'
-Select
-COUNT VIEW
-if you want to display just the number of work items.
-Select
-Insert work items
-.
-Manage field columns
-Once your Jira work items are displayed as a list, you can drag columns to move them around. Choose the columns you want to appear by selecting the column icon
-.
-Edit your work items
-If you need to make changes to your search query, select the pencil icon
-at the bottom of the list.
-Resize the width of the list by selecting the expand icon
-from the side.
-Using the Jira legacy macro for Marketplace app users
-Using the Jira macro, you can:
-Display a list of work items on your page or live doc, based on a
-Jira Query Language (JQL)
-search, filter or URL.
-Display a single work item.
-Display a count of work items.
-Create new work items and display the work items on your page or doc without leaving Confluence.
-Use the Jira legacy macro
-To add the Jira legacy macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Jira legacy macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Displaying work items via a Jira Query Language (JQL) search
-You can use the macro to display a list of work items on your page or doc, based on the results of a search using Jira Query Language (JQL).
-JQL is a simple query language that is similar to SQL. A basic JQL query consists of a
-field
-, followed by an
-operator
-(such as = or >), followed by one or more
-values
-or
-functions
-.
-Examples:
-The following query will find all work items in the 'TEST' project:
-project = "TEST"
-The following query will find all work items in the 'documentation' component of the  'CONF' project:
-project = CONF and component = documentation
-For more information about JQL syntax, see
-Advanced searching
+These permissions are pretty broad, and don't really interact with space permissions or content restrictions.
+For full details, check out the
+Manage global permissions
 in the
-Jira
-documentation.
-To display a list of work items based on a JQL search:
-Insert the Jira macro onto your Confluence page or live doc, as described above.
-Choose a Jira instance next to the
-Search
-button.
-If prompted, log in to the Jira instance.
-Enter the JQL query into the
-Search
-box.
-Select
-Search
+Administrator's Guide
 .
-If you want to customize the display, select
-Display options
-and adjust the columns and number of work items that will appear in your list of work items.
-Select
-Insert
-.
-Displaying work items via a Jira URL
-You can paste any of the following Jira application URLs into the Jira work items macro. Confluence will immediately convert the URL to a JQL search.
-Any URL for a work item search or filter.
-A URL for a single work item.
-The URL of the XML view of a search.
-Auto-convert:
-You can paste URLs directly into the Confluence editor (without calling up the macro browser). Confluence will automatically convert the URL into a Jira work items macro.
-Displaying a single work item, or selected work items
-To display a single Jira work item
-, choose one of the following methods:
-Paste the URL of the work item directly onto the Confluence page or doc. (There is no need to use the macro browser.) Confluence will auto-convert the link to a Jira work items macro.
-Or: Add the Jira work items macro to the page or doc as described above, and choose
-Recently Viewed
-to see the work items you have visited recently. Select a work item and choose
-Insert
-.
-Or: Add the Jira work items macro to the page or doc as described above, and paste the work item URL into the search box in the macro browser.
-Or: Add the Jira work items macro to the page or doc, define your search criteria in the macro browser via JQL as described above, then select the check box next to the work item in the search results, within the macro browser.
-You can choose to show just the work item key, or the work item key and a summary. Select the macro placeholder and choose Show Summary or Hide Summary.
-To display a subset of Jira work items from your search results:
-Add the Jira work items macro to the page or live doc.
-Define your search criteria in the macro browser via JQL, as described above.
-Select the check boxes next to the required work items in the search results, within the macro browser.
-Displaying a count of work items
-You can choose to display the number of work items returned by your search, rather than a list of work items. The Jira work items macro will display a count of work items, linked to the search in your Jira application.
-To display a work item count:
-Add the Jira work items macro to the page or doc.
-Define your search criteria in the macro browser via JQL, as described above.
-Select
-Display options
-, then select
-Total work item count
-next to 'Display options' in the macro browser.
-Select
-Insert
-.
-Creating a new work item
-While editing a Confluence page or live doc, you can create a work item in Jira and display it without leaving the Confluence editor.
-To create a work item and add it to your page or live doc:
-Add the Jira work items macro to the page or doc, as described above.
-Select
-Create new work item
-.
-Supply the information about your Jira instance, project, and work item, as prompted.
-Select
-Insert
-.
-Confluence will send a request to your Jira application, to create the work item, then display the newly created work item on your page or doc.
-Limitations
-The Jira legacy macro will notify you if it is unable to create a work item in the selected project. This may be because the project has a required field, field configuration or other customization that is not supported by the Jira legacy macro. In this situation you will need to create the work item directly in your Jira application.
-Rendering HTML from Jira applications
-Formatted fields from Jira can be displayed in Confluence if you set up a Confluence-to-Jira application link. Otherwise, such formatted fields will be escaped within the output of the Jira legacy macro. This is to prevent the possibility of malicious HTML being served by an untrusted Jira instance. The most likely field where you will notice this is in the description field.
-Disabling the Jira legacy macro
-Apps cannot be disabled in Atlassian Cloud applications. To stop using an app, you must either uninstall, or unsubscribe, which cancels your subscription to the app.
+Space permissions
+Every space has its
+own independent set of permissions
+, managed by the space admin(s), which determine the access settings for different users and groups.
+They can be used to
+grant or revoke permission
+to view, add, edit, and delete content within that space, and can be applied to groups, users, and even to anonymous users (users who aren't logged in) if need be.
+One thing to watch out for is where a user is a member of multiple groups. You may have revoked permission for that individual user to add content, for example, but if they're a member of a group that
+is
+allowed to add content, they'll still be able to create new content in the space.
+If you can't get the result you want from space permissions, or you're not sure, check with one of your Confluence administrators to determine what permissions you should apply to individuals and groups.
+Content restrictions
+Content restrictions work a little differently to global and space permissions. Content is open to viewing or editing by default, but you can
+restrict either viewing or editing
+to certain users or groups if you need to.
+Don't forget, every piece of content in Confluence lives within a space, and space permissions allow the
+space admin
+to revoke permission to view content for the whole space. Even the ability to apply restrictions to content is controlled by the 'restrict content' space permission.
+How do permissions and restrictions interact?
+You can restrict viewing of a content item to certain users or groups, so that even if someone has 'view' permission for the space, they won't be able to view that content.
+If someone's a space admin and you've used content restrictions to prevent them viewing a piece of content, they won't be able to see the content when they navigate to it. As a space admin though, they can see a list of restricted content in the space and remove the restrictions.
+What about links?
+Space permissions and content restrictions affect how links to content are displayed.
+If someone doesn't have 'View' space permission, links to content in that space won't be shown at all.
+If someone has the "View" space permission, but the content has view restrictions, the link will be visible but they'll get an "access denied" message when they click the link.
+Links to attachments are also affected. If the visitor doesn't have permission to view the content the attachment lives on, the link won't be rendered.
 Was this helpful?
 Yes
 No
@@ -627,25 +498,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add development info on Confluence pages
-Display Jira work items in a list
-Insert the Jira chart macro
-Insert the Jira timeline macro
-Display your Assets data on a Confluence page
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
 On this page
-Insert Jira work items
-Search for work items
-Manage field columns
-Edit your work items
-Using the Jira legacy macro for Marketplace app users
-Use the Jira legacy macro
-Displaying work items via a Jira Query Language (JQL) search
-Displaying work items via a Jira URL
-Displaying a single work item, or selected work items
-Displaying a count of work items
-Creating a new work item
-Rendering HTML from Jira applications
-Disabling the Jira legacy macro
+Levels of permission
+Global permissions
+Space permissions
+Content restrictions
+How do permissions and restrictions interact?
+What about links?
 Community
 Questions, discussions, and articles
 Accessibility

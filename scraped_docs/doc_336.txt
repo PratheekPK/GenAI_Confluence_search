@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-google-calendar/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-content-into-confluence-cloud/
 
-Subscribe to Team Calendars from Google Calendar | Confluence Cloud | Atlassian Support
+Import external documents | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,46 +439,137 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Subscribe to Team Calendars from Google Calendar
-Integrating Team Calendars with your Google Calendar is a great way to keep track of your team's leave, travel, rosters, and projects, all in one place.
-Subscribe to Team Calendars from Google Calendar
-In Confluence:
-Choose
-to the right of your calendar, then choose
-Subscribe
-Choose the
-Add to Google Calendar
-button (if it's visible)
-If you don't see the
-Add to Google Calendar
-link, continue the process below.
-Copy the link URL
-In Google Calendar:
-Choose
-Add by URL
-from the
-Other Calendars
-menu
-Paste the Team Calendars URL into Google Calendars
-Known issues and limitations
-These limitations are due to different issues in Google Calendar.
-Google Calendar refresh times are delayed. They range from 3 hours to 24 hours.
-Subscriptions are read-only (you cannot modify events from Google Calendar).
-Subscribed Team Calendars names are truncated if they have a space in the title.
-Troubleshooting
-Adding a calendar to Google Calendars may give you this error: "Could not fetch the url because robots.txt prevents us from crawling the url." This means your administrator doesn’t allow search engines to index your servers. An administrator will need to modify your
-robots.txt
-to allow Google to index Team Calendars.
-In your
-robots.txt
-file, add the following line:
-User-agent: *
-...
-Allow: /rest/calendar-services/1.0/calendar/export/subcalendar/private/*
+Import external documents
+Easily bring existing work over to Confluence from Word, Google Docs, or OneDrive documents.
+To start, open a blank page or live doc by selecting
+Create
+in the top navigation (or by using the + next to
+Content
+in the sidebar).
+Next to the
+Share
+button, select
+More actions
+(
+)
+, then
+Templates and import
+. The template browser will open on the right.
+Select the
+Import
+tab.
+Decide which document type you want to import:
+Word document (.docx)
+,
+Google Doc
+, or
+OneDrive
+.
+The template browser (and Import tab) will disappear as soon as you start typing. To reopen, select
+Templates & import doc
+from the more actions menu
+(…)
+in the upper right of the new draft page or live doc.
+External documents can be imported one at a time or several at once, but there are different requirements for files imported on their own versus in bulk and may vary by document type (Word, Google Doc, or OneDrive)
+Single file limit
+Bulk limit
+Google Doc
+5 MB for doc (excluding attachments)
+10 MB total
+Up to 30 files, 50 MB total
+Each file cannot exceed 10 MB
+Word document (.docx)
+5 MB for doc (excluding attachments)
+100 MB for attachments
+Up to 30 files, 50 MB total
+Each file cannot exceed 10 MB
+OneDrive
+5 MB for doc (excluding attachments)
+100 MB for attachments
+Up to 30 files, 50 MB total
+Each file cannot exceed 10 MB
+Each file imported will be its own Confluence page or live doc. When you import more than one file at a time, they are added as child items under a restricted placeholder page or live doc (titled “Imported pages” with the date and time information). This means you can privately review the imported content, then organize it and set appropriate
+permissions
+.
+If you only import a single file, it will generate as a live doc or draft page that you can then modify and publish (if need be) as you would other Confluence content.
+Not all images can be be successfully imported to Confluence. If a document contains an unsupported image file, the image is replaced with placeholder text on Confluence.
+We currently support importing the following image file types in documents: BMP, CUR, DDS, GIF, ICO, JPG, PNG, PSD, SVG, and WEBP.
+Import OneDrive documents
+Select
+OneDrive
+from under
+Import
+.
+If you haven’t already, you’ll be prompted to connect your Microsoft account and allow importing into Confluence.
+Select the documents you want to import from your files and then
+Open
+. Only .docx files can be imported from OneDrive.
+After the documents have been successfully imported, select
+Finish
+.
+Import Google Docs
+Select
+Google Doc
+from under
+Import
+.
+If you haven’t already, you’ll be prompted to connect your Google account and allow importing into Confluence.
+Choose the documents you want to import from your files and then
+Select
+.
+After the documents have been successfully imported, select
+Finish
+.
+Import Word documents
+If you import Word documents with shapes in them, the shapes will be replaced with placeholders in Confluence.
+Select
+Word document (.docx)
+from under
+Import
+.
+Select the documents you want to import from your files and then
+Open
+. Only Word documents with the .docx extension can be imported.
+After the documents have been successfully imported, select
+Finish
+.
+Import web content
+If you have web content that you want to import into Confluence, you'll need to import it page by page. Any text with basic formatting can be pasted directly into the editor, and you can use the
+Widget Connector Macro
+to display videos, slide shows, tweets, and more.
+Additional customization is available using the
+Confluence APIs
+.
+Other import methods can be found in the Atlassian Marketplace:
+Import and export spreadsheets using
+Excellentable Spreadsheet for Confluence
+Embed Google Drive and Docs files with
+Google Drive & Docs for Confluence
+Display and search for Salesforce data from Confluence using the
+Salesforce & Confluence Cloud Connector
+Import data into Confluence to use it as your CRM with
+Atlas CRM for Confluence
+Import Visio, Gliffy, and Omnigraffle diagrams using
+Lucidchart Diagrams for Confluence
+or
+draw.io Diagrams for Confluence
+Import markdown, macros, and other information using
+Github Macros for Confluence
+,
+Gister: GitHub Gist Macro for Confluence
+,
+Github Links for Confluence
+,
+Include Bitbucket for Confluence
+, or
+Markdown, HTML, PlantUML, LaTeX, Diagrams, Open API, Mermaid
+.
+Connect various cloud accounts and embed a whole range of documents into Confluence with
+Office Files & Documents for Confluence
 Was this helpful?
 Yes
 No
@@ -489,18 +580,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
+Create and edit content
 Show more
-Subscribe to Team Calendars from Thunderbird
-Subscribe to Google Calendars from Confluence
-Subscribe to Team Calendars from Google Calendar
-Subscribe to Team Calendars from Microsoft Outlook
-Subscribe to Team Calendars from Apple iOS Calendar
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
+Classify content
+How redaction works
 Show more
 On this page
-Subscribe to Team Calendars from Google Calendar
-Known issues and limitations
-Troubleshooting
+Import OneDrive documents
+Import Google Docs
+Import Word documents
+Import web content
 Community
 Questions, discussions, and articles
 Accessibility

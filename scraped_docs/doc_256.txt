@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-attachment-size/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-permissions-in-the-free-edition-of-confluence-cloud/
 
-Configure attachment size | Confluence Cloud | Atlassian Support
+Adjust permissions before downgrading to Confluence Free | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,35 +439,84 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
 Cloud
 Data Center
-Configure attachment size
-Confluence Cloud
-gives you the option of limiting the maximum size of a single file attachment.
-To configure the maximum size allowed for an attachment:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Configuration
->
-General configuration
+Adjust permissions before downgrading to Confluence Free
+The Free plan is for small teams of fewer than 10 people who are just getting started with Confluence. Confluence is completely open to logged-in users when you’re on the Free plan. That means everyone who can log in to your Confluence instance can view, add, and edit spaces and content.
+While Confluence is open to logged-in users,
+anonymous access
+isn’t available on the Free plan. Only users who log in to your Confluence instance can access it.
+To take advantage of Confluence permissions, restrictions, or anonymous access,
+upgrade your plan
 .
-Scroll down to
-Attachment settings
+When you change from Standard or Premium to Free
+When you change from Confluence Cloud Premium or Standard to Free, you’ll no longer be able to set permissions and restrictions. Here’s what you can expect when you change to the Free plan:
+We’ll keep any global permissions, space permissions, and content restrictions you’ve already set. If needed, you’ll still be able to open up spaces and content to all users.
+We’ll reset your instance’s default space permissions. When new spaces are created, all users will be able to view the spaces, add content to them, and more. (As mentioned above, we’ll keep the permissions you’ve already set on existing spaces.)
+If your instance allowed anonymous users, they’ll no longer be able to access it.
+To set new permissions, you'll need to go back to one of our paid plans.
+This information also applies when you migrate from Confluence Data Center to Confluence Cloud Free. See our
+migration guides
+on how to do this.
+Confluence Data Center is our only self-managed app offering, and our primary app offering outside of Confluence Cloud. We
+ended support of Confluence Server
+on February 15, 2024.
+Open up a space to all users
+After you switch to the Free plan, any permissions you’ve set on a space will remain in place. If needed, you can open up the space to all users. This will let anyone with access to your Confluence instance view the space, add content to it, and more.
+You won’t be able to undo this action.
+If you need to reset the space permissions, you’ll have to go back to one of our paid plans.
+Go to the space in
+Confluence Cloud
 .
-Enter your preferred maximum size (in bytes) In the
-Attachment maximum size
-field. The default is 100 megabytes, expressed as 104857600 bytes.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
 Select
-Save configuration changes
+General
+from the
+Space permissions
+card
+.
+In the Upgrade for space permissions box, select
+Grant all users permissions for this space
+.
+Select
+Grant permissions
+.
+Open up content to all users
+After you switch to the Free plan, any restrictions you’ve set on content will remain in place. If needed, you can open up content to all users. This will let anyone with access to your Confluence instance view and edit the content.
+You won’t be able to undo this action.
+If you need to reset the content restrictions, you’ll have to go back to one of our paid plans.
+Select the lock icon at the top of the content.
+In the Upgrade for page restrictions box, select
+Remove this content’s restrictions
+.
+Select
+Remove restrictions
+.
+If you’re a space admin, you can use the
+Restricted content
+tab to open up a content item in your space to all users by removing any restriction from the content.
+This will remove all restrictions from the content. You won’t be able to undo this action.
+If you need to reset the content’s restrictions, you’ll have to go back to one of our paid plans.
+Navigate to the desired space using the Spaces menu in the navigation or from the Home page.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Restricted
+from the
+Content
+card.
+Select the lock icon next to the content whose restrictions you want to remove. This will remove all restrictions from the content.
+Select
+Remove restrictions
 .
 Was this helpful?
 Yes
@@ -479,14 +528,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
-Show more
-Configure time and date formats
-Configure number formats
-Configure attachment size
-Configure shortcut links
-Install a custom language font for PDF exports
-Show more
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+On this page
+When you change from Standard or Premium to Free
+Open up a space to all users
+Open up content to all users
 Community
 Questions, discussions, and articles
 Accessibility

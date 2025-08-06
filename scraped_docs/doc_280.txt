@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/search-for-pages-and-posts/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-questions-for-confluence/
 
-Search for content | Confluence Cloud | Atlassian Support
+Use Questions for Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,102 +439,25 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Find content in Confluence Cloud
+Extend the functionality of Confluence Cloud
 Cloud
 Data Center
-Search for content
-Customers who have signed up for our Atlassian Intelligence Early Access Program, learn how to
-use Atlassian Intelligence to search for answers
-Confluence gives you a few ways to find what you're looking for.
-Quick search
-Use the slash ( / ) shortcut key from anywhere in the application to quickly open the search drawer.
-To perform a quick search in Confluence, place focus in the search field in the navigation.
-With focus in the search field, a quick search drawer opens.
-Enter the name of a page, blog post, whiteboard, person, file/attachment, or space, and choose from the list of options displayed. Items are ordered with the most recently updated first. When selecting a person, you can view their profile.
-If you don't immediately see what you need in the quick search, press
-Enter
-or choose the
-Advanced
-search
-option at the bottom of the search results to do an advanced search.
-Advanced search
-Confluence advanced search allows you to search for content across spaces, personal profiles, and attachments.
-To use advanced search:
-Place focus in the search bar.
-Enter your search terms.
-Select
-Advanced search
-or press the
-Enter/Return
-key.
-Advanced search results help you better understand if a result is the one you’re looking for by showing you information beyond just the title. View highlighted search terms, check the last updated date, and use clickable breadcrumbs for contextual insight into a item’s location and hierarchy.
-You can also add filters to your search to focus your results.
-Filter using the following fields
-:
-Spaces
-– Return content from a particular space or list of spaces. Select the checkbox to include
-archived spaces
-.
-Contributors
-– Find content that's been modified (created, edited, or commented on) by a particular person or people in any space, including their personal space. When adding multiple contributors to your filter, the operator used between the people is OR. The ability to use the AND operator between people is not supported.
-Type
-– See results of a certain type, like pages, live docs, blog posts, whiteboards, attachments, or comments. Results include the following types of attachments: Word, Text, PowerPoint, Excel, PDF, and HTML.
-Last modified
-– Choose or enter a date range to only show results that were updated within a particular period of time.
-Labels
-– See results that contain a specific label or labels. When adding multiple labels to your filter, the operator used between the labels is OR. The ability to use the AND operator between labels is not supported.
-Pages under
-– Return content that exists in pages or live docs under the selected page or live doc. This is helpful if know generally where the content you’re looking for exists in the content tree but don't know the exact name.
-Search titles only
-- When selected, your results only contain pages or live docs whose titles contain the text entered in the search field.
-PRO TIP
-In addition to advanced search filters, you can use the
-Confluence search syntax
-to really focus your results.
-Recent activity
-There are a few ways to quickly find content you've recently visited or worked on.
-Recent menu in the navigation
-Home page
-Recent menu
-You can easily get to content based on your recent interaction with them from anywhere using the navigation. Once you are there, you can use the filter to narrow the list based on characters in the title of the page.
-To see recent items:
-Click
-Recent
-in the navigation.
-Choose
-Visited
-,
-Worked on
-,
-Drafts
-, or
-Starred
-.
-Quickly open the Recent menu drawer using the keyboard shortcut.
-Home page
-The Home page is a great place to start your Confluence day.  The Recent section gives you a good reminder about what you were doing last.
-Tabs
-The Recent section uses the following tabs to separate recent content:
-All
-— Pages, live docs, blogs, and whiteboards you have viewed, including those that you’ve edited and commented on
-Worked on
-— Pages, live docs, blogs, and whiteboards you created, edited, and commented on; this includes drafts
-Owned by me –
-Pages, live docs, blogs, and whiteboards you currently own
-When you add a comment, those actions result in a page showing up in your
-Visited
-and
-Worked on
-lists.
-All items are sorted by date with the most recent item at the top. If you saved an item for later, you’ll see a star next to the item’s name.
-Filter
-Text entered in the filter field helps you narrow the list of recent items; the filter only shows items already visible to you in the list of recent items. It does not search the text of the items.
-If you're looking for an item not visible in any of the tabs, click search in the navigation.
-Who can see my search?
-If your search contains terms that Atlassian or your organization considers to be potentially suspicious, those terms and other contextual search queries made at the same time as the suspicious search, may be included in a security alert which can be viewed by an organization admin or
-Guard Detect
-user authorized by the organization admin.
+Use Questions for Confluence
+Install Questions for Confluence
+Learn how to use Questions for Confluence in your instance.
+View topic
+Ask a question
+Discover questions and answers in Questions for Confluence.
+View topic
+Watch and edit topics
+Get information about watching and editing topics in Questions for Confluence.
+View topic
+What are votes and experts?
+Learn about voting and experts in Questions for Confluence.
+View topic
+Admin settings for Questions for Confluence
+Learn how admins can change settings on Questions for Confluence
+View topic
 Was this helpful?
 Yes
 No
@@ -545,19 +468,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Find content in Confluence Cloud
-Search for content
-Search for people and teams
-Confluence search syntax
-Discover relevant content with related content
-Use Atlassian Intelligence to search for answers
-On this page
-Quick search
-Advanced search
-Recent activity
-Recent menu
-Home page
-Who can see my search?
+Explore more
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
+Extend the functionality of Confluence Cloud
+Show more
+Use macros to add visuals and images to Confluence pages
+Use gadgets to add dynamic content
+Use Questions for Confluence
+Use automation for Confluence
+Learn about macros on Confluence mobile
 Community
 Questions, discussions, and articles
 Accessibility

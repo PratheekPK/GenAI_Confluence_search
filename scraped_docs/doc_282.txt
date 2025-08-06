@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/change-the-space-name-and-logo/
+URL: https://support.atlassian.com/confluence-cloud/docs/migrate-from-confluence-cloud-to-server/
 
-Change the space name and logo | Confluence Cloud | Atlassian Support
+Migrate from Confluence Cloud to Data Center | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,34 +439,230 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Customize your space
+Confluence administration
+Data management in Confluence Cloud
 Cloud
 Data Center
-Change the space name and logo
-To customize your space’s name and icon:
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
+Migrate from Confluence Cloud to Data Center
+We
+ended support of Confluence Server
+on February 15, 2024. Confluence Data Center is our only self-managed app offering, and our primary app offering outside of Confluence Cloud.
+This page is for people who are currently using Confluence Cloud, and wish to move to Confluence Data Center (a self-managed Confluence instance).
+Need to move off of Confluence Server?
+These resources will help you plan your migration from:
+Confluence Server to Cloud
+Confluence Server to Data Center
+Before you begin
+There's a few things to understand before you begin this process.
+Minimum Confluence version
+You can migrate from Confluence Cloud to Confluence Data Center
+6.0 or later
+. Importing cloud data (either the whole instance or individual spaces) into any earlier versions of Confluence Data Center is not supported.
+We recommend installing either the latest version of Confluence, or the latest Enterprise release. The
+Confluence Upgrade Matrix
+will help you choose the right version for your organization.
+Features and app availability
+Some Cloud features won't be available in Confluence Data Center. The navigation and user experience will also be different in some places. The core functionality of Confluence is the same, however.
+Marketplace apps are not automatically migrated. When you set up your Confluence Data Center instance, you'll need to reinstall each of your apps.
+Not all apps are available for both Cloud and Data Center. When planning your migration, we recommend you check that your essential apps are available for Data Center in the
+Atlassian Marketplace
+and make a list of the ones you'll need to reinstall.
+Templates
+All pages that were created from a template will be migrated.
+However, any custom templates you may have created in your Confluence Cloud site will not be migrated. You'll need to
+re-create your templates
+once your migration is complete.
+You should also be aware that the number of built-in templates (known as blueprints) are more limited in Confluence Data Center, so some of the default templates you previously used may not be available.
+Team Calendars and Questions data
+Confluence Questions and Team Calendars data can't be migrated, as there is currently no way to export this data from Confluence Cloud.
+Migration approach
+You can choose to migrate your entire instance in one go, or to import your team's content, space by space.
+A
+full site migration
+involves a full site export (backup), and importing this file into Confluence Data Center. Users and groups are included in this export. All spaces will be migrated, including archived spaces and personal spaces.
+A
+space by space migration
+involves
+exporting each space individually
+, and importing these files into Confluence Data Center one at a time. This means you can choose which spaces you want to migrate, or migrate in stages over time. Users and groups are not automatically migrated. If you've connected Confluence Data Center to an external user directory, or have already populated your new site with user accounts, we'll attempt to attribute content to the right people on import.
+Infrastructure and database choice
+Where you choose to host Confluence Data Center is up to you. See
+Supported Platforms
+to find out which operating systems and databases are supported.
+You can use any database listed on the
+Supported Platforms
+page, but you don't already have a database server, we recommend PostgreSQL, which is what Confluence Cloud is run on.
+Licenses
+You will need a new license to migrate to Confluence Data Center. Your existing Confluence Cloud license can't be used. You can get a new license at
+https://my.atlassian.com
+. You'll also need new licenses for any paid Marketplace apps.
+Account visibility
+In Confluence Cloud, people can choose not to make their profile information visible. This means when a Cloud instance is imported into Data Center, user account information such as their full name, may not be included.
+As long as you are logged in as a Site Admin when you complete the site export, email addresses will always be included, and used as the username when the user accounts are created. Users can then log in, and update their profile to provide the missing information.
+Migration steps
+This page will guide you through a
+full site migration
 .
+See
+Import a space from Confluence Cloud
+if you plan to migrate your spaces one by one.
+Step 1: Check your apps
+To check your apps are compatible:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Atlassian Marketplace
+in the left-hand navigation.
 Select
-Space details
+Manage apps
 .
-Input a new
-Name
-and select
+Make a note of all
+User-installed
+apps.
+Go to
+https://marketplace.atlassian.com
+and look up each app to see if a Data Center edition is available.
+Step 2: Install Confluence Data Center
+The way you do this depends on how you plan to host the application.
+See
+Confluence Installation Guide
+for links to all the installation options.
+Step 3: Export your Confluence Cloud instance
+To export your Confluence Cloud instance:
+Log in to Confluence Cloud as a
+Site Admin
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Backup manager
+in the left-hand navigation.
+Follow the prompts and download the XML file.
+The file will include all spaces and pages (including attachments), and all your users and groups.
+Step 4: Import your Confluence Cloud instance export file
+Unless your export file is quite small (less than 25mb) we recommend importing via the home directory method.
+The import will overwrite all spaces, pages, and user accounts in your site - including your administrator account. You'll recover that account in the next step.
+You should back up your database, home directory, and installation directory before you begin, in case you need to roll back.
+To import from the home directory:
+Copy your export file to
+<confluence-home>/restore.
+(If you're not sure where this directory is located, the path is listed in the
+Backup and Restore
+screen)
+Go to
+>
+General configuration
+>
+Backup and Restore
+.
+Select your site export file under
+Import from home directory
+Make sure
+Build Index
+is checked so that your index is created automatically.
+Choose
+Import
+.
+See
+Restoring a Site
+for more information about the import process.
+Step 5: Recover sys admin permissions
+When you import an export file, all user accounts are overwritten, including the system administrator account that was created when you installed Confluence. Your existing Cloud Site Admin account will not automatically have system administrator permissions for Confluence Data Center.
+To recover system administrator permissions:
+Stop Confluence.
+Edit
+<installation-directory>/bin/setenv.sh
+or
+setenv.bat
+and add the following system property, replacing
+<your-password>
+with a unique, temporary password.
+-Datlassian.recovery.password=<your-password>
+See
+Configuring System Properties
+for more information on using system properties.
+Start Confluence
+manually
+(don't start Confluence as a service).
+Log in to Confluence with the username
+recovery_admin
+and the temporary password you specified in the system property.
+Go to
+>
+User Management
+>
+Add Users
+.
+Enter the details for your new system administrator account and hit
 Save
+. Make sure to use a strong password.
+Choose
+Edit Groups
+and select the
+confluence-administrators
+group. This is a super-group that has system administrator permissions.
+Log out, and confirm that you can successfully log in with your new account.
+Stop Confluence.
+Edit
+<installation-directory>/bin/setenv.sh
+or
+setenv.bat
+and remove the system property.
+Restart Confluence using your usual method (manually or by starting the service).
+See
+Restore Passwords To Recover Admin User Rights
+for more information on this process.
+Step 6: Install any apps
+To re-install your apps:
+Log in to Confluence Data Center as an administrator.
+Go to
+>
+Manage apps
 .
-To edit the space icon, select the Space icon field.
-Upload your own logo or select
-Gallery
-to choose from existing illustrations.
-Select
-Save
+Follow the prompts to search for or upload the apps you identified in step 1.  You'll need to purchase new licenses for these apps.
+Remember that Team Calendars and Questions data is not included in your export, and cannot be migrated from Cloud at this time.
+Step 7: Check your application links
+If you had multiple Cloud apps, such as
+Jira
+, you may need to make some changes to the application links.
+To remove or update application links:
+Go to
+>
+General configuration
+>
+Application links
 .
-You can't change the space icon for your personal space, which uses your profile picture as the space logo.
+Follow the prompts to check and update any application links that are now pointing to the wrong place.
+If you're unable to remove the Jira Cloud application link from your Confluence instance after the import, you'll need to remove those references directly from the Confluence database. See
+Alternative Methods of Deleting Application Links in Confluence
+.
+Troubleshooting
+There are a few known issues that you might encounter when importing your Cloud instance.
+Can't load pages in Confluence Data Center
+If you experience problems loading pages after the import, head to  >
+General configuration
+to check your base URL as the port may have changed.
+Jira issues macros are broken
+If your Confluence Cloud instance has macros that depend on the Application Links back to a Jira Cloud instance, and you are migrating Jira as well, these references will need to be updated to work properly. See
+APL-1144
+for a workaround.
+You can also edit the XML file prior to importing it into Confluence Data Center, or by bulk editing those references in Confluence database. See
+How to bulk update Jira Issue Macro to point to a different Jira instance
+.
+Users' favorites (starred pages or saved for later) are missing
+If you find that some of your users' favorites (pages saved for later) are missing due to
+CONF-36348
+, see
+How to restore missing favorites after import from XML
+for more information.
+Some user accounts are missing or created without user details
+Users in Confluence Cloud have the ability to change their profile visibility settings. To ensure all user data is included in the export, ask a site admin to perform the export.
 Was this helpful?
 Yes
 No
@@ -477,10 +673,30 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Customize your space
-Apply a theme to a space
-Change the space name and logo
-Edit features for a space
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+On this page
+Before you begin
+Minimum Confluence version
+Features and app availability
+Templates
+Team Calendars and Questions data
+Migration approach
+Infrastructure and database choice
+Licenses
+Account visibility
+Migration steps
+Step 1: Check your apps
+Step 2: Install Confluence Data Center
+Step 3: Export your Confluence Cloud instance
+Step 4: Import your Confluence Cloud instance export file
+Step 5: Recover sys admin permissions
+Step 6: Install any apps
+Step 7: Check your application links
+Troubleshooting
 Community
 Questions, discussions, and articles
 Accessibility

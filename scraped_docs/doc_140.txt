@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-people-to-confluence-from-google-slack-or-microsoft/
+URL: https://support.atlassian.com/confluence-cloud/docs/export-your-database-data/
 
-Add people to Confluence from Google, Slack, or Microsoft | Confluence Cloud | Atlassian Support
+Export your database data | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,30 +439,38 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Collaborate on content
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Add people to Confluence from Google, Slack, or Microsoft
-Confluence is all about working together to get the best results for you and your team.
-Now you can add anyone to Confluence from Google, Slack, or Microsoft (or all three). It’s quick, convenient, and secure.
-Once your teammate is added, they can collaborate with you directly in Confluence.
-Depending on your
-access settings
-, an admin may need to approve your request first.
-Add a teammate
-Select
-More
-and then
-Teams
+Export your database data
+Databases aren’t available in the
+Atlassian Government environment
 .
+You can export database data into CSV, HTML, and PDF formats. Each format offers the flexibility to include the current view or export all data in a table layout.
+Export options
+CSV
+: Ideal for importing data into other database tools or spreadsheets.
+HTML
+: Useful for sharing data in a web-friendly format, with the option to copy the export data to the clipboard.
+PDF
+: Suitable for creating read-only versions of your data for reports and presentations.
+How to export your data
+Go to your database.
+Open the more (
+•••
+) menu at the top right corner of the database.
 Select
-Add people.
-Select
-Google, Slack, or Microsoft.
-Allow Atlassian access to connect Confluence to your Google, Slack or Microsoft accounts.
-Enter your teammate's info and they’ll get an email inviting them to collaborate with you.
-You can continue to add people using their email address if you prefer.
+Export
+from the menu.
+Select your preferred export format (CSV, HTML, or PDF).
+(Optional)
+Check the
+Export with current view
+option to include the current view settings. It will export all the data in a table layout if not checked.
+Follow the prompts to download the exported file to your device.
+Importing exported data
+You can import data into a new database using the exported HTML or CSV files, making it easy to transfer and manage your data across different databases.
 Was this helpful?
 Yes
 No
@@ -473,13 +481,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Collaborate on content
+Create and edit databases
 Show more
-Comment on pages, live docs, whiteboards, and blog posts
-Watch pages, live docs, spaces, whiteboards, and blogs
-Add people to Confluence from Google, Slack, or Microsoft
-What can guests see and do in Confluence?
-Share content externally with public links
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+Show more
+On this page
+Export options
+How to export your data
 Community
 Questions, discussions, and articles
 Accessibility

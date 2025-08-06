@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/change-your-site-and-space-logos/
+URL: https://support.atlassian.com/confluence-cloud/docs/administer-questions/
 
-Change your site and space logos | Confluence Cloud | Atlassian Support
+Administer questions | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,113 +439,37 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Look and feel settings in Confluence Cloud
+Space administration
+Manage Questions for Confluence
 Cloud
 Data Center
-Change your site and space logos
-You can customize the look and feel of Confluence by changing the logo.
-You can change:
-the
-site logo
-the
-favicon
-(the small logo that appears in your browser tab
-the
-default space logo
-for all spaces
-the
-space logo
-for individual spaces
-Change the site logo
-The site logo appears on the left in the Confluence navigation bar. You must be a Confluence administrator to change it.
-To change the site logo:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-, then
-Look and feel
-in the left-hand navigation.
-Select
-Upload custom logo
+Administer questions
+Administrators can really help get a Q&A community up and running. Users who have the Confluence Administrator global permission also have permissions to administer Questions.
+See
+Permissions
+to find out how to grant access to anonymous users, restrict access to Questions to specific users and groups, or grant experts some administration functions.
+The global questions space
+When you install Questions for Confluence Cloud, a global questions space—called "Questions" by default—is created to store questions that are site-wide and therefore don't belong to a specific space. Deleting this space will permanently delete your Questions data. Don't delete it unless you plan to uninstall Questions and you're sure you won't be using it again.
+Manage topics
+Topics are added as users ask questions, but administrators can also add, edit and delete topics. This is very useful when first establishing your Q&A community.
+From the
+Topics
+tab, administrators can:
+Add new topics (without asking a question)
+Add a description and icon for existing topics
+Delete topics that have no questions
+SEO Support
+If your Questions instance is public-facing there are a number of things you can do to help with search engine optimization (SEO).
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
 .
-Select
-Select a file to upload
-to upload a new logo image.
-Select
-Save.
-Confluence's auto Look and Feel will detect the colors in your new logo, and change your color scheme to match.
-To use the default
-color scheme
-with your custom logo:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-, then
-Look and feel
-in the left-hand navigation.
-Select
-Customize navigation
-.
-Use the
-Highlight color
-dropdown to open the color picker
-.
-Select
-Reset to default
-.
-Select
-Save
-.
-Change the site favicon
-The site favicon is the icon that appears in your browser tab. You must be a Confluence administrator to change it.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-then open the
-Configuration
-menu.
-Select
-General configuration
-.
-Under
-Favicon
-, select
-Select file to upload
-.
-Select
-Upload.
-You can upload PNG, GIF, JPEG, or ICO files. For best results images should be square, and at least 48x48 pixels. Maximum file size is 2 MB.
-Set a default space logo
-The space logo appears at the top of the space overview and as an icon in the space directory. The default space logo applies to all spaces that don't have a custom space logo applied.
-You must be a Confluence administrator to change the default space logo.
-To change the default space logo:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Look and feel
-in the left-hand navigation.
-Select
-Default space logo
-.
-Select
-Logo: ON
-Select
-Choose File
-to upload a new logo
-Select
-Upload Logo
-Select
-Save
-Change a specific space logo
-Space admins can change the logo for their space, which overrides the default space logo. See
-Customize your space
-to find out how to change the logo in a specific space.
+Then  choose
+Questions Customization
+to:
+Customize the title to appear in search results and browser tab when a user visits the Questions dashboard.
+Add a description to appear in search engine results for the Questions dashboard.
 Was this helpful?
 Yes
 No
@@ -556,16 +480,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Look and feel settings in Confluence Cloud
-Install a theme
-Set the default theme
-Customize the navigation colors
-Change your site and space logos
-On this page
-Change the site logo
-Change the site favicon
-Set a default space logo
-Change a specific space logo
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-gallery-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/migrate-a-confluence-cloud-site-or-space/
 
-Insert the gallery macro | Confluence Cloud | Atlassian Support
+Data management in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,152 +439,22 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Confluence administration
 Cloud
 Data Center
-Insert the gallery macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Gallery macro displays a collection of thumbnail images in a table, based on the images attached to a Confluence page. When viewing the page, a user can click a thumbnail image to zoom into a screen-sized image and then view the images as a slide show.
-Overview:
-The images shown in the gallery are taken from the files attached to the Confluence page. You can also specify a different page where the attachments are located. For information about attaching images to a page, see
-Upload files
-.
-The captions below the images are drawn from the comments on the attachments. For information about adding comments to attachments, see
-Upload files
-.
-By default, the gallery will include all the images attached to the page. You can also exclude or include images using parameters.
-You can sort your images into a particular order.
-You can specify a title for the gallery and also configure how many columns you want for the table in which your images are displayed.
-Use the Gallery macro
-To add the Gallery macro
-:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Gallery macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-The full list of parameters is shown in the following table. If the name of an attached file or page contains a comma, you can refer to it in the relevant parameters below by enclosing it in single or double quotes, for example
-"this,that.jpg", theother.png
-Parameter
-Default
-Description
-Gallery Title
-(
-title
-)
-Nothing
-Specify a title for your gallery.
-Number of Columns
-(columns
-)
-4
-Specify the number of columns for your table.
-Images to Exclude
-(exclude
-)
-No exclusions. Include all the pictures on the page.
-The gallery will ignore any pictures specified. You can specify more than one picture, separated by commas.
-Note: The filename and filetype for this parameter are case-sensitive. For example, 'my picture.PNG' will not be recognized as 'my picture.png'.
-Include these Images Only
-(include
-)
-Include all the pictures on the page.
-If you specifically include one or more pictures, the gallery will show only those pictures. You can specify more than one picture, separated by commas.
-The filename and filetype for this parameter are case-sensitive. For example, 'my picture.PNG' will not be recognized as 'my picture.png'.
-Exclude Images with these Labels
-(excludeLabel
-)
-No exclusions. Include all the pictures on the page.
-The gallery will ignore any pictures that have the specified label. You can specify more than one label, separated by commas. For information on labeling the attachments, see
-Use labels to organize pages and attachments
-.
-Include Images with these Labels Only
-(includeLabel
-)
-None. The images are not filtered by label.
-Filters the images to display, based on a list of labels. Separate multiple labels with commas. Confluence will show any image that has
-at least one of the labels
-you specify (it's an OR match as opposed to an AND).
-For info on labeling attachments, see
-Use labels to organize pages and attachments
-.
-Use Images in these Pages
-(page
-)
-If no page is specified, the gallery macro displays the images attached to the page on which the macro is used.
-Specify the title of the page which contains the images you want displayed. You can specify more than one page name, separated by commas. To specify a page in a different space, use the following syntax:
-SPACEKEY:Page Title
-Sort Images By
-(sort
-)
-None. The sort order is unspecified and therefore unpredictable.
-Specify an attribute to sort the images by. Sort order is ascending, unless you select the
-Reverse Sort
-parameter (see below). Options are:
-name
-– file name.
-comment
-– comment linked to the attached file.
-date
-– date/time last modified.
-size
-– size of the attached file.
-Reverse Sort
-(reverse
-)
-Off. Sort order is ascending
-Used in combination with the
-Sort Images By
-parameter above. Use
-Reverse Sort
-to reverse the sort order, from ascending to descending.
-Available values in storage format and wikimarkup:
-true
-– Sort order is descending.
-false
-– Sort order is ascending.
-Image file formats
-You can attach image files of any format to a page. Confluence supports the following image formats in the Gallery macro and when displaying an image on a page:
-gif
-jpeg
-png
-bmp (depending on browser support)
-Wiki markup example
-Wiki markup is only supported in the legacy editor.
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-gallery
-Macro body:
-None.
-{gallery:title=My holiday pictures|reverse=true|sort=size|page=My page1, ds:Welcome to Confluence|excludeLabel=badlabel1, badlabel2|columns=3|exclude=badpicture.png}
+Data management in Confluence Cloud
+Import a Confluence Cloud space
+Import a Confluence space, rather than an entire instance, into Confluence Cloud.
+View topic
+Export a data backup file of your instance
+Create a backup file of your Confluence Cloud instance.
+View topic
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Learn how to merge Confluence Cloud instances from multiple sites.
+View topic
+Migrate from Confluence Cloud to Data Center
+Learn how to migrate your Confluence Cloud content to Confluence Data Center.
+View topic
 Was this helpful?
 Yes
 No
@@ -595,11 +465,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-On this page
-Use the Gallery macro
-Parameters
-Image file formats
-Wiki markup example
+Explore more
+Import a Confluence Cloud space
+Export a data backup file of your instance
+Migrate a Confluence Cloud instance or merge instances from multiple sites
+Migrate from Confluence Cloud to Data Center
+Confluence administration
+Show more
+Security settings in Confluence Cloud
+Look and feel settings in Confluence Cloud
+Data management in Confluence Cloud
+Atlassian Marketplace apps
+Confluence automation administration
 Community
 Questions, discussions, and articles
 Accessibility

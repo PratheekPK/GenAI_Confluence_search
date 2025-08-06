@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/decide-how-you-see-pages-in-a-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-labels-to-categorize-spaces/
 
-Find content in a space | Confluence Cloud | Atlassian Support
+Use labels to categorize spaces | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,52 +443,81 @@ Create and organize work in Confluence Cloud
 Use spaces to organize your work
 Cloud
 Data Center
-Find content in a space
-Trying to find a specific page, live doc, or whiteboard is hard when you remember some things about it but you don’t remember what it’s called. Searching for it might seem challenging.
-When you are in a space, you have a couple of ways of finding the right item.
-Search for item’s titles in the space
-To search in a space:
-Enter some of the item’s title in the
-Search by title
-field, located in the space’s
-sidebar
-. When entering multiple words, the operator used is OR. Enter
-product requirements
-, and the results will contain
-product
-OR
-requirements
+Use labels to categorize spaces
+If you've got lots of related spaces, you can use labels to group them together into categories in the
+Space Directory
 .
-Press
-Enter
-PRO TIP
-You can use the
-Confluence search syntax
-in the search field to really focus your search results.
-Hover over titles to see cards
-Sometimes an item’s title just isn’t enough to pick the right one. When you hover over an item in the
+For example, if you're in an IT team who work on a number of projects, each in a different space, you could label each space 'IT-projects-open'. Then in the Space Directory you could select IT-projects-open to see all your current IT project spaces.
+You can add as many space categories to a space as you need, so that if, for example, two different teams are working on a project together, you can add labels for both teams and space will appear under both categories.
+You can add or remove labels as your needs change.
+Categorize a space
+You need space administrator permissions to add categories to a space.
+Navigate to the appropriate space.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Space details
+.
+Select
+More details.
+Select the
+Categories
+field to search or choose from a dropdown list.
+Select
+Save.
+Add a space description
+Help make it easier to find the right space within a category by adding a description to your space:
+Navigate to the appropriate space.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Space details
+.
+Input a
+Description.
+Select
+Save.
+View spaces in a category
+Select
+Spaces
+in the
 sidebar
-of a space, you can see more details about it — like when it was updated last and who owns the item.
-The actions you can take from the item cards in the sidebar include:
-Jump directly to
-edit
-Star
-the item to save it for later
-Sharing and watching items aren’t available here.
-How to turn off hover cards
-Seeing cards on hover is something each user can control, so if you don’t find this useful, you can turn it off in your user settings. In user settings, uncheck the content card hover option.
-View items differently
-Navigating through a structured content tree is useful to some people some of the time. But if you aren’t familiar with a space or if the content tree gets overgrown, it can be more challenging to find the right item.
-To make the list of items fit you, you can switch the view from the tree view to a flat list that is sorted as you want. Once you select your view in a space, it stays that way until you change it.
-Tree
-—
-view the items in their standard hierarchical structure
-My visits — view the items you accessed most recently at the top of a flat list
-Last updated
-— view the items created or edited most recently by anyone in the space at the top of a flat list
-Title - A to Z
-— view the items in a flat alphabetical list, starting with content containing numbers and special characters
-Reordering items in the sidebar using drag and drop is only available in the default tree view. If you need to reorder items, switch back to the default view.
+and select
+View all spaces
+, then select one of the categories at the top of the
+All spaces
+list.
+You can also view spaces by category by using the
+Spaces List Macro
+and filtering by category.
+Head to the
+Spaces
+menu in the navigation to see all your starred spaces. When viewing a space, you can choose the star icon next to the space title in the sidebar to add it to your
+Starred
+Spaces
+so that it's easier to find later.
+Remove a space from a category
+Navigate to the appropriate space.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Space details
+.
+Select the
+icon next to a category label to delete it.
+Select
+Save
+.
+If you remove all spaces from a category, the category will no longer appear in the Space Directory. There's no way to bulk remove a category. You can choose the category in the Space Directory to find all the spaces it appears on, then remove it from each space.
 Was this helpful?
 Yes
 No
@@ -501,16 +530,16 @@ The Atlassian Community is here for you.
 Ask the Community
 Use spaces to organize your work
 Show more
-Navigate spaces
 Organize your space
 Find content in a space
 Customize your space's overview
 Use labels to categorize spaces
-Show more
+Delete or disable a template
 On this page
-Search for item’s titles in the space
-Hover over titles to see cards
-View items differently
+Categorize a space
+Add a space description
+View spaces in a category
+Remove a space from a category
 Community
 Questions, discussions, and articles
 Accessibility

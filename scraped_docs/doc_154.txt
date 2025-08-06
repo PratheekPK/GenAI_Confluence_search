@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-labels-to-categorize-spaces/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-microsoft-office-macros/
 
-Use labels to categorize spaces | Confluence Cloud | Atlassian Support
+Insert Microsoft Office macros | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,85 +439,131 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Use spaces to organize your work
+Extend the functionality of Confluence Cloud
+Use macros to include media on Confluence pages
 Cloud
 Data Center
-Use labels to categorize spaces
-If you've got lots of related spaces, you can use labels to group them together into categories in the
-Space Directory
-.
-For example, if you're in an IT team who work on a number of projects, each in a different space, you could label each space 'IT-projects-open'. Then in the Space Directory you could select IT-projects-open to see all your current IT project spaces.
-You can add as many space categories to a space as you need, so that if, for example, two different teams are working on a project together, you can add labels for both teams and space will appear under both categories.
-You can add or remove labels as your needs change.
-Categorize a space
-You need space administrator permissions to add categories to a space.
-Navigate to the appropriate space.
-Next to your space's name in the sidebar, select
+Insert Microsoft Office macros
+You can attach a Microsoft Office file to your page or live doc and use a macro to show it in your page or doc without the viewing needing Office installed. This lets you maintain the formatting, animations, and formulas from those apps and share them easily in Confluence.
+Office Word
+The Office Word macro embeds your document in the page or doc, rather than showing a simple preview.
+This is great for situations where you can't simply copy the content into the Confluence page or doc, because you want to preserve formatting or other Word functionality.
+Attach the file to a page or live doc from the
 More actions
-(•••), then
-Space settings
-.
-Select
-Space details
-.
-Select
-More details.
-Select the
-Categories
-field to search or choose from a dropdown list.
-Select
-Save.
-Add a space description
-Help make it easier to find the right space within a category by adding a description to your space:
-Navigate to the appropriate space.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Space details
-.
-Input a
-Description.
-Select
-Save.
-View spaces in a category
-Select
-Spaces
-in the
-sidebar
-and select
-View all spaces
-, then select one of the categories at the top of the
-All spaces
-list.
-You can also view spaces by category by using the
-Spaces List Macro
-and filtering by category.
-Head to the
-Spaces
-menu in the navigation to see all your starred spaces. When viewing a space, you can choose the star icon next to the space title in the sidebar to add it to your
-Starred
-Spaces
-so that it's easier to find later.
-Remove a space from a category
-Navigate to the appropriate space.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Space details
-.
-Select the
-icon next to a category label to delete it.
-Select
+menu, or use the
+Files & images
+tool in the toolbar to upload the file.
+Type
+/
+(or select
+Insert
+from the toolbar) where you want to insert your file and select the
+Office Word
+macro.
+Choose your file and select
 Save
 .
-If you remove all spaces from a category, the category will no longer appear in the Space Directory. There's no way to bulk remove a category. You can choose the category in the Space Directory to find all the spaces it appears on, then remove it from each space.
+If you don’t want the thumbnail of the file to show up as an attachment, delete the file you added in Step 1.
+Parameters
+Parameter name
+Required
+Default
+Parameter description and accepted values
+name
+Yes
+(None)
+The file name of the Word document to be displayed. The document must be attached to a page or live doc on your Confluence site.
+page
+No
+The page containing the macro
+The name of a Confluence page or live doc to which the Word document is attached.
+Office Excel
+The Office Excel Macro experience was updated in June 2022. Before the update, the macro would display a PDF version of an Excel file. The updated experience displays an HTML rendering of the Excel file and includes a spreadsheet selector at the bottom of the view.
+If the macro is being used to display an Excel file uploaded prior to the update, the file will need to be re-uploaded to be used with the updated experience.
+The Office Excel macro embeds your spreadsheet in the page or doc, rather than showing a simple preview. This is great for situations where you need more than a basic Confluence table can provide, such as for financial information or planning data.
+To insert an Office Excel macro:
+Attach the file to a page from the
+More actions
+menu, or use the
+Files & images
+tool in the toolbar to upload the file.
+Type
+/
+(or select
+Insert
+from the toolbar) where you want to insert your file and select the
+Office Excel
+macro.
+Choose your file and select
+Save
+.
+If you don’t want the thumbnail of the file to show up as an attachment, delete the file you added in Step 1.
+Select the file you want to display and choose
+Save
+.
+Parameters
+Parameter name
+Required
+Default
+Parameter description and accepted values
+name
+Yes
+(None.)
+The file name of the Excel spreadsheet to be displayed. The document must be attached to a page or live doc on your Confluence site.
+page
+No
+The page containing the macro
+The name of a Confluence page or doc to which the Excel spreadsheet is attached.
+Office PowerPoint
+The Office PowerPoint macro displays your presentation in a viewer with next and back buttons, rather than showing a simple preview.
+This is great for sharing presentations, training sessions, and other visual data.
+Attach the file to a page or live doc from the
+More actions
+menu, or use the
+Files & images
+tool in the toolbar to upload the file.
+Type
+/
+(or select
+Insert
+from the toolbar) where you want to insert your file and select the
+Office Powerpoint
+macro.
+Choose your file and select
+Save
+.
+If you don’t want the thumbnail of the file to show up as an attachment, delete the file you added in Step 1.
+Parameters
+Parameter name
+Required
+Default
+Parameter description and accepted values
+name
+Yes
+(None.)
+The file name of the PowerPoint presentation to be displayed. The document must be attached to a page or live doc on your Confluence site.
+page
+No
+The page containing the macro
+The name of a Confluence page or doc to which the PowerPoint presentation is attached.
+height
+No
+The height of the macro display, specified in pixels (for example:
+10px
+, or just
+10
+) or as a percentage (for example:
+20%
+) of the window's height.
+width
+No
+The width of the macro display, specified in pixels (for example:
+10px
+, or just
+10
+) or as a percentage (for example:
+20%
+) of the window's height.
 Was this helpful?
 Yes
 No
@@ -528,18 +574,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use spaces to organize your work
-Show more
-Organize your space
-Find content in a space
-Customize your space's overview
-Use labels to categorize spaces
-Delete or disable a template
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
 On this page
-Categorize a space
-Add a space description
-View spaces in a category
-Remove a space from a category
+Office Word
+Parameters
+Office Excel
+Parameters
+Office PowerPoint
+Parameters
 Community
 Questions, discussions, and articles
 Accessibility

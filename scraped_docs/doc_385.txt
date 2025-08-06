@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/navigate-around-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/troubleshooting-import-data-from-notion-to-confluence/
 
-Navigate around Confluence | Confluence Cloud | Atlassian Support
+Troubleshooting import data from Notion to Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,21 +440,71 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
+Import data from other tools into Confluence
 Cloud
 Data Center
-Navigate around Confluence
-What is the new navigation in Confluence?
-The new navigation is customizable, offers a new look and feel, and makes moving between work more efficient.
-View topic
-Use For you to jump into work and see what's happening
-Start your day on the Home page with access to your recent and starred things, as well as the site activity feed.
-View topic
-Confluence navigation
-Learn about the different ways to navigate through your Confluence content.
-View topic
-View written content
-Get details and information about the pages and live docs you're viewing
-View topic
+Troubleshooting import data from Notion to Confluence
+You can also find more information in our
+frequently asked questions
+article.
+Notifications
+You’ll receive a notification email when the import is complete. If the import was a success, the email will contain which spaces, pages, and users were transferred. If any imports partially or fully unsuccessful, you’ll receive a short indication about why it failed. The following table provides more information about each error message and steps you can take to solve them.
+Partial success
+If part of the import was successful, and part of it failed, you will receive one of the following notifications:
+Notification example
+How to fix it
+5 users couldn’t be imported.
+Check the missing user’s status in Notion and ensure that they are not deactivated. Retry importing content containing these users.
+1 space couldn’t be imported.
+Make yourself the workspace owner in Notion, if possible. Otherwise, contact the workspace owner or a Notion admin to add you as an owner for that workspace.
+11 pages couldn’t be imported, or were imported incorrectly.
+Go to Notion and create a new export file. Then, start the import process again.
+Note
+: It is difficult to determine the exact cause. You can also look through the FAQ article and see if any common scenarios apply.
+Failure
+If the import process failed, use the following table to figure out a solution and try again.
+Notification example
+How to fix it
+Your import from Notion was unsuccessful.
+Look through the
+FAQ article
+and see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
+Your import from Notion was unsuccessful.
+You have imported
+37 users
+from Notion.
+Make sure you use the same log in for the export and the OAuth authorization step:
+Log in to your workspace at
+www.notion.so
+to ensure your username and password are correct.
+Retry the import process
+using the same username and password for the OAuth authorization
+step.
+Ensure that the content from uploaded file matches the content selected during the OAuth authentication step.
+Your import from Notion was unsuccessful because
+we couldn’t get content from your export file
+.
+Ensure that the content you are uploading is:
+A zip file
+In HTML format
+From a Notion export.
+Then, retry the import process
+Your import from Notion was unsuccessful because
+we couldn’t retrieve users through Notion API
+.
+Check that the token you’ve provided from Notion is correct and retry the import.
+Your import from Notion was unsuccessful because
+we couldn’t retrieve your metadata
+.
+This is a generic error. It is likely not one of the other issues listed here. Check out our FAQ article to see if any of those situations apply to your process.
+Your import from Notion was unsuccessful because
+we’ve failed to update pages with your content
+.
+4 spaces
+listed below were imported incorrectly, and only contain empty pages. You can delete them from their space settings.
+Ensure that the content you have uploaded matches the content you have selected during the OAuth authentication step. Try the import process again.
+Still need help?
+Take a look at our FAQ document
 Was this helpful?
 Yes
 No
@@ -465,18 +515,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-What is the new navigation in Confluence?
-Use For you to jump into work and see what's happening
-Confluence navigation
-View written content
-Create and organize work in Confluence Cloud
-Navigate around Confluence
-Use spaces to organize your work
-Find content in Confluence Cloud
-Create and edit content
-Keep content organized
+Import data from other tools into Confluence
 Show more
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from Notion to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+On this page
+Notifications
+Partial success
+Failure
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/learn-which-macros-are-being-removed/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-a-new-whiteboard/
 
-Learn which macros are being removed | Confluence Cloud | Atlassian Support
+Create a new whiteboard | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,284 +439,37 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Learn which macros are being removed
-Coming soon: Deprecation of the legacy editor
-In June 2025, Atlassian
-announced the deprecation
-of the legacy editor. This will be a phased process beginning in January 2026. Find out more in the
-FAQ article
+Create a new whiteboard
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-When the process is complete in April 2026, all editing will take place in the cloud editor. Until then, you will continue to have the option to update pages in the legacy editor. However, there are some downsides to continuing to use the legacy editor:
-No bugs fixed unless it's a major incident.
-No enhancements.
-In the history of Confluence, we've occasionally made it far easier to do something without removing the more complex way of doing that thing. There was a time when you had to open the macro browser and find the
-strikethrough macro
-just to add a line through your text. We later added a strikethrough button to the toolbar (much faster!) but still kept that strikethrough macro around.
-Below you'll find a list of the no-longer-needed macros that are being removed from the cloud editor along with alternative methods you can use to get the same results. For macros that are slated for removal, you can use the
-Macro Usage
-feature in Confluence Administration to better understand how they are used in your site.
-Macro
-Status
-Alternative method
-1
-Align
-Only available in the legacy editor
-Align your content by using the align options in your toolbar
-2
-Background color
-Only available in the legacy editor
-Use a
-panel element
-3
-Center
-Only available in the legacy editor
-Use the center align feature in the toolbar
-4
-Chart
-Will be removed from Confluence Cloud on
-September 25, 2025
-To create charts in Confluence, we recommend creating a table then using the “Insert chart” option for a better experience.
-5
-Cheese
-Only available in the legacy editor
-Type "I like cheese!"
-6
-Code Block
-Only available in the legacy editor
-Use the Code snippet element available from the menu or from the slash command ( / ).
-7
-Confluence news gadget
-No longer available
-Link to the Atlassian cloud blog
-8
-Content by user
-Only available in the legacy editor
-Create a normal link to a search for the author using the following link structure:
-https://SITE.atlassian.net/wiki/dosearchsite.action?
-cql=creator+%3D+%22USERNAME%22
-For example, if I wanted to search for everything created by Desiree Conceicao on
-connie.atlassian.net
-, the link would be
-connie.atlassian.net/wiki/dosearchsite.actio
-n?cql=creator+%3D+%22dconceicao%22
-9
-Contributors Summary
-Will be removed from Confluence Cloud on
-September 25, 2025
-Use the Contributors macro. Note that you will not be able to get the same exact information with the Contributors macro.
-10
-Copyright
-Only available in the legacy editor
-Use your operating system’s symbol shortcut for ©:
-On Windows, press the
-Alt
-key and hold it down while typing
-0169
-on the keypad
-On Mac, press the
-Option
-key and hold it down while typing
-g
-on the keyboard
-11
-Create space button
-Only available in the legacy editor
-Create a link to the following URL, substituting your own site name:
-https://SITE.atlassian.net/wiki/spaces/createspace
--start.action
-For example, on
-connie.atlassian.net
-, the link would be
-connie.atlassian.net/wiki/spaces/createspac
-e-start.action
-12
-Div
-Only available in the legacy editor
-No alternative at this time.
-13
-Fancy bullets
-Only available in the legacy editor
-If you want to use images or symbols as your bullets, you can still achieve a similar effect by adding them in manually, and indenting your list (although your bullets won't be outside of the indent).
-Alternatively, if you're planning on printing a page with bullets, you can
-export that page to PDF
-and use Confluence's
-PDF stylesheet
-function to style your bullets however you'd like.
-14
-Favorite Pages
-Only available in the legacy editor
-No current alternative for this macro.
-15
-Gallery
-Will be removed from Confluence Cloud on
-September 25, 2025
-To organize images on a page, live doc, or blog post, we recommend using layouts or tables, or the cards macro (only available on Premium or above).
-16
-Global reports
-Only available in the legacy editor
-You can already get all this information through space tools.
-17
-Google Drive (Legacy Editor only)
-Will be removed from Confluence Cloud on
-September 25, 2025
-Paste a link to a google drive file and it will automatically become a smart link that you can display as an embed.
-18
-Highlight
-Only available in the legacy editor
-Use the simpler highlighting feature in the editor toolbar.
-19
-HTML comment
-Only available in the legacy editor
-No current alternative for this macro.
-20
-IM presence
-No longer available
-Check your preferred instant messaging service.
-21
-JUnit Report
-No longer available
-No alternative at this time.
-22
-Loremipsum
-Only available in the legacy editor
-Use one of the many online tools for generating placeholder text like
-23
-Microsoft OneDrive for Business
-No longer available
-Use Smart Links to embed OneDrive documents
-24
-Multimedia
-Only available in the legacy editor
-Insert media directly into the page without needing to use a macro
-25
-Navigation map
-Only available in the legacy editor
-Use the
-children display macro
-26
-Noformat
-Only available in the legacy editor
-Use the Code formatting from the toolbar to make text monospace; however, you won't be able to remove the grey background
-27
-Page Index
-Will be removed from Confluence Cloud on
-September 25, 2025
-Use a macro like Insert Confluence list, Child pages or Content Report Table
-28
-Panel
-Only available in the legacy editor
-Use a
-panel element
-29
-Powerpoint
-Will be removed from Confluence Cloud on
-September 25, 2025
-Upload the file directly to Confluence content or paste a OneDrive smart link to embed files in Confluence
-30
-Privacy mark
-Only available in the legacy editor
-Insert the lock and key icon from emoji picker in the toolbar
-31
-Privacy policy
-Only available in the legacy editor
-Insert a link to your privacy policy
-32
-Recently Updated Dashboard
-Will be removed from Confluence Cloud on
-September 25, 2025
-Use the Recent updates macro
-33
-Recently used labels
-Only available in the legacy editor
-Use the more functional
-Related labels
-or
-Content by label macro
-34
-Registered Trademark
-Only available in the legacy editor
-Use your operating system’s symbol shortcut for ®:
-On Windows, press the
-Alt
-key and hold it down while typing
-0174
-on the keypad
-On Mac, press the
-Option
-key and hold it down while typing
-r
-on the keyboard
-35
-Related Labels
-Will be removed from Confluence Cloud on
-September 25, 2025
-Click on a page label to see a list of related labels
-36
-Rollover
-No longer available
-No alternative at this time.
-37
-Search results
-Only available in the legacy editor
-Insert a link to search results page directly for your keyword(s)
-38
-Service Mark
-Only available in the legacy editor
-Type “SM”, and apply the superscript formatting from the toolbar
-39
-Space attachments
-Only available in the legacy editor
-Add a label to all the pages with attachments, then use a
-content by label macro
-40
-Space details
-Only available in the legacy editor
-Copy/paste your space details from space tools
-41
-Spaces List
-Will be removed from Confluence Cloud on
-September 25, 2025
-Use advanced search and filter by “Type: Spaces.” Then, copy and paste the link in your URL bar into Confluence content. Note that this does not support the same filters as Spaces List.
-You can also visit the space directory.
-42
-Span
-Will be removed from Confluence Cloud on
-September 25, 2025
-No alternative at this time.
-43
-Strikethrough
-Only available in the legacy editor
-Add strikethrough formatting to your text using the strikethrough option in your toolbar.
-44
-Style
-Only available in the legacy editor
-No alternative at this time.
-45
-Trademark
-Only available in the legacy editor
-Use your operating system’s symbol shortcut for ™:
-On Windows, press the
-Alt
-key and hold it down while typing
-0153
-on the keypad
-On Mac, press the
-Option
-key and hold it down while typing
-2
-on the keypad
-46
-Word
-Will be removed from Confluence Cloud on
-September 25, 2025
-Upload the file directly to Confluence content or paste a OneDrive smart link to embed files in Confluence
-Wikimarkup was not included in the new editor. Use markdown instead. For more information, go to
-Keyboard shortcuts, markdown, and autocomplete
+There are two ways to create a whiteboard today in Confluence.
+Option 1 — Select the
+Create
+button in the navigation, and select ‘Whiteboard’. This will create a whiteboard in the space you are currently in or will default to your personal space/whichever space you have edit permissions.
+Option 2 — Select the
++ button
+next to the Content section in the space
+sidebar
+, and select ‘Whiteboard’ to create a whiteboard in your space.
+You can also create a whiteboard under a page/whiteboard using the
++ button
+that appears when hovering over the content’s title in the
+sidebar
 .
+Get started with a template
+When you land in a new whiteboard you will be prompted to select a template from our template picker.
+Select from a number of best-practice templates from the
+Atlassian Team Playbook
+to help you get started.
+Hover over a template in the template picker.
+Select
+Use template.
+To prevent this picker from showing on each whiteboard load, uncheck the box ‘Show when creating a whiteboard'.
 Was this helpful?
 Yes
 No
@@ -727,12 +480,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
-What are macros?
-Learn which macros are being removed
-Insert the attachments macro
-Insert the blog posts macro
-Insert the change history macro
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
 Show more
 Community
 Questions, discussions, and articles

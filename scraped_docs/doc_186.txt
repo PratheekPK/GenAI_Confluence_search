@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-insights-on-spaces/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-public-links-across-confluence-cloud/
 
-View insights on spaces | Confluence Cloud | Atlassian Support
+Manage public links across Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,89 +439,241 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-View Confluence analytics to see how content is performing
+Confluence administration
+Manage global permissions in Confluence administration
 Cloud
 Data Center
-View insights on spaces
-Understand how a space in your site is performing with insights about your content and users.
-Insights on spaces can also be accessed from the spaces tab of
-View insights on your site
-.
-The Overview tab shows analytics data for your space as a whole.
-Navigate to a space.
+Manage public links across Confluence Cloud
+If your Confluence instance
+allows public links
+, we know it’s critical that you have visibility into and control over how public links are used. To that end, Confluence has a table where you can see which spaces allow public links and which specific content items have active public links, and make changes as needed.
+View which spaces allow public links
 In the
-sidebar
-, open the
-Apps
-menu and select
-Analytics
+Public links
+tab of
+Global permissions
+, Confluence admins will find a list of all the spaces on the instance and whether a space allows or doesn’t allow public links. This doesn’t indicate whether anything is public — it simply indicates whether it’s
+possible
+to make anything public. A space could allow public links but have 0 active public links. As a reminder, public links are allowed in all spaces by default.
+On the
+Standard plan
+, you’ll see two statuses:
+ALLOWED
+= people can turn on the public link for any content  in that space
+NOT ALLOWED
+= no one can turn on the public link for any content in that space
+If you’re on the
+Premium or Enterprise plan
+, you’ll see 3 statuses. The ability to block gives Confluence admins a higher level of control:
+ALLOWED
+= people can turn on the public link for any content in that space
+NOT ALLOWED
+= no one can turn on the public link for any content in that space but space admins in the space are free to change that to allow public links at any time
+BLOCKED FROM ALLOWING
+= no one can turn on the public link for any content in that space and space admins are blocked from allowing public links
+To see which spaces allow public links or not:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Security
+in the left-hand navigation.
+Select
+Global permissions
 .
-Use the shortcuts at the top to select the date range (seven days, one month, three months, year-to-date, or custom) for your data. You can also decide how you want to group the data, whether to display it by total number of users or unique users.
-The cards below the chart show top rankings for key insights found in the Content and Users tabs:
-Popular content
-– The content items with the most views in the chosen date range
-Most active readers
-– The users who viewed content in this space the most number of times in the chosen date range
-Most active contributors
-– The users who have updated content in this space the most number of times in the chosen date range
-Selecting
-View all
-takes you to the full list of rankings in each tab.
-View insights on the content in a space
-From the
-Content
-tab of site analytics, you can view the following insights:
-Title
--
-The name of the content item
-Created
--
-The date the item was created
-Last modified
--
-The last time the item was edited for the date range
-Last viewed
--
-The last time a user has viewed the item for the date range
-Comment activity
--
-The total number of comments for the date range
-Users
-viewed
--
-The total number of unique users that have viewed the item for the date range
-Views
--
-The total number of views for the date range
-Export reports on your space's content
-You can export and download a Microsoft Excel report of the analytics on your space's content.
+Select the
+Public links
+tab.
+Scroll and page through the table of spaces and their statuses.
+Or you can use the search and filter functions to arrive at different views.
+Manage which spaces allow public links
+To allow public links in a specific space:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+.
+Find
+Settings
+>
+Security
+in the left-hand navigation.
 Select
-Export as CSV
-on the top right of the
-Spaces
-tab. The file, with data separated by commas, will download automatically.
-View insights on the users of your space
-From the
-Users
-tab of space analytics, you can view the following insights:
-Name
-- The name of the user
-Created
-- The number of content items the user has created for the date range
-Updated
-- The number of times the user has edited for the date range
-Comments
-- The number of times the user has commented for the date range
-Views
-- The total number of times the user has viewed content for the date range
-Export reports on your space's users
-You can export and download a Microsoft Excel report of the analytics on your space's users.
+Global permissions
+.
+Select the
+Public links
+tab.
+Scroll, search, and/or filter the table of spaces to find the space you want to allow public links in.
+Open the more actions menu (•••).
 Select
-Export as CSV
-on the top right of the
-Spaces
-tab. The file, with data separated by commas, will download automatically.
+Allow.
+To stop allowing public links in a specific space:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Security
+in the left-hand navigation.
+Select
+Global permissions
+.
+Select the
+Public links
+tab.
+Scroll, search, and/or filter the table of spaces to find the space you want to stop allowing public links in.
+Open the more actions menu (•••).
+Select
+Stop allowing.
+When you stop allowing public links in a specific space, all active public links in that space will change from an
+ON
+state to an
+OFF
+state. If public links are ever allowed in that space again, all public links will remain in an
+OFF
+state until manually turned back
+ON
+.
+If a content item’s public link can’t be turned on (e.g., if public links aren’t allowed in a space), the public link option in the content item’s
+Share
+window will appear grayed out, turned off, and disabled.
+To block a specific space from allowing public links:
+Go to
+Global permissions
+>
+Public links
+.
+Scroll, search, and/or filter the table of spaces to find the space you want to allow public links in.
+Open the more actions menu (•••).
+Select
+Block
+.
+Only Confluence admins can block spaces from allowing public links.
+When you block public links from being allowed in a space that has active public links, all active public links will be changed from an
+ON
+state to an
+OFF
+state. If public links are ever allowed in that space again, all public links will remain in an
+OFF
+state until manually turned back
+ON
+.
+To unblock a specific space from allowing public links:
+Go to
+Global permissions
+>
+Public links
+.
+Scroll, search, and/or filter the table of spaces to find the space you want to allow public links in.
+Open the more actions menu (•••).
+Select
+Unblock and allow
+.
+Unblocking a space returns it to the default state, which is
+ALLOWED
+. The table doesn’t support unblocking directly into
+NOT ALLOWED
+.
+To preemptively block a space from allowing public links:
+Go to
+Global permissions
+>
+Public links
+.
+Make sure the global toggle to
+Allow public links on this site
+is in an off position.
+Scroll, search, and/or filter the table of spaces to find the space you want to allow public links in.
+Open the more actions menu (•••).
+Select
+Block
+.
+Basically, this lets you set up which spaces on your instance should never be allowed to have public links
+before
+you enable the global toggle that allows the use of public links on your instance.
+Remember, as soon as the global toggle is moved to an on position, all spaces not blocked from allowing will by default switch from
+NOT
+ALLOWED
+to
+ALLOWED
+.
+View and manage which spaces allow public links in bulk
+If you’re on the
+Premium plan
+, you also have powerful bulk actions at your disposal.
+To make
+bulk
+changes to which spaces allow public links:
+Go to
+Global permissions
+>
+Public links
+.
+Scroll, search, and/or filter the table of spaces to find the space you want to allow public links in.
+Select multiple spaces or select the top checkbox to bulk select all spaces currently loaded on the page.
+Select one of the bulk actions:
+Stop allowing
+Block
+Allow
+(in the ••• more bulk actions menu)
+Unblock
+(in the ••• more bulk actions menu)
+Manage individual public links from global permissions
+From within
+Global permissions
+>
+Public links
+,
+you can drill down into any space to get more details about the active public links in that space without leaving global permissions. Simply select the number value in the
+Public content
+column of the table or open the more actions menu (•••) and select
+View public link details
+.
+In the space’s public links drilldown view, you’ll find a table that shows the individual public links in a space. It will only show content that are
+ON
+or
+BLOCKED
+. It won’t show content items that don’t have active public links and aren’t blocked.
+ON
+= anyone with access to the content item can copy the public link and share it with anyone on the internet
+BLOCKED
+= the content item’s public link is off and no one can turn it on until the content is unblocked
+You can search and filter this list of content items and turn off or block active public links. On the
+Premium plan
+, you can multi-select content items and turn off or block them in bulk.
+To turn off a public link from the content view in global permissions:
+Find the content item in the list you want to turn off.
+Open the actions menu (•••).
+Select
+Turn off.
+To block a public link from the content view in global permissions:
+Find the content item in the list you want to block.
+Open the actions menu (•••).
+Select
+Block.
+To view the public version of the content:
+Find the content item in the list.
+Open the actions menu (•••).
+Select
+View public link.
+Public links that are blocked are in an off state and so don’t have a public link to view.
+Manage public links with automation rules
+Automation is
+an admin feature
+available in
+Confluence Premium
+and
+Enterprise
+.
+When admins create and enable automation rules, Confluence automation works behind the scenes to complete routine functions that would otherwise have to be done manually.
+Admins can use an
+automation trigger
+to disable or block existing public links on one or more content items or block public links in a space.
+For example, an admin could create a rule that automatically disables the public link for a content item any time a user labels the content item “private.”
+Automation rules only work on existing public links. This means they don’t apply to content that has never had a public link turned on. If you create a rule based on an action such as labelling, you should temporarily turn the public link on before you apply the label.
+Get notified about key public link activity
+To learn more about what notifications you get from Confluence to help you maintain awareness and control over how public links are used on your instance and in your space, go to
+How secure are public links?
 Was this helpful?
 Yes
 No
@@ -532,16 +684,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-View Confluence analytics to see how content is performing
-View insights on your site
-View insights on spaces
-Content insights and analytics
-Turn on privacy mode for analytics data
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
 On this page
-View insights on the content in a space
-Export reports on your space's content
-View insights on the users of your space
-Export reports on your space's users
+View which spaces allow public links
+Manage which spaces allow public links
+View and manage which spaces allow public links in bulk
+Manage individual public links from global permissions
+Manage public links with automation rules
+Get notified about key public link activity
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/edit-your-user-settings/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-the-site-homepage/
 
-Edit your user settings | Confluence Cloud | Atlassian Support
+Change the landing page | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,52 +439,65 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage your account
+Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
-Edit your user settings
-Tailor Confluence to fit your needs with personalized settings and preferences, including your:
-Display language, time zone, and other general preferences
-Editor settings, such as autocomplete and autoformatting
-Email notification settings
-OAuth access tokens
-This page tells you how to edit your general preferences and editor settings.
-Edit your general preferences
-To edit your general preferences:
-Tap your profile picture at the right of the navigation, then select
-Personal Settings
-.
-Tap
-Edit
-and make your changes.
-Tap
-Submit
-.
-How language settings interact
-You can choose your
-display language
-for Confluence, but if you don't, Confluence will default to the language you set in your browser. If you don't have a language preference set for Confluence
-or
-your browser, we'll use the site-wide language preference set by your site administrator.
-Edit your editor settings
-You can turn on or off some settings that affect how the Confluence editor works for you. The choices you make won't affect how Confluence works for other people on your site.
-To edit your editor settings:
-Tap your profile picture at the right of the navigation, then select
-Personal
+Change the landing page
+Confluence Cloud
+has a default homepage and sidebar, where you can see activity, resume your work, access the space directory, and more. Alternatively, you can choose to set the overview page of a
+Confluence Cloud
+space as the homepage for your users.
+This can be useful if most people will be reading, rather than creating, content in your instance. However, if you want to encourage teams to collaborate, the default homepage and sidebar provide the best tools for resuming work in progress and keeping up with what's happening across Confluence.
+To change your Confluence homepage to a space’s overview:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
 Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+General configuration
 .
-Choose
-Editor
-(under
-Your Personal settings
-) from the panel on the left.
-Tap
-Edit
-and make your changes.
-Tap
-Submit
+Select a space from the
+Confluence landing page
+dropdown menu. When users log in or click the site logo,
+Confluence Cloud
+will go to the overview page of the space you choose.
+Select
+Save configuration changes
 .
+Note about permissions
+Before changing the homepage, you should check that the default "confluence-users" or "users" groups have permissions to view the space, and that the overview page itself isn't restricted to particular people or groups.
+If your instance is public, you'll also need to make sure anonymous users have permissions to view the space, otherwise they'll be directed to the default
+Confluence Cloud
+homepage instead.
+Add a default homepage link to the app switcher
+If you choose to set a space’s overview page as your homepage but would also like users to be able to access the default home and sidebar, you can add a link to the application switcher.
+To add the default home and sidebar to the application navigator:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select
+from the top left, then select
+Manage list
+.
+Enter the
+Name
+for your link (for example, "Dashboard").
+Enter the
+URL
+for your instance’s default home (for example,
+https://yoursite.atlassian.net/wiki/dashboard.action
+)
+Select
+Add
+.
+A link to the default homepage will now appear in the application navigator.
 Was this helpful?
 Yes
 No
@@ -495,17 +508,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage your account
-Edit your profile
-Edit your user settings
-Change your Confluence password
-Manage OAuth access tokens
-Delete your account
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
 Show more
-On this page
-Edit your general preferences
-How language settings interact
-Edit your editor settings
 Community
 Questions, discussions, and articles
 Accessibility

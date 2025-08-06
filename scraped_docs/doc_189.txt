@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/organize-and-explore-ideas-with-sticky-notes/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-include-media-on-confluence-pages/
 
-Organize and explore ideas with sticky notes | Confluence Cloud | Atlassian Support
+Use macros to include media on Confluence pages | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,76 +439,16 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Extend the functionality of Confluence Cloud
 Cloud
 Data Center
-Organize and explore ideas with sticky notes
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-Sticky notes on whiteboards are no different from the sticky notes we all know and love. Use them to get down your thoughts and move them around the whiteboard to organize ideas or patterns.
-Create a sticky note
-Create a sticky note either from your toolbox or by double-clicking on your whiteboard.
-Select the sticky notes pile in the toolbox.
-Hover the preview of the sticky note over your whiteboard and figure out where you want to place it.
-Select where to drop the sticky note.
-You can also drag and drop from the toolbar onto the whiteboard.
-Note:
-The default color of the sticky note is selected at random when you first load a whiteboard. You can change it using the floating toolbar. Changing the color of the sticky note will change the color of the unused sticky notes on the taskbar.
-Once your sticky note is on the board, please select it and start typing to add text.
-Edit a sticky note
-You can edit a sticky note's text and formatting along with the color. Edits can also be made in bulk to a group of selected sticky notes.
-To edit a sticky note:
-Select one or more by:
-selecting a single sticky note
-selecting and dragging your cursor over multiple sticky notes
-selecting multiple sticky notes individually while holding Shift
-Edit the text fields or use the toolbar to edit color and text formatting.
-Format sticky notes
-Color
-To edit the color of a sticky note:
-Select the sticky note.
-Select the color picker in the floating toolbar.
-Select a new color.
-You can change sticky note colors in bulk by selecting multiple sticky notes.
-Text
-Change the formatting using the floating toolbar when the sticky note is selected.
-The floating toolbar lets you change the text's size and weight, create lists, and more.
-Size
-Sticky notes can be resized. As you add text to them, they’ll change vertically in size. They can be made wider by dragging a side edge.
-Author names
-Identify and keep track of ideas from collaborators with author names on sticky notes. To show author names:
-Select one or more sticky note(s) by:
-selecting a single sticky
-selecting and dragging your cursor over multiple sticky notes
-selecting multiple sticky notes individually while holding Shift
-Select
-Show author
-in the floating toolbar.
-Select the same option any sticky note(s) to hide the author name.
-Delete a sticky note
-To delete a sticky note from your whiteboard:
-Select one or more by:
-selecting a single sticky
-selecting and dragging your cursor over multiple sticky notes
-selecting multiple sticky notes individually while holding Shift
-Press Delete.
-Create a Jira issue from a sticky note on whiteboards
-Make sure that no ideas or to-dos get left behind when you’re done brainstorming or sprint planning. With whiteboards, you can improve your workflow by selecting single or multiple sticky notes and turning them into a Jira issue. This will work for
-Jira
-, Jira Service Management, and Jira App Discovery.
-Select the sticky note(s) you want to turn into a Jira issue.
-Select
-Create
-from the floating toolbar.
-Add all the relevant information to the dialog on the right of your whiteboard.
-This will take you to Jira.
-Copy sticky notes from whiteboards into Jira issues and Confluence pages
-Take the ideas you need or want with you to your other products. Be it after brainstorming or a retro - get things happening by copying text, sticky notes, or shapes into a Confluence page or a Jira issue description.
-Copy single or multiple stickies from your whiteboard.
-Paste into a Confluence page or Jira issue description.
-Stickies will be inserted as individual lines of text.
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Display the content of Microsoft office files on your page or live doc with the Office Word, Office Excel, or Office Powerpoint macros.
+View topic
+Insert the widget connector macro
+Embed multimedia content from external websites on your page or live doc.
+View topic
 Was this helpful?
 Yes
 No
@@ -519,25 +459,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Explore more
+Insert Microsoft Office macros
+Insert the widget connector macro
+Extend the functionality of Confluence Cloud
 Show more
-Create a new whiteboard
-Navigation tools in whiteboards
-Organize and explore ideas with sticky notes
-Use shapes to visualize ideas
-Add and edit text on whiteboards
+Use macros to show Confluence content on pages and live docs
+Use macros to add development info on Confluence pages
+Use macros to include media on Confluence pages
+Use macros to add navigation on Confluence pages
+Use macros to add reporting info to Confluence pages
 Show more
-On this page
-Create a sticky note
-Edit a sticky note
-Format sticky notes
-Color
-Text
-Size
-Author names
-Delete a sticky note
-Create a Jira issue from a sticky note on whiteboards
-Copy sticky notes from whiteboards into Jira issues and Confluence pages
 Community
 Questions, discussions, and articles
 Accessibility

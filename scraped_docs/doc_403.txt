@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/disable-reactions/
+URL: https://support.atlassian.com/confluence-cloud/docs/search-the-people-directory/
 
-Turn off page reactions | Confluence Cloud | Atlassian Support
+Search for people and teams | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,39 +439,21 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Set Confluence-wide functionality
+Create and organize work in Confluence Cloud
+Find content in Confluence Cloud
 Cloud
 Data Center
-Turn off page reactions
-Clicking “add a reaction” on a piece of content sends the author a notification, and is useful for letting users know that you've viewed, approved of, or enjoyed a piece of content. Content that receives a large number of reactions appears on the Popular tab of the
-Activity
-section in the sidebar. Some instances, especially ones that have external users, may prefer not to have reactions enabled for reasons such as cross-client confidentiality.
-Reactions are enabled by default, but a Confluence administrator (see
-Manage global permissions
-) can disable and re-enable them for their entire
-Confluence Cloud
-instance.
-To enable or disable reactions:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Configuration
-in the left-hand navigation.
-Select
-General configuration
+Search for people and teams
+To view the people directory, select
+Teams
+in the
+sidebar
 .
-Find
-Likes/reactions
-and check or uncheck the box.
-Select
-Save configuration changes
-.
+From under
+Teams
+, select
+Search teams
+to view or search for more people or teams. You can also add new teams or people to Confluence here.
 Was this helpful?
 Yes
 No
@@ -482,14 +464,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
-Show more
-Change the Confluence Home welcome message
-Create a custom space overview template
-Turn off page reactions
-Customize layout for PDF exports in Confluence Cloud
-Convert legacy editor pages in all spaces
-Show more
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
 Community
 Questions, discussions, and articles
 Accessibility

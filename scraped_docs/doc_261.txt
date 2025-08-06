@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/embed-calendars-on-confluence-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-space-level/
 
-Embed calendars on Confluence content | Confluence Cloud | Atlassian Support
+Manage permissions at the space level | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,25 +439,25 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Space administration
 Cloud
 Data Center
-Embed calendars on Confluence content
-You can embed a calendar on any page or live doc in Confluence, making it easy to track and manage events. When you embed a calendar, the calendar will also appear in the
-Calendars
-section of the space the content is in.
-Using calendar macro in the editor
-While editing a page or live doc, select the
-Insert (+) icon
-and enter
-Team Calendar.
-Alternatively, you may use the command
-/team calendar
-directly in the editor.
-Under
-calendars
-, search for and select the name of the calendar you’d like to add. You should see your team’s calendar and its contents directly on the page or live doc.
+Manage permissions at the space level
+What are space permissions?
+Learn what space permissions are available and how they affect access to your space.
+View topic
+Copy space permissions
+Reuse permissions from an existing space and copy them into a new or existing space.
+View topic
+Assign space permissions
+Set up or change permissions settings for a space.
+View topic
+Make a space public with anonymous access
+Open up your space's content to public so that anyone on the Internet can view it.
+View topic
+Assign Questions for Confluence permissions
+Set permissions in Questions for Confluence.
+View topic
 Was this helpful?
 Yes
 No
@@ -468,13 +468,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Show more
-Add and delete custom event types
-Add reminders to events
-Embed calendars on Confluence content
-Watch a calendar
-Subscribe to Team Calendars from Apple Calendar
+Explore more
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
+Space administration
+Set space-specific functionality
+Manage permissions at the space level
+Manage content in a space
+Remove a space
+Create templates, blueprints, and reports
 Show more
 Community
 Questions, discussions, and articles

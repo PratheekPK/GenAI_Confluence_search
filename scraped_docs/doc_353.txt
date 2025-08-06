@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-folders-to-organize-your-work/
+URL: https://support.atlassian.com/confluence-cloud/docs/set-up-a-menu-of-important-links-on-company-hub/
 
-Use folders to organize your work | Confluence Cloud | Atlassian Support
+Set up a menu of important links on Company Hub | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,68 +439,56 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Keep content organized
+Extend the functionality of Confluence Cloud
+Use Company Hub to deliver key information to employees
 Cloud
 Data Center
-Use folders to organize your work
-You can add folders to your space to keep related work together, just like you do on your personal computer. Unlike parent items, which you can think of as containers with built-in “Read Me” files, folders are simple containers, without any information or context built into the container itself. Use parent items in situations where it’s helpful to know a bit more about the contents of a container going in. Use folders when all you need is a place to store related work.
-Create a new folder
-To create a folder:
-Navigate to a Confluence space.
-Hover over
-Content
-in the content tree, then select
-+
+Set up a menu of important links on Company Hub
+This feature only offered with
+Confluence Cloud Premium and Enterprise
 .
+The links menu sits at the top of Company Hub, making it easy for employees to find evergreen content and important links without needing to scroll.
+Create the links menu element
+Go to your Company Hub and select the
+Edit
+button (
+icon).
+Type a
+/links menu
+and select the Links menu option.
+The configuration panel opens on the right side of the screen.
+The Items tab
+The configuration panel opens with
+Items
+selected. With the + New item button, you can add either a
+Link
+or a
+Menu
+that will contain a drop-down selector with a set of child links nested under it.
+Add links to Confluence pages, Atlas goals, or any other internal or external URL.
+You can use the More actions menu (
+icon) to change the position of links or delete links or submenus.
+The Styles tab
 Select
-Folder
-from the drop-down menu.
-Give your folder a title, making sure you
-don’t include any PHI
-.
-To nest a folder under another content item, hover over its title in the content tree, then select
-+
-and repeat steps 3-4 above.
-Since folders add hierarchical structure to a space, new folders must be created from the content tree. It is not possible to add a folder using the global create button.
-Delete a folder
-To delete an existing folder:
-Hover over the folder title in the content tree.
-Select
-Delete
-from the
-More options
-••• menu.
-Select
-Delete
-again to confirm your choice.
-When you delete a folder, its contents will move up a level in the content tree. In the example below, “Marketing” is a child item of “Project Artemis”:
-Deleting “Marketing” will cause the page it contains, “Artemis AI launch campaign,” to move, becoming a child item of “Project Artemis”:
-Any restrictions “Artemis AI launch campaign” inherited from “Marketing” will be removed, leaving only restrictions on “Artemis AI launch campaign” itself and restrictions inherited from “Project Artemis.”
-Turn folders on or off for a space
-Turning folders on or off in a Confluence space allows you to control whether your team can use them to organize and structure work. Folders are turned on by default to give you and your team plenty of opportunities to try them out, but you can turn folders off — or turn them on if you’ve disabled them previously — in
-Space settings
-.
-Currently, it is not possible to turn folders on or off at the site level.
-To turn folders on or off for a space:
-Navigate to that space in Confluence.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-General
-menu
-and select
-Features
-.
-This option is only available to space admins.
-Select the toggle to the right of
-Folders
-(under
-Content
-).
+Styles
+to configure the look and feel.
+Option
+Description
+Alignment
+Choose where the links and submenus will sit along the top of the pages.
+Background color, border color
+Customize the colors of the background and the border around it.
+Border position
+Select one of these options:
+No borders
+Borders on all four sides
+Bottom only
+Corner style
+Select rounded or square corners
+Text color
+Choose a text color. The color palette will notify you if your text color is difficult to read against your background color.
+Selected state color
+Choose a color for a selected link.
 Was this helpful?
 Yes
 No
@@ -511,17 +499,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Keep content organized
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
 Show more
-Archive content items
-Restore archived items to the content tree
-Delete, restore, or purge a content item
-Save a page, live doc, or other content item for later
-Use folders to organize your work
 On this page
-Create a new folder
-Delete a folder
-Turn folders on or off for a space
+Create the links menu element
+The Items tab
+The Styles tab
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-google-calendar-android/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-anchor-macro/
 
-Subscribe to Team Calendars from Google Calendar (Android) | Confluence Cloud | Atlassian Support
+Insert the anchor link macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,89 +440,33 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Use macros to add navigation on Confluence pages
 Cloud
 Data Center
-Subscribe to Team Calendars from Google Calendar (Android)
-There are two ways to synchronize your Team Calendar in Google Calendar on Android:
-Two-way sync
-(CalDAV) - allows you to view and update Team Calendar events in Google Calendar. Requires Team Calendars (available with Confluence Premium) and is
-only supported on an Android device.
-One-way sync
-(iCal) - allows you to view — but not update — Team Calendar events in Google Calendar.
-Subscribe with two-way sync (CalDAV) on Android
-You’ll also need a CalDAV sync app, such as DAVx⁵, an open-source app available from the
-Play Store
-(paid) or via
-F-Droid
-(free).
-These instructions are for Android 7.0 Nougat and DAVx⁵ 3.3.10-ose (which supports Android 5.0 or newer). Your versions may differ slightly.
-Team Calendars was tested with DAVx⁵ but may also work with other CalDAV sync apps.
-You will need the following:
-CalDAV sync app of your choice
-Confluence API token (this will be your password)
-Confluence Cloud server address
-To get your Confluence Cloud API token
-In Confluence:
-Select your profile picture in the top nav >
-Settings
-Under
-YOUR SETTINGS
-, select
-Password
-In the
-API token
-section, select the link
-Create and manage API tokens
-Select
-Create API token
-Name your API token, select
-Create
-, and then select
-Copy
-(you won’t be able to copy this later)
-To get your Confluence Cloud server address
-In Confluence:
-In the top nav, choose
-Apps > Calendars.
-Select the the More actions menu (•••) for your calendar in the side nav and choose
-Subscribe
+Insert the anchor link macro
+The anchor link macro allows you to hyperlink to a specific part of a page or live doc so that a reader can jump directly to that section upon selecting it. These can be especially useful for allowing your readers to navigate to specific parts of a long document. Anchor links are invisible to the reader when on a page in view-only mode.
+To add the anchor link macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+After you've inserted the anchor link, you can create a
+link to that anchor
 .
-In the
-Calendar app
-dropdown, select
-Google Calendar (Android)
-.
-:info:  If prompted, add the calendar to
-My Calendars
-. If you don’t add it to My Calendars, it won’t sync.
-Copy the
-server address
-and paste it into your CalDAV sync app.
-Because DAVx⁵ supports calendar discovery, the server address will be your Confluence URL, not the URL of an individual calendar. You'll be able to choose which calendars (that you've added to My Calendars) to sync in the app.
-To subscribe to the Team Calendar in DAVx⁵
-In DAVx⁵ on your Android device:
-Go to
-Add account
->
-Login with URL and user name
-.
-Enter the
-server address
-you copied earlier.
-Enter your Confluence
-username
-and
-the API token as password
-.
-Follow the prompts to name your account.
-Select the Team Calendars you want to display in DAVx⁵.
-Open the Google Calendar app on your device. Your Team Calendars will be listed under the account name.
-Subscribe with one-way synchronization (iCal format)
-One-way synchronization means that you can view — but not update — Team Calendar events in your Google Calendar app.
-You can't subscribe to Team Calendars using iCal directly on your Android device. Instead, you will need to
-Subscribe to Team Calendars from the browser version of Google Calendar
-. Once you’ve done this, events from your Team Calendar will then be visible in the Google Calendar app on your Android device automatically.
+To edit the anchor link macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
 Was this helpful?
 Yes
 No
@@ -533,16 +477,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
+Use macros to add navigation on Confluence pages
+Insert the anchor link macro
+Insert the Live Search macro
+Insert the Page Index macro
+Insert the content tree macro
+Insert the page tree search macro
 Show more
-Subscribe to Team Calendars from Apple iOS Calendar
-Export to other calendars
-Set system properties
-Team Calendars FAQs
-Subscribe to Team Calendars from Google Calendar (Android)
-On this page
-Subscribe with two-way sync (CalDAV) on Android
-Subscribe with one-way synchronization (iCal format)
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-data-is-sent-and-received-when-pasting-a-smart-link/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-or-remove-page-restrictions/
 
-What data is sent and received when pasting a Smart Link? | Confluence Cloud | Atlassian Support
+Change who can find content and what they can do with it | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,49 +439,179 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Manage your account and permissions in Confluence Cloud
+Manage permissions at the content level
 Cloud
 Data Center
-What data is sent and received when pasting a Smart Link?
-This is an outline of what happens when you paste a URL and it turns into a Smart Link. It’s a technical explanation, written for anyone who’s concerned about the security implications of Smart Links.
-We’ve used a
-Google Drive
-link in this example, but this information is true for other products too.
-What is a Smart Link?
-When you paste a link to a Google Drive document on Confluence or Jira, our system can turn it into a Smart Link. This means you’ll see more information about the file, like its title, last updated date, and a preview image.
-Learn more about Smart Links
-What happens when you paste a link?
-When you paste a link, our system will check if it's a valid Smart Link based on a domain pattern match (in this example, it’ll check for
-Google.com
-).
-If the domain matches, and if you’re logged in to your Google account, we’ll transform your link into a Smart Link.
-What happens if you’re not logged in?
-The system will ask you to connect and log in to your Google account; this is done using the
-OAuth2 protocol
-. This process allows you to log in to your Google account, get an authentication token, and store it securely within our system. This token is crucial for retrieving data from Google (more on that in the next section).
-Use the same connected account across Atlassian features and products
-After connecting your Google account, you don’t have to repeat the process of logging in and getting an authentication token. You may be asked to allow certain permissions when you need to use the same account in other products and features.
-For information on what information we receive after you connect,
-read our Privacy Policy
+Change who can find content and what they can do with it
+Even in a shared space, you may have content that you're not ready to share with everyone yet. Or perhaps you have some confidential content that's only meant for a few eyes. Whatever the reason, Confluence lets you set view and edit restrictions at the content level so you can keep your content as open or as closed as you need.
+You can’t restrict access to content on the
+free plan
 .
-How is authentication and data managed in Smart Links?
-Once you’ve pasted a link and logged in, our system uses your authentication token (see previous section) to access Google’s API and receive data about the file like the title, preview image, and last updated date. These details are displayed in the Smart Link.
-Our system retrieves the data in real-time using your authentication token. This means you’ll only see details about the Google Drive file if you have permission to do so.
-For Rovo customers, we save data like filenames and URLs from Figma links securely in our servers and make it available to serve Rovo features like Search.
-Read more on how
-Rovo shows Figma results
-What happens if your link is unsupported?
-If the domain of the link you paste is unrecognized and not supported by Smart Links, our system skips the authentication process and calls a third-party service called
-iFramely
+Who has access to your content?
+The first step to changing who can access your content is understanding who currently has access to it.
+Confluence’s core tenet is about getting the right knowledge to the right people in your organization. To support this, Confluence’s permissions are open by default, which means that the content wants to be available to everyone unless otherwise noted.
+The fundamental piece of this open-by-default model is represented by
+General access
+. This refers to the general audience for the content item — everyone who has at least view access to the space a content item lives in, or, if a parent item is restricted, everyone who has at least view access to the parent item.
+Who is “Anyone in this space”?
+To check who currently has access to the space:
+Open the
+Share
+window.
+Find
+General access
 .
-iFramely
-will take your link, search the web for metadata that's publicly available, and display it in the Smart Link. If the link requires authentication, we won’t be able to retrieve any information and will simply display the link as pasted.
-Either way, we don’t submit any user data or client information to any third-party services.
-Learn which products are supported by Smart Links
-Update the IP ranges of your allow-list
-As an Atlassian Cloud feature, Smart Links may not work if you don’t update your network restrictions to include the IP ranges in your allow-list.
-Read more on IP address ranges for Atlassian Cloud products and sites
+Select
+this space
+in the line “Anyone in
+this space
+”
+If the content item is restricted by a parent, then you can check who has access to the parent item by selecting
+this parent
+in the line “Anyone on
+this parent
+”
+To learn more about space access, see
+Assign space permissions
+.
+Change general access
+You can set general access to 3 states of permissions:
+Open
+> Anyone can edit
+Open
+> Anyone can view
+Restricted
+> Only specific people can view or edit
+What each general access state means
+Open > Anyone in this space can edit
+No restrictions. Consume whatever the space’s access settings are.
+For example, anyone who has permission at the space level to edit content can edit this content; however if someone lacks space-level permission to edit content, then that person won’t be able to edit this content, even though this content’s access is set to Open > Anyone can edit.
+Open > Anyone in this space can view
+All editing is restricted to specific people. Even if people have permission at the space level to edit content, they can’t edit this content unless they’re explicitly listed with
+Can edit
+in
+Specific access
+(individually or as a member of a group).
+Restricted > Only specific people can view or edit
+Even if people have permission at the space level to view and edit content, they can't view or edit this content unless they’re explicitly listed in
+Specific access
+(individually or as a member of a group).
+Restricted by a parent > Anyone on the parent can edit
+No
+direct
+restrictions; restrictions are inherited from a parent item. So consume whatever the parent content’s
+view
+access settings are. Anyone who has permission to view the parent content can view this content.
+Note:
+Edit permission is not inherited from content to content. Even if people don’t have edit permission on the parent content, they are
+not
+prevented from editing this content.
+Restricted by a parent > Anyone on the parent can view
+Anyone who can view the parent items can only view this page — unless they’re explicitly listed on this page as having permission to edit (individually or as a member of a group).
+Restricted > Only specific people can view or edit
+(“Restricted by a parent” scenario)
+Even if people have permission to view and edit the parent content, they can’t view or edit this content unless they’re explicitly listed in
+Specific access
+(individually or as a member of a group).
+Learn why someone can't edit
+, even if the
+General access
+setting suggests that they can.
+How inherited restrictions work
+If someone can’t view a parent content item, they won’t be able to view any child content items under it. In this sense, a view restriction has been added to the parent item that inherits down to all content items nested under it, without exception.
+Editing doesn’t work this way.
+Even if someone is restricted from editing a parent item, they won’t automatically be restricted from editing the child content.
+However
+, if someone is restricted from editing at the space level, they
+will
+be restricted from editing any and all content in that space.
+How restricted are restrictions?
+If your content has view restrictions, it won't display for anyone who doesn't have permission to view it, neither in the content tree nor any macros.
+Unless someone else has specifically been given a link to your content, they won't know it exists.
+Exceptions:
+If someone has shared a link to a restricted content item or provided a link to it on another content item that
+can
+be viewed, the link will have the title of the content item as part of the URL. However, they won't be able to tell anything else about the content, including who created it, who has permission, or when it was updated.
+Organization admins on the Premium and Enterprise plans can view and change access to any content in Confluence with
+admin key
+.
+Give someone specific access
+To list a person or group with specific access, you’ll need to add a restriction to the general access of the content item, then add individuals or groups. (Teams are not supported in the unified sharing experience yet.)
+For example, in an “Open” state, you can change the permission for anyone in the space from “Can edit” to “Can view”. This will restrict who can edit the content item. In this state, you can then use the search bar to add people or groups to
+Specific access
+with “Can edit” permission.
+This is useful for content that should be distributed widely but only edited by a small team.
+Or you can set
+General access
+to “Restricted”. In this state, you can add people or groups to
+Specific access
+freely with “Can edit” or “Can view” permissions.
+When anyone can edit, no one can have specific access
+Individual people and groups only appear in the list with specific access when they have
+greater access
+than the
+General access
+setting.
+For example, if
+General access
+is set to Open > Anyone can view, anyone with
+Can edit
+will have greater access than the general access and therefore are notable to list in specific access.
+However, if
+General access
+is already set to Open > Anyone can view and edit, then there’s no greater access possible. Therefore, there is no relevant specific access to note.
+If you’re having trouble getting people the right access, see
+Troubleshoot access problems to content
+.
+Manage access requests
+Another way of giving people specific access is to take action on access requests to your content items. Individual users can ask to view content items they can’t view or edit content items they can’t edit.
+These requests will land in the
+Requests
+area with
+Share
+. There, owners of the content item, as well as any user who was permission to change access to the content item, can choose to Approve or Deny the request.
+If you select
+Approve
+, the user will be added to the specific access list with the indicated permission and they’ll get a notification that their request was approved.
+If you select
+Deny
+, the user’s request will be deleted from
+Requests
+for everyone. The requesting user will not be notified.
+Remove someone’s specific access
+Open
+Share
+on the desired content item.
+Find the person or group whose access you want to remove.
+Open their dropdown
+.
+Select
+Remove
+.
+Make content private to only you
+If the content is in an Open > Can edit state, set
+General access
+to “Restricted” and select
+Save
+. This will remove access for everyone but you.
+If the content is already in a “Restricted state”, you can quickly clear the board and make the content private by selecting
+Remove all
+.
+If the content is in an Open > Can view state with multiple editors, set
+General access
+to Restricted and then select
+Remove all
+to remove everyone but yourself.
+Basically, if no one but you is listed in
+Specific access
+while
+General access
+is set to “Restricted”, then the content is private to you. If
+General access
+is set to Open or if other people are listed in
+Specific access
+, then the content is not private to you.
 Was this helpful?
 Yes
 No
@@ -492,21 +622,22 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
-Show more
-Insert links and anchors
-Get started with Smart Links in the content tree
-What data is sent and received when pasting a Smart Link?
-Insert and manage links on your pages and live docs
-Add elements to a page or live doc
-Show more
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
 On this page
-What is a Smart Link?
-What happens when you paste a link?
-Use the same connected account across Atlassian features and products
-How is authentication and data managed in Smart Links?
-What happens if your link is unsupported?
-Update the IP ranges of your allow-list
+Who has access to your content?
+Who is “Anyone in this space”?
+Change general access
+What each general access state means
+How inherited restrictions work
+How restricted are restrictions?
+Give someone specific access
+Manage access requests
+Remove someone’s specific access
+Make content private to only you
 Community
 Questions, discussions, and articles
 Accessibility

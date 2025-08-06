@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-global-permissions/
+URL: https://support.atlassian.com/confluence-cloud/docs/disable-reactions/
 
-Manage global permissions | Confluence Cloud | Atlassian Support
+Turn off page reactions | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,203 +440,38 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
-Manage global permissions in Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
+Turn off page reactions
+Clicking “add a reaction” on a piece of content sends the author a notification, and is useful for letting users know that you've viewed, approved of, or enjoyed a piece of content. Content that receives a large number of reactions appears on the Popular tab of the
+Activity
+section in the sidebar. Some instances, especially ones that have external users, may prefer not to have reactions enabled for reasons such as cross-client confidentiality.
+Reactions are enabled by default, but a Confluence administrator (see
 Manage global permissions
-Global permissions are broad controls for your Confluence instance. As a Confluence admin, you can use global permissions to see which user groups and which types of users currently have access to your Confluence instance and make high-level decisions about what they can do on it.
-This page will show you how to manage global permissions for the following user types:
-licensed users
-guest users
-JSM access
-anonymous access
-You can also manage global permissions for apps.
-Global permissions only apply to the given Confluence instance — changes made to one Confluence instance won’t affect any other Confluence instances you manage.
-Global permissions aren’t customizable on the
-Free plan
-. To edit them, you’ll need to
-upgrade to a paid plan
-.
-Manage what licensed users can do on your Confluence instance
-Licensed users are given access to your Confluence instance as members of user groups. Individual users can’t be added individually.
-Global permissions can’t be assigned to individual users, only the group.
-Finer controls that can be assigned to both individual users and groups are available in
-space permissions
-and at the
-content level
-.
-Assign global permissions for licensed users
-The permissions vary based on the tab.
-Personal space
-Create space
-View user profile
-Users in the group are automatically given a personal space on your Confluence instance.
-Turning this off doesn’t delete existing spaces. It prevents spaces from being created for users added to this group after you make the change.
-Lets users in the group create and manage new spaces on your Confluence instance.
-When someone creates a new space, they automatically become an admin
-for that space
-.
-Lets users in the group view the user profiles of licensed users on your Confluence instance. Users profiles and profile cards contain contact information and organization structures, as well as activity on Confluence and access to other relevant users' profiles.
-To edit global permissions:
+) can disable and re-enable them for their entire
+Confluence Cloud
+instance.
+To enable or disable reactions:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
 Select the wheel icon (
 ) in the top-right corner to open Confluence administration.
 Find
 Settings
 >
-Security
+Configuration
 in the left-hand navigation.
 Select
-Global permissions
+General configuration
 .
-Select the
-User groups
-tab and
-Edit.
-Check the box to grant permission, or uncheck the box to revoke it.
-Select
-Save
-when you’re done.
-Changes to global permissions aren’t active until you click
-Save.
-You can search and filter user groups while in edit mode.
-Only system admins can edit perms for the system admin group.
-Add or remove user groups
-Only site admins, user access admins, and organization admins can add or remove user groups from Confluence.
-To add or remove user groups:
-Click the
-Manage groups
-button (this takes you to the
-App Access
-page of admin.atlassian.com)
-To add a group, click
-Add group
-in the Confluence section
-To remove a group, find the desired group in the list, click the ••• menu on the line item, and select
-Remove group
-Learn more about
-adding user groups to Confluence
-.
-Add an individual user
-Individual users can’t be given direct access to your Confluence instance. Only user groups can be directly added to an instance. Access for individual users is a result of being a member of a group that has access. So to add an individual user to your Confluence instance, you have a few options:
-Add the user to a user group that already has access to your instance
-Find an existing user group that the user is already a member of and add it to your instance
-Create a new user group for the user and add it to your instance
-This is all done on admin.atlassian.com, which site admins or organization admins can get to quickly from global permission by clicking the
-Manage groups
-button. From there, go to the
-Users
-or
-Groups
-page.
-Learn more about
-creating and updating user groups in Confluence
-.
-Remove an individual user
-Removing an individual user from your Confluence instance is a bit more complicated than adding a user to it.
-Option 1: Remove the groups
-You can remove an individual user from your Confluence instance by simply removing all the user groups that include the user.
-To do this from global permissions:
-Click the
-Manage groups
-button (this takes you to the
-Access
-page of admin.atlassian.com)
-Find the groups that include the user and click the ••• menu on each of their line items and select
-Remove group
-Learn more about
-access settings
-.
-Option 2: Remove the user from the groups
-If you want to remove the user’s access from your Confluence instance without removing any groups, you’ll need to remove the user from all groups that have access.
-To do this from global permissions:
-Click the
-Manage groups
-button (this takes you to the
-Access
-page of admin.atlassian.com)
-Go to the
-Groups
-page under
-User Management
-Search for the group you want to remove the user from and click the linked text of its name view the group
-Find the user in the list of group members and click
-Remove
-Or:
-Go to the
-Users
-page
-Find the user you want to remove, click their name or
-Show details
-to go to their profile
-In
-Groups
-section of the user’s profile, find the groups they need to be removed from, click the ••• menu, and select
-Remove from group
-Learn more about
-creating and updating user groups in Confluence
-.
-Manage guest access to your site
-Not all teamwork happens inside the (sometimes virtual) walls of a single organization. Sometimes you need to partner with other companies to build integrations, work with agencies to bring marketing campaigns to life, bring in contractors and consultants to help get big projects over the line, and so on.
-With single space guests, you can do all of that work without leaving Confluence.
-Learn more about
-what guests can see and do in Confluence
-and
-how to invite guests
-.
-Allow or stop allowing public links on your site
-Public links allow teams to share individual Confluence content items with people outside of Confluence without giving them access to Confluence.
-Learn more about
-how to manage public links on your site
-.
-Manage access for Jira Service Management agents
-You can choose whether to allow licensed Jira Service Management (JSM) agents to view content on your Confluence instance, even if the agents don’t have a Confluence seat.
-If JSM access is not enabled, you can turn it on in JSM. Once it’s enabled, you can determine whether or not JSM users can view user profiles for licensed users on your Confluence instance.
-To disable JSM access, click
-Edit
-in the JSM access tab and uncheck
-Use Confluence
-. Don’t forget to save changes. Once disabled, JSM access to Confluence can only be enabled again in JSM.
-Learn more about
-JSM access to Confluence
-.
-Manage anonymous access
-By enabling anonymous access on your Confluence instance, any space admin will be able to make their space accessible by anonymous users (aka, anyone on the internet). “Anonymous" users are anyone who hasn’t logged into their account, whether they have an account or not.
-To enable anonymous access, go to the
-Anonymous access
-tab, click
-Edit
-, and check
-Use Confluence
-. (Don’t forget to save changes.)
-You can also determine whether anonymous users can view the user profiles of licensed users.
-Enabling individual spaces for anonymous access must be done in space settings.
-Anonymous access doesn’t affect your license count.
-Learn more about
-anonymous access
-.
-Recover space permissions
-Confluence admins and site admins are always able to access permissions for any spaces on their instance. If a space is ever without a space admin — for example, if the only space admin for a space left the organization — a Confluence admin or site admin can always recover control over space permissions by becoming a space admin. This can be done temporarily, long enough to assign another person as admin of the space.
-To recover space permissions:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
 Find
-Settings
->
-Security
-in the left-hand navigation.
+Likes/reactions
+and check or uncheck the box.
 Select
-Space permissions
+Save configuration changes
 .
-Locate the space in the
-Individual Spaces
-list and select
-Recover Permissions.
-(If you're already an admin in the space, you'll see
-Manage Permissions.
-)
-Selecting
-Recover Permissions
-will be recorded in the Confluence audit log.
 Was this helpful?
 Yes
 No
@@ -647,23 +482,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage global permissions in Confluence administration
-Manage global permissions
-Assign space access to guests
-Manage public links across Confluence Cloud
-How secure are public links?
-Give access to unlicensed users from Jira Service Management
-On this page
-Manage what licensed users can do on your Confluence instance
-Assign global permissions for licensed users
-Add or remove user groups
-Add an individual user
-Remove an individual user
-Manage guest access to your site
-Allow or stop allowing public links on your site
-Manage access for Jira Service Management agents
-Manage anonymous access
-Recover space permissions
+Set Confluence-wide functionality
+Show more
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

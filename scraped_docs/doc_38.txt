@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/delete-your-account/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-widget-connector-macro/
 
-Delete your account | Confluence Cloud | Atlassian Support
+Insert the widget connector macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,31 +439,112 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage your account
+Extend the functionality of Confluence Cloud
+Use macros to include media on Confluence pages
 Cloud
 Data Center
-Delete your account
-You can
-delete your account
-when you no longer need to use Atlassian account services. When you do, you’ll immediately lose access to Confluence and all other Atlassian account services, and we’ll stop billing your organization for your account. We’ll also delete your personal data from Atlassian account services.
-Once your account has been deleted, you won’t be able to reactivate it or restore your personal data.
-What’s deleted
-When you delete your account, we’ll permanently delete your
-personal data
-from all Atlassian account services. Your name will be replaced by
-Former user
-throughout Confluence, and your Confluence personal space will be archived.
-We won’t delete:
-Content, comments, or files.
-To manually delete the content you’ve created, follow the instructions in
-Delete, restore, or purge content
+Insert the widget connector macro
+Embed online videos, slideshows, photostreams and more directly into your page or live doc with the Widget Connector macro.
+The macro currently supports content from these sites:
+YouTube
+Vimeo
+Flickr
+Twitter
+Slide Rocket
+To embed Google Drive files into a page or doc, use one of the
+Google Drive macros
+instead.
+Use the Widget Connector
+To add the Widget Connector macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the Widget Connector macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Parameter
+Description
+Web Site's Widget URL
+(url
+)
+This is the external site's URL. In some sites this will be the URL shown in the address bar of your browser, and in other sites you may need to click a Share or Link button to get the URL.
+Pixel Height (Value Only)
+(height
+)
+The height of the display, in pixels.
+Pixel Width (Value Only)
+(width
+)
+The width of the display, in pixels.
+Examples
+Every site is a little different, so we've put together some info on what you'll need to do to embed each site's content on a page or doc.
+YouTube
+The fastest way to embed a YouTube video is to paste the URL into the editor. Confluence will autoconvert the link and insert the macro for you, like magic. Autoconvert works with both long and short YouTube URLs.
+If you're pasting the URL into the Widget Connector macro URL field manually, you'll need to use the long URL (from the address bar). Long URLs look something like this
+https://www.youtube.com/watch?v=CNeuec8ybc4
 .
-Personal data in user-generated content.
-If your personal data, such as your name, email address, or phone number, appears in the text of a Confluence Cloud page or live doc, it will remain on Confluence Cloud until the content or the site is deleted. To delete personal data from a page, live doc, blog post, or comment, you'll need to find the content using global search, then edit it to manually remove your data.
-Once an account has been deleted, both the account and the personal data in it are gone forever.
-How you'll appear
-This is what you’ll look like to other Confluence users once you delete your account:
+If you're not able to see the video in some browsers, try using https rather than http in your link.
+Links that contain a parameter to start a video at a particular time won't autoconvert or work in the Widget Connector macro, like this link:
+https://youtu.be/CNeuec8ybc4?si=EbkKUF8Kk9aUYyjA&t=8
+. Paste in the short sharing URL to be sure it works.
+Vimeo
+The fastest way to embed a Vimeo video is to paste the URL into the editor. Confluence will autoconvert the link and insert the macro for you.
+You can use the URL from the address bar in your browser or the
+Share
+button in Vimeo.
+Flickr
+You can embed a single photo, a set, an entire user's photo stream or collection of photos with a particular tag.
+The fastest way is to paste a URL into the editor. This works for sets and tags.  For other URLs you'll need to add the Widget Connector macro to the page first and then paste your link into the URL field.
+Use the URL from the address bar in your browser.
+Twitter
+To embed a single tweet you'll need to click the
+Details
+link on the tweet so you can grab the URL for just that tweet.  The URL will look something like
+https://twitter.com/atlassian/status/346976521250037760
+.
+To embed a dynamic list of tweets you'll need to create a Widget in Twitter first:
+In Twitter, click your profile picture and go to
+Settings
+>
+Widgets
+Create a "Search" widget to display the tweets you want to embed (search by hashtag or handle, for example)
+Save the widget, then hit
+Edit
+and copy the page URL (from your address bar).
+The URL should look like this: https://twitter.com/settings/widgets/354381809263472640/edit
+Do not copy the code Twitter tells you to copy and paste into the HMTL of your site, this will not work with the Widget Connector.
+In Confluence, paste the URL into the Widget Connector, but delete the
+/edit
+on the end of the URL
+SlideRocket
+We don't autoconvert SlideRocket presentations, so you'll need to add the Widget Connector macro to your page first, and then paste the video's URL into the URL field.
+You can get the URL from the
+Sharing
+button on the SlideRocket player.
+Troubleshooting
+We rely on the external website's APIs to display content in the Widget Connector macro. APIs do change from time to time and this can cause the Widget Connector macro to stop rendering content.
+If you have trouble with the widget connector, you can
+open a support ticket
+to let us know.
 Was this helpful?
 Yes
 No
@@ -474,16 +555,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage your account
-Show more
-Change your Confluence password
-Manage OAuth access tokens
-Delete your account
-Change your theme
-Set your email visibility
+Use macros to include media on Confluence pages
+Insert Microsoft Office macros
+Insert the widget connector macro
 On this page
-What’s deleted
-How you'll appear
+Use the Widget Connector
+Parameters
+Examples
+YouTube
+Vimeo
+Flickr
+Twitter
+SlideRocket
+Troubleshooting
 Community
 Questions, discussions, and articles
 Accessibility

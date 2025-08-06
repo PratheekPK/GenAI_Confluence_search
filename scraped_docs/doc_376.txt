@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/customize-your-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-change-history-macro/
 
-Customize your space | Confluence Cloud | Atlassian Support
+Insert the change history macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,24 +439,19 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Extend the functionality of Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Customize your space
-Space admins can customize the spaces they administer using
-Space settings
-in several ways, including changing the space name and logo, applying themes installed from the
-Atlassian Marketplace
-, and editing the features that contributors to the space can use.
-Apply a theme to a space
-Get step-by-step instructions for how to apply a theme from the Atlassian Marketplace to a space as a space admin.
-View topic
-Change the space name and logo
-Get step-by-step instructions for how to change the space name and logo as a space admin.
-View topic
-Edit features for a space
-Get step-by-step instructions on how to edit features for a space as a space admin.
-View topic
+Insert the change history macro
+The change history macro shows the history of updates made to a page or live doc: version number, author, date, and comment. It displays the information inline.
+Use the change history macro
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
 Was this helpful?
 Yes
 No
@@ -467,17 +462,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Apply a theme to a space
-Change the space name and logo
-Edit features for a space
-Space administration
+Use macros to show Confluence content on pages and live docs
 Show more
-Remove a space
-Create templates, blueprints, and reports
-Manage team calendars
-Manage Questions for Confluence
-Customize your space
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

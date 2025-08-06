@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-favorite-pages-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/set-space-specific-functionality/
 
-Insert the favorite pages macro | Confluence Cloud | Atlassian Support
+Set space-specific functionality | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,40 +439,19 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Space administration
 Cloud
 Data Center
-Insert the favorite pages macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-Use the Favorite Pages macro to list the pages you've
-saved for later
-on a Confluence page. You can also get to your saved pages from the Dashboard.
-Use the Favorite Pages macro
-To add the Favorite Pages macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-There are no parameters to edit for this macro.
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-favpages
-Macro body:
-None.
-Parameters:
-None.
-{favpages}
+Set space-specific functionality
+Additional PDF export settings
+Review updated limitations and workarounds for exporting PDF files from Confluence.
+View topic
+Advanced PDF export customizations
+Dig deeper into how site and space admins can do advanced customizations of space-specific PDF exports using CSS and HTML.
+View topic
+Set a default classification level for content
+Ensure your content in a chosen space is always classified.
+View topic
 Was this helpful?
 Yes
 No
@@ -483,9 +462,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-On this page
-Use the Favorite Pages macro
-Wiki markup example
+Explore more
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
+Space administration
+Set space-specific functionality
+Manage permissions at the space level
+Manage content in a space
+Remove a space
+Create templates, blueprints, and reports
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/work-with-images-videos-and-files/
+URL: https://support.atlassian.com/confluence-cloud/docs/how-to-use-the-new-toolbar-and-insert-elements/
 
-Work with images, videos, and files | Confluence Cloud | Atlassian Support
+How to use the new toolbar and insert elements | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,162 +440,86 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit content
 Cloud
 Data Center
-Work with images, videos, and files
-Adding media to your content enhances the visual appeal and improves how you convey information. You can use images to illustrate a point, videos to provide detailed instructions, GIFs to add some fun, or files to share important documents.
-Confluence supports various media formats, including:
-Images:
-JPEG, PNG, GIF, BMP
-Videos:
-MP4, MOV, AVI
-Audio:
-MP3, WAV
-Files:
-PDFs, Microsoft Office documents, text files, and more.
-In this guide, you can learn how to use media elements to create dynamic content that captures your audience’s attention and communicates your message more effectively.
-Add media to your content
-Follow these steps to add images, videos, GIFs, and files to your content:
-Using the toolbar or
+How to use the new toolbar and insert elements
+You can choose where your formatting toolbar appears:
+Pinned at the top, or
+Unpinned, appearing in-line when you select text.
+The default setting is pinned for Pages and unpinned for
+Live Docs
+.
+If you change this, your preference will be saved for both content types.
+We're iterating the toolbar and formatting experience with features subject to change.
+Your previous browser tabs may show an earlier experience. Refresh your page to receive the latest available experience for your account.
+This page outlines updates in the latest release. It may take a few months to land in your site, or to be accurately reflected across our documentation.
+How to manage changes for your organization
+How to manage Atlassian experiments
+What to expect
+Select the pin or unpinned icon to the right of the toolbar
+Access
+Undo
+,
+Redo
+, and
+Find and replace
+next to the top-right
+Share
+button, via the
+...
+menu.
+Improved access elements like tables, media, and the date by clicking the + button when you hover on any content block, or type
 /
-command
+anywhere.
+Share your feedback with our team
+Send us feedback about these changes via in-product help.
 Select the
-Add image, video, or file
-on the toolbar or type
-/image
-on the page and select
-Image, video, or file
-.
-Select the media file from your computer.
-Dragging and dropping files
-Open the content where you want to add the media.
-Drag the desired file from your computer and drop it onto the content.
-The file will be uploaded and added to your content.
-Following these steps, you can integrate images, videos, GIFs, and files into your Confluence content, making it more engaging and appealing.
-Formatting and customizing media
-Resizing and aligning images and videos
-Resizing and aligning images and videos can improve your content’s' visual appeal and readability. Here's how you can manage these aspects:
-Using drag handles to resize
-Select the image or video you want to resize.
-Drag the handles on the sides of the media to adjust its size. The media will proportionally grow or shrink based on how much you drag the mouse.
-While resizing with the drag handles, guides will appear to help you align the media with other elements on the page. Use these guides to ensure your media is aligned, improving your content’s layout and visual consistency.
-Resizing to specific pixel values
-Select the image or video you want to resize.
-In the toolbar, enter the desired width or height in pixels. Note that only one dimension (width or height) can change at a time; the other dimension will adjust proportionally.
-Converting to pixel-based resizing
-Pixel-based resizing sets the media dimensions in fixed pixel values, ensuring consistency across screen sizes and resolutions. Percentage-based sizing adjusts the media dimensions relative to the page or doc width, which can cause inconsistency on different devices.
-Select the media item that needs conversion (it will have a yellow dot in the top-right corner).
-Either drag the handle to resize the item or select the
-Convert to pixels
-in the toolbar to switch to pixel-based sizing.
-By resizing and aligning your images and videos, you can enhance your content’s visual impact and readability, ensuring it is well-organized and appealing.
-Customizing image and video settings
-Customizing image and video settings can help you enhance the visual presentation and accessibility of your media. Here's how you can adjust various settings:
-Adding captions
-Select the image or video you want to caption.
-In the floating toolbar, select the
-Add caption
-option.
-Enter your caption text. You can’t change the text size and alignment but can apply other formatting.
-Adjusting border options
-Select the image or video.
-In the floating toolbar, select the
-Border options
-.
-Select your desired border color and size.
-Setting image alignment
-Select the image or video.
-In the floating toolbar, select the
-Image alignment
-.
-Select how you want the image or video aligned on the page or doc and how the text should flow around it.
-Displaying images inline or as block elements
-Inline:
-Select the image you want to display within the text flow. This option allows the image to be part of the text content, making it flow naturally with the surrounding text.
-Original size:
-Select the image you want to display as a separate block element. This option displays the image at its original size, separate from the text flow, making it stand out.
-Select the image you want to display inline or as a block element.
-In the floating toolbar, select the
-Inline
-or
-Original size
-option.
-Adding links to images
-Select the image.
-In the floating toolbar, select the
-Link
-option.
-Add a link to content or an external URL.
-Previewing images
-Select the image.
-In the floating toolbar, select the
-Preview
-option to view the full-size image while editing.
-Editing alt text for accessibility
-Select the image or video.
-In the floating toolbar, select the
-Edit alt text
-option.
-Supplemental text should accompany the media, providing context and meaning to all users. Alt text is especially effective in assisting people who rely on screen readers.
-Managing file settings
-Managing file settings lets you control how files display and interact on your content. Here’s how you can manage your file settings:
-Displaying files as inline tiles or thumbnails
-You can select to display files as either inline tiles or thumbnails to enhance the visual presentation and accessibility of your content.
-Inline tiles:
-Select the file you want to display.
-In the floating toolbar, select the
-Change view
-option.
+icon at the bottom left of your content.
 Select
-Inline
-to display the file as an inline tile.
-Thumbnails:
-Select the file you want to display.
-In the floating toolbar, select the
-Change view
-option.
-Select
-Thumbnail
-to display the file as a thumbnail.
-Previewing files
-Select the file you want to preview.
-In the floating toolbar, select the
-Preview
-option.
-The file will open in viewer mode, allowing you to see its contents without downloading.
-Downloading files
-Select the file you want to download.
-In the floating toolbar, select the
-Download
-option.
-The file will download to your computer or device.
-Collaborating on media
-Collaborating on media in Confluence allows teams to interact, comment, and share insights on images and videos. Here's how you can collaborate using media:
-Adding and viewing comments
-Adding comments to images and videos can facilitate discussions and feedback.
-Adding comments:
-Select the image or video you want to comment on.
-In the floating toolbar, select the
-Add/view comment
-option.
-Type your comment in the provided field and submit it.
-Viewing comments:
-Select the image or video with existing comments.
-In the floating toolbar, select the
-Add/view comment
-option to see all comments associated with the media.
-Embedding social videos and images
-Using the Widget connector macro, you can embed live content from various social media platforms to enrich your Confluence pages.
-Embedding YouTube, Vimeo, and Flickr content:
-Copy the URL of the content you want to embed.
-Paste the URL onto your Confluence page or live doc.
-The link will automatically convert into a playable video or viewable image.
-Exploring additional macros:
-Browse through the
-complete list of macros
-to find other valuable features for embedding content from different platforms.
-Collaborating on media can enhance team communication, gather valuable feedback, and create more dynamic and interactive Confluence content.
+Editor
+as the component in the feedback modal.
+Submit your feedback, providing as much detail as possible.
+Pin or unpin your toolbar
+Select the pin icon from the toolbar menu to pin or unpin your toolbar.
+For both toolbar experiences your preference saves in Confluence.
+If you use multiple Confluence sites, you’ll need to choose your toolbar preference for each one.
+Your teammates can choose their own preferences which will save for them.
+Pinned top toolbar
+Fixed at the top is how the toolbar has traditionally appeared in Confluence. When you fix your toolbar at the top, more elements such as media, tables, and emojis will appear.
+In-line toolbar, appears when you select text
+For a more minimalist feel you can let it appear in-line when you select text. The in-line toolbar lets the formatting tools come to you, rather than having to scroll or move to the top of the page.
+To select text:
+Drag your cursor over words
+Select the
+drag and drop handle. This will highlight text within a content block.
+Use keyboard shortcuts:
+Mac
+Command + Shift + Left/Right arrow
+Windows
+Ctrl + Shift + Left/Right arrow
+The unpinned toolbar aims to reduce visual clutter for customers who prefer to search for and insert elements with the keyboard
+/
+command.
+Insert elements: tables, the date, and more
+Elements include tables, layouts, media, checkboxes and more.
+Search for or insert elements by:
+Typing the forward slash key “/” anywhere on the page
+Selecting the + button that appears when you’re hovering over a content block
+Start typing to search for what you’re looking for.
+When you select
+...View more
+in the + or / menu, the element browser will pop-up. You can browse all elements and macros such as tables, charts, the date, and more.
+How to insert elements into a page
+Keyboard shortcuts
+While editing you can access keyboard shortcuts via the
+button on the bottom-left of your content. To open this modal with a keyboard shortcut, use:
+Mac
+Command + /
+Windows
+Ctrl + /
+More shortcut resources
+Keyboard shortcuts and autocomplete
+Confluence magic shortcuts in Community
 Was this helpful?
 Yes
 No
@@ -606,28 +530,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Create and organize work in Confluence Cloud
 Show more
-Simplify data with tables
-Charts and connected data
-Work with images, videos, and files
-Use Atlassian Intelligence to help write or edit content
-Bring all your work into Confluence
+Export content from Confluence Cloud
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+Review macros only available in the legacy editor
 Show more
 On this page
-Add media to your content
-Using the toolbar or / command
-Dragging and dropping files
-Formatting and customizing media
-Resizing and aligning images and videos
-Customizing image and video settings
-Managing file settings
-Displaying files as inline tiles or thumbnails
-Previewing files
-Downloading files
-Collaborating on media
-Adding and viewing comments
-Embedding social videos and images
+What to expect
+Pin or unpin your toolbar
+Pinned top toolbar
+In-line toolbar, appears when you select text
+Insert elements: tables, the date, and more
+Keyboard shortcuts
 Community
 Questions, discussions, and articles
 Accessibility

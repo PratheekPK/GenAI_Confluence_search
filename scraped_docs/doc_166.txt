@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/change-the-look-and-feel-of-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-and-manage-links-on-your-pages/
 
-Look and feel settings in Confluence Cloud | Confluence Cloud | Atlassian Support
+Insert and manage links on your pages and live docs | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,42 +439,40 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Look and feel settings in Confluence Cloud
-You can change the appearance, or look and feel of
-Confluence Cloud
-for the whole instance (globally) or for individual spaces.
-Changes you make to the whole instance will also apply to all spaces that are inheriting the global look and feel.  Users with space administrator permissions can further customize the appearance of a space and override the global look and feel for that space. See
-Customize your space
-for more.
-Ways to customize the look and feel of Confluence:
-Add your own logo. See
-Change your site and space logos
-.
-Change the
-color scheme
-of the user interface. See
-Customize the navigation colors
-.
-Use
-themes
-for advanced layout customization. See
-Install a theme
-.
-Install a theme
-Download and install themes for your site from the Atlassian Marketplace.
-View topic
-Set the default theme
-Set the default layout and colors of your Confluence instance.
-View topic
-Customize the navigation colors
-Change the colors of your Confluence navigation background and Create button.
-View topic
-Change your site and space logos
-Upload site and space logos or set a new favicon for your instance.
-View topic
+Insert and manage links on your pages and live docs
+Links are essential for guiding users through your content, connecting related content, and referencing external resources. This article will show you how to easily insert and manage links on your pages and live docs.
+Inserting a link
+Using the toolbar
+Select the text you want to turn into a link, or place your cursor where you want the link to appear.
+Select the
+Link
+button on the toolbar, or use the keyboard shortcuts:
+Ctrl
++
+K
+on Windows,
+Cmd
++
+K
+on Mac.
+Choose your link destination:
+Internal links:
+Select a page, live doc, whiteboard, database, or blog post from your site.
+External links:
+Enter the external URL directly.
+Creating a link by pasting a URL
+You can simply paste a URL directly onto your page or doc. The system will automatically create the link, and if the URL is from your current site, the content’s name will be set as the link text.
+Alternatively, you can highlight a selection of content and paste a URL from your clipboard. This will instantly turn the highlighted text into a link using the pasted URL.
+Modifying link text
+You can customize the text that appears as your link. After selecting your link destination, enter or modify the link text in the provided field. If you leave this field blank, the system will use the content’s name or URL as the default link text.
+Advanced link options
+For more advanced linking needs, such as creating anchors or linking to specific sections within a page or doc, see
+Links and Anchors
+for how to link to particular types of content.
 Was this helpful?
 Yes
 No
@@ -485,19 +483,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Install a theme
-Set the default theme
-Customize the navigation colors
-Change your site and space logos
-Confluence administration
+Create and edit content
 Show more
-Configuration settings in Confluence Cloud
-Security settings in Confluence Cloud
-Look and feel settings in Confluence Cloud
-Data management in Confluence Cloud
-Atlassian Marketplace apps
+Get started with Smart Links in the content tree
+What data is sent and received when pasting a Smart Link?
+Insert and manage links on your pages and live docs
+Add elements to a page or live doc
+Transfer ownership of your content item
 Show more
+On this page
+Inserting a link
+Using the toolbar
+Creating a link by pasting a URL
+Modifying link text
+Advanced link options
 Community
 Questions, discussions, and articles
 Accessibility

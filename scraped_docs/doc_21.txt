@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/download-a-spaces-report/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-miro-boards-in-confluence-whiteboards/
 
-Download a spaces report | Confluence Cloud | Atlassian Support
+Import Miro boards in Confluence whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,70 +439,86 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Monitor and manage activity in Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Download a spaces report
-You must be an app, organization, or site administrator to use to this feature.
-Simplify space administration with reports that contain detailed information about your spaces.
-Examples
-You can use this CSV file to help you administer spaces with information like:
-User or group permissions for a space
-: Quickly assess access issues
-See a list of active/archived/deleted spaces:
-Free up storage and remove outdated information
-Recently created, inactive, or most active spaces
-: Clean up inactive spaces
-Spaces using the most storage
-: Free up storage
-Spaces with external access
-: Identify who has access
-Create a report
-Use these steps to create a report:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Select
-Data management
->
-Space reports
+Import Miro boards in Confluence whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Select
-Create report
-. Then, select
-Download
+Bring your Miro content to Confluence whiteboards and collaborate seamlessly with your team. Import your whiteboards from Miro into Confluence to unlock features like smart connectors, smart sections, real-time editing, and experience brainstorming and collaboration like never before. Plus, keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
+Export your Miro board
+In Miro, open the board you wish to export.
+Open the export menu in the top-left corner of the board, then select
+Save as image
 .
-Contents
-The file will contain a table with information like:
-Space key
-: Unique identifier for each space
-Space name
-: The name of the space
-Space type
-: Type of space (e.g., team, project)
-Space status
-: Current status of the space
-Creation date
-: When the space was created
-Creator account ID
-: ID of the user who created the space
-Creator full name
-: Name of the space creator
-Public link permission status
-: Whether the space has public links
-Number of public links
-: Count of public links in the space
-Anonymous access
-: Whether anonymous users can access the space
-Last viewed
-: The last time the space was accessed
-Number of content items
-: Total content items in the space
-Number of attachments
-: Total attachments in the space
-Storage used (MB)
-: Storage space used by the space
-You can view the last 10 reports created within the last 30 days.
+Select the area of the board that you’d like to export.
+Select the
+Vector
+option.
+Click the
+Export
+button.
+For more information on exporting Miro boards,
+see the Miro support documentation
+.
+You must
+Save as image
+to import editable elements to your Confluence whiteboard.
+Import to whiteboards
+Whiteboards currently only support PDF or image file importing.
+Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
+You can import your content in two ways:
+Drag your image or file into your whiteboard.
+On the toolbar, select the More menu (
+…
+), select
+Whiteboard import,
+navigate to your file, and select it.
+Select your content type.
+The import process will complete.
+When should I recreate my content in Confluence whiteboards vs. uploading a static image?
+For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
+For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
+How Miro elements import to Confluence whiteboards
+Miro
+Confluence whiteboards
+Sticky notes
+Sticky notes
+Frames
+Rectangles
+Borders
+Borders
+Draw
+Images
+Website embeds
+Images
+Jira cards
+Jira Smart Links
+Tables
+Recreated with lines and rectangles
+GIFs
+Images
+Text
+Text
+Stamps
+Images
+Tags
+Text in rectangles
+Mind maps
+Rectangles, lines, and connectors
+Limitations
+Some limitations and differences between your Miro board and Confluence whiteboard will occur.
+Importing comments is not supported, but you can comment on Confluence whiteboards.
+Colors will be mapped to the closest Confluence whiteboards colors.
+Connectors will not import, but they can be recreated in Confluence whiteboards.
+Rotated elements will import unrotated.
+Shapes supported in whiteboards will import as shapes. Shapes that are not supported will import as images.
+Locked elements will not remain locked when imported, but you can manually lock them in Confluence whiteboards.
+Talk tracks are not supported in whiteboards.
+Whiteboards have a 10,000 element limit.
+Importing may take longer than a minute for boards with many elements, large images, or a lot of content.
 Was this helpful?
 Yes
 No
@@ -513,14 +529,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Monitor and manage activity in Confluence Cloud
-Act on insights from mission control
-Download a spaces report
-View the audit log
+Create and edit whiteboards
+Show more
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Show more
 On this page
-Examples
-Create a report
-Contents
+Export your Miro board
+Import to whiteboards
+When should I recreate my content in Confluence whiteboards vs. uploading a static image?
+How Miro elements import to Confluence whiteboards
+Limitations
 Community
 Questions, discussions, and articles
 Accessibility

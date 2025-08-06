@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/navigation-tools-in-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/upload-and-manage-files/
 
-Navigation tools in whiteboards | Confluence Cloud | Atlassian Support
+Upload and manage files | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,66 +440,36 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
 Cloud
 Data Center
-Navigation tools in whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-Pan, zoom, and find content around your whiteboard in one of three ways:
-Use the cursor tool to select and move objects
-Select the cursor in the toolbar, or use the
-V
-key to activate the select tool.
-Select a single element.
-Select and hold an empty space, then drag your cursor to select multiple elements.
-Select and hold an element, then drag your cursor to move it.
-Use the ✋ Hand tool to pan and zoom
-The hand tool allows you to move around within your whiteboard without accidentally selecting, or moving elements around.
-Select the hand in the toolbar, or use the
-H
-key to activate the hand tool.
-Pan around the whiteboard using your mouse or trackpad:
-Mouse
-:
-select and drag to pan
-scroll to pan up and down
-scroll +
-Shift
-to pan left and right
-Trackpad
-:
-select and drag to pan
-use two fingers
-Zoom in or out using your mouse or trackpad:
-Mouse
-:
-Ctrl
-+ scroll (Windows) or
-Command
-+ scroll (Mac) to zoom
-use the zoom controls found at the bottom right of the whiteboard
-Trackpad
-:
-pinch to zoom
-Find text easily within your whiteboards
-Open a whiteboard and make sure to focus on the whiteboard.
-Use
-ctrl+f
-or
-cmd+f
-to open the search menu.
-You can also access the search feature from the top
-More actions (
-)
-menu.
-Type your search query into the search box.
-Use
-enter
-or
-shift+enter
-to navigate through the search results.
+Upload and manage files
+Share your team's PDFs, Office documents, images, and more in one place by uploading your files to Confluence. Automatic versioning, instant previews, permissions, and full-text search mean shared network drives can be a thing of the past for your team.
+A file added to page or live doc gets attached to it. You can attach anything, from project plans and design mockups to video and audio files. You and your colleagues can also collaborate by
+Share and comment on files
+displayed on Confluence pages and live docs.
+Using files
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Permissions
+The 'Add attachment' and 'Delete attachment' permissions are used to control who can upload and delete attachments in a space.
+Users with 'Add content' permissions can insert existing attachments to their content, but not upload new attachments unless they also have the 'Add attachment' permission.
+There is no permission that controls who can download attachments. See our knowledge base article about
+disabling the download of attachments
+if you need to do this.
+Upload a file
+Learn how to upload files to Confluence.
+View topic
+Display files and images
+Insert files, images, and other attachments on a Confluence page or live doc
+View topic
+Manage uploaded files
+Download, delete, move, or otherwise manage files you upload to Confluence.
+View topic
+Share and comment on files
+Share files with collaborators, or comment on files other people have shared.
+View topic
 Was this helpful?
 Yes
 No
@@ -510,17 +480,22 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Getting started with Confluence whiteboards
-Create a new whiteboard
-Navigation tools in whiteboards
-Organize and explore ideas with sticky notes
-Use shapes to visualize ideas
+Explore more
+Upload a file
+Display files and images
+Manage uploaded files
+Share and comment on files
+Create and organize work in Confluence Cloud
+Show more
+Create and edit content
+Keep content organized
+Upload and manage files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
 Show more
 On this page
-Use the cursor tool to select and move objects
-Use the ✋ Hand tool to pan and zoom
-Find text easily within your whiteboards
+Using files
+Permissions
 Community
 Questions, discussions, and articles
 Accessibility

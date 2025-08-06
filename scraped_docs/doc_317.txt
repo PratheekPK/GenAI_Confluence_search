@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/delete-or-disable-a-template/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-network-macro/
 
-Delete or disable a template | Confluence Cloud | Atlassian Support
+Insert the network macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,51 +440,87 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Use spaces to organize your work
+Review macros only available in the legacy editor
 Cloud
 Data Center
-Delete or disable a template
-Space admins can delete templates from the spaces they administer to make them inaccessible. To learn about deleting and disabling global templates, see
-Delete or disable a global template
-.
-To delete a template:
-Go to the space in
+Insert the network macro
+In June 2025, Atlassian announced the upcoming
+deprecation of the legacy editor
+as well as
+information about converting
+to the cloud editor.
+Before the deprecation begins in January 2026, this macro will still work. See our
+article on legacy editor macros
+for more.
+The Network macro displays a list of
+Network
+activity on a Confluence page or blog post. You can specify the user whose network activity you wish to show. These interactions include the users that the specified user is following or users who are following the specified user. The Network macro shows each listed user by their profile picture. It also provides a choice of two themes and the ability to limit the number of users in the list.
+Use the Network macro
+To add the Network macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the Network macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
 Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Parameter
+Default
+Description
+Username
+Current user's username
+The username of the Confluence user whose network interactions you wish to show. If no username is specified, then current user's (that is, your) network interactions are shown.
+Mode
+following
+Determines which users are listed, with respect to the specified user:
+following
+– those who the user is following.
+followers
+– those who are following the user.
+This parameter is unnamed in storage format and wikimarkup.
+Theme
+full
+Determines how the user's network is displayed:
+full
+– shows a large version of user's profile pictures and, if the
+following
+mode is set, provides an entry field function to follow more users.
+tiny
+– shows only the small version of user's profile pictures.
+Maximum Results
+(max
+)
+No limit imposed up to a maximum of 30
+Restricts the number of users displayed. If the number of users exceeds the specified maximum, then a
+Show All
+link is provided. This link leads to the specified user's
+Network view
+, showing the complete list of network interactions.
+Disabling the Network macro
+The Network macro is provided by the 'network' module in the 'Profile Macros' plugin. To remove the macro from your site, you can disable the module in the plugin. See
+Disabling and enabling apps
 .
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Look and Feel
-menu
-, then select
-Templates
-.
-Find the template in the table and select
-Delete
-.
-This is permanent: once a template has been deleted, it cannot be restored.
-You can also disable a blueprint in a specific space. Unlike deleting a template, which is permanent and cannot be undone, you can enable a disabled blueprint at any time.
-To disable a blueprint:
-Go to the space in
-Confluence Cloud
-.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Look and Feel
-menu
-, then select
-Templates
-.
-Find the blueprint in the list and select
-Disable
-.
+Wiki markup example
+Wiki markup is only supported in the legacy editor.
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
 Was this helpful?
 Yes
 No
@@ -495,13 +531,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use spaces to organize your work
-Show more
-Organize your space
-Find content in a space
-Customize your space's overview
-Use labels to categorize spaces
-Delete or disable a template
+On this page
+Use the Network macro
+Parameters
+Disabling the Network macro
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/take-quick-action-from-the-page-title/
+URL: https://support.atlassian.com/confluence-cloud/docs/hide-external-links-from-search-engines/
 
-Take quick action from the content title | Confluence Cloud | Atlassian Support
+Hide external links from search engines | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,37 +439,41 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Keep content organized
+Confluence administration
+Security settings in Confluence Cloud
 Cloud
 Data Center
-Take quick action from the content title
-Quick actions have been added to the content tree in your space sidebar to make it faster and easier to do common tasks. Because you can take action without selecting an item and moving away from the sidebar, getting your job done will take less time and effort.
-When you hover over the title, a
-More actions
-( ••• ) menu appears, giving you the choice to:
-Edit
-— Jump into editing without having to navigate to the page and select edit
-Rename
-— Change the item’s title directly in the content tree
-Star
-— Add or remove an item from your list of
-starred items
-Get link
-— Copy the item’s URL to your clipboard
-Copy
-—
-Duplicate the item
-within the current space or into another one
-Move
-—
-Move the item
-to a new place in the current space or into another one
-Archive
-—
-Remove the item from the sidebar
-and search results
-If you don’t have permission to do an action, the action will be greyed out.
+Hide external links from search engines
+Hiding external links from search engines helps to discourage spammers from posting links on your instance. If you turn this option on, any URLs inserted in pages and comments will be given the 'nofollow' attribute, which prevents search engines from following them.
+Shortcut links (e.g. CONF-2622@Jira) and internal links to other pages within
+Confluence Cloud
+are not tagged.
+To hide external links from search engines:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+>
+Security
+in the left-hand navigation.
+Select
+Security configuration
+.
+Check the
+Hide External Links From Search Engines
+box.
+Select
+Save
+at the bottom of the page.
+Background to the nofollow attribute
+As part of the effort to combat the spamming of wikis and blogs (
+Confluence Cloud
+serving in both capacities), Google came up with
+some markup
+that instructs search engines not to follow links. By removing the main benefit of wiki-spamming it's hoped that the practice will stop being cost-effective and eventually die out.
 Was this helpful?
 Yes
 No
@@ -480,13 +484,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Keep content organized
-Take quick action from the content title
-Use labels to organize content and attachments
-Move, copy, and hide content items
-Archive content items
-Restore archived items to the content tree
-Show more
+Security settings in Confluence Cloud
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
 Community
 Questions, discussions, and articles
 Accessibility

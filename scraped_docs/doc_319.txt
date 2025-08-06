@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/voting-in-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/database-version-history/
 
-Voting in whiteboards | Confluence Cloud | Atlassian Support
+Database version history | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,68 +440,24 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Create and edit databases
 Cloud
 Data Center
-Voting in whiteboards
-Whiteboards aren’t available in
+Database version history
+Databases aren’t available in
 Atlassian Government environments
 .
-Simplify collaborative decision-making with voting in whiteboards. Use it for brainstorming, retrospectives, and more with your team. Anyone on the whiteboard can start, manage, and conclude voting sessions.
-View detailed results with the top-voted items and individual votes.
-Starting a voting session
-To start a voting session:
-Select the voting icon in the right-side toolbar.
-Enter a name for the voting session.
-To hide collaborator votes, toggle
-Enable anonymous voting
-on.
-Choose the number of votes allowed per person by using the + and - or select the number and type in the number of votes.
+Version history is useful for viewing recent changes, especially on databases with many collaborators. You can also restore a previous version of a database.
+To restore a version of a database:
+Go to the database and select  >
+Version history
+from the top right.
+Select a version to view it.
 Select
-Start
+Restore as new database
 .
-Note:
-There is a maximum of 99 votes per person.
-Voting
-You can vote on any sticky note on the whiteboard. To vote:
-Select the + icon on an element to add a vote. You can vote for the same element multiple times.
-Select the - icon to remove a vote.
-Select
-I’m done
-to indicate that you are done voting to everyone on the whiteboard.
-Ending a session
-Anyone can end a voting session.
-To end a voting session and display results:
-Select
-End for everyone
-in the voting modal.
-Confirm and select
-End voting
-.
-A voting session cannot be restarted.
-View voting results
-When a voting session ends, everyone will see the results of that session.
-Click on a result in the voting panel to navigate to that element.
-Hover over the “thumb” icon to view the individuals who voted for that element.
-If anonymous voting was enabled for the session, names will not be visible on element votes.
-To view the results of any previous voting session on a whiteboard:
-Select the voting icon in the right-side toolbar.
-Select the
-Results
-tab.
-Delete a voting session
-To delete a voting session:
-Select the session you want to delete from the
-Results
-tab.
-Select the more icon in the top right of the panel.
-Select
-Delete
-.
-Confirm and select
-Delete
-.
-Results are deleted permanently.
+Restoring an old version of a database does not delete the current version or versions that come after it. Confluence creates a copy of the old version as a new database.
+Database version history is only available for the past 30 days. Any databases created before version history was made available may not show the full history.
 Was this helpful?
 Yes
 No
@@ -512,19 +468,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Create and edit databases
 Show more
-Atlassian Intelligence in Confluence whiteboards
-Draw freeform lines with pen
-Private mode in whiteboards
-Voting in whiteboards
-Whiteboard version history
-On this page
-Starting a voting session
-Voting
-Ending a session
-View voting results
-Delete a voting session
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Community
 Questions, discussions, and articles
 Accessibility

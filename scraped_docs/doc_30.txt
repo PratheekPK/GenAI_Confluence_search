@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/charts-and-connected-data/
+URL: https://support.atlassian.com/confluence-cloud/docs/extend-the-functionality-of-confluence-cloud/
 
-Charts and connected data | Confluence Cloud | Atlassian Support
+Extend the functionality of Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,96 +439,48 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
 Cloud
 Data Center
-Charts and connected data
-Visualizing table data as dynamic charts can make your information easier to review, monitor, and present. Here’s how you can create and customize charts from your table data:
-Inserting a chart
-Select the table you want to visualize.
-Select the
-Insert chart
-option in the floating toolbar.
-A new chart will be added below the table. You can then customize the chart you want to create.
-Customizing chart options
-Select your chart to customize.
-Select
-Chart options
-in the floating toolbar.
-Customize your chart by adjusting settings. Each chart type has its own unique customizations.
-Chart type
-Bar chart
-Line chart
-Pie chart
-Data
-X-axis
-Data series
-Aggregate data
-X-axis
-Data series
-Aggregate data
-Category
-Data series
-Aggregate data
-Style
-Plot area height
-Data series (table headings) colors
-Chart orientation
-Plot area height
-Data series (table headings) colors
-Show or hide data points
-Line smoothing
-Chart orientation
-Plot area height
-Data series (table headings) colors
-Title
-Chart title, x-axis, y-axis
-Chart title, x-axis, y-axis
-Chart title
-Legend
-Show or hide the chart legend
-Legend position
-Show or hide the chart legend
-Legend position
-Show or hide the chart legend
-Legend position
-Managing charts
-Adjust chart width:
-You can change the chart's width to be centered, wide, or full-width.
-Remove charts:
-To remove a chart, select it and click the trashcan icon in the floating toolbar. This action will not delete the source table.
-Keeping charts linked to source data
-Charts are linked to their source table, so changes you make to the table will reflect in the chart.
-If you want to show a chart but hide the source table, use the
-Expand
-macro to hide the table within an expandable section.
-By visualizing your table data, you can transform raw data into informative and visually appealing charts, making it easier for users to interpret and analyze the information. If you decide to split this section onto a new page or live doc, ensure the instructions and tips remain clear and accessible for users seeking to create and manage data visualizations in Confluence Cloud.
-Was this helpful?
-Yes
-No
-It wasn't accurate
-It wasn't clear
-It wasn't relevant
-Provide feedback about this article
-Still need help?
-The Atlassian Community is here for you.
-Ask the Community
-Create and edit content
-Show more
-Available markdown commands
-Simplify data with tables
-Charts and connected data
-Work with images, videos, and files
-Use Atlassian Intelligence to help write or edit content
-Show more
-On this page
-Inserting a chart
-Customizing chart options
-Managing charts
-Keeping charts linked to source data
-Community
-Questions, discussions, and articles
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Consolidate everyone's schedule into Team Calendars for shared planning and visibility.
+View topics
+Use Company Hub to deliver key information to employees
+Create a central Company Hub to boost employee engagement and present key information.
+View topics
+Use Confluence with other applications
+Understand how to use Confluence with other applications like Jira, Trello, and Slack.
+View topics
+Use macros to show Confluence content on pages and live docs
+Use these macros to selectively show Confluence pages or content from other pages, along with popular labels and user information.
+View topics
+Use macros to add development info on Confluence pages
+Use these macros to display specific content on your Confluence pages.
+View topics
+Use macros to include media on Confluence pages
+Use macros to display content from other sources like Google Drive, Microsoft Office products, PDFs, and multimedia files and links.
+View topics
+Use macros to add navigation on Confluence pages
+Learn about the macros that let you add ways for your content viewers to navigate around your page.
+View topics
+Use macros to add reporting info to Confluence pages
+Use these macros to display lists of users, page properties, and reports.
+View topics
+Use macros to add visuals and images to Confluence pages
+Add visually appealing visuals and images to your pages using these macros.
+View topics
+Use gadgets to add dynamic content
+Use gadgets to add dynamic content to a Confluence page.
+View topics
+Use Questions for Confluence
+Get information about setting up and using the Questions for Confluence add-on.
+View topics
+Use automation for Confluence
+Save time and stay organized by automating routine workflows in Confluence Cloud.
+View topics
+Learn about macros on Confluence mobile
+Learn to manage Confluence macros on the go with the Confluence mobile app. See supported macros and how to view, add, edit, or delete them.
+View topic
 Accessibility
 Notice at Collection
 Privacy Policy

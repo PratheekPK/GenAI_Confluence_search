@@ -4,7 +4,7 @@ import os
 import time
 from urllib.parse import urljoin
 
-BASE_URL = "https://support.atlassian.com/confluence-cloud/resources/"#"https://confluence.atlassian.com/alldoc/"
+BASE_URL = "https://support.atlassian.com/confluence-cloud/docs/learn-how-confluence-cloud-works/"#"https://support.atlassian.com/confluence-cloud/resources/"#"https://confluence.atlassian.com/alldoc/"
 OUTPUT_DIR = "scraped_docs"
 CRAWL_DEPTH = 1  # only crawl links listed on this page
 

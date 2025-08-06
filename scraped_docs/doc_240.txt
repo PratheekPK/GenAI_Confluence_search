@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-up-and-manage-public-links/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-the-activity-stream-gadget/
 
-Control whether spaces can allow public links | Confluence Cloud | Atlassian Support
+Add the activity stream gadget | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,215 +439,48 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Set Confluence-wide functionality
+Extend the functionality of Confluence Cloud
+Use gadgets to add dynamic content
 Cloud
 Data Center
-Control whether spaces can allow public links
-Public links allow teams to share individual Confluence pages or other content with people outside of Confluence without giving them access to Confluence. This could be useful for sharing information to the public, like customer FAQs, release notes, shareholder letters, and more. Only people who have the link can access the page.
-Public links are allowed in Confluence by default. As a Confluence admin, you’ll find guidance on this page about defaults and how to stop allowing public links in Confluence as a whole.
-If you’ve allowed public links and want to know how to allow or stop allowing public links in specific spaces or content, go to
-Manage public links across Confluence Cloud
-.
-For details on how public links work, go to
-How secure are public links?
-If you’re looking for help on how to actually share individual pages or other content, go to
-Share content externally with public links
-.
-Public links are only available on Confluence’s paid plans (Standard, Premium, and Enterprise). Only Confluence pages, live docs, and whiteboards can have public links, not any other type of Confluence content (for example: blogs, databases, etc.).
-If upgrading from the Free plan to a paid plan, keep in mind that the defaults will allow people in your instance to use public links in all spaces the moment you upgrade.
-Default settings for public links
-In
-Global permissions
-, the global toggle controlling whether the instance should allow the use of public links is set to
-Allow
-by default.
-This doesn’t indicate whether anything is actually public — it simply indicates whether it’s
-possible
-to make anything public.
-Global default may differ depending on date of instance creation
-If your instance was created
-before
-October 16, 2023, the global public links toggle will be off until you choose to turn it on.
-If your instance was created
-on or after
-October 16, 2023 — including server instances migrating to Confluence Cloud — the global public links toggle will be on. Because all spaces will allow public links by default, this also means all spaces on your instance will be allowing public links from the time you created the instance. You’ll have to turn the global toggle off to stop allowing public links on your instance.
-This only applies to the global default setting, not to the space or content defaults.
-In
-Space permissions
-, the toggle controlling whether the space should allow the use of public links is also set to
-Allow
-by default.
-Related, in
-Default space permissions
-, the setting that controls whether any new space created should allow the use of public links is set to
-Allow
-by default.
-At the
-content level
-, actual public links are off by default.
-Change whether public links are allowed
-Only site admins or Confluence admins can change this setting. An organization-level control in Atlassian Administration is coming soon.
-Public links are allowed across Confluence by default (depending on when the instance was created).
-To stop allowing public links across Confluence:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Security
-in the left-hand navigation.
-Select
-Global permissions
-.
-Select the
-Public links
-tab.
-Toggle off
-Allow public links on this site
-.
-All active public links on your instance will be turned off and have to be manually turned back on.
-The public link toggle on pages, live docs, and whiteboards will appear grayed out, turned off, and disabled when not allowed, such as when:
-The specific public link is blocked by an admin.
-Public links aren’t allowed in the space.
-Public links aren’t allowed on the instance.
-To (re)allow public links on Confluence:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Security
-in the left-hand navigation.
-Select
-Global permissions
-.
-Select the
-Public links
-tab.
-Toggle on
-Allow public links on this site.
-“Allowing” public links on Confluence makes them available for use. It doesn’t make anything public on its own. With public links allowed, anyone who has access to a page, live doc, or whiteboard can turn on and share that content’s public link with anyone on the internet.
-If public links on Confluence are allowed, learn how to
-view and manage the public links within each space
-.
-Control whether public links are allowed in new spaces
-Public links are also allowed by default when new spaces are created. But there’s a separate control for Confluence and organization admins to turn this off or back on.
-To change whether public links are allowed in new spaces:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Security
-in the left-hand navigation.
-Select
-Space permissions
-.
-Select the
-Public links
-tab.
-Select the toggle that controls whether new spaces should allow public links.
-Allow public links in a specific space
-Space admins can change this setting, as well as organization and app admins.
-By default, all spaces allow public links.
-To allow public links in a space:
-Go to the space.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
-menu
-and select
-Public links
-.
-Toggle on
-Allow public links in this space.
-Similarly to the Confluence-level control, “allowing” public links in a space makes them available for use. It doesn’t make anything public on its own.
-To stop allowing public links in a space:
-Go to the space.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
-menu
-and select
-Public links
-.
-Toggle off
-Allow public links in this space.
-All active public links in the space will be turned off and have to be manually turned back on.
-For guidance on how to turn public links on at the content level, go to Share content externally with public links.
-Manage active public links in your space
-In the
-Public links
-option of
-Space access
-, space admins can find a table that shows the individual public pages, live docs, and whiteboards in a space. It will only show items that are
-ON
-or
-BLOCKED
-. It won’t show items that don’t have active public links and aren’t blocked.
-For example, if you only just allowed public links in your space, then the list would be empty because no one has had a chance yet to turn on any public links.
-To turn off a public link from the pages view in space permissions:
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
-menu
-and select
-Public links
-.
-Find the page, live doc, or whiteboard in the list you want to turn off.
-Open the actions menu (•••).
-Select
-Turn off
-.
-To block a public link from the pages view in space permissions:
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
-menu
-and select
-Public links
-.
-Find the page, live doc, or whiteboard in the list you want to block.
-Open the actions menu (•••).
-Select
-Block
-.
-To view the public version of the page, live doc, or whiteboard:
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
-menu
-and select
-Public links
-.
-Find the page, live doc, or whiteboard in the list.
-Open the actions menu (•••).
-Select
-View public link
-.
-Pages,  live docs, or whiteboards that are blocked have their public link in an off state and so don’t have a public link to view.
-Although you can preemptively block spaces from being allowed, there’s no way to preemptively block pages, live docs, or whiteboards from being turned on.
+Add the activity stream gadget
+The activity stream gadget is similar to the
+recently updated macro
+and shows a list of the most recently changed content within your Confluence site.
+In addition to showing a list of most recently changed content, the activity stream gadget also groups activities by separate date, and provides an RSS feed link to its content in the top-right corner.
+Activity Stream Gadget Properties
+Properties are settings for Confluence gadgets that allow the user to control the content or presentation of data retrieved by the gadget. These are similar to a Confluence macro's parameters. The table below lists relevant properties for this gadget.
+These properties are located in the
+preview
+panel in the macro browser.
+Property
+Required?
+Default
+Description
+Title
+Yes
+None
+Adds a title to the top of the Activity Stream.
+Global filters
+No
+None
+Allows you to add filters to the gadget including:
+space
+username
+update date
+Jira issue key (if your Confluence instance is integrated with a Jira application)
+Available streams
+Yes
+All
+If you have application links to other sites, Jira or another Confluence site, you can choose to include activity from those streams also.
+Display options: limit
+No
+10
+Specify the maximum number of results to be displayed. A maximum of 10 results will be displayed by default. The maximum value that this property can accept is 100.
+Display options: Refresh Interval
+No
+Never/false
+Specify the time interval between each 'refresh' action undertaken by the activity stream gadget. A refresh makes the activity stream gadget reflect any new activity that has been conducted on the Confluence site.
 Was this helpful?
 Yes
 No
@@ -658,19 +491,8 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
-Control whether spaces can allow public links
-Control whether spaces can turn on anonymous access
-Change the landing page
-Change the Confluence Home welcome message
-Create a custom space overview template
-Show more
-On this page
-Default settings for public links
-Change whether public links are allowed
-Control whether public links are allowed in new spaces
-Allow public links in a specific space
-Manage active public links in your space
+Use gadgets to add dynamic content
+Add the activity stream gadget
 Community
 Questions, discussions, and articles
 Accessibility

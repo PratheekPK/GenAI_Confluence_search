@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/learn-about-pre-defined-prompts-in-atlassian-intelligence/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-page-properties-macro/
 
-Learn about pre-defined prompts in Atlassian Intelligence | Confluence Cloud | Atlassian Support
+Insert the content properties macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,142 +439,94 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Atlassian Intelligence features in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use macros to add reporting info to Confluence pages
 Cloud
 Data Center
-Learn about pre-defined prompts in Atlassian Intelligence
-Atlassian Intelligence isn’t available for
-Atlassian Government apps
-.
-What is a pre-defined prompt for Atlassian Intelligence?
-Pre-defined prompts are like shortcuts for using Atlassian Intelligence's generative capabilities. They provide a starting point or template for your request, guiding the AI toward the specific task you want it to perform. For example, if you want to summarize a long document, you can use the "Summarize writing" pre-defined prompt. This tells Atlassian Intelligence exactly what you want it to do and helps it generate the best possible outcome.
-These prompts are designed to save you time and effort by eliminating the need to write complex instructions. They also help ensure consistency in your content by providing a standardized format for your requests.
-Here are some key features of pre-defined prompts:
-Easy to use: Simply select a pre-defined prompt from a list and provide any additional information needed.
-Fast and efficient: Get the results you need quickly and easily.
-Consistent results: Achieve consistent results with each use.
-Tailored to specific tasks: Each prompt is designed for a specific task, such as summarizing text, brainstorming ideas, or generating titles.
-In addition to the standard prompts provided by Atlassian Intelligence, individual apps may also offer specialized prompts tailored to their unique capabilities. This allows you to get the most out of the AI features within each app.
-By understanding how pre-defined prompts work, you can take full advantage of Atlassian Intelligence and unlock its potential to transform your workflow.
-Freeform prompting
-While pre-defined prompts offer a convenient way to access specific functionalities, Atlassian Intelligence also gives you the freedom of freeform prompting. This open-ended feature allows you to craft your own prompts, unlocking a universe of possibilities for generating content tailored to your unique needs.
-Think of it like this:
-pre-defined prompts are like pre-set radio channels offering specific music genres, while freeform prompting allows you to tune directly to any frequency on the dial, discovering a vast array of unheard sounds.
-Here are some examples of how you can use the power of freeform prompting:
-Spark creativity
-:
-"Brainstorm 10 creative marketing campaign ideas for our new product launch."
-"Compose a blog post about the changing landscape of our industry and our company's innovative solutions."
-"Generate a catchy slogan that perfectly captures our brand essence."
-Boost productivity
-:
-"Create a comprehensive sales call script that addresses common customer objections."
-"Analyze the market data and generate a report highlighting key insights and actionable recommendations."
-"Draft a meeting agenda for our upcoming client presentation, including key discussion points and action items."
-Enhance your writing
-:
-"Rewrite this proposal to sound more formal and persuasive."
-"Suggest alternative ways to present this financial data in a clear and concise manner."
-"Proofread this contract and ensure all legal terms and conditions are accurately stated."
-These are just a few examples to spark your imagination. With freeform prompting, the possibilities are truly limitless. Remember, the more specific and clear your prompts are, the better Atlassian Intelligence will understand your request and deliver the desired outcome.
-Available pre-defined prompts
-Summarize writing
-The "Summarize writing" prompt utilizes Atlassian Intelligence's advanced capabilities to condense your text into a concise and informative overview.
-When you use the "Summarize writing" prompt, you're asking Atlassian Intelligence to do the following:
-Analyze the text you provide. This includes identifying the key points, main arguments, and important information.
-Generate a concise summary of the text. This summary will typically be 3-5 sentences long and capture the essence of the original content.
-Ensure each sentence is grammatically correct and complete. You can expect a polished and professional-looking summary.
-Focus solely on summarizing the text. The AI will not include any additional information or engage in conversation with you.
-Improve writing
-By understanding how the "Improve writing" prompt works, you can expect Atlassian Intelligence to act as your virtual writing companion, polishing your content and ensuring your message resonates effectively with your audience.
-When you use the "Improve writing" prompt, you're asking Atlassian Intelligence to help you polish your text by:
-Correcting grammar and spelling mistakes. This ensures your writing is professional and error-free.
-Improving word choice. The AI will suggest alternative words and phrases that enhance the clarity and conciseness of your writing.
-Enhancing the tone of your writing. This can involve making it more formal, informal, friendly, persuasive, or any other desired tone.
-However, it's important to note that the "Improve writing" prompt does not:
-change the language of your text
-alter the overall tone of your writing
-lose any information from the original text
-When using Atlassian Intelligence, it's good to know the difference between 'Improve writing' and 'Fix spelling & grammar.'
-Improve writing:
-This helps make your writing better overall. It focuses on making things more straightforward and improving the structure and tone.
-Fix spelling & grammar:
-This is like your writing assistant that checks for spelling and grammar mistakes. It makes sure your writing is error-free and sounds professional.
-Knowing these distinctions helps you pick the right tool for your needs — making your writing generally better or ensuring it's technically correct.
-Find action items
-With the "Find action items" prompt, Atlassian Intelligence becomes your personal task management assistant, streamlining your workflow and ensuring no crucial next steps are missed.
-Imagine you're reviewing a lengthy meeting transcript and need to quickly identify all the next steps and tasks discussed. This is where the "Find action items" prompt comes in handy.
-When you use this prompt, you're asking Atlassian Intelligence to scan your text and:
-Identify potential action items. This includes tasks, decisions, follow-up actions, or anything requiring further attention.
-Extract the identified action items and format them as a task list. This list will be formatted in markdown, making it easy to share and manage.
-Clearly indicate if there are no action items found. If your text does not contain any actionable points, the AI will simply return a message stating "No action items."
-Using this prompt can be especially beneficial for:
-Meeting notes: Quickly identify tasks assigned to each participant and ensure nothing gets forgotten.
-Project plans: Extract key action items for each project phase and track progress effectively.
-Collaborative documents: Organize shared tasks and ensure everyone is on the same page.
-Suggest a title
-The "Suggest a title" prompt transforms Atlassian Intelligence into your personal brainstorming buddy, generating catchy and relevant title suggestions for your written content.
-Simply provide your draft, and the AI will analyze it to propose titles that:
-Capture the essence of your writing: The AI will pinpoint the key themes and topics of your content and translate them into concise and impactful titles.
-Spark curiosity and engagement: The generated titles will be designed to pique the reader's interest and encourage them to delve deeper into your work.
-Be relevant and accurate: The AI will ensure the titles accurately reflect the content of your writing, avoiding misleading or irrelevant suggestions.
-Fix spelling & grammar
-The "Fix spelling & grammar" prompt turns Atlassian Intelligence into your personal proofreading assistant, ensuring your writing conveys professionalism and clarity.
-Simply provide your text, and the AI will meticulously scan it for:
-Spelling mistakes: No more typos or embarrassing misspellings will slip through the cracks.
-Grammatical errors: The AI will identify and correct any errors in sentence structure, punctuation, and verb conjugation.
-Brainstorm
-Struggling to generate creative ideas or tackle challenges from fresh perspectives? The "Brainstorm" prompt transforms Atlassian Intelligence into your collaborative brainstorming partner, igniting your creative spark and unlocking a plethora of possibilities.
-Simply provide your topic or project, and the AI will:
-Diverse and insightful ideas: The AI will explore various angles and perspectives, offering fresh and original suggestions that push your thinking beyond the ordinary.
-Structured and organized: Your brainstormed ideas will be presented as a clear and concise bulleted list, facilitating further evaluation and selection.
-Safe and reliable: Atlassian Intelligence ensures compliance with its acceptable use policy, filtering out any inappropriate or harmful suggestions.
-Make shorter
-Struggling to express your thoughts clearly without excessive words? The "Make shorter" prompt is your solution. Atlassian Intelligence acts as your personal editor, streamlining your writing by condensing and refining your text.
-Simply provide the content you want to shorten, and the AI will:
-Identify unnecessary words and phrases. The AI will analyze your writing and pinpoint areas where the message can be conveyed with fewer words without sacrificing clarity.
-Rewrite the text using concise language. The AI will maintain the original meaning and tone of your writing while expressing it in a more streamlined manner.
-Ensure the shortened text remains engaging. The AI will craft a concise message that is still captivating and holds your audience's attention.
-Change tone
-Crafting the right tone for your writing can significantly impact how your message is received. With the "Change tone" prompts, Atlassian Intelligence empowers you to tailor the emotional and stylistic impact of your words, ensuring your communication resonates with your audience.
-Explore the pre-defined options available, including:
-Casual: Convey a relaxed and friendly atmosphere, suitable for informal communication.
-Educational: Present information in a clear and informative manner, ideal for educational content.
-Empathic: Express compassion and understanding, perfect for sensitive topics.
-Neutral: Maintain a balanced and objective tone, appropriate for formal communication.
-Professional: Project a serious and authoritative voice, ideal for business writing.
-Additionally, the freeform prompt allows you to specify any other desired tone, providing unparalleled flexibility. Simply provide a descriptive word or phrase to guide the AI in tailoring your message accordingly.
-Translate your content with prompts (beta)
-Atlassian Intelligence now offers translation prompts to help you easily translate your Confluence content into multiple languages. This can be a valuable tool for collaborating with international teams or sharing information with a global audience.
-Supported languages:
-Atlassian Intelligence currently supports translations to the following languages:
-English
-German (Deutsch)
-Japanese (日本語)
-French (Français)
-Korean (한국어)
-Spanish (Español)
-Russian (Русский)
-Dutch (Nederlands)
-Polish (Polski)
-Italian (Italiano)
-Norwegian (Norsk)
-Swedish (Svenska)
-Czech (Čeština)
-Finnish (Suomi)
-Danish (Dansk)
-Hungarian (Magyar)
-Turkish (Türkçe)
-Thai (ภาษาไทย)
-Ukrainian (Українська)
-Vietnamese (Tiếng Việt)
-Portuguese (Brazilian) (Português do Brasil)
-Chinese (Simplified) (简体中文)
-Chinese (Traditional) (繁體中文)
-While Atlassian Intelligence strives to provide high-quality translations, machine translation is not perfect. It's always recommended to review the translated content for accuracy and fluency before publishing it.
-Have ideas for new prompts or feedback on existing ones? We want to hear from you!
-If you have suggestions for new prompts or if there's a specific writing scenario you'd love to see covered, we invite you to share your ideas with us.
+Insert the content properties macro
+The content properties and content properties report macros work together to show summary information from one page or live doc on another page or live doc. You can see examples of these two macros in action in the
+Decisions
+and
+Product Requirements
+blueprints.
+Use the content properties macro
+To add the content properties macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+In the macro body create a two column table:
+In the left column, list your 'keys' – these will be the column headings in your report table
+In the right column, list the value for each key – these will populate the rows in your report table
+Add a
+label
+to your page (you'll need to specify this label in the content properties report macro)
+Save your page.
+Use the content properties macro horizontally
+To do this:
+Create a two
+row
+rather than two
+column
+table, and ensure the first row has the heading row style applied.
+List your keys in the first row, and values in the second row.
+The content properties report macro will be able to pull this information accurately even if you're using the content properties macro vertically elsewhere.
+Next you need to add the
+content properties report macro
+to another page or live doc.
+Here's an example of the content properties macro when editing. Deadline, Current Status, and Team will be column headings in the report.
+Here's what the example above will look like in the content properties report.
+Use multiple content properties macros on one page or live doc
+You can add multiple content properties macros on a single page or live doc, and choose whether to include all or only specific macros in the report. You might use multiple macros because you want the information in the macro to display in context with the rest of the content, or because you want to be able to report on individual content properties macros separately.
+The content properties macro includes an optional ID parameter that can be used to identify specific content properties macros.
+To show the contents of
+all
+content properties macros in the report:
+Add a label to the page or live doc containing the content properties macros
+Specify this label in the content properties report macro
+To show the contents of
+selected
+content properties macros in the report:
+Add a label to the page or live doc containing the content properties macros
+Specify an ID in the content properties macro that you want to report on
+Specify both the label and ID in the content properties report macro
+The content properties report macro can only accept one label, and one ID.
+See the content properties macro in action in
+How to document product requirements in Confluence
+. This powerful macro lets you create a summary page that pulls in information from multiple pages and live docs.
+To edit the content properties macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Parameter
+Default
+Description
+Content Properties ID
+(None)
+Optional ID used to identify a particular content properties macro on a page. Specify this ID in the content properties report to include summary information from macros with this ID only.
+Hidden
+False
+Determines whether the data in the content properties macro will be displayed on the current page or live doc. This setting does not affect the display of the detail in the content properties report macro.
+Notes
+You can't use macros in the left column as the data in this column is used to populate the column headings in your content properties report macro.
+It is not possible to reference the metadata using the metadata key or anywhere else on a Confluence page or live doc.
 Was this helpful?
 Yes
 No
@@ -585,27 +537,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Atlassian Intelligence features in Confluence Cloud
-Show more
-Define terms using Atlassian Intelligence
-Use Atlassian Intelligence with Confluence automation
-Learn about pre-defined prompts in Atlassian Intelligence
-Summarize a page, live doc, or blog using Atlassian Intelligence
-Summarize comments using Atlassian Intelligence
-Show more
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
 On this page
-What is a pre-defined prompt for Atlassian Intelligence?
-Freeform prompting
-Available pre-defined prompts
-Summarize writing
-Improve writing
-Find action items
-Suggest a title
-Fix spelling & grammar
-Brainstorm
-Make shorter
-Change tone
-Translate your content with prompts (beta)
+Use the content properties macro
+Use multiple content properties macros on one page or live doc
+Parameters
+Notes
 Community
 Questions, discussions, and articles
 Accessibility

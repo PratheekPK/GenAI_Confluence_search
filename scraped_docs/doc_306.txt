@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/sort-fields/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-formatting-to-your-page/
 
-Sort fields | Confluence Cloud | Atlassian Support
+Format your content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,48 +440,37 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit databases
+Create and edit content
 Cloud
 Data Center
-Sort fields
-Sorting in views
-Sorting can be saved as part of a view. For more information on creating and using views, check out our page on
-Database views
+Format your content
+You can make your Confluence content more engaging with different formatting options, from styling text to adding images and videos.
+Whether you’re making text bold, adding layouts, or embedding multimedia, you can create content that looks great and is easy to read.
+Does your toolbar look different?
+Your toolbar or editing controls may appear differently from usual, or from how they appear in this documentation. We’re rolling out features that are subject to change.
+How to pin your toolbar and navigate editing updates
+This page is your starting point for learning how to create and edit content in Confluence cloud.
+Check out:
+Text
+: Learn how to style your text with bold, italics, color, and alignment.
+Links
+:
+Find out how to insert and manage links to connect your content to other pages and live docs or websites.
+Images, videos, GIFs, and files
+:
+See how to add and customize images, videos, and other media to make your content more dynamic.
+Tables
+:
+Learn how to create and format tables to organize your data clearly.
+Charts
+:
+Find out how to create and customize charts to display your data.
+Layouts
+:
+Explore how to change layouts to better organize your content.
+To learn more about inserting basic elements like dates and statuses, see
+Insert elements into your content
 .
-Databases aren’t available in the
-Atlassian Government environment
-.
-You can sort your database so that items show in order based on a selected field. Items can appear in ascending or descending order.
-Add a sort
-To create a sort:
-Select
-Sort
-at the top of your database or the
-Sort
-option while editing a view.
-Select the
-+ Add sort
-button.
-Select the field that you'd like to sort by from the list of unsorted fields in the database.
-Select the sort criteria (ascending or descending).
-Different fields are sorted by different logic, depending on their value type.
-To edit a sort:
-Select the sort criteria dropdown.
-Select the updated desired sort.
-Alternatively, sorts can be edited by selecting the arrows for sorted fields in the field header, changing between ascending and descending.
-To delete a sort:
-Select
-More actions
-on an existing sort.
-Select the
-Delete sort
-option.
-To reorder a sort:
-All entries are sorted based on the criteria of the sorts and the order they are listed.
-Select
-More actions
-on an existing sort.
-Select the reordering option relevant to your desired order.
 Was this helpful?
 Yes
 No
@@ -492,20 +481,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
+Create and edit content
 Show more
-Layouts and options
-Filter your data
-Sort fields
-Hide fields in your database
-Import data into your database
+Create and collaborate in real time with live docs
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
 Show more
-On this page
-Add a sort
-To create a sort:
-To edit a sort:
-To delete a sort:
-To reorder a sort:
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/browser-support-and-settings-for-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-is-a-confluence-group/
 
-Browser support and settings for whiteboards | Confluence Cloud | Atlassian Support
+What is a Confluence group? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,109 +439,45 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Manage your account and permissions in Confluence Cloud
+Manage permissions at the content level
 Cloud
 Data Center
-Browser support and settings for whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+What is a Confluence group?
+For Confluence administrators,
+grouping users in Confluence
+is a great way to cut down the work required when managing permissions and restrictions. Groups are also very useful, however, to anyone who's a
+space admin
+, or can apply page restrictions.
+If you're a space admin, you can assign a set of
+space permissions
+to a group rather than to each individual user. And as a page creator with 'Add/Delete Restrictions' permission, you can also
+add and remove page restrictions
+for groups.
+Default Confluence groups
+There are some default groups in every Confluence instance but, beyond that, Confluence administrators are free to set up and edit groups in any way they see fit.
+The two special groups in Confluence are:
+administrators
+- these users have permissions to add and administer users, and access the
+Confluence Admin
+console.
+users
+- this is the default group into which all new users are assigned. Permissions defined for this group will be assigned to all new Confluence users.
+Your Confluence instance may have other groups, and the names of your default groups may differ if they've been edited by a Confluence admin. See
+Create and update groups
 .
-What platforms/browsers support Confluence whiteboards?
-Today, Confluence whiteboards are supported on the following browsers:
-Chrome
-Firefox
-Microsoft Edge
-Safari
-Please update your browser to the latest version to prevent performance issues.
-We support viewing Confluence whiteboards through web browsers on mobile devices.
-Whiteboards are not yet supported on Confluence’s native mobile app.
-Browser settings
-Hardware acceleration
-You must enable hardware acceleration to use Confluence whiteboards.
-To support the rendering of many elements on whiteboards, the whiteboard application uses hardware acceleration to use high-performance rendering capabilities inside modern browsers.
-To enable hardware acceleration:
-For Chrome
-These instructions are for Chrome version 121.0.6167.85. See
-Chrome support documentation
-for more information.
-Launch Chrome
-Navigate to the
-Settings
-page (select the three dots icon in the top-right corner of your browser)
-Select the
-System
-tab
-Toggle ‘
-Use hardware acceleration when available
-’ on
-For Firefox
-These instructions are for Firefox version 122. See
-Firefox support documentation
-for more information.
-Launch Firefox
-Navigate to the
-Settings
-page (select the three lines icon in the top-right corner of your browser)
-In the
-General
-tab, scroll to the
-Performance
-section
-Uncheck ‘
-Use recommended performance settings
-’
-Check ‘
-Use hardware acceleration when available
-’
-For Microsoft Edge
-These instructions are for Microsoft Edge version 121.0.2277.98. See
-Microsoft Edge support documentation
-for more information.
-Launch Microsoft Edge
-Navigate to the
-Settings
-page (select the three dots icon in the top-right corner of your browser)
-Select the
-System and Performance
-tab
-Toggle ‘
-Use hardware acceleration when available
-’ on
-WebGL
-You must have WebGL installed and enabled to use Confluence whiteboards.
-WebGL is a capability available in all modern browsers which enables high-performance rendering.
-To check if your browser supports WebGL - follow
-this
-link and the steps provided.
-Advanced rendering might not be available due to your company's security policies. If this is the case, please contact your IT team for assistance.
-For Chrome & Microsoft Edge
-Chrome & Microsoft Edge browsers fully support WebGL.
-Ensure your browser is updated to the most recent version & ensure hardware acceleration is enabled to prevent any issues.
-For Firefox
-Navigate to about:config
-Search for
-webgl.force-enabled
-and toggle this preference to true
-Search for
-webgl.disabled
-and toggle this preference to false
-Restart your Firefox browser to apply these new settings
-Troubleshooting issues
-Error screens
-If you see the “Update your display driver” error, hardware acceleration will likely be disabled. To fix this, follow the steps above.
-If you consistently see “Looks like you’re offline. We’ll sync any offline changes when you’re back.” You may need to contact your IT team to whitelist
-*.atlassian.com
-or ensure
-http://canvas-workers.atlassian.com/
-is on your allowlist and that web-sockets protocols are allowed. To check your compatibility with the whiteboards editor, use our
-compatibility check tool
-.
-Slow performance
-If your application is slow - it is likely WebGL is not enabled & installed or hardware acceleration has been turned off.
-If you need help, contact support
-here
-.
+Anonymous Users
+All users who don't log in when they access Confluence are know as 'anonymous' users. By default, anonymous users don't have access to view or change any content in your Confluence instance, but Confluence admins can assign permissions to this group if it's required.
+Overlapping group and user permissions
+When a user is assigned more than one permission, the more powerful permission will prevail.
+Further explanation:
+A user may be assigned a permission specifically to their username. They may also be assigned a permission by belonging to a group, or even several groups.
+The user will then be able to perform all functions assigned to them.
+So if a user is allowed to do something over and above what the group can do, the user will be able to do it. And if the group is allowed to do something over and above the specific permissions granted to the user, the user will still be able to do it.
+If anonymous users are allowed to do something over and above what the user or group can do, the user will be able to do it, (even while logged in).
+Unlicensed users from linked applications
+If you're using Confluence as a knowledge base for Jira Service Desk, your Jira Service Desk administrator can choose to allow all active users and customers (that is logged in users who do not have a Confluence license) to view specific spaces.
+These users have very limited access, and cannot be granted permissions in the same was as an individual or group. However, it's important to note that this permission overrides all existing space permissions, so any logged in Confluence user will also be able to see the space (regardless of their group membership). This is due to the way Confluence inherits permissions.
 Was this helpful?
 Yes
 No
@@ -552,22 +488,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Show more
-Whiteboards impact on third-party apps
-Understand Confluence whiteboards plans and features
-Browser support and settings for whiteboards
-Atlassian Intelligence in Confluence whiteboards
-Draw freeform lines with pen
-Show more
+Manage permissions at the content level
+Change who can find content and what they can do with it
+Confluence permissions structure
+Troubleshoot access problems to content
+What is a Confluence group?
 On this page
-What platforms/browsers support Confluence whiteboards?
-Browser settings
-Hardware acceleration
-WebGL
-For Chrome & Microsoft Edge
-For Firefox
-Troubleshooting issues
+Default Confluence groups
+Anonymous Users
+Unlicensed users from linked applications
 Community
 Questions, discussions, and articles
 Accessibility

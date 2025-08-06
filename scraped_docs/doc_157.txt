@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/export-content-from-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/promote-a-template/
 
-Export content from Confluence Cloud | Confluence Cloud | Atlassian Support
+Promote a template | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,16 +439,29 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Space administration
+Create templates, blueprints, and reports
 Cloud
 Data Center
-Export content from Confluence Cloud
-Wide tables may be cut off in PDF export
-Review suggestions for ensuring that large tables don't get cut off when exporting content to PDF.
-View topic
-Cases where PDF Export may revert to using legacy exporter
-Learn about conditions when your PDF export might use an older version of the feature.
-View topic
+Promote a template
+Space admins can promote specific templates in the spaces they administer to make them easier to find. When you promote a template, it will appear near the top of the list in the panel.
+To promote a template:
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Select
+Templates
+from the
+Look and feel
+card.
+Find the template in the table and select
+Promote
+.
 Was this helpful?
 Yes
 No
@@ -459,17 +472,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Wide tables may be cut off in PDF export
-Cases where PDF Export may revert to using legacy exporter
-Create and organize work in Confluence Cloud
-Show more
-Create and edit whiteboards
-Create and edit databases
-Export content from Confluence Cloud
-Get to know the new and simplified content layout
-How to use the new toolbar and insert elements
-Show more
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-page-level/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-and-delete-custom-event-types/
 
-Manage permissions at the content level | Confluence Cloud | Atlassian Support
+Add and delete custom event types | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,61 +439,40 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Manage permissions at the content level
-What are content-level permissions?
-Confluence lets you customize permissions at the site, space, and page level so that they're just right for you.
-You can’t restrict access to content on the
-Free plan
-.
-Here's a quick rundown of permissions at different levels within Confluence:
-Global-level permissions
-Confluence admins control this. At the global level, admins can control global permissions, such as who can create spaces in Confluence, and default space permissions, where admins can configure the default permissions settings for new spaces created.
-Space-level permissions
-Space admins control this. At the space level, admins decide what each user or group can do in
-that
-space.
-Content-level permissions
-Anyone who has permission to edit the content
-and
-to overall edit content in the space can change access to content items.
-Tip:
-If there are no content restrictions on a content item but someone still can't view or edit it, it's likely because they don't have the necessary
-space permissions
-. See
-Troubleshoot access problems to content
-to learn more.
-Some other things to keep in mind
-Open by default
-Confluence is open by default, which means it starts from a place of ‘everyone can access everything’ but lets you restrict where you need to.
-Confluence groups
-Instead of applying restrictions to individuals, use
-Confluence groups
-to save on typing out individual names.
-Additive permissions
-Confluence permissions are additive. This means that if someone is in two Confluence groups, and one group has permission to view a content item while the other does not, that person will still be able to view the content item because at least one of the groups they're in has permission to view it.
-A restrictive model
-Confluence's permissions model is set up so that content can only be further restricted from whatever the container is set at. A content item cannot have greater access than its container, which may be the space or another content item.
-Anonymous access
-You can make certain spaces (or even your whole site)
-available to the public
-, which means that anyone on the internet would be able to access your content.
-Mentioning users
-If a user doesn't have access to the content, they won't receive a notification when @ mentioned.
-Change who can find content and what they can do with it
-Set view and edit restrictions on a content item that you're not ready to share with everyone, or on one that contains sensitive information
-View topic
-Confluence permissions structure
-Gain a general overview of Confluence Cloud's permissions model.
-View topic
-Troubleshoot access problems to content
-Solve any issues you're having with people accessing your content.
-View topic
-What is a Confluence group?
-Learn how to use Confluence groups to streamline how you and your organization manage permissions at scale.
-View topic
+Add and delete custom event types
+Event types allow you to categorize your events, making them easier to view and manage; custom event types take this a step further by giving you complete freedom to track any kind of event you can think of – so if you need to create events for training, email campaigns, outages, or anything else, Team Calendars is up to it.
+Add a custom event type
+You'll need
+editing privileges
+for the calendar to add custom event types.
+Choose
+to the right of the calendar's name, then
+Edit.
+Choose
+Event Types
+on the left, then choose
+Add new event type.
+Enter the
+Event Name
+, select an
+Event Icon,
+and hit
+Save.
+That's it! Your new event type won't appear in the sidebar immediately, but it'll show up as soon as you
+add an event
+of that type.
+Delete a custom event type
+If you no longer need a custom event type, you can delete it by choosing
+Edit
+>
+Event Types
+, then choose the
+icon to the right of the event type.
+Deleting a custom event type will delete all events within that event type! If there are any events you want to keep, make sure you move them to another event type before deleting.
 Was this helpful?
 Yes
 No
@@ -504,17 +483,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Change who can find content and what they can do with it
-Confluence permissions structure
-Troubleshoot access problems to content
-What is a Confluence group?
-Manage your account and permissions in Confluence Cloud
-Manage your account
-Manage permissions at the content level
+Use Team Calendars for Confluence (Premium feature)
+Show more
+Add Jira events
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Show more
 On this page
-What are content-level permissions?
-Some other things to keep in mind
+Add a custom event type
+Delete a custom event type
 Community
 Questions, discussions, and articles
 Accessibility

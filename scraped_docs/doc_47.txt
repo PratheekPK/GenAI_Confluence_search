@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-data-into-your-database/
+URL: https://support.atlassian.com/confluence-cloud/docs/set-system-properties/
 
-Import data into your database | Confluence Cloud | Atlassian Support
+Set system properties | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,74 +439,53 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Import data into your database
-Databases aren’t available in the
-Atlassian Government environment
-.
-Importing data into your database is a straightforward process. This guide will help you through each step, from uploading your content to fine-tuning the imported entries.
-Upload content into your database
-There are three main ways to upload structured content into your database:
-Copy and paste
-:
-Directly copy the content from a database and paste it into another database.
-Connect:
-Select the
-Templates and import
-option
-in the
-•••
-(More) menu of your database. This will open the
-Database setup
-panel. Under the
-Connect
-heading, you’ll see options for connecting to Jira or Confluence.
-Using these options, you can import Jira issues or Confluence pages directly into your database. This will replace the current database, removing any fields and values in it.
-Import
-:
-Select the
-Templates and Import
-option of your database. This will open the
-Database setup
-panel.
-Under the
-Import
-heading, you can upload files in CSV format.
-Setting up your database structure
-When using the
-Import
-option, you can either let the imported data match your pre-configured database structure, or let the imported file set your initial database structure through automatic detection of field types and headers.
-If you are importing to an empty database, the imported content will replace the existing database once you upload your file.
-If you are importing to a non-empty database, you’ll see an additional dialog step with three options:
-Create new fields in this database
-: Values will be added as new fields to the right and bottom of the existing data, offering flexibility to compare the new data side-by-side with existing data or re-arrange the new data.
-Add data to existing fields
-: Opens an additional dialog step where you can manually match columns from your CSV to existing fields in your database.
-Replace the entire database
-: Replace all existing values and fields from your csv data.
-Once you make a selection, select
-Confirm
-to apply the changes to your database.
-Fine-tune imported data
-If you opt to
-create new fields in this database
-or
-replace the entire database,
-the import process will automatically detect field types for numbers, tags, and Smart Links, defaulting to text.
-Importing larger CSVs will result in a more accurate conversion for the tag field.
-The first row of the CSV will be used as field names, using default field names for any empty values and renaming duplicates as needed.
-After import, you can further modify your database structure:
-Use the field settings panel to convert field types, rename your field, or otherwise change field settings.
-Use copy/paste to re-arrange the data.
-Delete content as you see fit.
-By following these steps, you can efficiently import and integrate data into your database.
-Note:
-String fields in CSV may get converted to tag fields. This generally happens if most of the values in CSV are non unique.
-Confluence databases assume month comes first for dates, so 12/06/2025 will be treated as December 6, 2025 rather than Jun 12, 2025.
-We do not support date field through autoconversion/autodetection.
+Set system properties
+Team Calendars supports some configuration and debugging settings that can be enabled through Java system properties. System properties are usually set by passing the
+-D
+flag to the Java virtual machine in which Confluence is running. See the
+full instructions
+. These are mainly useful in the case of troubleshooting or performance issues. Feel free to raise a
+support request
+if you're having any trouble with Team Calendars.
+Property
+Default Value
+Effect
+com.atlassian.confluence.extra.calendar3.notification.enabled
+true
+com.atlassian.confluence.extra.calendar3.concurrent.task.max
+20
+The max number of worker threads used by Team Calendars.
+com.atlassian.confluence.extra.calendar3.greenhopper.sprint.enabled
+true
+If set to false GreenHopper integration is disabled.
+com.atlassian.confluence.extra.calendar3.jira.timeout.socket
+10000
+Timeout in milliseconds for the connection to Jira. Increasing this may help if you experience timeouts on Jira calendars.
+com.atlassian.confluence.extra.calendar3.jira.issues.max
+1000
+The maximum number of events that will be loaded from a Jira calendar. Increasing this may cause performance issues.
+com.atlassian.confluence.extra.calendar3.display.events.dashboard.maxperday
+10
+The maximum number of events that will be shown per day on the upcoming events view on the Confluence dashboard.
+com.atlassian.confluence.extra.calendar3.display.events.calendar.maxpercalendar
+200
+The maximum number of events that can be displayed from a single calendar.
+com.atlassian.confluence.extra.calendar3.display.events.calendar.maxperdaysummary
+3
+The maximum number of events that will be shown per day in the summary email.
+com.atlassian.confluence.extra.calendar3.display.events.calendar.maxdailysummary
+4
+The maximum number of events that will be shown in total in the daily summary email.
+com.atlassian.confluence.extra.calendar3.display.events.calendar.maxweeklysummary
+8
+The maximum number of events that will be shown in total in the weekly summary email.
+com.atlassian.confluence.extra.calendar3.display.timeline.calendar.maxmonth
+6
+The maximum number of months that will be shown in the timeline view.
 Was this helpful?
 Yes
 No
@@ -517,18 +496,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
+Use Team Calendars for Confluence (Premium feature)
 Show more
-Sort fields
-Hide fields in your database
-Import data into your database
-Export your database data
-Duplicate a database setup
-Show more
-On this page
-Upload content into your database
-Setting up your database structure
-Fine-tune imported data
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
 Community
 Questions, discussions, and articles
 Accessibility

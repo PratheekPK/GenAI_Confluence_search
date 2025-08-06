@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-space-details-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-and-organize-work-in-confluence-cloud/
 
-Insert the space details macro | Confluence Cloud | Atlassian Support
+Create and organize work in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,75 +439,59 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
 Cloud
 Data Center
-Insert the space details macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Space Details macro displays the details of a Confluence space, including the space name, description, and more.
-Use the Space Details macro
-To add the Space Details macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Space Details macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control the content or format of the macro output. Where the parameter name used in Confluence storage format or wikimarkup is different to the label used in the browser, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Width of Table
-(width
-)
-100%
-The width of the space details table, specified as a percentage (%) of the page width.
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-space-details
-Macro body:
-None.
-{space-details:width=50%}
-Was this helpful?
-Yes
-No
-It wasn't accurate
-It wasn't clear
-It wasn't relevant
-Provide feedback about this article
-Still need help?
-The Atlassian Community is here for you.
-Ask the Community
-On this page
-Use the Space Details macro
-Parameters
-Wiki markup example
-Community
-Questions, discussions, and articles
+Create and organize work in Confluence Cloud
+Navigate around Confluence
+Find out how to get around Confluence using the ever-present navigation bar and the Home page.
+View topics
+Use spaces to organize your work
+Pick up various suggestions for using spaces to organize your team's work.
+View topics
+Find content in Confluence Cloud
+Learn about the various ways to find the pages and blogs you need.
+View topics
+Create and edit content
+Create beautiful pages that get the job done.
+View topics
+Keep content organized
+Learn how to keep content organized by moving, copying, and hiding pages, as well as how to manage the page lifecyle.
+View topics
+Upload and manage files
+Get the details you need to upload, edit, manage, and share files.
+View topics
+Present your content with Presenter mode
+Showcase the content on a page or blog post with reduced distractions using Presenter mode.
+View topic
+Atlassian Intelligence features in Confluence Cloud
+Learn how to use Atlassian Intelligence features in Confluence Cloud to help improve your writing and streamline your work.
+View topics
+Use Loom in Confluence Cloud
+Learn how to record and share Loom videos in Confluence.
+View topics
+Create and edit whiteboards
+Learn how to create and use whiteboards in Confluence Cloud.
+View topics
+Create and edit databases
+Learn how to create and use databases in Confluence Cloud.
+View topics
+Export content from Confluence Cloud
+Learn how admins can customize PDF exports and how users can export content to Word, PDF, HTML, and XML.
+View topics
+Get to know the new and simplified content layout
+Stay informed about beta improvements to headers, menus, and toolbars across Confluence
+View topics
+How to use the new toolbar and insert elements
+Stay informed about beta improvements to headers, menus, and toolbars across Confluence
+View topics
+Import data from other tools into Confluence
+Learn how to import data into Confluence.
+View topics
+Review macros only available in the legacy editor
+Learn more about the macros that are only available in the legacy editor.
+View topics
+The Confluence legacy editor
+View topics
 Accessibility
 Notice at Collection
 Privacy Policy

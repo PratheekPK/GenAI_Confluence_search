@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/hide-external-links-from-search-engines/
+URL: https://support.atlassian.com/confluence-cloud/docs/administer-global-templates/
 
-Hide external links from search engines | Confluence Cloud | Atlassian Support
+Manage Confluence content templates | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,40 +440,46 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
-Security settings in Confluence Cloud
 Cloud
 Data Center
-Hide external links from search engines
-Hiding external links from search engines helps to discourage spammers from posting links on your instance. If you turn this option on, any URLs inserted in pages and comments will be given the 'nofollow' attribute, which prevents search engines from following them.
-Shortcut links (e.g. CONF-2622@Jira) and internal links to other pages within
-Confluence Cloud
-are not tagged.
-To hide external links from search engines:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Security
-in the left-hand navigation.
-Select
-Security configuration
+Manage Confluence content templates
+Global templates are content templates that are available in every space on your instance. As a
+Confluence administrator
+, you can control which templates are available globally, edit existing templates, create your own, and even install new ones from the
+Atlassian Marketplace
 .
-Check the
-Hide External Links From Search Engines
-box.
-Select
-Save
-at the bottom of the page.
-Background to the nofollow attribute
-As part of the effort to combat the spamming of wikis and blogs (
-Confluence Cloud
-serving in both capacities), Google came up with
-some markup
-that instructs search engines not to follow links. By removing the main benefit of wiki-spamming it's hoped that the practice will stop being cost-effective and eventually die out.
+You can also learn about managing
+content templates
+, blueprints, and reports in a specific space.
+What’s the difference between a template and a blueprint?
+Blueprints are templates created by Atlassian or by third-party developers. From an end-user perspective, blueprints and templates are the same, but there are some important differences for administrators.
+Site administrators
+can:
+Install global blueprints from the
+Atlassian Marketplace
+Enable and disable global blueprints
+Edit existing global blueprints
+Promote and unpromote global blueprints
+Space administrators
+can:
+Enable and disable blueprints for the space they manage
+Edit blueprints to customize them for their space
+Promote and unpromote blueprints within their space
+Neither site administrators nor space administrators can create blueprints. However, they can
+create custom templates
+.
+Create a global content template
+Add custom pages templates to your Confluence template gallery.
+View topic
+Edit a global content template
+Edit a global template.
+View topic
+Install a global blueprint
+Find and install global templates in the Atlassian Marketplace.
+View topic
+Manage global content templates and blueprints
+Learn how to delete global templates and disable global blueprints.
+View topic
 Was this helpful?
 Yes
 No
@@ -484,10 +490,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Explore more
+Create a global content template
+Edit a global content template
+Install a global blueprint
+Manage global content templates and blueprints
+Confluence administration
+Show more
+Manage global permissions in Confluence administration
+Manage analytics permissions in Confluence administration
+Manage Confluence content templates
+Configuration settings in Confluence Cloud
 Security settings in Confluence Cloud
-Hide external links from search engines
-Disable anonymous access to remote API
-Turn on Captcha for spam prevention or failed logins
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

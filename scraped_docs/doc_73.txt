@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/database-views/
+URL: https://support.atlassian.com/confluence-cloud/docs/customize-a-sites-color-schemes/
 
-Database views | Confluence Cloud | Atlassian Support
+Customize the navigation colors | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,67 +439,63 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Confluence administration
+Look and feel settings in Confluence Cloud
 Cloud
 Data Center
-Database views
-Databases aren’t available in the
-Atlassian Government environment
+Customize the navigation colors
+As a Confluence admin, you can configure a custom color scheme for the navigation. It might be to brand your instance with your corporate colors, or just because you like a particular color.
+To quickly change your color scheme,
+upload your company logo
+. Confluence will use the colors to automatically update the color scheme.
+When modifying the color scheme, you can control the following areas.
+Highlight color
+— This setting lets you control the
+Create
+button’s background color
+If the application is taking a little time to load, a progress bar shown below the navigation bar uses the accent color.
+Background color
+— You can customize the top navigation bar’s background color. If you set a background color in earlier versions of Confluence, that background color is maintained.
+Change the color scheme
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Look and feel
+>
+Customize navigation
 .
-Depending on your needs, you can view the same database in multiple ways and change between them. You can select a layout and add filters and sorts to categorize your content within a view easily.
-Create and switch views
-When you first create a database, the default view is View 1. After this, you can create a new view by selecting
-+
-next to your existing views.
-Depending on your screen size, you may have to open the menu next to your current view and select
-Add view
+(Optional)
+Upload a custom logo
 .
-The
-View settings
-dialog will open. You must name the new view and configure the layout, filters, sorting, and hidden fields.
-Switch views by simply selecting the tab of the view you want to use.
-Temporary views
-You can change layouts, apply filters, sort, and hide fields without saving them as a new view. This allows you to change how you see the data in your database temporarily. Only you can view temporary views; you will lose any changes when you refresh the page or navigate away. To keep or share these view changes, you must save them as a new view or save the changes to an existing view.
-Customize views
-Each view of the database has several components that you can customize:
-Layout and Layout options:
-Choose how you want your database to be visually organized and configure options for your views selected layout.
-See
-Layouts and options
-for more information on different layout options.
-Filters:
-Add criteria based on field values to show or hide data.
-See
-Filter your data
-for more information on filter options.
-Sorts:
-Sort by a field to change the order in which you display entries.
-See
-Sort fields
-for more information on sorting fields.
-Hide field:
-Show or hide database fields for each view.
-See
-Hide fields in your database
-for more information on hiding fields in a view.
-View actions
-When you’re in a given view, select the arrow next to its name to access the following option:
-Edit view
-Make default
-Copy link
-Delete view
-Share views
-Once you've created your view, you can share it with others in two ways:
-Copy and paste the URL:
-With the desired view active, simply copy the URL from your web browser's address bar. This link will automatically display your chosen view when pasted onto a Confluence page, or anywhere that supports Smart Links.
-Use the 'Copy link' option:
-When you're in a given view, select the arrow next to its name, and select
-Copy link
-from the view actions menu. This will provide a ready-made URL to share.
-Want to learn more about advanced sharing options and permissions? Our documentation has a section on
-Share databases, entries, or values
+Enter a color code or use the color-picker to choose a new color.
+Select
+Save.
+Any changes you save are immediately reflected across Confluence.
+The navigation text color is automatically chosen for you in order to optimize legibility. For example, if your background color is white, the text color chosen provides the greatest contrast with some shade of dark grey; if you background is black or blue, the text color is some shade of white.
+Your selected background colors will also respond to the user’s choice of Dark or Light themes. When the user is in Dark theme, the background color will be slightly darker.
+Reset your color scheme after uploading a site logo
+When you upload a site logo, Confluence automatically detects the colors in your logo and customizes the color scheme for you. You can change the color scheme as above, or reset your color scheme back to the default (and still keep your new site logo).
+To reset the color scheme:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Look and feel
+>
+Customize navigation
 .
+Select the
+Highlight color
+or
+Background color
+dropdown to open the color picker.
+Select
+Reset to default.
 Was this helpful?
 Yes
 No
@@ -510,20 +506,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
-Show more
-Database fields
-Share databases, entries, or values
-Database views
-Layouts and options
-Filter your data
-Show more
+Look and feel settings in Confluence Cloud
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
 On this page
-Create and switch views
-Temporary views
-Customize views
-View actions
-Share views
+Change the color scheme
+Reset your color scheme after uploading a site logo
 Community
 Questions, discussions, and articles
 Accessibility

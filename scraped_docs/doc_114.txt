@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-lorem-ipsum-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/getting-started-with-confluence-whiteboards/
 
-Insert the lorem ipsum macro | Confluence Cloud | Atlassian Support
+Getting started with Confluence whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,63 +440,95 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Create and edit whiteboards
 Cloud
 Data Center
-Insert the lorem ipsum macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Loremipsum macro displays paragraphs of pseudo-Latin text (
-more information
-). You can use this macro to generate more-or-less meaningless text for demonstration purposes in pages showing a draft layout or arrangement of page elements. The text is deliberately non-meaningful so that it does not influence the viewer's perception of the page arrangement or design.
-Use the Loremipsum macro
-To add the Loremipsum macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Loremipsum macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Number of Paragraphs
-3
-Determines the amount of pseudo-Latin (space-filler) text to display. The macro will display a maximum number of 30 paragraphs.
-Parameter is unnamed in storage format and wikimarkup.
-Wiki markup example
-Wiki markup is only supported in the legacy editor.
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-loremipsum
-Macro body:
-None.
-{loremipsum:2}
+Getting started with Confluence whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
+.
+Your whiteboard
+The whiteboard is one infinite canvas to explore your ideas. All whiteboards will have a lined grid background.
+Navigate back to your whiteboard in your space.
+Select from one of our best-practice templates to get started.
+Access whiteboard-specific tools such as sticky notes, text, lines, shapes, stickers, and stamps.
+Use the floating toolbar to edit and annotate.
+Select
+Share
+to open the share dialog for your whiteboard. Invite people, copy a link to the whiteboard, or update the share settings.
+See who’s collaborating on your board.
+Add or remove whiteboard restrictions through the lock icon in the top navigation.
+Start a timer to stay on track by selecting the clock icon in the right toolbar.
+Use the zoom to adjust your view settings.
+What’s inside your toolbar?
+What are the navigation tools?
+Pan, zoom and move around your whiteboard using navigation tools.
+Learn more about navigation
+Use the cursor to select and move objects.
+Use the hand tool to pan and zoom.
+What are sticky notes?
+Sticky notes on whiteboards are just the virtual equivalent of the sticky notes we all know and love. Use them to get down your thoughts and move them around the whiteboard to organize ideas or patterns.
+Unlike paper sticky notes, whiteboard sticky notes can be as small or as big as you need to explore your ideas. Note: Sticky notes can only contain text and emojis.
+Learn more about sticky notes
+Use sticky notes for:
+brainstorm sessions
+retrospectives
+as cards in a ‘Card sorting’ exercise
+Kanban boards, to-do lists, or project management
+anything you need to get out of your mind!
+What are lines?
+Use lines to create paths between sticky notes, text objects, or shapes. They’ll help you organize your whiteboard and create a flow of thought.
+In whiteboards, we have:
+straight lines
+dynamic lines
+Lines can also be connectors between things.
+Learn more about lines and connectors
+What is the text tool?
+Use the text tool to create blocks of body text with titles and headings, or take down some quick ideas.
+Learn more about text
+What are shapes?
+Use a variety of shapes to build diagrams, mind maps, and flowcharts. You can add text to the shapes to note down thoughts and use connector lines to connect them.
+Learn more about shapes
+What are stamps and stickers?
+Sometimes, visualizing feedback and reactions can be more valuable than doing so with text. Use stamps and stickers to do this and, at the same time, bring your whiteboards to life.
+Stamps are more granular representations of how someone feels about a specific idea, piece of content on a board, etc. They're generally used to vote on an idea or sticky note.
+Stickers are more macro-level and are used to add a bit of fun to a board, replace a heading, or convey a feeling (not necessarily about a specific piece of content on the board).
+Learn more about stamps and stickers
+What is the image tool?
+Add life to your whiteboard using images. You can get the team to share photos from their favorite holiday as an icebreaker, add them to brainstorms, insert screenshots, or build vision boards.
+Learn more about images
+How does linking work on whiteboards?
+Add more context to your whiteboarding sessions using links. You can link to pages outside of whiteboards, Jira issues, Confluence pages, or your favorite cloud apps and websites.
+Learn more about inserting links
+Integrate whiteboards into your Atlassian workflow
+At its core, whiteboards bridge the gap between where teams think and where teams do. Teams can think freely on whiteboards and act in
+Jira
+, Trello, and Confluence.
+With whiteboards and the Atlassian platform, a button click turns their ideas into actionable projects and tasks.
+Create Jira issues from whiteboards
+Quickly turn sticky notes and shapes into single or multiple Jira issues - in
+Jira
+or Jira Product Discovery. This will help turn ideas on whiteboards into actionable work items in Jira.
+Learn more about creating issues in whiteboards
+Import Jira issues
+The Jira issue import dialog lets you search for and insert single or multiple Jira issues into your whiteboard. You can use a simple plain text search or more advanced Jira Query Language (JQL) to find issues. It works for
+Jira
+, Jira App Discovery, and Jira Service Management.
+Learn more about importing Jira issues
+Embed your whiteboard into Jira, Confluence, and Trello
+Easily embed ideas and add visualization to your workflows by embedding a whiteboard Smart Link to project posters, product roadmaps, kanban boards, and more.
+Learn more about Smart Links
+Move ideas from your whiteboard into Jira and Confluence
+If you’re not looking to showcase your entire whiteboard elsewhere, take the ideas you need or want to your other apps, Be it after brainstorming or a retro - get things happening by copying text, sticky notes, or shapes into a Confluence page or a Jira issue description.
+Learn more moving content from your whiteboard
+Shortcuts
+View whiteboard keyboard shortcuts in the shortcuts panel:
+Select the
+question mark
+icon in the top right corner.
+Select
+Keyboard shortcuts
+and view all shortcuts.
 Was this helpful?
 Yes
 No
@@ -507,10 +539,30 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Create and edit whiteboards
+Getting started with Confluence whiteboards
+Create a new whiteboard
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Show more
 On this page
-Use the Loremipsum macro
-Parameters
-Wiki markup example
+Your whiteboard
+What’s inside your toolbar?
+What are the navigation tools?
+What are sticky notes?
+What are lines?
+What is the text tool?
+What are shapes?
+What are stamps and stickers?
+What is the image tool?
+How does linking work on whiteboards?
+Integrate whiteboards into your Atlassian workflow
+Create Jira issues from whiteboards
+Import Jira issues
+Embed your whiteboard into Jira, Confluence, and Trello
+Move ideas from your whiteboard into Jira and Confluence
+Shortcuts
 Community
 Questions, discussions, and articles
 Accessibility

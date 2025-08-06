@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-live-docs-in-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-attachment-size/
 
-Configure live docs in Confluence | Confluence Cloud | Atlassian Support
+Configure attachment size | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,62 +440,35 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
-Set Confluence-wide functionality
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Configure live docs in Confluence
-What are live docs?
-Live docs
-offer a dynamic, efficient, and collaborative way to create and share written content in Confluence.
-With live docs, you can create frictionless content that can be edited and collaborated on instantly. Any changes made to your live doc are automatically saved and reflected to all viewers in real time.
-How do I turn live docs on or off for my space?
-Live docs can be turned
-on
-or
-off
-in any given space by admins.
-To turn live docs
-on
-in any space, so that anyone in the space can create them, admins can select
-Space settings
-from the
-More actions
-(
-…
-) menu of any space.
-Then, select
-Features
-from the
-General
-menu. A menu of feature toggles will appear.
-Under
-Content
-, toggle
-Live docs
-on
-in order to allow users in the space to create them.
-Live docs are distinct from pages, and existing pages in the space will not be affected.
-This toggle can be turned off anytime. Live docs that were created while the toggle was on
-will remain as is
+Configure attachment size
+Confluence Cloud
+gives you the option of limiting the maximum size of a single file attachment.
+To configure the maximum size allowed for an attachment:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+General configuration
 .
-Creating a brand new space and toggling the
-Live docs
-feature on will also provide default access to live docs.
-Note
-: With the new content layout enabled, Marketplace app buttons in the header of pages and live docs will not be supported. Impacted apps are in the process of being supported in other locations. To learn more, visit this
-status page
+Scroll down to
+Attachment settings
 .
-Bulk conversion
-Admins can convert pages to live docs in bulk via
-Content manager
-in
-Space settings
+Enter your preferred maximum size (in bytes) In the
+Attachment maximum size
+field. The default is 100 megabytes, expressed as 104857600 bytes.
+Select
+Save configuration changes
 .
-Select all pages you want to convert to live docs from the
-Title
-column, then select
-Convert to live doc
-from the floating toolbar. Once you confirm that you’re ready to convert all items, you should see a success message that the conversion is complete.
 Was this helpful?
 Yes
 No
@@ -506,17 +479,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
+Configuration settings in Confluence Cloud
 Show more
-Create a custom space overview template
-Turn off page reactions
-Customize layout for PDF exports in Confluence Cloud
-Convert legacy editor pages in all spaces
-Configure live docs in Confluence
-On this page
-What are live docs?
-How do I turn live docs on or off for my space?
-Bulk conversion
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

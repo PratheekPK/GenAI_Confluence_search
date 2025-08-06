@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/administer-confluence-cloud-sites/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-decision-report-macro/
 
-Confluence administration | Confluence Cloud | Atlassian Support
+Insert the decision report macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,47 +439,66 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
+Extend the functionality of Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Confluence administration
-Get started as Confluence Cloud administrator
-Get started on the things you need to know as a Confluence Cloud admin.
-View topic
-Set Confluence-wide functionality
-Set up default settings for Confluence Cloud.
-View topics
-Monitor and manage activity in Confluence Cloud
-Confluence administrators can learn where to proactively monitor and respond to insights and events across Confluence.
-View topics
-Premium admin tools for Confluence Cloud
-Learn about premium tools available to Confluence administrators with a Premium or Enterprise plan.
-View topics
-Manage global permissions in Confluence administration
-Everything a Confluence admin needs to know about managing global permissions.
-View topics
-Manage analytics permissions in Confluence administration
-What a Confluence admin needs to know about setting Confluence analytics permissions.
-View topics
-Manage Confluence content templates
-Learn about global templates and how to administer them.
-View topics
-Configuration settings in Confluence Cloud
-Focus on the settings and configurations you can manage in Confluence Cloud.
-View topics
-Security settings in Confluence Cloud
-Customize security-related settings in Confluence Cloud like preventing spam or hiding links from search engines.
-View topics
-Look and feel settings in Confluence Cloud
-Customize the look and feel of a Confluence Cloud instance to match your organization's branding.
-View topics
-Data management in Confluence Cloud
-Review the steps needed to export and/or migrate Confluence Cloud data to a new instance or space.
-View topics
-Atlassian Marketplace apps
-Install or uninstall add-on Atlassian Marketplace apps that extend Confluence functionality.
-View topics
-Confluence automation administration
-View topics
+Insert the decision report macro
+Add a Decision report macro to your page or live doc to display a list of pages and live docs and the decisions on them.
+This macro is great for for collecting decisions together and filtering out content that you don't want to see. You could:
+list all pages with decisions in the current space
+list all pages with decisions in the current space that were created in the last year
+list all pages with decisions in the current space that are in a certain section of the page tree
+list all pages with decisions in two specific spaces that mention your Product Manager
+Add this macro to your page or live doc
+To add the Decision report macro to a page or doc:
+From the editor toolbar, select
+Insert
+>
+View more
+.
+Select
+Decision report
+from the
+Confluence content
+category.
+You can also enter
+/decision
+to select the macro
+Select the space(s) to aggregate decisions from by:
+leaving the
+Current space
+default if you want decisions from the space you are in
+choosing the spaces from the suggestions
+entering the name of a specific space
+Add additional filters to further narrow your query.
+You can filter by label or any other Confluence Query Language (
+CQL
+) field.
+Select
+Show
+to determine the maximum number of decisions. These are optional. Your changes are saved as you go.
+Resume editing, and the panel closes.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Use macros to show Confluence content on pages and live docs
+Show more
+Insert the contributors summary macro
+Insert the create from template macro
+Insert the decision report macro
+Insert the excerpt macro
+Add excerpts to a page or live doc with the insert excerpt macro
+Show more
+Community
+Questions, discussions, and articles
 Accessibility
 Notice at Collection
 Privacy Policy

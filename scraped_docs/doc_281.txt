@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/duplicate-a-database-setup/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-shortcut-links/
 
-Duplicate a database setup | Confluence Cloud | Atlassian Support
+Configure shortcut links | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,40 +439,66 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Duplicate a database setup
-Databases aren’t available in the
-Atlassian Government environment
-.
-A good database structure can take time to setup perfectly. So don't let everyone in your company figure it out alone. Instead, enable other teams to use your progress by copying a database structure.
-This article will teach you how to copy your database setup to another space and what limitations to look out for.
-How to copy your database structure
-Copying the database structure does not mean copying the values and entries in a database. Use
-Copy
-from the More menu next to share an exact copy of both the data and structure
-Navigate to your database.
-Open more menu and select
-Copy structure
-.
-Enter a name and select a space for your new database.
+Configure shortcut links
+Shortcut links provide a quick way of linking to resources that are frequently referenced from Confluence. When you create a shortcut link, you assign a key to a URL so that when editing, a user can type just the key instead of the complete URL.
+Shortcut links are only available in pages created in the legacy editor that have not been converted to the cloud editor. You are using the legacy editor if you see this toolbar in edit mode:
+Example: creating a shortcut to Google
+Most Google searches look like this:
+http://www.google.com/search?q=
+. If you create a shortcut for this search with the key 'google', every time a user needs to use
+http://www.google.com/search?q=searchterms
+, they can just type
+[searchterms@google]
+instead.
+Shortcut links are created and maintained by Confluence administrators from the administration
+console.
+Creating shortcut links
+To create a shortcut link:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find Settings >
+Configuration
+in the left-hand navigation.
 Select
-Copy
-to create and open the new copy of your database.
-Limitations
-This process copies your database structure. Please make sure to copy over excluded elements if needed manually.
-What is copied:
-Database name (set during copy)
-Settings
-Fields and their field settings
-Saved views and their view options
-What isn't copied:
-Permissions
-Links to database embeds
-Database page (selected as parent page in your page link settings)
-Space templates (selected as default content in your page link settings)
+Shortcut links
+.
+Enter a
+Key
+for your shortcut.
+This is the shortcut name a user will use to reference the URL.
+Enter the
+Expanded Value.
+This is the URL for the link. You can use '%s' in the URL to specify where the user's input is inserted. If there is no '%s' in the URL, the user's input will be put at the end.
+Enter a
+Default Alias
+.
+This is the text of the link which will be displayed on the page where the shortcut is used, with the user's text being substituted for '%s'.
+Click
+Submit
+.
+Deleting shortcut links
+To delete a shortcut link, select
+Delete
+at the end of the row containing the shortcut.
+Using shortcut links
+Enter a shortcut link on the
+Advanced
+tab of the
+Insert Link dialog
+.
+Specify in the link what should be appended to the end of the shortcut URL, followed by an at sign (@) and the key of the shortcut. Shortcut names are case-insensitive. So, for example, using the key shown in the example above:
+To link to...
+Type this
+Resulting URL
+Demo
+a Google search
+Atlassian Confluence@Google
+http://www.google.com/search?q=Atlassian+Confluence
+Atlassian Confluence@Google
 Was this helpful?
 Yes
 No
@@ -483,17 +509,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
+Configuration settings in Confluence Cloud
 Show more
-Import data into your database
-Export your database data
-Duplicate a database setup
-Lock your database structure
-What Confluence databases don't support
+Configure number formats
+Configure attachment size
+Configure shortcut links
+Install a custom language font for PDF exports
+Confluence wiki markup syntax for the legacy editor
 Show more
 On this page
-How to copy your database structure
-Limitations
+Creating shortcut links
+Deleting shortcut links
+Using shortcut links
 Community
 Questions, discussions, and articles
 Accessibility

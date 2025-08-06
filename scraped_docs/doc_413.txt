@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-a-global-template/
+URL: https://support.atlassian.com/confluence-cloud/docs/team-calendars-faqs/
 
-Create a global content template | Confluence Cloud | Atlassian Support
+Team Calendars FAQs | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,145 +439,75 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Manage Confluence content templates
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Create a global content template
-Confluence admins can create content templates for the Confluence template gallery. For information on how to create a template that is available only in a specific space, see
-Create a template
+Team Calendars FAQs
+How do I set up Team Calendars?
+It's easy! See
+Use Team Calendars for Confluence (Premium feature)
 .
-Only Confluence administrators can create or edit global templates in
-Confluence Cloud
+Why are you charging for this plugin?
+There are a few reasons:
+We feel we can solve a lot of specific problems with the combination of events, people, projects (JIRA applications) and content. Atlassian sees this plugin working alongside your personal meeting or events calendar.
+Not every customer needs a team calendaring solution. Hence, by not bundling Team Calendars with Confluence, it doesn't increase the cost of Confluence for those customers who aren't going to use it.
+The old plugin was not maintained or supported. In contrast, Team Calendars is maintained and supported moving forward.
+What's happening with the old Confluence calendar plugin?
+The old calendar plugin was never officially supported and as such carries no support from Atlassian. It is currently available as an open-sourced component, available on
+plugins.atlassian.com
+for use with legacy versions of Confluence (3.4 and earlier). The old calendar plugin does not work with Confluence 3.5.x or later versions. There are currently no plans to continue development on the old calendar plugin. If you are currently using the old plugin, there is a manual migration path to Team Calendars available by importing your iCal files.
+Where can I give you feedback?
+To give the Team Calendars team feedback, raise an issue in the
+TEAMCAL project on jira.atlassian.com
 .
-To create a global content template:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
+Can I integrate Team Calendars with our company's Google Apps Calendar?
+Yes you can. Learn more about this here:
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Google Calendars from Confluence
+Is Team Calendars available for Confluence Data Center?
+Yes. All you need is a Team Calendars license for Confluence Data Center.
+Learn more about Data Center licensing
+Can I map out custom issue date fields from JIRA applications?
+Yes, you can! This was released as part of Team Calendars 2. See
+Add Jira events
+for more information.
+Does Team Calendars work on my iPhone?
+Although this is not officially supported, it does work on the iPhone. All you have to do is select "subscribe" from a specific calendar menu and login using your Confluence details. iOS should automatically attempt to add the calendar to your iPhone. More instructions here:
+Subscribe to Team Calendars from Apple iOS Calendar
+Can I add more than one person to an event for my people calendar?
+Yes you can. Just add multiple names in the people field.
+Is Team Calendars available in my local language?
+As of Team Calendars 1.1, the plugin is available in English and the bundled Confluence languages (French and German). We hope to have this plugin also available on
+translations.atlassian.com
+for other language support.
+Can I change the date/time format (E.g. mm/dd or dd/mm)?
+The date format is dependent on your language settings and automatically adjusts accordingly - this is a Confluence user and global setting. An admin can set the site
+default language
+and you can also set your
+language preference
+.
+Can I change the starting day of the week?
+The Team Calendars follows per user language preferences to decide which day is at the start of the week. For example, if you want to make the start of the week to Sunday (US Calendar), you would need to install the
+US Language pack
+and edit your Confluence user preferences to choose
+US English
+. To do this, click
+User name
+>
 Settings
-in the left-hand navigation.
-Select
-Configuration
 >
-Global templates and blueprints
-.
-Select
-Add global content template
-in the top-right.
-Add variables, macros, and other content as you want it to appear.
-Select
-Save
-.
-Help people discover custom templates by adding a description that will appear in the template gallery. To add or edit the description for a global template, go to
-Global templates and blueprints
-and click the pencil icon in the
-Description
-column.
-Editing a
-template
-is a lot like editing a page or live doc– there are only a few small differences. Currently, there’s no way to add images or attachments in templates. However, you can include variables, placeholder text, and
-labels
-. These features help people using these templates create rich and dynamic pages quickly.
-Variables
-When someone creates pages or live docs from a template with variables, they’ll fill out a form with text fields or lists for each variable in the template. The information they provide will be added to pages and live docs automatically.
-Add a variable to a template
-You can only add variables to templates created with the new editor.
-To add a variable:
-Type
-/variable
-, then hit
-Enter
-.
-Select the variable token, then select
-to edit it.
-Enter a name for the variable, then select
-Text
-,
-Multi-line Text
-, or
-List
-.
-A
-Text
-variable offers a single line of input text, a
-Multi-line
-variable is configurable for multiple rows and columns of input, and a
-List
-produces drop-down lists with definable options.
-Select
-Save
-.
-Variables with the same name must have the same parameters, as Confluence treats these as copies of the same variable. When someone creates pages or live docs from a template with two or more copies of the same variable, the text they enter for one variable will appear everywhere that a copy of that variable appears.
-Example
-The example below shows a custom template with five text variables — one for “New Hire,” one for “Company,” one for “Job Title,” one for “Team,” and one for “Manager”:
-When someone creates pages or live docs from this template, they will be prompted to enter text into the fields where the variables appear:
-When they’re finished, the text they entered will appear on the page or live docs in edit mode.
-Placeholder text
-Use placeholder text to add instructions or sample text to pages or live docs created from a template. Placeholder text will only appear when pages or live docs are being edited – it’s invisible to anyone who’s viewing the published version.
-Add placeholder text to a template
-To add placeholder text to a template in the legacy editor:
-Select
-+
-, then select
-Placeholder text
-.
-Type in your placeholder text, then hit
-Enter
-.
-To add placeholder text to a template in the new editor:
-Type
-/placeholder
-where you want the text to appear, then hit
-Enter
-.
-Type in your placeholder text, then hit
-Enter
-again.
-Example
-The example below shows a section of the Design Systems Template that comes with
-Confluence Cloud
-. The grey text is placeholder text:
-When someone creates pages or live docs from this template, they will see grey placeholder text while they are editing the template. However, the text will not appear in view mode. This way, it is possible to provide instructions to the person creating pages or live docs from the template without any viewers of the page seeing them.
-Labels
-Add a
-label
-to a template to apply it to pages or live docs created from that template. This is helpful if you want to create a page
-properties report
-to keep track of similar pages or live docs.
-Add labels to a template
-To add labels to a template in the legacy editor:
-Select
-.
-Enter labels into the box, separated by the
-Space
-key.
-Select
-Add
-.
-Select
-Close
-.
-To add labels to a template in the new editor:
-Select
+Edit
 >
-Add labels
+Language
+and then choose
+US English
 .
-Enter labels into the box, separated by the
-Space
-key.
-Select
-Add
+The Confluence default is to
+Automatically detect browser settings
 .
-Select
-Close
-.
-Example
-See
-Create a custom report
-for several examples of templates with labels.
+Can I subscribe to Google Public Calendar from Team Calendars?
+Currently, it's not possible to subscribe to Google Public Calendar from Team Calendars. This is a known issue with Google Calendar; it appears that Google Calendar Public .ics file doesn't contain the data/event that can be read by Team Calendars to display events. Only Google Private Calendar can be subscribed from Team Calendars for now.
 Was this helpful?
 Yes
 No
@@ -588,21 +518,27 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage Confluence content templates
-Create a global content template
-Edit a global content template
-Install a global blueprint
-Manage global content templates and blueprints
+Use Team Calendars for Confluence (Premium feature)
+Show more
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
 On this page
-Variables
-Add a variable to a template
-Example
-Placeholder text
-Add placeholder text to a template
-Example
-Labels
-Add labels to a template
-Example
+How do I set up Team Calendars?
+Why are you charging for this plugin?
+What's happening with the old Confluence calendar plugin?
+Where can I give you feedback?
+Can I integrate Team Calendars with our company's Google Apps Calendar?
+Is Team Calendars available for Confluence Data Center?
+Can I map out custom issue date fields from JIRA applications?
+Does Team Calendars work on my iPhone?
+Can I add more than one person to an event for my people calendar?
+Is Team Calendars available in my local language?
+Can I change the date/time format (E.g. mm/dd or dd/mm)?
+Can I change the starting day of the week?
+Can I subscribe to Google Public Calendar from Team Calendars?
 Community
 Questions, discussions, and articles
 Accessibility

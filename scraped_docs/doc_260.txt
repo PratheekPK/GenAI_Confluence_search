@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/delete-a-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-people-to-confluence-from-google-slack-or-microsoft/
 
-Delete a space | Confluence Cloud | Atlassian Support
+Add people to Confluence from Google, Slack, or Microsoft | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,91 +439,30 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Remove a space
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
 Cloud
 Data Center
-Delete a space
-To remove a space and all of its content from Confluence, you can send it to the trash.
-You must have space admin permissions to send a space to the trash. Members of the
-confluence-administrators
-group can also trash spaces, including personal spaces.
-Once trashed, a space can only be restored or permanently deleted by a Confluence admin. If you prefer the option of restoring the space yourself later, you can
-archive
-it instead.
-You may want to
-create a CSV export
-of the space as a backup first, to have the option of restoring from the export later.
-To send a space to the trash:
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-General
-menu
-then select
-Send space to trash
+Add people to Confluence from Google, Slack, or Microsoft
+Confluence is all about working together to get the best results for you and your team.
+Now you can add anyone to Confluence from Google, Slack, or Microsoft (or all three). It’s quick, convenient, and secure.
+Once your teammate is added, they can collaborate with you directly in Confluence.
+Depending on your
+access settings
+, an admin may need to approve your request first.
+Add a teammate
+Select
+More
+and then
+Teams
 .
 Select
-Send this space to trash
-.
-Confirm you want to
-Send to trash
-.
-You can
-Archive
-instead or
-Cancel
-the process at this point.
-Trashed spaces
-Once a space is sent to the trash, it remains trashed indefinitely until a Confluence admin either restores the space or permanently deletes the space.
-Starting on
-January 6th, 2025
-, we will permanently delete spaces that have been in the trash for at least 60 days. We recommend that all Confluence admins go to
-Confluence administration
->
-Data management
->
-Trashed spaces
-before that date to make sure there aren’t any spaces in the trash that shouldn’t be.
-You must be a Confluence admin to restore or permanently delete a trashed space.
-The space key of a trashed space cannot be reused unless the space is permanently deleted.
-Similarly, you cannot create a new personal space immediately after sending a current personal space to the trash. The trashed personal space must be permanently deleted before a new one can be created.
-Restore a space
-Restoring a space will immediately return the space and all of its content to Confluence.
-To restore a space:
+Add people.
 Select
-Confluence administration
-(
-).
-From under the Data Management section of Settings, select
-Trashed spaces
-.
-For the space that you want to restore, select
-Restore space
-under Action.
-Confirm restoration by selecting
-OK
-.
-Permanently delete a space
-Permanently deleting a trashed space (and all its content) cannot be undone.
-To permanently delete a space:
-Select
-Confluence administration
-(
-).
-From under the Data Management section of Settings, select
-Trashed spaces
-.
-For the space that you want to delete, select
-Permanently delete
-under Action.
-Confirm deletion by selecting
-Delete this space
-.
-Depending on the size of the space, deletion can take up to a few hours. A progress bar will let you know the time elapsed, estimated time remaining, and the percent completed.
+Google, Slack, or Microsoft.
+Allow Atlassian access to connect Confluence to your Google, Slack or Microsoft accounts.
+Enter your teammate's info and they’ll get an email inviting them to collaborate with you.
+You can continue to add people using their email address if you prefer.
 Was this helpful?
 Yes
 No
@@ -534,13 +473,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Remove a space
-Archive a space
-Delete a space
-On this page
-Trashed spaces
-Restore a space
-Permanently delete a space
+Collaborate on content
+Show more
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
+Share content externally with public links
 Community
 Questions, discussions, and articles
 Accessibility

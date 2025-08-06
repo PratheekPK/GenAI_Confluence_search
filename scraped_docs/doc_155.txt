@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/customize-the-email-domain-sending-confluence-emails/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-iframe-macro/
 
-Customize the email domain sending Confluence emails | Confluence Cloud | Atlassian Support
+Insert the iFrame macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,48 +439,81 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use macros to add visuals and images to Confluence pages
 Cloud
 Data Center
-Customize the email domain sending Confluence emails
-Confluence
-email notifications
-are sent from the Atlassian domain by default (for example <confluence@space.atlassian.net>). However, personalizing notifications with your company’s domain can
-improve delivery rates and security
-and may simply be more familiar to your users.
-If your team would like notification emails (that is, emails related to Confluence activity) to originate from your company’s domain, administrators can configure it in the settings. This is otherwise known as
-setting up DMARC
-(Domain-based Message Authentication, Reporting, and Conformance).
-Confluence emails sent from a domain other than
-atlassian.net
-can be rejected by DMARC if sent without a domain-specific DKIM signature.
-First an organization administrator must
-add email addresses to Atlassian Administration
-(we recommend a group list like <confluence@acme.org>). This is what will populate the email options in Confluence.
-Then a Confluence administrator can select a custom domain from those options.
-To change the sender of Confluence email notifications:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Configuration
-in the left-hand navigation.
-Select
-Notifications
-.
-Find the
-Email addresses
-field and select the email address you want to use.
-Select
-Save changes
-. It can take up to an hour for the email change to take effect.
-An exception:
-Emails that notify users when
-content is shared
-with them will continue to show Atlassian as the sender even if a custom domain is selected.
-We are aware of this discrepancy and are working to fix it.
+Insert the iFrame macro
+The iFrame macro lets you embed a webpage inside a Confluence page or live doc.
+Use the iFrame macro
+To add the iFrame macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the iFrame macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Customizing iFrames
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Attribute
+Value
+Description
+Height
+pixels
+Set a fixed height and width for your iframe.
+This is especially helpful for content that won't display properly below a certain size.
+Width
+pixels
+Align
+left
+right
+Align the iframe to the left or right of the page.
+Set to
+left
+by default.
+frameborder
+show
+hide
+Draw a border around content in the iframe to help distinguish it from other content on the page or doc.
+Set to
+show
+by default.
+scrolling
+yes
+no
+auto
+Allow or prevent scrolling in the iFrame to see additional content.
+Set to
+auto
+by default.
+The remaining attributes (ID, class, styles, title, long description, margin height, margin width, name, text direction, and language code) are being deprecated. Changing the values of these attributes won't affect how content in the iFrame macro appears.
+Known issues
+Some websites may show up as blank when you try to include them as part of an iFrame. This could be because:
+The website administrators have invoked the
+x-frame-options
+response header
+to prevent browsers from rendering it in an iFrame.
+The browser you're using has blocked the website from loading as a security precaution.
+If the website you're trying to include isn't showing up in the iFrame, try:
+Replacing http:// with https:// at the start of the URL to access content more securely.
+Removing the iFrame macro and adding a link to the website instead.
 Was this helpful?
 Yes
 No
@@ -491,13 +524,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
+Use macros to add visuals and images to Confluence pages
+Insert the chart macro
+Insert the iFrame macro
+Insert the roadmap planner macro
+Add a trio of dynamic frames to your content with Carousel
+Display beautiful, dynamic content on your page or live doc with Cards
 Show more
-Configure attachment size
-Configure shortcut links
-Install a custom language font for PDF exports
-Confluence wiki markup syntax for the legacy editor
-Customize the email domain sending Confluence emails
+On this page
+Use the iFrame macro
+Customizing iFrames
+Known issues
 Community
 Questions, discussions, and articles
 Accessibility

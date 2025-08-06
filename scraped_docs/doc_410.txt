@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-company-hub/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-mural-boards-in-confluence-whiteboards/
 
-Manage your Company Hub | Confluence Cloud | Atlassian Support
+Import Mural boards in Confluence whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,103 +439,83 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Company Hub to deliver key information to employees
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Manage your Company Hub
-This feature is only offered with
-Confluence Cloud Premium and Enterprise
+Import Mural boards in Confluence whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Company Hub editors and product admins have permission to publish and make updates. They can also see and access the
-Manage
-(
-icon) action to open
-Company Hub settings
+Bring your Mural content to Confluence whiteboards and collaborate seamlessly with your team.
+Import whiteboards from Mural into Confluence to unlock features such as smart connectors, smart sections, real-time editing, and experience brainstorming. Plus, you can keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
+Export your Mural board
+In Mural, open the board you wish to export.
+Open the export menu in the top-left corner of the board, then select
+Download mural
+, or right-click on your board’s background and select
+Download
 .
-Publish, update, restore versions, or deactivate your hub
-Activate via publish
-When your hub is polished and ready to be seen by your entire company, it’s time to activate it by selecting
-Publish
-. Once you select
-Publish
-, everyone at your company will be able to access and view the hub from the top left of the navigation.
-Update
-After the initial hub activation, hub editors can make updates anytime by selecting the hub from the navigation and selecting
-Edit
-(
-). As you make changes, those changes are saved automatically in edit mode. Once you’re ready to broadcast your updates to the entire company, select
-Update
+Select the
+PDF Format
+and the selection of content you would like to export (All content, Selection, or Outline),
+Select
+Download
+. Select a location to save your file.
+For more information on exporting Mural boards,
+see the Mural support documentation
 .
-View and restore previous versions
-Old versions of your Company Hub are always saved and you can revert to an old version at any time. Every time you edit and update the Company Hub, a new version is created.
-To see or restore an old version, select
-Manage
-(
-icon) to access Company Hub settings. In the
-General
-tab, select the
-More Actions
-(
-icon) menu and select
-History
-. For each version, you can see who changed it and you can
-Restore
-and
-Delete
-it.
-Rename
-To rename your Company Hub, select
-Manage
-(
-cog icon) to access Company Hub settings. In the
-General
-tab, select the
-More Actions
-(
-… icon) menu and select
-Rename
-. Enter a name and select
-Confirm
-.
-Deactivate
-To make it so that your hub is no longer visible to the entire company, select
-Manage
-(
-cog icon) to access Company Hub settings. In the General tab, select the More Actions (
-icon) menu and select
-Deactivate.
-Then, select
-Confirm
-.  Once a hub is deactivated, it will disappear from the navigation and no longer be accessible to anyone that is not a hub editor.
-Only product admins can deactivate the hub. The content of the formerly-active hub will be saved and it can be re-activated at any time via
-Publish
-.
-Manage Company Hub permissions
-Product admins have default edit permissions for Company Hub. They can add or remove other editors by selecting
-Manage
-(cog icon) to access Company Hub settings. Select the
-Users
-tab and select
-Go to Company Hub Permissions.
-To add hub editors, select
-Edit
-(
-) then enter the name of the editor you’d like to add in the search bar, select the name, and select
-Add
-. Once you’ve added everyone you need to add, select
-Save
-.
-To remove hub editors, select
-Edit
-(
-) then deselect the permissions for that user across the board. Select
-Save
-.
-Hub-specific edit permissions can be granted to or removed at the user or group level.
-Those with hub-specific edit permissions can create, customize, activate (via
-Publish
-), and make updates to the hub.
+You must
+Save as PDF
+. This will let you import editable elements to your Confluence whiteboard.
+Import to whiteboards
+Whiteboards currently only support PDF or image file importing.
+Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
+You can import your content in two ways:
+Drag your image or file into your whiteboard.
+On the toolbar, select the More menu (
+…
+), select
+Whiteboard import,
+navigate to your file, and select it.
+Select your content type.
+The import process will complete.
+When should I recreate my content in Confluence whiteboards vs. uploading a static image?
+For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
+For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
+How Mural elements import to Confluence whiteboards
+Mural
+Confluence whiteboards
+Sticky notes
+Sticky notes
+Borders
+Borders
+Draw
+Lines
+Website embeds
+Images
+Tables
+Recreated with lines and rectangles
+GIFs
+Images
+Text
+Text
+Stamps
+Images
+Tags
+Text in rectangles
+Mind maps
+Rectangles, lines, and connectors
+Limitations
+Some limitations and differences between your Mural board and Confluence whiteboard will occur.
+Importing comments is not supported, but you can comment on Confluence whiteboards.
+Colors will be mapped to the closest Confluence whiteboards colors.
+Connections will not import, but they can be recreated in Confluence whiteboards.
+Rotated elements will import unrotated. However, if it’s an unsupported element, too-small shape, un-cropped image, or a sticker, then it will import rotated.
+Shapes supported in whiteboards will import as shapes. Shapes that are not supported will import as images.
+Locked elements will not remain locked when imported, but you can manually lock them in Confluence whiteboards.
+Whiteboards have a 10,000 element limit.
+Importing may take longer than a minute for boards with many elements, large images, or a lot of content.
 Was this helpful?
 Yes
 No
@@ -546,21 +526,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Company Hub to deliver key information to employees
-Create and customize a Company Hub
-Manage your Company Hub
-Set up a menu of important links on Company Hub
-Use sections to enhance and highlight your Company Hub content
-Highlight important messages with a visual spotlight
+Create and edit whiteboards
+Show more
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
 Show more
 On this page
-Publish, update, restore versions, or deactivate your hub
-Activate via publish
-Update
-View and restore previous versions
-Rename
-Deactivate
-Manage Company Hub permissions
+Export your Mural board
+Import to whiteboards
+When should I recreate my content in Confluence whiteboards vs. uploading a static image?
+How Mural elements import to Confluence whiteboards
+Limitations
 Community
 Questions, discussions, and articles
 Accessibility

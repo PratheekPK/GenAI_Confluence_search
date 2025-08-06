@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-thunderbird/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-data-from-notion-into-confluence/
 
-Subscribe to Team Calendars from Thunderbird | Confluence Cloud | Atlassian Support
+Import data from Notion into Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,100 +439,148 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Create and organize work in Confluence Cloud
+Import data from other tools into Confluence
 Cloud
 Data Center
-Subscribe to Team Calendars from Thunderbird
-If you want your Team Calendars events to appear in Thunderbird, you can subscribe to Team Calendars.
-There are two ways to synchronize your calendar in Thunderbird:
-Two-way sync
-(CalDAV) - allows you to view and update Team Calendars events in Thunderbird.
-One-way sync
-(iCal) - allows you to view, but not update, Team Calendars events in Thunderbird.
-Subscribe with two-way synchronization (CalDAV)
-Two-way synchronization allows you to view and update Team Calendars events in Thunderbird.
-These instructions are for Thunderbird 68 on MacOS Catalina. Your version may differ slightly.
-1. Grab your Team Calendars URL
-In Confluence:
-Select
-Subscribe
-at the top of your calendar.
-Select
-Thunderbird
+Import data from Notion into Confluence
+You can import your content, users, and workspaces from Notion into Confluence spaces with the importing tool. This guide outlines the process of importing your content from Notion. Additionally, you can find detailed information on
+what content gets transferred
+and how it will look in Confluence.
+You must be a Notion workspace owner and have create space permission in Confluence to initiate the import process. Confluence site admins control space creation permissions.
+Upload Notion content
+To import content from Notion, you need to select the desired workspace or page with subpages, similar to exporting in Confluence. The process involves authorizing access and choosing between exporting the entire workspace or a selected page.
+Notion can only export the content you can access.
+Learn more about exporting from Notion
+The steps for importing an entire workspace or a selected page (with children pages) are similar.
+To select the content you want to import from Notion:
+In Confluence, select
+Spaces
 from the
-Calendar app
-dropdown.
-Copy the calendar URL.
-2. Add the calendar in Thunderbird
-In Thunderbird:
-From the
-Home
-tab, select
-Create a new calendar
->
-On the network
+sidebar
+, then
+Import from other tools
+.
 Select
-CalDAV
-Enter
-Username
-,
-like john@atlassian.com
-Paste the
-Calendar URL
-you copied earlier in the
-Location
-field.
-Name the calendar. This is the name that will appear in the Thunderbird calendar list.
-Enter your Confluence
-username
-password
-Login to Confluence
-Select your profile picture at the upper right
+Notion
+.
+Select one of the two options:
+Entire Notion workspace
+- This is the equivalent of exporting a space in Confluence.
+Selected page with subpages
+- This is the equivalent of exporting a single page, or a page with child pages in Confluence.
+Upload your Notion zip file.
 Select
-Password
-under Your Settings on the left
-Create an API token. You could use the existing one also.
-Repeat this process for any other Team Calendars you want to add.
-Subscribe with one-way synchronization (iCal)
-These instructions are for Thunderbird 52 on MacOS High Sierra. Your version may differ slightly.
-1. Grab your Team Calendars URL
-In Confluence:
+Next
+.
+You can continue to the next step while the file is uploading in the background. Want to know more about how your content will look?
+Visit our FAQ page
+Transfer users
+Only organization admins can transfer users.
+Map Notion members to their Confluence profiles
+To export certain page and user data, you need to log in with OAuth authentication and create an access token. OAuth authentication allows the importer to map users from Notion and Confluence, mapping users on elements like @mentions, page comments, creator, and editor information.
+If you don’t want to map Notion users, you can deselect the toggle, select
+Next
+, and skip ahead to the
+Set up spaces
+section.
+To retain comments, @mentions, and more, log in to your Notion account:
 Select
-Subscribe
-at the top of your calendar
+Log in to Notion
+.
+Enter your log in information, then
+Select pages
+. (Make sure that they are the same pages that you exported in your file.)
+Select each checkbox for the content you want to transfer, then
+Allow access
+.
+Ensure that you are selecting the same content in the OAuth step as the content you have uploaded in your Notion file.
+If you want to create Confluence accounts, enable the
+Add remaining members to Confluence
+toggle.
+Add remaining members to Confluence
+Enable the Add remaining members to Confluence toggle to create Confluence accounts for any Notion members that don’t already have one so we can add their names to pages, comments, and @mentions.
+Note
+: New users won’t automatically receive an email invite to join.
+Here’s how to send them an invite
+Adding users can affect your plan and may result in additional fees. They’ll be added to your plan immediately after you start the import.
+Check out our FAQ for information about user and storage limits
+Copy Notion page permissions
+To transfer permission and user group data, you need an access token.
+You may see slightly different steps depending on which browser you use.
+Permissions map to the time when you select
+Start import
+, not when you upload your Notion file.
+To create an access token:
 Select
-iCal
-from the
-Calendar app
-dropdown. Be sure that you don't select Thunderbird for one-way sync.
-Copy the calendar URL
-2. Add the calendar in Thunderbird
-In Thunderbird:
-From the
-Home
-tab, select
-Create a new calendar
->
-On the network
+Add an access token
+.
+Go to
+www.notion.so
+in your browser (make sure you are logged into just one account).
+Right-click anywhere on the screen and select
+Inspect Element
+to open
+Developer tools
+.
+Go to the
+Storage
+tab.
+In the sidebar, select the ⏵ toggle next to
+Cookies
+folder to expand it.
 Select
-iCalendar (ICS)
-Paste the
-Calendar URL
-you copied earlier in the
-Location
-field
-Name the calendar. This is the name that will appear in the Thunderbird calendar list.
-Enter your Confluence
-username
-password
-Login to Confluence
-Select your profile picture at the upper right
+www.notion.so
+.
+Find the entry named
+token_v2
+and double-click on it to open details.
+Select the text in the
+Value
+field, then copy it (Cmd/Ctrl + C).
+Paste this token into the
+Notion access token
+text box, then select
+Submit
+.
+Set up spaces
+Each Notion teamspace will become a Confluence space. Set the permissions to determine who can access them. Additionally, private content is added to a new, restricted space.
+To configure your new spaces:
+If you’re importing pages only (not an entire workspace), enter a name for the new space in Confluence.
+Select the restrictions to apply to
+all
+spaces:
+Restricted to you
+- only you will be able to view and access the content.
+Note:
+because only you will be able to access the content, all pages and comments will be labeled as created by you (the importing user).
+Default space permissions
+- apply your organization’s default restrictions.
+Note:
+If your organization uses open permissions by default, private content may be exposed. If you’re unsure, use
+Restricted to you
+and then update the restrictions after the import.
+Notion permissions
+- apply the equivalent restrictions from your Notion workspace or pages to the newly created content.
+Note:
+This space restriction option is only available if you select “Copy Notion page permissions” in the previous Users step.
 Select
-Password
-under Your Settings on the left
-Create an API token. You could use the existing one also.
-You can now view, but not edit, Team Calendar events in Thunderbird.
+Next
+.
+Review and start the import
+You’ll have a chance to review everything before you start the import process. Make sure everything looks correct. Select a step to edit anything that doesn’t look correct.
+After the upload is complete, select
+Start import
+. This process can take a while. Depending on the complexity, bandwidth, size of the transfer, and other factors, it can take a few hours or more to finish. You will receive a notification email when the import is complete.
+Review the notification email
+When the process is complete, you’ll receive an email summary from the importer.
+This process can take a while. Depending on the complexity, bandwidth, size of the transfer, and other factors, it can take a few hours or more to finish.
+Congratulations! You’ll receive a notification email confirming the transfer is complete. You successfully imported your Notion content and can get started right away. If you encounter any errors or failure notifications in the email, read our
+troubleshooting
+article for common fixes.
+Note:
+New users won’t automatically receive an email invite to join.
+Here’s how to send them an invite
 Was this helpful?
 Yes
 No
@@ -543,17 +591,23 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
+Import data from other tools into Confluence
 Show more
-Watch a calendar
-Subscribe to Team Calendars from Apple Calendar
-Subscribe to Team Calendars from Thunderbird
-Subscribe to Google Calendars from Confluence
-Subscribe to Team Calendars from Google Calendar
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
+Troubleshooting import data from HTML to Confluence
 Show more
 On this page
-Subscribe with two-way synchronization (CalDAV)
-Subscribe with one-way synchronization (iCal)
+Upload Notion content
+Transfer users
+Map Notion members to their Confluence profiles
+Add remaining members to Confluence
+Copy Notion page permissions
+Set up spaces
+Review and start the import
+Review the notification email
 Community
 Questions, discussions, and articles
 Accessibility

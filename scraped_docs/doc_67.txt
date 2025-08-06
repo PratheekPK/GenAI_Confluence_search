@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-elements-into-a-page/
+URL: https://support.atlassian.com/confluence-cloud/docs/duplicate-a-database-setup/
 
-Add elements to a page or live doc | Confluence Cloud | Atlassian Support
+Duplicate a database setup | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,99 +440,39 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit content
+Create and edit databases
 Cloud
 Data Center
-Add elements to a page or live doc
-Along with the text you add to a page or live doc, elements are the building blocks that help you organize and present information in the way you want.
-All the items that can be inserted onto a page are
-elements.
-Elements include dates, status lozenges, panels, Confluence macros, and Marketplace macros.
-What are macros?
-Confluence macros are a sub-set of elements that help you extend functionality. Macros usually have a more complex setup than basic elements like a date or a status.
-Learn more about macros
-Does your toolbar look different?
-Your toolbar or editing controls may appear differently from usual, or from how they appear in this documentation. We’re rolling out features that are subject to change.
-How to pin your toolbar and navigate editing updates
-Basic elements
-These elements can be inserted from the
-menu, from the toolbar, or from the slash command menu.
-Action items
-Add a checklist item and assign the task to another person using an @ mention. Items assigned to others show up in their tasks list under their profile. They can tick them off as the task is completed. If a date is added, the task turns red if it becomes past due.
-Type
-/action
-to quickly add this element from the slash command.
-Code snippet
-Code snippets let you format source code with numbered rows and syntax highlighting based on the language you choose.
-They can be added in a few different ways:
-Select
-Code
-from the
-More formatting
-menu in the main toolbar.
-Type
-/code
-to quickly add this element from the slash command, or select it manually from the
-Insert/
-menu in the main toolbar.
-Type three back ticks, i.e ``` with the keyboard to create a code block. You can also type ``` before a line of text to add this to the code block.
-Type text between two back ticks, i.e `some text` to create inline code.
-Date
-Make a date stand out with grey background; the default date format is
-Mon DD, YYYY
+Duplicate a database setup
+Databases aren’t available in the
+Atlassian Government environment
 .
-Type
-//
-to bring up a date picker.
-Decision
-Emphasize a distinct decision made for a project or by a team by adding a grey background panel and a green icon.
-Type
-/decision
-to quickly add this element from the slash command.
-Divider
-Separate sections of text using a horizontal line.
-Type
-/divider
-to quickly add this element from the slash command.
-Emoji
-Express a feeling, emotion, or info type with an image. The library of emojis available are a combination of standard Confluence emojis and those added by users of your site.
-Learn more about emojis
-Type
-/emoji
-to quickly add this element from the slash command.
-Expand
-Create a collapsed section that reveals more information for the people who seek it. This is a useful formatting element when the amount of info on a page or doc is overwhelming at first glance.
-Type
-/expand
-to quickly add this element from the slash command.
-Heading
-Format text to represent the hierarchy of information on a page or live doc. Once headings are created, use the
-Table of Contents Macro
-to generate a list of links pointing to the headings on your content. The list of links appears wherever you add the macro, and it automatically updates each time someone changes the wording of a heading or the heading level.
-Type
-/heading
-to quickly see the options and add this element from the slash command.
-Mention
-Reference a person and let them know about it. The user mentioned receives a notification.
-Type
-@
-and enter part of a name to narrow the list of matches.
-Panel
-Emphasize information by choosing a preset panel type to consistently communicate ideas like info, note, error, success, and warning. The preset types include an emoji and a background color.
-In addition to the five preset panel options, you can customize panels by choosing one of the 20 background colors available. Panels can have emojis, or you can remove the emoji to meet the needs of your content. The emojis available to you are the same set that you already use in Confluence; this includes custom emojis you and your teammates have added.
-Type
-/panel
-to quickly see the options and add this element from the slash command.
-Quote
-Emphasize a quote by adding a vertical line on its left margin and adjusting the font color.
-Type
-/quote
-to quickly add this element from the slash command.
-Status
-Highlight text to stand out and choose the background color that fits its meaning.
-Type
-/status
-to quickly add this element from the slash command.
+A good database structure can take time to setup perfectly. So don't let everyone in your company figure it out alone. Instead, enable other teams to use your progress by copying a database structure.
+This article will teach you how to copy your database setup to another space and what limitations to look out for.
+How to copy your database structure
+Copying the database structure does not mean copying the values and entries in a database. Use
+Copy
+from the More menu next to share an exact copy of both the data and structure
+Navigate to your database.
+Open more menu and select
+Copy structure
+.
+Enter a name and select a space for your new database.
+Select
+Copy
+to create and open the new copy of your database.
+Limitations
+This process copies your database structure. Please make sure to copy over excluded elements if needed manually.
+What is copied:
+Database name (set during copy)
+Settings
+Fields and their field settings
+Saved views and their view options
+What isn't copied:
+Permissions
+Links to database embeds
+Database page (selected as parent page in your page link settings)
+Space templates (selected as default content in your page link settings)
 Was this helpful?
 Yes
 No
@@ -543,28 +483,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Create and edit databases
 Show more
-What data is sent and received when pasting a Smart Link?
-Insert and manage links on your pages and live docs
-Add elements to a page or live doc
-Transfer ownership of your content item
-Add a status to your content
+Import data into your database
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
 Show more
 On this page
-Basic elements
-Action items
-Code snippet
-Date
-Decision
-Divider
-Emoji
-Expand
-Heading
-Mention
-Panel
-Quote
-Status
+How to copy your database structure
+Limitations
 Community
 Questions, discussions, and articles
 Accessibility

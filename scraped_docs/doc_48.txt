@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-company-hub-to-deliver-key-information-to-employees/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-questions-for-confluence/
 
-Use Company Hub to deliver key information to employees | Confluence Cloud | Atlassian Support
+Manage Questions for Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,39 +439,18 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Space administration
 Cloud
 Data Center
-Use Company Hub to deliver key information to employees
-This feature is only offered with
-Confluence Cloud Premium and Enterprise
-.
-With
-Company Hub
-, you can create and customize a beautiful, dynamic company-wide information central. This is where all employees can go for up-to-date announcements, news, key resources, and more.
-Create and customize a Company Hub
-Set up a dynamic news and information hub for your entire company using Confluence.
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Set up Questions for Confluence and use it to create a community in Confluence.
 View topic
-Manage your Company Hub
-Manage Company Hub settings and permissions, view and restore old versions, and deactivate your Company Hub.
+Administer questions
+Manage questions in a Confluence Cloud space.
 View topic
-Set up a menu of important links on Company Hub
-Add a menu of evergreen links and important information to the top of Company Hub.
-View topic
-Use sections to enhance and highlight your Company Hub content
-Highlight and organize your content with sections in Company Hub. Customize with background colors and enhance with elements like Cards and Carousels.
-View topic
-Highlight important messages with a visual spotlight
-Spotlight allows you to present important message with a large image, a colorful background, and an interactive link.
-View topic
-Add a rotating set of frames to your Company Hub
-Drive employee engagement with Company Hub using a set of rotating frames with custom colors, a large image, and a link.
-View topic
-Use cards to add beautiful dynamic content to Company Hub
-Add interactive visual cards to elevate your Company Hub. Add images, customize the design, and select a target audience.
-View topic
-Curate search results in Company Hub
-Add a customized search field to your Company Hub.
+Integrate questions with your spaces
+Discover how to integrate questions into your spaces in Confluence Cloud.
 View topic
 Was this helpful?
 Yes
@@ -484,19 +463,16 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Explore more
-Create and customize a Company Hub
-Manage your Company Hub
-Set up a menu of important links on Company Hub
-Use sections to enhance and highlight your Company Hub content
-Highlight important messages with a visual spotlight
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
+Space administration
 Show more
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
-Use Company Hub to deliver key information to employees
-Use Confluence with other applications
-Use macros to show Confluence content on pages and live docs
-Use macros to add development info on Confluence pages
-Show more
+Remove a space
+Create templates, blueprints, and reports
+Manage team calendars
+Manage Questions for Confluence
+Customize your space
 Community
 Questions, discussions, and articles
 Accessibility

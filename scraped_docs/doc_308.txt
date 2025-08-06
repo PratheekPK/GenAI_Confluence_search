@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/atlassian-intelligence-in-confluence-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/share-confluence-content/
 
-Atlassian Intelligence in Confluence whiteboards | Confluence Cloud | Atlassian Support
+Share Confluence content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,53 +439,99 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
 Cloud
 Data Center
-Atlassian Intelligence in Confluence whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+Share Confluence content
+You can use the
+Share
+window in Confluence to send people a link to your page, live doc, blog, whiteboard, database, or Smart Link in the content tree. This is a great way to invite your team to collaborate or to distribute information to large groups of people.
+Share by email
+Using the
+Share
+button to share content with specific people, groups, teams, or email addresses will trigger an email notification to the recipients that contains a link to the content.
+Recipients will also receive a
+Confluence notification
+in the notification bell, as well as push notifications in Confluence mobile.
+To share Confluence content by email:
+Open the content item in Confluence Cloud.
+Select the
+Share
+button in the top right.
+Start typing the name of a person or group to see a list of suggestions, then select the right ones from the list.
+Or you can one-click add suggested users who will appear along the bottom of the search bar.
+Repeat this step to add multiple recipients.
+Note:
+teams
+are not yet compatible with
+Share
 .
-Use the power of Atlassian Intelligence in Confluence whiteboards to summarize the content on your whiteboard, generate new ideas, and group similar content.
-Summarize
-To summarize the content on a whiteboard:
-Go to the whiteboard you would like to summarize.
+If applicable, choose whether they should be able to view or edit. (This will apply to everyone you’ve added in the search bar.)
+Emails and teams can’t be assigned permissions, only notified.
+Leave the notify box checked to send a notification. Uncheck it to prevent notifications from being sent.
+(Optional) Add a custom message.
 Select
-Summarize
-in the top right corner.
-Atlassian Intelligence will generate a summary of the page.
-Create page
-to create a new Confluence page with the generated summary, or
-Copy summary
-to paste it anywhere.
-Generate
-To generate similar ideas using Atlassian Intelligence:
-Select one sticky note on a whiteboard.
-Select
-Generate similar
-in the sticky note toolbar.
-Atlassian Intelligence will generate sticky notes with similar content.
-Select
-Insert
-to put the generated sticky notes on the whiteboard. Or, copy the sticky notes to paste elsewhere.
-While this new feature is currently limited to Confluence, it will be able to connect to plug-ins and access data from your other Atlassian apps in order to provide its full functionality. For example, while it may only be turned on and available for use in your Confluence instance, it will be able to leverage information based on user permissions in Jira to generate sticky notes in Confluence whiteboards.
-Group
-Use grouping to easily organize the content on a whiteboard.
-Select more than one sticky note on a whiteboard.
-Select
-Group similar
-in the sticky note toolbar.
-Atlassian Intelligence will group the sticky notes. It may take a few minutes if there is a large amount of content.
-Select
-Keep
-to keep the groupings on the whiteboard, select
-Undo
-to move the sticky notes back to their original place.
-Atlassian Intelligence will not summarize, generate, or group if there isn’t enough content or if the content might go against Atlassian’s Acceptable Use Policy.
-For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
-the Atlassian Trust Center
+Share
 .
+Need to troubleshoot access to your content?
+If you’re on the Premium or Enterprise plan, you can use the
+inspect permissions
+feature to quickly find out what’s blocking someone from accessing a content item.
+For more tips, see
+Troubleshoot access problems to content
+.
+Share using a link
+If you don’t want to use a Confluence notification to notify people about content, or if you want to include a link to the content item in an email you create yourself, you can copy the link to the content item.
+Sharing the link alone doesn't grant access
+Giving someone a link doesn’t automatically grant them access to the content. Check the content item’s access settings in
+Share
+to make sure people have the right access.
+For help interpreting who has access, check out
+Change who can find content and what they can do with it
+.
+To share using a link:
+You’ll find a link icon next to the
+Share
+button. Select it to copy the link.
+You can also just copy the content item’s URL from your browser window.
+Paste the link into an email, Slack, or anywhere else you want to share it.
+Share to Slack
+Save yourself the context switching and extra clicks of sharing Confluence content in Slack by doing it directly from Confluence. You can find the
+Share to Slack
+functionality in the
+Share
+window.
+The Confluence Slack app is a system app and is installed by default for all Confluence sites, so anyone can use it without needing an admin to install it.
+Connect a Slack workspace
+When you first use Share to Slack, you’ll be prompted to connect the Slack workspace where you want to share. Simply
+Sign in
+to enable sharing to Slack directly from Confluence. To connect an additional workspace, select
+Add new workspace
+.
+Send content to Slack channels
+After selecting
+Share to Slack
+for the content you want to share:
+Choose which Slack workspace to send to.
+Choose the channel or person in that workspace.
+(Optional) Add a custom message.
+Select
+Share
+.
+Inviting external users
+When you share content with someone outside of Confluence, we send them an email inviting them to join your site. They’ll be prompted to create an Atlassian account before they can access your content.
+When you invite an external user, you grant them access to Confluence, not just to your specifically shared content. We add them to the default product group and start billing you for the new user.
+In some cases, your invitation will be sent to an admin for approval first. This happens when:
+Your site doesn’t allow existing users to invite others to join.
+The recipient’s email address domain, like
+@gmail.com
+, isn’t on your site’s list of approved domains.
+If an admin declines your request, you’ll be notified by email. The external recipient won’t be notified.
+Want to share a content item externally to anyone on the internet?
+If
+public links
+public links are allowed on your site, you can share individual content items publicly with anyone on the internet.
 Was this helpful?
 Yes
 No
@@ -496,18 +542,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Collaborate on content
 Show more
-Understand Confluence whiteboards plans and features
-Browser support and settings for whiteboards
-Atlassian Intelligence in Confluence whiteboards
-Draw freeform lines with pen
-Private mode in whiteboards
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
 Show more
 On this page
-Summarize
-Generate
-Group
+Share by email
+Share using a link
+Share to Slack
+Connect a Slack workspace
+Send content to Slack channels
+Inviting external users
 Community
 Questions, discussions, and articles
 Accessibility

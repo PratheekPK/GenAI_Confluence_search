@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/convert-legacy-pages-in-all-spaces/
+URL: https://support.atlassian.com/confluence-cloud/docs/summarize-a-page-or-blog-using-atlassian-intelligence/
 
-Convert legacy editor pages in all spaces | Confluence Cloud | Atlassian Support
+Summarize a page, live doc, or blog using Atlassian Intelligence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,46 +439,30 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Set Confluence-wide functionality
+Create and organize work in Confluence Cloud
+Atlassian Intelligence features in Confluence Cloud
 Cloud
 Data Center
-Convert legacy editor pages in all spaces
-Coming soon: Deprecation of the legacy editor
-In June 2025, Atlassian
-announced the deprecation
-of the legacy editor. This will be a phased process beginning in January 2026. Find out more in the
-FAQ article
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Save time and get the details you need to do your work faster by generating a quick summary with
+Atlassian Intelligence
 .
-When the process is complete in April 2026, all editing will take place in the cloud editor. Until then, you will continue to have the option to update pages in the legacy editor. However, there are some downsides to continuing to use the legacy editor:
-No bugs fixed unless it's a major incident.
-No enhancements.
-Confluence admins can enable
-auto-conversion of all legacy pages
-within Confluence to the new editor.
-When page auto-conversion is turned on for the instance, users will see a banner notification at the top of each legacy page when they are in edit mode. The page will be previewed with new editor formatting, but won’t change until the page is updated.
-To enable auto-conversion of pages across Confluence:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Configuration
-in the left-hand navigation.
+Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
+Settings > Atlassian Intelligence
+in Atlassian Administration.
+Atlassian Intelligence isn’t available for
+Atlassian Government
+apps.
+Summarize a Confluence page, live doc, or blog with Atlassian Intelligence
+Navigate to the Confluence page, live doc, or blog post you want to summarize.
 Select
-General configuration
-.
-Find
-Convert pages automatically
-and check
-Enable.
-Select
-Save.
-If auto-conversion is enabled, eligible pages will be converted to the cloud editor when someone views the page. You will be able to revert to the legacy version in
-More actions (
-)
-menu. Select
-Revert to legacy editor
+Summarize
+from the bottom right of the screen.
+Atlassian Intelligence will generate a summary of the content.
+You can rate the quality of the summary and provide feedback.
+A summary will not generate if there isn’t enough content to summarize or if summarizing the content might go against Atlassian’s Acceptable Use Policy.
+For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
+the Atlassian Trust Center
 .
 Was this helpful?
 Yes
@@ -490,13 +474,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
+Atlassian Intelligence features in Confluence Cloud
 Show more
-Create a custom space overview template
-Turn off page reactions
-Customize layout for PDF exports in Confluence Cloud
-Convert legacy editor pages in all spaces
-Configure live docs in Confluence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-the-site-homepage/
+URL: https://support.atlassian.com/confluence-cloud/docs/convert-legacy-pages-in-all-spaces/
 
-Change the landing page | Confluence Cloud | Atlassian Support
+Convert legacy editor pages in all spaces | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,61 +443,43 @@ Confluence administration
 Set Confluence-wide functionality
 Cloud
 Data Center
-Change the landing page
-Confluence Cloud
-has a default homepage and sidebar, where you can see activity, resume your work, access the space directory, and more. Alternatively, you can choose to set the overview page of a
-Confluence Cloud
-space as the homepage for your users.
-This can be useful if most people will be reading, rather than creating, content in your instance. However, if you want to encourage teams to collaborate, the default homepage and sidebar provide the best tools for resuming work in progress and keeping up with what's happening across Confluence.
-To change your Confluence homepage to a space’s overview:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
+Convert legacy editor pages in all spaces
+Coming soon: Deprecation of the legacy editor
+In June 2025, Atlassian
+announced the deprecation
+of the legacy editor. This will be a phased process beginning in January 2026. Find out more in the
+FAQ article
+.
+When the process is complete in April 2026, all editing will take place in the cloud editor. Until then, you will continue to have the option to update pages in the legacy editor. However, there are some downsides to continuing to use the legacy editor:
+No bugs fixed unless it's a major incident.
+No enhancements.
+Confluence admins can enable
+auto-conversion of all legacy pages
+within Confluence to the new editor.
+When page auto-conversion is turned on for the instance, users will see a banner notification at the top of each legacy page when they are in edit mode. The page will be previewed with new editor formatting, but won’t change until the page is updated.
+To enable auto-conversion of pages across Confluence:
 Select the wheel icon (
 ) in the top-right corner to open Confluence administration.
 Find
 Settings
+>
+Configuration
 in the left-hand navigation.
 Select
-Configuration
->
 General configuration
 .
-Select a space from the
-Confluence landing page
-dropdown menu. When users log in or click the site logo,
-Confluence Cloud
-will go to the overview page of the space you choose.
+Find
+Convert pages automatically
+and check
+Enable.
 Select
-Save configuration changes
-.
-Note about permissions
-Before changing the homepage, you should check that the default "confluence-users" or "users" groups have permissions to view the space, and that the overview page itself isn't restricted to particular people or groups.
-If your instance is public, you'll also need to make sure anonymous users have permissions to view the space, otherwise they'll be directed to the default
-Confluence Cloud
-homepage instead.
-Add a default homepage link to the app switcher
-If you choose to set a space’s overview page as your homepage but would also like users to be able to access the default home and sidebar, you can add a link to the application switcher.
-To add the default home and sidebar to the application navigator:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select
-from the top left, then select
-Manage list
-.
-Enter the
-Name
-for your link (for example, "Dashboard").
-Enter the
-URL
-for your instance’s default home (for example,
-https://yoursite.atlassian.net/wiki/dashboard.action
+Save.
+If auto-conversion is enabled, eligible pages will be converted to the cloud editor when someone views the page. You will be able to revert to the legacy version in
+More actions (
 )
-Select
-Add
+menu. Select
+Revert to legacy editor
 .
-A link to the default homepage will now appear in the application navigator.
 Was this helpful?
 Yes
 No
@@ -509,12 +491,12 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Set Confluence-wide functionality
-Control whether spaces can allow public links
-Control whether spaces can turn on anonymous access
-Change the landing page
-Change the Confluence Home welcome message
-Create a custom space overview template
 Show more
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-up-public-access/
+URL: https://support.atlassian.com/confluence-cloud/docs/how-secure-are-public-links/
 
-Control whether spaces can turn on anonymous access | Confluence Cloud | Atlassian Support
+How secure are public links? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,92 +440,193 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
-Set Confluence-wide functionality
+Manage global permissions in Confluence administration
 Cloud
 Data Center
-Control whether spaces can turn on anonymous access
-Giving anonymous users access to your content lets you share content with people who don’t have licensed access to your Confluence instance. This means you can let them view and collaborate on content, without having to add them to your license count.
-Anyone on the internet will be able to find and access your Confluence instance
-When you make your content available to anonymous users, this means
-anyone on the internet
-. The anonymous access feature can’t accommodate sharing with some anonymous people and not others. It’s all or nothing.
-Content shared with anonymous users will show up in Google searches.
-In what situations would anonymous access be useful?
-Using anonymous access to share externally is best when you want to share a lot of content with nonspecific people (aka, anyone on the internet). For example, a publicly available roadmap, an open knowledge base, or support documentation are prime types of content to use with anonymous access.
-You can organize that content in a space and grant anonymous users access to that specific space.
-What is an anonymous user?
-An anonymous user is anyone who isn’t logged in to your Confluence instance. This could be:
-anyone on the internet
-a member of your organization who is not a licensed user of your Confluence instance
-someone who is a licensed user of your Confluence instance, but they aren’t logged in
-Grant anonymous users access to your instance
-By enabling anonymous access, you’re allowing people who are not logged into Confluence (anonymous users; aka, anyone on the internet) to access content on your instance. You can pick and choose which spaces to make public and which to keep secure.
-The global, Confluence-level setting for anonymous access governs whether anonymous users (anyone on the internet) can access the instance. Actual access to content for anonymous users is
-managed in space permissions
+How secure are public links?
+Public links allow teams to share pages, live docs, and whiteboards with people outside of their Confluence organization, without giving them full access. This could be useful for sharing information to the public, like customer FAQs, release notes, shareholder letters, and more.
+On this page, you’ll learn how public links work and, in particular, how secure they are.
+If you’re an admin looking for guidance on how to get started with public links, go to
+Control whether spaces can allow public links
 .
-If anonymous users are granted access to the space, they’ll have access to
-all content within the space
-. To restrict them from a page or other content item, you can either
-change its restrictions
-or
-hide it from the content tree
+If you’re looking for help on how to actually share individual content, go to
+Share content externally with public links
 .
-By default, anonymous users start with no access to any spaces. For example, when a new space is created, anonymous users will have no access to that space, even if the global settings is enabled.
-To enable or disable anonymous access for the instance:
-Only Confluence admins can change the global setting for anonymous access.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find Settings >
-Security
-in the left-hand navigation.
-Select
+Public links are only available on Confluence’s paid plans (Standard, Premium, and Enterprise). Only Confluence pages, live docs, and whiteboards can have public links, not any other type of Confluence content (e.g., blogs, databases, etc.).
+Who can access a public link
+Anyone on the internet with the public link can view its content.
+Public links override all restrictions
+Public links ignore restrictions on who can view content in Confluence.
+Normally, Confluence content obeys view restrictions inherited all of its higher-level containers — any parent content, the space, and the site itself. However,
+the public link will just work
+. Anyone on the internet who has the content item’s public link can use it to view the safe, view-only version of it.
+Again, this means restricting a parent item won’t have any effect on who can view the public link of a child item.
+Public whiteboards can be edited by visitors, not only viewed, and likewise ignore any restrictions to who can view or edit the content in Confluence.
+Can someone Google a public link?
+Atlassian has taken all necessary steps within its capability to make sure search engines do not index our public links.
+This means that public links are not indexed by search engines, which means no one will be able to find the public link in a Google search. They need the actual public link.
+Content will only ever have one public link
+If you turn a public link off, anyone using it to try to access the content will get a message saying the content can’t be found. But if you later turn the public link back on, people who already have the public link will again be able to access the content because it’s the same link as before.
+Who can turn on a public link?
+Public links are controlled at 3 levels:
+In
+Global permissions,
+app
+admins can control whether the site should allow the use of public links. Allowing public links on the site doesn’t itself make anything public. It simply offers users on the site the option of turning on a public link for any content.
+In
+Space permissions
+, app and space admins can control whether a specific space should allow the use of public links. Public links must be allowed on the site first. Like the global setting, allowing public links in a space doesn’t itself make anything public. It simply offers users in the space the option of turning on public links.
+On
+specific content items,
+users can turn on or off a public link as long as they can edit the content and as long as public links are allowed by an admin. A user who can view a content item but not edit can still copy a public link that’s already on and share it with anyone on the internet.
+View and manage public links at the global level
+In the
+Public links
+tab of
 Global permissions
+, app admins will find a list of all the spaces on their site, see whether a space allows or doesn’t allow public links, and make changes.
+App admins on the Premium plan can block space admins from allowing public links in spaces, block them preemptively while the global public links toggle is off, and multi-select to stop allowing, allow, or block from allowing in bulk.
+To learn more about managing public links as an app admin, go to
+Control whether spaces can allow public links
 .
-Select the
-Anonymous access
-tab.
+View and manage public links at the space level
+In the
+Public links
+tab of
+Space permissions
+, space admins will find a list of all the active public links in their space. They can turn off or block any active public link. On the Premium plan, they can multi-select to turn off or block in bulk.
+App admins on the Premium plan can block space admins from allowing public links in spaces, block them preemptively while the global public links toggle is off, and do so in bulk.
+To learn more about managing public links as an app admin, go to
+Control whether spaces can allow public links
+.
+Control for organization admins to use security policies to control public links is now available.
+Learn about data security policies
+and
+how to prevent people from using public links on Confluence
+.
+Get notified for key public links sharing activity
+Alongside robust management functionality, Confluence will notify you of key public links activity to keep you on top of which content is shared publicly.
+How app admins stay notified
+As an app admin, you’ll be notified whenever someone allows public links for the entire site (changes the global toggle). App admins can also choose to be notified whenever anyone turns on a public link anywhere on your site.
+To stop receiving public links notifications as an app admin:
+Select your profile avatar in the top right of the top nav.
+Select
+Settings.
+Select
+Email
+in the sidenav.
 Select
 Edit
 .
-Check or uncheck the box under
-Use Confluence
-to enable or disable anonymous access for the instance.
+Uncheck
+Notify me when someone allows the use of public links on this site,
+and/or uncheck
+Notify me when someone turns on a public link.
+How space admins stay notified
+As a space admin, you’ll be notified whenever someone allows public links in your space (changes the space toggle) and whenever anyone turns on a public link in your space.
+To stop receiving public links notifications as a space admin:
+Select your profile avatar in the top right of the top nav.
 Select
-Save
-when you’re done.
-Security note
-Disabling the global setting if it was previously enabled doesn’t change any space level settings.
-Even if the global anonymous access setting is
-disabled
-, space admins can indicate they want anonymous users to access their space. This doesn’t mean anyone on the internet can access those spaces. If anonymous access is disabled at the Confluence level, only logged in users can enter the instance.
-However, if the global setting is
-enabled
-while those spaces allow anonymous users to access them, then anyone on the internet
-will
-be able to access those spaces.
-You can also choose whether anonymous users are able to view user profiles of any of your logged in users by checking or unchecking the box under
-View User Profile
+Settings.
+Select
+Email
+in the sidenav.
+Select
+Edit
 .
-How does anonymous access fit Confluence’s permissions structure?
-Anonymous access to content is controlled at 3 different levels:
-Confluence
-– At the Confluence level (in global permissions), the Confluence admin or site admin decides whether to grant anonymous users any access to the instance.
-Space
-– If anonymous access is allowed at the Confluence level, it’s then up to the space admins to decide whether they want to grant anonymous users any access to their space. If space access is granted, then anonymous users will have access to all pages in the space, unless restricted on the pages themselves.
-Content
-– Anonymous users are restricted from viewing content when its access setting is
-Only specific people can view or edit,
-or when one of its parent content items has been set so that only specific people can access. This means that view restrictions are passed down to all of the nested items.
-More about anonymous access
-Essentially, the global setting enables the
-possibility
-of sharing content to anyone on the internet. It’s then up to the space admins whether they want to give anonymous users access to their spaces.
-The global setting could be
-enabled
-, but if anonymous users haven’t been granted access to any spaces, no anonymous users will be able to access anything on your instance.
-Space admins can grant anonymous users all the same permissions as regular users, except anonymous users can’t be admins of a space. For a list of all space permissions that can be granted, see
-Assign space permissions
+Uncheck
+Notify me when someone allows the use of public links in my spaces,
+and/or uncheck
+Notify me when someone turns on a public link in my space.
+What are the app defaults for the public links feature?
+Confluence allows public links by default but no public links will actually be on by default. People will have to manually turn them on, where allowed.
+Type of control
+Allowed/On by default?
+Site-level control in global permissions
+Allowed
+Space-level control
+Allowed
+Content-level control
+Off
+Defaults may differ depending on date of site creation
+If your site was created
+before
+October 16, 2023, the global public links toggle will be off until you choose to turn it on.
+If your site was created
+on or after
+October 16, 2023 — including sites migrating to Confluence Cloud — the global public links toggle will be on. Because all spaces will allow public links by default, this also means all spaces on your site will be allowing public links from the time you created the site. You’ll have to turn the global toggle off to stop allowing public links on your site.
+Any time an app admin allows public links on their site by turning the global toggle from an off to an on position, all spaces will automatically and immediately move to an “allowed” status, regardless of any prior setting. No status will be remembered from before.
+To be clear, this means users in any space that shouldn’t ultimately allow public links will be able to turn a public link on until an admin manually stops allowing public links in that space.
+Upgrading from Free to paid plans will trigger these defaults
+Public links aren’t available on the Free plan. Upgrading makes them available and will trigger these defaults. This means that, although no public links will be on immediately, people on your site will be free to use public links in all spaces on your site the moment you upgrade.
+What protections are in place to avoid accidental sharing?
+We know it’s critical to have complete control and awareness over any public sharing functionality. Confluence equips both admins and end users with plenty of protection navigating this feature.
+Control public links on a space-by-space basis
+Some spaces shouldn’t allow public links. Admins can simply toggle off the ability for users in a specific space to use public links.
+App and organization admins can control whether public links should be allowed or not allowed in any new spaces created. By default, public links will be allowed in all new spaces created.
+To change whether new spaces created should allow public links:
+Select the gear icon in the top right to go to app settings.
+Select
+Space permissions.
+In the
+Public links
+section, select the toggle that controls whether new spaces should allow public links.
+Confirmation messages prevent mistakes
+Whenever an admin wants to allow public links on the site or in a space, they’ll be informed exactly what the effect of their action is — that it will allow users to turn on public links.
+Likewise, whenever an end user tries to turn on a public link, they’ll be informed exactly what the effect of
+their
+action is:
+It will make the public link active and available to be copied and shared by anyone who can view the content.
+Anyone on the internet who already has the content item’s public link will be able to view the public version of it, even if no one re-shares the public link with them.
+UI indicators show when content is public
+Confluence employs a number of indicators in the UI to mark content that’s currently being shared publicly. This helps you and your team understand which content is public at key points in your workflow, such as when editing public content, and prevent sharing the wrong information with the wrong people.
+The public link toggle on content items will appear grayed out, turned off, and disabled in any situation where the item’s public link isn’t allowed. This could be when:
+The public link is specifically blocked by an admin.
+Public links aren’t allowed in the space.
+Public links aren’t allowed on the site.
+Public links are recorded in the audit log
+All public links actions (with the exception of copying and sharing public links) are captured in the
+audit log
+. Whenever someone turns a public link on or off, a space admin allows public links in their space, or app admin allows public links for the site, it will be recorded.
+Public link visitors can request access to your site
+If your site allows people with certain email domains to join or request access to your site, they will be able to do so from any public link. Learn more about how to
+control how users get access to Confluence
 .
+What can public link visitors see and do?
+Public links offer a way to share individual content items safely with anyone on the internet. This means that visitors to public links are limited in what they can see and do.
+On public pages and live docs
+Public pages and live docs are designed to be view-only. Visitors to public content can’t:
+Edit the content
+Leave comments
+View comments
+View the Confluence navigation
+View the content tree and breadcrumbs
+View most macros, including those that contain data outside of the shared content, and all third party macros
+Public visitors can only view the following macros:
+Status
+Table of Contents
+Info, Tip, Note, and Warning
+Code Block
+Expand
+Excerpt
+Roadmap Planner
+Anchor macro
+All other macros
+are not viewable in the view-only version of the content.
+On public whiteboards
+Public whiteboards are designed to be editable, to allow anonymous visitors limited functionality. Visitors to public whiteboards can:
+Add, edit, and delete whiteboard content (stickies, shapes, text, arrows,, etc.)
+Add links
+View locked content on the whiteboard but can’t lock or unlock
+View voting results but can’t start or participate in a voting session
+They can’t:
+View links to Atlassian content they don’t have access to
+View comments
+Create comments
+Copy the whiteboard
+Delete the whiteboard
+Change the name of the whiteboard
+Upload media
 Was this helpful?
 Yes
 No
@@ -536,20 +637,34 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Set Confluence-wide functionality
-Control whether spaces can allow public links
-Control whether spaces can turn on anonymous access
-Change the landing page
-Change the Confluence Home welcome message
-Create a custom space overview template
-Show more
+Manage global permissions in Confluence administration
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
 On this page
-In what situations would anonymous access be useful?
-What is an anonymous user?
-Grant anonymous users access to your instance
-To enable or disable anonymous access for the instance:
-How does anonymous access fit Confluence’s permissions structure?
-More about anonymous access
+Who can access a public link
+Public links override all restrictions
+Can someone Google a public link?
+Content will only ever have one public link
+Who can turn on a public link?
+View and manage public links at the global level
+View and manage public links at the space level
+Get notified for key public links sharing activity
+How app admins stay notified
+How space admins stay notified
+What are the app defaults for the public links feature?
+Upgrading from Free to paid plans will trigger these defaults
+What protections are in place to avoid accidental sharing?
+Control public links on a space-by-space basis
+Confirmation messages prevent mistakes
+UI indicators show when content is public
+Public links are recorded in the audit log
+Public link visitors can request access to your site
+What can public link visitors see and do?
+On public pages and live docs
+On public whiteboards
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/troubleshooting-import-multiple-miro-boards-to-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/bring-all-your-work-into-confluence/
 
-Troubleshooting import multiple Miro boards to Confluence | Confluence Cloud | Atlassian Support
+Bring all your work into Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,83 +440,54 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Import data from other tools into Confluence
+Create and edit content
 Cloud
 Data Center
-Troubleshooting import multiple Miro boards to Confluence
-If you encounter issues during your import, follow these steps to identify and resolve the problem.
-Step 1: Check your import summary email
-When your import is complete, you’ll receive a notification email with details about what was transferred. The email will list the spaces, pages, and users that were successfully imported. If part or all of your import couldn’t be completed, the email will include a brief message explaining the issue.
-Use the table below to find your error message and follow the recommended troubleshooting steps.
-Step 2: Identify your error scenario and follow the recommended troubleshooting steps
-If part of your import was unsuccessful or failed:
-Notification example
-How to fix it
-5 users couldn’t be imported
-Check the missing users' status in Miro and ensure they are not deactivated. Retry importing content that includes these users.
-If no users could be imported at all, ensure you entered the correct Miro User Access Token. Follow these step-by-step instructions to verify your token:
-Import multiple Miro boards to Confluence
-1 space couldn’t be created
-If possible, make yourself the workspace owner in Miro. Otherwise, ask the workspace owner or a Miro admin to grant you ownership before retrying the import.
-11 whiteboards couldn’t be imported, or were imported incorrectly
-Tip:
-If several boards failed, retry the full import. If only a few boards didn’t import, use the Single Miro Importer to import them individually.
-Import Miro boards in Confluence whiteboards
-Go to Miro and re-export the failed boards, ensuring  they meet the following import file size and type requirement before retrying import:
-✅
-Is the file a Vector PDF?
-To check, open the PDF and zoom in.
-If the text and graphics stay sharp without pixelation, it’s likely a vector PDF.
-If the file isn’t a vector PDF, re-export it from Miro in the correct format and retry the import.
-✅
-Is the file larger than 100MB?
-Files over 100MB cannot be imported.
-If your board exceeds 100MB, try re-exporting only the essential parts of the board or exporting the board in smaller subsections before retrying.
-✅
-Does the board contain too many elements?
-If the board meets the format and size requirements but still won’t import, it may contain too many elements.
-Try re-exporting only the essential parts of the board or exporting the board in smaller subsections before retrying.
-If the entire import failed:
-Notification example
-How to fix it
-Your import from Miro was unsuccessful.
-Check the
-Miro import FAQ
-to see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
-Your import from Miro was unsuccessful.
-You have imported
-37 users
-from Miro.
-Check the
-Miro import FAQ
-to see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
-Your import from Miro was unsuccessful because
-we couldn’t get content from your export file
-.
-To fix this, ensure that your uploaded file meets the following requirements:
-A ZIP file
-In Vector PDF format
-From a Miro export
-Once confirmed, retry the import process.
-Need step-by-step instructions on how to export from Miro?
-See this guide
-Step 3: Contact support if you need further assistance
-If you're unable to resolve the issue,
-open a support ticket
-via the Atlassian Support Portal.
-Only
-app administrators
-can submit support tickets.
-How to submit your request:
-Open a support ticket via the
-Atlassian Support
-portal (if you are an app administrator).
+Bring all your work into Confluence
+Reduce overwhelm and improve productivity by bringing all your work to one place. Instead of switching between apps, centralize in Confluence using Smart Links in the content tree.
+Insert links and anchors
+(and in other Atlassian apps) already provide rich display options for links within pages and other content. Smart Links in the content tree take it a step further by letting you add these links directly to your content tree, so you can organize and access work from all your apps in your space.
+Add a Smart Link to the content tree
+There are two ways to add a Smart Link to the content tree.
 Select
-Technical issues and bugs
-as your support category.
-Include your Task ID
-in the details section of your support ticket
-→ This helps our team diagnose the issue faster. You can find your Task ID in your import summary email.
+Create
+in the main navigation, then
+Smart Link
+. This will create in the space you are currently in or will default to your personal space/whichever space you have edit permissions.
+Select
+in the Content section of the space
+sidebar
+, then
+Smart Link.
+This will create the Smart Link in the content tree directly where you want it.
+After selecting
+Smart Link
+, you’ll be prompted for a URL. Select
+Add Smart Link
+to finish.
+If you don’t add a link, you will see an untitled Smart Link in the content tree until you finish adding the URL or archive/delete it.
+What can you do with a Smart Link in the content tree?
+Assuming you have all necessary permissions for the linked content, some Smart Links will have expanded functionality directly in Confluence (for example, playing a video or adding to a document). The degree of interaction within Confluence may vary depending on the source apps and other factors.
+Not every URL can fully display within Confluence. Some apps will only show a preview of the content and relevant metadata.
+Once you’ve added your link, you can rename it, star it for easy reference, share with teammates, or open the link in a new tab. You can also make a copy of the link, move it somewhere else, or (if you don’t need it anymore) archive/delete it.
+Restrictions and Smart Links in the content tree
+When you add a Smart Link to the content tree, the link you’ve added inherits the default permissions of the object above it (or, generally, the space where you’ve placed it).
+You can’t set additional restrictions on a Smart Link within Confluence. However, permissions on the added link might affect who can engage with the content.
+Viewing something via a Smart Link in Confluence doesn’t imply permissions to interact with the content in the source app.
+What data is sent and received when pasting a Smart Link?
+For example, if you add a link to a Google Sheets spreadsheet in a space that anyone can view, but under a whiteboard that only a handful of people can view, the spreadsheet would inherit the same restrictions as the whiteboard. And, if there were limits within the spreadsheet itself of who could edit it, some of your teammates might be able to view the spreadsheet linked in Confluence, but not be able to modify it without the permissions being updated in the source application.
+Replace a link
+You may start off with one link that made sense to bring into Confluence and later discover you need another one entirely. Instead of archiving the link in your content tree (which could potentially impact other pieces of work), you can just replace the referenced link with a new one.
+Select
+Replace link
+from the
+More actions
+(
+) menu.
+Type or paste the URL you want.
+Select
+Replace
+.
 Was this helpful?
 Yes
 No
@@ -527,17 +498,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Import data from other tools into Confluence
+Create and edit content
 Show more
-Import data from Notion into Confluence
-Import multiple Miro boards to Confluence
-Troubleshooting import data from HTML to Confluence
-Troubleshooting import data from Notion to Confluence
-Troubleshooting import multiple Miro boards to Confluence
+Work with images, videos, and files
+Use Atlassian Intelligence to help write or edit content
+Bring all your work into Confluence
+Insert links and anchors
+Get started with Smart Links in the content tree
+Show more
 On this page
-If part of your import was unsuccessful or failed:
-If the entire import failed:
-How to submit your request:
+Add a Smart Link to the content tree
+What can you do with a Smart Link in the content tree?
+Restrictions and Smart Links in the content tree
+Replace a link
 Community
 Questions, discussions, and articles
 Accessibility

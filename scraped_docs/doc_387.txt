@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-recently-updated-dashboard-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-figjam-boards-in-confluence-whiteboards/
 
-Insert the recently updated dashboard macro | Confluence Cloud | Atlassian Support
+Import Figjam boards in Confluence whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,95 +439,64 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Insert the recently updated dashboard macro
-The recently updated dashboard macro displays a list of the most recently changed pages and live docs, blogs, and files in your site. It is similar to the
-recent updates macro
-, but with tabs to allow you to see all updates, updates from your favorite spaces, or updates from your network (the people you follow).
-To add the recently updated dashboard macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the recently updated dashboard macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Space(s)
-(spaces
-)
-The space that contains the page or live doc on which the macro is added
-Filter content by space. The macro will display only the pages and live docs that belong to the spaces you specify here. You can specify one or more space keys, separated by commas.
-Use '
-*
-' for all spaces.
-Include these Content Types Only
-(types
-)
-All types
-Filter content by type. You can specify one or more types, separated by commas. Available types are:
-page
-,
-blogpost
-or
-news
-,
-spacedesc
-,
-attachment
-,
-comment
-,
-mail
-,
-userinfo
+Import Figjam boards in Confluence whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Label(s)
-(labels
-)
-None
-Filter content by label. The macro will display only the pages and live docs that are tagged with the labels you specify here. You can specify one or more labels, separated by commas.
-If there are
-no
-pages or live docs matching any of the specified labels, then Confluence will ignore the labels and will list all recently updated pages and docs.
-User(s)
-(users
-)
-All users
-Filter by username of the user who updated the content. The macro will only display content created and updated by the users you specify here. You can specify one or more usernames separated by commas.
-Width of Table
-(width
-)
-100%
-Specify the width of the macro display, as a percentage of the window width.
-Show User Profile Pictures
-(showProfilePic
-)
-False
-Select whether profile pictures of the users who updated the content are displayed.
+Bring your Figjam content to Confluence whiteboards and collaborate seamlessly with your team. Import your whiteboards from Figjam into Confluence to unlock features like smart connectors, smart sections, real-time editing, and experience brainstorming and collaboration like never before. Plus, keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
+Export your Figjam board
+In Figjam, open the board you wish to export.
+Select the Main menu icon in the top-left corner, then select
+File > Export As
+.
+In the Export dialog, select from
+PNG
+,
+JPG
+, or
+PDF
+.
+If exporting as PNG or JPG, select a
+Background
+option (Transparent, Solid, or Grid).
+For the Export area, you can select the entire board, or Selection only.
+Select the
+Export
+button.
+Select a location to save the file.
+For more information on exporting Figjam boards,
+see the Figma support documentation
+.
+Import to whiteboards
+Whiteboards currently only support PDF or image file importing.
+Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
+You can import your content in two ways:
+Drag your image or file into your whiteboard.
+On the toolbar, select the More menu (
+…
+), select
+Whiteboard import,
+navigate to your file, and select it.
+Select your content type.
+The import process will complete.
+When should I recreate my content in Confluence whiteboards vs. uploading a static image?
+For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
+For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
+Limitations
+Some limitations and differences between your FigJam board and Confluence whiteboard will occur.
+Importing comments is not supported, but you can comment on Confluence whiteboards.
+Colors will be mapped to the closest Confluence whiteboards colors.
+Connectors will not import, but they can be recreated in Confluence whiteboards.
+Rotated elements will import unrotated.
+Shapes supported in whiteboards will import as shapes. Shapes that are not supported will import as images.
+Locked elements will not remain locked when imported, but you can manually lock them in Confluence whiteboards.
+Talk tracks are not supported in whiteboards.
+Whiteboards have a 10,000 element limit.
+Importing may take longer than a minute for boards with many elements, large images, or a lot of content.
 Was this helpful?
 Yes
 No
@@ -538,14 +507,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
+Create and edit whiteboards
 Show more
-Insert the profile picture macro
-Insert the recent updates macro
-Insert the recently updated dashboard macro
-Insert the related labels macro
-Insert the spaces list macro
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Import Mural boards in Confluence whiteboards
 Show more
+On this page
+Export your Figjam board
+Import to whiteboards
+When should I recreate my content in Confluence whiteboards vs. uploading a static image?
+Limitations
 Community
 Questions, discussions, and articles
 Accessibility

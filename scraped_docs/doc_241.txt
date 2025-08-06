@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-is-confluence-automation/
+URL: https://support.atlassian.com/confluence-cloud/docs/share-databases-entries-or-values/
 
-Confluence automation | Confluence Cloud | Atlassian Support
+Share databases, entries, or values | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,124 +439,67 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Confluence automation administration
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Confluence automation
-Confluence automation is a  feature that can help teams manage their content at scale. When space or app admins create and enable automation rules, Confluence automation works behind the scenes to complete routine functions that would otherwise have to be done manually. For example, rules can automatically:
-Create new content in the correct format.
-Send team updates on work progress.
-Remind people about incomplete tasks.
-Learn how to
-manage automation
-in Confluence Cloud.
-To learn about automation in other Atlassian apps, explore our
-Cloud automation
-documentation.
-What can Confluence automation do?
-Automation, generally speaking, does what it sounds like: It automates routine functions that would otherwise wait for a person to do them.
-In Confluence, this might mean automating workflows like:
-“When new pages or live docs are created in this space, message this Slack channel.”
-“When a person from this group creates new pages or live docs, add this label.”
-Depending on how your team uses Confluence (for collaborative work or as a knowledge base), automating certain functions may be more useful than others. Here are four key areas we expect automation to be especially helpful:
-Integrating tools
-Send automated work updates to team
-Slack
-and
-MS Teams
-channels
-Connect third-party apps and services using the webhook trigger
-Tracking the content lifecycle
-Enforce publishing processes and keep content up to date
-Make related content more discoverable by managing and auto-adding page or doc labels
-Keeping spaces organized
-Set up new spaces with a consistent page tree structure
-Auto-create team documents, like meeting notes, in a standard location in the page tree
-Staying informed
-Meet deadlines and keep teams connected with automated reminders and notifications to
-Complete assigned tasks
-See when work progresses without having to manually check or ask for updates
-Rules
-Rules
-are automated workflows constructed in an “If This, Then That” format.
-Confluence
-admins can create and enable rules that function at the global level.
-Space
-admins can create and enable rules for individual spaces. (And while you may not think of yourself as an admin, if you have a
-personal space
-you’re an administrator of your space!)
-If you don’t see Automation
-in Confluence administration or Space settings, this might be why:
-You’re not an admin of the space you’re in (for Space automation)
-You’re not a Confluence app admin (for Global automation)
-Learn how to
-create rules
-in Confluence automation.
-Rule components
-Each rule is made by combining different types of
-components
-: triggers, conditions, branches, and actions. Think of components as the building blocks of a rule. (If you’ve used automation in other non-Atlassian apps, you may have also seen this described as the ingredients that make a recipe.)
-Triggers
-(WHEN this happens…)
-Rules always begin with a trigger component. The trigger is the catalyst that sets the execution of your rule in motion.
-See a list of available triggers in Confluence
+Share databases, entries, or values
+Databases aren’t available in the
+Atlassian Government environment
 .
-Conditions
-(IF certain conditions are met…)
-Condition components are optional. They limit the scope of your rule. For example, you could add a
-User
-condition so that “when new pages or live docs are published”, the rule only runs if the pages or live docs were published by a specific user.
-See a list of available conditions in Confluence
+Effectively presenting your database information is crucial for your team's success. Whether you're working within Confluence or using other platforms, there are several ways to share and view your databases. This article will guide you through embedding databases on your Confluence pages and using Smart Links to display your database content.
+Embedding databases pages
+Using the
+/embed database
+command, you can embed an entire database, a specific database entry, or even a single database value onto a Confluence page. Follow these steps to embed your database content:
+When editing a Confluence page, select the
++
+button from the toolbar and find
+embed database
+, or type
+/embed
+and select
+embed database
 .
-Branches
-(FOR EACH [object]…)
-Branch components are also optional. They expand the execution of your rule by adding a secondary path (a branch). The branch is a sequence of conditions and/or actions that run in isolation from the rest of the rule — but are applied to every instance of an object. For example, you could branch the rule
-for each task
-(task being the object) so that “when new pages or live docs are published”, you receive a Slack message (an action) for every task on pages or live docs that’s assigned to you (the task criteria). This would happen in addition to actions added to the primary path of the rule chain.
-See a list of available branches in Confluence
-.
-Actions
-(THEN do this thing…)
-Rules always end with an action component. Actions are what you want the rule to do, that is, what you want to happen after it executes successfully.
-See a list of available actions in Confluence
-.
-Rule builder
-When you select the
-Create rule
-button, a rule builder opens where you can build a new rule from scratch (instead of starting with a rule template). It guides you to add and configure components, starting with a triggering event. Each component you save will appear in a rule chain on the left.
-Rule template
-Templates can be found in the
-Templates
-tab within automation. A rule template functions similarly to a page or doc template: It provides a starting point with appropriate components pre-selected and arranged in a rule chain. Select each component in the rule chain to configure and save it.
-Rule chain
-When you view a rule or rule template, the rule chain is an ordered list of components on the left. These are the instructions (the chain of events) for your rule. Once the rule is enabled, components will run in the order they appear from top to bottom. Drag and drop to reorder them. Hover and select the X to remove them.
-Rule summary
-There’s a link above the rule chain to edit
-Rule details
-like the name, description, and rule actor. You can also troubleshoot an existing rule by viewing execution data in its
-audit log
-. Together the rule details, rule actor, audit log, and rule chain summarize all the information about a particular rule.
-Rule actor
-When your rule performs an action, it’s performed on behalf of the individual (or group) listed as the
-rule actor
-. For example, if your rule ultimately sends an email – the name of the rule actor appears in the “From” line. In Confluence, the rule actor defaults to the person who created the rule. If you’re creating rules for another team, this can be changed (in
-Rule details
-) so that actions appear to originate from the appropriate team member or group. (In Jira, the rule actor can also be set generically as “Jira automation”, but this isn’t currently an option in Confluence.)
-Smart values
-When you configure components to add to your rule, you may be prompted with an option to use
-smart values
-. They can look a little intimidating, but using them is easier than you might think.
-Smart values are dynamic variables that make your rule more flexible. They serve as placeholders where information gets plugged in, depending on context.
-For example if you build a rule that notifies people when their pages or live docs are edited, you might include smart values to dynamically plug in:
-the name of the contributing editor(s)
-the date
-the title of the edited page(s) or live docs
-See a list of available smart values in Confluence
-.
-Learn more about
-Confluence Cloud automation
-.
+Search for or paste a link to the database you want to embed in the
+database
+field.
+Select or create an entry from the
+entry
+field if you want to display a specific entry. To display a particular value, select the value from the
+value
+field.
+Select
+Embed
+to insert the selected database, entry, or value onto the page.
+The embedded content will appear as a Smart Link, providing a dynamic and interactive view of your database directly within your Confluence page.
+Using Smart Links
+Smart Links offer a flexible way to share and display database content on Confluence pages and anywhere that supports Smart Links. Smart Links can display an entire database, a specific view, an individual entry, or a particular value.
+Displaying the whole database
+Go to the database you want to share and copy the URL from your web browser's address bar.
+Open the Confluence page or another location where you want to embed the database.
+Paste the URL, and it will create a Smart Link to the database.
+Displaying a selected view
+Navigate to the specific view of the database you want to share.
+Copy the URL from the address bar of your web browser. You can also use the
+Copy link
+option from the view actions menu.
+Paste the URL into the Confluence page or another location to create a Smart Link to the selected view.
+Displaying a database entry
+Find and open the entry you want to share from your database.
+Use the
+Copy link
+icon.
+Paste the URL into the desired location, and a Smart Link to the database entry will be created.
+Displaying a database value
+In the table layout, navigate to and select the value you want to share.
+Use the
+Copy link
+icon for the specific value.
+Paste the URL into the desired location, and a Smart Link to the database value will be created.
+Smart Links are dynamic and will update when the linked content changes. This ensures that the information you share is always up-to-date.
+For more detailed information on using Smart Links in Confluence, refer to
+Insert links and anchors
 Was this helpful?
 Yes
 No
@@ -567,19 +510,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Confluence automation administration
-Confluence automation
-Confluence automation usage
+Create and edit databases
+Show more
+Create a database
+Database fields
+Share databases, entries, or values
+Database views
+Layouts and options
+Show more
 On this page
-What can Confluence automation do?
-Rules
-Rule components
-Rule builder
-Rule template
-Rule chain
-Rule summary
-Rule actor
-Smart values
+Embedding databases pages
+Using Smart Links
+Displaying the whole database
+Displaying a selected view
+Displaying a database entry
+Displaying a database value
 Community
 Questions, discussions, and articles
 Accessibility

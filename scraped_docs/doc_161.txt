@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-add-development-info-on-confluence-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-filter-by-label-macro/
 
-Use macros to add development info on Confluence pages | Confluence Cloud | Atlassian Support
+Insert the filter by label macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,21 +440,148 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Use macros to add development info on Confluence pages
-Display Jira work items in a list
-Display Jira work items on your Confluence page or live doc.
-View topic
-Insert the Jira chart macro
-Display Jira issue data on your page or live doc.
-View topic
-Insert the Jira timeline macro
-Display your project's Jira timeline on your page or live doc.
-View topic
-Display your Assets data on a Confluence page
-See how to display your Assets data on a Confluence page or live doc using the Assets macro.
-View topic
+Insert the filter by label macro
+The filter by label macro is used to display lists of pages, live docs, blog posts, or attachments that share a particular label or set of labels. It's great for collecting related content together and filtering out content that you don't want to see.
+For example, you could use this macro to display a list of all pages that have the label 'feature-shipped' and include the word 'Blueprint', or to list any live docs with the label 'meeting-notes' that you've been mentioned in.
+Here's how the list will look on your page or live doc:
+Add a list of labeled content to your page or live doc
+From the editor, select
+from the toolbar or type
+/
+to bring up the insert menu.
+Find the
+Filter by label
+macro and select it. You can also type
+/filterbylabel
+to select this macro from the insert menu right in the body of your page or doc.
+Upon selection, a modal will appear where you can customize and configure your list prior to inserting it.
+Configure your list of labeled content
+From the configuration modal, search and select the label(s) you want to use to filter your list via the
+Add label(s)
+field.
+You can then choose whether or not to filter this list even more by selecting
+Add filter(s)
+.
+Finally, select
+More options
+to customize the list even further.
+When you’re done configuring your list, you can select
+Preview
+to see how it will look on your page or doc.
+Select
+Insert
+to embed your configured list on your page or doc.
+The items in this list are dynamic — if additional updates take place, they'll automatically be reflected in the list.
+Edit an existing list of labeled content
+While editing your content, select the
+Filter by label macro
+you want to re-configure.
+Select the
+Edit
+(
+)
+icon to open the configuration modal.
+Adjust the parameters of your list of labeled content.
+Select
+Insert
+to finalize the changes to your list.
+You can also select the centered, medium-width, or full-width icon to adjust the width of your list. Select the copy icon to duplicate it elsewhere, and/or the trashcan icon to remove it entirely.
+What CQL filters are available to use?
+CQL (Confluence Query Language) was developed by Confluence for use in certain macros and Confluence search. It allows you to add as many filters as you need to narrow down search results.
+By selecting
+Add filter(s)
+in the configuration modal, you can use the following CQL filters:
+Filter
+Description
+Operators
+Label
+Returns pages, live docs, blog posts, or attachments with these labels.
+OR (multiple values in the same filter)
+AND (multiple Label filters)
+Title
+Returns items that contain this text in the title.
+CONTAINS (single word or phrase)
+Type
+Returns only pages, live docs, blogs or attachments.
+OR (multiple values in the same filter)
+Text
+Returns items that contain this text.
+CONTAINS (single word or phrase)
+Date created
+Returns items created on this date.
+CONTAINS (single word or phrase)
+Last modified
+Returns items last updated on this date.
+CONTAINS (single word or phrase)
+Creator
+Returns items created by these people.
+OR (multiple values in the same filter)
+Contributor
+Returns pages, live docs, or blog posts that were created or edited by these people.
+OR (multiple values in the same filter)
+Mentioned user
+Returns pages, live docs, and blog posts that @mention these people.
+OR (multiple values in the same filter)
+Space
+Returns items from these spaces.
+OR (multiple values in the same filter)
+Child pages
+Returns only direct child items of this page or doc (further sub-items won't be included)
+EQUALS (one page only)
+All subpages
+Returns all pages and live docs that live under this page in the page tree.
+OR (multiple values in the same filter)
+AND, OR, and NOT operators
+For an OR search, specify multiple values in the same field.
+So to show pages with 'label-a', 'label-b' or both you'd put 'label-a' and 'label-b' in the same Label field, like this:
+For an AND search, add more than one filter and specify a single value in each.
+To show only pages with label-a and label-b you'd put 'label-a' in one label field, then add a second Label field to the macro, and put 'label-b' in the second one, like this:
+Put simply, OR values are entered in the same filter, AND values are entered in different filter.
+Only some filters support AND. If the filter doesn't support the AND operator, you won't be able to add that filter more than once.
+For a NOT search, enter a minus sign (-) before the label. This'll exclude everything with that label.
+More options
+The following configuration options control how your list appears on the page:
+Option
+Default
+Description
+List title
+None
+Display an optional title header for your list
+Sort order
+CQL relevancy
+This dropdown allows you to configure the order of your list.
+Title
+- displays items alphabetically by title, or reversed.
+Created
+- displays items in order from most recently created to least, or vice versa.
+Modified
+- displays items in order from most recently updated to least, or vice versa.
+Display preview
+None
+This dropdown allows you to display your list with or without a preview of each child item’s content.
+Content preview
+- displays a snapshot of the top section of a page or live doc’s content, including formatted text, images, and certain macros.
+Excerpt preview
+- displays the first line of text contained in an
+excerpt macro
+on any listed child items. If there isn’t an excerpt on the page or doc, nothing will be shown.
+Display full list
+Unchecked
+Check to display all items in your list at once, or un-check to manually customize how many items to display.
+Max number in list
+15
+When the
+Display full list
+box is unchecked, this input field allows you to enter the number of items you want to display in your list. This can be any value up to 500.
+Display labels
+Checked
+Check to display, or un-check to hide, the labels applied to each item.
+Display space name
+Checked
+Check to display, or un-check to hide, the space name associated with each item.
 Was this helpful?
 Yes
 No
@@ -465,19 +592,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Display Jira work items in a list
-Insert the Jira chart macro
-Insert the Jira timeline macro
-Display your Assets data on a Confluence page
-Extend the functionality of Confluence Cloud
-Show more
-Use Confluence with other applications
 Use macros to show Confluence content on pages and live docs
-Use macros to add development info on Confluence pages
-Use macros to include media on Confluence pages
-Use macros to add navigation on Confluence pages
 Show more
+Insert the change history macro
+Insert the child items macro
+Insert the filter by label macro
+Insert the content report table macro
+Insert the contributors macro
+Show more
+On this page
+Add a list of labeled content to your page or live doc
+Configure your list of labeled content
+Edit an existing list of labeled content
+What CQL filters are available to use?
+AND, OR, and NOT operators
+More options
 Community
 Questions, discussions, and articles
 Accessibility

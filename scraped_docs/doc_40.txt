@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-decision-report-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/summarize-comments-using-atlassian-intelligence/
 
-Insert the decision report macro | Confluence Cloud | Atlassian Support
+Summarize comments using Atlassian Intelligence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,46 +439,37 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Create and organize work in Confluence Cloud
+Atlassian Intelligence features in Confluence Cloud
 Cloud
 Data Center
-Insert the decision report macro
-Add a Decision report macro to your page or live doc to display a list of pages and live docs and the decisions on them.
-This macro is great for for collecting decisions together and filtering out content that you don't want to see. You could:
-list all pages with decisions in the current space
-list all pages with decisions in the current space that were created in the last year
-list all pages with decisions in the current space that are in a certain section of the page tree
-list all pages with decisions in two specific spaces that mention your Product Manager
-Add this macro to your page or live doc
-To add the Decision report macro to a page or doc:
-From the editor toolbar, select
-Insert
->
-View more
+Summarize comments using Atlassian Intelligence
+This Atlassian Intelligence feature is in beta. Read more about
+Atlassian Intelligence features.
+Save time and get the information you need to engage with teammates faster by generating a summary of general page or doc comments with
+Atlassian Intelligence
+(currently, it is not possible to summarize in-line comments).
+Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
+Settings > Atlassian Intelligence
+in Atlassian Administration.
+Atlassian Intelligence isn’t available for
+Atlassian Government
+apps.
+Summarize general comments with Atlassian Intelligence
+Open
+Rovo
+via the button at the bottom-right of your screen.
+Select
+Summarize comments
+from the panel.
+Atlassian Intelligence will generate a summary of general page or doc comments.
+You can copy the summary to your clipboard, update it to include new comments as they’re added, rate the quality of the summary, and provide feedback on the feature.
+Atlassian Intelligence will only generate a summary if there are at least two general comments, and it won’t generate a summary of comments that appear to violate Atlassian’s
+Acceptable Use Policy
 .
-Select
-Decision report
-from the
-Confluence content
-category.
-You can also enter
-/decision
-to select the macro
-Select the space(s) to aggregate decisions from by:
-leaving the
-Current space
-default if you want decisions from the space you are in
-choosing the spaces from the suggestions
-entering the name of a specific space
-Add additional filters to further narrow your query.
-You can filter by label or any other Confluence Query Language (
-CQL
-) field.
-Select
-Show
-to determine the maximum number of decisions. These are optional. Your changes are saved as you go.
-Resume editing, and the panel closes.
+For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
+the Atlassian Trust Center
+.
 Was this helpful?
 Yes
 No
@@ -489,13 +480,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
+Atlassian Intelligence features in Confluence Cloud
 Show more
-Insert the contributors summary macro
-Insert the create from template macro
-Insert the decision report macro
-Insert the excerpt macro
-Add excerpts to a page or live doc with the insert excerpt macro
+Learn about pre-defined prompts in Atlassian Intelligence
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
 Show more
 Community
 Questions, discussions, and articles

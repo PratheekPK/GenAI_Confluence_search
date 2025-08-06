@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-number-formats/
+URL: https://support.atlassian.com/confluence-cloud/docs/delete-or-remove-a-calendar/
 
-Configure number formats | Confluence Cloud | Atlassian Support
+Delete or remove a calendar | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,48 +439,55 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Space administration
+Manage team calendars
 Cloud
 Data Center
-Configure number formats
-There are two number format settings in
-Confluence Cloud
-:
-Long number format. For example:
-###############
-Decimal number format. For example:
-###############.##########
-Confluence Cloud
-uses the guidelines in this Java document from Oracle:
-Class NumberFormat
-.
-To change the number formats in
-Confluence Cloud
-:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
+Delete or remove a calendar
+If you don't want to see a calendar in a space or on your My Calendars page anymore, there are two ways you can remove it. How you proceed depends upon whether you're just hiding the calendar from your view or deleting it completely.
+Remove a calendar
+You want to "Remove" a calendar if you just want to hide it from a particular view of calendars, but not delete it entirely.
+To remove a calendar from a space's calendar view:
 Select
-Configuration
->
-General configuration
-.
-Scroll down to
-Formatting and international settings
-.
-Update the
-Long number format
-and
-Long decimal format
-to suit your requirements
+Apps
+, then
+Calendar
+in the space sidebar to see all the calendars linked to the space.
+In the left panel of the space's calendars view, select
+next to the calendar you want to remove and select
+Remove from space calendar.
 Select
-Save
+Remove
+to confirm.
+To remove a calendar from My Calendars view:
+Select
+Apps
+in the top nav and select
+Calendars
+.
+In the left panel of your My Calendars view, select
+next to the calendar you want to remove and select
+Remove from my calendar.
+Select
+Remove
+to confirm.
+Delete a calendar
+This action will permanently delete the calendar for all users.
+You can only delete a calendar if you are a site admin, app admin, space admin, or the original calendar creator. To delete a calendar:
+Find the calendar in a space or on your team calendars page.
+Select details icon (
+) next to the calendar name and select
+Delete calendar.
+Lastly, select
+Delete
+to confirm.
+If you are the original calendar creator and can’t delete it, have your admin check the space settings and verify that the permission
+Delete own
+is enabled.
+If you're using Confluence Cloud, and you'd like Atlassian Cloud site admins to be able to delete calendars, in addition to the calendar's owner, you can enable that option in your Team Calendars settings. Type
+Team Calendars
+in the Confluence quick search to get to your Team Calendars settings, then tick
+Allow site administrators to manage calendars
 .
 Was this helpful?
 Yes
@@ -492,14 +499,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
-Show more
-Configure the indexing language
-Configure time and date formats
-Configure number formats
-Configure attachment size
-Configure shortcut links
-Show more
+Manage team calendars
+Delete or remove a calendar
+Restrict a calendar
+On this page
+Remove a calendar
+Delete a calendar
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/learn-how-confluence-cloud-works/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-reminders-to-events/
 
-Confluence Cloud functionality and features | Confluence Cloud | Atlassian Support
+Add reminders to events | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,19 +439,56 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Considering Confluence Cloud?
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Confluence Cloud functionality and features
-What is Confluence Cloud?
-Learn how you can create, collaborate, and share content in Confluence Cloud.
-View topic
-Learn about the features of Confluence Cloud plans
-Learn what's included in different Confluence Cloud plans, and how to change from plan to another.
-View topic
-Confluence Standard
-Learn all about the Confluence Standard plan
-View topic
+Add reminders to events
+There are some events that are just too important to miss, and you wouldn't want anyone in your team to miss them either.
+If you have edit permission for a calendar, you can set reminders for each
+event type
+so that anyone who's added the calendar to their 'My Calendars' page will receive an email at your chosen time.
+Add reminders to event types
+Choose
+>
+Edit
+Choose
+Event Types
+Choose the pencil
+icon to edit an event type
+Add your reminder time and choose
+Save
+Repeat steps 3 and 4 for each event type you're adding a reminder to
+Choose
+OK
+If you only want to add reminders to one event type, choose the
+to the right of the event type, then choose
+Add a reminder
+.
+From a reminder email you can click to view the event, or turn off reminders for the event type if you don't need them. To
+remove
+reminders for an event type, follow the above procedure and set the reminder time to 'None'.
+Remember, when you change reminders for an event type, you're changing reminders for anyone who's added the calendar to their My Calendars page.
+Turn reminder emails on or off
+You can decide whether or not you want to receive reminder emails for each event type on your My Calendars page. This isn't about adding or removing reminders for an event type; it's essentially opting-in to or opting-out of the reminder emails.
+To turn reminders on or off:
+Choose
+Calendars
+in the Confluence header
+Choose the
+to the right of an event type
+Select
+Turn on reminders
+or
+Turn off reminders
+If it says
+Add a reminder
+when you get to step 3, it means there's no reminder set for the event type. Only choose that option if you want to
+set
+reminders for the event type, which will be sent to everyone who's added the calendar to their My Calendars page.
+You can also opt-out of reminder emails for an event type by clicking the
+Stop reminding me
+link in the reminder email.
 Was this helpful?
 Yes
 No
@@ -462,13 +499,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-What is Confluence Cloud?
-Learn about the features of Confluence Cloud plans
-Confluence Standard
-Considering Confluence Cloud?
-Confluence Cloud functionality and features
-See how teams use Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
+Show more
+See standard event types
+Add and delete custom event types
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Show more
+On this page
+Add reminders to event types
+Turn reminder emails on or off
 Community
 Questions, discussions, and articles
 Accessibility

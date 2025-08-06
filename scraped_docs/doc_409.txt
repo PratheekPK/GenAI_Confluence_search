@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/disable-anonymous-access-to-remote-api/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-site-level-permissions/
 
-Disable anonymous access to remote API | Confluence Cloud | Atlassian Support
+Manage global permissions in Confluence administration | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,45 +440,24 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
-Security settings in Confluence Cloud
 Cloud
 Data Center
-Disable anonymous access to remote API
-Confluence administrators may wish to disable anonymous access to the
-Confluence Cloud
-remote API, to make it harder for malicious users to write "bots" that perform bulk changes to the instance.
-This setting is disabled by default.
-To enable anonymous access to the
-Confluence Cloud
-remote API
-— raise a
-support request
-.
-To toggle anonymous access to the remote API:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Security
-in the left-hand navigation.
-Select
-Security configuration
-.
-Check or uncheck the
-Anonymous Access to Remote API
-box.
-Select
-Save
-at the bottom of the page.
-This page is about access to the remote API. If you're looking for info about preventing anonymous users from accessing
-Confluence Cloud
-, see
+Manage global permissions in Confluence administration
 Manage global permissions
-.
+Learn how to manage permissions globally on Confluence as a Confluence admin.
+View topic
+Assign space access to guests
+Assign a space to guests who were invited to collaborate in Confluence Cloud.
+View topic
+Manage public links across Confluence Cloud
+View and manage which spaces allow public links and manage the individual public links within each space.
+View topic
+How secure are public links?
+Learn how secure Confluence public links are.
+View topic
+Give access to unlicensed users from Jira Service Management
+Allow users who don't have a Confluence license to view your Jira Service Management knowledge base in Confluence.
+View topic
 Was this helpful?
 Yes
 No
@@ -489,10 +468,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Security settings in Confluence Cloud
-Hide external links from search engines
-Disable anonymous access to remote API
-Turn on Captcha for spam prevention or failed logins
+Explore more
+Manage global permissions
+Assign space access to guests
+Manage public links across Confluence Cloud
+How secure are public links?
+Give access to unlicensed users from Jira Service Management
+Confluence administration
+Show more
+Monitor and manage activity in Confluence Cloud
+Premium admin tools for Confluence Cloud
+Manage global permissions in Confluence administration
+Manage analytics permissions in Confluence administration
+Manage Confluence content templates
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

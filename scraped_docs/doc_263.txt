@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/confluence-automation/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-account/
 
-Confluence automation administration | Confluence Cloud | Atlassian Support
+Manage your account | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,16 +439,39 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Manage your account and permissions in Confluence Cloud
 Cloud
 Data Center
-Confluence automation administration
-Learn what Confluence automation is, see admin functions and usage, and familiarize yourself with common terms.
-Confluence automation
-Learn what automation is, why it’s useful in Confluence Cloud, and familiarize yourself with common terms.
+Manage your account
+Confluence is very flexible — not only in the many ways you can create and share content, but also in how you can tailor your own Confluence experience. Things like your profile picture,
+starred content
+, and your
+personal space
+can say a lot about you, and can also make navigating Confluence much quicker and easier. Even a simple thing like
+adding shortcut links to the sidebar
+of your personal space, can save you a lot of time in finding the things you use all the time.
+Set up your personal space
+and take a look at any of the topics below to start making Confluence feel like home.
+Edit your profile
+Find out how to edit your profile and set your profile picture.
 View topic
-Confluence automation usage
-Learn how to view and track your automation usage in Confluence Cloud.
+Edit your user settings
+Tailor Confluence to fit your needs with personalized settings and preferences.
+View topic
+Change your Confluence password
+Find out how to change and reset your password.
+View topic
+Manage OAuth access tokens
+Learn how to manage OAuth access tokens that act as a type of 'key'.
+View topic
+Delete your account
+Understand how to delete your Atlassian account and the impact of that choice.
+View topic
+Change your theme
+Switch between Light, Dark, and browser themes in Confluence.
+View topic
+Set your email visibility
+Choose the email visibility settings that are best for you.
 View topic
 Was this helpful?
 Yes
@@ -461,15 +484,15 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Explore more
-Confluence automation
-Confluence automation usage
-Confluence administration
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
 Show more
-Security settings in Confluence Cloud
-Look and feel settings in Confluence Cloud
-Data management in Confluence Cloud
-Atlassian Marketplace apps
-Confluence automation administration
+Manage your account and permissions in Confluence Cloud
+Manage your account
+Manage permissions at the content level
 Community
 Questions, discussions, and articles
 Accessibility

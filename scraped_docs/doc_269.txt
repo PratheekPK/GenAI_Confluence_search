@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-figjam-boards-in-confluence-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/view-insights-on-your-site/
 
-Import Figjam boards in Confluence whiteboards | Confluence Cloud | Atlassian Support
+View insights on your site | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,64 +439,116 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Collaborate on content and get notified in Confluence Cloud
+View Confluence analytics to see how content is performing
 Cloud
 Data Center
-Import Figjam boards in Confluence whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+View insights on your site
+Get an overview of the usage of your site, then view insights on your spaces, users, and searches.
+To access site analytics:
+Select the
+Apps
+menu in the
+sidebar
 .
-Bring your Figjam content to Confluence whiteboards and collaborate seamlessly with your team. Import your whiteboards from Figjam into Confluence to unlock features like smart connectors, smart sections, real-time editing, and experience brainstorming and collaboration like never before. Plus, keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
-Export your Figjam board
-In Figjam, open the board you wish to export.
-Select the Main menu icon in the top-left corner, then select
-File > Export As
+Select
+Analytics
 .
-In the Export dialog, select from
-PNG
+The Overview tab shows analytics data for your site as a whole.
+Use the shortcuts at the top to select the date range (seven days, one month, three months, year-to-date, or custom) for your data. You can also decide how you want to group the data, whether to display it by total number of users or unique users.
+Hover over points on the chart to view a summary of data for a specific date.
+The cards below the chart show top rankings for a key insight found in each of the
+Spaces
 ,
-JPG
-, or
-PDF
+Users
+, and
+Searches
+tabs:
+Popular spaces
+– The spaces with the most views for the chosen date range
+Most active readers
+– The users who have viewed content on your site the most number of times in the chosen date range
+Trending searches
+– The terms users most often searched for in the chosen date range
+Selecting
+View all
+takes you to the full list of rankings in each tab.
+View insights on your site's spaces
+From the
+Spaces
+tab of site analytics, you can view the following insights:
+Name
+- The name of the space
+Views
+- The total number of times pages in the space have been viewed within the selected date range
+Users Viewed
+- The total number of users that have viewed content in the space within the selected date range
+Last Viewed
+- The last time any content in the space was viewed
+Updated
+- The total number of times content in the space have been edited within the selected date range
+Created
+- The number of content items that have been created in the space within the selected date range
+Space analytics
+can also be accessed from a space’s
+sidebar
 .
-If exporting as PNG or JPG, select a
-Background
-option (Transparent, Solid, or Grid).
-For the Export area, you can select the entire board, or Selection only.
-Select the
-Export
-button.
-Select a location to save the file.
-For more information on exporting Figjam boards,
-see the Figma support documentation
-.
-Import to whiteboards
-Whiteboards currently only support PDF or image file importing.
-Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
-You can import your content in two ways:
-Drag your image or file into your whiteboard.
-On the toolbar, select the More menu (
-…
-), select
-Whiteboard import,
-navigate to your file, and select it.
-Select your content type.
-The import process will complete.
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
-For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
-Limitations
-Some limitations and differences between your FigJam board and Confluence whiteboard will occur.
-Importing comments is not supported, but you can comment on Confluence whiteboards.
-Colors will be mapped to the closest Confluence whiteboards colors.
-Connectors will not import, but they can be recreated in Confluence whiteboards.
-Rotated elements will import unrotated.
-Shapes supported in whiteboards will import as shapes. Shapes that are not supported will import as images.
-Locked elements will not remain locked when imported, but you can manually lock them in Confluence whiteboards.
-Talk tracks are not supported in whiteboards.
-Whiteboards have a 10,000 element limit.
-Importing may take longer than a minute for boards with many elements, large images, or a lot of content.
+Export reports on spaces
+You can export a Microsoft Excel report of analytics for the spaces on your site.
+Select
+Export as CSV
+on the top right of the
+Spaces
+tab. The file, with data separated by commas, will download automatically.
+View insights on your site's users
+From the
+Users
+tab of site analytics, you can view the following insights:
+Name
+- The name of the user
+Created
+- The number of content items created by a specific user within the selected date range
+Updated
+- The total number of times a specific user has edited content within the selected date range
+Comments
+- The total number of times a specific user has commented on content within the selected the date range
+Search
+- The total number of times a specific user has performed a search within the selected date range
+Views
+- The total number of times a user has viewed content within the selected date range
+Export reports on users
+You can export a Microsoft Excel report of analytics for the users on your site.
+Select
+Export as CSV
+on the top right of the
+Users
+tab. The file, with data separated by commas, will download automatically.
+View insights on searches in your site
+From the
+Searches
+tab of site analytics, you can view the following insights on terms users are searching for:
+Search term
+- The term users have searched for
+Searches
+- The total number of searches for the search term within the selected date range
+Users searched
+-
+The number of unique users that have searched for the search term within the selected date range
+Click-through rate
+- The percentage of times users have clicked through to content from results after searching on the term within the selected date range
+Select a row to view additional insights for a specific search term:
+Searches
+– Charts how many times users searched for this term in the chosen date range
+Click-through rate
+– Charts how many times users selected a search result in the chosen date range
+Most-clicked content
+– The content from the search results that users most often selected, in the chosen date range
+Most-clicked spaces
+– The spaces from the search results that users most often selected, in the chosen date range
+The counts displayed in the main table may differ slightly from those shown after clicking on a row because our search insights are based on large-scale approximations. For more accurate counts in these cases, refer to the additional insights panel.
+Keep in mind that you’ll only see spaces and content that you have
+permission
+to view.
 Was this helpful?
 Yes
 No
@@ -507,19 +559,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Show more
-Take bulk Jira actions with smart sections
-Set your whiteboard preferences
-Import Figjam boards in Confluence whiteboards
-Import Miro boards in Confluence whiteboards
-Import Mural boards in Confluence whiteboards
-Show more
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
 On this page
-Export your Figjam board
-Import to whiteboards
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-Limitations
+View insights on your site's spaces
+Export reports on spaces
+View insights on your site's users
+Export reports on users
+View insights on searches in your site
 Community
 Questions, discussions, and articles
 Accessibility

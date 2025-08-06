@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-expand-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/atlassian-intelligence-features-in-confluence-cloud/
 
-Insert the expand macro | Confluence Cloud | Atlassian Support
+Atlassian Intelligence features in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,19 +439,44 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to add visuals and images to Confluence pages
+Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Insert the expand macro
-The Expand macro displays an expandable/collapsible section of text on your page.
-When you export the page to PDF or HTML, the macro is expanded so that readers can see the content in the PDF or HTML export.
-Using the Expand macro
-When editing, select
-from the toolbar or use the slash command ( / ).
-Find the Expand macro in the list and select it.
-Update the title (by default, “Click here to expand…”) with the text you want to appear next to the expand/collapse icon.
-Add the content you want inside of the expand.
+Atlassian Intelligence features in Confluence Cloud
+Learn how to use Atlassian Intelligence features in Confluence Cloud to help improve your writing and streamline your work.
+Atlassian Intelligence isn’t available for
+Atlassian Government products
+.
+Search for answers using Atlassian Intelligence
+Ask Atlassian Intelligence questions to find the Confluence content you’re looking for.
+View topic
+Write or edit content using Atlassian Intelligence
+Learn how to use Atlassian Intelligence to help write or edit your pages, live docs, comments, and blogs.
+View topic
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence to define terms, acronyms, and abbreviations without leaving Confluence.
+View topic
+Use Atlassian Intelligence with Confluence automation
+Learn how to use Atlassian Intelligence to create automated rules in Confluence automation.
+View topic
+Learn about pre-defined prompts in Atlassian Intelligence
+Pre-defined prompts in Atlassian Intelligence provide a starting point for generating content, eliminating the need to write complex instructions.
+View topic
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Save time by summarizing a page, live doc, or blog using Atlassian Intelligence.
+View topic
+Summarize comments using Atlassian Intelligence
+Save time by summarizing general page or live doc comments using Atlassian Intelligence.
+View topic
+Summarize changes with Atlassian Intelligence
+Use Atlassian Intelligence to generate a summary of changes since your last visit to a page or post.
+View topic
+Summarize a whiteboard using Atlassian Intelligence
+Use Atlassian Intelligence to generate a summary of whiteboard contents.
+View topic
+Use Rovo to listen to audio briefings of Confluence content
+Audio briefing: Listen to an AI overview of a page and links.
+View topic
 Was this helpful?
 Yes
 No
@@ -462,13 +487,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add visuals and images to Confluence pages
+Explore more
+Search for answers using Atlassian Intelligence
+Write or edit content using Atlassian Intelligence
+Define terms using Atlassian Intelligence
+Use Atlassian Intelligence with Confluence automation
+Learn about pre-defined prompts in Atlassian Intelligence
 Show more
-Insert the iFrame macro
-Insert the roadmap planner macro
-Add a trio of dynamic frames to your content with Carousel
-Display beautiful, dynamic content on your page or live doc with Cards
-Insert the expand macro
+Create and organize work in Confluence Cloud
+Show more
+Upload and manage files
+Present your content with Presenter mode
+Atlassian Intelligence features in Confluence Cloud
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

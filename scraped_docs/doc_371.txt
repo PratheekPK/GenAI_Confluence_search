@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-are-votes-and-experts/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-are-macros/
 
-What are votes and experts? | Confluence Cloud | Atlassian Support
+What are macros? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,22 +440,117 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use Questions for Confluence
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-What are votes and experts?
-Vote up and down
-Votes enable users to indicate whether they found a question or answer helpful, and to build user reputation.
-Up vote useful questions and answers, down vote the ones that are not helpful.
-Earn points
-Earn points by contributing to your Q&A community:
-15 points when your answer is accepted
-10 points each time your question or answer is upvoted
--2 points each time your question or answer is down voted.
-You're not awarded points for answering or up voting your own questions!
-Become an expert
-Users can track their reputation on the Experts leader board. This is a great way to motivate users to answer questions and build a great community.
-The leader board recognizes the top experts for the current week, and the top experts of all time. There's also a leader board for each topic, to recognize experts in specific fields.
+What are macros?
+Using macros helps you to extend the capabilities of your Confluence pages and live docs, allowing you to add extra functionality or include dynamic content. For example, use the
+Attachments macro
+to list files attached to content, or use the
+Widget Connector macro
+to include things like a YouTube video or Twitter feed.
+Add a macro to your page or live doc
+To add a macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit a macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Macro parameters
+Many macros have optional parameters you can use to control the macro's output.
+With the Attachments Macro, for instance, you have two optional parameters allowing you to:
+Specify the file formats of the attachments displayed
+Choose whether or not you want old versions of the attachments displayed
+Macro placeholders
+Macro placeholders are displayed in the editor where you have added a macro to a page or doc.
+When editing, you can:
+Double-click a macro placeholder (or click the placeholder and choose
+Edit
+) to open the macro dialog window and edit the macro's parameters
+Select a macro placeholder to cut, copy and paste the macro
+Conflicts between two macros
+Some Marketplace macros, or apps, can’t be installed together because they were given the same internal ID. When you try to install an app with a name that conflicts with a previously installed macro, you will see this error message:
+Unable to install <app B>
+Your instance has <app A> from the same partner that does not allow installation of ‘App B’ due to technical constraints.
+The quickest solution is to uninstall one app so that you can install the other.
+You may also want to contact the developer through the Atlassian Marketplace and ask them to address the error.
+Macros available in the editor
+Below is a list of the macros available in the editor.
+Select a macro name for details of the usage, including optional parameters and examples.
+Anchor Macro
+Attachments Macro
+Blog Posts Macro
+Change-History Macro
+Chart Macro
+Children Display Macro
+Content by Label Macro
+Content Report Table Macro
+Contributors Macro
+Contributors Summary Macro
+Create from Template Macro
+Excerpt Include Macro
+Excerpt Macro
+Gallery Macro
+iFrame Macro
+Include Page Macro
+Microsoft Office macros
+Jira Chart Macro
+Jira Issues Macro
+Jira Roadmap Macro
+Labels List Macro
+Livesearch Macro
+Microsoft OneDrive for Business Macro
+Network Macro
+Page Index Macro
+Content Properties Macro
+Content Properties Report Macro
+Page Tree Macro
+Page Tree Search Macro
+PDF Macro
+Popular Labels Macro
+Profile Picture Macro
+Recently Updated Dashboard Macro
+Recently Updated Macro
+Related Labels Macro
+Roadmap Planner Macro
+Spaces List Macro
+Table of Contents Macro
+Table of Content Zone Macro
+Task Report Macro
+User List Macro
+User Profile Macro
+Widget Connector Macro
+Macros from the Marketplace
+Many more macros are available from the
+Atlassian Marketplace
+.
+Blocked macros
+When you navigate to a page or live doc in Confluence, some macros may appear with a message informing you that an administrator has blocked this app:
+When using macros that leverage apps from the
+Atlassian Marketplace
+, it is possible for your organization admin to block an app’s access to your data through a
+data security policy
+with an
+app access rule
+. When this rule is applied, you can no longer use macros that were provided by apps that have been blocked in the coverage selected by your organization.
+Contact your Confluence admin to discuss available options.
+What happens to app data associated with a macro that is blocked?
+Data that is stored by a blocked macro is subject to the retention policy of the partner who developed the macro. After the retention period, this data may be deleted and may not be able to be restored. Therefore, if you notice missing data, discuss it with your Confluence admin so that any required steps can be taken to preserve the data.
+What if I don’t want my users to see the ‘blocked app’ error on the page?
+As a workaround, you can remove the app blocked message from the content by removing the macro from the page or live doc. This will also delete any data on it that the app has stored within the macro, but will not remove data the macro may have stored in app storage that is subject to the partner’s retention policy, as above.
 Was this helpful?
 Yes
 No
@@ -466,16 +561,23 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Questions for Confluence
-Install Questions for Confluence
-Ask a question
-Watch and edit topics
-What are votes and experts?
-Admin settings for Questions for Confluence
+Use macros to show Confluence content on pages and live docs
+What are macros?
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Show more
 On this page
-Vote up and down
-Earn points
-Become an expert
+Add a macro to your page or live doc
+Macro parameters
+Macro placeholders
+Conflicts between two macros
+Macros available in the editor
+Macros from the Marketplace
+Blocked macros
+What happens to app data associated with a macro that is blocked?
+What if I don’t want my users to see the ‘blocked app’ error on the page?
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-formatting-to-your-page/
+URL: https://support.atlassian.com/confluence-cloud/docs/ask-a-question/
 
-Format your content | Confluence Cloud | Atlassian Support
+Ask a question | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,38 +439,65 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Extend the functionality of Confluence Cloud
+Use Questions for Confluence
 Cloud
 Data Center
-Format your content
-You can make your Confluence content more engaging with different formatting options, from styling text to adding images and videos.
-Whether you’re making text bold, adding layouts, or embedding multimedia, you can create content that looks great and is easy to read.
-Does your toolbar look different?
-Your toolbar or editing controls may appear differently from usual, or from how they appear in this documentation. We’re rolling out features that are subject to change.
-How to pin your toolbar and navigate editing updates
-This page is your starting point for learning how to create and edit content in Confluence cloud.
-Check out:
-Text
-: Learn how to style your text with bold, italics, color, and alignment.
-Links
-:
-Find out how to insert and manage links to connect your content to other pages and live docs or websites.
-Images, videos, GIFs, and files
-:
-See how to add and customize images, videos, and other media to make your content more dynamic.
-Tables
-:
-Learn how to create and format tables to organize your data clearly.
-Charts
-:
-Find out how to create and customize charts to display your data.
-Layouts
-:
-Explore how to change layouts to better organize your content.
-To learn more about inserting basic elements like dates and statuses, see
-Insert elements into your content
-.
+Ask a question
+A great strategy when getting started is to seed or prepopulate your site with some questions. It's a brave person who asks the first question, so help them out by creating a few questions and answers.
+When thinking about your first questions it's a good idea to plan your
+topics
+and how you'll use them. Users will then be able to follow your example when asking their own questions.
+Ask a question
+You need to be logged in to ask a question.
+The fastest way to ask a question is to go to
+Questions
+in the sidebar and start typing your question. Similar questions will be suggested—if the question doesn't already exist, choose the
+Ask question
+button to create it.
+You can include attachments, code samples, pictures, @mentions and more in your question. If your question's private, or only applicable to one team or project, you can ask it in a space.
+Unsupported content
+If you're editing old questions or answers, you may notice some content displaying as
+unsupported content
+. This is due to editor upgrades, and only occurs while editing; that content will display normally when the question or answer is published. If you want to edit that content, we recommend copy-pasting it from the published question or answer.
+Answer a question
+Any user that can ask a question can answer a question. You can
+up vote
+helpful answers, and down vote unhelpful or incorrect ones.
+Accept the best answer to indicate to other people that your question has been answered. The accepted answer and highly voted answers appear above lower voted answers.
+You can only accept answers to your own questions (unless you're an admin).
+Find questions (and answers)
+There are a few ways to find questions and answers:
+Search
+– See questions in the quick search and full search results. There's even a filter for questions.
+Browse
+– View recent or unanswered questions, your own questions, or questions on a particular topic.
+Watch
+– Be notified by email when new questions are added to a topic you're watching.
+Questions also appear in the
+Popular
+tab of the Confluence
+Activity
+feed.
+Watch a question
+To stay informed about a specific question, choose the
+Watch
+option. You'll be notified when answers and comments are added to the question.
+You can also watch a whole
+topic
+or choose to watch all questions to be notified when a new question is added.
+Answers vs comments
+Add a comment when you need to get more info or clarify a question, or if you want to discuss an answer.
+Ask in a space
+Sometimes a question only relates to one team or project, or just shouldn't be visible to everyone. By asking a question in a space, you get the benefit of the space permissions. Only people who can view the space can search for and see questions asked there.
+To ask a question in a space, go to the space and choose
+Questions
+in the sidebar  (if you can view the space, you'll be able to ask and answer questions). Alternatively, you can select
+Create (+)
+>
+Ask a question
+and choose the right space from the drop down.
+Only the question is private—topics are visible to everyone who can use Questions. For example, if you ask "How much is the staff bonus this quarter?" and add the topic 'bonus-q4' in a space that only senior managers can see, other people will be able to see the topic 'bonus-q4' and that there's one question for that topic, but not the question itself.
 Was this helpful?
 Yes
 No
@@ -481,14 +508,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
-Show more
-Create and collaborate in real time with live docs
-Format a page, live doc, or blog post with a template
-Format your content
-Format text
-Create and manage layouts
-Show more
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
 Community
 Questions, discussions, and articles
 Accessibility

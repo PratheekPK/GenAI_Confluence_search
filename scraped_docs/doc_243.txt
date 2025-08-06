@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/celebrate-your-work-with-confluence-recap/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-page-properties-report-macro/
 
-Celebrate your work with Confluence Recap | Confluence Cloud | Atlassian Support
+Insert the content properties report macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,51 +439,128 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Get notified about content and activity
+Extend the functionality of Confluence Cloud
+Use macros to add reporting info to Confluence pages
 Cloud
 Data Center
-Celebrate your work with Confluence Recap
-View a seasonal Recap of your work in Confluence. Celebrate the work you and your teammates have done over six months (July- December 2024)!
-What’s included in your recap
-We’ve included stats on the content you created and worked on, including anything you may have commented on or edited.
-Section
-Data
-You’ve been quite productive
-Total number of pages, live docs, whiteboards, databases, blogs, and Smart Links you’ve created OR edited in the 6 month period.
-Your most edited pages and live docs
-Pages and live docs you worked on during the 6 month period that had the most number of updates or versions.
-People love your work
-Pages you owned during the 6 month period that received the most number of comments or reactions.
-Silos were no match for you
-A list of spaces you’ve worked in during the 6 month period. We order this list based on the number of times you’ve created or updated content in each space.
-Teamwork makes the dream work
-People you collaborated with via comments or edits.
-Confluence Personality
-We match you with a personality based on your activity patterns in Confluence.
-Finding your Confluence Recap
-There are 2 ways to find your recap. We send a notification via email and in-app.
-In your email, you should have received a link to your Confluence Recap. Be sure to check your spam folder as well.
-You also should have received a notification in Confluence. To learn more about in-app notifications, review this guide
-View your notifications
+Insert the content properties report macro
+The content properties and content properties report macro work together to enable you to show summary information from one page or live doc on another page or live doc. You can see examples of these two macros in action on the
+Decision
+and
+Product Requirements
+blueprints.
+This macro was previously known as the page properties report macro.
+Adding the content properties report macro to a page or live doc
+To add the content properties report macro to a page or live doc:
+In the editor, type
+/contentpropertiesreport
+Enter the
+Labels
+you want to report on - this is the label added to pages and live docs containing the content properties report macro.
+Further narrow down your search by adding more fields, or specifying a content properties ID (more info on this below)
+Choose
+Insert
 .
-Note: If you unsubscribe from Confluence emails, the only way to access your Recap is through the in-app notification. To receive future Recap emails, make sure you are subscribed to Confluence emails.
-Who can see my Recap?
-All Recaps are in draft states. Only you can see your recap until you’ve published it.
-Note: If you have enabled Live Docs in your personal space, then your Recap will be published when you click the notification to view it.
-What can I do with my Recap?
-We encourage you to spark a conversation and share it with a friend or coworker. Publish your page to share your awesome stats and compare your Confluence personalities.
-Is there a way I can see specific dates for my Recap?
-The recap is only available for the second half of 2024. Keep a lookout for future versions of the Confluence Recap so you can stay in tune with all the awesome work you’ve done.
-I didn’t receive a recap
-To receive the Confluence Recap, the following conditions must be met:
-Users must be active between July 2024 - December 2024. Active means having completed one of the following actions in Confluence during this time:
-Created
-Viewed
-Commented
-The site must have at least 3 total active users to receive the Confluence Recap.
-The user must have a personal space at the time the Recap is sent.
-Pro tip: To enjoy the best Recap experience on mobile, be sure to update to the latest version of Confluence from the app store.
+Here's how the macro looks when displayed:
+And here's how you set it up:
+Reporting on specific content properties macros
+It's possible to add multiple content properties report macros on a page or live doc, and choose whether to include all or only specific macros in the report.  The content properties report macro includes an optional ID parameter that can be used to identify specific content properties report macros.
+To show the contents of:
+Selected content properties macros
+in the report - specify the label for the content and the ID of the particular content properties report macro  (under Options)
+All content properties macros
+in the report - specify just the label for the content - leave the content properties ID field blank.
+The content properties report macro can only accept
+one
+ID.
+CQL fields
+CQL (Confluence Query Language) is a query language developed for Confluence, which you can use in some macros and the Confluence search. Confluence search and CQL-powered macros allow you to add filters to build up a search query, adding as many filters as you need to narrow down the search results. To add a filter to your query, select the
+Add a filter
+link.
+You can use the following CQL filters:
+Filter
+Description
+Operators
+Label*
+Returns pages, live docs, blog posts or attachments with these labels.
+OR (multiple values in the same filter)
+AND (multiple Label filters)
+With ancestor
+Returns pages and live docs that live under this item in the content tree.
+This allows you to restrict the macro to a single content tree.
+OR (multiple values in the same filter)
+Contributor**
+Returns pages, live docs, or blog posts that were created or edited by these people.
+OR (multiple values in the same filter)
+Creator
+Returns items created by these people.
+OR (multiple values in the same filter)
+Mentioning user
+Returns pages, live docs, and blog posts that @mention these people.
+OR (multiple values in the same filter)
+With parent
+Returns only direct children of this item (further sub-items won't be included)
+EQUALS (one page only)
+In space**
+Returns items from these spaces.
+OR (multiple values in the same filter)
+Including text**
+Returns items that contain this text.
+CONTAINS (single word or phrase)
+With title
+Returns items that contain this text in the title.
+CONTAINS (single word or phrase)
+Of type**
+Returns only pages, live docs, blogs or attachments.
+OR (multiple values in the same filter)
+AND, OR, and NOT operators
+For an OR search, specify multiple values in the same field.
+So to show pages with 'label-a', 'label-b' or both you'd put 'label-a' and 'label-b' in the same Label field
+For an AND search, add more than one filter and specify a single value in each.
+To show only pages with label-a and label-b you'd put 'label-a' in one label field, then add a second Label field to the macro, and put 'label-b' in the second one.
+Put simply, OR values are entered in the same filter, AND values are entered in different filter.
+Only some filters support AND. If the filter doesn't support the AND operator, you won't be able to add that filter more than once.
+For a NOT search, enter a minus sign (-) before the label. This'll exclude everything with that label.
+* This field is required in CQL-powered macros.
+** You can add these filters in CQL-powered macros but in search they're part of the standard search filters, so they don't appear in the
+Add a filter
+menu.
+Macro display options
+These options control how the macro appears on your page.
+Parameter
+Default
+Description
+Content properties ID
+Blank
+If not specified, the report will show data from all content properties macros on a page or live doc, where there are multiple macros. Specify an ID to include only data from content properties macros with the same ID.
+Title column heading
+Title
+The heading to display on the first column in the report table. This column contains links to pages and live docs displayed by the report. The default column heading is 'Title'.
+Columns to show
+If not specified, the report will show all columns. You can specify a comma separated list of columns to include.
+If your column heading includes commas, use double quotes around the column name. If your column heading includes quotes, use double quotes. For example, A column, "My ""new"" column, yes", Third column
+Max results per page
+30
+Number of items to display in the table before displaying pagination options for additional items. Maximum: 30.
+Sort by
+Modified
+Sort the table by a specific column heading. Enter the column name, exactly as it appears in the corresponding content properties macro.
+Select the
+Reverse Sort
+check box to sort the table in reverse order.
+Show Comments Count
+No
+Displays the number of comments for each item in the table.
+Show Likes Count
+No
+Displays the number of likes for each item in the table.
+Troubleshooting
+If your report is empty, check:
+You have entered the label correctly and that the label does appear on pages and live docs containing a content properties macro.
+The
+content properties macros
+on each page are configured correctly.
+Any other fields you have specified have not narrowed your search too far (for example there are no items with that label under the Parent item you've specified).
 Was this helpful?
 Yes
 No
@@ -494,20 +571,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Get notified about content and activity
-Show more
-What is a Confluence RSS feed?
-Build an RSS feed
-Subscribe to pre-specified RSS feeds
-Subscribe to a network RSS feed
-Celebrate your work with Confluence Recap
+Use macros to add reporting info to Confluence pages
+Insert the content properties macro
+Insert the content properties report macro
+Insert the user list macro
 On this page
-What’s included in your recap
-Finding your Confluence Recap
-Who can see my Recap?
-What can I do with my Recap?
-Is there a way I can see specific dates for my Recap?
-I didn’t receive a recap
+Adding the content properties report macro to a page or live doc
+Reporting on specific content properties macros
+CQL fields
+AND, OR, and NOT operators
+Macro display options
+Troubleshooting
 Community
 Questions, discussions, and articles
 Accessibility

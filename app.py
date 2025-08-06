@@ -16,7 +16,7 @@ def get_chain():
 
 qa_chain = get_chain()
 
-query = st.text_input("What would you like to know?", placeholder="e.g. How do I enable SAML SSO in Confluence?")
+query = st.text_input("What would you like to know?", placeholder="e.g. What is confluence Cloud?")
 
 if query:
     with st.spinner("Searching documentation..."):

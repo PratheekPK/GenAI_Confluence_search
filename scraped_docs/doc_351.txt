@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-apps/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-blog-posts-macro/
 
-Manage your apps | Confluence Cloud | Atlassian Support
+Insert the blog posts macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,100 +439,169 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Atlassian Marketplace apps
+Extend the functionality of Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Manage your apps
-About apps
-An app (sometimes called an add-on or plugin) is a separately installed component that provides Confluence functionality.
-There are two main types of apps:
-System apps - these are bundled with Confluence and provide core functionality.
-User installed apps - these are usually downloaded from the
-Marketplace
-and may have been created by Atlassian or by a third party developer.
-For information about developing your own apps for Confluence, see
-Confluence Cloud developer documentation
-.
-Find and add new apps
-In Confluence Cloud terms, you
-buy
-an app by subscribing to it.
-To find and try new apps in Confluence:
-Select
-Apps
-in the navigation.
-Select
-Manage your apps,
-which directs you to
-Connected apps
-.
-Select
-Discover new apps,
-which directs you to the Atlassian Marketplace.
-Once you're there, you can use the search and filters to find apps in Marketplace to help you get more done in Confluence. To try or subscribe to an app, click the
-Try it free
-button next to the app listing.
-Some apps offer multiple editions - Standard and Advanced. The pricing and feature differences between these editions are listed under the Pricing tab on the Marketplace listing.
-If you don't terminate the trial within the trial period, a subscription for the app kicks in. Trials last for a month from the start of your next billing date. After starting a trial, you can stop it from the Administration page.
-Although you can re-enable the trial within the original trial period, you can't
-try
-it again beyond the original trial period. At that point, you can only
-subscribe
-to the app from the
-Manage apps
-page.
-Manage apps
-Apps are managed via Connected Apps in Administration or within the app itself. It provides a centralized experience for administering apps. To manage your apps in Connected Apps, go to
-admin.atlassian.com
-and select your organization if you have more than one. Depending on your user management experience, you can select:
-Admin
->
-Site
-settings
->
-Connected apps
+Insert the blog posts macro
+The blog posts macro allows you to display blog posts on a
+Confluence Cloud
+page or live doc. Selecting a title takes you to the blog post.
+To add the blog posts macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the blog posts macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Parameter
+Required
+Default
+Description
+Content Type to Display
+(
+content
+)
+No
+titles
+Available values:
+titles
+— Display the title, creator, space, and created date stamp for each blog post.
+excerpts
+— Display a short excerpt from each blog post. If the blog contains an excerpt macro, the blog posts macro will display the content defined in the excerpt macro. If the blog does not contain an excerpt macro, the blog posts macro will display either the first few sentences of the blog, or plain text information.
+entire
+- Display the entire content of each blog post.
+Time Frame
+(
+time
+)
+No
+no limit
+Specify how far back in time Confluence should look for the blogs to be displayed.
+Available values:
+m
+— Minutes
+h
+— Hours, so '
+12h
+' displays blogs created in the last twelve hours.
+d
+— Days, so '
+7d
+' displays blogs created in the last seven days.
+w
+— Weeks
+Restrict to these Labels
+(label
+)
+No
+None
+Filter the results by label. The macro will display only the blogs which are tagged with the label(s) you specify here.
+You can specify one or more label values, separated by a comma or a space.
+To exclude content which matches a given label, put a minus sign (-) immediately in front of that label value. For example: If you specify a label value of
+-badpage
+you will get only content which is not labeled with 'badpage'.
+To indicate that the results
+must
+match a given label value, put a plus sign (+) immediately in front of that label value. For example: If you specify a label value of
++superpage,+goodpage
+you will get only content which has at least two labels, being 'superpage' and 'goodpage'.
+Restrict to these
+Authors
+(author
+)
+No
+None
+Filter the results by author. The macro will display only the blogs which are written by the author(s) you specify here.
+Restrict to these Spaces
+(spaces
+)
+No
+@self, i.e. the space which contains the page on which the macro is coded
+This parameter allows you to filter content by space. The macro will display only the pages and live docs which belong to the space(s) you specify here.
+You can specify one or more space keys, separated by a comma or a space.
+To exclude content in a specific space, put a minus sign (-) immediately in front of that space key. For example: If you specify a space key of
+-BADSPACE
+you will get only content which is not in the BADSPACE.
+To indicate that the results
+must
+come from a specific space, put a plus sign (+) immediately in front of that space key. For example: If you specify a space key of
++GOODSPACE
+you will get only content in GOODSPACE. (Note that this is not particularly useful, because each content item belongs to one space only. If you put a plus sign next to one space key and list other space keys too, the other space keys will be ignored.)
+Special values:
+@self
+— The current space.
+@personal
+— All personal spaces.
+@global
+— All site spaces.
+@favorite
+— The spaces you have marked as favorite.
+@favourite
+— The same as
+@favorite
+above.
+@all
+— All spaces in your Confluence site.
+*
+— The same as
+@all
+above.
+When specifying a personal space, remember to use the tilde (~) sign in front of the username, such as
+~jbloggs
 or
-Apps
->
-Site settings
->
-Connected apps
-Connected Apps allows you to:
-Discover and install new apps from the
-Atlassian Marketplace
-Install or remove apps
-Configure app settings
-Upgrade app editions, if applicable
-You need to be an Atlassian cloud site admin to access Connected Apps.
-Uninstall or unsubscribe from apps
-To cancel your subscription to an app, go to
-Settings
->
-Atlassian Marketplace
->
-Manage apps
-, select the app, and then select
-Uninstall
+~jbloggs@example.com
 .
-Apps that use events, such as Confluence page creation, to trigger outbound webhooks continue to send their events while unlicensed.
-To remove all data and stop outbound webhooks, uninstall the app.
-View the apps audit log
-The audit log displays administration activities related to apps on your Confluence Cloud instance. For example, the log displays when apps were enabled or disabled, and shows the username of the administrator who made the change.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Atlassian Marketplace
->
-Manage apps
-.
-Choose
-Audit log
-at the bottom-left of the page.
-To receive the audit log activity in an RSS feed, click the orange RSS icon on the right above the list.
+Maximum Number of Blog Posts
+(max
+)
+No
+15
+Specify the maximum number of results to be displayed. Note that the results are sorted first, and then the maximum parameter is applied.
+Sort By
+(sort)
+No
+creation
+Specify how the results should be sorted. If this parameter is not specified, the sort order defaults to descending order (newest first) based on the creation date.
+Values:
+title
+— Sort alphabetically by title.
+creation
+— Sort by the date on which the content was added.
+modified
+— Sort by the date on which the content was last updated.
+Reverse Sort
+(reverse
+)
+No
+false
+Select to change the sort from descending to ascending order (oldest first). Use this parameter in conjunction with the
+Sort By
+parameter. This parameter is ignored if the
+Sort By
+parameter is not specified.
+In storage format, a value of
+true
+changes the sort order.
 Was this helpful?
 Yes
 No
@@ -543,15 +612,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Atlassian Marketplace apps
-Manage your apps
-Status page: Live docs + Marketplace apps
-On this page
-About apps
-Find and add new apps
-Manage apps
-Uninstall or unsubscribe from apps
-View the apps audit log
+Use macros to show Confluence content on pages and live docs
+Show more
+Learn which macros are being removed
+Insert the attachments macro
+Insert the blog posts macro
+Insert the change history macro
+Insert the child items macro
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

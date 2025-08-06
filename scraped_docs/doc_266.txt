@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-confluence-wiki-markup/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-thunderbird/
 
-Confluence wiki markup syntax for the legacy editor | Confluence Cloud | Atlassian Support
+Subscribe to Team Calendars from Thunderbird | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,353 +439,100 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Confluence wiki markup syntax for the legacy editor
-This page describes the wiki markup used on some administration screens in
-Confluence Cloud
-.
-Wiki markup is useful when you want to do one of the following:
-Create links using the
-Advanced
-tab of the Links Browser.
-Add custom content to the
-header
-or
-footer
-of a space.
-Insert a block of wiki markup (or markdown) into the Legacy editor. (Choose
-Insert
->
-Markup
-.)
-Note:
-the new editor doesn’t support markup.
-Can I insert markdown?
-Confluence Cloud
-supports inserting content in markdown. This is often used in ReadMe files. See
-Keyboard shortcuts and autocomplete
-for some examples.
-To insert markdown in the
-Legacy editor
-:
-Choose
-Insert
->
-Markup
-.
+Subscribe to Team Calendars from Thunderbird
+If you want your Team Calendars events to appear in Thunderbird, you can subscribe to Team Calendars.
+There are two ways to synchronize your calendar in Thunderbird:
+Two-way sync
+(CalDAV) - allows you to view and update Team Calendars events in Thunderbird.
+One-way sync
+(iCal) - allows you to view, but not update, Team Calendars events in Thunderbird.
+Subscribe with two-way synchronization (CalDAV)
+Two-way synchronization allows you to view and update Team Calendars events in Thunderbird.
+These instructions are for Thunderbird 68 on MacOS Catalina. Your version may differ slightly.
+1. Grab your Team Calendars URL
+In Confluence:
 Select
-Markdown
-.
-Type or paste your text - the preview will show you how it will appear on your page.
-Choose
-Insert
-.
-As with wiki markup,
-Confluence Cloud
-will convert your markdown to the rich text editor format. You will not be able to edit your content using markdown.
-Headings
-There are six heading sizes,
-h1
-through
-h6
-. To format text as a heading, prefix the text with the name of the heading you want followed by a period:
-Input
-Output
-h1. H1 heading
-H1 heading
-h2. H2 heading
-H2 heading
-h3. H3 heading
-H3 heading
-h4. H4 heading
-H4 heading
-h5. H5 heading
-H5 heading
-h6. H6 heading
-H6 heading
-Lists
-Wiki markup allows you to create bulleted or numbered lists, and is flexible enough to allow a combination of the two list types.
-To insert a line break in a list, type
-//
-. Empty lines may disrupt the list.
-Bulleted lists
-To create a bulleted list, type the asterisk followed by a space before each item on the list. Add more asterisks to create sub-items. Each additional asterisk adds another level.
-Input
-Output
-* a bulleted item
-* a bulleted item
-** a bulleted sub-item
-** a bulleted sub-item
-* a bulleted item
-a bulleted item
-a bulleted item
-a bulleted sub-item
-a bulleted sub-item
-a bulleted item
-To get square bullets instead of round ones, use hyphens
--
-instead of asterisks
-*
-.
-Numbered lists
-To create a numbered list, type the hash
-#
-followed by a space before each item on the list. As with bulleted lists, the number of hashes determines the level of the item.
-Input
-Output
-# a numbered item
-# a numbered item
-#* a sub-item
-#* a sub-item
-# a numbered item
-a numbered item
-a numbered item
-a sub-item
-a sub-item
-a numbered item
-Sub-items in numbered lists may appear as capital letters (A, B, C), lowercase letters (a, b, c), Arabic numerals (1, 2, 3), or Roman numerals (i, ii, iii) depending on your browser and the style sheets installed on your
-Confluence Cloud
-site.
-Mixed lists
-You can combine these methods to create mixed numbered and bulleted lists as shown below.
-Input
-Output
-# a numbered item
-# a numbered item
-#* a bulleted sub-item
-#* a bulleted sub-item
-# a numbered item
-a numbered item
-a numbered item
-a bulleted sub-item
-a bulleted sub-item
-a numbered item
-Tables
-You can create simple tables using Confluence wiki markup, with columns separated by the pipe
-|
-and rows separated by line breaks. To give a cell a gray background, add a second pipe.
-For example, the following input:
-||heading 1||heading 2||heading 3||
-|cell A1|cell A2|cell A3|
-|cell B1|cell B2|cell B3|
-Will produce this output:
-heading 1
-heading 2
-heading 3
-cell A1
-cell A2
-cell A3
-cell B1
-cell B2
-cell B3
-You can also create tables using the
-column
-and
-section
-macros. This method gives you more control over the size of table cells, but doesn’t produce highlighted cells. For more information, see
-Table Type 2
-in
-this reference document
-.
-Embedded lists
-You can use Confluence wiki markup to embed lists in tables, as in the following example:
-||Heading 1||Heading 2||
-|* Item 1
-* Item 2
-* Item 3|# Item 1
-# Item 2
-# Item 3|
-The code above will produce the following table:
-Heading 1
-Heading 2
-Item 1
-Item 2
-Item 3
-Item 1
-Item 2
-Item 3
-Advanced table formatting
-You can add color and other formatting options to your table using the
-panel macro
-and certain third-party
-apps
-(if your
-Confluence Cloud
-administrator has installed them on your site).
-Text effects
-Input
-Output
-*bold*
-bold
-_italics_
-italics
--strikethrough-
-strikethrough
-+underline+
-underline
-text^superscript^
-text
-superscript
-text~subscript~
-text
-subscript
-{{monospace text}}
-monospace text
-bq. blockquote
-blockquote
-You can also set the color of your text. For example, if you type
-{color:red}your text{color}
-, the phrase “your text” will appear in red.
-Breaks
-You can add paragraph breaks, line breaks, and horizontal rules in Confluence wiki markup.
-Paragraph breaks
-In Confluence wiki markup, paragraphs are created from any continuous line of text. To create paragraph break, insert two carriage returns after the paragraph text. This is the equivalent of wrapping text in a set of
-<p></p>
-tags in HTML.
-Line breaks
-There are two ways to create a line break within paragraph text:
-Implicitly, by entering a single carriage return
-Explicitly, by entering two consecutive backslashes
-\\
-These methods are equivalent to separating text with the
-<br>
-tag in HTML.
-Most of the time, explicit line breaks aren’t required and a single carriage return is enough. However, they are necessary when you need to break up text in a single list item, as in the example below:
-Input
-Output
-* Term 1
-\\ definition
-* Term 2
-\\ definition
-Term 1
-definition
-Term 2
-definition
-To use more than one explicit line break in a row, separate each one with a space, e.g.,
-\\ \\
-for two line breaks.
-Horizontal rule
-To create a horizontal line across the width of your page or content block, type four dashes in a row
-----
-at the beginning of a line, then press enter or space.
-Make sure that the dashes are on a separate line from the rest of the text.
-Input
-Output
-here is some text
-----
-divided by a horizontal rule
-here is some text
-divided by a horizontal rule
-Links
-Confluence wiki markup lets you add hyperlinks to text in certain administration screens. The table below illustrates the syntax for adding links.
-Method
-Result
-[#anchor]
-Link to an anchor link on the current page, where
-anchor
-is the name of the anchor.
-[pagetitle^attached.ext]
-Link to a file attached to the current page, where
-pagetitle
-is the name of the page and
-attached.ext
-is the name of the file.
-[pagetitle]
-Link to a specific page.
-[pagetitle#anchor]
-Link to an anchor on a specific page.
-[pagetitle^attachment.ext]
-Link to an attachment on a specific page.
-[spacekey:pagetitle]
-Link to a page in another space, where
-spacekey
-is the appropriate spacekey.
-[spacekey:pagetitle#anchor]
-Link to an anchor on a page in another space.
-[spacekey:pagetitle^attachment.ext]
-Link to a filed attached to a page in another space.
-[/2004/01/12/blogposttitle]
-Link to a blog post in the current space, where
-blogposttitle
-is the name of the blog as it appears on the page.
-[spacekey:/2004/01/12/blogposttitle]
-Link to a blog post in another space.
-[spacekey:]
-Link to the overview for another space.
-[~username]
-Link to the profile of a specific user.
-[https://www.atlassian.com]
-Link to an external website.
-[mailto:service@atlassian.com]
-Link to send an email to a specific address (replace
-service@atlassian.com
-with the appropriate email address).
-[file://z:/file/on/network/share.txt]
-Link to a file on your computer or on a network share that you have mapped to a drive.
-Only works with Internet Explorer.
-[! https://external/image.png!|https://external/link.html ]
-Displays an external image and links to an external website.
-Confluence Cloud
-treats headings as anchors, so you can link to headings with the following pattern:
-[spacekey:pagename#headingname]
-The
-headingname
-is case-sensitive and must be entered without spaces.
-For each of the links in the table above:
-You can prepend a link alias, so that alternate text is displayed on the page. For example:
-[link alias|pagetitle#anchor]
-You can append a link tip, which appears as a tooltip. For example:
-[pagetitle#anchor|link tip]
-Images
-You can display images from attached files or remote sources.
-Method
-Result
-!http://www.host.com/image.gif!
-Displays an image from an external website on the page. Requires a fully qualified URL.
-!attached-image.gif!
-Displays an image file that is attached to the current page.
-!pageTitle^image.gif!
-Displays an image file that is attached to a different page in the same space.
-!spaceKey:pageTitle^image.gif!
-Displays an image file that is attached to a page in another space.
-!/2010/05/23/My Blog Post^image.gif!
-Displays an image file that’s attached to a blog post.
-!image.jpg|thumbnail!
-Displays an image attached to the current page as a thumbnail. Viewers can click on the thumbnail to see the full-sized image.
-This feature only works with image files that are attached to the current page, and thumbnails must be enabled by the site administrator.
-For any image, you can specify attributes of the HTML image tag in Confluence wiki markup in a comma-separated list appended to the URL. In the example below, the image will be aligned to the right of the page with 4 pixels of whitespace above and below:
-!image.gif|align=right, vspace=4!
-The following HTML image tag attributes are available:
-Attribute
-Result
-align
-Aligns the image on the page. Possible values are:
-left
-right
-bottom
-center
-top
-border
-Set the width of the border (in pixels).
-bordercolor
-Set the color of the border (name or hex value). Used with the
-border
-attribute.
-hspace
-Set the amount of horizontal whitespace to appear around the image (in pixels).
-vspace
-Set the amount of vertical whitespace to appear around the image (in pixels).
-width
-Set the width of the image (in pixels). This will override the natural image width.
-height
-Set the height of the image (in pixels). This will override the natural image height.
-title
-Set alternate text for the image, which is displayed as a tooltip when on hover.
-alt
-Set alt text for the image. Search engines can index this text, and it contributes to the accessibility of the page for screenreaders and other text-only access methods.
+Subscribe
+at the top of your calendar.
+Select
+Thunderbird
+from the
+Calendar app
+dropdown.
+Copy the calendar URL.
+2. Add the calendar in Thunderbird
+In Thunderbird:
+From the
+Home
+tab, select
+Create a new calendar
+>
+On the network
+Select
+CalDAV
+Enter
+Username
+,
+like john@atlassian.com
+Paste the
+Calendar URL
+you copied earlier in the
+Location
+field.
+Name the calendar. This is the name that will appear in the Thunderbird calendar list.
+Enter your Confluence
+username
+password
+Login to Confluence
+Select your profile picture at the upper right
+Select
+Password
+under Your Settings on the left
+Create an API token. You could use the existing one also.
+Repeat this process for any other Team Calendars you want to add.
+Subscribe with one-way synchronization (iCal)
+These instructions are for Thunderbird 52 on MacOS High Sierra. Your version may differ slightly.
+1. Grab your Team Calendars URL
+In Confluence:
+Select
+Subscribe
+at the top of your calendar
+Select
+iCal
+from the
+Calendar app
+dropdown. Be sure that you don't select Thunderbird for one-way sync.
+Copy the calendar URL
+2. Add the calendar in Thunderbird
+In Thunderbird:
+From the
+Home
+tab, select
+Create a new calendar
+>
+On the network
+Select
+iCalendar (ICS)
+Paste the
+Calendar URL
+you copied earlier in the
+Location
+field
+Name the calendar. This is the name that will appear in the Thunderbird calendar list.
+Enter your Confluence
+username
+password
+Login to Confluence
+Select your profile picture at the upper right
+Select
+Password
+under Your Settings on the left
+Create an API token. You could use the existing one also.
+You can now view, but not edit, Team Calendar events in Thunderbird.
 Was this helpful?
 Yes
 No
@@ -796,32 +543,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Show more
-Configure attachment size
-Configure shortcut links
-Install a custom language font for PDF exports
-Confluence wiki markup syntax for the legacy editor
-Customize the email domain sending Confluence emails
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Subscribe to Google Calendars from Confluence
+Subscribe to Team Calendars from Google Calendar
+Show more
 On this page
-Can I insert markdown?
-Headings
-H2 heading
-H3 heading
-Lists
-Bulleted lists
-Numbered lists
-Mixed lists
-Tables
-Embedded lists
-Advanced table formatting
-Text effects
-Breaks
-Paragraph breaks
-Line breaks
-Horizontal rule
-Links
-Images
+Subscribe with two-way synchronization (CalDAV)
+Subscribe with one-way synchronization (iCal)
 Community
 Questions, discussions, and articles
 Accessibility

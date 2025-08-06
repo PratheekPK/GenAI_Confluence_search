@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-contributors-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-panel-macro/
 
-Insert the contributors macro | Confluence Cloud | Atlassian Support
+Insert the panel macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,24 +439,27 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Create and organize work in Confluence Cloud
+Review macros only available in the legacy editor
 Cloud
 Data Center
-Insert the contributors macro
-The contributors macro displays a list of Confluence users who have made a contribution of some type to a page. It can also be used to list watchers of the page.
-The scope of this macro can be extended to include the immediate children or descendants of the specified page. The list of contributors can be based on people who have:
-authored or edited the page(s)
-contributed comments or added labels to the page(s), or
-are simply watching the page(s).
-To add the contributors macro:
-When editing, select
+Insert the panel macro
+In June 2025, Atlassian announced the upcoming
+deprecation of the legacy editor
+as well as
+information about converting
+to the cloud editor.
+Before the deprecation begins in January 2026, this macro will still work. See our
+article on legacy editor macros
+for more.
+Use the Panel macro
+To add the Panel macro:
+When editing , select
 from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the contributors macro:
+Find the item to be inserted and select it
+Select
+Insert
+To edit the Panel macro:
 Select the macro placeholder.
 Select the Edit
 icon
@@ -478,138 +481,49 @@ example
 Parameter
 Default
 Description
-Contribution Type
-(include
-)
-authors
-Filters by either the type of contribution made to a page (and optionally its descendant pages), or the watches on the page. Contribution types are:
-authors
-- includes people who created or have edited the page(s)
-comments
-- includes people who have added comments to the page(s)
-labels
-- includes people who have added labels to the page(s)
-watches
-- includes people who are watching the page(s).
-You can specify one or more contribution types, separated by commas.
-Sort By
-(order
-)
-count
-Specifies the criteria used to sort contributors. Sort criteria are:
-count
-- sorts people based on the total number of contributions to the page(s)
-name
-- sorts people into alphabetical order
-update
-- sorts people based on the date of their last contribution to the page(s).
-Reverse Sort
-(reverse
-)
-false
-Reverses the sort order of contributors in the list. Must be used in conjunction with the
-Sort By
-parameter.
-Maximum Number of Contributors
-(limit
-)
-no limit
-Limits the number of contributors in the list. If a number is not specified, all contributors are included.
-Display Format
-(mode
-)
-inline
-Sets how the list of contributor's names is formatted:
-inline
-— a comma-separated list
-list
-— a bullet list.
-Show Anonymous Contributions?
-(showAnonymous
-)
-false
-Sets whether to include those who contributed anonymously to a page.
-Show Count?
-(showCount
-)
-false
-Sets whether to show the number of times each person made a contribution of the specified
-Contribution Type
-.
-Show Last Contribution Time?
-(showLastTime
-)
-false
-Sets whether to show the last time each person made a contribution of the specified
-Contribution Type
-.
-Page Name
-(page
-)
-current
-Specifies the page to use when generating the list of contributors. If
-Page Name
-and
-Space(s)
-are left blank, the current page is assumed.
-Label(s)
-(labels
+Panel Title
+(title
 )
 none
-Filters the list of contributors to those who created the specified labels from a page. You can specify one or more labels, separated by commas.
-Space(s)
-(spaces
+The title of the panel. If specified, this title will be displayed in its own title row.
+Border Style
+(borderStyle
 )
-current
-Specifies the space key of the Confluence space that contains the page set in
-Page Name
-or alternatively, specifies the spaces to search. Space keys are case-sensitive.
-This parameter also takes special values, including:
-@global
-— All site spaces.
-@personal
-— All personal spaces.
-@all
-— All spaces in your Confluence site.
-You can specify one or more space keys or special values, separated by commas.
-If no
-Page Name
-and
-Label(s)
-are specified, all pages from the specified set of spaces are included.
-Content Type
-(contentType
+solid
+The style of the panel's border. Accepted values are
+solid
+,
+dashed
+and other valid CSS border styles.
+Border Color
+(borderColor
 )
-both pages and blog posts
-Restricts the content type to use when generating the list of contributors:
-pages
-— pages
-blogposts
-— blog posts.
-Blog Post Date
-(publishDate
+The color of the panel's border. Colors can be specified as HTML color names or hexadecimal codes.
+Border Pixel Width (Value Only)
+(borderWidth
 )
-none
-Specifies the publish date for a blog post. The date format required is: YYYY/MM/DD.
-Include Page Hierarchy
-(scope
+The width of the panel's border (in pixels).
+Background Color
+(bgColor
 )
-specified page only
-Specifies additional pages to include when generating the list of contributors:
-children
-— just the child pages of the specified page
-descendants
-— all descendants of the specified page.
-Show Selected Pages
-(showPages
+The background color of the panel. Colors can be specified as HTML color names or hexadecimal codes.
+Title Background Color
+(titleBGColor
 )
-false
-Sets whether to show a list of the pages used to generate the list of contributors.
-Custom "None Found" Message
-(noneFoundMessage
+The background color of the title row of the panel. Colors can be specified as HTML color names or hexadecimal codes.
+Title Text Color
+(titleColor
 )
-default message
-Specifies the message to be used to override the default message that is displayed when no contributors are found.
+The color of the text in the title row of the panel. Colors can be specified as HTML color names or hexadecimal codes.
+Wiki markup example
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Macro name:
+panel
+Macro body:
+Accepts rich text.
+{panel:title=My title|borderStyle=dashed|borderColor=blue|titleBGColor=#00a400|titleColor=white|bgColor=#72bc72}
+A formatted panel
+{panel}
 Was this helpful?
 Yes
 No
@@ -620,14 +534,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
-Show more
-Insert the filter by label macro
-Insert the content report table macro
-Insert the contributors macro
-Insert the contributors summary macro
-Insert the create from template macro
-Show more
+On this page
+Use the Panel macro
+Parameters
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

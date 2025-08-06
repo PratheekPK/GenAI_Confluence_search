@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-gadgets-to-add-dynamic-content/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-data-from-html-to-confluence/
 
-Use gadgets to add dynamic content  | Confluence Cloud | Atlassian Support
+Import data from HTML to Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,71 +439,58 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Create and organize work in Confluence Cloud
+Import data from other tools into Confluence
 Cloud
 Data Center
-Use gadgets to add dynamic content
-Gadgets allow you to add dynamic content to a Confluence page or live doc or Jira application dashboard. Confluence supports gadgets provided by Jira.
-Add a gadget to a page or live doc
-Edit the page.
-Click
-Insert
->
-Other Macros
+Import data from HTML to Confluence
+You can import your content from HTML into Confluence spaces with our new importing tool. This guide outlines the process of importing your content from HTML. Additionally, you can find detailed information on
+what content gets transferred
+and how it will look in Confluence.
+You must have create space permission in Confluence to initiate the import process. Confluence site admins control space creation permissions.
+Upload HTML content
+To import content from HTML, verify that you first have permission to create a space. To select the content you want to import from HTML:
+In Confluence, select
+Spaces
+from the top navigation, then
+Import from other tools
 .
-Pick the gadget you want to add and use the preview area to configure it.
-Click
-Insert
+Select
+HTML
 .
-Atlassian gadgets are supported, but 3rd party gadgets aren't.
-As of May 14, 2020, the Confluence quicknav and page gadgets were removed from the insert menu and slash command. Any existing instances of these gadgets will still work.
-Learn more about this change by visiting our Community post:
-Confluence Cloud gadgets are being deprecated
+Upload your HTML Zipfile.
+Select
+Next
 .
-Jira gadgets
-For displaying basic Jira information, such as issues and charts, we recommend using the
-Jira Issues Macro
-and
-Jira Chart Macro
-as these macros have better performance and are easier to configure than gadgets.
-If the Jira information you want to display isn't available from either of these macros, a gadget will likely do the trick.
-As of September 26, 2022, Confluence will no longer support Jira gadgets in Confluence.
-Any existing instances of these gadgets will continue to work and be available to add to a Confluence page from the insert menu and using the slash command.
-Impacted Jira gadgets
-Activity Stream
-Agile Wallboard Gadget
-Assigned to Me
-Average Age Chart
-Average Time in Status
-Average Number of Times in Status
-Created vs Resolved Chart
-Heat Map
-Issue Statistics
-Issues in Progress
-Jira Labels (Labels Gadget)
-Jira Issues Calendar
-Jira Road Map
-Pie Chart
-Projects
-Days Remaining in Sprint
-Filter Results
-Quick Links
-Recently Created Chart
-Resolution Time
-Sprint Health Gadget
-Sprint Burndown Gadget
-Starred Filters
-Time to First Response
-Time Since Chart
-Two Dimensional Filter Statistics
-Version Report (Jira Road Map)
-Voted Issues
-Wallboard Spacer Gadget
-Watched Issues
-Workload Pie Chart
-Add the activity stream gadget
-Learn how to add the activity stream gadget to your Confluence page.
-View topic
+Your file will be uploaded in the background. Want to know more about how your content will look?
+Check out our FAQ
+.
+Set up space
+To configure your new space:
+Enter a name for the new space in Confluence.
+Select the restrictions to apply to the new space:
+Default space permissions
+- apply your organization’s default restrictions.
+Note:
+If your organization uses open permissions by default, private content may be exposed. If you’re unsure, use
+Restricted to you
+and then update the restrictions after the import.
+Only visible to me
+- only you will be able to view and access the content.
+Note:
+because only you will be able to access the content, all pages and comments will be labeled as created by you (the importing user).
+Select
+Next
+.
+Review the notification email
+You’ll have a chance to review everything before you start the import process. Make sure everything looks correct. Select a step to edit anything that doesn’t look correct.
+After the upload is complete, select
+Start import
+. This process can take a while. Depending on the complexity, bandwidth, size of the transfer, and other factors, it can take a few hours or more to finish. You will receive a notification email when the import is complete.
+This process can take a while. Depending on the complexity, bandwidth, size of the transfer, and other factors, it can take a few hours or more to finish.
+Congratulations! You’ll receive a notification email confirming the transfer is complete. You successfully imported your HTML content and can get started right away. If you encounter any errors or failure notifications in the email, read our
+troubleshooting
+article for common fixes.
 Was this helpful?
 Yes
 No
@@ -514,20 +501,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Add the activity stream gadget
-Extend the functionality of Confluence Cloud
-Show more
-Use macros to add reporting info to Confluence pages
-Use macros to add visuals and images to Confluence pages
-Use gadgets to add dynamic content
-Use Questions for Confluence
-Use automation for Confluence
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
 Show more
 On this page
-Add a gadget to a page or live doc
-Jira gadgets
-Impacted Jira gadgets
+Upload HTML content
+Set up space
+Review the notification email
 Community
 Questions, discussions, and articles
 Accessibility

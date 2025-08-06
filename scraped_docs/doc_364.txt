@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/edit-your-profile/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-data-from-other-tools-into-confluence/
 
-Edit your profile | Confluence Cloud | Atlassian Support
+Import data from other tools into Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,60 +439,45 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage your account
+Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Edit your profile
-Your user profile contains basic information about you.
-In your own profile, you can access account management features and update information about yourself, like your full name, public name, email address, and
-password
-.
-Find your profile
-To see your profile, tap your profile picture at the right of the navigation, then select
-Profile
-. To see someone else's profile, tap on their name or profile picture anywhere you see it linked in Confluence.
-Edit your profile
-Your profile stores information about you, such as your full name, public name, and profile photo, that's used to identify you throughout your Confluence site. It’s also used in certain Atlassian Cloud products and sites. For the full list, see
-Update your profile and visibility settings
-.
-If you have a managed account, you may need an admin's help to edit your name or email address. See
-Your Atlassian account
-for more information.
-To edit your profile:
-Tap your profile picture at the right of the navigation, then select
-Profile
-Tap
-Manage your account
-Edit your personal details
-Tap
-Save changes
-From here, you can also access your profile information, visibility settings, email, and security, as well as app-specific settings for all the Atlassian apps you use (such as your saved and watched pages in Confluence). This is also where you can find a list of your connected
-Atlassian Marketplace apps
-.
-Set your profile picture
-Your profile picture is the image that's used to represent you throughout your site, including on your profile, in the Atlassian People Directory, next to your name in comments, and in the icon for your
-personal space
-.
-To upload a new profile picture:
-Choose your profile picture at the right side of the navigation, then choose
-Profile
-Hover over your profile picture, then tap the camera icon that appears
-Select
-Change profile picture
-from the dropdown menu
-Tap
-Upload a photo
-, then select the image you'd like to use
-Adjust the size and position of your photo, and tap
-Upload
-To remove your profile picture:
-Tap your profile picture at the right of the navigation, then select
-Profile
-Hover over your profile picture, then tap the camera icon that appears
-Select
-Remove
-from the dropdown menu
+Import data from other tools into Confluence
+You can import your content, users, and workspaces from Notion into Confluence with the importing tool.
+We make importing convenient with a step-by-step process. This importer will not only save time and resources on manual data entry but also ensure that your project information is accurate and up-to-date with every import.
+Import data from Notion into Confluence
+You can directly import data from Notion into a new Confluence space.
+Learn more about importing directly from Notion into Confluence
+FAQ
+- Have more questions?
+Learn more about the frequently asked questions
+Troubleshooting
+- Did something not work as expected?
+Learn more about the troubleshooting steps you can take
+FAQ import data from HTML to Confluence
+FAQ import data from HTML to Confluence
+View topic
+FAQ import data from Notion to Confluence
+FAQ: Importing data from Notion into Confluence.
+View topic
+Import data from HTML to Confluence
+Import data from HTML to Confluence
+View topic
+Import data from Notion into Confluence
+Import your content, users, and workspaces from Notion into Confluence spaces.
+View topic
+Import multiple Miro boards to Confluence
+Learn how to import multiple Miro boards into Confluence
+View topic
+Troubleshooting import data from HTML to Confluence
+Troubleshooting import data from HTML to Confluence
+View topic
+Troubleshooting import data from Notion to Confluence
+Troubleshooting: Importing data from Notion into Confluence.
+View topic
+Troubleshooting import multiple Miro boards to Confluence
+Troubleshooting import multiple Miro boards to Confluence
+View topic
 Was this helpful?
 Yes
 No
@@ -503,17 +488,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage your account
-Edit your profile
-Edit your user settings
-Change your Confluence password
-Manage OAuth access tokens
-Delete your account
+Explore more
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
 Show more
-On this page
-Find your profile
-Edit your profile
-Set your profile picture
+Create and organize work in Confluence Cloud
+Show more
+Get to know the new and simplified content layout
+How to use the new toolbar and insert elements
+Import data from other tools into Confluence
+Review macros only available in the legacy editor
+The Confluence legacy editor
 Community
 Questions, discussions, and articles
 Accessibility

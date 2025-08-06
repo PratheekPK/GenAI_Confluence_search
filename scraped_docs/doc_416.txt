@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-apple-calendar/
+URL: https://support.atlassian.com/confluence-cloud/docs/security-settings-in-confluence-cloud/
 
-Subscribe to Team Calendars from Apple Calendar | Confluence Cloud | Atlassian Support
+Security settings in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,121 +439,19 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Confluence administration
 Cloud
 Data Center
-Subscribe to Team Calendars from Apple Calendar
-There are two ways to synchronize your calendar in Apple Calendar:
-Two-way sync
-(CalDAV) - allows you to view and update Team Calendars events in Apple Calendar.
-Requires Team Calendars (available with Confluence Premium).
-One-way sync
-(iCal) - allows you to view (but not update) Team Calendars events in Apple Calendar.
-Subscribe with two-way synchronization (CalDAV)
-Two-way synchronization allows you to view and update Team Calendars events in macOS.
-These instructions are for Apple Calendar 10.15 on MacOS Catalina. Your version may differ slightly. To subscribe to Team Calendars from your Apple Calendar with CalDAV, you’ll need the following information:
-Confluence API token (this will be your password)
-Confluence Cloud server address
-To get your Confluence API token:
-Select your profile picture in Confluence from the top nav >
-Settings
-Under
-YOUR SETTINGS
-, select
-Password
-In the
-API token
-section, select the link
-Create and manage API tokens
-Select
-Create API token
-Name your API token, select
-Create
-, and then select
-Copy
-(you won’t be able to copy this later)
-To get your Confluence Cloud server address:
-In the top nav, choose
-Apps > Calendars.
-Select the the More actions menu (•••) for your calendar in the side nav and choose
-Subscribe
-.
-In the
-Calendar app
-dropdown, select
-Apple Calendar (macOS)
-.
-If prompted, add the calendar to
-My Calendars
-.
-If you don’t add it to My Calendars, it won’t sync.
-Copy the following information and paste it in the respective fields in your Apple Calendar:
-Server address
-Server path
-Port number
-To add the Team Calendars account in Apple Calendar:
-In the Calendar app on your Mac:
-Open the Calendar app on your Mac.
-Select
-Calendar
->
-Add Account
-.
-Select
-Other CalDAV account
-.
-In the
-Account Type
-dropdown, select
-Advanced
-.
-In
-Username
-field, add the email account linked to your Confluence account.
-In the
-Password
-field, paste the API token you copied from Confluence.
-Paste the
-Server address, Server path
-(/wiki/plugins/servlet/team-calendars/caldav/),
-and
-Port
-(443) you copied from Confluence.
-Select
-Sign in
-.
-All available calendars will be listed under your Confluence URL.  Deselect any calendars you don't want to see.
-To rename the calendar group, select
-Calendar
->
-Accounts
-and edit the account listing.
-Subscribe with one-way synchronization (iCal format)
-These instructions are for Apple Calendar 11.0 on  MacOS Catalina. Your version may differ slightly.
-Grab your Team Calendars URL from Confluence:
-Choose the More actions menu (
-) to the right of a calendar name, then choose
-Subscribe
-.
-Select
-iCal
-from the
-Calendar app
-dropdown (don't choose Apple Calendar for one-way sync).
-Copy the calendar's URL.
-Subscribe to the calendar in Apple Calendar on your Mac:
-Choose
-File
->
-New Calendar Subscription
-Paste the calendar URL and choose
-Subscribe
-.
-Configure any other calendar information and choose
-Save
-.
-You can now view, but not edit, Team Calendar events in Apple Calendar.
+Security settings in Confluence Cloud
+Hide external links from search engines
+Learn how to hide external links from search engines to discourage spammers from posting to your instnace.
+View topic
+Disable anonymous access to remote API
+Prevent anonymous users from accessing the Confluence remote API.
+View topic
+Turn on Captcha for spam prevention or failed logins
+Learn how to configure Captcha to prevent spam.
+View topic
 Was this helpful?
 Yes
 No
@@ -564,17 +462,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
+Explore more
+Hide external links from search engines
+Disable anonymous access to remote API
+Turn on Captcha for spam prevention or failed logins
+Confluence administration
 Show more
-Embed calendars on Confluence content
-Watch a calendar
-Subscribe to Team Calendars from Apple Calendar
-Subscribe to Team Calendars from Thunderbird
-Subscribe to Google Calendars from Confluence
+Manage Confluence content templates
+Configuration settings in Confluence Cloud
+Security settings in Confluence Cloud
+Look and feel settings in Confluence Cloud
+Data management in Confluence Cloud
 Show more
-On this page
-Subscribe with two-way synchronization (CalDAV)
-Subscribe with one-way synchronization (iCal format)
 Community
 Questions, discussions, and articles
 Accessibility

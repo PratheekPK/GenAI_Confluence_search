@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-user-profile-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-a-custom-report/
 
-Insert the user profile macro | Confluence Cloud | Atlassian Support
+Create a custom report | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,46 +439,227 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Space administration
+Create templates, blueprints, and reports
 Cloud
 Data Center
-Insert the user profile macro
-The User Profile macro displays a short summary of a given Confluence user's profile. This is the same summary that appears in a hover profile, which appears whenever you mouse over a user's name in the Confluence interface.
-To add the User Profile macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the User Profile macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
+Create a custom report
+Using a combination of templates and macros, you can make a wide range of reports to manage anything from customer interviews and product requirements, to IT service catalogs and more.
+In this example, we'll create a multi-team status report. Here's the scenario:
+The Design, Development, and QA teams working on the Blue Sky Project need to produce a short status update page each week, containing the focus area for the week, contact person, risks, and overall status for each team. They like the way the product requirements template works, and want to be able to manage their status updates in a similar way.
+What do each of the players want out of this report?
+•Project Lead
+– Wants an at-a-glance report that shows only the status for each team.
+•Team Leads
+– Want a summary report, including the focus areas and risks, just for their team.
+•All team members
+– Want it to be easy to create the new page each week.
+•Management Team
+– Want to see all the details for a week on one page, and don't want to have to look at a different page for each team.
+To meet each of those criteria, we're going to create:
+A status update template with a separate content properties macro for each team's section of the report
+A high level status report, showing just the status of all teams
+A summary report for each team
+Your first status update page
+You'll need
+Space Administrator permissions
+to complete some of the steps in this tutorial.
+Part 1: Create a status update template
+First we'll create a template using instructional text and content properties macros.
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Look and Feel
+menu
+and select
+Templates
+.
+Select the
+Create a new template
+button in the upper-right.
+Give the template a name; we're going to call it
+Status Update
+, so it's easy for the team members to find it.
+Add some headings for your executive summary and for each team, as shown in the screenshot below.
+To help the team members fill this in, add some instructional text below the executive summary. Type /
+placeholder
+where you want the text to appear, then press
+Enter
+. The text field appears.
+Use the text from the screenshot below, or add your own instructions, then press
+Enter
+.
+Add a label to the template. All new pages created from this template will include the label. Select
+> Add labels
+.
+Enter "status-update" and select
+Add
+.
+Select
+Close
+.
+Now we'll add a Content Properties macro to record the status of the Design team. Type
+/properties
+and select
+Content Properties
+. The maco appears and the right panel opens.
+In the macro body, create a two column table, with the heading column on the left.
+Header row
+is selected by default in the
+Table options
+in the floating toolbar. In the Table options, deselect Header row and select Header column.
+In the heading column, add the headings
+Design Focus
+,
+Design Status
+,
+Design Contact
+, and
+Design Risks
+. In the right column, leave the cells blank or enter some instructional text to prompt your users. For the Design Status field, add in a Status element to visually communicate the project's status.
+Edit
+the Page Properties macro and enter a
+Content Properties ID
+for this macro; in this example we'll use
+status-update-design
+. This will allow us to report on the status of just the Design team later on.
+Repeat this process for the Development and QA teams, remembering to specify a different ID for each macro; we'll use
+status-update-dev
+and
+status-update-qa
+.
+Add any other content you'd like to your template, then
+Save
+. After you save, you can enter a
 Description
-Username
-(user
-)
-none
-The username of the Confluence user whose profile summary you wish to show.
+for your template – this is what appears under your template's name in the create dialog.
+Part 2: Create a report showing the high level status of each team
+Next we'll create an index page, just like you see in many blueprints.
+In your space create a new blank page. This will be our
+Status Report - all teams
+page, showing just the status of each team.
+Type
+/properties
+and select
+Content Properties Report
+.
+Select
+Edit
+from the floating toolbar of the macro.
+In the
+Label
+field, type "status-update" and select it from the search results. This is the same label we added to our template.
+Select
+Show
+next to the
+Options
+heading.
+In the
+Columns to show
+field, type in the column headings you want to display. In this example, we only want to show the values of
+Design Status
+,
+Dev Status
+, and
+QA Status
+. Leave the other fields blank.
+Select
+Save
+to update the macro.
+Now we'll add a button to the page to allow team leads to easily create new status update pages from the template we created earlier. Type
+/template
+and select
+Create from Template
+.
+Enter the text you want to display on the button; in this example we'll call the button
+New Status Update Page
+.
+Select the template from the
+Template Name
+drop down (our template was called
+Status Update
+).
+Specify the title of any pages to be created. This is a great way to keep your titles consistent. In this example we'll call the page
+Status update week ending @currentDate
+, which will append the current date when the page is created, as in the
+meeting notes template
+.
+Select
+Save
+.
+Add any other content, links, or images to the page, and select
+Publish.
+Add a link to the page in the space
+sidebar
+, using the
+Add shortcut
+button.
+Part 3: Create a separate report for each team
+Now we'll create some index pages that show a more detailed summary for each team, starting with the Design team.
+Create a new blank page—this will be the
+Design Status Report
+index page, showing just information for that team.
+Type
+/properties
+and select
+Content Properties Report
+.
+Select
+Edit
+from the floating toolbar of the macro.
+In the
+Label
+field, type "status-update" and select it from the search results. This is the same label we added to our template.
+Select
+Show
+next to the
+Options
+heading.
+Enter the
+Content Properties ID
+that was specified in the Page Properties macro in the template (in this example it was
+status-update-design
+) – this allows us to report on just information in that macro.
+Leave all of the other fields blank (we want to show all columns from this Page Properties macro).
+Click
+Save
+to add the macro to the page.
+Add any other content, links or images to the page and select
+Publish
+.
+Add a link to the page in the space
+sidebar
+, using the
+Add shortcut
+button.
+Create a new page and repeat this process for each team - or, as a shortcut, copy the page, and then edit the information. Remember to specify a different Page Properties ID each time - in this example, the next ones should be
+status-report-dev
+and
+status-report-qa
+.
+If your Design, Dev, and QA teams have their own team spaces, this summary report could even be created in their team spaces. Be sure to specify the space where the Status Updates pages are created in the
+In Space
+field, to ensure the macro can find the pages to report on.
+Part 4: Create your first status update page
+Go to the space where the status update page make sense.
+Create the page using the global
+Create
+button or the contextual create button in the
+sidebar
+Select
+Status Update
+, or use the
+Create a new status update
+button to make your first status update page. Just like a blueprint, but 100% made by you.
+Here's how our finished pages look.
+Team Leads and the management team still have a single page for the weekly status update
+The Project Lead can see the status of each team, each week, at a glance in the All Teams status report.
+Each team can see their focus, risks, and status at a glance in their status report.
+Remember, these concepts don't just apply to status updates—you can use them for any purpose at all.
 Was this helpful?
 Yes
 No
@@ -489,13 +670,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
-Show more
-Insert the related labels macro
-Insert the spaces list macro
-Insert the task report macro
-Insert the user profile macro
-Legacy editor content in the cloud editor
+Create templates, blueprints, and reports
+Create a template
+Edit a template
+Promote a template
+Create a custom report
+On this page
+Part 1: Create a status update template
+Part 2: Create a report showing the high level status of each team
+Part 3: Create a separate report for each team
+Part 4: Create your first status update page
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/remove-a-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/export-to-other-calendars/
 
-Remove a space | Confluence Cloud | Atlassian Support
+Export to other calendars | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,16 +439,59 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Remove a space
-Archive a space
-Learn about archiving spaces and how to use it effectively.
-View topic
-Delete a space
-Understand when deleting a space is the right choice.
-View topic
+Export to other calendars
+Team Calendars allows you to quickly export calendar data so you can open it in other calendar apps like Google Calendar, Apple Calendar, Microsoft Outlook, or any application that supports importing .ics files.
+The information you import into your chosen calendar app is no longer connected to Team Calendars and won't be updated when you update Team Calendars. If you'd like your calendar app to be updated when you update Team Calendars, see:
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Google Calendar
+Choose
+to the right of the calendar and choose
+Export to iCalendar
+Save the .ics file to your computer
+Open Google Calendar, and choose
+Settings
+>
+Calendars
+>
+Import calendar
+Locate and select the .ics file you saved and choose
+Import
+Outlook 2010
+Choose
+to the right of the calendar and choose
+Export to iCalendar
+Save the .ics file to your computer
+Open Outlook 2010 and choose
+File Tab
+>
+Open
+>
+Import
+Locate and select the .ics file you saved and choose
+Import
+Apple Calendar
+Choose
+to the right of the calendar and choose
+Export to iCalendar
+Save the .ics file to your computer
+Open the Calendar app on your Mac and choose
+File
+>
+Import
+>
+Import...
+Locate and select the .ics file you saved and choose
+Import
+Choose the calendar you want to import the events into or choose
+New Calendar
+, then choose
+OK
 Was this helpful?
 Yes
 No
@@ -459,17 +502,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Archive a space
-Delete a space
-Space administration
+Use Team Calendars for Confluence (Premium feature)
 Show more
-Manage permissions at the space level
-Manage content in a space
-Remove a space
-Create templates, blueprints, and reports
-Manage team calendars
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
 Show more
+On this page
+Google Calendar
+Outlook 2010
+Apple Calendar
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-team-calendars/
+URL: https://support.atlassian.com/confluence-cloud/docs/change-the-site-title/
 
-Manage team calendars | Confluence Cloud | Atlassian Support
+Change the site title | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,16 +439,35 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Manage team calendars
-Delete or remove a calendar
-Understand the impact of deleting or removing a Team Calendar.
-View topic
-Restrict a calendar
-Restrict viewing and editing of Team Calendars.
-View topic
+Change the site title
+The site title appears in your browser's title bar. By default, it's set to "Confluence."
+To change the title of your
+Confluence Cloud
+instance:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+General configuration
+.
+In the
+Confluence title
+field, enter a new site title.
+Select
+Save configuration changes
+.
+Site titles are limited to 40 characters. Additionally, site titles that are more than 200 pixels wide will be visually truncated to fit. This may affect longer titles that were previously displayed in full.
 Was this helpful?
 Yes
 No
@@ -459,16 +478,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Delete or remove a calendar
-Restrict a calendar
-Space administration
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
 Show more
-Remove a space
-Create templates, blueprints, and reports
-Manage team calendars
-Manage Questions for Confluence
-Customize your space
 Community
 Questions, discussions, and articles
 Accessibility

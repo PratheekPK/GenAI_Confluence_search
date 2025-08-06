@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-are-questions-permissions/
+URL: https://support.atlassian.com/confluence-cloud/docs/discover-relevant-content-with-related-pages/
 
-Assign Questions for Confluence permissions | Confluence Cloud | Atlassian Support
+Discover relevant content with related content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,48 +439,63 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Manage permissions at the space level
+Create and organize work in Confluence Cloud
+Find content in Confluence Cloud
 Cloud
 Data Center
-Assign Questions for Confluence permissions
-Questions access is governed by
-Confluence space permissions
-. If someone has access to a space, they'll be able to view, ask, and interact with questions in that space.
-To change permissions for a space:
-Go to the space in
-Confluence Cloud
-.
+Discover relevant content with related content
+Not sure what to read next after finishing a page? Gain context on collaborative work faster and quickly discover relevant articles in a knowledge base with related pages.
+Related content is automatically generated suggestions for further reading, based on pages and live docs that are viewed or are organized together. This linked content can be found at the end of a page, before the comments section, along with the reason why it’s been recommended.
+Requirements
+Related content will only show on pages and live docs that have content—that is, aren’t empty or only include macros.
+Blog posts will not show related pages, but can be included in the suggestions on a page.
+A page has to have been read by multiple people before suggestions start populating.
+You’ll only ever see suggestions for related pages that you have access to.
+Each related content card shows why it has been suggested, either because it is organized together or often read together with the current page. If content is
+Organized together
+, there’s a structural relationship with the current page (for example, a parent page, sibling page, child page).
+Often read together
+recommendations are determined by behavioral patterns—in other words, people who have read the current page often have also read the recommended content.
+Space admins control whether related pages are on to begin with, as well as the default behavior (if pages should start off being shown or hidden). If they turn related pages on for a space, anyone with edit permissions for a particular page can choose to show or hide page recommendations for it.
+To change related pages settings as a space admin:
 Next to your space's name in the sidebar, select
 More actions
 (•••), then
 Space settings
 .
 Open the
-Space access
+General
 menu
-and select
-Apps
+You can toggle the feature on or off.
+Remember, if turned off, related content will not generate for any page in the space.
+Select the default behavior,
+Hidden on each page or live doc
+or
+Shown on each page or live doc
 .
+If hidden, suggestions will not automatically show, but can be turned on for individual pages by anyone with permission to edit.
+If shown, suggestions will automatically show (when available), but can be turned off for individual content items by anyone with permission to edit.
+When related content is on for a space, you can still control if it appears on a content item, as long as you have permission to edit it.
+When you show or hide suggestions , you show or hide them for everyone. You can always hide or show them again later if you change your mind.
+To show related pages for an individual doc:
+When viewing the page, select
+More actions
+(
+)
+, then
+Advanced details > Show related pages
+.
+Suggestions might not be available immediately for every page, so check back later if nothing shows up.
+To hide related pages for an individual page:
 Select
-Edit permissions
-.
-Change the
-View
-,
-Add
-, or
-Delete
-permissions for Questions for Confluence.
-Select
-Save all
-.
-For example, if you don't want all Confluence users to be able to access a particular space, and by extension its questions, remove the "View" permission for the default "confluence-users" group. If certain users can't see the space, they're already blocked from seeing questions in the space (they'll be able to see
-topics
-created with questions, but not the questions themselves).
-Global questions permissions
-When you install Questions for Confluence, A "global questions" space, called Questions for Confluence by default, is created. This space is where questions are kept when they're asked across your whole site rather than in a specific space.
-To make sure anyone logged in to Confluence has access to global questions, make sure the permissions for this space are left on their default settings (open to Confluence users).
+(
+)
+above the related pages, then
+Hide for everyone…
+Confirm you want to
+Hide for everyone
+You can also hide related pages through the More actions menu (
+) the way you can show them.
 Was this helpful?
 Yes
 No
@@ -491,12 +506,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage permissions at the space level
-What are space permissions?
-Copy space permissions
-Assign space permissions
-Make a space public with anonymous access
-Assign Questions for Confluence permissions
+Find content in Confluence Cloud
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
 Community
 Questions, discussions, and articles
 Accessibility

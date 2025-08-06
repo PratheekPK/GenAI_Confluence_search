@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/save-a-page-for-later/
+URL: https://support.atlassian.com/confluence-cloud/docs/learn-how-confluence-cloud-works/
 
-Save a page, live doc, or other content item for later | Confluence Cloud | Atlassian Support
+Confluence Cloud functionality and features | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,31 +439,19 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Keep content organized
+Considering Confluence Cloud?
 Cloud
 Data Center
-Save a page, live doc, or other content item for later
-Starring a page or other content item for later helps you access them quickly from your desktop or mobile device.
-Star an item for later
-To star an item for later, select
-Star
-from the
-More actions
-menu.
-Get back to your starred items
-To view your starred items:
-Select
-Starred
-in the Confluence navigation
-sidebar
-. Starred items are grouped together.
-To view your starred items on mobile:
-Tap the
-in the navigation on your mobile device.
-You can also use the
-favorite pages macro
-to include a list of your saved items on any page or live doc.
+Confluence Cloud functionality and features
+What is Confluence Cloud?
+Learn how you can create, collaborate, and share content in Confluence Cloud.
+View topic
+Learn about the features of Confluence Cloud plans
+Learn what's included in different Confluence Cloud plans, and how to change from plan to another.
+View topic
+Confluence Standard
+Learn all about the Confluence Standard plan
+View topic
 Was this helpful?
 Yes
 No
@@ -474,16 +462,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Keep content organized
-Show more
-Archive content items
-Restore archived items to the content tree
-Delete, restore, or purge a content item
-Save a page, live doc, or other content item for later
-Use folders to organize your work
-On this page
-Star an item for later
-Get back to your starred items
+Explore more
+What is Confluence Cloud?
+Learn about the features of Confluence Cloud plans
+Confluence Standard
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+See how teams use Confluence Cloud
 Community
 Questions, discussions, and articles
 Accessibility

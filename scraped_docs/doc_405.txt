@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-a-database/
+URL: https://support.atlassian.com/confluence-cloud/docs/set-a-default-classification-level-for-content/
 
-Create a database | Confluence Cloud | Atlassian Support
+Set a default classification level for content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,55 +439,27 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Space administration
+Set space-specific functionality
 Cloud
 Data Center
-Create a database
-Databases aren’t available in the
-Atlassian Government environment
-.
-Create a database
-There are three ways to create a database in Confluence:
-the
-Create
-button in the main navigation
-the
-+
-button next to the Content section or a parent item in the space
-sidebar
-by using the
-+
-insert menu or
-/
-command when editing a page
-Create a database using the Create button
-Select the
-Create
-button in the navigation.
+Set a default classification level for content
+Ensure your content in a chosen space is always classified by setting a default classification level for that space.
+What is a default classification level?
+You can set a default classification level for a space once your organization admin has set up classification levels for your organization.
+You must be a space admin to set a default classification level.
+To set a default classification level for a space:
+Go to the space in Confluence Cloud.
 Select
-Database
-.
-This will create a new blank database in your current space. If you don't have edit permissions in that space, it will default to your personal space.
-Create a database in the content tree
-Select the
-+
-button next to the Content section in the space
-sidebar
-.
+Space Settings
+from the sidebar.
 Select
-Database
-to create a database in the current space.
-You can also create a database under an item in the content tree using the
-+
-button. The button appears when hovering over the content's title in the sidebar.
-Create a database from within a page
-Database setup
-Once you have created a new database, you will be guided through some options for the initial setup. During the setup, you have the option to do one of the following:
-Connect to a Jira instance and insert issues into the database.
-Use a template to help you get started.
-Import data from a CSV file.
-You can start with a blank database and create a custom structure to suit your needs.
+Data classification
+from the Data protection card.
+Choose the classification level you want to apply as the default for items in this space.
+Select
+Save
+.
 Was this helpful?
 Yes
 No
@@ -498,19 +470,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
-Get started with Confluence databases
-Database tour
-Create a database
-Database fields
-Share databases, entries, or values
-Show more
-On this page
-Create a database
-Create a database using the Create button
-Create a database in the content tree
-Create a database from within a page
-Database setup
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
 Community
 Questions, discussions, and articles
 Accessibility

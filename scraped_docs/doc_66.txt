@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/hide-collaborator-cursors/
+URL: https://support.atlassian.com/confluence-cloud/docs/get-started-with-questions-for-confluence/
 
-Hide collaborator cursors | Confluence Cloud | Atlassian Support
+Get started with Questions for Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,21 +439,41 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Space administration
+Manage Questions for Confluence
 Cloud
 Data Center
-Hide collaborator cursors
-Whiteboards aren’t available in
-Atlassian Government environments
+Get started with Questions for Confluence
+Confluence organizes its content in spaces. Questions recognizes that some content should be available anywhere, so you're free to ask questions
+outside
+spaces (global questions) and have them organized by topic or in spaces and have them respect Confluence space permissions.
+In a Confluence site with Questions for Confluence installed, click
+Apps
+, then
+Questions
+in the Confluence
+sidebar
+to get started.
+Starting a community from scratch can be challenging, so here are our tips for getting started.
+To get started:
+Enable the Questions for Confluence add-on
+Questions for Confluence is
+available on the Atlassian Marketplace
+for all Confluence Cloud sites. Once enabled, you can access Questions by going to
+Apps
+, then
+Questions
+in the Confluence
+sidebar
 .
-When collaborating with multiple people on a whiteboard, the presence of numerous cursors can be distracting. To improve your focus and reduce visual clutter, you can hide collaborator cursors from your view.
-How to hide collaborator cursors
-Find the
-Hide collaborator cursors
-icon on the right-side toolbar.
-Select the icon to toggle the visibility of collaborator cursors.
-When enabled, this option will hide all cursors except your own, allowing you to concentrate better on your work. You can toggle this option off at any time to view the cursors of other collaborators again.
+Brainstorm some topics
+Topics help create structure and allow you to group like questions together. Users can choose to watch specific topics, and can use them to navigate to other questions. Topics are added as people ask questions, but if you are an administrator you can create them in the topic list once the first question has been asked.
+Seed some questions and answers
+We've found the best way to get your community up and running is to seed some frequently asked questions. Do you already have an FAQ?  Add these questions, along with useful answers, to get your community moving.
+Engage your experts
+Helpful answers to questions are what'll build your community, so recruit people to act as experts in the early stages. Encourage them to watch topics that interest them, and provide answers. Upvote helpful answers, and downvote unhelpful answers. Get people on board early.
+Share questions
+Sharing is one of the easiest ways to encourage adoption. Share an unanswered question with someone you think can provide an answer; share an answered question with someone who needs an answer.
 Was this helpful?
 Yes
 No
@@ -464,14 +484,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Show more
-Use a template to get started fast
-Keep on track with the timer
-Hide collaborator cursors
-Integrate whiteboards into your Atlassian workflow
-Link Jira issues from your whiteboard
-Show more
+Manage Questions for Confluence
+Get started with Questions for Confluence
+Administer questions
+Integrate questions with your spaces
 Community
 Questions, discussions, and articles
 Accessibility

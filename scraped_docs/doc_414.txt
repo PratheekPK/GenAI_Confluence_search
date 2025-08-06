@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/move-copy-and-hide-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-pre-specified-rss-feeds/
 
-Move, copy, and hide content items | Confluence Cloud | Atlassian Support
+Subscribe to pre-specified RSS feeds | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,185 +439,46 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Keep content organized
+Collaborate on content and get notified in Confluence Cloud
+Get notified about content and activity
 Cloud
 Data Center
-Move, copy, and hide content items
-If you want to move a page, live doc, or other content items to a different space than the one it’s currently in (or move the item somewhere else in the content tree), you can move the item while editing or viewing. You can also copy or hide items. These actions require specific permissions.
-Link redirects
-When an item is moved, Confluence will automatically redirect any links to it to the new location. No need to manually update the URL anywhere it's used within Confluence or in any other products.
-Reorder items within a space
-When you move an item, all the incoming links will be maintained, and when you move a parent item, the entire hierarchy of child items move too.
-To reorder items:
-Go to the space home and expand the
-sidebar
-to locate the content tree
-Expand the branches to locate the page or item you want to move
-Drag the item to a new position in the tree
-Move items
-You can move items within a space, or you can move an item from one space to another.
-Make sure you have the right space permissions
-When you move pages or other items into a different space, you're essentially deleting them in their current space and adding them to the destination space. With that in mind, make sure you have the following permissions.
-In the item's current space:
-Space admin
-permission
-In the destination space:
-permission to
-View
-content in the space
-permission to
-View
-the item or items you want to move
-permission to
-Add
-items in the space
-Any of the space's space admins can tell you if you have these permissions or not, and give them to you if you don't. You can see who the space's admins are by accessing the space’s settings.
+Subscribe to pre-specified RSS feeds
+This page is about subscribing to an RSS feed that Confluence has predefined for you.
+To subscribe to predefined RSS feeds for a particular space:
+Go to the space in
+Confluence Cloud
+.
 Next to your space's name in the sidebar, select
 More actions
 (•••), then
 Space settings
 .
 Select
-Space details
-, and look at the
-Admins
-field.
-To move an item within the same space:
-Go to the item you want to move.
-Select
-from the top-right toolbar and then
-Move
-. The
-Move
-dialog box appears.
-Use the
-Browse
-tab if you need look at the content tree to find the new parent for your content. After moving your item, select
-Start over
-if you need to reset the content tree and try again.
-Use the
-Search
-tab to choose the exact parent item.
-Select
-Move
-after you've chosen the new parent item.
-The item – along with any attachments, comments, and child items – will move to your chosen location.
-To move an item to a different space:
-Navigate to and view the item you want to move.
-Select the down carat from the breadcrumb pathway at the top-left of a page or live doc, then select
-Move
-. Or, select
-Move
+RSS feeds
 from the
-More actions
-(…) menu
-at the top right.  The
-Move
-dialog box appears.
-Select the
-Browse
-tab if you want to find the new parent item using the content tree, or select the
-Search
-tab if you know the new parent item’s name.
-Select the name of the new space.
-You'll only see spaces that you have access to.
-Drag your item to the new location or select the new parent item.
-Select
-Move
-after you've chosen the new parent item.
-The item – along with any attachments, comments, and child items – will move to your chosen location.
-Copy items
-If you need to duplicate the content of a page, live doc, or other item, the easiest way is to copy the item.
-To copy an item, you need permission to
-Add
-items in the space. If you don't have the add permission, the
-Copy
-option won't appear in the menu.
-To copy an item into a different space, you need permission to
-Add
-items in both the origin space and the destination space.
-When you copy an item, Confluence will rename the page by default —
-Copy of [originalItemName]
-— as items in a space must have unique names. You can rename the item after copying it; you just won't be able to publish the new item until it has a unique name in the space.
-Copying an item duplicates all of the original item's attachments, labels, and restriction settings, but not its comments or the version history. Also, anyone who was "watching" the original item or had the original item "starred" will not automatically be set to watch the new item or have it starred.
-To copy an item:
-Go to the page, live doc, or other item you want to copy.
-Select the
-More actions
-(
-) menu.
-Select
-Copy
-.
-Choose which space you want it to end up in.
-Choose which parent item you want to create it under.
-Select
-Copy
-.
-The option to copy an item isn't available when editing.
-When copying an item that has other pages or items nested underneath it in a hierarchy, you have the option to include all of them in a bulk copy action. Essentially, this will copy a whole section of your content tree.
-To copy an item and all of its children:
-Go to the page, live doc, or other item you want to copy.
-Select the
-More actions
-(
-) menu.
-Select
-Copy
-.
-Choose which space you want these items to end up in.
-Choose the new parent item. This is the item in the destination space under which you want to create this copied hierarchy.
-Check the box to
-Include children
-.
-Select
-Next.
-Decide what to name the new items. All items in a given space need unique names. (You can do this in bulk.)
-You can also decide here whether to copy over restriction settings and labels for each respective item.
-Select
-Copy
-.
-Hide items
-You can hide a page or other items from the content tree by moving it to the root of the space — that is, rearranging the item in your content tree to put it at the same level as the space home page. This removes the item from your content tree so people can't find it by browsing through the tree. Hidden (and orphaned) items still show up in search results, and can be accessed if someone has the page or doc URL.
-For example, if you're creating a space for a client and there's a page on which you take notes, you can keep it in the space, hidden, and still link to it from elsewhere on your site.
-If you don't want anyone to find a page or doc, you don't need to hide it. Instead, you can just change the
-restrictions settings
-,
-archive it
-, or
-send it to the trash
-.
-To hide an item:
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Content
-menu
-and select
-Reorder.
-Open the content tree and move the item to the same level as the home page.
-In this example, the page "memes" is hidden in the content tree because it's at the same level as Overview.
-If you do not have
-any
-incoming links, your page or live doc will be an orphan. Confluence lets you see a list of orphaned items in your space. This is useful if you're using
-include content macros
-to pull content from one piece of content onto multiple others. As you add and remove content over time, you can see which items aren't being referenced anywhere by checking Hidden content.
-To view the orphaned and hidden items in a space:
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Content
-menu
-and select
-Hidden.
-This image shows the Hidden items view. From here you can view, edit, or delete orphaned items.
+Integrations
+card.
+Copy and paste the link for one of the feeds into your RSS newsreader.
+Feeds include:
+Pages
+Blog
+Mail
+Comments
+Attachments
+All content
+To subscribe to predefined RSS feeds for a particular screen (where available):
+A "screen" in this sense means a screen in the Confluence UI, rather than a page that contains Confluence content. For example, your
+network
+view offers an RSS feed.
+Go to the screen to which you want to subscribe
+Locate the orange
+RSS feed icon
+, which is available in the top-right corner of certain pages
+Copy and paste the icon's link into your RSS newsreader
+The predefined RSS feed will return no more than 10 entries within the last 5 days. To customize your Confluence RSS feed (for example, use a label to filter your feed), use the
+RSS Feedbuilder
+instead of the above instructions.
 Was this helpful?
 Yes
 No
@@ -628,18 +489,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Keep content organized
-Take quick action from the content title
-Use labels to organize content and attachments
-Move, copy, and hide content items
-Archive content items
-Restore archived items to the content tree
+Get notified about content and activity
 Show more
-On this page
-Reorder items within a space
-Move items
-Copy items
-Hide items
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Subscribe to a network RSS feed
+Celebrate your work with Confluence Recap
 Community
 Questions, discussions, and articles
 Accessibility

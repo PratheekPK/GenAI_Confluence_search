@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-viewing-permissions-for-analytics/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-shapes-to-visualize-ideas/
 
-Control which groups can use analytics | Confluence Cloud | Atlassian Support
+Use shapes to visualize ideas | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,59 +439,69 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Manage analytics permissions in Confluence administration
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Control which groups can use analytics
-This feature is offered with
-Confluence Cloud Premium and Enterprise
+Use shapes to visualize ideas
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Set who can view analytics in Confluence
-If you're a Confluence administrator, you can control who can view analytics on your instance. Set
-global permissions
-by allowing or denying groups access to analytics.
-Browse to the Confluence administration.
-Click
-Security
->
-Analytics permissions
-in the sidebar.
-Edit, select the groups, and click
-Save
+Shapes are perfect for:
+user journeys and user flows
+diagrams
+flow charts or diagrams
+other activities that involve shapes and text
+There are eight shapes you can use on whiteboards.
+To add a shape to a whiteboard:
+Select the
+Shape
+tool to select a shape.
+Choose the shape you want to use on your whiteboard.
+Hover the shape preview over the whiteboard to pick a spot.
+Select again to drop the shape.
+You can also drag and drop a shape from the toolbar onto the board.
+Add connectors to shapes
+Add connectors between sticky notes and shapes to diagram flows.
+Select in the toolbar.
+Select between a
+line
+or
+connector
 .
-Notes on global permissions:
-When no restrictions are applied at the global level, new groups added to your instance will have access to analytics.
-When at least one group is denied access to analytics, all new groups will also be denied access by default.
-Anonymous users can't view analytics.
-Set who can view analytics in a space
-If you're a space administrator, you can control who can view analytics in your space. Set
-space permissions
-by allowing or denying users or groups access to analytics.
-A user or group must have analytics permissions at the global Confluence level before they can be granted space-level permissions.
-Go to the space in
-Confluence Cloud
-.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
-menu
-and select
-Analytics Permissions
-.
+Select and drag your cursor between the objects you want to connect.
+Once created, you can select and drag a connector's start or end point to another object or another side of the same object.
+Learn more about connectors
+Edit shapes
+Color
+Use the color picker in the floating toolbar to change a shape's color.
+To edit a shape's color:
+Select the shape.
+Select the color picker in the floating toolbar.
+Select a new color.
+Type
+You can change a shape already on your whiteboard from one type to another. For example, you can change a square to a circle.
+To change a shape’s type:
+Select the shape.
+Select the shape selector in the floating toolbar.
+Select a new shape.
+Size
+You can resize a shape in two ways:
+Drag the corner
+. This will evenly scale the shape up or down in size. The ratios of the shape will also be kept the same, but make the shape a different size.
+Drag a side.
+This will only change the width or height of the shape. You can use this method to turn a square into a rectangle, etc.
+When you resize a shape that has text in it, the text's size stays the same, but the amount of space around the text changes.
+Create a Jira issue from a shape in whiteboards
+Make sure that no ideas or to-dos get left behind when you’re done brainstorming or sprint planning. With whiteboards, you can improve your workflow by selecting single or multiple shapes and turning them into a Jira issue. This will work for
+Jira
+, Jira Service Management, and Jira Product Discovery.
+Select the shape(s) you want to turn into a Jira issue.
 Select
-Viewing analytics restricted
-from the drop-down menu.
-Type a name into the search box to find a person or group, then select the correct entry to grant them access. To revoke access, select
-Remove
-next to their name on the list.
-Select
-Save
-to save your changes.
+Create
+from the floating toolbar.
+Add all the relevant information to the dialog on the right of your whiteboard.
+This will take you to Jira.
 Was this helpful?
 Yes
 No
@@ -502,11 +512,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage analytics permissions in Confluence administration
-Control which groups can use analytics
+Create and edit whiteboards
+Show more
+Navigation tools in whiteboards
+Organize and explore ideas with sticky notes
+Use shapes to visualize ideas
+Add and edit text on whiteboards
+Build flows and diagrams with flows and connectors
+Show more
 On this page
-Set who can view analytics in Confluence
-Set who can view analytics in a space
+Add connectors to shapes
+Edit shapes
+Color
+Type
+Size
+Create a Jira issue from a shape in whiteboards
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-data-from-html-to-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/collaboration-limits-on-whiteboards/
 
-Import data from HTML to Confluence | Confluence Cloud | Atlassian Support
+Collaboration limits on whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,57 +440,19 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Import data from other tools into Confluence
+Create and edit whiteboards
 Cloud
 Data Center
-Import data from HTML to Confluence
-You can import your content from HTML into Confluence spaces with our new importing tool. This guide outlines the process of importing your content from HTML. Additionally, you can find detailed information on
-what content gets transferred
-and how it will look in Confluence.
-You must have create space permission in Confluence to initiate the import process. Confluence site admins control space creation permissions.
-Upload HTML content
-To import content from HTML, verify that you first have permission to create a space. To select the content you want to import from HTML:
-In Confluence, select
-Spaces
-from the top navigation, then
-Import from other tools
+Collaboration limits on whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Select
-HTML
-.
-Upload your HTML Zipfile.
-Select
-Next
-.
-Your file will be uploaded in the background. Want to know more about how your content will look?
-Check out our FAQ
-.
-Set up space
-To configure your new space:
-Enter a name for the new space in Confluence.
-Select the restrictions to apply to the new space:
-Default space permissions
-- apply your organization’s default restrictions.
-Note:
-If your organization uses open permissions by default, private content may be exposed. If you’re unsure, use
-Restricted to you
-and then update the restrictions after the import.
-Only visible to me
-- only you will be able to view and access the content.
-Note:
-because only you will be able to access the content, all pages and comments will be labeled as created by you (the importing user).
-Select
-Next
-.
-Review the notification email
-You’ll have a chance to review everything before you start the import process. Make sure everything looks correct. Select a step to edit anything that doesn’t look correct.
-After the upload is complete, select
-Start import
-. This process can take a while. Depending on the complexity, bandwidth, size of the transfer, and other factors, it can take a few hours or more to finish. You will receive a notification email when the import is complete.
-This process can take a while. Depending on the complexity, bandwidth, size of the transfer, and other factors, it can take a few hours or more to finish.
-Congratulations! You’ll receive a notification email confirming the transfer is complete. You successfully imported your HTML content and can get started right away. If you encounter any errors or failure notifications in the email, read our
-troubleshooting
-article for common fixes.
+Confluence whiteboards are designed to facilitate smooth collaboration among people. To ensure an optimal experience, there are certain limits in place:
+Maximum number of collaborators
+The maximum number of people who can actively collaborate on a single whiteboard is set at 60. This limit ensures that collaborative sessions remain efficient and responsive, allowing a diverse group of participants to engage simultaneously.
+Maximum number of elements
+For effective whiteboard management, there is a limit of 10,000 elements that can be added to a whiteboard. Elements include shapes, text, pictures, and any other content contributed to the whiteboard. This constraint is implemented to maintain optimal performance and responsiveness even in large-scale collaborative sessions.
+These limits are designed to strike a balance between a rich collaborative experience and system efficiency. We're actively working on increasing these limits! If you reach these limits, we would love to hear from you. You can give feedback using the menu at the top right of your whiteboard. Please include any context for your use case and the impact the limits had on your work.
 Was this helpful?
 Yes
 No
@@ -501,17 +463,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Import data from other tools into Confluence
-FAQ import data from HTML to Confluence
-FAQ import data from Notion to Confluence
-Import data from HTML to Confluence
-Import data from Notion into Confluence
-Import multiple Miro boards to Confluence
+Create and edit whiteboards
+Show more
+Import Jamboard whiteboards in Confluence whiteboards
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
 Show more
 On this page
-Upload HTML content
-Set up space
-Review the notification email
+Maximum number of collaborators
+Maximum number of elements
 Community
 Questions, discussions, and articles
 Accessibility

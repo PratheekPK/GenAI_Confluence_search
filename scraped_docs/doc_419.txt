@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/get-started-as-confluence-cloud-administrator/
+URL: https://support.atlassian.com/confluence-cloud/docs/delete-your-account/
 
-Get started as Confluence Cloud administrator | Confluence Cloud | Atlassian Support
+Delete your account | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,46 +439,31 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Manage your account and permissions in Confluence Cloud
+Manage your account
 Cloud
 Data Center
-Get started as Confluence Cloud administrator
-If you're just starting out as Confluence administrator, this page is for you. You'll find this page useful if your Confluence instance is brand new, or if you're learning to administer an existing instance.
-Learn more about
-organization administration
-and
-user management
+Delete your account
+You can
+delete your account
+when you no longer need to use Atlassian account services. When you do, you’ll immediately lose access to Confluence and all other Atlassian account services, and we’ll stop billing your organization for your account. We’ll also delete your personal data from Atlassian account services.
+Once your account has been deleted, you won’t be able to reactivate it or restore your personal data.
+What’s deleted
+When you delete your account, we’ll permanently delete your
+personal data
+from all Atlassian account services. Your name will be replaced by
+Former user
+throughout Confluence, and your Confluence personal space will be archived.
+We won’t delete:
+Content, comments, or files.
+To manually delete the content you’ve created, follow the instructions in
+Delete, restore, or purge content
 .
-How to administer and configure Confluence
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-If you have a Premium or Enterprise plan, you’ll land in the mission control center. If you have a Free or Standard plan, you’ll land in
-General configuration
-under settings.
-Getting started on a new Confluence instance
-Is this a new Confluence instance? Here are some things to get started with:
-Decide whether you want to allow
-public (anonymous) access
-to your instance.
-Add a
-space
-and some
-content
-.
-Invite
-some users to your instance.
-Now you can continue getting to know your instance.
-Getting to know an existing Confluence instance
-Has the instance been around a while, but you're new to Confluence administration? Take a look at these topics:
-Understand the Confluence
-permission
-scheme.
-Get to know the power of
-add-ons
-for extending and customizing your Confluence instance.
-Investigate more ways of
-customizing
-Confluence.
+Personal data in user-generated content.
+If your personal data, such as your name, email address, or phone number, appears in the text of a Confluence Cloud page or live doc, it will remain on Confluence Cloud until the content or the site is deleted. To delete personal data from a page, live doc, blog post, or comment, you'll need to find the content using global search, then edit it to manually remove your data.
+Once an account has been deleted, both the account and the personal data in it are gone forever.
+How you'll appear
+This is what you’ll look like to other Confluence users once you delete your account:
 Was this helpful?
 Yes
 No
@@ -489,17 +474,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Confluence administration
-Get started as Confluence Cloud administrator
-Set Confluence-wide functionality
-Monitor and manage activity in Confluence Cloud
-Premium admin tools for Confluence Cloud
-Manage global permissions in Confluence administration
+Manage your account
 Show more
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
 On this page
-How to administer and configure Confluence
-Getting started on a new Confluence instance
-Getting to know an existing Confluence instance
+What’s deleted
+How you'll appear
 Community
 Questions, discussions, and articles
 Accessibility

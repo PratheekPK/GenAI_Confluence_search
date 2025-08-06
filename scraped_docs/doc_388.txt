@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-recent-updates-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/get-notified-about-content-and-activity/
 
-Insert the recent updates macro | Confluence Cloud | Atlassian Support
+Get notified about content and activity | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,139 +439,31 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Collaborate on content and get notified in Confluence Cloud
 Cloud
 Data Center
-Insert the recent updates macro
-Use the Recent updates macro to insert a clickable list of the most recently created or updated pages and live docs, blog posts, attachments, and comments within a designated space, or across multiple spaces.
-This is useful, for example, if you want to create a landing or informational page for a project or team. People viewing the list will only see the links for content they have permission to view.
-You can customize what’s included in your list and how many results to display at a time.
-To add a list of recent updates to your page or live doc:
-From the editor, select (+) from the toolbar or type / to bring up the insert menu.
-Find the
-Recent updates
-macro and select it. You can also type
-/recentupdates
-to select this macro from the insert menu right in the body of your page or live doc.
-Upon selection, a list of recent updates will appear in the body of your page or doc, if the selected space has updates. If not, a placeholder will appear.
-A frameless list will appear.
-The items in this list are dynamic. Uf additional updates take place, they'll automatically be reflected in the list.
-To configure your recent updates macro:
-While editing, select the
-Recent updates macro
-you want to configure.
-Select the
-Edit
-(
-)
-icon to open the configuration panel.
-Customize the parameters of your list of recent updates via the
-Basic
-and/or
-Display
-tabs.
-Your selections will take effect instantly.
-You can also select the centered, medium-width, or full-width icon to adjust the width of your list. Select the copy icon to duplicate it elsewhere, and/or the trashcan icon to remove it entirely.
-Basic and display parameters
-You can customize exactly how your list of recent updates appears by configuring its
-Basic
-and/or
-Display
-parameters, depending on your needs and preference.
-If the parameter name in Confluence Cloud storage format is different than the label that appears when configuring the macro, it will be listed below in parenthesis
-(example)
-.
-Basic parameter
-Default
-Description
-Space
-(spaces
-)
-Current space
-Search and select the space(s) from which you want to source your list of recently updated content.
-Special values:
-@self
-— The current space.
-@personal
-— All
-personal
-spaces.
-@global
-— All
-site
-spaces.
-@favorite
-— The spaces you have marked as
-favorite
-.
-@favourite
-— The same as
-@favorite
-above.
-@all
-— All spaces in your Confluence site.
-*
-— The same as
-@all
-above.
-Include in list
-(types
-)
-All
-Select the type of content update you want included in your list, choosing from the following:
-Pages and live docs
-Blog posts
-Comments
-Attachments
-You can select one, a combination of several, or all of the above.
-Show all updates
-Off
-Toggle on to display all recent updates within a selected space or spaces at once, or toggle off to manually customize how many updates to display at a time.
-Max number of updates
-(max
-)
-15
-When the
-Show all updates
-toggle is off, this input field allows you to select the number of updates you want to display in your list at a time, up to 200 entries.
-Display parameter
-Default
-Description
-List style
-(theme
-)
-Title + user name
-This dropdown allows you to configure the style of how your list is displayed.
-Title + user name
-- displays the titles of updated content items, along with the name of the user who contributed that update.
-Title
-- displays the titles of updated content items only.
-User name + profile picture
-- displays a user’s name and profile picture with content recently updated by them itemized below.
-Filter by user
-(author
-)
-None specified
-Search and select the specific user or users whose recent updates you want to display in your list.
-Filter by label
-(labels
-)
-None specified
-Search and select specific labels to filter the results in your list, so only content with the designated labels will display.
-Note: labels can only be applied to pages, live docs, and blog posts.
-List width
-(width
-)
-100%
-This dropdown allows you to choose what percentage of the macro frame your list will stretch across.
-Hide list header
-(hideHeading
-)
-Off
-Toggle off to display
-Recent updates
-as a header above your list on the page or doc. Toggle on to not include that header.
+Get notified about content and activity
+View your notifications
+Find your notifications in-app for content watches, shares, mentions, and tasks.
+View topic
+Subscribe to email updates
+Understand how to configure your email notifications in order to stay on top of the things that matter.
+View topic
+What is a Confluence RSS feed?
+Understand what a Confluence RSS feed is.
+View topic
+Build an RSS feed
+Learn how to build an RSS feed to subscribe to changes in Confluence.
+View topic
+Subscribe to pre-specified RSS feeds
+Subscribe to an RSS feed that Confluence has predefined for you.
+View topic
+Subscribe to a network RSS feed
+Create an RSS Feed from any user's network view to receive activity summaries.
+View topic
+Celebrate your work with Confluence Recap
+Learn how Confluence was your work partner by seeing your creation stats, viewing stats and collaboration stats.
+View topic
 Was this helpful?
 Yes
 No
@@ -582,14 +474,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
+Explore more
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
 Show more
-Insert the popular labels macro
-Insert the profile picture macro
-Insert the recent updates macro
-Insert the recently updated dashboard macro
-Insert the related labels macro
-Show more
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Get notified about content and activity
+View Confluence analytics to see how content is performing
 Community
 Questions, discussions, and articles
 Accessibility

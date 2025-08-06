@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-and-edit-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-add-and-edit-calendars/
 
-Create and edit whiteboards | Confluence Cloud | Atlassian Support
+Getting started with team calendars | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,122 +439,116 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Create and edit whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+Getting started with team calendars
+Team calendars is a feature in all Premium or higher subscriptions in Confluence. Before getting started, verify that you are on a Confluence Premium subscription.  If you are new to Confluence, get started on a free trial of Confluence Premium
+here.
+You can create new calendars or add existing calendars in any Confluence space. Existing calendars can be other calendars from your Confluence site or Google Calendars
+Team calendars is not currently supported on mobile devices.
+Create a calendar
+Select
+Calendars
+in the space
+sidebar
+. A
+Calendars
+panel opens.
+Select the
+button at the top right of the
+Calendars
+panel and select
+Add new calendar
+. The
+Create calendar
+modal window appears.
+Enter a name for the calendar.
+Select
+Create
 .
-Whiteboards enable teams to turn ideas into action, faster than ever before. Weaving together best-in-breed tools, whiteboards help bring everyone across the organization to openly collaborate, build, and innovate on tomorrow's problems - today.
-Use whiteboards for any number of collaborative activities, such as:
-brainstorming ideas
-running retrospectives
-planning out and breaking down work for your team
-prioritizing what’s coming next
-creating diagrams and flowcharts
-Take advantage of whiteboard's deep integrations with products like Jira when you’re next thinking of running a session in whiteboards. With one click, you’ll be able to:
-turn sticky notes into Jira issues
-visualize and create relationships between Jira issues
-Getting started with Confluence whiteboards
-Get started with creating and using whiteboards in Confluence Cloud.
-View topic
-Create a new whiteboard
-Create whiteboards in Confluence Cloud.
-View topic
-Navigation tools in whiteboards
-Move and change what you're focusing on navigation tools on your whiteboard
-View topic
-Organize and explore ideas with sticky notes
-Learn about adding, editing, and turning sticky notes into Jira issues.
-View topic
-Use shapes to visualize ideas
-Add, edit, and use shapes to create diagrams and flows on your whiteboard.
-View topic
-Add and edit text on whiteboards
-Learn about adding and editing text on your whiteboard.
-View topic
-Build flows and diagrams with flows and connectors
-Use lines to create paths between sticky notes, text objects, or shapes.
-View topic
-Inserting links to your whiteboard
-Learn how to add, edit, and insert links and Smart Links to your whiteboard.
-View topic
-Use sections to organize your work
-Learn to add and use sections to create structure in your whiteboard.
-View topic
-Add and edit images on whiteboards
-Learn about adding and editing images and GIFs to your whiteboard.
-View topic
-Add the feels with stamps and stickers
-Learn the value of using stamps and stickers when workshopping with your whiteboard.
-View topic
-Use a template to get started fast
-Use templates to give you a head start when collaborating.
-View topic
-Keep on track with the timer
-Use a timer to keep your team on track.
-View topic
-Hide collaborator cursors
-Enhance your focus on whiteboards by learning how to hide collaborator cursors with a simple toggle.
-View topic
-Integrate whiteboards into your Atlassian workflow
-Embed your whiteboard in other apps, move ideas to Jira, and create or import Jira issues.
-View topic
-Link Jira issues from your whiteboard
-Learn about creating and editing Jira issue links from your whiteboard.
-View topic
-Take bulk Jira actions with smart sections
-Learn to setup smart sections to perform bulk Jira actions on your whiteboard.
-View topic
-Set your whiteboard preferences
-Customize your whiteboard experience by setting preferences for navigation and background options.
-View topic
-Import Figjam boards in Confluence whiteboards
-Learn how to import your Figjam boards into whiteboards
-View topic
-Import Miro boards in Confluence whiteboards
-Learn how to import your Miro boards into whiteboards
-View topic
-Import Mural boards in Confluence whiteboards
-Learn how to import your Mural boards into whiteboards
-View topic
-Import Jamboard whiteboards in Confluence whiteboards
-Learn how to import your Jamboard boards into whiteboards
-View topic
-Export your whiteboard
-Export your whiteboard as an image or PDF for seamless sharing and archiving.
-View topic
-Collaboration limits on whiteboards
-Explore collaborative creativity with our whiteboard feature—up to 60 collaborators and 5000 elements for a shared experience.
-View topic
-What Confluence whiteboards don't support
-Learn more about the Confluence features that whiteboards are yet to support.
-View topic
-Whiteboards impact on third-party apps
-Learn how third-party apps are affected by Confluence whiteboards.
-View topic
-Understand Confluence whiteboards plans and features
-Navigate your whiteboard choices in Confluence with updated access and features
-View topic
-Browser support and settings for whiteboards
-Learn about browser support and settings for whiteboards in Confluence
-View topic
-Atlassian Intelligence in Confluence whiteboards
-Learn how to use Atlassian Intelligence in Confluence whiteboards.
-View topic
-Draw freeform lines with pen
-All about drawing with the pen tool while using whiteboards.
-View topic
-Private mode in whiteboards
-Learn how to use private mode in Confluence whiteboards.
-View topic
-Voting in whiteboards
-Learn how to start and end a voting session, vote, and view results in your whiteboard.
-View topic
-Whiteboard version history
-View and restore older versions of a whiteboard.
-View topic
+Add an existing calendar
+Select
+Calendars
+in the space sidebar. A calendar panel opens.
+Select the
+button at the top right of the
+Calendars
+panel and select
+Add existing calendar
+. The
+Add existing calendar
+modal window appears.
+Search or browse for calendars to add.
+Select the check boxes for the calendars to be added to the space.
+Clear the
+Watch selected calendars
+checkbox if you don't want notifications when changes are made to the selected calendars.
+Select
+Add
+.
+Import a calendar
+Select
+Calendars
+in the space sidebar. A calendar panel opens.
+Select the
+button at the top right of the
+Calendars
+panel and select
+Import calendar
+. The
+Import calendar
+modal window appears.
+Enter a name for the calendar.
+Choose a file from the
+Upload iCal
+field.
+Select the .ics file to be imported and select
+Open
+.
+Select
+Import
+.
+Subscribe by URL
+Select
+Calendars
+in the space sidebar. A calendar panel opens.
+Select the
+button at the top right of the
+Calendars
+panel and select
+Subscribe by URL
+. The
+Subscribe
+modal window appears.
+Enter a name for the calendar.
+Paste the URL for the calendar in the iCal URL field.
+Select
+Subscribe
+.
+See
+Subscribe to Google Calendars from Confluence
+for more information.
+Edit a calendar
+To change the name of a calendar, hide certain event types, or move the calendar to another space, you can edit the calendar provided you have the right permissions.
+Select
+Calendars
+in the space sidebar.
+Select
+to the right of the calendar name, then select
+Edit
+.
+Change the calendar's name or move it to another space.
+Select
+Save
+.
+You can also
+add custom event types
+and hide default event types to tailor the calendar to your needs.
+Did you know you can
+add a calendar to a Confluence page
+?
 Was this helpful?
 Yes
 No
@@ -565,21 +559,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Getting started with Confluence whiteboards
-Create a new whiteboard
-Navigation tools in whiteboards
-Organize and explore ideas with sticky notes
-Use shapes to visualize ideas
+Use Team Calendars for Confluence (Premium feature)
+Subscribe to Team Calendars from third-party calendars
+Getting started with team calendars
+Add events
+Add Jira events
+See standard event types
 Show more
-Create and organize work in Confluence Cloud
-Show more
-Atlassian Intelligence features in Confluence Cloud
-Use Loom in Confluence Cloud
-Create and edit whiteboards
-Create and edit databases
-Export content from Confluence Cloud
-Show more
+On this page
+Create a calendar
+Add an existing calendar
+Import a calendar
+Subscribe by URL
+Edit a calendar
 Community
 Questions, discussions, and articles
 Accessibility

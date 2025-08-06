@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/what-are-space-permissions/
+URL: https://support.atlassian.com/confluence-cloud/docs/choose-a-default-language/
 
-What are space permissions? | Confluence Cloud | Atlassian Support
+Choose a default language | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,83 +439,76 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Manage permissions at the space level
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-What are space permissions?
-Each space in Confluence has its own set of permissions, which can be granted and revoked by a space admin. The user who creates a space is automatically an admin of that space, and they can add other space admins by giving another user or group the
-Admin
-permission. Space admins can assign permissions for the space to individual users, groups, or anonymous users.
-Space permissions aren’t customizable on the
-Free plan
-.
-To find out who the space admins are for a particular space:
-Go to the space in
-Confluence Cloud
-.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
+Choose a default language
+Confluence administrators can define a default language to be applied to all spaces. Individual users can select a language preference for their session.
+This doesn’t apply to anonymous users.
+Set the default language
+To change the default language across Confluence:
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
 Select
-Space details
-from the
-Manage space
-card.
-See
-Administrators
+Configuration
+>
+General configuration
 .
-To change permissions for a space, see
-Assign space permissions
+Scroll down to
+Internationalization
 .
-Space admins can also manage watchers for that space by selecting the watch icon
-at the top right of any page in the space and selecting
-Manage watchers
+Select a language from the
+Global default language
+dropdown.
+Select
+Save global default language changes
 .
-If you accidentally deny all admin access to a space so that nobody has access to administer the space any more, you can ask someone with Confluence Administrator global permission to
-recover space permissions
-and provide space admin access to the appropriate people.
-This page is about
-space permissions
-. Confluence also lets you set
-page restrictions
+Available languages
+Confluence Cloud is available in the following languages, in addition to English (US):
+Chinese (Simplified)
+Chinese (Traditional)
+Czech
+Danish
+Dutch
+English (UK)
+Finnish
+French
+German
+Hungarian
+Italian
+Japanese
+Korean
+Norwegian
+Polish
+Portuguese (Brazilian)
+Russian
+Spanish
+Swedish
+Turkish
+Though you can still select the following languages in your Atlassian Account settings, there is no new Confluence localization support being offered for:
+Estonian
+(from July 1, 2020)
+Portuguese (Portugal)
+(from July 1, 2020)
+Slovak
+(from July 1, 2020)
+Romanian
+(from December 1, 2019)
+Icelandic
+(from December 1, 2019)
+Learn more about
+Atlassian Account language settings
 .
-Assignable permissions for each space
-View
-User can view all the content in your space, except when they're restricted from doing so on individual content items.
-Add
-User can add new pages, live docs, blogs, comments, or attachments in your space.
-You can assign "Add" permissions individually by content type. If assigned, the user can also edit all of that content type in your space, except when restricted from doing so on individual content items.
-Delete
-User can delete any page, live doc, comment, or attachment in your space. You can assign "Delete" permissions individually by content type.
-Delete Own
-User can
-only
-delete content they created or attachments they added. (Note: If user can add comments, they can delete their own.)
-Restrictions
-User can edit restrictions on all pages and live docs in your space, which govern who can view or edit a page or live doc.
-Export
-User can export the whole space. (Page or doc-level export is governed by the "View" permission. anyone who can view a page or live doc can also export it.)
-Admin
-User can administer the space, which includes the ability to pass on admin permissions to other users.
-Confluence admins aren't necessarily space admins. In order for them to be a space admin, they must belong to a group which has both view permission and space admin permission in the space, or they must be granted those permissions as an individual in the space.
-Space permissions are additive
-Space permissions are additive. If a user is granted permissions as an individual or as a member of one or more groups, Confluence will combine these permissions together.
-Example
-Sasha is a member of the
-confluence-users
-group and the
-developers
-group. The
-confluence-users
-group has 'export' permission, but does not have 'restrict' permission. The
-developers
-group has 'restrict' permission but does not have 'export' permission.
-By being a member of these two groups, Sasha can restrict
-and
-export content. The permissions do not conflict, they combine to determine what Sasha is allowed to do in this space.
+Other language settings
+Individual users can choose a display language that's different from the global default.
+The language a user sees will depend on the following factors, in order from highest to lowest importance:
+The language preference set in the user's profile. Users must be logged in for this setting to take effect.
+The language preference set in the user's web browser, as detected by Confluence.
+The default language for the instance, as defined by a Confluence administrator.
 Was this helpful?
 Yes
 No
@@ -526,15 +519,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage permissions at the space level
-What are space permissions?
-Copy space permissions
-Assign space permissions
-Make a space public with anonymous access
-Assign Questions for Confluence permissions
+Configuration settings in Confluence Cloud
+Change the site title
+Configure the administrator contact page
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Show more
 On this page
-Assignable permissions for each space
-Space permissions are additive
+Set the default language
+Available languages
+Other language settings
 Community
 Questions, discussions, and articles
 Accessibility

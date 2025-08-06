@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-anchor-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/invite-guests-for-external-collaboration/
 
-Insert the anchor link macro | Confluence Cloud | Atlassian Support
+Invite guests to Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,34 +439,200 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to add navigation on Confluence pages
+Atlassian administration for Confluence Cloud
+Actions that require an organization or site admin
 Cloud
 Data Center
-Insert the anchor link macro
-The anchor link macro allows you to hyperlink to a specific part of a page or live doc so that a reader can jump directly to that section upon selecting it. These can be especially useful for allowing your readers to navigate to specific parts of a long document. Anchor links are invisible to the reader when on a page in view-only mode.
-To add the anchor link macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-After you've inserted the anchor link, you can create a
-link to that anchor
+Invite guests to Confluence
+Not all teamwork happens inside the (sometimes virtual) walls of a single organization. Sometimes you need to partner with other companies to build integrations, work with agencies to bring marketing campaigns to life, bring in contractors and consultants to help get big projects over the line, and so on.
+With single space guests, you can do all of that work without leaving Confluence.
+Guests are free of charge (
+up to 5 guests per paid user
+). Total number of users (paid + guests) can't exceed the current Confluence site
+user limit
 .
-To edit the anchor link macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
+Important policy information
+You may not convert current or former paid users to guests. The purpose behind the guest feature is to invite users outside of your organization.
+Atlassian reserves the right to restrict your access to the feature if you’re not using it in compliance with this purpose and the guidelines outlined in Atlassian documentation. Atlassian also reserves the right to change the ratio of guests to paid users.
+To dive deeper into what to expect when collaborating with guests, see
+What can guests see and do in Confluence?
+Guests are not currently supported in Confluence mobile apps. For more information, see
+https://jira.atlassian.com/browse/CONFCLOUD-76382
+.
+Give guests access to your Confluence site
+To give guests access to your site, you need to:
+Invite them to join your Atlassian organization.
+Give them app access to Confluence as a guest.
+Assign them the space they’ll be collaborating in.
+Guests can’t use Confluence at all without space access
+See
+Assign space access to guests
+for directions on how to get guests assigned the right space access.
+Note:
+Any guest that has app access to Confluence can access any spaces on that site that
+allow anonymous users
+.
+Manage external users with added security
+When bringing external people into your Confluence data, there’s always tension between the value of that collaboration and having clear and confident control over what areas of your data those external people should access.
+With Atlassian’s external user security features, you can sleep well at night. These include:
+Two-step verification
+Periodic re-verification
+Reviewing external users before changing security settings
+API token access
+Learn more about external user security
+Invite guests and give them Confluence access
+Only organization or site admins can invite guests to Confluence.
+The first step in getting guests set up and collaborating on your Confluence site is to invite them to join your Atlassian organization. Next, those guests need to be given access to Confluence.
+Give guests Confluence access individually
+You can invite up to 10 guests at a time using this path.
+Go to
+admin.atlassian.com
+. If you have more than one organization, select the one you want.
+Select
+Directory
+>
+Users
+.
+Select
+Invite users
+.
+Add the email addresses of the guests you want to invite. (You can invite up to 10 guests at time.)
+Open the app role dropdown for Confluence.
+Unselect the
+User
+role.
+If you don’t unselect this, the user will be considered a regular paid user.
+Select the
+Guest
+role.
+Make sure to select the correct role for all other apps. (Guests are only available in Confluence.)
+If in doubt, skip the
+Group membership
+field. It’s not required.
+(Optional) Personalize the email invite that the guests will receive.
+Select
+Invite users.
+This is the 1st of a 2 step process.
+Guests can’t access Confluence until you assign space access for them.
+Give guests Confluence access via a guest group
+Access management is often easier to manage (especially at scale) using groups.
+To create a group
+, see
+Create groups
+.
+To change a group into a guest group:
+Go to
+admin.atlassian.com
+and select the
+Directory
+tab.
+Select
+Groups
+in the side navigation.
+Search for the group you want to make a guest group.
+Select the group name or
+Show details
+.
+Go to the
+Group app access
+section at the bottom.
+Find the right Confluence site and change the app role to
+Guest
+.
+The group itself (as an object) won’t be added to Confluence. The system will read all members of the group and add them individually.
+To invite new guests and give them Confluence access via a guest group:
+Go to
+admin.atlassian.com
+.
+Select
+Directory
+>
+Users
+.
+Select
+Invite users
+.
+Add the email addresses of the guests you want to invite. (You can invite up to 10 guests at time.)
+Unselect all roles for all apps.
+Search for and select the group or groups that you want to assign the guest to.
+(Optional) Personalize the email invite that the guests will receive.
+Select
+Invite users.
+As long as all groups you’ve selected have the guest role assigned to them, the users you’re adding to them will be granted the guest role automatically.
+Make sure all groups are assigned the guest role
+If any groups you add guests to have the “User” or “App admin” role, the guests will be given regular access to Confluence and considered paid users.
+Give guests full access to Confluence
+If working with your guest requires deeper collaboration, you can promote them into a licensed user with full access to Confluence.
+To give a guest full access:
+Go to
+admin.atlassian.com
+.
+Select
+Directory
+>
+Users
+.
+Search for the guest you want to promote.
+Select the user’s name or ••• >
+Show details
+.
+In
+App access
+, find the right Confluence site and open the app role dropdown.
+Select
+User.
+Unselect
+Guest
+.
+To give a guest group full access:
+Go to
+admin.atlassian.com
+and select the
+Directory
+tab.
+Select
+Groups
+in the side navigation.
+Search for the group you want to make a guest group.
+Select the group name or
+Show details
+.
+Go to the
+Group app access
+section at the bottom.
+Find the right Confluence site and change the app role to
+User
+.
+Remove a guest’s access to Confluence
+There are 2 ways to stop a guest from accessing Confluence:
+unassign them from a space
+remove their app access
+To unassign a guest from a space,
+see instructions in
+Assign space access to guests
+.
+Without access to any space, a guest can’t access Confluence at all but will remain in the guest list. An app admin or space admin can reassign them to a space at any time.
+To remove a guest from Confluence altogether:
+Go to
+admin.atlassian.com
+.
+Select
+Directory
+>
+Users
+.
+Search for the guest you want to remove app access for.
+Select the user’s name or ••• >
+Show details
+.
+In
+App access
+, find the right Confluence site, open the app role dropdown, and unselect the check next to
+Guest
+.
+This will remove the guest from the guest list in Confluence’s
+Global permissions
+.
 Was this helpful?
 Yes
 No
@@ -477,13 +643,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to add navigation on Confluence pages
-Insert the anchor link macro
-Insert the Live Search macro
-Insert the Page Index macro
-Insert the content tree macro
-Insert the page tree search macro
-Show more
+Actions that require an organization or site admin
+Manage your storage usage
+Invite guests to Confluence
+Removing users and downgrading to Confluence Free
+Adjust permissions before downgrading to Confluence Free
+What happens when an account is deactivated vs. deleted?
+On this page
+Give guests access to your Confluence site
+Manage external users with added security
+Invite guests and give them Confluence access
+Give guests Confluence access individually
+Give guests Confluence access via a guest group
+Give guests full access to Confluence
+Remove a guest’s access to Confluence
 Community
 Questions, discussions, and articles
 Accessibility

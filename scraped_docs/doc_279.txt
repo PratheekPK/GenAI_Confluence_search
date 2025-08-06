@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/change-your-confluence-password/
+URL: https://support.atlassian.com/confluence-cloud/docs/change-your-theme/
 
-Change your Confluence password | Confluence Cloud | Atlassian Support
+Change your theme | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,39 +443,23 @@ Manage your account and permissions in Confluence Cloud
 Manage your account
 Cloud
 Data Center
-Change your Confluence password
-There are a couple of reasons why you’d want to change your Confluence password:
-You're logged in and want or need to change your password
-You've forgotten your password and can't log in, and so need to reset your password
-If you have a managed account, you'll need to either go to the system account settings or ask your administrator to change your password. See
-What are managed accounts?
-to learn more.
-To change your password while logged in:
-Select your profile picture at the right of the navigation, then select
-Profile
+Change your theme
+You can set a theme to change how Confluence looks.
+To change your theme:
+Select your profile avatar at the right of the navigation bar, then select
+Theme
 .
-Select
-Manage your account
-, then choose
-Security
-from the top navigation.
-Enter your current password and your new password in the form displayed.
-Tap
-Save changes
-.
-To reset your password from the login screen:
-Go to the login screen for your Confluence site.
-Choose
-Can't log in?
-at the bottom of the page.
-Enter your email address, then tap
-Send recovery link
-.
-Click the recovery link in the email to finish the process.
-Password policy
-By default, all Atlassian account passwords must be a minimum of eight characters. There are no other requirements around resets or expiration.  Site-specific password policies can be established by the site's administrator using
-Atlassian Guard Standard
-.
+Select one of the theme options:
+Light:
+Sets Confluence to display in lighter colors. This is the default theme.
+Dark:
+Sets Confluence to display in darker colors.
+Match Browser:
+This will match the theme you set in your browser. If you don’t have this set, you will see the default theme.
+The theme you select will be saved to your account, so your choice will apply even if you use Confluence on another device.
+Themes change your current view of Confluence and don’t impact how a reader sees your page.
+Admin-driven themes
+If you switch to Dark theme and your top navigation bar doesn’t look right, your admin may have set custom colors that don’t work well with Dark theme. Contact your admin to update the colors.
 Was this helpful?
 Yes
 No
@@ -487,12 +471,12 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Manage your account
-Edit your profile
-Edit your user settings
+Show more
 Change your Confluence password
 Manage OAuth access tokens
 Delete your account
-Show more
+Change your theme
+Set your email visibility
 Community
 Questions, discussions, and articles
 Accessibility

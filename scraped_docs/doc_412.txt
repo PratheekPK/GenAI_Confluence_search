@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-miro-boards-in-confluence-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-time-and-date-formats/
 
-Import Miro boards in Confluence whiteboards | Confluence Cloud | Atlassian Support
+Configure time and date formats | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,86 +439,50 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Import Miro boards in Confluence whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
+Configure time and date formats
+You can localize the formats that
+Confluence Cloud
+uses to display dates and times within the web interface. The settings use the syntax of Java's SimpleDateFormat class, as described in this document:
+Java SimpleDateFormat
 .
-Bring your Miro content to Confluence whiteboards and collaborate seamlessly with your team. Import your whiteboards from Miro into Confluence to unlock features like smart connectors, smart sections, real-time editing, and experience brainstorming and collaboration like never before. Plus, keep everything organized with your whiteboards conveniently stored alongside your other Confluence content.
-Export your Miro board
-In Miro, open the board you wish to export.
-Open the export menu in the top-left corner of the board, then select
-Save as image
+There are three time and date format settings:
+Time format: Used when displaying only the time of day. For example, when a blog post is published. Example of configuration:
+h:mm a
+Date time format: Used when displaying both the date and the time of day. For example, in historical versions of pages. Example of configuration:
+MMM dd, yyyy HH:mm
+Date format: Used when displaying only the date. For example, the creation and most recent modification dates of pages. Example of configuration:
+MMM dd, yyyy
+To change the time and date formats:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+General configuration
 .
-Select the area of the board that you’d like to export.
-Select the
-Vector
-option.
-Click the
-Export
-button.
-For more information on exporting Miro boards,
-see the Miro support documentation
+Scroll down to
+Formatting and international settings
 .
-You must
-Save as image
-to import editable elements to your Confluence whiteboard.
-Import to whiteboards
-Whiteboards currently only support PDF or image file importing.
-Navigate to the whiteboard where you wish to import the image or PDF. You can use an existing whiteboard or start a new one.
-You can import your content in two ways:
-Drag your image or file into your whiteboard.
-On the toolbar, select the More menu (
-…
-), select
-Whiteboard import,
-navigate to your file, and select it.
-Select your content type.
-The import process will complete.
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-For projects that are still in progress and continue to be iterated on, we recommend importing as an image and recreating the areas that require additional editing and changes.
-For projects that are completed, but may need to be referenced in the future, we recommend importing as an image. The content will then live in Confluence whiteboards as the new source of record.
-How Miro elements import to Confluence whiteboards
-Miro
-Confluence whiteboards
-Sticky notes
-Sticky notes
-Frames
-Rectangles
-Borders
-Borders
-Draw
-Images
-Website embeds
-Images
-Jira cards
-Jira Smart Links
-Tables
-Recreated with lines and rectangles
-GIFs
-Images
-Text
-Text
-Stamps
-Images
-Tags
-Text in rectangles
-Mind maps
-Rectangles, lines, and connectors
-Limitations
-Some limitations and differences between your Miro board and Confluence whiteboard will occur.
-Importing comments is not supported, but you can comment on Confluence whiteboards.
-Colors will be mapped to the closest Confluence whiteboards colors.
-Connectors will not import, but they can be recreated in Confluence whiteboards.
-Rotated elements will import unrotated.
-Shapes supported in whiteboards will import as shapes. Shapes that are not supported will import as images.
-Locked elements will not remain locked when imported, but you can manually lock them in Confluence whiteboards.
-Talk tracks are not supported in whiteboards.
-Whiteboards have a 10,000 element limit.
-Importing may take longer than a minute for boards with many elements, large images, or a lot of content.
+Enter the values for
+Time format
+,
+Date time format
+and
+Date format
+that suit your requirements.
+Select
+Save configuration changes
+.
 Was this helpful?
 Yes
 No
@@ -529,20 +493,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Configuration settings in Confluence Cloud
 Show more
-Set your whiteboard preferences
-Import Figjam boards in Confluence whiteboards
-Import Miro boards in Confluence whiteboards
-Import Mural boards in Confluence whiteboards
-Import Jamboard whiteboards in Confluence whiteboards
+Choose a default language
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
 Show more
-On this page
-Export your Miro board
-Import to whiteboards
-When should I recreate my content in Confluence whiteboards vs. uploading a static image?
-How Miro elements import to Confluence whiteboards
-Limitations
 Community
 Questions, discussions, and articles
 Accessibility

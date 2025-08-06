@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-a-page/
+URL: https://support.atlassian.com/confluence-cloud/docs/set-your-whiteboard-preferences/
 
-View written content | Confluence Cloud | Atlassian Support
+Set your whiteboard preferences | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,102 +440,23 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Navigate around Confluence
+Create and edit whiteboards
 Cloud
 Data Center
-View written content
-After you’ve created a live doc or published a page, information about the content are presented at the top of the screen and in the
-Details
-panel. Learn about these features, including how to manage avatar visibility for published pages.
-Your Confluence administrator determines what information is presented at the top. This means your content may look a little different.
-Content information can include:
-While viewing or editing a page
-Last updated :
-Shows when the page was last published or updated.
-Breadcrumbs :
-Navigation path that shows the location of the page in the content tree.
-More actions :
-Frequently used actions such as Star, Watch, Present, Version history, Copy, Move, Convert to live doc, and more.
-Owner
-is shown below the title.
-Read time:
-The estimated time it takes to read the page. Read time is based on an average reading speed of 265 words per minute.
-Analytics
-(
-Premium
-)
-:
-Get insights on page views.
-Classification
-(Atlassian Guard Premium): Define classification levels into which users can categorize their content.
-Apps
-your team has installed from the
-Atlassian Marketplace
-or
-built themselves
+Set your whiteboard preferences
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Avatars
-of other viewers (while viewing)
-Avatars
-of other editors (while editing)
-Select their avatar to find them in the page, if they are currently active.
-Telepointers
-of editors: Hover over telepointer to see full name.
-While viewing and editing a live doc
-Last updated :
-Shows when the content was last edited.
-Breadcrumbs :
-Navigation path that shows the location of the doc in the content tree.
-More actions :
-Frequently used actions such as Star, Watch, Present, View changes, Version history, Copy, Move, Convert to page, and more.
-Owner
-is shown below the title.
-Read time:
-The estimated time it takes to read the doc. Read time is based on an average reading speed of 265 words per minute.
-Analytics
-(
-Premium
-)
-:
-Get insights on views.
-Classification
-(Atlassian Guard Premium): Define classification levels into which users can categorize their content.
-Apps
-your team has installed from the
-Atlassian Marketplace
-or
-built themselves
-.
-Avatars
-of live collaborators and viewers.
-Select an editor’s avatar to find them in the live doc, if they are currently active.
-Telepointers
-of editors: Hover over telepointer to see full name.
-Avatar visibility on published pages
-Real-time avatar visibility improves collaboration on published pages by showing who’s viewing, in addition to already showing who’s editing at any given time.
-Depending on
-how admins set public settings
-, anonymous users may also see who is on the page.
-Turn avatar visibility on or off
-By default, avatar visibility is turned on at the site level.
-Some teams may choose to turn this feature off due to the sensitive nature of content they may have on their Confluence site. You can turn this feature off for the entire site or individual spaces, but not for specific pages.
-To turn avatar visibility off:
-Site-level admins can visit
-Settings
->
-General configuration
->
-Avatars on published pages
-Space-level admins can visit
-Space settings
->
-General
->
-Avatars and status
->
-Avatars on published pages
-.
-These settings only control visibility of viewers on published pages. The visibility of co-editors' avatars is a Confluence feature that cannot be turned off.
+Using the preference options, you can customize your whiteboard to suit your needs. These preferences are specific to the current whiteboard and can be accessed from the right-side toolbar.
+Preference options
+Scrolling and navigation: Enable the use of the mouse scroll wheel to zoom.
+Background: Select between a grid or plain (none) background.
+To set your preferences:
+Select the
+Preferences
+icon in the right-side toolbar.
+Adjust your preferences as desired.
+Close the preferences.
 Was this helpful?
 Yes
 No
@@ -546,16 +467,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Navigate around Confluence
-What is the new navigation in Confluence?
-Use For you to jump into work and see what's happening
-Confluence navigation
-View written content
-On this page
-While viewing or editing a page
-While viewing and editing a live doc
-Avatar visibility on published pages
-Turn avatar visibility on or off
+Create and edit whiteboards
+Show more
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Set your whiteboard preferences
+Import Figjam boards in Confluence whiteboards
+Import Miro boards in Confluence whiteboards
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

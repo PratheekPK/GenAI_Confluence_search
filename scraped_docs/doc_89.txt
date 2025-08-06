@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/present-your-page-with-presenter-mode/
+URL: https://support.atlassian.com/confluence-cloud/docs/find-content-in-confluence-cloud/
 
-Present your content with Presenter mode | Confluence Cloud | Atlassian Support
+Find content in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -442,63 +442,22 @@ Resources
 Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Present your content with Presenter mode
-Presenter mode is designed to showcase content on a page or blog post with reduced distractions. After selecting this mode, the content enters a full-screen view, stripping out all side panels, options menus, and in-line comments so the content looks clean and simple when presented.
-To enter Presenter mode:
-You can enter Presenter mode by choosing Presenter mode in the More actions menu or using the
-r
-keyboard shortcut.
-1. Select
-More actions
-(…)
-2. Select
-Present
-Navigate with selective focus
-By using the arrows at the top right of your screen, you have the option to highlight sections of your content and direct your audience’s focus. You can also use the keys
-→
-↓
-,
-Return,
-or
-Space
-on your keyboard to move to the next content section, and
-←
-or
-↑
-to move to the previous section.
-Selective focus highlights sections based on headers, tables, and layouts. It also highlights text separated by dividers.
-Jump to a section
-You can also use the section dropdown on the top right to selectively highlight a specific section of the page. Select a heading, table, or layout to scroll directly there and highlight it for your audience.
-Change the appearance
-The presentation settings include options to change the appearance of the page.
-Full-screen view:
-The current page fills the screen and your browser controls are hidden. Toggle it off to reveal them. This is turned on when you start Presenter mode.
-Cursor spotlight:
-Your cursor becomes a large circle so it’s easier for the audience to see. This is turned on when you start Presenter mode.
-Present in Dark theme:
-You can switch between Light and Dark themes. This presentation setting defaults to your Confluence setting for
-themes
-, but if you change it here, it will not affect your Confluence theme selection when you leave Presenter mode.
-Share the page or blog post with QR code
-When in Presenter mode, the page will generate a QR code that allows you to share the page’s URL. If you choose to do so, the participants can use their mobile device to scan and open the page to follow along.
-To show the QR code (Presenter):
-Select
-More actions
-(…)
-Select
-Present
-Click
-Share via QR
-to open the QR code screen on the bottom right corner of your page
-To scan the QR code (Participants):
-Using your mobile device, use the camera or a QR code reader application to scan.
-The device will show the URL to the Confluence page being presented.
-Open the page and choose to star, comment, or just follow along with your presenter.
-Use the Presenter mode template
-When you create a new page, you have the option of pre-formatting your content with a page template. (Note that this feature isn’t currently available on Confluence mobile).
-The Presenter mode
-template
-will guide you through creating a page that looks best when presented. You’ll find guidance as well as best practices for your presentation.
+Find content in Confluence Cloud
+Search for content
+Search for pages, live docs, posts, and other items that are most meaningful to you.
+View topic
+Search for people and teams
+Use the people directory to search for people and follow their activity.
+View topic
+Confluence search syntax
+Use Confluence's search syntax to refine your search queries.
+View topic
+Discover relevant content with related content
+Learn about this space admin-managed feature and how you can use it to quickly discover relevant content.
+View topic
+Use Atlassian Intelligence to search for answers
+Ask Atlassian Intelligence questions to find the Confluence content you’re looking for.
+View topic
 Was this helpful?
 Yes
 No
@@ -509,23 +468,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Explore more
+Search for content
+Search for people and teams
+Confluence search syntax
+Discover relevant content with related content
+Use Atlassian Intelligence to search for answers
 Create and organize work in Confluence Cloud
-Show more
+Navigate around Confluence
+Use spaces to organize your work
+Find content in Confluence Cloud
+Create and edit content
 Keep content organized
-Upload and manage files
-Present your content with Presenter mode
-Atlassian Intelligence features in Confluence Cloud
-Use Loom in Confluence Cloud
 Show more
-On this page
-To enter Presenter mode:
-Navigate with selective focus
-Jump to a section
-Change the appearance
-Share the page or blog post with QR code
-To show the QR code (Presenter):
-To scan the QR code (Participants):
-Use the Presenter mode template
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-insights-on-your-site/
+URL: https://support.atlassian.com/confluence-cloud/docs/integrate-whiteboards-into-your-atlassian-workflow/
 
-View insights on your site | Confluence Cloud | Atlassian Support
+Integrate whiteboards into your Atlassian workflow | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,116 +439,54 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-View Confluence analytics to see how content is performing
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-View insights on your site
-Get an overview of the usage of your site, then view insights on your spaces, users, and searches.
-To access site analytics:
-Select the
-Apps
-menu in the
-sidebar
+Integrate whiteboards into your Atlassian workflow
+Whiteboards aren’t available in
+Atlassian Government environments
 .
+Embed your whiteboard in other products, move ideas to Jira, and create or import Jira issues.
+Embed your entire whiteboard into Jira, Confluence, and Trello
+Easily embed ideas and add visualization to your workflows by embedding a whiteboard Smart Link to project posters, product roadmaps, kanban boards, and more.
+Move ideas from your whiteboard into Jira issues and Confluence pages
+If you’re not looking to showcase your entire whiteboard somewhere else, simply take the ideas you need or want with you to your other apps. Be it after brainstorming, or a retro - get things happening by copying text, sticky notes, or shapes into a Confluence page or a Jira issue description.
+Select the sticky notes, text boxes, or shapes you want to copy.
+Use Cmd + c / Ctrl + c.
+Go to any plain text editor where you want this content to be.
+Use Cmd + v / Ctrl + v.
+Import Jira issues onto a whiteboard
+You can import Jira issues onto a whiteboard in two ways: Copy and paste the link to a Jira issue onto your whiteboard, or use the Jira issue import dialog. This works for the cloud versions of
+Jira
+, Jira Service Management, and Jira App Discovery.
+The Jira issue import dialog lets you search for and insert single or multiple Jira issues into your whiteboard. You can use a simple plain text search or more advanced Jira Query Language (JQL) to find issues.
+Learn more about searching with JQL
+Use plain text search in the dialog:
+Enter your query into the search field.
+Select as many issues from the list as you would like to import.
 Select
-Analytics
-.
-The Overview tab shows analytics data for your site as a whole.
-Use the shortcuts at the top to select the date range (seven days, one month, three months, year-to-date, or custom) for your data. You can also decide how you want to group the data, whether to display it by total number of users or unique users.
-Hover over points on the chart to view a summary of data for a specific date.
-The cards below the chart show top rankings for a key insight found in each of the
-Spaces
-,
-Users
-, and
-Searches
-tabs:
-Popular spaces
-– The spaces with the most views for the chosen date range
-Most active readers
-– The users who have viewed content on your site the most number of times in the chosen date range
-Trending searches
-– The terms users most often searched for in the chosen date range
-Selecting
-View all
-takes you to the full list of rankings in each tab.
-View insights on your site's spaces
-From the
-Spaces
-tab of site analytics, you can view the following insights:
-Name
-- The name of the space
-Views
-- The total number of times pages in the space have been viewed within the selected date range
-Users Viewed
-- The total number of users that have viewed content in the space within the selected date range
-Last Viewed
-- The last time any content in the space was viewed
-Updated
-- The total number of times content in the space have been edited within the selected date range
-Created
-- The number of content items that have been created in the space within the selected date range
-Space analytics
-can also be accessed from a space’s
-sidebar
-.
-Export reports on spaces
-You can export a Microsoft Excel report of analytics for the spaces on your site.
+Import issues.
+Use JQL search in the dialog:
 Select
-Export as CSV
-on the top right of the
-Spaces
-tab. The file, with data separated by commas, will download automatically.
-View insights on your site's users
-From the
-Users
-tab of site analytics, you can view the following insights:
-Name
-- The name of the user
-Created
-- The number of content items created by a specific user within the selected date range
-Updated
-- The total number of times a specific user has edited content within the selected date range
-Comments
-- The total number of times a specific user has commented on content within the selected the date range
-Search
-- The total number of times a specific user has performed a search within the selected date range
-Views
-- The total number of times a user has viewed content within the selected date range
-Export reports on users
-You can export a Microsoft Excel report of analytics for the users on your site.
+JQL
+near the search bar.
+Enter your JQL query in the search field.
+Select as many issues from the list as you would like to import.
 Select
-Export as CSV
-on the top right of the
-Users
-tab. The file, with data separated by commas, will download automatically.
-View insights on searches in your site
-From the
-Searches
-tab of site analytics, you can view the following insights on terms users are searching for:
-Search term
-- The term users have searched for
-Searches
-- The total number of searches for the search term within the selected date range
-Users searched
--
-The number of unique users that have searched for the search term within the selected date range
-Click-through rate
-- The percentage of times users have clicked through to content from results after searching on the term within the selected date range
-Select a row to view additional insights for a specific search term:
-Searches
-– Charts how many times users searched for this term in the chosen date range
-Click-through rate
-– Charts how many times users selected a search result in the chosen date range
-Most-clicked content
-– The content from the search results that users most often selected, in the chosen date range
-Most-clicked spaces
-– The spaces from the search results that users most often selected, in the chosen date range
-The counts displayed in the main table may differ slightly from those shown after clicking on a row because our search insights are based on large-scale approximations. For more accurate counts in these cases, refer to the additional insights panel.
-Keep in mind that you’ll only see spaces and content that you have
-permission
-to view.
+Import issues.
+Create Jira issues from your whiteboard
+Quickly turn sticky notes or shapes into single or multiple Jira issues - be it in
+Jira
+, Jira Service Management, or Jira App Discovery. This will help take ideas in a whiteboard and turn them into actionable work items in Jira.
+To turn a sticky or shape into a Jira issue:
+Select a sticky or shape with text inside it.
+Select
++ Create a Jira issue
+from the floating toolbar.
+Select a site, project, and issue type from the options in the picker. Note that the required input fields will update depending on the project and issue you select.
+Fill in all required fields, then select
+Create.
 Was this helpful?
 Yes
 No
@@ -559,17 +497,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-View Confluence analytics to see how content is performing
-View insights on your site
-View insights on spaces
-Content insights and analytics
-Turn on privacy mode for analytics data
+Create and edit whiteboards
+Show more
+Keep on track with the timer
+Hide collaborator cursors
+Integrate whiteboards into your Atlassian workflow
+Link Jira issues from your whiteboard
+Take bulk Jira actions with smart sections
+Show more
 On this page
-View insights on your site's spaces
-Export reports on spaces
-View insights on your site's users
-Export reports on users
-View insights on searches in your site
+Embed your entire whiteboard into Jira, Confluence, and Trello
+Move ideas from your whiteboard into Jira issues and Confluence pages
+Import Jira issues onto a whiteboard
+Use plain text search in the dialog:
+Use JQL search in the dialog:
+Create Jira issues from your whiteboard
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/draw-freeform-lines-with-pen/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-and-edit-images-on-whiteboards/
 
-Draw freeform lines with pen | Confluence Cloud | Atlassian Support
+Add and edit images on whiteboards | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,40 +443,18 @@ Create and organize work in Confluence Cloud
 Create and edit whiteboards
 Cloud
 Data Center
-Draw freeform lines with pen
-The whiteboards pen tool allows you to draw freely, enabling a more expressive and creative way to collaborate visually.
-Create with the pen tool
-Begin drawing on your whiteboard from your toolbox or by using the shortcut
-p
+Add and edit images on whiteboards
+Whiteboards aren’t available in
+Atlassian Government environments
 .
-Select the pen icon from the main toolbar.
-The pen tool will be activated, allowing you to draw on the whiteboard.
-Click and hold your mouse or stylus to start drawing. Release to finish your line.
-Edit a drawing
-You can edit your drawing’s formatting. Edits can also be made in bulk to a group of selected drawings.
-Select one or more by:
-selecting a single drawing
-selecting and dragging your cursor over multiple drawings
-selecting multiple drawings individually while holding Shift
-Use the toolbar to edit color and text formatting.
-Format drawings
-Width
-Adjust the line width using the toolbar. There are three width options
-Color
-To edit the color of a drawing:
-Select the drawing.
-Select the color picker in the floating toolbar.
-Select a new color.
-You can change drawing colors in bulk by selecting multiple sticky notes.
-Delete a drawing
-To delete a drawing from your whiteboard:
-Select one or more by:
-selecting a single drawing
-selecting and dragging your cursor over multiple drawings
-selecting multiple drawings individually while holding Shift
-Select
-Delete
-.
+Supported formats for images
+Import any static images in PNG, JPEG, SVG, GIF, or WEBP formats, and animated images in the GIF format.
+Add an image or GIF
+Select the image tool from the toolbar.
+Select an image or GIF from your computer.
+Once the image is placed on your whiteboard, you can edit and move it around.
+Resize
+Select and drag the bounding box around the image to proportionally resize it.
 Was this helpful?
 Yes
 No
@@ -489,17 +467,16 @@ The Atlassian Community is here for you.
 Ask the Community
 Create and edit whiteboards
 Show more
-Browser support and settings for whiteboards
-Atlassian Intelligence in Confluence whiteboards
-Draw freeform lines with pen
-Private mode in whiteboards
-Voting in whiteboards
+Inserting links to your whiteboard
+Use sections to organize your work
+Add and edit images on whiteboards
+Add the feels with stamps and stickers
+Use a template to get started fast
 Show more
 On this page
-Create with the pen tool
-Edit a drawing
-Format drawings
-Delete a drawing
+Supported formats for images
+Add an image or GIF
+Resize
 Community
 Questions, discussions, and articles
 Accessibility

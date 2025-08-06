@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/give-access-to-unlicensed-users-from-jira-service-management/
+URL: https://support.atlassian.com/confluence-cloud/docs/restore-archived-pages-to-the-page-tree/
 
-Give access to unlicensed users from Jira Service Management | Confluence Cloud | Atlassian Support
+Restore archived items to the content tree | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,52 +439,68 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Manage global permissions in Confluence administration
+Create and organize work in Confluence Cloud
+Keep content organized
 Cloud
 Data Center
-Give access to unlicensed users from Jira Service Management
-If you're using Confluence to power your
-Jira Service Management
-knowledge base, you can choose to allow all active users and customers (that is, logged-in users who do not have access to Confluence) to view specific spaces.
-This lets
-Jira Service Management
-agents and customers access articles from the help center and from the
-service project
+Restore archived items to the content tree
+Content archiving
+is a two-way door — you can tidy your space and keep the content in it up-to-date by archiving a page, live doc, or other content item, but you can also return archived items to the content tree when a project is reopened or when an item has otherwise become relevant again (or if items were archived by mistake).
+Jump to:
+Restore an archived item
+Directly from an archived item
+From the archived pages list
+Restore an item and all of its nested items
+(Premium only)
+Who can restore an item
+Restore an archived item
+There are two ways to restore an archived item back to the content tree:
+directly from an archived item
+from the archived content list in the archive
+Directly from an archived item
+While viewing any archived item, you’ll see a banner message across the top that labels it as an archived item. If you have permission to restore the item, you’ll find a
+Restore
+link in the text of that banner.
+Click
+Restore
+Choose a destination in the content tree from the dropdown (this will be its new parent item)
+Click
+Restore
+Before restoring an item, be sure to check if it has inherited permissions. If it does, then the item is relying on one of its parent items to control who can view it, in which case you might be exposing it to a wider audience by restoring it. To avoid this, set view restrictions on the item you’re restoring.
+From the archived content list
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
 .
-To ensure
-Jira Service Management
-agents have access to view and edit articles in the knowledge base, a Confluence admin should:
-Go to Confluence Settings
-Select
-Global Permissions
-Select
-JSM Access
-tab
-Check “Use Confluence”
-Now in your
-Jira Service Management
-project:
-Navigate to the Project Settings
-Select
-Knowledge base
-Select
-All logged-in users
-under “Who can view”
-for your linked spaces
-If desired, select
-Service project users
-under “Who can edit”
-for your linked spaces
-This global Confluence permission will be enabled by default if your Confluence instance was initially created to serve as a knowledge base for Jira Service Management. It will also override all existing space permissions. This means that any logged-in Confluence user will also be able to see the space regardless of their group membership.
-Active users who don't have access to Confluence have very limited access to Confluence. They can view content, but can't like, comment, edit, view the dashboard, use the space directory, see user profiles, or search your full instance.
-You can edit this permission at any time to revoke access to a space, but access for JSM agents and customers can only be fully re-enabled from
-Jira Service Management
-project settings.
-You can also change permissions in the JSM Access tab of
-global permissions
+Open the
+Content
+menu
+and select
+Archived
 .
-Learn how to use Jira Service Management and Confluence together.
+In the list of archived items, find the item you want to restore, select the More actions menu (•••) on that item’s line, and select
+Restore
+Choose a destination for the item in the content tree
+Click
+Restore
+Restore an item and all of its nested items (Premium only)
+When restoring an item on the premium plan, you’ll have the option to include any nested items with the selected parent item—all in one action. This lets you restore groups of items that were archived together, and maintain their contextual relationship with one another.
+Keep in mind that nested restoring is an all or nothing action. You can choose to restore all the nested items you have permission to restore, or none of them; there’s no middle ground.
+You can’t restore any nested items you don’t have permission to view.
+Any nested item you don’t have permission to restore (or view) will remain in the archived content list and move up according to the new hierarchy.
+Watch out for inherited permissions on nested items.
+Any nested item “left behind” in the archived pages list as a result of a nested restore action will have a new parent item. If any of these “left behind” items don’t have view restrictions set on them, you could be exposing content to a wider audience than intended.
+All items restored together will maintain their hierarchy in the archived content list, to preserve the context in which they were organized in the archive.
+Who can restore an item
+Permission to restore an item from the archive is tied to the
+permission to archive content
+. If you have permission to archive an item, you have permission to restore it.
+Coming soon: space admins will be able to
+bulk restore
+content from the archive, just like they’re able to
+bulk archive
+.
 Was this helpful?
 Yes
 No
@@ -495,12 +511,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage global permissions in Confluence administration
-Manage global permissions
-Assign space access to guests
-Manage public links across Confluence Cloud
-How secure are public links?
-Give access to unlicensed users from Jira Service Management
+Keep content organized
+Show more
+Move, copy, and hide content items
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Show more
+On this page
+Restore an archived item
+Directly from an archived item
+From the archived content list
+Restore an item and all of its nested items (Premium only)
+Who can restore an item
 Community
 Questions, discussions, and articles
 Accessibility

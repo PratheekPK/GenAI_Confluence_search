@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/security-settings-in-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/customize-default-space-content/
 
-Security settings in Confluence Cloud | Confluence Cloud | Atlassian Support
+Create a custom space overview template | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,18 +440,71 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
-Security settings in Confluence Cloud
-Hide external links from search engines
-Learn how to hide external links from search engines to discourage spammers from posting to your instnace.
-View topic
-Disable anonymous access to remote API
-Prevent anonymous users from accessing the Confluence remote API.
-View topic
-Turn on Captcha for spam prevention or failed logins
-Learn how to configure Captcha to prevent spam.
-View topic
+Create a custom space overview template
+Confluence administrators can edit the template that is used to create the overview page in new spaces. There is a different template for general spaces, personal spaces, and space blueprints.
+Any changes to the space overview templates will only appear in new spaces (those that are created after editing the content). They will not affect existing overviews.
+Edit the space overview template
+To edit the (blank) space overview template:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+Global templates and blueprints
+.
+Select the edit icon (
+)
+next to "Default Space Content" or "Default Personal Space Content" (depending on whether you want to customize the content for general space or personal space overviews).
+Add variables, macros, and other content as you want it to appear.
+Select
+Save
+.
+The following variables are available to be added to the default space overview templates:
+For general spaces
+$spaceKey
+inserts the space key
+$spaceName
+inserts the space name
+For personal spaces
+$userFullName
+inserts the user (owner of the personal space) into the personal space overview
+$userEmail
+inserts the email address of the user (owner of the personal space) into the personal space overview.
+Default space templates differ from ordinary page templates in that they don't present the user with a form to complete, so variables should be limited to those listed in the
+Variables
+menu.
+Some macros, like the Table of Contents macro, may not display correctly when you preview the template because they are designed to work on a page. However when a new space is created, the macros will display correctly.
+For more information on editing a template, including adding macros, see
+Edit a template
+.
+Restore default space overview content
+To reset the original default content:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+Global templates and blueprints
+.
+Select
+Reset to default
+next to the template you wish to reset.
+From this point on, all new space overviews will be created with the original default content.
 Was this helpful?
 Yes
 No
@@ -462,18 +515,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Hide external links from search engines
-Disable anonymous access to remote API
-Turn on Captcha for spam prevention or failed logins
-Confluence administration
+Set Confluence-wide functionality
 Show more
-Manage Confluence content templates
-Configuration settings in Confluence Cloud
-Security settings in Confluence Cloud
-Look and feel settings in Confluence Cloud
-Data management in Confluence Cloud
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
 Show more
+On this page
+Edit the space overview template
+Restore default space overview content
 Community
 Questions, discussions, and articles
 Accessibility

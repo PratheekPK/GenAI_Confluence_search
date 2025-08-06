@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/improved-confluence-navigation/
+URL: https://support.atlassian.com/confluence-cloud/docs/learn-about-the-atlassian-cloud-editor/
 
-Confluence navigation | Confluence Cloud | Atlassian Support
+Learn about the Atlassian cloud editor | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,102 +440,47 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Navigate around Confluence
+Create and edit content
 Cloud
 Data Center
-Confluence navigation
-Great content that you can’t find might as well not exist. We totally understand that it's our job to give you the tools to find the content you need.
-From the navigation, you'll find clearly labeled buttons and menus to help you find and do the things you need to.
-Top navigation
-Search
-— Find pages, live docs, spaces, and other content.
-Create
-— Select to create a new page, live doc, database, Loom video, or whiteboard.
-Chat
-— Chat with
-Rovo
-, powered by Atlassian Intelligence.
-Notifications
-— Find out what's happening in spaces and items you watch in Confluence and activity like replies, mentions, and task assignments.
-Help
-— Get online help, and find out what's new in your Atlassian Cloud apps.
-Your profile and settings
-— Go to or create your personal space, adjust your Confluence settings, or provide feedback about your Confluence experience.
-The sidebar
-Expand/Collapse
-— Open and close the sidebar.
-App switcher
-— Switch to other Atlassian Cloud apps, like Jira.
-Confluence logo and name
-— Select to go to the Confluence
-For you page
-.
-For you
-— Start your Confluence journey with easy access to important spaces, content, and updates.
-Recent
-— Access items you’ve recently visited and worked on as well as drafts or starred items. Expand the filter controls to reduce the full list.
-Today
-— Pages, live docs, blogs, and whiteboards you have viewed, including those that you’ve edited and commented on.
-Worked on
-— Pages, live docs, blogs, and whiteboards you created, edited, and commented on; this includes drafts.
-Owned by me
-— Pages, live docs, blogs, and whiteboards you own.
-Starred
-— Easily return to your favorite content.
-Spaces
-— Get to spaces you’ve recently visited and starred.
-Apps
-— Access content from integrated apps like Calendars for Confluence.
-More
-— Open additional options.
-Teams
-— Find people you work with frequently
-Drafts
-— Manage your unpublished pages and blogs.
-Company Hub
-— Access your
-Company Hub
-. This is only shown if you organization has created and published a
-Company Hub
-. It may have a customized name unique to your org.
-Customize sidebar
-— Customize the order of your sidebar.
-Customization and Settings
-Custom Color Schemes and Site Homepage
-: Admins can customize the site's color scheme and set a specific space overview page as the site homepage. Custom homepages and the Confluence "For you" page can coexist.
-Space Sidebar
-: Access the space overview, pages, live docs, blogs, whiteboards, and more. Minimize or collapse the sidebar for a streamlined view.
-Space Shortcuts
-: Add shortcuts to frequently accessed content within the space.
-Minimize the space sidebar
-You can minimize or collapse the space sidebar to make more room for viewing your content. Use either of these methods:
-Select the
-Expand/Collapse
-icon in the upper left.
-Type [
-Edit the space sidebar
-You can determine which items display in the sidebar. You can do this for overview, blog, and apps such as questions or calendars.
-Go to the space in Confluence Cloud.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-General
-menu
-and select
-Features
-.
-Choose what appears in your
-sidebar
-.
-The options available in
-Space settings
-depend on your permissions. App and space administrators can change settings for access, content, data protection, look and feel, archiving, and deleting, and integrations.
-Space shortcuts
-Shortcuts are helpful or important pieces of content that members of a space might need to get to often. These shortcuts added by the space administrator.
-Space admins can link to content in the space, other related spaces, or relevant external web content as well as reorder the shortcuts as needed.
+Learn about the Atlassian cloud editor
+The Atlassian cloud editor is your place for creating and managing content in Confluence Cloud. This intuitive editing environment has a user-friendly interface, empowering you to craft clear, concise, and appealing content with ease.
+Key features and benefits of the cloud editor
+Real-time collaboration:
+Work together with your team! The cloud editor allows you and other users to
+edit a page or live doc
+simultaneously, ensuring everyone sees the latest updates as they happen. Foster communication and
+provide feedback through mentions and comments
+within the editing interface.
+Rich formatting options:
+Take control of your content with a variety of formatting tools. From
+headings and subheadings
+to
+tables
+,
+layouts
+, and
+code snippets
+, you can structure your content for optimal readability and clarity.
+Streamlined workflows:
+Experience a smooth and efficient editing process. The cloud editor simplifies content creation with intuitive table drag-and-drop functionality and effortless media embedding. Additionally,
+explore keyboard shortcuts
+for faster editing and navigation.
+Centralized content management:
+The cloud editor integrates seamlessly with the broader Atlassian ecosystem. Link to existing pages, live docs, whiteboards, databases, or Jira issues for easy reference with Smart Links. Use macros to create advanced layouts and features in your content.
+Advanced features
+Confluence Cloud offers many advanced features for experienced users. Explore features like Atlassian Intelligence, use templates for consistent content, add powerful third-party macros from the Marketplace for advanced layouts, and leverage content visibility options for managing access.
+Integration with Atlassian products
+The Confluence Cloud editor is the editing experience used across all Atlassian products. This offers a significant benefit: you only need to learn one editing platform for your entire Atlassian workflow.
+Next steps and support
+Remember, the cloud editor constantly evolves, offering regular updates and improvements. To stay on top of the latest features, explore the following resources:
+Atlassian Community
+:
+Connect with other Confluence Cloud users and share your experiences.
+Support articles
+:
+Access more detailed guides and troubleshooting tips for Confluence Cloud.
+We encourage you to explore the cloud editor and discover how it can transform your content creation experience!
 Was this helpful?
 Yes
 No
@@ -546,17 +491,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Navigate around Confluence
-What is the new navigation in Confluence?
-Use For you to jump into work and see what's happening
-Confluence navigation
-View written content
+Create and edit content
+Show more
+Import external documents
+Classify content
+How redaction works
+Learn about the Atlassian cloud editor
+Convert pages to the cloud editor
 On this page
-Top navigation
-The sidebar
-Customization and Settings
-Minimize the space sidebar
-Edit the space sidebar
+Key features and benefits of the cloud editor
+Advanced features
+Integration with Atlassian products
+Next steps and support
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-home-to-jump-into-work-and-see-whats-happening/
+URL: https://support.atlassian.com/confluence-cloud/docs/edit-features-for-a-space/
 
-Use For you to jump into work and see what's happening | Confluence Cloud | Atlassian Support
+Edit features for a space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,31 +439,66 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Navigate around Confluence
+Space administration
+Customize your space
 Cloud
 Data Center
-Use For you to jump into work and see what's happening
-Whether you need to check on things you’ve worked on recently, keep up with what your teammates are doing, or see what content is popular on your site,
-For you
-lets you see it all.
-For you lets you jump into things in a couple different ways:
-Pick up where you left off
-— See the five items that you interacted with most recently; interactions include visits, edits, and comments.
-Discover what’s happening
-— View the most popular items on your site; popularity is determined by interactions like comments and reactions. You can also follow certain people or spaces to fine-tune the
-Following
-section so that you see a list of activity that’s meaningful to you.
-Popular —
-View trending content in Confluence.
-Announcements
-— See information from your site's administrator. If your administrator hasn't created announcement content, this section won't appear. If you are the admin, you can customize the information from here.
+Edit features for a space
+You can control which features are available within your space. To edit the features that appear in a space:
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+General
+menu
+and select
+Features
+.
+Choose what appears in your space.
+Turning a feature off hides it from view, so people with permission to create and edit content can’t use it. However, automations and apps can still access these features, and turning a feature off won’t delete or otherwise impact existing content.
+Your permissions determine which capabilities and cards available in Space settings. Only app and space administrators can edit features for a space.
+Available features
+Feature
+Description
+Blogs
+Blogs are similar to pages, but they appear in their own section in the content tree, and they’re organized chronologically.
 Calendars
-— Review the calendars and events in your team calendars. This section only appears if the
-Team Calendars for Confluence app
-has been added to your Confluence site.
-What’s new in Confluence
-— Review updates and new releases from the Confluence team.
+Team Calendars
+allow you to create calendars for yourself and your team — and view other calendars from your organization — all in one place.
+Calendars are only available for customers with the Premium plan.
+Analytics
+Analytics
+gives you an overview of how a space is performing with insights about the popularity of different pages and blog posts within the space, as well as the space’s most active readers and contributors.
+Analytics is only available for customers with the Premium plan.
+Automation
+Automation
+eliminates busywork by allowing you to automate routine tasks, such as sending a weekly progress report on your team’s work or applying correct labels to newly created content.
+Automation is only available for customers with the Premium plan.
+Whiteboards
+Whiteboards
+let teams brainstorm collaboratively in real time. For example, you can use whiteboards to:
+Sketch out ideas visually with stickies, lines, and sections,
+Keep collaborative sessions on track with timers, and
+Vote on favorite concepts or solutions using stamps.
+Databases
+Databases
+allow teams to store and organize structured data in one place. For example, you can use databases to:
+Create a single source of truth for documentation and information,
+Track the progress of projects and tasks, and
+Assign work and track who is responsible for what and by when.
+Smart Links
+Smart Links
+help you centralize your team’s work by letting you access content from other apps directly in Confluence.
+Folders beta
+Folders
+are simple containers for related work that you can use to structure and organize a space just like you would on your computer, without providing any additional information or context upfront.
+This feature is currently in beta and only available to select participants.
+Live docs
+Live docs
+let you create and edit written content instantly without the extra step of publishing. Whenever you or your collaborators make updates to a live doc, those changes are reflected in real time.
 Was this helpful?
 Yes
 No
@@ -474,11 +509,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Navigate around Confluence
-What is the new navigation in Confluence?
-Use For you to jump into work and see what's happening
-Confluence navigation
-View written content
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/summarize-a-page-or-blog-using-atlassian-intelligence/
+URL: https://support.atlassian.com/confluence-cloud/docs/lock-your-database-structure/
 
-Summarize a page, live doc, or blog using Atlassian Intelligence | Confluence Cloud | Atlassian Support
+Lock your database structure | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,30 +440,23 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Atlassian Intelligence features in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Summarize a page, live doc, or blog using Atlassian Intelligence
-Save time and get the details you need to do your work faster by generating a quick summary with
-Atlassian Intelligence
+Lock your database structure
+Databases aren’t available in the
+Atlassian Government environment
 .
-Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
-Settings > Atlassian Intelligence
-in Atlassian Administration.
-Atlassian Intelligence isn’t available for
-Atlassian Government
-apps.
-Summarize a Confluence page, live doc, or blog with Atlassian Intelligence
-Navigate to the Confluence page, live doc, or blog post you want to summarize.
-Select
-Summarize
-from the bottom right of the screen.
-Atlassian Intelligence will generate a summary of the content.
-You can rate the quality of the summary and provide feedback.
-A summary will not generate if there isn’t enough content to summarize or if summarizing the content might go against Atlassian’s Acceptable Use Policy.
-For more on how Atlassian Intelligence works, its limitations, and our commitment to privacy, visit
-the Atlassian Trust Center
-.
+The lock structure feature helps safeguard your database fields from accidental changes while allowing users to add and edit data entries.
+How to lock your database structure
+Navigate to the database you want to secure.
+Select the
+•••
+(More) menu at the top right corner of the database.
+Find the
+Lock structure
+option in the menu and switch it on.
+Once enabled, no one will be able to add new fields or modify existing field settings unless the Lock structure feature is turned off. However, users with editing access can toggle this lock on or off at any time, making it a convenient safeguard against accidental structural changes.
 Was this helpful?
 Yes
 No
@@ -474,13 +467,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Atlassian Intelligence features in Confluence Cloud
+Create and edit databases
 Show more
-Use Atlassian Intelligence with Confluence automation
-Learn about pre-defined prompts in Atlassian Intelligence
-Summarize a page, live doc, or blog using Atlassian Intelligence
-Summarize comments using Atlassian Intelligence
-Summarize changes with Atlassian Intelligence
+Export your database data
+Duplicate a database setup
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
 Show more
 Community
 Questions, discussions, and articles

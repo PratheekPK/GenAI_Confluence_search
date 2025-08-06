@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-and-edit-databases/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-analytics-permissions-in-confluence-administration/
 
-Create and edit databases | Confluence Cloud | Atlassian Support
+Manage analytics permissions in Confluence administration | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,72 +439,12 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
+Confluence administration
 Cloud
 Data Center
-Create and edit databases
-Databases aren’t available in the
-Atlassian Government environment
-.
-What is a Confluence database?
-Databases in Confluence allow you to store structured data in a native format. Databases are similar to pages and other content types. They live in the content tree, can be searched and linked, and have permissions set at the space level.
-A database organizes content into fields and entries:
-Fields define the structure and are shown as columns. They describe the data type, like text, numbers, or dates.
-Entries make up the content and are shown as rows. Each entry represents a set of values stored in the fields.
-With databases, you can connect and organize structured data like customer IDs and unstructured data like meeting notes and images. This makes them a powerful way to bring all your content together in one place or even within your other Confluence pages and content.
-Get started with Confluence databases
-Get started quickly with Confluence databases.
-View topic
-Database tour
-Explore the database interface, including customizable views, layouts, filters, and more.
-View topic
-Create a database
-Learn three simple methods to create a new database and organize your data efficiently.
-View topic
-Database fields
-Customize your database with a comprehensive guide to all available field types and their configurations.
-View topic
-Share databases, entries, or values
-Learn how to seamlessly share and embed your database content using Smart Links and the /embed database command for dynamic, up-to-date information sharing.
-View topic
-Database views
-Discover how to create, customize, and manage versatile views in your database for enhanced data organization and sharing.
-View topic
-Layouts and options
-Explore the various layout options in databases, including Table, Card, and Board views, to present your data in the most effective way.
-View topic
-Filter your data
-Learn how to save filters as views in Confluence databases. Create and customize filters.
-View topic
-Sort fields
-Learn how to sort your database items by selected fields to organize your data in the most meaningful order.
-View topic
-Hide fields in your database
-Streamline your database by learning how to hide and manage fields to focus on the most relevant information.
-View topic
-Import data into your database
-Import and integrate data into your database with this step-by-step guide.
-View topic
-Export your database data
-Discover how to export your database data into CSV, HTML, or PDF formats for easy sharing and data management.
-View topic
-Duplicate a database setup
-Efficiently duplicate your database structure to another space, ensuring consistency and saving setup time.
-View topic
-Lock your database structure
-Safeguard your database fields from accidental changes by learning how to lock your database structure effectively.
-View topic
-What Confluence databases don't support
-Learn more about the Confluence feature that databases are yet to support.
-View topic
-Database impact on third-party apps
-Learn how third-party app are affected by Confluence databases.
-View topic
-Database version history
-View and restore older versions of a database
-View topic
-Perform simple calculations on your data
-Learn how to perform simple calculations using database data
+Manage analytics permissions in Confluence administration
+Control which groups can use analytics
+Control who can view analytics on a Confluence instance or spaces.
 View topic
 Was this helpful?
 Yes
@@ -517,19 +457,14 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Explore more
-Get started with Confluence databases
-Database tour
-Create a database
-Database fields
-Share databases, entries, or values
+Control which groups can use analytics
+Confluence administration
 Show more
-Create and organize work in Confluence Cloud
-Show more
-Use Loom in Confluence Cloud
-Create and edit whiteboards
-Create and edit databases
-Export content from Confluence Cloud
-Get to know the new and simplified content layout
+Premium admin tools for Confluence Cloud
+Manage global permissions in Confluence administration
+Manage analytics permissions in Confluence administration
+Manage Confluence content templates
+Configuration settings in Confluence Cloud
 Show more
 Community
 Questions, discussions, and articles

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-apple-ios-calendar/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-a-status-to-your-page-or-blog/
 
-Subscribe to Team Calendars from Apple iOS Calendar | Confluence Cloud | Atlassian Support
+Add a status to your content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,115 +439,47 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Subscribe to Team Calendars from Apple iOS Calendar
-You can subscribe to Team Calendars from your iPhone or iPad device using the built-in Apple Calendar for iOS. This method may also work for other mobile calendar apps that support the ability to subscribe to calendar URLs.
-There are two ways to synchronize your calendar in iOS:
-Two-way sync
-(CalDAV) allows you to view and update Team Calendar events in iOS.
-Requires Team Calendars (available with Confluence Premium).
-One-way sync
-(iCal) allows you to view—but not update—Team Calendar events in iOS.
-Subscribe with two-way synchronization (CalDAV)
-Two-way synchronization allows you to view and update Team Calendar events in iOS.
-These instructions are for iPhone running iOS 14 or later. Your version may differ slightly.
-You will need the following:
-Confluence API token (this will be your password)
-Confluence Cloud server address
-Get your Confluence Cloud API token:
-Select your profile picture in the top nav >
-Settings
-Under
-YOUR SETTINGS
-, select
-Password
-In the
-API token
-section, select the link
-Create and manage API tokens
+Add a status to your content
+Give your content a status to help set expectations for viewers and collaborators when they come to a page, live doc, or blog post. This avoids the need to add “draft” or “work in progress” to your title when you want to communicate that the content isn’t final yet. After all, no one wants to assume that something is done and spend time and energy commenting before you are ready for their feedback and questions!
+Content statuses are only available in the cloud editor.
+Each status is a combination of a colored indicator (purple, blue, red, yellow, or green) and a label (up to 20 characters) that can help people easily understand where your content is in its lifecycle. They can also be useful when reviewing version history and deciding which versions to compare.
+Space admins control whether content statuses are on to begin with and if content authors/editors can add their own custom statuses. Additionally, admins can decide what (if any) default statuses should be suggested.
+Space settings
+To change content statuses settings:
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+General
+menu
+and select
+Avatars and status
+.
+The space admin can:
+Turn content statuses off for a space (or turn them back on)
+Suggest certain statuses for use in the space
+The three default suggested statuses are Rough draft, In progress, and Ready for review. You can remove these statuses or add new ones (up to five for a space) by selecting
+Create a status
+. To revert to the original default three, just select
+Restore defaults
+.
+Allow or prevent people in the space from adding new statuses
+If prevented from adding custom statuses, authors will only be able to use the suggested statuses determined by space admins.
+Add a status
+If a space admin allows statuses in a space, you can add or change them at the top of your content when editing. That means anyone with edit permissions can set the content status, choosing from the suggested options defined by the space admin or creating your own.
 Select
-Create API token
-Name your API token, select
-Create
-, and then select
-Copy
-(you won’t be able to copy this later)
-Get your Confluence Cloud server address:
-In the top nav, choose
-Apps > Calendars.
-Select the the More actions menu (
-) for your calendar in the side nav and choose
-Subscribe
-.
-In the
-Calendar app
-dropdown, select
-Apple Calendar (iOS)
-.
-If prompted, add the calendar to
-My Calendars
-. If you don’t add it to My Calendars, it won’t sync.
-Copy the
-server address
-.
-Because Apple Calendar supports calendar discovery, this will be your Confluence URL, not the URL of an individual calendar. You'll be able to choose which calendars (that you've added to My Calendars) to sync in the app.
-Subscribe to a Team Calendar in the Apple Calendar app on your iOS device:
-Go to
-Settings
->
-Calendar > Accounts
->
-Add account
-.
-Select
-Other
->
-Add CalDAV account
-.
-Enter the
-server address
-you copied earlier from Confluence Cloud.
-In
-Username
-field, add the email account linked to your Confluence account.
-In the
-Password
-field, paste the API token you copied from Confluence Cloud.
-In the Apple Calendar iOS app, select
-Calendars
-and select the calendars you want to display.
-Subscribe with one-way synchronization (iCal)
-One-way synchronization means that you can view but not update Team Calendar events in your Apple Calendar iOS app.
-To subscribe with one-way synchronization:
-Open Confluence.
-In the top nav, choose
-Apps > Calendars.
-Select the the More actions menu (
-) for your calendar in the side nav and choose
-Subscribe
-.
-In the
-Calendar app
-dropdown, select
-iCal
-.
-Copy the
-server address
-.
-Open your Apple Calendar iOS app.
-Go to Settings > Calendar > Accounts > Add account.
-Choose Other > Add Subscribed Calendar
-.
-Paste the server address and select
-Next
-.
-Enter any other required information and select
-Save
-.
-You can now view (but not edit) Team Calendar events in Apple Calendar for iOS.
+Status
+from above the title while editing.
+Choose between a suggested or custom status from those listed or add a new one (depending on the settings chosen by the space admin.
+Your custom statuses are not available to anyone else.
+Viewers can only see the content status on a page or blog after it has been published, but statuses on live docs are instantly visible.
+Because admins control the statuses available, statuses can differ from space to space. If content is moved from one space to another, the person moving the content will be alerted to any differences in the way statuses work in the new space.
 Was this helpful?
 Yes
 No
@@ -558,21 +490,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
+Create and edit content
 Show more
-Subscribe to Team Calendars from Google Calendar
-Subscribe to Team Calendars from Microsoft Outlook
-Subscribe to Team Calendars from Apple iOS Calendar
-Export to other calendars
-Set system properties
+Add elements to a page or live doc
+Transfer ownership of your content item
+Add a status to your content
+Make your content and its title more memorable
+Import external documents
 Show more
 On this page
-Subscribe with two-way synchronization (CalDAV)
-Get your Confluence Cloud API token:
-Get your Confluence Cloud server address:
-Subscribe to a Team Calendar in the Apple Calendar app on your iOS device:
-Subscribe with one-way synchronization (iCal)
-To subscribe with one-way synchronization:
+Space settings
+Add a status
 Community
 Questions, discussions, and articles
 Accessibility

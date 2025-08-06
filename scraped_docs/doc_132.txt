@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/keep-on-track-with-the-timer/
+URL: https://support.atlassian.com/confluence-cloud/docs/delete-or-disable-a-template/
 
-Keep on track with the timer | Confluence Cloud | Atlassian Support
+Delete or disable a template | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,49 +440,51 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Use spaces to organize your work
 Cloud
 Data Center
-Keep on track with the timer
-Whiteboards aren’t available in
-Atlassian Government environments
+Delete or disable a template
+Space admins can delete templates from the spaces they administer to make them inaccessible. To learn about deleting and disabling global templates, see
+Delete or disable a global template
 .
-The timer allows you to set a countdown clock that you and anyone collaborating on a whiteboard can see.
-Things to know:
-you can only have one active timer per whiteboard
-anyone on the whiteboard can start, stop, pause, or add time to the timer
-when the timer reaches the last ten seconds, sound will be played. Confetti will appear when the timer reaches zero
-Start timer
-To start a timer:
-Select the timer icon in the right-side toolbar.
-Select the time input field and type the time you want the timer to run.
-Select the start button.
-Stop timer
-To stop a timer when the timer dialog is open:
-Select the stop button.
-The timer will be stopped for everyone.
-Note that if the timer dialog is hidden, you must first open it by selecting the timer in the top toolbar.
-Pause timer
-To pause a timer when the timer dialog is open:
-Select the pause button.
-The timer will be paused for everyone.
-To resume the timer, select the start button.
-Note that if the timer dialog is hidden, you must first open it by selecting the timer in the top toolbar.
-Add time
-To add time to a timer that is running:
-Select the
-+1 min
-button in the timer dialog.
-Note that if the timer dialog is hidden, you must first open it by selecting the timer in the top toolbar.
-Hide the timer dialog
-To hide the timer dialog:
-Select the hide button in the top right corner of the dialog.
-The timer will hide. The countdown will continue to be displayed in the right-side toolbar.
-Mute timer sound
-You can mute the timer countdown sound that plays for the final ten seconds. Muting the timer will mute it for you.
-To mute timer sound:
-Select the sound button to mute.
-Select the sound button again to unmute.
+To delete a template:
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Look and Feel
+menu
+, then select
+Templates
+.
+Find the template in the table and select
+Delete
+.
+This is permanent: once a template has been deleted, it cannot be restored.
+You can also disable a blueprint in a specific space. Unlike deleting a template, which is permanent and cannot be undone, you can enable a disabled blueprint at any time.
+To disable a blueprint:
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Look and Feel
+menu
+, then select
+Templates
+.
+Find the blueprint in the list and select
+Disable
+.
 Was this helpful?
 Yes
 No
@@ -493,21 +495,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Use spaces to organize your work
 Show more
-Add the feels with stamps and stickers
-Use a template to get started fast
-Keep on track with the timer
-Hide collaborator cursors
-Integrate whiteboards into your Atlassian workflow
-Show more
-On this page
-Start timer
-Stop timer
-Pause timer
-Add time
-Hide the timer dialog
-Mute timer sound
+Organize your space
+Find content in a space
+Customize your space's overview
+Use labels to categorize spaces
+Delete or disable a template
 Community
 Questions, discussions, and articles
 Accessibility

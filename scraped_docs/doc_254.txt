@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-storage-usage/
+URL: https://support.atlassian.com/confluence-cloud/docs/format-text/
 
-Manage your storage usage | Confluence Cloud | Atlassian Support
+Format text | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,55 +439,168 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Atlassian administration for Confluence Cloud
-Actions that require an organization or site admin
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Manage your storage usage
-With Confluence, you can feel confident knowing that your files and data are safeguarded in a secure environment. Each Confluence subscription offers a different amount of storage for your team’s needs.
-Confluence Free- 2 GB
-Confluence Standard- 250 GB
-Confluence Premium- Unlimited storage
-Tracking your storage usage
-You must be a Confluence admin to view and track your storage.
-Go to
-admin.atlassian.com
-and select your organization(if you have more than one). You can also get to this page by switching to the
-Administration
-tab using the menu in Confluence.
-This step is different depending on your user management settings:
-- Original: On the left nav bar, select the
-site's name
-and
-URL
-to open the
-Admin
-for that site.
-- Centralized: Select
-Apps
-then select the
-site's name
-and
-URL
-to open the
-Admin
-for that site.
-Under
-Site settings
-, select
-Storage
+Format text
+Confluence offers a range of text formatting options to help you create clear and visually appealing content. Markdown can also be used for
+most formatting actions
+. This guide will walk you through the various ways to format your text.
+Does your toolbar look different?
+Your toolbar or editing controls may appear differently from usual, or from how they appear in this documentation. We’re rolling out features that are subject to change.
+How to pin your toolbar and navigate editing updates
+Using paragraph styles
+To structure your content effectively, you can use different paragraph styles.
+Normal text:
+This is the default format for the text you add to a page or live doc.
+Headings:
+You can assign up to six levels of headings by changing the paragraph style. Headings help organize your content and make it easier to navigate.
+Adding emphasis
+Adding emphasis to your text can make important information stand out.
+Bold:
+Select the text you want to emphasize and select the
+Bold
+button in the toolbar or use the
+Ctrl
++
+B
+(Windows) or
+Cmd
++
+B
+(Mac) shortcut.
+Italics:
+Select the text you want to emphasize and select the
+Italics
+button in the toolbar or use the
+Ctrl
++
+I
+(Windows) or
+Cmd
++
+I
+(Mac) shortcut.
+Underline:
+Select the text you want to underline and select the
+Underline
+option in the
+(...) more formatting
+menu or use the
+Ctrl
++
+U
+(Windows) or
+Cmd
++
+U
+(Mac) shortcut.
+Strikethrough:
+Select the text you want to strike through and select the
+Strikethrough
+option in the
+(...) more formatting
+menu or use the
+Ctrl
++
+Shift
++
+S
+(Windows) or
+Cmd
++
+Shift
++
+S
+(Mac) shortcut.
+Code:
+Select the text you want to format as code and select the
+Code
+option in the
+(...) more formatting
+menu or use the
+Ctrl
++
+Shift
++
+M
+(Windows) or
+Cmd
++
+Shift
++
+M
+(Mac) shortcut.
+Subscript:
+Select the text you want to format as subscript and select the
+Subscript
+option in the
+(...) more formatting
+menu or use the
+Ctrl
++
+Shift
++
+,
+(Windows) or
+Cmd
++
+Shift
++
+,
+(Mac) shortcut.
+Superscript:
+Select the text you want to format as superscript and select the
+Superscript
+option in the
+(...) more formatting
+menu or use the
+Ctrl
++
+Shift
++
 .
-For each app, you’ll see the amount of storage used and the amount remaining (if it’s not unlimited).
-This data may not reflect your most current storage usage, since it’s updated only every 4 hours.
-Managing your storage
-All pages, live docs, attachments, files, and comments take up storage. We recommend removing the biggest attachments and files to help free up some storage space. The quickest way to clear storage would be to delete pages or live docs with attachments.
-Removing attachments
-Archiving content that contain attachments in Confluence will
-not
-free up any storage. This is because Confluence keeps files to make historical data available to you. To free storage, we recommend deleting the content altogether.
-Regarding attachments, you’ll need to delete them from archived pages and live docs or delete archived page or live docs completely. Once again, this is because Confluence stores all attachments for version history purposes.
-What happens if I exceed my storage limit?
-When you reach storage limits for your Confluence plan, you’ll either need to upgrade to a higher plan or remove content that is taking up storage.  If you don't take action within the dedicated time frame, your team will not be able to edit or create spaces, pages, live pages, whiteboards, and content within your Confluence site.
+(Windows) or
+Cmd
++
+Shift
++
+.
+(Mac) shortcut.
+Changing text color, highlighting, and alignment
+You can change the appearance of your text to improve readability and visual impact.
+Text color:
+Select the text you want to color, select the Text color button in the toolbar, and select your desired color from the palette.
+Text highlighting:
+Select the text you want to highlight and select the
+Highlight
+button in the toolbar.
+Text alignment:
+Use the toolbar's alignment buttons to move your text to the left, center, or right.
+Indenting, outdenting, and using lists
+Organizing your text with indentations and lists can improve the structure and clarity of your content.
+Indenting:
+To indent text, use the
+Indent
+button on the toolbar or press the
+Tab
+key. This works for both blocks of text and bulleted or numbered lists.
+Outdenting:
+To outdent text, use the
+Outdent
+button on the toolbar or press the
+Shift+Tab
+key combination. This also applies to blocks of text and lists.
+Bullet lists:
+Use the
+Bullet list
+button in the toolbar to create bulleted lists.
+Numbered lists:
+Use the
+Numbered list
+button in the toolbar to create numbered lists.
+By utilizing these text formatting options, you can ensure your Confluence pages and live docs are well-structured, easy to read, and visually engaging.
 Was this helpful?
 Yes
 No
@@ -498,17 +611,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Actions that require an organization or site admin
-Manage your storage usage
-Invite guests to Confluence
-Removing users and downgrading to Confluence Free
-Adjust permissions before downgrading to Confluence Free
-What happens when an account is deactivated vs. deleted?
+Create and edit content
+Show more
+Format a page, live doc, or blog post with a template
+Format your content
+Format text
+Create and manage layouts
+Use symbols, emojis, and special characters
+Show more
 On this page
-Tracking your storage usage
-Managing your storage
-Removing attachments
-What happens if I exceed my storage limit?
+Using paragraph styles
+Adding emphasis
+Changing text color, highlighting, and alignment
+Indenting, outdenting, and using lists
 Community
 Questions, discussions, and articles
 Accessibility

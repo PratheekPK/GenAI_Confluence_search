@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/database-tour/
+URL: https://support.atlassian.com/confluence-cloud/docs/sort-fields/
 
-Database tour | Confluence Cloud | Atlassian Support
+Sort fields | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,37 +443,45 @@ Create and organize work in Confluence Cloud
 Create and edit databases
 Cloud
 Data Center
-Database tour
+Sort fields
+Sorting in views
+Sorting can be saved as part of a view. For more information on creating and using views, check out our page on
+Database views
+.
 Databases aren’t available in the
 Atlassian Government environment
 .
-Every Confluence database has the same sets of options. Here's a quick walkthrough.
-Views
-— Create and save views accessible to anyone using the database that defines the data you see, using different layouts, filters, and sorting options.
-Layouts
-— Select the way your database is displayed by picking one of the layouts in the menu:
-Table — Structure your content in a table.
-Card — Display your entries as separate cards.
-Board — Create simple Kanban workflows with columns based on a single field in your Database.
-Filter entries
-— Filters allow you to define specific data display criteria. When defining multiple filters, you can decide whether the entries should be displayed based on matching all or any specified filters.
-Sort by field
-— Define the order of your entries based on a field value. You can sort a field in ascending (arrow up) or descending (arrow down) sequence. Switch between both options by using the arrow next to the field name.
-Hide fields
-— Hide fields from your view by deselecting them in the menu list.
-More
-—
-The More menu contains the following other actions available to the database:
-Undo
-Redo
-Lock structure
-Copy structure
-Import
-Export
-Get help
-Give feedback
-Quick search
-- Use this to find entries in the database quickly.
+You can sort your database so that items show in order based on a selected field. Items can appear in ascending or descending order.
+Add a sort
+To create a sort:
+Select
+Sort
+at the top of your database or the
+Sort
+option while editing a view.
+Select the
++ Add sort
+button.
+Select the field that you'd like to sort by from the list of unsorted fields in the database.
+Select the sort criteria (ascending or descending).
+Different fields are sorted by different logic, depending on their value type.
+To edit a sort:
+Select the sort criteria dropdown.
+Select the updated desired sort.
+Alternatively, sorts can be edited by selecting the arrows for sorted fields in the field header, changing between ascending and descending.
+To delete a sort:
+Select
+More actions
+on an existing sort.
+Select the
+Delete sort
+option.
+To reorder a sort:
+All entries are sorted based on the criteria of the sorts and the order they are listed.
+Select
+More actions
+on an existing sort.
+Select the reordering option relevant to your desired order.
 Was this helpful?
 Yes
 No
@@ -485,12 +493,19 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Create and edit databases
-Get started with Confluence databases
-Database tour
-Create a database
-Database fields
-Share databases, entries, or values
 Show more
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Show more
+On this page
+Add a sort
+To create a sort:
+To edit a sort:
+To delete a sort:
+To reorder a sort:
 Community
 Questions, discussions, and articles
 Accessibility

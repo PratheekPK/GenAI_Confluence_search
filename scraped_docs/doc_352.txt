@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/make-your-page-and-its-title-more-memorable/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-live-docs-in-confluence/
 
-Make your content and its title more memorable | Confluence Cloud | Atlassian Support
+Configure live docs in Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,76 +439,63 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
-Make your content and its title more memorable
-Sometimes you need more than words to tell a story and make content stand out. Whether the page, live doc, or blog post is new or one that you’ve had around for awhile, you can add an emoji to the title or an image above the title in the header area.
-Whenever a page, doc, or post is shown in the
-sidebar
-or on a card in the space or
-For you
-page, the emoji you add to the title shows up too. Emojis can be a convenient way to make the purpose of the content clear at a glance.
-Add an emoji to a title
-Hover over the title when editing a page, live doc, or blog post in
-Confluence Cloud
+Configure live docs in Confluence
+What are live docs?
+Live docs
+offer a dynamic, efficient, and collaborative way to create and share written content in Confluence.
+With live docs, you can create frictionless content that can be edited and collaborated on instantly. Any changes made to your live doc are automatically saved and reflected to all viewers in real time.
+How do I turn live docs on or off for my space?
+Live docs can be turned
+on
+or
+off
+in any given space by admins.
+To turn live docs
+on
+in any space, so that anyone in the space can create them, admins can select
+Space settings
+from the
+More actions
+(
+…
+) menu of any space.
+Then, select
+Features
+from the
+General
+menu. A menu of feature toggles will appear.
+Under
+Content
+, toggle
+Live docs
+on
+in order to allow users in the space to create them.
+Live docs are distinct from pages, and existing pages in the space will not be affected.
+This toggle can be turned off anytime. Live docs that were created while the toggle was on
+will remain as is
 .
-Select
-Add emoji
+Creating a brand new space and toggling the
+Live docs
+feature on will also provide default access to live docs.
+Note
+: With the new content layout enabled, Marketplace app buttons in the header of pages and live docs will not be supported. Impacted apps are in the process of being supported in other locations. To learn more, visit this
+status page
 .
-Select an emoji. You can also add your own.
-Change an emoji in the title
-Select the existing emoji when editing a page, live doc, or blog post in
-Confluence Cloud
+Bulk conversion
+Admins can convert pages to live docs in bulk via
+Content manager
+in
+Space settings
 .
-Select the new emoji.
-Remove an emoji from the title
-Hover over the title when editing a page, live doc, or blog post in
-Confluence Cloud
-.
-Select
-Remove emoji
-.
-Once someone finds your content and views it, the image you add to the header of the page, live doc, or blog post can give it even more personality and information. These images are shown above the title when someone views the content.
-Add an image to a header
-Hover over the title when editing a page, live doc, or blog post in
-Confluence Cloud
-.
-Select
-Add header image
-.
-Search the library of images from Unsplash or upload your own.
-Drag to reposition the image and select
-Apply
-.
-Select
-Cancel
-to exit if you don’t need to reposition the image.
-We recommend uploading a high quality image 1100 px or wider to avoid pixelation.
-Change an image in the header
-Hover over the existing header image when editing a page, live doc, or blog post in
-Confluence Cloud
-.
-Select the image.
-Select
-Change image
-.
-Search the library of images from Unsplash or upload your own.
-Drag to reposition the image and select
-Apply
-.
-Select
-Cancel
-to exit if you don’t need to reposition the image.
-Remove an image from the header
-Hover over the existing header image when editing a page, live doc, or blog post in
-Confluence Cloud
-.
-Select the image.
-Select
-Remove image
-.
+Select all pages you want to convert to live docs from the
+Title
+column, then select
+Convert to live doc
+from the floating toolbar. Once you confirm that you’re ready to convert all items, you should see a success message that the conversion is complete.
 Was this helpful?
 Yes
 No
@@ -519,14 +506,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Set Confluence-wide functionality
 Show more
-Transfer ownership of your content item
-Add a status to your content
-Make your content and its title more memorable
-Import external documents
-Classify content
-Show more
+Create a custom space overview template
+Turn off page reactions
+Customize layout for PDF exports in Confluence Cloud
+Convert legacy editor pages in all spaces
+Configure live docs in Confluence
+On this page
+What are live docs?
+How do I turn live docs on or off for my space?
+Bulk conversion
 Community
 Questions, discussions, and articles
 Accessibility

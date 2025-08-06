@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/mention-a-person-or-team/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-space-details-macro/
 
-Mention a person or team | Confluence Cloud | Atlassian Support
+Insert the space details macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,58 +439,59 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Collaborate on content
+Create and organize work in Confluence Cloud
+Review macros only available in the legacy editor
 Cloud
 Data Center
-Mention a person or team
-Mentions (also known as @mentions) are a seamless way to draw a person’s or team's attention to pages, live docs, comments, or a
-task
-you’ve assigned to them.
-There are two ways to add mentions in Confluence Cloud:
-using
-autocomplete
-.
-via the editor toolbar.
-People who are @mentioned will receive a
-notification
-and (if they’re
-subscribed
-) an email letting them know.
-An important exception: During the trial period of any Confluence Cloud plan, people who are @mentioned will receive the notification, but not the email. This is true even if the person is subscribed to email.
-Once the trial has concluded, email will be added as a secondary means of informing people when they’re @mentioned.
-Notifications and/or emails are sent the first time you mention people on a page, but not for subsequent mentions.
-If you need to catch someone's attention, and you've already mentioned them, try
-sharing content
-with them instead.
-Mention a person
-When you mention a person or assign a task to them, they'll receive a notification in their notification drawer as well as an email (if they’re subscribed). Any task assigned to them will also appear under
-Tasks
-.
-Use autocomplete
-To mention a person using autocomplete, type ‘@' in the editor, then start typing their name. Choose the person you want to mention from the list of suggestions.
-You can use autocomplete mentions in
-Jira
-Cloud as well. To learn about using mentions and other features to collaborate on Jira issues, go to
-this page
-.
-Use the editor or toolbar
-If you'd rather use the toolbar or editor, type @ or choose the
-@
-icon,
-then start typing the name of the person you want to mention. Choose the person you want to mention from the list of suggestions.
-Mention a team
-You can also mention a team in the same way you mention a person, but only for teams with 50 members or less.
-When you mention a team or assign them a task, individuals in that team will receive notifications in their notification drawer, as well as an email (if they’re subscribed). Any task assigned to them will also appear under
-Tasks
-.
-Use autocomplete
-To mention a team using autocomplete, type ‘@' in the editor, then start typing the team name. Choose the team you want to mention from the list of suggestions. The suggestions will also include teams whose profile description contains the word or phrase entered.
-Use the editor toolbar
-If you'd rather use the editor toolbar, choose the
-@
-icon,
-then start typing the name of the team you want to mention. Choose the team you want to mention from the list of suggestions. The suggestions will also include teams whose profile description contains the word or phrase entered.
+Insert the space details macro
+In June 2025, Atlassian announced the upcoming
+deprecation of the legacy editor
+as well as
+information about converting
+to the cloud editor.
+Before the deprecation begins in January 2026, this macro will still work. See our
+article on legacy editor macros
+for more.
+The Space Details macro displays the details of a Confluence space, including the space name, description, and more.
+Use the Space Details macro
+To add the Space Details macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the Space Details macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+Parameters
+Parameters are options that you can set to control the content or format of the macro output. Where the parameter name used in Confluence storage format or wikimarkup is different to the label used in the browser, it will be listed below in brackets (
+example
+).
+Parameter
+Default
+Description
+Width of Table
+(width
+)
+100%
+The width of the space details table, specified as a percentage (%) of the page width.
+Wiki markup example
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Macro name:
+space-details
+Macro body:
+None.
+{space-details:width=50%}
 Was this helpful?
 Yes
 No
@@ -501,20 +502,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Collaborate on content
-Create a network of users
-Add a reaction to any content
-Mention a person or team
-Share Confluence content
-Comment on pages, live docs, whiteboards, and blog posts
-Show more
 On this page
-Mention a person
-Use autocomplete
-Use the editor or toolbar
-Mention a team
-Use autocomplete
-Use the editor toolbar
+Use the Space Details macro
+Parameters
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

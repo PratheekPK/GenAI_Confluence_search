@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-and-organize-work-in-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/install-a-global-blueprint/
 
-Create and organize work in Confluence Cloud | Confluence Cloud | Atlassian Support
+Install a global blueprint | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,59 +439,52 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
+Confluence administration
+Manage Confluence content templates
 Cloud
 Data Center
-Create and organize work in Confluence Cloud
-Navigate around Confluence
-Find out how to get around Confluence using the ever-present navigation bar and the Home page.
-View topics
-Use spaces to organize your work
-Pick up various suggestions for using spaces to organize your team's work.
-View topics
-Find content in Confluence Cloud
-Learn about the various ways to find the pages and blogs you need.
-View topics
-Create and edit content
-Create beautiful pages that get the job done.
-View topics
-Keep content organized
-Learn how to keep content organized by moving, copying, and hiding pages, as well as how to manage the page lifecyle.
-View topics
-Upload and manage files
-Get the details you need to upload, edit, manage, and share files.
-View topics
-Present your content with Presenter mode
-Showcase the content on a page or blog post with reduced distractions using Presenter mode.
-View topic
-Atlassian Intelligence features in Confluence Cloud
-Learn how to use Atlassian Intelligence features in Confluence Cloud to help improve your writing and streamline your work.
-View topics
-Use Loom in Confluence Cloud
-Learn how to record and share Loom videos in Confluence.
-View topics
-Create and edit whiteboards
-Learn how to create and use whiteboards in Confluence Cloud.
-View topics
-Create and edit databases
-Learn how to create and use databases in Confluence Cloud.
-View topics
-Export content from Confluence Cloud
-Learn how admins can customize PDF exports and how users can export content to Word, PDF, HTML, and XML.
-View topics
-Get to know the new and simplified content layout
-Stay informed about beta improvements to headers, menus, and toolbars across Confluence
-View topics
-How to use the new toolbar and insert elements
-Stay informed about beta improvements to headers, menus, and toolbars across Confluence
-View topics
-Import data from other tools into Confluence
-Learn how to import data into Confluence.
-View topics
-Review macros only available in the legacy editor
-Learn more about the macros that are only available in the legacy editor.
-View topics
-The Confluence legacy editor
-View topics
+Install a global blueprint
+Confluence Cloud
+comes with more than 70 templates and blueprints, but you can find more in the
+Atlassian Marketplace
+.
+To install a blueprint from the Atlassian Marketplace on your
+Confluence Cloud
+site:
+In a separate tab, navigate to
+marketplace.atlassian.com
+.
+From the sidebar, select
+Blueprints
+(under
+Categories
+).
+Select the card for the blueprint you’d like to install.
+Select
+Get it Now
+to install the blueprint on your site.* If you're an administrator for more than one Confluence site, you will be prompted to select a site first.
+*Some blueprints may cost money to install. However, you can try before you buy. To start a trial of a paid blueprint, click
+Try it Free
+instead of
+Get it Now
+in Step 4.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
+Install a global blueprint
+Manage global content templates and blueprints
+Community
+Questions, discussions, and articles
 Accessibility
 Notice at Collection
 Privacy Policy

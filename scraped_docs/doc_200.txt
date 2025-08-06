@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-cheese-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/summarize-changes-with-atlassian-intelligence/
 
-Insert the cheese macro | Confluence Cloud | Atlassian Support
+Summarize changes with Atlassian Intelligence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,48 +440,34 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Atlassian Intelligence features in Confluence Cloud
 Cloud
 Data Center
-Insert the cheese macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-The Cheese macro simply displays the words "I like cheese!" You can use this macro to test the Confluence macro functionality.
-To add the Cheese macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Cheese macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
-There are no parameters for this macro.
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-cheese
-Macro body:
-None.
-Parameters:
-None
-{cheese}
+Summarize changes with Atlassian Intelligence
+This Atlassian Intelligence feature is in beta. Read more about
+Atlassian Intelligence features.
+Quickly get the information you need to dive back into collaborative work by generating a summary of changes since you last visited a page or blog post with
+Atlassian Intelligence
+. Currently, this summary doesn’t include content from macros, images, or links.
+Atlassian Intelligence is available and automatically activated for all apps on Premium and Enterprise plans. Organization admins can manage Atlassian Intelligence preferences from
+Settings > Atlassian Intelligence
+in Atlassian Administration.
+Atlassian Intelligence isn’t available for
+Atlassian Government
+apps.
+Summarize changes with Atlassian Intelligence
+Navigate to a Confluence page or blog post that you’ve visited before.
+Select
+Summarize changes
+from the drop-down menu inside the
+Summarize
+button on the top right.
+Atlassian Intelligence will generate a summary of changes since you last visited the page or post.
+You can copy the summary to your clipboard, rate the quality of the summary, and provide feedback on the feature.
+Atlassian Intelligence will only generate a summary of changes if someone has edited the page since your last visit. If no one has made changes to the page since your last visit, Atlassian Intelligence will generate a page summary instead.
+Atlassian Intelligence won’t generate a summary if any content appears to violate Atlassian’s
+Acceptable Use Policy
+.
 Was this helpful?
 Yes
 No
@@ -492,6 +478,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Atlassian Intelligence features in Confluence Cloud
+Show more
+Summarize a page, live doc, or blog using Atlassian Intelligence
+Summarize comments using Atlassian Intelligence
+Summarize changes with Atlassian Intelligence
+Summarize a whiteboard using Atlassian Intelligence
+Use Rovo to listen to audio briefings of Confluence content
 Community
 Questions, discussions, and articles
 Accessibility

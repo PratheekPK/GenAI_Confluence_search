@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/whiteboards-impact-on-third-party-apps/
+URL: https://support.atlassian.com/confluence-cloud/docs/administer-confluence-cloud-sites/
 
-Whiteboards impact on third-party apps | Confluence Cloud | Atlassian Support
+Confluence administration | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,47 +439,47 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
 Cloud
 Data Center
-Whiteboards impact on third-party apps
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-With the introduction of whiteboards, some third-party apps on Confluence may experience partial disruptions. Our team is working closely with app developers to address any known issues. Below is the list of affected third-party apps and their current status:
-Application
-Status
-Scroll PDF Exporter
-Partial Impact (mitigation* enabled)
-Scroll Documents
-Partial Impact (mitigation* enabled)
-Advance Tables for Confluence
-Partial Impact (mitigation* enabled)
-ViewTracker - Analytics for Confluence
-Partial Impact (mitigation* enabled)
-*Mitigation ensures that the app continues to run smoothly for existing pages by essentially ignoring whiteboards in the content tree. Once app developers update the app to handle whiteboards properly, this mitigation will be disabled.
-This article will be updated as progress is made.
-Was this helpful?
-Yes
-No
-It wasn't accurate
-It wasn't clear
-It wasn't relevant
-Provide feedback about this article
-Still need help?
-The Atlassian Community is here for you.
-Ask the Community
-Create and edit whiteboards
-Show more
-Collaboration limits on whiteboards
-What Confluence whiteboards don't support
-Whiteboards impact on third-party apps
-Understand Confluence whiteboards plans and features
-Browser support and settings for whiteboards
-Show more
-Community
-Questions, discussions, and articles
+Confluence administration
+Get started as Confluence Cloud administrator
+Get started on the things you need to know as a Confluence Cloud admin.
+View topic
+Set Confluence-wide functionality
+Set up default settings for Confluence Cloud.
+View topics
+Monitor and manage activity in Confluence Cloud
+Confluence administrators can learn where to proactively monitor and respond to insights and events across Confluence.
+View topics
+Premium admin tools for Confluence Cloud
+Learn about premium tools available to Confluence administrators with a Premium or Enterprise plan.
+View topics
+Manage global permissions in Confluence administration
+Everything a Confluence admin needs to know about managing global permissions.
+View topics
+Manage analytics permissions in Confluence administration
+What a Confluence admin needs to know about setting Confluence analytics permissions.
+View topics
+Manage Confluence content templates
+Learn about global templates and how to administer them.
+View topics
+Configuration settings in Confluence Cloud
+Focus on the settings and configurations you can manage in Confluence Cloud.
+View topics
+Security settings in Confluence Cloud
+Customize security-related settings in Confluence Cloud like preventing spam or hiding links from search engines.
+View topics
+Look and feel settings in Confluence Cloud
+Customize the look and feel of a Confluence Cloud instance to match your organization's branding.
+View topics
+Data management in Confluence Cloud
+Review the steps needed to export and/or migrate Confluence Cloud data to a new instance or space.
+View topics
+Atlassian Marketplace apps
+Install or uninstall add-on Atlassian Marketplace apps that extend Confluence functionality.
+View topics
+Confluence automation administration
+View topics
 Accessibility
 Notice at Collection
 Privacy Policy

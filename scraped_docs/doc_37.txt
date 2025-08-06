@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/apply-a-theme-to-a-site/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-profile-picture-macro/
 
-Set the default theme | Confluence Cloud | Atlassian Support
+Insert the profile picture macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,47 +439,37 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Look and feel settings in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use macros to show Confluence content on pages and live docs
 Cloud
 Data Center
-Set the default theme
-Themes are used to change the appearance of your
-Confluence Cloud
-instance. See
-Install a theme
-for an overview of how you can add more themes.
-To change the default theme:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Look and feel
->
-Themes
-.
-Select a theme from the list under
-Choose New Theme
-.
-If you don’t see any themes listed, you will need to
-Install a theme
-from the
-Atlassian Marketplace
-first.
-Select
-Confirm
-.
-All spaces that have the
-Global look and feel
-applied as their space theme will inherit this theme and any customizations you make to it.
-Users can also
-select their own theme,
-choosing either Light or Dark. These choices are independent of the theme you choose in settings, however each theme responds to the user’s current choice, presenting slightly darker colors in Dark mode.
+Insert the profile picture macro
+You can use the Profile Picture macro to display a user's profile picture on a page or live doc, and it's useful for things like creating team pages that show all members of a project team.
+Hover your mouse-over the picture to see the Hover Profile for the user, and choose the user's picture or name to view their user profile. When editing, you can also select the macro and choose
+View User Profile
+to see the
+profile
+for the user.
+Use the Profile Picture macro
+To add the Profile Picture macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the Profile Picture macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
 Was this helpful?
 Yes
 No
@@ -490,11 +480,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Look and feel settings in Confluence Cloud
-Install a theme
-Set the default theme
-Customize the navigation colors
-Change your site and space logos
+Use macros to show Confluence content on pages and live docs
+Show more
+Insert the labels list macro
+Insert the popular labels macro
+Insert the profile picture macro
+Insert the recent updates macro
+Insert the recently updated dashboard macro
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

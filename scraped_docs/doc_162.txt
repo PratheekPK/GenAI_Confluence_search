@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/customize-your-personal-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/collaborate-on-content-and-get-notified-in-confluence-cloud/
 
-Customize your personal space | Confluence Cloud | Atlassian Support
+Collaborate on content and get notified in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,110 +439,18 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Use spaces to organize your work
 Cloud
 Data Center
-Customize your personal space
-Spaces are Confluence's way of organizing content into meaningful categories. Think of them as different folders where you can store your work. A personal space is an area in your Confluence site that is
-automatically
-created for you to store everything you're working on individually, to keep your to-do lists, and to polish any content before you move it into another shared space.
-If a personal space wasn’t automatically created for you, you can create one.
-Select your profile icon at the top right of the global navigation bar
-Select
-Add Personal Space
-Give your space a name
-Select
-Create
-Set up your personal space
-You can use your personal space to jot down new ideas, introduce yourself to your team, keep track of tasks, store important items or files, polish content before sharing with others and more. There are three ways to get to your personal space:
-Select
-Spaces
-in the
-sidebar
-. Your personal space is automatically starred for easy access.
-Select your profile icon at the top right of the
-top navigation
-and select
-Personal Space
-.
-Select
-For you
-in the
-sidebar
-. Up to six starred and recent spaces are shown on the right.
-To customize your space overview:
-Select the space’s name in the space sidebar. Some basic sections have been added to the page for you, but you can modify it and make it your own.
-Select the edit icon at the top right.
-Keep the parts of the page that work for you, or add new elements like you would to a page or live doc.
-Select
-Update
-when you are done editing to proceed with publishing it. You can come back any time and update the page.
-Use templates to add content to your space
-You can use Confluence templates to help build out your personal space. Popular templates include the User Manual (contains preferred working hours, how you like to work, etc.), To-Do List, Blog, and Meeting Notes, but there are many more to choose from in the template gallery.
-Next to the
-Share
-button, select
-More actions
-(
-)
-and choose the
-Templates and import
-option.
-Set permissions
-Since the space is completely yours, you can set permissions to restrict access, allow certain people to view and edit, or keep it open to all. Unless you set a permission, the pages will default as accessible to your team.
-To determine who can see a page and edit it, select the
-Share
-button at the top right of a page to change permissions.
-Learn more about setting permissions
-Share content
-Once your content is ready to share, you can invite others to view and edit or you can move the content to another space. It's easy to
-move
-content from one space to another so if you move something by accident, you can simply move it back.
-Another way to share updates and announcements is to
-blog
-to your key internal groups and teams. A blog post is created by selecting the
-next to
-Blog
-in the
-sidebar
-. The same tools and elements available when authoring a page are available for blogs. Published blogs live outside of the page tree in a space and are organized by date and are often more conversational in tone.
-Manage your content
-There are other actions you can choose for your personal space content by using the
-More actions
-(
-)  menu at the top right of the page.
-Export
-the page or attachments as a PDF or Microsoft Word document
-Archive
-content that you don’t want to delete but still want to keep
-Delete
-the space
-Was this helpful?
-Yes
-No
-It wasn't accurate
-It wasn't clear
-It wasn't relevant
-Provide feedback about this article
-Still need help?
-The Atlassian Community is here for you.
-Ask the Community
-Use spaces to organize your work
-What is a space?
-Create a space
-Customize your personal space
-Navigate spaces
-Organize your space
-Show more
-On this page
-Set up your personal space
-Use templates to add content to your space
-Set permissions
-Share content
-Manage your content
-Community
-Questions, discussions, and articles
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
+Learn how you can use Confluence features to stay connected to people and content.
+View topics
+Get notified about content and activity
+Learn how to view notifications, subscribe to email notifications, and build and subscribe to RSS feeds.
+View topics
+View Confluence analytics to see how content is performing
+Understand how Confluence analytics works, a Confluence Cloud Premium feature.
+View topics
 Accessibility
 Notice at Collection
 Privacy Policy

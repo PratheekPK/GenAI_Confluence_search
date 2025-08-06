@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/restore-archived-pages-to-the-page-tree/
+URL: https://support.atlassian.com/confluence-cloud/docs/watch-pages-spaces-and-blogs/
 
-Restore archived items to the content tree | Confluence Cloud | Atlassian Support
+Watch pages, live docs, spaces, whiteboards, and blogs | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,67 +439,129 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Keep content organized
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
 Cloud
 Data Center
-Restore archived items to the content tree
-Content archiving
-is a two-way door — you can tidy your space and keep the content in it up-to-date by archiving a page, live doc, or other content item, but you can also return archived items to the content tree when a project is reopened or when an item has otherwise become relevant again (or if items were archived by mistake).
-Jump to:
-Restore an archived item
-Directly from an archived item
-From the archived pages list
-Restore an item and all of its nested items
-(Premium only)
-Who can restore an item
-Restore an archived item
-There are two ways to restore an archived item back to the content tree:
-directly from an archived item
-from the archived content list in the archive
-Directly from an archived item
-While viewing any archived item, you’ll see a banner message across the top that labels it as an archived item. If you have permission to restore the item, you’ll find a
-Restore
-link in the text of that banner.
-Click
-Restore
-Choose a destination in the content tree from the dropdown (this will be its new parent item)
-Click
-Restore
-Before restoring an item, be sure to check if it has inherited permissions. If it does, then the item is relying on one of its parent items to control who can view it, in which case you might be exposing it to a wider audience by restoring it. To avoid this, set view restrictions on the item you’re restoring.
-From the archived content list
-Next to your space's name in the sidebar, select
+Watch pages, live docs, spaces, whiteboards, and blogs
+When you want to stay up-to-date and in-the-know about content on Confluence, you can use the
+Watch
+feature. When you watch something, Confluence will send you a notification email about any changes to your watched content.
+You can watch pages, live docs, blog posts, or entire spaces and receive email notifications whenever the watched content is added to, edited, or deleted, including notifications about attachments and comments. For whiteboards, you'll only be notified of mentions or replies in comments.
+By default, Confluence will assign you as a watcher of any content that you create or edit. This behavior is called “autowatch”.
+You'll receive immediate emails for time-sensitive notifications (like mentions and new pages).
+By default, you’ll receive a daily digest of edits made in the past 24 hours. You can choose to receive individual emails for each update as they happen. See more on
+Subscribe to email updates
+.
+You will not receive email notifications for content changes due to the output of a macro, only when the content itself has been edited.
+You need 'View' permission for the page, live doc, whiteboard, blog post, or space to receive notifications.
+You can stop watching a page, live doc, whiteboard, blog, or space at any time.
+Watch a page, live doc, whiteboard, or blog post
+To start watching a page, live doc, whiteboard, or blog post:
+Go to the page, live doc, whiteboard, or blog post.
+Select
+Watch settings
+from the
 More actions
-(•••), then
-Space settings
+( … ) menu at the top right of your screen. Select the option you prefer.
+To stop watching a page, live doc, whiteboard, or blog post:
+Go to the page, live doc, whiteboard, or blog post.
+Select
+Watch settings
+from the
+More actions
+( … ) menu at the top right of your screen. Unselect the option you prefer.
+Press
+"w"
+on your keyboard to skip some clicks.
+Watch an entire space
+Related pages:
+Manage Watchers
+Email Notifications
+Edit your profile
+The quickest way to watch all pages, live docs, whiteboards, and blog posts in a particular space:
+Go to any page, live doc, whiteboard, or blog post in the space.
+Select
+Watch settings
+from the
+More actions
+( … ) menu at the top right of your screen. Select
+Watch all content in this space.
+Uncheck the option to stop watching the space.
+Only get notified when new blog posts are added
+You can choose to receive a notification whenever someone adds a blog post in a space.
+To get notified whenever a new blog post is added to a space:
+Go to that space’s overview page.
+Select
+More actions
+and then check the option to
+Watch new blog posts
+This will only notify when a new blog is added. You won't be notified when blog is deleted, edited, or commented on unless you've chosen to watch a specific blog post.
+To stop getting notified when new blog posts are added to the space, uncheck that option from the
+More actions
+menu.
+Watch all spaces on the site
+You can receive notifications about changes to the content of pages, live doc, whiteboards, blog posts and comments from all spaces on a Confluence site.
+To start watching for content changes across the whole site:
+Select your profile picture at the right side of the navigation, then select
+Settings
+Select
+Email
 .
-Open the
-Content
-menu
-and select
-Archived
+Select
+Edit
+then choose
+Subscribe to daily updates
 .
-In the list of archived items, find the item you want to restore, select the More actions menu (•••) on that item’s line, and select
-Restore
-Choose a destination for the item in the content tree
-Click
-Restore
-Restore an item and all of its nested items (Premium only)
-When restoring an item on the premium plan, you’ll have the option to include any nested items with the selected parent item—all in one action. This lets you restore groups of items that were archived together, and maintain their contextual relationship with one another.
-Keep in mind that nested restoring is an all or nothing action. You can choose to restore all the nested items you have permission to restore, or none of them; there’s no middle ground.
-You can’t restore any nested items you don’t have permission to view.
-Any nested item you don’t have permission to restore (or view) will remain in the archived content list and move up according to the new hierarchy.
-Watch out for inherited permissions on nested items.
-Any nested item “left behind” in the archived pages list as a result of a nested restore action will have a new parent item. If any of these “left behind” items don’t have view restrictions set on them, you could be exposing content to a wider audience than intended.
-All items restored together will maintain their hierarchy in the archived content list, to preserve the context in which they were organized in the archive.
-Who can restore an item
-Permission to restore an item from the archive is tied to the
-permission to archive content
-. If you have permission to archive an item, you have permission to restore it.
-Coming soon: space admins will be able to
-bulk restore
-content from the archive, just like they’re able to
-bulk archive
+Select
+Submit
+.
+Watching for all new blog posts on the site
+You can choose to watch for all new blog posts in all spaces on the Confluence site. You will not receive notification of updates to or deletions of blog posts, nor of comments on the blog posts.
+To start watching for all new blog posts:
+Select your profile picture at the right side of the navigation, then choose
+Settings
+Select
+Email
+.
+Select
+Edit
+then choose
+Subscribe to all blog posts
+.
+Select
+Submit
+.
+Manage everything you're watching in one place
+The
+Watches
+page in your user profile displays a list of all pages and spaces you are currently watching.
+To manage what content you're watching:
+Select
+your profile picture
+at top right of the screen, then choose
+Settings
+.
+Select
+Watches
+.
+Select
+Stop Watching
+for any unwanted spaces or pages.
+Manage what you're watching from email messages
+The email notifications that you receive from Confluence have some useful links at the bottom of the email message. The links in each message vary, depending on the context. In general, the links allow you to view the page online, reply to a comment, and so on.
+In particular with respect to setting your notification preferences, you will see one or more of the following links:
+Stop watching content
+– Select this link to stop watching the content that triggered the email notification.
+Stop watching space
+– Select this link to stop watching the space that triggered the email notification.
+Stop following this user
+– Select this link to stop following the user whose update triggered the email notification.
+Manage Notifications
+– Select this link to go to the email settings page in your user profile.
+Autowatch and other notification options
+By default, Confluence will assign you as a watcher of any content that you create or edit. This behavior is called 'autowatch'. You can turn autowatch on or off, and set other notification options, in the email settings section of your user profile. See
+Edit your user settings
 .
 Was this helpful?
 Yes
@@ -511,20 +573,23 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Keep content organized
+Collaborate on content
 Show more
-Move, copy, and hide content items
-Archive content items
-Restore archived items to the content tree
-Delete, restore, or purge a content item
-Save a page, live doc, or other content item for later
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
+Watch pages, live docs, spaces, whiteboards, and blogs
+Add people to Confluence from Google, Slack, or Microsoft
+What can guests see and do in Confluence?
 Show more
 On this page
-Restore an archived item
-Directly from an archived item
-From the archived content list
-Restore an item and all of its nested items (Premium only)
-Who can restore an item
+Watch a page, live doc, whiteboard, or blog post
+Watch an entire space
+Only get notified when new blog posts are added
+Watch all spaces on the site
+Watching for all new blog posts on the site
+Manage everything you're watching in one place
+Manage what you're watching from email messages
+Autowatch and other notification options
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/change-the-site-title/
+URL: https://support.atlassian.com/confluence-cloud/docs/watch-a-calendar/
 
-Change the site title | Confluence Cloud | Atlassian Support
+Watch a calendar | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,35 +439,28 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Extend the functionality of Confluence Cloud
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Change the site title
-The site title appears in your browser's title bar. By default, it's set to "Confluence."
-To change the title of your
-Confluence Cloud
-instance:
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
-in the left-hand navigation.
-Select
-Configuration
->
-General configuration
+Watch a calendar
+Watching a calendar is a great way to stay up-to-date on changes made in the calendar, without necessarily adding it to your My Calendars page. When you watch a calendar, you'll be sent an email notification when any of the following events occur:
+A new event is created
+An existing event is edited
+An event is deleted
+The entire calendar is deleted
+When you watch a Confluence space, it includes watching all calendars in that space, so there's no need to manually watch calendars for your team or project.
+Watch a calendar
+To watch a calendar, choose
+to the right of a calendar name and select
+Watch
+. Notifications will be sent to your email address.
+Stop watching a Calendar
+If you want to stop watching a calendar (no longer want to receive email notifications about changes to the calendar), choose
+to the right of the calendar name and select
+Stop Watching
 .
-In the
-Confluence title
-field, enter a new site title.
-Select
-Save configuration changes
-.
-Site titles are limited to 40 characters. Additionally, site titles that are more than 200 pixels wide will be visually truncated to fit. This may affect longer titles that were previously displayed in full.
+If the menu says 'Watching', you're watching the calendar because you're either watching a page the calendar is embedded on or you're watching the related space for the calendar. To stop watching in this case, you'd need to stop watching the relevant page or space containing the calendar.
 Was this helpful?
 Yes
 No
@@ -478,13 +471,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
-Change the site title
-Configure the administrator contact page
-Choose a default language
-Configure the indexing language
-Configure time and date formats
+Use Team Calendars for Confluence (Premium feature)
 Show more
+Add reminders to events
+Embed calendars on Confluence content
+Watch a calendar
+Subscribe to Team Calendars from Apple Calendar
+Subscribe to Team Calendars from Thunderbird
+Show more
+On this page
+Watch a calendar
+Stop watching a Calendar
 Community
 Questions, discussions, and articles
 Accessibility

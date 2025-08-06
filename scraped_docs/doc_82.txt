@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-shortcut-links/
+URL: https://support.atlassian.com/confluence-cloud/docs/faq-import-data-from-notion-to-confluence/
 
-Configure shortcut links | Confluence Cloud | Atlassian Support
+FAQ import data from Notion to Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,66 +439,135 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Create and organize work in Confluence Cloud
+Import data from other tools into Confluence
 Cloud
 Data Center
-Configure shortcut links
-Shortcut links provide a quick way of linking to resources that are frequently referenced from Confluence. When you create a shortcut link, you assign a key to a URL so that when editing, a user can type just the key instead of the complete URL.
-Shortcut links are only available in pages created in the legacy editor that have not been converted to the cloud editor. You are using the legacy editor if you see this toolbar in edit mode:
-Example: creating a shortcut to Google
-Most Google searches look like this:
-http://www.google.com/search?q=
-. If you create a shortcut for this search with the key 'google', every time a user needs to use
-http://www.google.com/search?q=searchterms
-, they can just type
-[searchterms@google]
-instead.
-Shortcut links are created and maintained by Confluence administrators from the administration
-console.
-Creating shortcut links
-To create a shortcut link:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find Settings >
-Configuration
-in the left-hand navigation.
-Select
-Shortcut links
+FAQ import data from Notion to Confluence
+What content gets transferred?
+You can import your content, users, and workspaces from Notion into a Confluence space with the importing tool. When you
+use OAuth and access tokens
+, the importer will also include @mentions, creator, editor information, permissions, and user group information.
+Standard formatting like headings, lists, quotes, and dividers will show up on Confluence the same way they appeared in Notion. Some of the complex content, like To-do lists and Info panels will retain the content, but may look a little different. We are planning on fixing these for future releases.
+The content formatting we preserve includes:
+@mentions
+Attachments
+Bulleted lists
+Dates
+Dividers
+Emojis
+Header images
+Headings
+Images
+Numbered lists
+Page comments (Notion’s “Top level page discussions”)
+Quotes
+Table data
+Multi Columns
+Callout
+Audio (embedded link)
+Video (Embed)
+Embed
+To-do List
+Toggle List
+Code Block
+Page Link
+Toggle Heading
+Table of Contents
+Web Bookmark
+Partially supported or unsupported features
+The following features are either will often show up as plain text or similar after the import, or are not supported:
+Notion
+Confluence
+Block equation
+Plain text
+Inline equation
+Plain text
+Code (Mermaid Diagram)
+Plain text
+Customized text (color / background)
+Stylized text
+Page Emojis
+Similar Page Emojis
+Reminder
+Date
+Inline comments
+Page comments
+Database child page properties
+Table
+Breadcrumb
+Unsupported
+Button
+Unsupported
+Table customization
+Unsupported
+Synced Block
+Unsupported
+Can I restrict private content?
+Yes! You can set
+Restricted to you
+in the permissions section of the the
+Set up spaces
+step. We recommend that you restrict sensitive spaces and then remove restrictions for non-sensitive spaces, rather than using open permissions initially. This way, you won’t accidentally reveal any sensitive information.
+Private pages will transfer to a new, restricted space.
+Note:
+Because only you will be able to access the
+Restricted to you
+content, all pages and comments will be labeled as created by you (the importing user).
+Are there any storage limits?
+Our
+Premium and Enterprise plans
+offer unlimited storage. Pick your plan and enter your team size in our price calculator to see if your plan will be affected by adding users. If you exceed your storage limit for the Standard or Free plan because of the import process, we will attempt to automatically offer you a free trial on the plan that fits your storage limits. If we can’t do this automatically, we will show a banner that says you have 14 days to reduce storage or convert to a different plan.
+Are there limits for people?
+Check out our
+user tier
+table to see if adding users because of the import process will affect your plan. You can also enter your team size in our
+price calculator
+to see if your plan will be affected. Like storage, we will attempt to automatically offer you a free trial on the plan that fits your user limits.  If we can’t do this automatically, we will show a banner that says you have 14 days to remove users or convert to a different plan.
+What happens to my Free plan if I select Add remaining members to Confluence?
+Similar to the two sections above, if you exceed your user or storage limit, we will attempt to offer you a 14-day free trial of
+the plan
+that meets your needs. If we can’t do this automatically, we will add a banner that let’s you know you have 14 days to
+remove the users
+,
+reduce the storage
+, or convert to a paid plan.
+Can I add Notion guests?
+We do not import guest accounts from Notion (even if you enable
+Add additional users
+). However, you can
+invite guests
+to a Confluence space via
+admin.atlassian.com
 .
-Enter a
-Key
-for your shortcut.
-This is the shortcut name a user will use to reference the URL.
-Enter the
-Expanded Value.
-This is the URL for the link. You can use '%s' in the URL to specify where the user's input is inserted. If there is no '%s' in the URL, the user's input will be put at the end.
-Enter a
-Default Alias
+What happens if you do not have access to the teamspaces in the uploaded Notion file?
+We will still continue to import those teamspaces and pages, however, we will restrict to you (the importing user).
+What happens when you import content not selected in the Transfer users/OAuth authentication step?
+If you didn’t select certain teamspaces or pages during the
+Map Notion members to their Confluence profiles
+step, but those teamspaces or pages exist in the uploaded Notion file, we will import the content, but restrict it to the to you (the importing user).
+What happens to private and shared Notion pages?
+We will import all private and shared pages created by the importing user in a new private space, restricted to only the importing user. If any private and shared pages are not created by importing user, we will not create them.
+How do I increase my attachment size limit?
+To import your Notion content into Confluence, ensure that your file size limit exceeds the size of the file you are importing. Follow these steps:
+Select the gear icon to navigate to
+Settings
+>
+Global permissions
 .
-This is the text of the link which will be displayed on the page where the shortcut is used, with the user's text being substituted for '%s'.
-Click
-Submit
-.
-Deleting shortcut links
-To delete a shortcut link, select
-Delete
-at the end of the row containing the shortcut.
-Using shortcut links
-Enter a shortcut link on the
-Advanced
-tab of the
-Insert Link dialog
-.
-Specify in the link what should be appended to the end of the shortcut URL, followed by an at sign (@) and the key of the shortcut. Shortcut names are case-insensitive. So, for example, using the key shown in the example above:
-To link to...
-Type this
-Resulting URL
-Demo
-a Google search
-Atlassian Confluence@Google
-http://www.google.com/search?q=Atlassian+Confluence
-Atlassian Confluence@Google
+Go to the
+General Configuration
+section.
+Scroll down to the Attachment Size setting and increase the byte size to be larger than your Notion file.
+To increase the file size only temporarily, after the import, revert to the original limit.
+Why can’t I see and select pages in the Notion OAuth modal?
+Notion only allows users to connect integrations to pages they have “full access” to. Ensure that you have “full access” to the pages that you’d like to connect.
+Note
+: this is not the same as “can edit” permissions.
+Will using this feature increase my bill, and can I see the estimated impact before adding users?
+Using this feature will only increase your bill if you choose to "add remaining members to Confluence" and there are additional members being added. During the
+Users
+step, you will find a section labeled "up to X users," which provides an estimate of the maximum number of new users that could be added to Confluence.
 Was this helpful?
 Yes
 No
@@ -509,18 +578,27 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
-Show more
-Configure number formats
-Configure attachment size
-Configure shortcut links
-Install a custom language font for PDF exports
-Confluence wiki markup syntax for the legacy editor
+Import data from other tools into Confluence
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
+Import data from Notion into Confluence
+Import multiple Miro boards to Confluence
 Show more
 On this page
-Creating shortcut links
-Deleting shortcut links
-Using shortcut links
+What content gets transferred?
+Partially supported or unsupported features
+Can I restrict private content?
+Are there any storage limits?
+Are there limits for people?
+What happens to my Free plan if I select Add remaining members to Confluence?
+Can I add Notion guests?
+What happens if you do not have access to the teamspaces in the uploaded Notion file?
+What happens when you import content not selected in the Transfer users/OAuth authentication step?
+What happens to private and shared Notion pages?
+How do I increase my attachment size limit?
+Why can’t I see and select pages in the Notion OAuth modal?
+Will using this feature increase my bill, and can I see the estimated impact before adding users?
 Community
 Questions, discussions, and articles
 Accessibility

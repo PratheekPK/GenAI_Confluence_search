@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/available-markdown-commands/
+URL: https://support.atlassian.com/confluence-cloud/docs/atlassian-marketplace-apps/
 
-Available markdown commands | Confluence Cloud | Atlassian Support
+Atlassian Marketplace apps | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,65 +439,16 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Confluence administration
 Cloud
 Data Center
-Available markdown commands
-You can use markdown to quickly format text in the
-Confluence Cloud
-editor. The table below lists common markdown shortcuts and what they do.
-Format
-Markdown shortcut
-Bold
-**Bold**
-Italic
-*Italic*
-Strikethrough
-~~Strikethrough~~
-Code
-`Code`
-Heading 1
-#
-Space
-Heading 2
-##
-Space
-Heading 3
-###
-Space
-Heading 4
-####
-Space
-Heading 5
-#####
-Space
-Heading 6
-######
-Space
-Numbered list
-1.
-Space
-Bulleted list
-*
-Space
-Quote
->
-Space
-Code snippet
-```
-Space
-Divider
----
-Space
-Link
-[Link](http://a.com)
-Action item
-[]
-Space
-Decision
-<>
-Space
+Atlassian Marketplace apps
+Manage your apps
+Learn how to find and add apps, install or uninstall them on Confluence Cloud, and configure app settings.
+View topic
+Status page: Live docs + Marketplace apps
+Stay informed about Confluence's plans to support Marketplace apps in live docs.
+View topic
 Was this helpful?
 Yes
 No
@@ -508,14 +459,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
+Explore more
+Manage your apps
+Status page: Live docs + Marketplace apps
+Confluence administration
 Show more
-Use symbols, emojis, and special characters
-Keyboard shortcuts and autocomplete
-Available markdown commands
-Simplify data with tables
-Charts and connected data
-Show more
+Security settings in Confluence Cloud
+Look and feel settings in Confluence Cloud
+Data management in Confluence Cloud
+Atlassian Marketplace apps
+Confluence automation administration
 Community
 Questions, discussions, and articles
 Accessibility

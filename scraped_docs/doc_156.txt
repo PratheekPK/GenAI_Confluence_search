@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/get-started-with-smart-link-embeds/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-are-space-permissions/
 
-Get started with Smart Links in the content tree | Confluence Cloud | Atlassian Support
+What are space permissions? | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,36 +439,83 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Space administration
+Manage permissions at the space level
 Cloud
 Data Center
-Get started with Smart Links in the content tree
-Smart Links in the content tree let you link content directly in your content tree, so you can organize and access work from all your products in your space.
-Add a Smart Link to the content tree
-There are two ways to add a Smart Link to the content tree.
+What are space permissions?
+Each space in Confluence has its own set of permissions, which can be granted and revoked by a space admin. The user who creates a space is automatically an admin of that space, and they can add other space admins by giving another user or group the
+Admin
+permission. Space admins can assign permissions for the space to individual users, groups, or anonymous users.
+Space permissions aren’t customizable on the
+Free plan
+.
+To find out who the space admins are for a particular space:
+Go to the space in
+Confluence Cloud
+.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
 Select
-Create
-in the main navigation, then
-Smart Link
-. This will create in the space you are currently in or will default to your personal space/whichever space you have edit permissions.
-Select
-in the Content section of the space sidebar, then
-Smart Link.
-This will create the Smart Link in the content tree directly where you want it.
-After selecting
-Smart Link
-, you’ll be prompted for a URL. Select
-Add Smart Link
-to finish.
-What can you do with a Smart Link in the content tree?
-Assuming you have all necessary permissions for the linked content, some Smart Links will have expanded functionality directly in Confluence (for example, playing a video or adding to a document). The degree of interaction within Confluence may vary depending on the source product and other factors.
-Not every URL can fully display within Confluence. Some products will only show a preview of the content and relevant metadata.
-Restrictions and Smart Links in the content tree
-When you add a Smart Link to the content tree, the link you’ve added inherits the default permissions of the object above it (or, generally, the space where you’ve placed it).
-You can’t set additional restrictions on a Smart Link within Confluence. However, permissions on the added link might affect who can engage with the content.
-Viewing something via a Smart Link in Confluence doesn’t imply permissions to interact with the content in the source product.
-What data is sent and received when pasting a Smart Link?
+Space details
+from the
+Manage space
+card.
+See
+Administrators
+.
+To change permissions for a space, see
+Assign space permissions
+.
+Space admins can also manage watchers for that space by selecting the watch icon
+at the top right of any page in the space and selecting
+Manage watchers
+.
+If you accidentally deny all admin access to a space so that nobody has access to administer the space any more, you can ask someone with Confluence Administrator global permission to
+recover space permissions
+and provide space admin access to the appropriate people.
+This page is about
+space permissions
+. Confluence also lets you set
+page restrictions
+.
+Assignable permissions for each space
+View
+User can view all the content in your space, except when they're restricted from doing so on individual content items.
+Add
+User can add new pages, live docs, blogs, comments, or attachments in your space.
+You can assign "Add" permissions individually by content type. If assigned, the user can also edit all of that content type in your space, except when restricted from doing so on individual content items.
+Delete
+User can delete any page, live doc, comment, or attachment in your space. You can assign "Delete" permissions individually by content type.
+Delete Own
+User can
+only
+delete content they created or attachments they added. (Note: If user can add comments, they can delete their own.)
+Restrictions
+User can edit restrictions on all pages and live docs in your space, which govern who can view or edit a page or live doc.
+Export
+User can export the whole space. (Page or doc-level export is governed by the "View" permission. anyone who can view a page or live doc can also export it.)
+Admin
+User can administer the space, which includes the ability to pass on admin permissions to other users.
+Confluence admins aren't necessarily space admins. In order for them to be a space admin, they must belong to a group which has both view permission and space admin permission in the space, or they must be granted those permissions as an individual in the space.
+Space permissions are additive
+Space permissions are additive. If a user is granted permissions as an individual or as a member of one or more groups, Confluence will combine these permissions together.
+Example
+Sasha is a member of the
+confluence-users
+group and the
+developers
+group. The
+confluence-users
+group has 'export' permission, but does not have 'restrict' permission. The
+developers
+group has 'restrict' permission but does not have 'export' permission.
+By being a member of these two groups, Sasha can restrict
+and
+export content. The permissions do not conflict, they combine to determine what Sasha is allowed to do in this space.
 Was this helpful?
 Yes
 No
@@ -479,18 +526,15 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
-Show more
-Bring all your work into Confluence
-Insert links and anchors
-Get started with Smart Links in the content tree
-What data is sent and received when pasting a Smart Link?
-Insert and manage links on your pages and live docs
-Show more
+Manage permissions at the space level
+What are space permissions?
+Copy space permissions
+Assign space permissions
+Make a space public with anonymous access
+Assign Questions for Confluence permissions
 On this page
-Add a Smart Link to the content tree
-What can you do with a Smart Link in the content tree?
-Restrictions and Smart Links in the content tree
+Assignable permissions for each space
+Space permissions are additive
 Community
 Questions, discussions, and articles
 Accessibility

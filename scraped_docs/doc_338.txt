@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/inserting-links-to-your-whiteboard/
+URL: https://support.atlassian.com/confluence-cloud/docs/see-how-teams-use-confluence-cloud/
 
-Inserting links to your whiteboard | Confluence Cloud | Atlassian Support
+See how teams use Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,57 +439,17 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Considering Confluence Cloud?
 Cloud
 Data Center
-Inserting links to your whiteboard
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-Add more context to your whiteboarding sessions using links and Smart Links. You can link to content outside of whiteboards, Jira issues, Confluence pages and live docs, or your favorite cloud apps and websites.
-Here are three different ways to insert links into your whiteboards.
-URLs
-Add links as URLs:
-Go to the page or live doc for the link you want to use.
-Copy the URL.
-Paste the URL on the whiteboard wherever you want it to appear.
-Smart Links
-Smart Links are a richer way of hyperlinking from your favorite cloud apps and websites. They provide important context about the link without you needing to leave a whiteboard.
-Not all links are supported by Smart Links. When a link is not supported, you will see the link be inserted onto the whiteboard as a plain URL.
-Smart Link display
-In whiteboards, there are two different ways to display Smart Links:
-Display
-card
-The card view is a simplified view of the link’s content. It will generally show a brief summary of the link and its most important data. For example, for a Jira issue, you will see the issue type, issue key, issue summary, status, and the number of comments.
-Display
-embed
-An embed is the richest Smart Link view. It provides you with an interactive preview of the link’s content. For example, an embedded view of a Google Slide shows a slide deck that you can navigate through. Some links, like YouTube videos, can default to the embed view when you add them to a whiteboard.
-Switch between Smart Link displays
-Not all Smart Links have an embedded view. If possible you can switch from a card view to an embed using the floating toolbar.
-Select the Smart Link you’d like to change the display of.
-Choose which display you’d like for the Smart Link.
-Preview a Smart Link
-If a Smart Link has an embed, you can see an expanded view of it by clicking on the
-Preview
-button in the floating toolbar.
-Embed your whiteboard into Jira, Confluence, and Trello
-Easily embed ideas and add visualization to your workflows by embedding a whiteboard Smart Link to project posters, product roadmaps, kanban boards, and more.
-To embed your whiteboard:
-Copy the link to a whiteboard.
-Paste it into a Confluence page or live doc, Jira board, or Trello card.
-Select
-Embed
-as the view state in the floating toolbar.
-Smart Link permissions
-Smart Links respect the permissions of a link. If a link has permissions for who can and can’t see the link’s content, you may need to authenticate yourself.
-For any Smart Link that requires authentication, you will see a message in the Smart Link asking for you to authenticate. Select through the authentication flow to preview the Smart Link.
-If you’ve already authenticated for the Smart Link of an app (e.g. Google Docs) in another Atlassian apps, you won’t have to authenticate it again in whiteboards.
-Import Jira issues
-The Jira issue import dialog lets you search for and insert single or multiple Jira issue links into your whiteboard. You can import from the cloud versions of
-Jira
-, Jira Service Management, and Jira App Discovery.
-Learn more about importing Jira issues
+See how teams use Confluence Cloud
+This section describes some specific use cases for Confluence.
+Use Confluence for technical documentation
+Create a documentation space to develop technical documentation in Confluence.
+View topic
+Use Confluence for software teams
+Learn about best practices for using Confluence Cloud with software teams.
+View topic
 Was this helpful?
 Yes
 No
@@ -500,23 +460,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Show more
-Add and edit text on whiteboards
-Build flows and diagrams with flows and connectors
-Inserting links to your whiteboard
-Use sections to organize your work
-Add and edit images on whiteboards
-Show more
-On this page
-URLs
-Smart Links
-Smart Link display
-Switch between Smart Link displays
-Preview a Smart Link
-Embed your whiteboard into Jira, Confluence, and Trello
-Smart Link permissions
-Import Jira issues
+Explore more
+Use Confluence for technical documentation
+Use Confluence for software teams
+Considering Confluence Cloud?
+Confluence Cloud functionality and features
+See how teams use Confluence Cloud
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/create-pdf-using-custom-font/
+URL: https://support.atlassian.com/confluence-cloud/docs/apply-a-theme-to-a-space/
 
-Install a custom language font for PDF exports | Confluence Cloud | Atlassian Support
+Apply a theme to a space | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,43 +439,55 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Configuration settings in Confluence Cloud
+Space administration
+Customize your space
 Cloud
 Data Center
-Install a custom language font for PDF exports
-In Q2 2023 we released an update to PDF export that renders Confluence pages and live docs more accurately.
-This update enables the use of installed languages without needing to install a custom font. If you’d like to use a custom font continue using the instructions on this page.
-You may still see the need for this if PDF export is falling back to the older method of PDF export which may occur with the following:
-IP Whitelisting Enabled
-Customize exports to PDF
-Advanced PDF export customizations
-Spaces over 2000 pages/ live docs or 1000 attachments
-Before you can export Confluence pages or live docs in a language other than English, you'll need to install a font that supports the language your pages and live docs were written in.
-Confluence only supports
-one
-font at a time. Installing a new font will replace the font you installed previously.
-To install a new font in Confluence:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
->
-Configuration
-in the left-hand navigation.
+Apply a theme to a space
+As a space admin, you can use themes to change the appearance of a space. Confluence comes with a default theme, but product administrators can download and install additional themes from the
+Atlassian Marketplace
+. Once a product administrator has installed a theme, space admins can apply it to any space.
+To apply a theme to a space:
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Look and Feel
+menu
+and select
+Themes
+.
+Choose a theme option.
 Select
-PDF export language support
+Confirm
+.
+What's the global look and feel?
+“Global look and feel” refers to a theme that a product administrator has applied at the site level, which is applied automatically to all newly created spaces.
+Changes to the global look and feel will affect all spaces that use the default theme. If a space admin has applied a non-default theme to a space, that space won't inherit changes from the global look and feel.
+To use the global look and feel for a space that previously used a different theme:
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+Look and Feel
+menu
+and select
+Themes
 .
 Select
-Choose File
+Global look and feel
+, then select
+Confirm
 .
-Choose a TTF or TTC file to upload.
-Select
-Install
-to upload the font and install it on your instance.
-Once you've installed the appropriate font, follow the instructions for
-Export content to Word, PDF, HTML, and XML
-.
+Users can also
+select their own theme,
+choosing either Light or Dark. These choices are independent of the theme you choose in settings, however each theme responds to the user’s current choice, displaying slightly darker colors in Dark mode.
 Was this helpful?
 Yes
 No
@@ -486,13 +498,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Configuration settings in Confluence Cloud
-Show more
-Configure attachment size
-Configure shortcut links
-Install a custom language font for PDF exports
-Confluence wiki markup syntax for the legacy editor
-Customize the email domain sending Confluence emails
+Customize your space
+Apply a theme to a space
+Change the space name and logo
+Edit features for a space
 Community
 Questions, discussions, and articles
 Accessibility

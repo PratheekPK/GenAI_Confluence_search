@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-automation-for-confluence-premium-feature/
+URL: https://support.atlassian.com/confluence-cloud/docs/save-a-page-for-later/
 
-Use automation for Confluence | Confluence Cloud | Atlassian Support
+Save a page, live doc, or other content item for later | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,13 +439,31 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Create and organize work in Confluence Cloud
+Keep content organized
 Cloud
 Data Center
-Use automation for Confluence
-Automation is an admin feature available in Confluence. Read the announcement in this
-community post
-to learn more.
+Save a page, live doc, or other content item for later
+Starring a page or other content item for later helps you access them quickly from your desktop or mobile device.
+Star an item for later
+To star an item for later, select
+Star
+from the
+More actions
+menu.
+Get back to your starred items
+To view your starred items:
+Select
+Starred
+in the Confluence navigation
+sidebar
+. Starred items are grouped together.
+To view your starred items on mobile:
+Tap the
+in the navigation on your mobile device.
+You can also use the
+favorite pages macro
+to include a list of your saved items on any page or live doc.
 Was this helpful?
 Yes
 No
@@ -456,13 +474,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Extend the functionality of Confluence Cloud
+Keep content organized
 Show more
-Use macros to add visuals and images to Confluence pages
-Use gadgets to add dynamic content
-Use Questions for Confluence
-Use automation for Confluence
-Learn about macros on Confluence mobile
+Archive content items
+Restore archived items to the content tree
+Delete, restore, or purge a content item
+Save a page, live doc, or other content item for later
+Use folders to organize your work
+On this page
+Star an item for later
+Get back to your starred items
 Community
 Questions, discussions, and articles
 Accessibility

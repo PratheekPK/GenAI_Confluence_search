@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-excerpt-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/view-a-page/
 
-Insert the excerpt macro | Confluence Cloud | Atlassian Support
+View written content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,72 +439,103 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Create and organize work in Confluence Cloud
+Navigate around Confluence
 Cloud
 Data Center
-Insert the excerpt macro
-The excerpt macro is used to mark a part of a page or live doc's content for reuse. Defining an excerpt enables other macros, such as the
-insert excerpt
-and
-Insert the blog posts macro
-macros, to display the marked content elsewhere.
-You can add multiple excerpts per page or doc and distinguish them from one another with a name you assign them. This allows you to create a page or doc full of blocks of content to reuse on other pages or docs. The content you add to the excerpt becomes the single source, which allows you to make a change in that one place, and all the pages that use the excerpt include macro to show that content will reflect the changes you made in the excerpt macro.
-To add the excerpt macro:
-In the Confluence editor, select
->
-View more
-Find the excerpt macro and select it. The macro placeholder is added and the right panel opens.
-Enter a name for the macro so that you can reference it on another page or live doc using the
-insert excerpt
-macro.
-If you don't give the macro a name, you will only be able to include the content from the first excerpt macro on a page or doc.
-Select the
-Hide excerpt on this page
-check box if you want the content inside the macro to be hidden.
-Add your content inside the excerpt macro placeholder in the page or doc. Most of the formatting options can be used, and elements in the toolbar can be inserted into the macro.
-You can also type
-/
-to bring up the same list you'd see by selecting from the toolbar.
-To edit the excerpt macro:
-Select the macro placeholder. The floating toolbar appears.
-Select
-Edit
-. The right panel opens.
-Modify the parameters. Your changes are saved as you go.
-Resume editing, and the panel closes.
-Parameters
-Parameters are options that you can set to control the content or format of the macro output. Where the parameter name used in Confluence storage format is different to the label used in the browser, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Excerpt name
-null
-Allows you to identify this macro so that you can add multiple Excerpt macros to one page or live doc and use a specific one on another page or doc using the Excerpt Include macro.
-Hide excerpt on this page
-(hidden
+View written content
+After you’ve created a live doc or published a page, information about the content are presented at the top of the screen and in the
+Details
+panel. Learn about these features, including how to manage avatar visibility for published pages.
+Your Confluence administrator determines what information is presented at the top. This means your content may look a little different.
+Content information can include:
+While viewing or editing a page
+Last updated :
+Shows when the page was last published or updated.
+Breadcrumbs :
+Navigation path that shows the location of the page in the content tree.
+More actions :
+Frequently used actions such as Star, Watch, Present, Version history, Copy, Move, Convert to live doc, and more.
+Owner
+is shown below the title.
+Read time:
+The estimated time it takes to read the page. Read time is based on an average reading speed of 265 words per minute.
+Analytics
+(
+Premium
 )
-false
-Controls whether the content contained in the Excerpt macro placeholder is displayed on the page or live doc.
-This option affects only the page or doc that contains the Excerpt macro. It does not affect any pages or docs where the content is reused.
-The following additional parameter is available in storage format. It performs the same function as the options panel in the editor.
-Parameter name
-Required
-Default
-Parameter description and accepted values
-atlassian-macro-output-type
-No
-BLOCK
-Determines whether the content of the Excerpt macro body is displayed on a new line or inline.
-Available values:
-BLOCK
-– Displays the content of the macro on a new line
+:
+Get insights on page views.
+Classification
+(Atlassian Guard Premium): Define classification levels into which users can categorize their content.
+Apps
+your team has installed from the
+Atlassian Marketplace
+or
+built themselves
 .
-INLINE
-– Displays the the content of the macro as part of the same paragraph as the text preceding and following it.
-This option affects only the page or doc that contains the Excerpt macro. It does not affect any pages or docs where the content is reused.
+Avatars
+of other viewers (while viewing)
+Avatars
+of other editors (while editing)
+Select their avatar to find them in the page, if they are currently active.
+Telepointers
+of editors: Hover over telepointer to see full name.
+While viewing and editing a live doc
+Last updated :
+Shows when the content was last edited.
+Breadcrumbs :
+Navigation path that shows the location of the doc in the content tree.
+More actions :
+Frequently used actions such as Star, Watch, Present, View changes, Version history, Copy, Move, Convert to page, and more.
+Owner
+is shown below the title.
+Read time:
+The estimated time it takes to read the doc. Read time is based on an average reading speed of 265 words per minute.
+Analytics
+(
+Premium
+)
+:
+Get insights on views.
+Classification
+(Atlassian Guard Premium): Define classification levels into which users can categorize their content.
+Apps
+your team has installed from the
+Atlassian Marketplace
+or
+built themselves
+.
+Avatars
+of live collaborators and viewers.
+Select an editor’s avatar to find them in the live doc, if they are currently active.
+Telepointers
+of editors: Hover over telepointer to see full name.
+Avatar visibility on published pages
+Real-time avatar visibility improves collaboration on published pages by showing who’s viewing, in addition to already showing who’s editing at any given time.
+Depending on
+how admins set public settings
+, anonymous users may also see who is on the page.
+Turn avatar visibility on or off
+By default, avatar visibility is turned on at the site level.
+Some teams may choose to turn this feature off due to the sensitive nature of content they may have on their Confluence site. You can turn this feature off for the entire site or individual spaces, but not for specific pages.
+To turn avatar visibility off:
+Site-level admins can visit
+Settings
+>
+General configuration
+>
+Avatars on published pages
+Space-level admins can visit
+Space settings
+>
+General
+>
+Avatars and status
+>
+Avatars on published pages
+.
+These settings only control visibility of viewers on published pages. The visibility of co-editors' avatars is a Confluence feature that cannot be turned off.
 Was this helpful?
 Yes
 No
@@ -515,14 +546,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
-Show more
-Insert the create from template macro
-Insert the decision report macro
-Insert the excerpt macro
-Add excerpts to a page or live doc with the insert excerpt macro
-Insert the include content macro
-Show more
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+On this page
+While viewing or editing a page
+While viewing and editing a live doc
+Avatar visibility on published pages
+Turn avatar visibility on or off
 Community
 Questions, discussions, and articles
 Accessibility

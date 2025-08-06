@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/export-to-other-calendars/
+URL: https://support.atlassian.com/confluence-cloud/docs/manage-your-company-hub/
 
-Export to other calendars | Confluence Cloud | Atlassian Support
+Manage your Company Hub | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,58 +440,102 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
+Use Company Hub to deliver key information to employees
 Cloud
 Data Center
-Export to other calendars
-Team Calendars allows you to quickly export calendar data so you can open it in other calendar apps like Google Calendar, Apple Calendar, Microsoft Outlook, or any application that supports importing .ics files.
-The information you import into your chosen calendar app is no longer connected to Team Calendars and won't be updated when you update Team Calendars. If you'd like your calendar app to be updated when you update Team Calendars, see:
-Subscribe to Team Calendars from Google Calendar
-Subscribe to Team Calendars from Microsoft Outlook
-Subscribe to Team Calendars from Apple iOS Calendar
-Google Calendar
-Choose
-to the right of the calendar and choose
-Export to iCalendar
-Save the .ics file to your computer
-Open Google Calendar, and choose
-Settings
->
-Calendars
->
-Import calendar
-Locate and select the .ics file you saved and choose
-Import
-Outlook 2010
-Choose
-to the right of the calendar and choose
-Export to iCalendar
-Save the .ics file to your computer
-Open Outlook 2010 and choose
-File Tab
->
-Open
->
-Import
-Locate and select the .ics file you saved and choose
-Import
-Apple Calendar
-Choose
-to the right of the calendar and choose
-Export to iCalendar
-Save the .ics file to your computer
-Open the Calendar app on your Mac and choose
-File
->
-Import
->
-Import...
-Locate and select the .ics file you saved and choose
-Import
-Choose the calendar you want to import the events into or choose
-New Calendar
-, then choose
-OK
+Manage your Company Hub
+This feature is only offered with
+Confluence Cloud Premium and Enterprise
+.
+Company Hub editors and product admins have permission to publish and make updates. They can also see and access the
+Manage
+(
+icon) action to open
+Company Hub settings
+.
+Publish, update, restore versions, or deactivate your hub
+Activate via publish
+When your hub is polished and ready to be seen by your entire company, it’s time to activate it by selecting
+Publish
+. Once you select
+Publish
+, everyone at your company will be able to access and view the hub from the top left of the navigation.
+Update
+After the initial hub activation, hub editors can make updates anytime by selecting the hub from the navigation and selecting
+Edit
+(
+). As you make changes, those changes are saved automatically in edit mode. Once you’re ready to broadcast your updates to the entire company, select
+Update
+.
+View and restore previous versions
+Old versions of your Company Hub are always saved and you can revert to an old version at any time. Every time you edit and update the Company Hub, a new version is created.
+To see or restore an old version, select
+Manage
+(
+icon) to access Company Hub settings. In the
+General
+tab, select the
+More Actions
+(
+icon) menu and select
+History
+. For each version, you can see who changed it and you can
+Restore
+and
+Delete
+it.
+Rename
+To rename your Company Hub, select
+Manage
+(
+cog icon) to access Company Hub settings. In the
+General
+tab, select the
+More Actions
+(
+… icon) menu and select
+Rename
+. Enter a name and select
+Confirm
+.
+Deactivate
+To make it so that your hub is no longer visible to the entire company, select
+Manage
+(
+cog icon) to access Company Hub settings. In the General tab, select the More Actions (
+icon) menu and select
+Deactivate.
+Then, select
+Confirm
+.  Once a hub is deactivated, it will disappear from the navigation and no longer be accessible to anyone that is not a hub editor.
+Only product admins can deactivate the hub. The content of the formerly-active hub will be saved and it can be re-activated at any time via
+Publish
+.
+Manage Company Hub permissions
+Product admins have default edit permissions for Company Hub. They can add or remove other editors by selecting
+Manage
+(cog icon) to access Company Hub settings. Select the
+Users
+tab and select
+Go to Company Hub Permissions.
+To add hub editors, select
+Edit
+(
+) then enter the name of the editor you’d like to add in the search bar, select the name, and select
+Add
+. Once you’ve added everyone you need to add, select
+Save
+.
+To remove hub editors, select
+Edit
+(
+) then deselect the permissions for that user across the board. Select
+Save
+.
+Hub-specific edit permissions can be granted to or removed at the user or group level.
+Those with hub-specific edit permissions can create, customize, activate (via
+Publish
+), and make updates to the hub.
 Was this helpful?
 Yes
 No
@@ -502,18 +546,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Team Calendars for Confluence (Premium feature)
-Show more
-Subscribe to Team Calendars from Microsoft Outlook
-Subscribe to Team Calendars from Apple iOS Calendar
-Export to other calendars
-Set system properties
-Team Calendars FAQs
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
 Show more
 On this page
-Google Calendar
-Outlook 2010
-Apple Calendar
+Publish, update, restore versions, or deactivate your hub
+Activate via publish
+Update
+View and restore previous versions
+Rename
+Deactivate
+Manage Company Hub permissions
 Community
 Questions, discussions, and articles
 Accessibility

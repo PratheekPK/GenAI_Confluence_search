@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/set-up-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/improved-confluence-navigation/
 
-Considering Confluence Cloud? | Confluence Cloud | Atlassian Support
+Confluence navigation | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,15 +439,126 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
+Create and organize work in Confluence Cloud
+Navigate around Confluence
 Cloud
 Data Center
-Considering Confluence Cloud?
-Confluence Cloud functionality and features
-Review the Confluence Cloud features in each plan and dig into the benefits of using Confluence Cloud.
-View topics
-See how teams use Confluence Cloud
-Review the different ways Confluence can be used.
-View topics
+Confluence navigation
+Great content that you can’t find might as well not exist. We totally understand that it's our job to give you the tools to find the content you need.
+From the navigation, you'll find clearly labeled buttons and menus to help you find and do the things you need to.
+Top navigation
+Search
+— Find pages, live docs, spaces, and other content.
+Create
+— Select to create a new page, live doc, database, Loom video, or whiteboard.
+Chat
+— Chat with
+Rovo
+, powered by Atlassian Intelligence.
+Notifications
+— Find out what's happening in spaces and items you watch in Confluence and activity like replies, mentions, and task assignments.
+Help
+— Get online help, and find out what's new in your Atlassian Cloud apps.
+Your profile and settings
+— Go to or create your personal space, adjust your Confluence settings, or provide feedback about your Confluence experience.
+The sidebar
+Expand/Collapse
+— Open and close the sidebar.
+App switcher
+— Switch to other Atlassian Cloud apps, like Jira.
+Confluence logo and name
+— Select to go to the Confluence
+For you page
+.
+For you
+— Start your Confluence journey with easy access to important spaces, content, and updates.
+Recent
+— Access items you’ve recently visited and worked on as well as drafts or starred items. Expand the filter controls to reduce the full list.
+Today
+— Pages, live docs, blogs, and whiteboards you have viewed, including those that you’ve edited and commented on.
+Worked on
+— Pages, live docs, blogs, and whiteboards you created, edited, and commented on; this includes drafts.
+Owned by me
+— Pages, live docs, blogs, and whiteboards you own.
+Starred
+— Easily return to your favorite content.
+Spaces
+— Get to spaces you’ve recently visited and starred.
+Apps
+— Access content from integrated apps like Calendars for Confluence.
+More
+— Open additional options.
+Teams
+— Find people you work with frequently
+Drafts
+— Manage your unpublished pages and blogs.
+Company Hub
+— Access your
+Company Hub
+. This is only shown if you organization has created and published a
+Company Hub
+. It may have a customized name unique to your org.
+Customize sidebar
+— Customize the order of your sidebar.
+Customization and Settings
+Custom Color Schemes and Site Homepage
+: Admins can customize the site's color scheme and set a specific space overview page as the site homepage. Custom homepages and the Confluence "For you" page can coexist.
+Space Sidebar
+: Access the space overview, pages, live docs, blogs, whiteboards, and more. Minimize or collapse the sidebar for a streamlined view.
+Space Shortcuts
+: Add shortcuts to frequently accessed content within the space.
+Minimize the space sidebar
+You can minimize or collapse the space sidebar to make more room for viewing your content. Use either of these methods:
+Select the
+Expand/Collapse
+icon in the upper left.
+Type [
+Edit the space sidebar
+You can determine which items display in the sidebar. You can do this for overview, blog, and apps such as questions or calendars.
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
+.
+Open the
+General
+menu
+and select
+Features
+.
+Choose what appears in your
+sidebar
+.
+The options available in
+Space settings
+depend on your permissions. App and space administrators can change settings for access, content, data protection, look and feel, archiving, and deleting, and integrations.
+Space shortcuts
+Shortcuts are helpful or important pieces of content that members of a space might need to get to often. These shortcuts added by the space administrator.
+Space admins can link to content in the space, other related spaces, or relevant external web content as well as reorder the shortcuts as needed.
+Was this helpful?
+Yes
+No
+It wasn't accurate
+It wasn't clear
+It wasn't relevant
+Provide feedback about this article
+Still need help?
+The Atlassian Community is here for you.
+Ask the Community
+Navigate around Confluence
+What is the new navigation in Confluence?
+Use For you to jump into work and see what's happening
+Confluence navigation
+View written content
+On this page
+Top navigation
+The sidebar
+Customization and Settings
+Minimize the space sidebar
+Edit the space sidebar
+Community
+Questions, discussions, and articles
 Accessibility
 Notice at Collection
 Privacy Policy

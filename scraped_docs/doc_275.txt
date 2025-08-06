@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/troubleshoot-access-problems-to-content/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-confluence-for-software-teams/
 
-Troubleshoot access problems to content | Confluence Cloud | Atlassian Support
+Use Confluence for software teams | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,99 +439,26 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Manage your account and permissions in Confluence Cloud
-Manage permissions at the content level
+Considering Confluence Cloud?
+See how teams use Confluence Cloud
 Cloud
 Data Center
-Troubleshoot access problems to content
-Confluence offers a few different tools to help you troubleshoot access problems to content, whether you’re trying to figure out why someone can’t access content or why someone
-can
-access it but shouldn’t.
-Unblock someone’s access
-There are a few different reasons why someone wouldn’t have the level of access they should.
-Space permissions vs content permissions
-The first thing to remember is that permissions in Confluence are inherited from the container above. This means that if someone doesn’t have access to a content item, then it could be because of:
-settings on the content item itself,
-settings inherited from one of its parent items,
-and/or settings inherited from the space.
-You may be able to fix access issues, depending on where the access issue is coming from.
-Issue on the content item itself
-— To fix these issues, you need to have edit access to the content and space-level permission to edit content restrictions, or else contact someone who does.
-Issue inherited from a parent item
-— To fix these issues, you need to have edit access to the parent item and space-level permission to edit content restrictions, or else contact someone who does.
-Issue inherited from the space
-— To fix these issues, you need to be a space admin, or else contact one.
-For a list of all space-level permissions and what they control, see
-Assign space permissions
+Use Confluence for software teams
+Welcome to the
+Software Team's guide to using Confluence
 .
-When someone doesn’t have access
-Confluence will let you know when you try to share with people who won’t actually be able to access the content before you’re finished sharing with them.
-Confluence will also tell you when someone already added to the content doesn’t have the indicated access to the content, but only when a person or a group has been explicitly added to the
-Specific
-access
-list.
-This in-line warning message will only appear when a listed person or group:
-needs space access
-needs view access to a parent item
-needs permission at the space level to edit content in the space
-When the content inherits restrictions from a parent
-Confluence will tell you when content inherits access restrictions from one of its parent items in the content tree.
-To troubleshoot inherited access problems:
-Open the
-Share
-window on the content item you want to give someone access to.
-Select
-this parent
-in the statement “Anyone on
-this parent
-”. This will take you to the immediate parent item causing the access restriction. (There may be other parent items with view restrictions.)
-Open the
-Share
-window on that parent item and see if the person or group has access. If not, add them.
-After adding them, if this parent item doesn’t inherit restrictions from any of
-its
-parents, go back to the original content item and refresh to confirm the access problem has been resolved.
-If this parent item does inherit restrictions from one of its parents, follow the same process until you’ve added the person or group to all restricted parents.
-If you have permission to move content in the space, you can also try moving the child content out from under the restricted parent item where it’s organized in the content tree.
-An easier way to troubleshoot on Premium
-If you’re on the premium plan, you can use the
-inspect permissions feature
-to easily see at which levels of hierarchy someone is being denied access (parent content, space, and/or app).
-You can find this feature in the
-Share
-window, in the More options menu (•••).
-Restrict someone’s access
-If someone can access content they shouldn’t, there are a couple of things to consider.
-First, you can remove access for everyone and individually add back only the people who should have access.
-To remove access for everyone and add back individually:
-Open the
-Share
-window.
-Change
-General access
-from
-Open
->
-Restricted
-.
-Add individual people or groups back to the access list.
-Select
-Save
-.
-Second, you might need to look for additive permissions.
-Additive permissions and groups
-Confluence operates on a model of additive permissions, which means that if someone has access to content in two or more ways, they always get the greater access.
-For example, let’s say you have a page that is restricted to the group “Marketing team”. Only that group should be able to view and edit the page. This means that
-General access
-is set to “Restricted” and that the group “Marketing team” appears in
-Specific access
-with “Can edit” permission.
-But let’s say that Omar, who is a member of the “Marketing team” group, should
-not
-be able to edit the page, and to accomplish this, someone added Omar explicitly to the page with “Can view” permission.
-This does NOT mean Omar is restricted from editing the page.
-This is because, even though Omar is explicitly listed as “Can view”, he can still edit the page because he has access to the page through another source — as a member of the “Marketing team” group — which has “Can edit” assigned.
-Thus, part of troubleshooting why someone has a certain level of access to content that they shouldn’t have is figuring out all the ways they might have access and determining the greatest access across those sources.
+Check out the articles in this collection or
+download the Software Team's Guide to Confluence ebook
+to get all of these tips in one place:
+How to write product requirements
+How to build a release planning page
+Creating insightful customer interview pages
+Create sprint retrospective and demo pages (like a BOSS)
+How to make better decisions as a development team
+How to document releases and share release notes
+Use blogs to share your development team's progress
+How to create technical and onboarding documentation
+Like what you see? Start creating these pages and more in Confluence!
 Was this helpful?
 Yes
 No
@@ -542,18 +469,9 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage permissions at the content level
-Change who can find content and what they can do with it
-Confluence permissions structure
-Troubleshoot access problems to content
-What is a Confluence group?
-On this page
-Unblock someone’s access
-Space permissions vs content permissions
-When someone doesn’t have access
-When the content inherits restrictions from a parent
-Restrict someone’s access
-Additive permissions and groups
+See how teams use Confluence Cloud
+Use Confluence for technical documentation
+Use Confluence for software teams
 Community
 Questions, discussions, and articles
 Accessibility

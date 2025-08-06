@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-confluence-with-other-applications/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-number-formats/
 
-Use Confluence with other applications | Confluence Cloud | Atlassian Support
+Configure number formats | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,34 +439,49 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Confluence administration
+Configuration settings in Confluence Cloud
 Cloud
 Data Center
-Use Confluence with other applications
-Confluence has a wide range of features on its own, but you can also extend those features with add-ons, and by integrating Confluence with other applications. Integrating with
-Jira
-can really take your Confluence experience to the next level by improving the way your teams communicate and collaborate, track vital work, and plan and release new products.
-If there's an extra piece of functionality you need, the
-Atlassian Marketplace
-is the place to look for useful
-Confluence add-ons
-(or add-ons for other Atlassian products). Whether you need to create diagrams, like the ones you can create with
-Gliffy
-, or you want to make awesome mockups and wireframes with
-Balsamiq
-, there are heaps of great add-ons in the marketplace. You may even find a really useful add-on you never knew you needed, but now can't live without.
-Use Slack and Confluence together
-Install the Slack app to Confluence Cloud to get activity updates in Slack.
-View topic
-Use Jira and Confluence together
-Get more information about how to display and create Jira work items and more from within Confluence.
-View topic
-Use Trello and Confluence together
-Get more informaton about using Confluence to create and plan your vision, and using Trello to track and take action the details.
-View topic
-Use Microsoft Teams and Confluence together
-Let conversation flow in Microsoft Teams while leveraging the collaborative editor and flexible organization of Confluence.
-View topic
+Configure number formats
+There are two number format settings in
+Confluence Cloud
+:
+Long number format. For example:
+###############
+Decimal number format. For example:
+###############.##########
+Confluence Cloud
+uses the guidelines in this Java document from Oracle:
+Class NumberFormat
+.
+To change the number formats in
+Confluence Cloud
+:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Configuration
+>
+General configuration
+.
+Scroll down to
+Formatting and international settings
+.
+Update the
+Long number format
+and
+Long decimal format
+to suit your requirements
+Select
+Save
+.
 Was this helpful?
 Yes
 No
@@ -477,17 +492,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Use Slack and Confluence together
-Use Jira and Confluence together
-Use Trello and Confluence together
-Use Microsoft Teams and Confluence together
-Extend the functionality of Confluence Cloud
-Use Team Calendars for Confluence (Premium feature)
-Use Company Hub to deliver key information to employees
-Use Confluence with other applications
-Use macros to show Confluence content on pages and live docs
-Use macros to add development info on Confluence pages
+Configuration settings in Confluence Cloud
+Show more
+Configure the indexing language
+Configure time and date formats
+Configure number formats
+Configure attachment size
+Configure shortcut links
 Show more
 Community
 Questions, discussions, and articles

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/configure-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-code-block-macro/
 
-Configuration settings in Confluence Cloud | Confluence Cloud | Atlassian Support
+Insert the code block macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,46 +439,132 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Create and organize work in Confluence Cloud
+Review macros only available in the legacy editor
 Cloud
 Data Center
-Configuration settings in Confluence Cloud
-This section focuses on settings and configurations within
-Confluence Cloud
+Insert the code block macro
+In June 2025, Atlassian announced the upcoming
+deprecation of the legacy editor
+as well as
+information about converting
+to the cloud editor.
+Before the deprecation begins in January 2026, this macro will still work. See our
+article on legacy editor macros
+for more.
+In the cloud editor, user the
+code snippet element
 .
-Change the site title
-Set a custom title for your instance.
-View topic
-Configure the administrator contact page
-Edit the information on your administrator contact page.
-View topic
-Choose a default language
-Change the default language across Confluence.
-View topic
-Configure the indexing language
-Learn how sysadmins can change the indexing language to improve search results in Confluence Cloud.
-View topic
-Configure time and date formats
-Change how the date and time are displayed on your Confluence instance.
-View topic
-Configure number formats
-Change how numbers are formatted on your Confluence site.
-View topic
-Configure attachment size
-Set the maximum size for attachments in your Confluence Cloud instance.
-View topic
-Configure shortcut links
-Create shortcut links for your Confluence site.
-View topic
-Install a custom language font for PDF exports
-Install a font that supports a certain language so you can create PDFs in that language.
-View topic
-Confluence wiki markup syntax for the legacy editor
-Learn how to use Confluence wiki markup to format text in some administrative pages.
-View topic
-Customize the email domain sending Confluence emails
-Learn how to send your Confluence site email notifications from a custom domain email.
-View topic
+The Code Block macro allows you to display source code in your page with syntax highlighting, like the one below:
+Use the Code Block macro
+To add the Code Block macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the Code Block macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+You type the code block directly into the macro placeholder in the editor. Note that any white space contained in the placeholder
+is not
+manipulated in any way by the Code Block macro. This is to provide the writer with flexibility over code indentation.
+Parameters
+Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
+If the parameter name used in
+Confluence Cloud
+storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
+example
+).
+Parameter
+Default
+Description
+Syntax highlighting
+(language
+)
+java
+Specifies the language (or environment) for syntax highlighting. The default language is Java but you can choose from one of the following languages/environments:
+ActionScript
+AppleScript
+Bash
+C#
+C++
+CSS
+ColdFusion
+Delphi
+Diff
+Erlang
+Groovy
+HTML and XML
+Java
+Java FX
+JavaScript
+Plain Text
+PowerShell
+Python
+Ruby
+SQL
+Sass
+Scala
+Visual Basic
+Title
+none
+Adds a title to the code block. If specified, the title will be displayed in a header row at the top of the code block.
+Collapsible
+(collapse
+)
+false
+If selected, the code macro's content will be collapsed upon visiting or refreshing the Confluence page. Clicking the
+expand source
+link allows you to view this content. If false, the code macro's content is always displayed in full.
+Show line numbers
+(linenumbers
+)
+false
+If selected, line numbers will be shown to the left of the lines of code.
+First line number
+(firstline
+)
+1
+When
+Show line numbers
+is selected, this value defines the number of the first line of code.
+Theme
+Default
+Specifies the color scheme used for displaying your code block. Many of these themes are based on the default color schemes of popular integrated development environments (IDEs). The default theme is
+Confluence
+(also known as
+Default
+), which is typically black and colored text on a blank background. However, you can also choose from one of the following other popular themes:
+DJango
+Emacs
+FadeToGrey
+Midnight
+RDark
+Eclipse
+Confluence
+Wiki markup example
+Wiki markup is only supported in the legacy editor.
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the
+sidebar
+, header or footer of a space.
+Macro name:
+code
+Macro body:
+Accepts plain text.
+{code:title=This is my title|theme=FadeToGrey|linenumbers=true|language=html/xml|firstline=0001|collapse=true}
+This is my code
+{code}
 Was this helpful?
 Yes
 No
@@ -489,21 +575,10 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Change the site title
-Configure the administrator contact page
-Choose a default language
-Configure the indexing language
-Configure time and date formats
-Show more
-Confluence administration
-Show more
-Manage analytics permissions in Confluence administration
-Manage Confluence content templates
-Configuration settings in Confluence Cloud
-Security settings in Confluence Cloud
-Look and feel settings in Confluence Cloud
-Show more
+On this page
+Use the Code Block macro
+Parameters
+Wiki markup example
 Community
 Questions, discussions, and articles
 Accessibility

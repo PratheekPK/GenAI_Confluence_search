@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-permissions-on-the-space-level/
+URL: https://support.atlassian.com/confluence-cloud/docs/what-confluence-whiteboards-dont-support/
 
-Manage permissions at the space level | Confluence Cloud | Atlassian Support
+What Confluence whiteboards don't support | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,25 +439,28 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Create and organize work in Confluence Cloud
+Create and edit whiteboards
 Cloud
 Data Center
-Manage permissions at the space level
-What are space permissions?
-Learn what space permissions are available and how they affect access to your space.
-View topic
-Copy space permissions
-Reuse permissions from an existing space and copy them into a new or existing space.
-View topic
-Assign space permissions
-Set up or change permissions settings for a space.
-View topic
-Make a space public with anonymous access
-Open up your space's content to public so that anyone on the Internet can view it.
-View topic
-Assign Questions for Confluence permissions
-Set permissions in Questions for Confluence.
-View topic
+What Confluence whiteboards don't support
+Whiteboards aren’t available in
+Atlassian Government environments
+.
+Whiteboards does not currently support or work with certain Confluence features. Below is a list of some of the critical unsupported features. This list is not exhaustive.
+Whiteboards don't currently support:
+Atlassian Analytics
+Atlassian Data Lake
+data connectors
+screen readers & keyboard navigation
+some Marketplace apps*
+linking Jira from Data Center sites
+Please note that most of these features may not be initially supported for whiteboards. However, we plan to add support for many of these features shortly. Please ensure you read the
+Atlassian Cloud Terms of Service
+before proceeding. This outlines our terms & conditions.
+*Some Marketplace apps might be partially affected when whiteboards are added in a space. See
+Whiteboards impact on third-party apps
+to learn more.
 Was this helpful?
 Yes
 No
@@ -468,18 +471,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-What are space permissions?
-Copy space permissions
-Assign space permissions
-Make a space public with anonymous access
-Assign Questions for Confluence permissions
-Space administration
-Set space-specific functionality
-Manage permissions at the space level
-Manage content in a space
-Remove a space
-Create templates, blueprints, and reports
+Create and edit whiteboards
+Show more
+Export your whiteboard
+Collaboration limits on whiteboards
+What Confluence whiteboards don't support
+Whiteboards impact on third-party apps
+Understand Confluence whiteboards plans and features
 Show more
 Community
 Questions, discussions, and articles

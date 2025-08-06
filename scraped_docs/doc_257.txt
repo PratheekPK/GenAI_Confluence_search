@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-profile-picture-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/hide-fields-in-your-database/
 
-Insert the profile picture macro | Confluence Cloud | Atlassian Support
+Hide fields in your database | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,37 +439,28 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Insert the profile picture macro
-You can use the Profile Picture macro to display a user's profile picture on a page or live doc, and it's useful for things like creating team pages that show all members of a project team.
-Hover your mouse-over the picture to see the Hover Profile for the user, and choose the user's picture or name to view their user profile. When editing, you can also select the macro and choose
-View User Profile
-to see the
-profile
-for the user.
-Use the Profile Picture macro
-To add the Profile Picture macro:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-To edit the Profile Picture macro:
-Select the macro placeholder.
-Select the Edit
-icon
-to open the configuration panel.
-Configure the parameters. Your changes are saved as you go.
-Resume editing the page, and the panel closes.
-You can also select the centered
-, medium-width
-, and full-width
-icons to adjust the width of some macros. Select the trashcan icon
-to remove the macro.
+Hide fields in your database
+Views and hidden fields
+Hidden fields can be saved as part of a view. For more information on creating and using views, check out our page on
+Database views
+.
+Databases aren’t available in the
+Atlassian Government environment
+.
+Hiding fields in your database helps streamline your view, allowing you to focus on the most relevant information. You can easily show or hide fields based on your needs, either from the hide fields option at the top of the database or from the view setting menu.
+How to hide fields
+To hide a field:
+Select
+Hide fields
+at the top of your database or the
+Hide fields
+option while editing a view.
+Unselect the field that you'd like to hide in the current view.
+By customizing which fields are visible, you can tailor each view to display only the most important information for your current task.
 Was this helpful?
 Yes
 No
@@ -480,13 +471,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
+Create and edit databases
 Show more
-Insert the labels list macro
-Insert the popular labels macro
-Insert the profile picture macro
-Insert the recent updates macro
-Insert the recently updated dashboard macro
+Filter your data
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
 Show more
 Community
 Questions, discussions, and articles

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-slack-and-confluence-together/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-google-calendar-android/
 
-Use Slack and Confluence together | Confluence Cloud | Atlassian Support
+Subscribe to Team Calendars from Google Calendar (Android) | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,192 +440,89 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use Confluence with other applications
+Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Use Slack and Confluence together
-This integration isn't available in the
-Atlassian Government environment
-.
-The Confluence Cloud app for Slack lets your team:
-Get their Confluence notifications in Slack instead of in email or in Confluence itself
-Set up notifications in Slack channels about changes in specific Confluence spaces, content (including child content) and blog posts
-See link previews of content and comments when they're included in Slack messages
-Like content, reply to comments, and more without leaving Slack
-To get started,
-install the Confluence Cloud app onto your Slack workspace
-.
-Get your Confluence notifications in Slack
-To get started,
-install the Confluence Cloud app onto your Slack workspace
-.
-Open Slack
-Go to the Apps section in the sidebar and hover over the section name to reveal the
-+
-to open a direct message
-Select
-+
-Enter "Confluence" in the
-To
-field
-Select Confluence Cloud from the search results
-Enter the slash command
-/confluence notify
-in the
-Message
-field
-Link your Confluence and Slack accounts. If you’ve already linked your accounts, you’ll skip this step.
-Select
-Turn on personal notifications
-to review the sites whose activity you'll be notified about, the type of direct notifications you'll get, and the notifications you'll receive for content and spaces you are watching.
-Select
-Done
-Subscribe Slack channels to Confluence content and spaces
-A subscription links your Confluence space or content to a Slack channel so you can define which events drive notifications for that channel.
-For security reasons, Slack notifications won't be sent for Confluence content with both
-viewing and editing restricted
-.
-To subscribe to a page, live doc, or blog post:
-Open the content that you would like to create a subscription for.
-Next to the
-Share
-button, select
-More actions
-(
-)
-, then
-Apps
-, then
-Slack Notifications
-.
-Select
-Add subscription
-.
-Choose the Slack workspace and channel to connect to your page, live doc, or blog post. If your workspace isn't on the list, select
-Add new workspace
-and follow the prompts to connect it.
-Choose the notifications you want to send to the Slack channel.
-To subscribe to a page in a Slack channel, type
-/confluence connect <page-url>
-into the chat window. A subscription added via Slack will by default send notifications for all available event triggers.
-To subscribe to a space:
-Only space admins can add a space subscription within Confluence; however all users can create a space subscription directly from Slack.
-Open the space that you would like to create a subscription for.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Integrations
-menu and select
-Slack Notifications
-.
-Select
-Add subscription
-.
-Choose the Slack workspace and channel to connect to your space. If your workspace isn't on the list, select
-Add new workspace
-, and follow the prompts to connect it.
-Choose the notifications you want to send to the Slack channel.
-To subscribe to a space in a Slack channel, type
-/confluence connect <space-url>
-into the chat window. A subscription added via Slack will by default send notifications for all available event triggers.
-Edit a subscription
-You can edit the types of notifications you receive for a subscription at any time. In Slack, type
-/confluence list
-and then click
-Edit subscription
-. Follow the below steps to edit subscriptions in Confluence.
-To edit notifications for a page, live doc, or blog post in Confluence:
-Open the content for which you would like to edit the notifications.
-Next to the
-Share
-button, select
-More actions
-(
-)
-, then
-Apps
-and
-Slack Notifications
-.
-Select
-next to the existing subscription and choose the notifications you want to send to the Slack channel.
-To edit notifications for a space in Confluence:
-Only space admins can modify space subscriptions within Confluence; however, all users can modify space subscriptions directly from Slack.
-Open the space for which you would like to edit the notifications.
-Next to the
-Share
-button, select
-More actions
-(
-)
-, then
-Apps
-and
-Slack Notifications
-.
-Select
-next to the existing subscription and update the notifications you want to send to the Slack channel.
-Integration tips and tricks
-Once you've connected your Confluence Cloud and Slack accounts, you can:
-Share link previews of content and comments with your team whenever you paste Confluence links in Slack. For security reasons, restricted content won't display as link previews.
-Use reactions to take action in Confluence when the @confluence bot is invited to a channel:
-Add 👍 to a notification or link preview for a page, live doc, post, or comment to like the item in Confluence
-Add ⭐ to a notification or link preview for a page, live doc, or post to add it to your saved for later
-See a full list of app shortcuts in Slack by typing
-/Confluence help
-Disable and enable the app
-When you subscribe a Confluence page, live doc, post, or space to a Slack channel, the Confluence Cloud for Slack app will be automatically installed in your Slack workspace. Alternatively, you can install it in your Slack workspace from
-here
-. It's as simple as that!
-Confluence admins can disable the app across Confluence Cloud with these steps:
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
+Subscribe to Team Calendars from Google Calendar (Android)
+There are two ways to synchronize your Team Calendar in Google Calendar on Android:
+Two-way sync
+(CalDAV) - allows you to view and update Team Calendar events in Google Calendar. Requires Team Calendars (available with Confluence Premium) and is
+only supported on an Android device.
+One-way sync
+(iCal) - allows you to view — but not update — Team Calendar events in Google Calendar.
+Subscribe with two-way sync (CalDAV) on Android
+You’ll also need a CalDAV sync app, such as DAVx⁵, an open-source app available from the
+Play Store
+(paid) or via
+F-Droid
+(free).
+These instructions are for Android 7.0 Nougat and DAVx⁵ 3.3.10-ose (which supports Android 5.0 or newer). Your versions may differ slightly.
+Team Calendars was tested with DAVx⁵ but may also work with other CalDAV sync apps.
+You will need the following:
+CalDAV sync app of your choice
+Confluence API token (this will be your password)
+Confluence Cloud server address
+To get your Confluence Cloud API token
+In Confluence:
+Select your profile picture in the top nav >
 Settings
-in the left-hand navigation.
+Under
+YOUR SETTINGS
+, select
+Password
+In the
+API token
+section, select the link
+Create and manage API tokens
 Select
-Atlassian Marketplace
+Create API token
+Name your API token, select
+Create
+, and then select
+Copy
+(you won’t be able to copy this later)
+To get your Confluence Cloud server address
+In Confluence:
+In the top nav, choose
+Apps > Calendars.
+Select the the More actions menu (•••) for your calendar in the side nav and choose
+Subscribe
+.
+In the
+Calendar app
+dropdown, select
+Google Calendar (Android)
+.
+:info:  If prompted, add the calendar to
+My Calendars
+. If you don’t add it to My Calendars, it won’t sync.
+Copy the
+server address
+and paste it into your CalDAV sync app.
+Because DAVx⁵ supports calendar discovery, the server address will be your Confluence URL, not the URL of an individual calendar. You'll be able to choose which calendars (that you've added to My Calendars) to sync in the app.
+To subscribe to the Team Calendar in DAVx⁵
+In DAVx⁵ on your Android device:
+Go to
+Add account
 >
-Manage apps
+Login with URL and user name
 .
-Select
-System
-from the drop-down at the top.
-Select
-Slack
->
-Configure
+Enter the
+server address
+you copied earlier.
+Enter your Confluence
+username
+and
+the API token as password
 .
-Turn off the toggle to disable the app.
-Space admins can also disable the app for content in their space by navigating to
-Space settings > Integrations > Slack notifications
-, and turning off notifications.
-Disabling the app at the instance- or space-level will delete any existing Slack notification subscriptions.
-Space permission for user "Chat Notification"
-Notification will be triggered from spaces only when the "Chat Notification" is added to space permission.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-Space access
-menu and select
-Users
-.
-Under individual users make sure user
-"Chat Notification"
-is present.
-If user Chat Notifications is not present, manually add it with the following permission, then select
-Save all
-.
-Need support?
-This integration is built and maintained by Atlassian. If you need support, visit
-https://support.atlassian.com
-or contact support@atlassian.com
+Follow the prompts to name your account.
+Select the Team Calendars you want to display in DAVx⁵.
+Open the Google Calendar app on your device. Your Team Calendars will be listed under the account name.
+Subscribe with one-way synchronization (iCal format)
+One-way synchronization means that you can view — but not update — Team Calendar events in your Google Calendar app.
+You can't subscribe to Team Calendars using iCal directly on your Android device. Instead, you will need to
+Subscribe to Team Calendars from the browser version of Google Calendar
+. Once you’ve done this, events from your Team Calendar will then be visible in the Google Calendar app on your Android device automatically.
 Was this helpful?
 Yes
 No
@@ -636,23 +533,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use Confluence with other applications
-Use Slack and Confluence together
-Use Jira and Confluence together
-Use Trello and Confluence together
-Use Microsoft Teams and Confluence together
+Use Team Calendars for Confluence (Premium feature)
+Show more
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
+Team Calendars FAQs
+Subscribe to Team Calendars from Google Calendar (Android)
 On this page
-Get your Confluence notifications in Slack
-Subscribe Slack channels to Confluence content and spaces
-To subscribe to a page, live doc, or blog post:
-To subscribe to a space:
-Edit a subscription
-To edit notifications for a page, live doc, or blog post in Confluence:
-To edit notifications for a space in Confluence:
-Integration tips and tricks
-Disable and enable the app
-Space permission for user "Chat Notification"
-Need support?
+Subscribe with two-way sync (CalDAV) on Android
+Subscribe with one-way synchronization (iCal format)
 Community
 Questions, discussions, and articles
 Accessibility

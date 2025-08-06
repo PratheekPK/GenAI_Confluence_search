@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-or-remove-page-restrictions/
+URL: https://support.atlassian.com/confluence-cloud/docs/edit-your-profile/
 
-Change who can find content and what they can do with it | Confluence Cloud | Atlassian Support
+Edit your profile | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,178 +440,59 @@ Atlassian Support
 Confluence
 Resources
 Manage your account and permissions in Confluence Cloud
-Manage permissions at the content level
+Manage your account
 Cloud
 Data Center
-Change who can find content and what they can do with it
-Even in a shared space, you may have content that you're not ready to share with everyone yet. Or perhaps you have some confidential content that's only meant for a few eyes. Whatever the reason, Confluence lets you set view and edit restrictions at the content level so you can keep your content as open or as closed as you need.
-You can’t restrict access to content on the
-free plan
+Edit your profile
+Your user profile contains basic information about you.
+In your own profile, you can access account management features and update information about yourself, like your full name, public name, email address, and
+password
 .
-Who has access to your content?
-The first step to changing who can access your content is understanding who currently has access to it.
-Confluence’s core tenet is about getting the right knowledge to the right people in your organization. To support this, Confluence’s permissions are open by default, which means that the content wants to be available to everyone unless otherwise noted.
-The fundamental piece of this open-by-default model is represented by
-General access
-. This refers to the general audience for the content item — everyone who has at least view access to the space a content item lives in, or, if a parent item is restricted, everyone who has at least view access to the parent item.
-Who is “Anyone in this space”?
-To check who currently has access to the space:
-Open the
-Share
-window.
-Find
-General access
+Find your profile
+To see your profile, tap your profile picture at the right of the navigation, then select
+Profile
+. To see someone else's profile, tap on their name or profile picture anywhere you see it linked in Confluence.
+Edit your profile
+Your profile stores information about you, such as your full name, public name, and profile photo, that's used to identify you throughout your Confluence site. It’s also used in certain Atlassian Cloud products and sites. For the full list, see
+Update your profile and visibility settings
 .
+If you have a managed account, you may need an admin's help to edit your name or email address. See
+Your Atlassian account
+for more information.
+To edit your profile:
+Tap your profile picture at the right of the navigation, then select
+Profile
+Tap
+Manage your account
+Edit your personal details
+Tap
+Save changes
+From here, you can also access your profile information, visibility settings, email, and security, as well as app-specific settings for all the Atlassian apps you use (such as your saved and watched pages in Confluence). This is also where you can find a list of your connected
+Atlassian Marketplace apps
+.
+Set your profile picture
+Your profile picture is the image that's used to represent you throughout your site, including on your profile, in the Atlassian People Directory, next to your name in comments, and in the icon for your
+personal space
+.
+To upload a new profile picture:
+Choose your profile picture at the right side of the navigation, then choose
+Profile
+Hover over your profile picture, then tap the camera icon that appears
 Select
-this space
-in the line “Anyone in
-this space
-”
-If the content item is restricted by a parent, then you can check who has access to the parent item by selecting
-this parent
-in the line “Anyone on
-this parent
-”
-To learn more about space access, see
-Assign space permissions
-.
-Change general access
-You can set general access to 3 states of permissions:
-Open
-> Anyone can edit
-Open
-> Anyone can view
-Restricted
-> Only specific people can view or edit
-What each general access state means
-Open > Anyone in this space can edit
-No restrictions. Consume whatever the space’s access settings are.
-For example, anyone who has permission at the space level to edit content can edit this content; however if someone lacks space-level permission to edit content, then that person won’t be able to edit this content, even though this content’s access is set to Open > Anyone can edit.
-Open > Anyone in this space can view
-All editing is restricted to specific people. Even if people have permission at the space level to edit content, they can’t edit this content unless they’re explicitly listed with
-Can edit
-in
-Specific access
-(individually or as a member of a group).
-Restricted > Only specific people can view or edit
-Even if people have permission at the space level to view and edit content, they can't view or edit this content unless they’re explicitly listed in
-Specific access
-(individually or as a member of a group).
-Restricted by a parent > Anyone on the parent can edit
-No
-direct
-restrictions; restrictions are inherited from a parent item. So consume whatever the parent content’s
-view
-access settings are. Anyone who has permission to view the parent content can view this content.
-Note:
-Edit permission is not inherited from content to content. Even if people don’t have edit permission on the parent content, they are
-not
-prevented from editing this content.
-Restricted by a parent > Anyone on the parent can view
-Anyone who can view the parent items can only view this page — unless they’re explicitly listed on this page as having permission to edit (individually or as a member of a group).
-Restricted > Only specific people can view or edit
-(“Restricted by a parent” scenario)
-Even if people have permission to view and edit the parent content, they can’t view or edit this content unless they’re explicitly listed in
-Specific access
-(individually or as a member of a group).
-Learn why someone can't edit
-, even if the
-General access
-setting suggests that they can.
-How inherited restrictions work
-If someone can’t view a parent content item, they won’t be able to view any child content items under it. In this sense, a view restriction has been added to the parent item that inherits down to all content items nested under it, without exception.
-Editing doesn’t work this way.
-Even if someone is restricted from editing a parent item, they won’t automatically be restricted from editing the child content.
-However
-, if someone is restricted from editing at the space level, they
-will
-be restricted from editing any and all content in that space.
-How restricted are restrictions?
-If your content has view restrictions, it won't display for anyone who doesn't have permission to view it, neither in the content tree nor any macros.
-Unless someone else has specifically been given a link to your content, they won't know it exists.
-Exceptions:
-If someone has shared a link to a restricted content item or provided a link to it on another content item that
-can
-be viewed, the link will have the title of the content item as part of the URL. However, they won't be able to tell anything else about the content, including who created it, who has permission, or when it was updated.
-Organization admins on the Premium and Enterprise plans can view and change access to any content in Confluence with
-admin key
-.
-Give someone specific access
-To list a person or group with specific access, you’ll need to add a restriction to the general access of the content item, then add individuals or groups. (Teams are not supported in the unified sharing experience yet.)
-For example, in an “Open” state, you can change the permission for anyone in the space from “Can edit” to “Can view”. This will restrict who can edit the content item. In this state, you can then use the search bar to add people or groups to
-Specific access
-with “Can edit” permission.
-This is useful for content that should be distributed widely but only edited by a small team.
-Or you can set
-General access
-to “Restricted”. In this state, you can add people or groups to
-Specific access
-freely with “Can edit” or “Can view” permissions.
-When anyone can edit, no one can have specific access
-Individual people and groups only appear in the list with specific access when they have
-greater access
-than the
-General access
-setting.
-For example, if
-General access
-is set to Open > Anyone can view, anyone with
-Can edit
-will have greater access than the general access and therefore are notable to list in specific access.
-However, if
-General access
-is already set to Open > Anyone can view and edit, then there’s no greater access possible. Therefore, there is no relevant specific access to note.
-If you’re having trouble getting people the right access, see
-Troubleshoot access problems to content
-.
-Manage access requests
-Another way of giving people specific access is to take action on access requests to your content items. Individual users can ask to view content items they can’t view or edit content items they can’t edit.
-These requests will land in the
-Requests
-area with
-Share
-. There, owners of the content item, as well as any user who was permission to change access to the content item, can choose to Approve or Deny the request.
-If you select
-Approve
-, the user will be added to the specific access list with the indicated permission and they’ll get a notification that their request was approved.
-If you select
-Deny
-, the user’s request will be deleted from
-Requests
-for everyone. The requesting user will not be notified.
-Remove someone’s specific access
-Open
-Share
-on the desired content item.
-Find the person or group whose access you want to remove.
-Open their dropdown
-.
+Change profile picture
+from the dropdown menu
+Tap
+Upload a photo
+, then select the image you'd like to use
+Adjust the size and position of your photo, and tap
+Upload
+To remove your profile picture:
+Tap your profile picture at the right of the navigation, then select
+Profile
+Hover over your profile picture, then tap the camera icon that appears
 Select
 Remove
-.
-Make content private to only you
-If the content is in an Open > Can edit state, set
-General access
-to “Restricted” and select
-Save
-. This will remove access for everyone but you.
-If the content is already in a “Restricted state”, you can quickly clear the board and make the content private by selecting
-Remove all
-.
-If the content is in an Open > Can view state with multiple editors, set
-General access
-to Restricted and then select
-Remove all
-to remove everyone but yourself.
-Basically, if no one but you is listed in
-Specific access
-while
-General access
-is set to “Restricted”, then the content is private to you. If
-General access
-is set to Open or if other people are listed in
-Specific access
-, then the content is not private to you.
+from the dropdown menu
 Was this helpful?
 Yes
 No
@@ -622,22 +503,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Manage permissions at the content level
-Change who can find content and what they can do with it
-Confluence permissions structure
-Troubleshoot access problems to content
-What is a Confluence group?
+Manage your account
+Edit your profile
+Edit your user settings
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Show more
 On this page
-Who has access to your content?
-Who is “Anyone in this space”?
-Change general access
-What each general access state means
-How inherited restrictions work
-How restricted are restrictions?
-Give someone specific access
-Manage access requests
-Remove someone’s specific access
-Make content private to only you
+Find your profile
+Edit your profile
+Set your profile picture
 Community
 Questions, discussions, and articles
 Accessibility

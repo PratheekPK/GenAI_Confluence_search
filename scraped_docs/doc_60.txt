@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/watch-a-calendar/
+URL: https://support.atlassian.com/confluence-cloud/docs/subscribe-to-team-calendars-from-apple-ios-calendar/
 
-Watch a calendar | Confluence Cloud | Atlassian Support
+Subscribe to Team Calendars from Apple iOS Calendar | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,24 +443,111 @@ Extend the functionality of Confluence Cloud
 Use Team Calendars for Confluence (Premium feature)
 Cloud
 Data Center
-Watch a calendar
-Watching a calendar is a great way to stay up-to-date on changes made in the calendar, without necessarily adding it to your My Calendars page. When you watch a calendar, you'll be sent an email notification when any of the following events occur:
-A new event is created
-An existing event is edited
-An event is deleted
-The entire calendar is deleted
-When you watch a Confluence space, it includes watching all calendars in that space, so there's no need to manually watch calendars for your team or project.
-Watch a calendar
-To watch a calendar, choose
-to the right of a calendar name and select
-Watch
-. Notifications will be sent to your email address.
-Stop watching a Calendar
-If you want to stop watching a calendar (no longer want to receive email notifications about changes to the calendar), choose
-to the right of the calendar name and select
-Stop Watching
+Subscribe to Team Calendars from Apple iOS Calendar
+You can subscribe to Team Calendars from your iPhone or iPad device using the built-in Apple Calendar for iOS. This method may also work for other mobile calendar apps that support the ability to subscribe to calendar URLs.
+There are two ways to synchronize your calendar in iOS:
+Two-way sync
+(CalDAV) allows you to view and update Team Calendar events in iOS.
+Requires Team Calendars (available with Confluence Premium).
+One-way sync
+(iCal) allows you to view—but not update—Team Calendar events in iOS.
+Subscribe with two-way synchronization (CalDAV)
+Two-way synchronization allows you to view and update Team Calendar events in iOS.
+These instructions are for iPhone running iOS 14 or later. Your version may differ slightly.
+You will need the following:
+Confluence API token (this will be your password)
+Confluence Cloud server address
+Get your Confluence Cloud API token:
+Select your profile picture in the top nav >
+Settings
+Under
+YOUR SETTINGS
+, select
+Password
+In the
+API token
+section, select the link
+Create and manage API tokens
+Select
+Create API token
+Name your API token, select
+Create
+, and then select
+Copy
+(you won’t be able to copy this later)
+Get your Confluence Cloud server address:
+In the top nav, choose
+Apps > Calendars.
+Select the the More actions menu (
+) for your calendar in the side nav and choose
+Subscribe
 .
-If the menu says 'Watching', you're watching the calendar because you're either watching a page the calendar is embedded on or you're watching the related space for the calendar. To stop watching in this case, you'd need to stop watching the relevant page or space containing the calendar.
+In the
+Calendar app
+dropdown, select
+Apple Calendar (iOS)
+.
+If prompted, add the calendar to
+My Calendars
+. If you don’t add it to My Calendars, it won’t sync.
+Copy the
+server address
+.
+Because Apple Calendar supports calendar discovery, this will be your Confluence URL, not the URL of an individual calendar. You'll be able to choose which calendars (that you've added to My Calendars) to sync in the app.
+Subscribe to a Team Calendar in the Apple Calendar app on your iOS device:
+Go to
+Settings
+>
+Calendar > Accounts
+>
+Add account
+.
+Select
+Other
+>
+Add CalDAV account
+.
+Enter the
+server address
+you copied earlier from Confluence Cloud.
+In
+Username
+field, add the email account linked to your Confluence account.
+In the
+Password
+field, paste the API token you copied from Confluence Cloud.
+In the Apple Calendar iOS app, select
+Calendars
+and select the calendars you want to display.
+Subscribe with one-way synchronization (iCal)
+One-way synchronization means that you can view but not update Team Calendar events in your Apple Calendar iOS app.
+To subscribe with one-way synchronization:
+Open Confluence.
+In the top nav, choose
+Apps > Calendars.
+Select the the More actions menu (
+) for your calendar in the side nav and choose
+Subscribe
+.
+In the
+Calendar app
+dropdown, select
+iCal
+.
+Copy the
+server address
+.
+Open your Apple Calendar iOS app.
+Go to Settings > Calendar > Accounts > Add account.
+Choose Other > Add Subscribed Calendar
+.
+Paste the server address and select
+Next
+.
+Enter any other required information and select
+Save
+.
+You can now view (but not edit) Team Calendar events in Apple Calendar for iOS.
 Was this helpful?
 Yes
 No
@@ -473,15 +560,19 @@ The Atlassian Community is here for you.
 Ask the Community
 Use Team Calendars for Confluence (Premium feature)
 Show more
-Add reminders to events
-Embed calendars on Confluence content
-Watch a calendar
-Subscribe to Team Calendars from Apple Calendar
-Subscribe to Team Calendars from Thunderbird
+Subscribe to Team Calendars from Google Calendar
+Subscribe to Team Calendars from Microsoft Outlook
+Subscribe to Team Calendars from Apple iOS Calendar
+Export to other calendars
+Set system properties
 Show more
 On this page
-Watch a calendar
-Stop watching a Calendar
+Subscribe with two-way synchronization (CalDAV)
+Get your Confluence Cloud API token:
+Get your Confluence Cloud server address:
+Subscribe to a Team Calendar in the Apple Calendar app on your iOS device:
+Subscribe with one-way synchronization (iCal)
+To subscribe with one-way synchronization:
 Community
 Questions, discussions, and articles
 Accessibility

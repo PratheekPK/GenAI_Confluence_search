@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/pre-format-your-content-with-templates/
+URL: https://support.atlassian.com/confluence-cloud/docs/keyboard-shortcuts-markdown-and-autocomplete/
 
-Create templates, blueprints, and reports | Confluence Cloud | Atlassian Support
+Keyboard shortcuts and autocomplete | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,51 +439,68 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Create and organize work in Confluence Cloud
+Create and edit content
 Cloud
 Data Center
-Create templates, blueprints, and reports
-When you add new content, you don't have to start from scratch. Instead, you can base your new content on a template – with predefined content. Confluence Cloud comes with
-more than 70 templates
-to help you with everything from taking meeting notes to defining your business strategy. If that’s not enough, you’ll find more templates on the
-Atlassian Marketplace
-, and you can even
-create your own
+Keyboard shortcuts and autocomplete
+Want to be an absolute Confluence expert? Get to know the keyboard shortcuts and autocomplete, and in no time at all you won't even need to use a mouse or trackpad.
+We could give you a list here, but then you'd need to keep referring to this page. The best way to go is to show you how to find the list of keyboard shortcuts within Confluence.
+Keyboard shortcuts
+To view all Confluence keyboard shortcuts, do any of the following:
+Select the
+help icon
+from the navigation bar near your profile picture, then select
+Keyboard shortcuts
 .
-This section contains information on how to use content templates, as well as how
-space administrators
-can manage them for an individual space. For information on how to manage templates for your whole site, see
-Administering site templates
+When viewing a page or live doc, press
+shift
++
+?
+Press
+Ctrl + /
+(Windows) or
+command + /
+(Mac) when editing a page or live doc.
+While editing a page or live doc, select the
+from the bottom left corner of the screen.
+You'll see the available keyboard shortcuts, for your operating system, in Confluence.
+The keyboard shortcuts are organized into five distinct categories:
+General
+– This includes global shortcuts and content shortcuts that are applicable across all Confluence content.
+Formatting
+– Shortcuts designed specifically for formatting while in edit mode of live docs and pages.
+Navigation
+– Shortcuts for navigating within Confluence and across comments.
+Tables
+– Shortcuts tailored for use while editing tables in a live doc or page.
+Markdown
+– Shortcuts for Markdown that function while editing live docs and pages.
+Whiteboard
+– Shortcuts specifically for whiteboards.
+You can turn the General keyboard shortcuts off when you visit the
+General
+tab in the keyboard shortcuts dialog.
+Autocomplete
+Certain key combinations and markdown can be used to quickly change formatting, create lists, and add tables.
+Use keyboard shortcuts and markdown
+Select the
+menu at the bottom left of the page, and select
+Editing keyboard shortcuts
 .
-What’s the difference between a template and a blueprint?
-Blueprints are templates created by Atlassian or by third-party developers. From an end-user perspective, blueprints and templates are the same, but there are some important differences for administrators.
-Site administrators
-can:
-Install global blueprints from the
-Atlassian Marketplace
-Enable and disable global blueprints
-Edit existing global blueprints
-Promote and unpromote global blueprints
-Space administrators
-can:
-Enable and disable blueprints for the space they manage
-Edit blueprints to customize them for their space
-Promote and unpromote blueprints within their space
-Neither site administrators nor space administrators can create blueprints. However, they can
-create custom templates
-.
-Create a template
-Create custom templates to ensure that content on similar pages or other items is consistent.
-View topic
-Edit a template
-Edit an existing template to add or remove content.
-View topic
-Promote a template
-Promote useful or popular templates to make them easier to find.
-View topic
-Create a custom report
-Combine templates and macros to create custom reports in Confluence.
-View topic
+The shortcuts you see in the application depend on the operating system you use.
+Use the slash command
+The slash command opens a menu that contains the following:
+Tools from the toolbar like paragraph formatting and lists as well as adding links, images, mentions, emojis, tables, and layouts
+Elements like expands, dates, adding files, quotes, code snippets, and statuses
+Macros
+Custom apps
+The items available in the slash command list are exactly the same as the items seen when selecting
+from the toolbar.
+Open the autocomplete menu:
+Type / then the first few characters of the shortcut.
+Choose the shortcut from the list of suggestions.
+Some of the shortcut combinations require a space to be added afterward, like Action item and Decision.
 Was this helpful?
 Yes
 No
@@ -494,19 +511,19 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Create a template
-Edit a template
-Promote a template
-Create a custom report
-Space administration
+Create and edit content
 Show more
-Manage content in a space
-Remove a space
-Create templates, blueprints, and reports
-Manage team calendars
-Manage Questions for Confluence
+Create and manage layouts
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
 Show more
+On this page
+Keyboard shortcuts
+Autocomplete
+Use keyboard shortcuts and markdown
+Use the slash command
 Community
 Questions, discussions, and articles
 Accessibility

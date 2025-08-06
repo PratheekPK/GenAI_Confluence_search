@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/legacy-editor-content-in-the-cloud-editor/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-and-customize-a-company-hub/
 
-Legacy editor content in the cloud editor | Confluence Cloud | Atlassian Support
+Create and customize a Company Hub | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,49 +440,64 @@ Atlassian Support
 Confluence
 Resources
 Extend the functionality of Confluence Cloud
-Use macros to show Confluence content on pages and live docs
+Use Company Hub to deliver key information to employees
 Cloud
 Data Center
-Legacy editor content in the cloud editor
-The legacy content macro lets you keep incompatible legacy content on a cloud editor page. It supports a few of the macros and nested content configurations that aren’t available in the cloud editor.
-What's the legacy editor?
-The legacy editor was the original editing environment in
-Confluence Cloud
-, largely mirroring the Confluence server experience. Our cloud editor is now the default in
-Confluence Cloud
-and across Atlassian. While the legacy editor is no longer available for newly created pages, you can still view and edit older pages that were created in it. Pages migrated from Server or Data Center land in Confluence Cloud in legacy format.
-In June 2025, Atlassian
-announced the deprecation
-of the legacy editor. This will be a phased process beginning in January 2026. The means no new features are being implemented and we only fix bugs that are part of major incidents.
-Conversion from the legacy editor to the cloud editor
-You may have legacy editor pages if you have very old content or your organization migrated from Confluence Server or Data Center. These pages will still work, but they will have new features if you convert them to the cloud editor. The cloud editor offers new macros, an editing experience that looks like the published page, and features such as Atlassian Intelligence, collaborative editing, and smart links.
-When you edit a page that was created in the legacy editor, you have the option to
-convert the page to the cloud editor
-. If you choose to convert, most of your content will move seamlessly to the cloud editor.
-However, some legacy editor elements aren’t directly supported in the cloud editor. This content will be preserved inside the legacy content macro, which will be inserted into your page to contain the old elements. The conversion process will automatically place incompatible content inside one or more legacy content macros.
-In this example, a legacy page was converted to the cloud editor.
-During the conversion, this nested content was placed inside the legacy content macro. This allows the content to be edited and reconfigured without losing any data.
-The reason this content wasn’t supported was the use of nested macros. (In this case, the Column macro is inside the Section macro and the Section macro is inside the Panel macro.)
-This text (and only the text, not the entire element) can be copied from the legacy content macro to a table or layout outside the macro, delivering the intended visual design but taking advantage of the features of the cloud editor.
-Working with the legacy content macro
-Editing with the legacy content macro is similar but not identical to working in the legacy editor. Some macros may not work as expected because Confluence only provides support for the cloud editor.
-Additional limitations:
-Unsupported content – such as nested macros or entire legacy macros – can’t be copied and pasted outside the legacy content macro. You can only copy the text.
-Atlassian Intelligence (AI) features like summarize will ignore all the text inside certain blocks inside the legacy content macro.
-Smart links will render as plain URL inside the legacy content macro.
-Anyone reading your page will not be able to add an inline comment to content inside the legacy content macro.
-You also will not be able to add your own legacy content macro into the cloud editor – it is only used by Confluence’s automatic page conversion process.
-Collaborative editing:
-Because your new page is a cloud editor page, more than one person can edit it at the same time. However, using collaborative editing with the legacy content macro could cause unpredictable results, including loss of data. Make sure only one person is editing before you publish.
-Undo the conversion to cloud editor
-If you need to undo the conversion from the legacy editor to the cloud, you can restore a previous version of the page. Any changes made after the conversion will not be preserved. To restore an old version, select the
-More actions (…)
-menu, then
-Version history
-. Select the version
-before
-the comment “Version published after converting to the new editor” and select
-Restore
+Create and customize a Company Hub
+This feature is only offered with
+Confluence Cloud Premium and Enterprise
+.
+With
+Company Hub
+, you can create and customize a beautiful company-wide information central. This is where all employees can go for up-to-date announcements, news, verified resources, and more.
+An inviting and up-to-date
+Company Hub
+can help close communication gaps and promote productivity and collaboration by connecting teams, content, and resources in one central place.
+You can craft a Hub that looks and feels like your company’s go-to destination by adding a custom name along with image carousels, visual cards, quick links, a menu of important links, and more with ease.
+Set up your hub
+Only app and site admins can see and set up this feature, unless they choose to delegate additional editors to assist them in setting it up. App admins, site admins, and anyone else with hub-specific edit permissions can start setting up their Hub by selecting
+Company Hub
+from the
+sidebar
+.
+Until your hub has been activated upon being published for the first time, only those with hub-specific edit permissions can see or access it.
+Choose a name
+To get started, choose a unique name for your
+Company Hub
+.
+This name will be visible to everyone from the navigation bar, and when visiting the hub itself.
+You can opt to change this name later on, or not name your hub at all.
+Feel free to get creative and playful with your Company Hub name and use it to express your organization’s culture and values. Names that are unique and memorable are more likely to attract an audience.
+Customize your Company Hub
+After naming, a helpful starter template will appear.
+You can select
+Edit
+(
+) to customize this template, or start from scratch if desired, to make a hub that perfectly suits your company’s needs and preferences.
+Taking your Company Hub to the next level
+Here are some ways to design an amazing Company Hub that will drive employee engagement and get the word out about important internal information.
+From the top: Important links available any time
+Add a
+Links menu
+to the top with your most important evergreen content. You can organize the menu into categories and provide links to any internal or external URL. Frequently accessed content such as employee or team directories, major departments, or employee resources like benefits can be added in a prominent location at the top of the Hub.
+Catch the eye: Use a compelling image to spotlight key messages
+Next, add a
+Spotlight
+element. Spotlights can present a large message with a colorful background and either a short message or a link to longer content. Call attention to key messages by presenting Confluence, Jira, and Atlas links or external URLs as large presentation pieces. Craft your messaging and add upload an image or choose one from our library.
+Stack the deck: Cards provide visual interest to your content
+Display links to Confluence, Jira, Atlas, or external URLs with a visual flare. A set of
+cards
+lets you add images, a short description, and an outbound link for any content. You can set up manual cards with specific you choose or dynamic cards that populate based on your set of filters.
+Looking for some inspiration on what to include in your hub?
+Give these ideas a try:
+Employee kudos section
+Team celebrations
+Executive leadership update
+New hire onboarding guide
+Benefits policy quick links
+Manage hub settings
+App admins have default edit permissions for the hub. They can add other editors in
+Company Hub settings
 .
 Was this helpful?
 Yes
@@ -494,17 +509,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use macros to show Confluence content on pages and live docs
+Use Company Hub to deliver key information to employees
+Create and customize a Company Hub
+Manage your Company Hub
+Set up a menu of important links on Company Hub
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
 Show more
-Insert the related labels macro
-Insert the spaces list macro
-Insert the task report macro
-Insert the user profile macro
-Legacy editor content in the cloud editor
 On this page
-Conversion from the legacy editor to the cloud editor
-Working with the legacy content macro
-Undo the conversion to cloud editor
+Set up your hub
+Choose a name
+Customize your Company Hub
+Taking your Company Hub to the next level
+From the top: Important links available any time
+Stack the deck: Cards provide visual interest to your content
+Manage hub settings
 Community
 Questions, discussions, and articles
 Accessibility

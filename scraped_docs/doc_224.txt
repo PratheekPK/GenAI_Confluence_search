@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/comment-on-pages-and-blog-posts/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-cheese-macro/
 
-Comment on pages, live docs, whiteboards, and blog posts | Confluence Cloud | Atlassian Support
+Insert the cheese macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,132 +439,49 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Collaborate on content and get notified in Confluence Cloud
-Collaborate on content
+Create and organize work in Confluence Cloud
+Review macros only available in the legacy editor
 Cloud
 Data Center
-Comment on pages, live docs, whiteboards, and blog posts
-Comments are a great way to start a conversation about a page, live doc, or other piece of content. They allow you to remark on content, add important information, ask questions, and generally drive collaboration and teamwork by bringing others into the conversation
-You can add comments in different places depending on the type of feedback you have:
-General comments — added at the broader doc or page level, below the content of the page, live doc, or blog post you are viewing or within the comments panel; good for comments that apply to the content as a whole
-Inline comments — added to a highlighted section of the page, doc, or post you are editing or viewing; good for targeted comments on a specific word, phrase or section
-Add a general comment
-Comments can be added at the page, doc, or blog post level.
-Enter your comment in the comment field at the bottom of the screen, or the bottom of the comments panel that is accessed from the floating action bar at the bottom right of your screen.
-By default,
-Watch this content
-is selected. This means you'll start receiving
-notifications
-about the content. Clear the checkbox if you don't want to
-watch the content
-.
-Select
-Add
-(Ctrl+S or ⌘+S)
-Other users can reply to and/or react to your comment. You or a space administrator can edit your comment(s).
-Add inline comments
-You can add inline comment by highlighting text on a page, blog post, or doc or by hovering over a section.
-To add an inline comment by highlighting:
-Highlight the text you want to comment on
-Select
-Comment
-from the floating toolbar that appears above the highlighted text
-Enter your comment and select
-Add
-(Ctrl+S or ⌘+S)
-If you add a comment while editing a page, the comment is only visible to others editing the page, and it doesn’t appear to viewers or trigger relevant notifications until the page is published.
-Images can be added to inline comments, but only by those with edit access to the page.
-Add inline comments to images and videos
-You can add inline comments to both images and videos that you have added to your page or doc.
-When editing:
-Select the image or video
-Select the
-Comment
-button in the toolbar
-Enter your comment and select
-Add
-(Ctrl+S or ⌘+S)
-When viewing:
-Hover over the image or video
-Select the
-Comment
-button that appears
-Enter your comment and select
-Add
-(Ctrl+S or ⌘+S)
-Add inline comments to whiteboards
-Comments are a great addition to collaboration on whiteboards. You can use comments to give feedback, ask questions, or leave notes throughout the board.
-To add a comment:
-Select
-Comments
-from the toolbar or press
-C
-to enter comment mode.
-Select where you want to place the comment. The comment window will open.
-Enter your comment and select
-Save
-(Ctrl+S or ⌘+S)
-View inline comments
-After an inline comment is added to a page or doc, the selected text will be highlighted in yellow; select any highlighted text to display the related comment(s).
-If an inline comment is added to an image or a video, a small icon is shown in the top right corner of the image; select the icon to display the related comment(s).
-When you and your team add comments to a whiteboard, they're displayed on the canvas in the regions or locations they were added to. You can view and reply to them right from the canvas. You can also view and manage comments from the comment sidebar when you enter comment mode.
-Just like page, doc, and blog post comments, others can reply to, or like, your inline comments, and you'll be notified when they do.
-Review all comments in a single panel
-To review, triage, and interact with all comments - both inline and general - added to a page or live doc in a single panel, select
-Show comments
-from the floating action bar on the bottom right of the screen.
-To filter and sort what appears in your panel, select
-Filter and sort
-from the top right of the panel. There you can filter to show only unread comments, only resolved comments, or all open comments (including unread ones).
-Comments can be sorted from top to bottom (in order that they’ve been added to the content) or newest to oldest. Lastly, you can opt to only display general comments and hide all inline comments.
-Resolve inline comments
-Inline comments have a time and place during the lifecycle of your content. Once the feedback has been read and implemented, keeping those highlighted sections around may no longer add value.
-You can resolve an inline comment whether you are editing or viewing content to remove the highlight. The option to resolve is available when viewing the initial inline comment only; you can’t resolve a reply to an inline comment.
-See all the resolved comments, filter for
-Resolved
-from the comments panel.
-To reopen a resolved comment, select the green
-Reopen
-check to the right of the comment.
-If an inline comment was added and resolved during a single editing session, only people who can edit the page can see the comment in the list of resolved comments. This stealthy way of commenting behind the scenes is a great way to collaborate on content without involving those with view-only access.
-Rich comments
-Inline and general comments might look simple, but they support rich text (like
-bold
-,
-underline
-, and
-italics),
-bulleted and numbered lists,
-links and anchors
-, and
-@mentions
-. You can also drop images into any comment to really illustrate your point.
-Link to a comment
-You can link directly to an inline comment or a general comment by copying the link to it.
-Hover over the timestamp and a link icon appears.
-Select the link to copy the comments location to your clipboard.
-Paste that link to share that location with someone else.
-Comment permissions
-Administrators of a space have the option to turn off commenting entirely.
-If comments are allowed in a space:
-you can add comments in a space.
-you can edit the comments you added.
-you can delete your own comments, but only if there are no replies to your comment.
-Whether deleting your own comment or a comment from someone else, keep in mind that deleted comments can’t be restored.
-Space admin controls
-There is no permission that controls comments across the entire site, but
-space admins
-can:
-edit any comments in their space. The timestamp on a comment always indicates when the comment was last edited.
-delete any comments in their space and give other people the power to remove comments with the 'Remove Comments' permission.
-prevent comments from being created in their space by removing the 'Add Comments' permission from the 'confluence-users' or 'users' groups, and also the anonymous users and all other users and groups.
-Select
-Watch settings
-from the
-More actions
-(…) menu to receive an email notification whenever anyone edits or adds a comment to content.
-On blog posts only, an AUTHOR lozenge will appear on any comments made by the original author of the post.
-It's not possible to delete all comments on a page simultaneously, or change the order of comments.
+Insert the cheese macro
+In June 2025, Atlassian announced the upcoming
+deprecation of the legacy editor
+as well as
+information about converting
+to the cloud editor.
+Before the deprecation begins in January 2026, this macro will still work. See our
+article on legacy editor macros
+for more.
+The Cheese macro simply displays the words "I like cheese!" You can use this macro to test the Confluence macro functionality.
+To add the Cheese macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+To edit the Cheese macro:
+Select the macro placeholder.
+Select the Edit
+icon
+to open the configuration panel.
+Configure the parameters. Your changes are saved as you go.
+Resume editing the page, and the panel closes.
+You can also select the centered
+, medium-width
+, and full-width
+icons to adjust the width of some macros. Select the trashcan icon
+to remove the macro.
+There are no parameters for this macro.
+Wiki markup example
+Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
+Macro name:
+cheese
+Macro body:
+None.
+Parameters:
+None
+{cheese}
 Was this helpful?
 Yes
 No
@@ -575,26 +492,6 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Collaborate on content
-Show more
-Mention a person or team
-Share Confluence content
-Comment on pages, live docs, whiteboards, and blog posts
-Watch pages, live docs, spaces, whiteboards, and blogs
-Add people to Confluence from Google, Slack, or Microsoft
-Show more
-On this page
-Add a general comment
-Add inline comments
-Add inline comments to images and videos
-Add inline comments to whiteboards
-View inline comments
-Review all comments in a single panel
-Resolve inline comments
-Rich comments
-Link to a comment
-Comment permissions
-Space admin controls
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-status-macro/
+URL: https://support.atlassian.com/confluence-cloud/docs/database-impact-on-third-party-apps/
 
-Insert the status macro | Confluence Cloud | Atlassian Support
+Database impact on third-party apps | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,85 +440,26 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Review macros only available in the legacy editor
+Create and edit databases
 Cloud
 Data Center
-Insert the status macro
-In June 2025, Atlassian announced the upcoming
-deprecation of the legacy editor
-as well as
-information about converting
-to the cloud editor.
-Before the deprecation begins in January 2026, this macro will still work. See our
-article on legacy editor macros
-for more.
-Use an updated version of
-status
-in the cloud editor.
-The Status macro displays a colored lozenge (a rounded box) that is useful for reporting project status. You can choose the color of the lozenge and the text that appears inside the lozenge. The macro also displays its current status in the editor, and you can change the status directly in the editor.
-Using the Status macro
-To add the Status macro to a page using the Macro Browser:
-When editing, select
-from the toolbar
-Find the macro by name and select it
-Configure it as needed
-You can also type / on the page to bring up the same list you'd see by selecting
-from the toolbar. Continue typing the name of the macro to filter the list.
-Speeding up macro entry with
-autocomplete
-:
-In the new editor
--
-Type / and the beginning of an element (tool or things in the insert menu) to see a list of suggestions.
-In the legacy editor
--
-Type { and the beginning of the macro name to see a list of suggested macros.
-To edit an existing macro:
-Click the macro placeholder and choose
-Edit
-. A macro dialog window will open, where you can edit the parameters of the macro.
-Parameters
-Parameters are options that you can set to control what and how content from the macro appears on a page or live doc.
-If the parameter name used in
-Confluence Cloud
-storage format is different than the label used when inserting macros using the browser or the slash command, it will be listed below in brackets (
-example
-).
-Parameter
-Default
-Description
-Color
-(colour
-)
-Grey
-The color of the lozenge. The following colors are available:
-Grey
-,
-Red
-,
-Yellow
-,
-Green
-and
-Blue
+Database impact on third-party apps
+Databases aren’t available in the
+Atlassian Government environment
 .
-Title
-(title
-)
-The color that you select.
-The text that will appear inside the lozenge. If you do not specify any text, the title will be the color of the lozenge, that is 'Grey', 'Red', 'Yellow', 'Green' or 'Blue'.
-Use outline style
-(subtle
-)
-False
-The style of the lozenge and its border. The default style lozenge is a solid background color with white text. The outline style lozenge is white with a colored border and colored text.
-Wiki markup example
-Wiki markup is useful when you need to add a macro outside the editor, for example as custom content in the sidebar, header or footer of a space.
-Macro name:
-status
-Macro body:
-None.
-status:colour=Green|title=On track|subtle=true}
+With the introduction of databases, some third-party apps on Confluence may experience partial disruptions. Our team is working closely with app developers to address any known issues. Below is the list of affected third-party apps and their current status:
+Application
+Status
+Scroll PDF Exporter
+Partial Impact (mitigation* enabled)
+Scroll Documents
+Partial Impact (mitigation* enabled)
+Advance Tables for Confluence
+Partial Impact (mitigation* enabled)
+ViewTracker - Analytics for Confluence
+Partial Impact (mitigation* enabled)
+*Mitigation ensures that the app continues to run smoothly for existing pages by essentially ignoring databases in the content tree. Once app developers update the app to handle databases properly, this mitigation will be disabled.
+This article will be updated as progress is made.
 Was this helpful?
 Yes
 No
@@ -529,10 +470,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-On this page
-Using the Status macro
-Parameters
-Wiki markup example
+Create and edit databases
+Show more
+Lock your database structure
+What Confluence databases don't support
+Database impact on third-party apps
+Database version history
+Perform simple calculations on your data
 Community
 Questions, discussions, and articles
 Accessibility

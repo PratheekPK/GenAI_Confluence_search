@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-add-visuals-and-images-to-confluence-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/change-the-look-and-feel-of-confluence-cloud/
 
-Use macros to add visuals and images to Confluence pages | Confluence Cloud | Atlassian Support
+Look and feel settings in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,27 +439,41 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Confluence administration
 Cloud
 Data Center
-Use macros to add visuals and images to Confluence pages
-Insert the chart macro
-Display a chart (pie, bar, line, or area) based on data you added to a table.
+Look and feel settings in Confluence Cloud
+You can change the appearance, or look and feel of
+Confluence Cloud
+for the whole instance (globally) or for individual spaces.
+Changes you make to the whole instance will also apply to all spaces that are inheriting the global look and feel.  Users with space administrator permissions can further customize the appearance of a space and override the global look and feel for that space. See
+Customize your space
+for more.
+Ways to customize the look and feel of Confluence:
+Add your own logo. See
+Change your site and space logos
+.
+Change the
+color scheme
+of the user interface. See
+Customize the navigation colors
+.
+Use
+themes
+for advanced layout customization. See
+Install a theme
+.
+Install a theme
+Download and install themes for your site from the Atlassian Marketplace.
 View topic
-Insert the iFrame macro
-Preview website content on your page or live doc.
+Set the default theme
+Set the default layout and colors of your Confluence instance.
 View topic
-Insert the roadmap planner macro
-Create simple, visual timelines that are useful for planning projects, software releases, and much more.
+Customize the navigation colors
+Change the colors of your Confluence navigation background and Create button.
 View topic
-Add a trio of dynamic frames to your content with Carousel
-Add a rotating carousel of interactive frames to elevate your page or live doc.
-View topic
-Display beautiful, dynamic content on your page or live doc with Cards
-Add interactive visual cards to elevate your page or live doc. Select specific links or set up dynamic filters to update your cards automatically.
-View topic
-Insert the expand macro
-Use the expand macro to create a collapsible container for text.
+Change your site and space logos
+Upload site and space logos or set a new favicon for your instance.
 View topic
 Was this helpful?
 Yes
@@ -472,19 +486,17 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Explore more
-Insert the chart macro
-Insert the iFrame macro
-Insert the roadmap planner macro
-Add a trio of dynamic frames to your content with Carousel
-Display beautiful, dynamic content on your page or live doc with Cards
+Install a theme
+Set the default theme
+Customize the navigation colors
+Change your site and space logos
+Confluence administration
 Show more
-Extend the functionality of Confluence Cloud
-Show more
-Use macros to add navigation on Confluence pages
-Use macros to add reporting info to Confluence pages
-Use macros to add visuals and images to Confluence pages
-Use gadgets to add dynamic content
-Use Questions for Confluence
+Configuration settings in Confluence Cloud
+Security settings in Confluence Cloud
+Look and feel settings in Confluence Cloud
+Data management in Confluence Cloud
+Atlassian Marketplace apps
 Show more
 Community
 Questions, discussions, and articles

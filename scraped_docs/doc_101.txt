@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/whiteboard-history/
+URL: https://support.atlassian.com/confluence-cloud/docs/available-markdown-commands/
 
-Whiteboard version history | Confluence Cloud | Atlassian Support
+Available markdown commands | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,28 +440,64 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Create and edit content
 Cloud
 Data Center
-Whiteboard version history
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-Version history is useful for viewing recent changes, especially on whiteboards with many collaborators. You can also restore a previous version of a whiteboard.
-To restore a version of a whiteboard:
-Go to the whiteboard and select
+Available markdown commands
+You can use markdown to quickly format text in the
+Confluence Cloud
+editor. The table below lists common markdown shortcuts and what they do.
+Format
+Markdown shortcut
+Bold
+**Bold**
+Italic
+*Italic*
+Strikethrough
+~~Strikethrough~~
+Code
+`Code`
+Heading 1
+#
+Space
+Heading 2
+##
+Space
+Heading 3
+###
+Space
+Heading 4
+####
+Space
+Heading 5
+#####
+Space
+Heading 6
+######
+Space
+Numbered list
+1.
+Space
+Bulleted list
+*
+Space
+Quote
 >
-History
-from the top right.
-Select a version to view it.
-Select
-Restore as new whiteboard
-.
-Restoring an old version of a whiteboard does not delete the current version or versions that come after it. Confluence creates a copy of the old version as a new whiteboard.
-Since restoring an old version creates a new whiteboard, it will count towards your plan limit.
-Review Confluence whiteboards plan limits
-. Alternatively, you can copy content from an old version and paste it in an existing whiteboard instead.
-Whiteboard history is only available for the past 30 days. Any whiteboards created before history was made available may not show the full history.
+Space
+Code snippet
+```
+Space
+Divider
+---
+Space
+Link
+[Link](http://a.com)
+Action item
+[]
+Space
+Decision
+<>
+Space
 Was this helpful?
 Yes
 No
@@ -472,13 +508,14 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Create and edit content
 Show more
-Atlassian Intelligence in Confluence whiteboards
-Draw freeform lines with pen
-Private mode in whiteboards
-Voting in whiteboards
-Whiteboard version history
+Use symbols, emojis, and special characters
+Keyboard shortcuts and autocomplete
+Available markdown commands
+Simplify data with tables
+Charts and connected data
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

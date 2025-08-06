@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-a-confluence-cloud-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/advanced-pdf-export-customizations/
 
-Import a Confluence Cloud space | Confluence Cloud | Atlassian Support
+Advanced PDF export customizations | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,108 +439,147 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
-Data management in Confluence Cloud
+Space administration
+Set space-specific functionality
 Cloud
 Data Center
-Import a Confluence Cloud space
-This document is specific to importing a Confluence space from one cloud site to another cloud site. To migrate a space from Confluence Data Center to a cloud site, we recommend using the
-Confluence Cloud Migration Assistant
+Advanced PDF export customizations
+This page provides information about 'advanced' PDF export customizations. These expand upon the regular customizations described in
+Customize exports to PDF
 .
-For instructions on how to migrate an entire cloud site, see
-Migrate a Confluence Cloud instance or merge instances from multiple sites
-.
-To learn about importing user accounts, which lets you give users app access and add them to groups, read the Confluence section of
-Determine your user migration strategy
-. To integrate an existing G Suite user directory, see
-Integrate with G Suite
-.
-On this page, the terms 'source Confluence site' or 'source site' are used to mean the cloud site that Confluence Cloud data is being copied from.
-Before you start
-If your site also has Jira, you can link a Confluence space to a Jira project when importing a space by selecting the project from the
-Link to Cloud project
-dropdown on the import screen.
-Importing or migrating your Jira project
-If you are also importing or migrating a Jira project that is linked to your Confluence space, complete the Jira import
-before
-you import your Confluence space. This is so that Confluence can update any Jira macros to pull the Jira data from the new location.
-Changing space keys
-App admins can
-change space keys
-. If it is important to you to have a different space key, you can a;sp choose to create a new space with a different key, move your pages into that space, and then import the new space.
-The space importer does not overwrite existing spaces, so if your Confluence instance already has a space with the same space key as a space you are trying to import, Confluence will not be able to import that space.
-This applies to all space types, including personal spaces.
-Export the Confluence Cloud space content from the source site
-You must be the space admin to export.
-We can’t currently export databases
-They will appear in the tree when exported but won’t retain their content, data, or functionality.
-To export the space you want to copy:
-Go to your source site and select the
-Confluence Cloud
-space.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Open the
-General
-menu
-, then select
-Export space
-.
-This option will only be visible if you have the Export space permission.
-Only content that is visible to you will be exported except if you are a site admin, in which case all content will be exported.
-Select
-CSV
-and select
-Next.
-For detailed instructions, please refer to
-Export Content to Word, CSV, PDF, HTML and XML
-.
-If you're using a Mac to download the CSV export of a space, OS X may unzip the backup, place the unzipped folder in your downloads folder, and put the zipped backup in the trash. In this case, you should retrieve the zip from the trash and upload it to be imported into Confluence.
-If you try to upload the unzipped folder, you won't be able to successfully import and you'll get an error saying that Confluence can't find the
-exportDescriptor.properties
-file.
-Import the space content to the destination site
-You must be a site admin to import spaces.
-We can’t import whiteboards or databases
-Whiteboards and databases imported in this space won’t retain their content, data, or functionality.
-If you aren’t already there, go to your
-Confluence Cloud
-instance.
-Select the wheel icon (
-) in the top-right corner to open Confluence administration.
-Find
-Settings
+The information below is for advanced users. Be aware that the advanced customizations described below require knowledge of certain parts of Confluence, and of CSS and HTML. Customizations are not supported by Atlassian, so our support engineers won't be able to help you with these modifications.
+Header and footers
+Adding headers and footers to single page exports
+Single page exports don't support
+adding HTML headers and footers via the PDF export page
+, but you can use CSS rules in the PDF stylesheet field (found within
+Space Settings
 >
-Data management
-in the left-hand navigation.
-Select
-Import spaces
+PDF export
+in the Look and feel card) to produce headers and/or footers for a single page export.
+For custom headers, define any of the following rules within your
+@page
+rule:
+@top-left
+,
+@top-center,
+and
+@top-right
+. These rules allow you to define the
+content
+of the left-hand side, center and right-hand side of your page's header area, respectively.
+For custom footers, define
+@bottom-left
+,
+@bottom-center
+and
+@bottom-right
+rules within your
+@page
+rule.
+For example, the following rules add a document title at the center of the header and a page number at the center of the footer:
+CSS - PDF Stylesheet
+@page
+{
+@top-center
+{
+content: "Document Title Goes Here"; /* This is the content that will appear in the header */
+font-family: ConfluenceInstalledFont, Helvetica, Arial, sans-serif;
+font-size: 8pt;
+}
+@bottom-center
+{
+content: "Page " counter(page); /* This is the content that will appear in the footer */
+font-family: ConfluenceInstalledFont, Helvetica, Arial, sans-serif;
+font-size: 8pt;
+}
+/* Any other page-specific rules */
+}
+Notes:
+The
+font-family
+and
+font-size
+properties ensure that the header and footer text is rendered in the same default font style used for the body text, based on the default CSS rules.
+It is not possible to use this method to insert images (stored as attachments within your Confluence instance) into the headers and footers of single page exports.
+Adding images to headers and footers
+To insert an image into the header or footer, add HTML to the Header or Footer fields of the PDF Layout.
+The following example uses an HTML
+img
+element with
+src
+attribute to add an image to the left of the header. The
+src
+attribute refers to an image attached to a Confluence page. The image element is usually placed within a
+div
+element container.
+HTML - PDF Layout: Header
+<div style="width: 100%; text-align: right; margin-left: 0.5in; font-size: 10px; height: 20px; overflow: hidden;">
+<img src="https://confluence.atlassian.com/download/attachments/12346/header-image.png" style="height: 50px;" />
+</div>
+In the example above, the header includes an image called 'header-image.png'. The "12346" in the
+src
+attribute is the ID number of the page to which the image is attached.
+Follow these instructions to include an image on your page or live doc:
+Attach the image to a Confluence page or live doc.
+View the list of attachments on that page or doc, then right-click the image and copy its location.
+Paste the link into the appropriate
+src=""
+attribute in your PDF Stylesheet, as shown above.
+Edit the image URL so that it is relative, by removing the first part of the URL before
+/download/...
 .
-Specify your file using
-Browse
+Notes:
+This example uses an inline CSS property
+margin-top
+in the
+style
+attribute to force the image away from the top of the page by 10mm. This comes in handy when your header image is large enough to touch or spill over the top of the page.
+Likewise, for footers, you can use the
+margin-bottom:XXmm
+property to force an image away from the bottom of the page by 'XX' mm.
+Very large images can spill over into the body of a page or alter the position of text or other elements used within a header or footer. In such situations, it is recommended that you reduce the size of the image and then attach it to your Confluence page again. If you prefer to keep the image size and want to move the content lower instead, you can do so by configuring the
+margin-top
+properties in the
+@page
+CSS rule.
+By default, a header or footer image is aligned to the left-hand side of the page. However, you can align this image to the center or right-hand side of a page by adding either the
+text-align:center
+or
+text-align:right
+properties to your
+style
+attribute. For example, to align the header image to the right-hand side of the page, your
+style
+attribute would look similar to this:
+style="margin-top:10mm; text-align:right"
 .
-If you're using Jira Cloud, you can also specify the Jira project you'd like to link to this space.
-Select
-Import.
-Imported spaces will be found under the spaces menu: Spaces >> View all spaces.
-If you're importing more than one space, once the first import has been completed, you can click
-Import another space
-and repeat as often as necessary until all your spaces have been imported.
-This procedure will not import:
-user accounts, meaning it doesn't give users app access or add them to any groups. It will, however, import some user data connected to the spaces you're importing. This is to make sure that mentions, comments, and page history stay active. User data that will be imported includes:
-full name
-username (discarded after importing)
-email address
-any groups.
-Any permissions settings (space or page) associated with groups will be lost during import, unless a group with the same name already exists in the destination site. To maintain your groups' permissions settings, make sure all your groups have a corresponding group with the same name that already exists in the destination site
-before importing the space
-. An easy way to do this is to first import users and groups,
-then
-import any spaces.
-If you have exported a space that was using the documentation theme, make sure you make a note of any wiki markup customizations you may have made to the theme, as these will not be automatically applied to the default theme when the space is imported.
+Adding a dynamic title to the title page
+When you export an arbitrary set of pages or docs from Confluence, you may like to have a corresponding title added to the cover (or title) page automatically. This can be done (in a somewhat irregular way) by using the top level item from the default table of contents as the title. This method relies on having the exported pages structured as sub-pages of the top-level page. In other words, the pages to be exported should consist of a page (at the top-level) and all of its child pages. The result is that the title that appears on the cover page changes depending on the top-level page that is used for the export.
+The CSS below moves, and styles, the top-level TOC item for use as the title on the cover page, and turns off the leader and page number normally associated with this item in the TOC.
+CSS - PDF Stylesheet
+.fsTitlePage {
+position: relative;
+left: 0px;
+}
+/* Turn off the default section numbering for this TOC item */
+.toclvl0:before {
+content: "";
+counter-reset: chapter 0; /* Ensure there's a parent element with a counter for this to work */
+}
+/* Hide the default page numbering for this TOC item */
+.toclvl0 .tocnum {
+display: none;
+}
+/* Move and style this TOC item */
+.toclvl0 {
+position: absolute;
+top: 250px;
+font-size: 42px;
+font-weight: bold;
+margin: 72px 0 4px 0;
+text-align: center;
+}
 Was this helpful?
 Yes
 No
@@ -551,17 +590,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Data management in Confluence Cloud
-Import a Confluence Cloud space
-Export a data backup file of your instance
-Migrate a Confluence Cloud instance or merge instances from multiple sites
-Migrate from Confluence Cloud to Data Center
+Set space-specific functionality
+Additional PDF export settings
+Advanced PDF export customizations
+Set a default classification level for content
 On this page
-Before you start
-Importing or migrating your Jira project
-Changing space keys
-Export the Confluence Cloud space content from the source site
-Import the space content to the destination site
+Header and footers
+Adding headers and footers to single page exports
+CSS - PDF Stylesheet
+Adding images to headers and footers
+HTML - PDF Layout: Header
+Adding a dynamic title to the title page
+CSS - PDF Stylesheet
 Community
 Questions, discussions, and articles
 Accessibility

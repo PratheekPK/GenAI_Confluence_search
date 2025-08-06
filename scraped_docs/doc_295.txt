@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-a-template-to-get-started-fast/
+URL: https://support.atlassian.com/confluence-cloud/docs/import-data-into-your-database/
 
-Use a template to get started fast | Confluence Cloud | Atlassian Support
+Import data into your database | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,33 +440,73 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Create and edit databases
 Cloud
 Data Center
-Use a template to get started fast
-Whiteboards aren’t available in
-Atlassian Government environments
+Import data into your database
+Databases aren’t available in the
+Atlassian Government environment
 .
-Use templates to create whiteboards with useful pre-populated content. We offer a number of best-practice templates from the
-Atlassian Team Playbook
-that you can use to speed up your workflow.
-We have templates for use cases:
-brainstorming
-planning and strategy
-diagramming
-team building
-practicing agile
-There are two ways to access templates,
-1.  When creating a
-new
-whiteboard, you will be prompted to select a template from the template picker to get started. Hover over the template you wish to use and select ‘
-Use template
-’.
-2. To add a template to an
-existing
-whiteboard, select the template icon in the right side toolbar to open up the template picker. Hover over the template you wish to use and select ‘
-Use template
-’.
+Importing data into your database is a straightforward process. This guide will help you through each step, from uploading your content to fine-tuning the imported entries.
+Upload content into your database
+There are three main ways to upload structured content into your database:
+Copy and paste
+:
+Directly copy the content from a database and paste it into another database.
+Connect:
+Select the
+Templates and import
+option
+in the
+•••
+(More) menu of your database. This will open the
+Database setup
+panel. Under the
+Connect
+heading, you’ll see options for connecting to Jira or Confluence.
+Using these options, you can import Jira issues or Confluence pages directly into your database. This will replace the current database, removing any fields and values in it.
+Import
+:
+Select the
+Templates and Import
+option of your database. This will open the
+Database setup
+panel.
+Under the
+Import
+heading, you can upload files in CSV format.
+Setting up your database structure
+When using the
+Import
+option, you can either let the imported data match your pre-configured database structure, or let the imported file set your initial database structure through automatic detection of field types and headers.
+If you are importing to an empty database, the imported content will replace the existing database once you upload your file.
+If you are importing to a non-empty database, you’ll see an additional dialog step with three options:
+Create new fields in this database
+: Values will be added as new fields to the right and bottom of the existing data, offering flexibility to compare the new data side-by-side with existing data or re-arrange the new data.
+Add data to existing fields
+: Opens an additional dialog step where you can manually match columns from your CSV to existing fields in your database.
+Replace the entire database
+: Replace all existing values and fields from your csv data.
+Once you make a selection, select
+Confirm
+to apply the changes to your database.
+Fine-tune imported data
+If you opt to
+create new fields in this database
+or
+replace the entire database,
+the import process will automatically detect field types for numbers, tags, and Smart Links, defaulting to text.
+Importing larger CSVs will result in a more accurate conversion for the tag field.
+The first row of the CSV will be used as field names, using default field names for any empty values and renaming duplicates as needed.
+After import, you can further modify your database structure:
+Use the field settings panel to convert field types, rename your field, or otherwise change field settings.
+Use copy/paste to re-arrange the data.
+Delete content as you see fit.
+By following these steps, you can efficiently import and integrate data into your database.
+Note:
+String fields in CSV may get converted to tag fields. This generally happens if most of the values in CSV are non unique.
+Confluence databases assume month comes first for dates, so 12/06/2025 will be treated as December 6, 2025 rather than Jun 12, 2025.
+We do not support date field through autoconversion/autodetection.
 Was this helpful?
 Yes
 No
@@ -477,14 +517,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
+Create and edit databases
 Show more
-Add and edit images on whiteboards
-Add the feels with stamps and stickers
-Use a template to get started fast
-Keep on track with the timer
-Hide collaborator cursors
+Sort fields
+Hide fields in your database
+Import data into your database
+Export your database data
+Duplicate a database setup
 Show more
+On this page
+Upload content into your database
+Setting up your database structure
+Fine-tune imported data
 Community
 Questions, discussions, and articles
 Accessibility

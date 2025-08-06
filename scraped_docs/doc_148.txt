@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-and-edit-text-on-whiteboards/
+URL: https://support.atlassian.com/confluence-cloud/docs/admin-settings-for-questions-for-confluence/
 
-Add and edit text on whiteboards | Confluence Cloud | Atlassian Support
+Admin settings for Questions for Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,76 +439,24 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit whiteboards
+Extend the functionality of Confluence Cloud
+Use Questions for Confluence
 Cloud
 Data Center
-Add and edit text on whiteboards
-Whiteboards aren’t available in
-Atlassian Government environments
-.
-Add text to your whiteboard
-Select the
-<Aa>
-in the toolbar.
-Text elements add text on top of other elements or directly on the whiteboard.
-Text properties
-Most elements on your whiteboard will have some text – sticky notes, shapes, connectors, and the text element itself. When you select text and want to edit text, the floating toolbar will appear with ways to change the properties of the text.
-Bold, italics, or underline
-Use the bold, italics, and underline properties for any text that you want to stand out from the rest.
-For
-bold
-, select
-B
-in the floating toolbar or use the keyboard shortcut
-Cmd
-+
-b
-Ctrl
-+
-b
-For
-italics
-, select
-I
-in the floating toolbar or use the keyboard shortcut.
-Cmd
-+
-i
-Ctrl
-+
-i
-For
-underlining
-, select U in the floating toolbar or use the keyboard shortcut.
-Cmd
-+
-u
-Ctrl
-+
-u
-Lists
-Use lists for to-dos, note-taking, writing out tasks, ideating, or step-by-step instructions. Lists keep your text looking tidy and organized.
-Bulleted list
-To create a bulleted list, select the bullet list icon in the floating toolbar.
-You can also create a bulleted list on a new line by entering "-" followed by Space.
-Numbered lists
-To create a numbered list, select the numbered list icon in the floating toolbar.
-You can also create a numbered list on a new line by entering "1" followed by Space.
-Text size
-There are seven preset text sizes.
-By default, your text will be set to
-Normal text
-for all text elements. You can change the size of a part or all of the text.
-To use a preset size:
-Select the line or portion of text you want to resize.
-Select the size menu in the floating toolbar to change text size.
-Pick a size for the selected text or enter a custom size in the field.
-Resize a text element
-Text objects created using the text tool can be given a custom size.
-To resize a text element:
-Select the text element you want to resize.
-Select and drag a side of the text element.
+Admin settings for Questions for Confluence
+After you
+install
+Questions for Confluence from the Marketplace, you can find the admin settings in Confluence Administration.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
+Select
+Atlassian Marketplace
+> Questions for Confluence.
+Email notifications
+You can enable or disable email notifications for all Confluence users. This includes notifications of new questions, answers to questions, and for any questions the user is watching.
 Was this helpful?
 Yes
 No
@@ -519,23 +467,12 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit whiteboards
-Show more
-Organize and explore ideas with sticky notes
-Use shapes to visualize ideas
-Add and edit text on whiteboards
-Build flows and diagrams with flows and connectors
-Inserting links to your whiteboard
-Show more
-On this page
-Add text to your whiteboard
-Text properties
-Bold, italics, or underline
-Lists
-Bulleted list
-Numbered lists
-Text size
-Resize a text element
+Use Questions for Confluence
+Install Questions for Confluence
+Ask a question
+Watch and edit topics
+What are votes and experts?
+Admin settings for Questions for Confluence
 Community
 Questions, discussions, and articles
 Accessibility

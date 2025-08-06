@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/view-analytics-to-see-how-content-is-performing/
+URL: https://support.atlassian.com/confluence-cloud/docs/view-your-notifications/
 
-View Confluence analytics to see how content is performing | Confluence Cloud | Atlassian Support
+View your notifications | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,36 +440,101 @@ Atlassian Support
 Confluence
 Resources
 Collaborate on content and get notified in Confluence Cloud
+Get notified about content and activity
 Cloud
 Data Center
-View Confluence analytics to see how content is performing
-This feature is offered with
-Confluence Cloud Premium and Enterprise
-.
-With analytics, you can get insights on how your
-View insights on your site
-,
-spaces
-, and
-Content insights and analytics
-are performing and how active users are. You can also export reports of these insights to share with your team.
-If needed, you can set restrictions on
-who can use analytics
-on your site and spaces.
-Full-page analytics for sites, spaces, and content have a one-year lookback.
-If you’ve migrated from Confluence Data Center to Confluence Cloud, data will only be available from after the migration was complete.
-View insights on your site
-Get an overview of the usage of your site, then view insights on your spaces, users, and searches.
-View topic
-View insights on spaces
-Get an overview of and insights on how each space in your site is performing.
-View topic
-Content insights and analytics
-View a summary of activity for each page, live doc, or blog post.
-View topic
-Turn on privacy mode for analytics data
-Hide user views and interactions using privacy mode for analytics.
-View topic
+View your notifications
+Confluence has a
+notifications drawer where you can view recent activity that pertains to you. For example, you’ll receive a notification if you were
+@mentioned
+in a comment, a task was assigned to you, or content you’re
+watching
+was updated. If your Confluence instance is linked to
+Jira
+, Jira App Discovery, or Jira Service Management, you'll also see notifications from there (for example, if a Jira ticket was assigned to you).
+When it comes to collaboration, the notifications drawer is a convenient way to track and respond to requests from your team, and to follow the progress of work that is important to you.
+Looking to manage your email messages instead? See
+Email Notifications
+View notifications
+To open your notifications drawer, select the bell icon
+in the top-right of the
+Confluence navigation
+bar.
+Which notifications are included?
+Notifications are added to the notifications drawer when someone:
+Shares
+a page, live doc, or blog with you
+Mentions
+you in a page, live doc, blog, comment, or task
+Comments on a page, live doc, or blog that you're
+watching
+Likes
+a page, live doc, or blog that you're watching
+Notifications won’t include activity related to spaces you are watching. You must watch a specific page, live doc, or blog to receive a related notification.
+If your Confluence instance is linked to a Jira application, you'll also see the following Jira notifications:
+Comments on issues that you're watching
+Mentions
+Shares of issues, filters, and searches
+Hide notifications marked as read
+You can use the
+Only show unread
+feature to easily filter relevant notifications from the noise.
+To do this:
+Select the notification bell icon in the top nav bar to open the notification drawer.
+Select the
+Only show unread
+button so that it is switched
+on
+(green).
+To hide a single notification from view, select the blue dot on the right side of the notification. This marks the notification as "read" and because
+Only show unread
+is active, the now "read" notification will be hidden.
+To clear all your unread notifications, select
+Mark all as read.
+Notifications aren't deleted, so nothing is ever lost.
+If you want to see hidden notifications later:
+Select the notification bell icon in the top nav bar to open the notification center.
+Select the
+Only show unread
+button so that it is switched
+off
+(gray). All notification, read or unread, will now appear in the notification center.
+To unhide a notification, simply select
+Mark as unread
+and it will stay displaying in your list once you switch
+Only show unread
+back on.
+Notifications are automatically removed from the list after 30 days. Older notifications can still be found in your email.
+Keyboard shortcuts
+Shortcut
+Action
+g then n
+Open the notifications drawer
+j
+Move down to the next notification in the list
+k
+Move up to the previous notification in the list
+n
+Move down to the next notification for a particular page, live doc, or blog
+p
+Move up to the previous notification for a particular page, live doc, or blog
+Enter
+Open the selected notification
+u
+Return to the notification list after opening a particular notification
+Mobile notifications
+The
+Confluence Cloud mobile app
+is available for iOS and Android and lets you view and respond to notifications wherever you are.
+View and manage notifications from a single page
+From the notifications page, users can view the latest updates and filter past notifications by app.
+To view and manage your notifications from a single page:
+Select the
+bell icon
+from the top-right menu.
+Hover your mouse and select the
+‘Open in a new tab’
+icon.
 Was this helpful?
 Yes
 No
@@ -480,15 +545,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-View insights on your site
-View insights on spaces
-Content insights and analytics
-Turn on privacy mode for analytics data
-Collaborate on content and get notified in Confluence Cloud
-Collaborate on content
 Get notified about content and activity
-View Confluence analytics to see how content is performing
+View your notifications
+Subscribe to email updates
+What is a Confluence RSS feed?
+Build an RSS feed
+Subscribe to pre-specified RSS feeds
+Show more
+On this page
+View notifications
+Which notifications are included?
+Hide notifications marked as read
+Keyboard shortcuts
+Mobile notifications
+View and manage notifications from a single page
 Community
 Questions, discussions, and articles
 Accessibility

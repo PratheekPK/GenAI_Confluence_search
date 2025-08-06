@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/use-macros-to-include-media-on-confluence-pages/
+URL: https://support.atlassian.com/confluence-cloud/docs/filter-your-data/
 
-Use macros to include media on Confluence pages | Confluence Cloud | Atlassian Support
+Filter your data | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,16 +439,79 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
+Create and organize work in Confluence Cloud
+Create and edit databases
 Cloud
 Data Center
-Use macros to include media on Confluence pages
-Insert Microsoft Office macros
-Display the content of Microsoft office files on your page or live doc with the Office Word, Office Excel, or Office Powerpoint macros.
-View topic
-Insert the widget connector macro
-Embed multimedia content from external websites on your page or live doc.
-View topic
+Filter your data
+Save filters as views.
+Filters can be saved as part of a view. For more information on creating and using views, check out our page on
+Database views
+.
+Databases aren’t available in the
+Atlassian Government environment
+.
+Filters make it easy to display only the items in your database that meet a collection of specified criteria or individual conditions. This criteria determines what items to display depending on if it has or doesn’t have the specified properties. Filter groups and individual filters can be as simple or complex as needed.
+Add a filter
+To create a filter:
+By default, a filter will be created for a view when there are no existing filters. To remove the pre-made filter, select the
+Cancel
+button.
+Select the
+Filter
+button at the top of your database or the
+Filter
+option while editing a view.
+Select the field that you'd like to filter by.
+Select a suitable condition (is not, is, contains...).
+Enter the value you want to use as the filter.
+You can add another filter by selecting the
++ Add filter
+button. You can have as many filters as you'd like!
+When you have multiple filters, you can decide whether the entries should show based on whether they match all (“and”) or any (“or”) of the filters.
+To edit a filter:
+Select
+More actions
+on an existing filter
+Select
+Edit
+Make a change to the field you’d like to filter by, the condition (is not, is, contains...), or the value you want to use as a filter
+Select
+Update
+.
+To delete a filter:
+Select
+More actions
+on an existing filter
+Select
+Delete
+Add a filter group
+To create a filter group:
+Select the
+Filter
+button at the top of your database or the
+Filter
+option while editing a view.
+Select the dropdown button next to the
++ Add filter
+button.
+Select the
+Add filter group
+option.
+Select the field that you'd like to filter by.
+Select a suitable condition (is not, is, contains...).
+Enter the value you want to use as the filter.
+You can add another filter in the filter group by selecting the
++ Add filter
+button within the group. You can have as many filters as you'd like!
+When you have multiple filters, you can decide whether the entries should show based on whether they match all (“and”) or any (“or”) of the filters in the group.
+To delete a filter group:
+For all filters in the filter group:
+Select
+More actions
+on an existing filter in the group
+Select
+Delete
 Was this helpful?
 Yes
 No
@@ -459,17 +522,22 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Insert Microsoft Office macros
-Insert the widget connector macro
-Extend the functionality of Confluence Cloud
+Create and edit databases
 Show more
-Use macros to show Confluence content on pages and live docs
-Use macros to add development info on Confluence pages
-Use macros to include media on Confluence pages
-Use macros to add navigation on Confluence pages
-Use macros to add reporting info to Confluence pages
+Database views
+Layouts and options
+Filter your data
+Sort fields
+Hide fields in your database
 Show more
+On this page
+Add a filter
+To create a filter:
+To edit a filter:
+To delete a filter:
+Add a filter group
+To create a filter group:
+To delete a filter group:
 Community
 Questions, discussions, and articles
 Accessibility

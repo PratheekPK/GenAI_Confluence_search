@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/edit-a-template/
+URL: https://support.atlassian.com/confluence-cloud/docs/create-and-edit-databases/
 
-Edit a template | Confluence Cloud | Atlassian Support
+Create and edit databases | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,145 +439,73 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
-Create templates, blueprints, and reports
+Create and organize work in Confluence Cloud
 Cloud
 Data Center
-Edit a template
-Space admins can edit content templates in the spaces they administer. To learn about editing global content templates, see
-Edit a global template
+Create and edit databases
+Databases aren’t available in the
+Atlassian Government environment
 .
-Only space administrators can create or edit templates in
-Confluence Cloud
-. If you do not have the
-Admin
-permission
-for a space, you won’t see the
-Templates
-link appear in the
-Look and feel
-card when you go to
-Space settings
-.
-To edit a content template for a space:
-Go to the space in
-Confluence Cloud
-.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Templates
-from the
-Look and feel
-card.
-Find the template in the table and select
-Edit
-.
-Editing a
-template
-is a lot like editing a page or live doc– there are only a few small differences. Currently, there’s no way to add images or attachments in templates. However, you can include variables, placeholder text, and
-labels
-. These features help people using these templates create rich and dynamic pages quickly.
-Variables
-When someone creates pages or live docs from a template with variables, they’ll fill out a form with text fields or lists for each variable in the template. The information they provide will be added to pages and live docs automatically.
-Add a variable to a template
-You can only add variables to templates created with the new editor.
-To add a variable:
-Type
-/variable
-, then hit
-Enter
-.
-Select the variable token, then select
-to edit it.
-Enter a name for the variable, then select
-Text
-,
-Multi-line Text
-, or
-List
-.
-A
-Text
-variable offers a single line of input text, a
-Multi-line
-variable is configurable for multiple rows and columns of input, and a
-List
-produces drop-down lists with definable options.
-Select
-Save
-.
-Variables with the same name must have the same parameters, as Confluence treats these as copies of the same variable. When someone creates pages or live docs from a template with two or more copies of the same variable, the text they enter for one variable will appear everywhere that a copy of that variable appears.
-Example
-The example below shows a custom template with five text variables — one for “New Hire,” one for “Company,” one for “Job Title,” one for “Team,” and one for “Manager”:
-When someone creates pages or live docs from this template, they will be prompted to enter text into the fields where the variables appear:
-When they’re finished, the text they entered will appear on the page or live docs in edit mode.
-Placeholder text
-Use placeholder text to add instructions or sample text to pages or live docs created from a template. Placeholder text will only appear when pages or live docs are being edited – it’s invisible to anyone who’s viewing the published version.
-Add placeholder text to a template
-To add placeholder text to a template in the legacy editor:
-Select
-+
-, then select
-Placeholder text
-.
-Type in your placeholder text, then hit
-Enter
-.
-To add placeholder text to a template in the new editor:
-Type
-/placeholder
-where you want the text to appear, then hit
-Enter
-.
-Type in your placeholder text, then hit
-Enter
-again.
-Example
-The example below shows a section of the Design Systems Template that comes with
-Confluence Cloud
-. The grey text is placeholder text:
-When someone creates pages or live docs from this template, they will see grey placeholder text while they are editing the template. However, the text will not appear in view mode. This way, it is possible to provide instructions to the person creating pages or live docs from the template without any viewers of the page seeing them.
-Labels
-Add a
-label
-to a template to apply it to pages or live docs created from that template. This is helpful if you want to create a page
-properties report
-to keep track of similar pages or live docs.
-Add labels to a template
-To add labels to a template in the legacy editor:
-Select
-.
-Enter labels into the box, separated by the
-Space
-key.
-Select
-Add
-.
-Select
-Close
-.
-To add labels to a template in the new editor:
-Select
->
-Add labels
-.
-Enter labels into the box, separated by the
-Space
-key.
-Select
-Add
-.
-Select
-Close
-.
-Example
-See
-Create a custom report
-for several examples of templates with labels.
+What is a Confluence database?
+Databases in Confluence allow you to store structured data in a native format. Databases are similar to pages and other content types. They live in the content tree, can be searched and linked, and have permissions set at the space level.
+A database organizes content into fields and entries:
+Fields define the structure and are shown as columns. They describe the data type, like text, numbers, or dates.
+Entries make up the content and are shown as rows. Each entry represents a set of values stored in the fields.
+With databases, you can connect and organize structured data like customer IDs and unstructured data like meeting notes and images. This makes them a powerful way to bring all your content together in one place or even within your other Confluence pages and content.
+Get started with Confluence databases
+Get started quickly with Confluence databases.
+View topic
+Database tour
+Explore the database interface, including customizable views, layouts, filters, and more.
+View topic
+Create a database
+Learn three simple methods to create a new database and organize your data efficiently.
+View topic
+Database fields
+Customize your database with a comprehensive guide to all available field types and their configurations.
+View topic
+Share databases, entries, or values
+Learn how to seamlessly share and embed your database content using Smart Links and the /embed database command for dynamic, up-to-date information sharing.
+View topic
+Database views
+Discover how to create, customize, and manage versatile views in your database for enhanced data organization and sharing.
+View topic
+Layouts and options
+Explore the various layout options in databases, including Table, Card, and Board views, to present your data in the most effective way.
+View topic
+Filter your data
+Learn how to save filters as views in Confluence databases. Create and customize filters.
+View topic
+Sort fields
+Learn how to sort your database items by selected fields to organize your data in the most meaningful order.
+View topic
+Hide fields in your database
+Streamline your database by learning how to hide and manage fields to focus on the most relevant information.
+View topic
+Import data into your database
+Import and integrate data into your database with this step-by-step guide.
+View topic
+Export your database data
+Discover how to export your database data into CSV, HTML, or PDF formats for easy sharing and data management.
+View topic
+Duplicate a database setup
+Efficiently duplicate your database structure to another space, ensuring consistency and saving setup time.
+View topic
+Lock your database structure
+Safeguard your database fields from accidental changes by learning how to lock your database structure effectively.
+View topic
+What Confluence databases don't support
+Learn more about the Confluence feature that databases are yet to support.
+View topic
+Database impact on third-party apps
+Learn how third-party app are affected by Confluence databases.
+View topic
+Database version history
+View and restore older versions of a database
+View topic
+Perform simple calculations on your data
+Learn how to perform simple calculations using database data
+View topic
 Was this helpful?
 Yes
 No
@@ -588,21 +516,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create templates, blueprints, and reports
-Create a template
-Edit a template
-Promote a template
-Create a custom report
-On this page
-Variables
-Add a variable to a template
-Example
-Placeholder text
-Add placeholder text to a template
-Example
-Labels
-Add labels to a template
-Example
+Explore more
+Get started with Confluence databases
+Database tour
+Create a database
+Database fields
+Share databases, entries, or values
+Show more
+Create and organize work in Confluence Cloud
+Show more
+Use Loom in Confluence Cloud
+Create and edit whiteboards
+Create and edit databases
+Export content from Confluence Cloud
+Get to know the new and simplified content layout
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

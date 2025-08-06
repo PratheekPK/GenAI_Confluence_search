@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-permissions-in-the-free-edition-of-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/set-up-public-access/
 
-Adjust permissions before downgrading to Confluence Free | Confluence Cloud | Atlassian Support
+Control whether spaces can turn on anonymous access | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,84 +439,92 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Atlassian administration for Confluence Cloud
-Actions that require an organization or site admin
+Confluence administration
+Set Confluence-wide functionality
 Cloud
 Data Center
-Adjust permissions before downgrading to Confluence Free
-The Free plan is for small teams of fewer than 10 people who are just getting started with Confluence. Confluence is completely open to logged-in users when you’re on the Free plan. That means everyone who can log in to your Confluence instance can view, add, and edit spaces and content.
-While Confluence is open to logged-in users,
-anonymous access
-isn’t available on the Free plan. Only users who log in to your Confluence instance can access it.
-To take advantage of Confluence permissions, restrictions, or anonymous access,
-upgrade your plan
+Control whether spaces can turn on anonymous access
+Giving anonymous users access to your content lets you share content with people who don’t have licensed access to your Confluence instance. This means you can let them view and collaborate on content, without having to add them to your license count.
+Anyone on the internet will be able to find and access your Confluence instance
+When you make your content available to anonymous users, this means
+anyone on the internet
+. The anonymous access feature can’t accommodate sharing with some anonymous people and not others. It’s all or nothing.
+Content shared with anonymous users will show up in Google searches.
+In what situations would anonymous access be useful?
+Using anonymous access to share externally is best when you want to share a lot of content with nonspecific people (aka, anyone on the internet). For example, a publicly available roadmap, an open knowledge base, or support documentation are prime types of content to use with anonymous access.
+You can organize that content in a space and grant anonymous users access to that specific space.
+What is an anonymous user?
+An anonymous user is anyone who isn’t logged in to your Confluence instance. This could be:
+anyone on the internet
+a member of your organization who is not a licensed user of your Confluence instance
+someone who is a licensed user of your Confluence instance, but they aren’t logged in
+Grant anonymous users access to your instance
+By enabling anonymous access, you’re allowing people who are not logged into Confluence (anonymous users; aka, anyone on the internet) to access content on your instance. You can pick and choose which spaces to make public and which to keep secure.
+The global, Confluence-level setting for anonymous access governs whether anonymous users (anyone on the internet) can access the instance. Actual access to content for anonymous users is
+managed in space permissions
 .
-When you change from Standard or Premium to Free
-When you change from Confluence Cloud Premium or Standard to Free, you’ll no longer be able to set permissions and restrictions. Here’s what you can expect when you change to the Free plan:
-We’ll keep any global permissions, space permissions, and content restrictions you’ve already set. If needed, you’ll still be able to open up spaces and content to all users.
-We’ll reset your instance’s default space permissions. When new spaces are created, all users will be able to view the spaces, add content to them, and more. (As mentioned above, we’ll keep the permissions you’ve already set on existing spaces.)
-If your instance allowed anonymous users, they’ll no longer be able to access it.
-To set new permissions, you'll need to go back to one of our paid plans.
-This information also applies when you migrate from Confluence Data Center to Confluence Cloud Free. See our
-migration guides
-on how to do this.
-Confluence Data Center is our only self-managed app offering, and our primary app offering outside of Confluence Cloud. We
-ended support of Confluence Server
-on February 15, 2024.
-Open up a space to all users
-After you switch to the Free plan, any permissions you’ve set on a space will remain in place. If needed, you can open up the space to all users. This will let anyone with access to your Confluence instance view the space, add content to it, and more.
-You won’t be able to undo this action.
-If you need to reset the space permissions, you’ll have to go back to one of our paid plans.
-Go to the space in
-Confluence Cloud
+If anonymous users are granted access to the space, they’ll have access to
+all content within the space
+. To restrict them from a page or other content item, you can either
+change its restrictions
+or
+hide it from the content tree
 .
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
+By default, anonymous users start with no access to any spaces. For example, when a new space is created, anonymous users will have no access to that space, even if the global settings is enabled.
+To enable or disable anonymous access for the instance:
+Only Confluence admins can change the global setting for anonymous access.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find Settings >
+Security
+in the left-hand navigation.
 Select
-General
-from the
-Space permissions
-card
+Global permissions
 .
-In the Upgrade for space permissions box, select
-Grant all users permissions for this space
-.
+Select the
+Anonymous access
+tab.
 Select
-Grant permissions
+Edit
 .
-Open up content to all users
-After you switch to the Free plan, any restrictions you’ve set on content will remain in place. If needed, you can open up content to all users. This will let anyone with access to your Confluence instance view and edit the content.
-You won’t be able to undo this action.
-If you need to reset the content restrictions, you’ll have to go back to one of our paid plans.
-Select the lock icon at the top of the content.
-In the Upgrade for page restrictions box, select
-Remove this content’s restrictions
-.
+Check or uncheck the box under
+Use Confluence
+to enable or disable anonymous access for the instance.
 Select
-Remove restrictions
+Save
+when you’re done.
+Security note
+Disabling the global setting if it was previously enabled doesn’t change any space level settings.
+Even if the global anonymous access setting is
+disabled
+, space admins can indicate they want anonymous users to access their space. This doesn’t mean anyone on the internet can access those spaces. If anonymous access is disabled at the Confluence level, only logged in users can enter the instance.
+However, if the global setting is
+enabled
+while those spaces allow anonymous users to access them, then anyone on the internet
+will
+be able to access those spaces.
+You can also choose whether anonymous users are able to view user profiles of any of your logged in users by checking or unchecking the box under
+View User Profile
 .
-If you’re a space admin, you can use the
-Restricted content
-tab to open up a content item in your space to all users by removing any restriction from the content.
-This will remove all restrictions from the content. You won’t be able to undo this action.
-If you need to reset the content’s restrictions, you’ll have to go back to one of our paid plans.
-Navigate to the desired space using the Spaces menu in the navigation or from the Home page.
-Next to your space's name in the sidebar, select
-More actions
-(•••), then
-Space settings
-.
-Select
-Restricted
-from the
+How does anonymous access fit Confluence’s permissions structure?
+Anonymous access to content is controlled at 3 different levels:
+Confluence
+– At the Confluence level (in global permissions), the Confluence admin or site admin decides whether to grant anonymous users any access to the instance.
+Space
+– If anonymous access is allowed at the Confluence level, it’s then up to the space admins to decide whether they want to grant anonymous users any access to their space. If space access is granted, then anonymous users will have access to all pages in the space, unless restricted on the pages themselves.
 Content
-card.
-Select the lock icon next to the content whose restrictions you want to remove. This will remove all restrictions from the content.
-Select
-Remove restrictions
+– Anonymous users are restricted from viewing content when its access setting is
+Only specific people can view or edit,
+or when one of its parent content items has been set so that only specific people can access. This means that view restrictions are passed down to all of the nested items.
+More about anonymous access
+Essentially, the global setting enables the
+possibility
+of sharing content to anyone on the internet. It’s then up to the space admins whether they want to give anonymous users access to their spaces.
+The global setting could be
+enabled
+, but if anonymous users haven’t been granted access to any spaces, no anonymous users will be able to access anything on your instance.
+Space admins can grant anonymous users all the same permissions as regular users, except anonymous users can’t be admins of a space. For a list of all space permissions that can be granted, see
+Assign space permissions
 .
 Was this helpful?
 Yes
@@ -528,16 +536,20 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Actions that require an organization or site admin
-Manage your storage usage
-Invite guests to Confluence
-Removing users and downgrading to Confluence Free
-Adjust permissions before downgrading to Confluence Free
-What happens when an account is deactivated vs. deleted?
+Set Confluence-wide functionality
+Control whether spaces can allow public links
+Control whether spaces can turn on anonymous access
+Change the landing page
+Change the Confluence Home welcome message
+Create a custom space overview template
+Show more
 On this page
-When you change from Standard or Premium to Free
-Open up a space to all users
-Open up content to all users
+In what situations would anonymous access be useful?
+What is an anonymous user?
+Grant anonymous users access to your instance
+To enable or disable anonymous access for the instance:
+How does anonymous access fit Confluence’s permissions structure?
+More about anonymous access
 Community
 Questions, discussions, and articles
 Accessibility

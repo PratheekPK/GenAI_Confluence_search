@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/troubleshooting-import-data-from-html-to-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/faq-import-data-from-html-to-confluence/
 
-Troubleshooting import data from HTML to Confluence | Confluence Cloud | Atlassian Support
+FAQ import data from HTML to Confluence | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -443,28 +443,85 @@ Create and organize work in Confluence Cloud
 Import data from other tools into Confluence
 Cloud
 Data Center
-Troubleshooting import data from HTML to Confluence
-How will I know if my HTML upload is successful?
-You’ll receive a notification email when the import is complete. If the import was a success, the email will contain which content was transferred. If any imports are partially or fully unsuccessful, you’ll receive a short indication about why it failed. The following table provides more information about each error message and steps you can take to solve them.
-Are there size limits for file uploads?
-It depends. If you encounter a size limit, please contact your admin, as they determine the size restrictions of HTML import files.
-What if i’m still experiencing errors?
-Check your file format and make sure it’s a ZIP HTML file and review our extensive HTML FAQ
-here
+FAQ import data from HTML to Confluence
+Who has permission to import?
+All users who can create spaces will also be able to import HTML files into Confluence. If you can’t import, reach out to your admin and check your space permissions.
+How do I increase my attachment size limit?
+You’ll need to reach out to your admin to do so.
+Admin-only:
+To import your HTML content into Confluence, ensure that your file size limit exceeds the size of the file you are importing. Follow these steps:
+Select the gear icon to navigate to
+Settings
+>
+Global permissions
 .
-If the import process fails, use the following table to figure out a solution and try again.
-Notification example
-How to fix it
-Your import from HTML was unsuccessful.
-Look through the
-HTML FAQ
-and see if any common scenarios apply. You can also retry the import process. If it fails again, try to reach out to support.
-Your import from HTML was unsuccessful because file does not contain HTML content
-No HTML file was added or the file did not contain any content. Check the file for content. and try uploading again.
-Your import from HTML was unsuccessful because we couldn’t get content from your export file
-There may be something wrong with the zipper service. Try again or reach out to Confluence support.
-Your import was unsuccessful because we failed to update pages with your content.
-The Confluence API is returning an error. Try again later or reach out to Confluence support.
+Go to the
+General Configuration
+section.
+Scroll down to the Attachment Size setting and increase the byte size to be larger than your HTML zipfile.
+To increase the file size only temporarily, after the import, revert to the original limit.
+Can I restrict content to be only visible to me?
+Yes! You can set
+Only visible to me
+in the permissions section of the the
+Set up space
+step. We recommend that you restrict sensitive spaces and then remove restrictions for non-sensitive spaces, rather than using open permissions initially. This way, you won’t accidentally reveal any sensitive information.
+Private pages will transfer to a new, restricted space.
+Note:
+Because only you will be able to access the
+Restricted to you
+content, all pages and comments will be labeled as created by you (the importing user).
+What file type can I upload?
+You can only upload a .zip file containing a folder (the name of the folder will apply as the space name) containing .html files. The name of the .html file will become the name of the created page, and any supplemental media used in the page must be stored in a folder with the same name as the page. Any unsupported media will be ignored.
+What content gets transferred from HTML?
+The content formatting we preserve includes:
+Headings, paragraph list
+Center alignment
+Bold text
+Hyperlinks
+Images
+Tables
+Number list
+Normal + Italic text
+Emojis
+Links
+Bulleted lists
+Quotes
+Dividers
+Inline code
+Superscript
+Unsupported features
+The following features are either will often show up as plain text or similar after the import or are not supported:
+HTML
+Confluence
+Audio .mp4
+Unsupported
+Title
+Unsupported
+Figure
+Unsupported
+Nav
+Unsupported
+iframe
+Unsupported
+Block equation
+Plain text only
+Button
+Unsupported
+Code block
+Plain text
+Customized text (text color, background color)
+Stylized text
+Inline equation
+Plain text
+Link to page
+Hyperlink
+Video (embedded link)
+Hyperlink
+Are there any storage limits?
+Our
+Premium and Enterprise plans
+offer unlimited storage. Pick your plan and enter your team size in our price calculator to see if your plan will be affected by adding users. If you exceed your storage limit for the Standard or Free plan because of the import process, we will attempt to automatically offer you a free trial on the plan that fits your storage limits. If we can’t do this automatically, we will show a banner that says you have 14 days to reduce storage or convert to a different plan.
 Was this helpful?
 Yes
 No
@@ -476,16 +533,20 @@ Still need help?
 The Atlassian Community is here for you.
 Ask the Community
 Import data from other tools into Confluence
-Show more
+FAQ import data from HTML to Confluence
+FAQ import data from Notion to Confluence
+Import data from HTML to Confluence
 Import data from Notion into Confluence
 Import multiple Miro boards to Confluence
-Troubleshooting import data from HTML to Confluence
-Troubleshooting import data from Notion to Confluence
-Troubleshooting import multiple Miro boards to Confluence
+Show more
 On this page
-How will I know if my HTML upload is successful?
-Are there size limits for file uploads?
-What if i’m still experiencing errors?
+Who has permission to import?
+How do I increase my attachment size limit?
+Can I restrict content to be only visible to me?
+What file type can I upload?
+What content gets transferred from HTML?
+Unsupported features
+Are there any storage limits?
 Community
 Questions, discussions, and articles
 Accessibility

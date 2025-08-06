@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/import-content-into-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/insert-the-jira-chart-macro/
 
-Import external documents | Confluence Cloud | Atlassian Support
+Insert the Jira chart macro | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,137 +439,86 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Extend the functionality of Confluence Cloud
+Use macros to add development info on Confluence pages
 Cloud
 Data Center
-Import external documents
-Easily bring existing work over to Confluence from Word, Google Docs, or OneDrive documents.
-To start, open a blank page or live doc by selecting
-Create
-in the top navigation (or by using the + next to
-Content
-in the sidebar).
-Next to the
-Share
-button, select
-More actions
-(
-)
-, then
-Templates and import
-. The template browser will open on the right.
-Select the
-Import
-tab.
-Decide which document type you want to import:
-Word document (.docx)
-,
-Google Doc
-, or
-OneDrive
+Insert the Jira chart macro
+If your Confluence site is connected to a Jira application, you can display issues as charts on Confluence pages or live docs. You can connect Confluence to any Jira application, including
+Jira
+and Jira Service Management.
+Adding the Jira Chart macro to a page or live doc
+To add a Jira chart macro:
+When editing, select
+from the toolbar
+Find the macro by name and select it
+Configure it as needed
+You can also type / on the page to bring up the same list you'd see by selecting
+from the toolbar. Continue typing the name of the macro to filter the list.
+Pie chart
+Pie charts can be used to report on issue status, priority, assignee and more.
+To further control how this chart appears on your page or live doc, choose
+Display options
+:
+Chart by
+- select the field you want to segment the pie chart by such as:
+Status
+Fix version
+Assignee name
+Priority
+Component
+Issue type
+Width
+- define the total width of the chart area. You can enter values in pixels, percent or leave blank to auto fit.
+Show border
+- add a border around the chart area.
+Show chart information
+- include a text summary under the chart with the total issues count and chart by value.
+Created vs Resolved chart
+Created vs Resolved charts can be used to show the difference between the number of issues created versus the number of issues resolved over time.
+To further control how this chart appears on your page or live doc, choose
+Display options
+:
+Period
+- choose a time frame to report by (week, month, quarter etc).
+Days previously
+- the total number of days to report on (counting back from today).
+Cumulative totals
+- choose to progressively add totals or report individual values for each period.
+Show unresolved trend
+- add a subplot showing unresolved issues over time.
+Show versions
+- indicate version release dates as a vertical line on the chart.
+Width
+- define the total width of the chart area. Enter values in pixels, percent or leave blank to auto fit.
+Show border
+- add a border around the chart area
+Show chart information
+- include a text summary under the chart with the total issues count and chart by value.
+Two Dimensional Chart
+Two Dimensional Charts can be used to show issue statistics in a matrix. You can configure the X and Y axes to display these issue fields:
+Status
+Priority
+Assignee
+Fix version
+Component
+Issue type.
+For example you could use the chart to show issue types by status (as shown above).
+To configure the chart axes choose
+Display options
+:
+X Axis
+- the issue field to display on the X axis (columns).
+Y Axis
+- the issue field to display on the Y axis (rows).
+Rows to display
+- the maximum number to display in the chart.
+Disabling the Jira Chart macro
+The functionality is provided by an add-on (plugin) called 'Jira Macros'. This macro is also used for the Jira Issues macro. To make the macro unavailable on your site, you can disable the add-on. See
+Disabling and enabling apps
 .
-The template browser (and Import tab) will disappear as soon as you start typing. To reopen, select
-Templates & import doc
-from the more actions menu
-(…)
-in the upper right of the new draft page or live doc.
-External documents can be imported one at a time or several at once, but there are different requirements for files imported on their own versus in bulk and may vary by document type (Word, Google Doc, or OneDrive)
-Single file limit
-Bulk limit
-Google Doc
-5 MB for doc (excluding attachments)
-10 MB total
-Up to 30 files, 50 MB total
-Each file cannot exceed 10 MB
-Word document (.docx)
-5 MB for doc (excluding attachments)
-100 MB for attachments
-Up to 30 files, 50 MB total
-Each file cannot exceed 10 MB
-OneDrive
-5 MB for doc (excluding attachments)
-100 MB for attachments
-Up to 30 files, 50 MB total
-Each file cannot exceed 10 MB
-Each file imported will be its own Confluence page or live doc. When you import more than one file at a time, they are added as child items under a restricted placeholder page or live doc (titled “Imported pages” with the date and time information). This means you can privately review the imported content, then organize it and set appropriate
-permissions
-.
-If you only import a single file, it will generate as a live doc or draft page that you can then modify and publish (if need be) as you would other Confluence content.
-Not all images can be be successfully imported to Confluence. If a document contains an unsupported image file, the image is replaced with placeholder text on Confluence.
-We currently support importing the following image file types in documents: BMP, CUR, DDS, GIF, ICO, JPG, PNG, PSD, SVG, and WEBP.
-Import OneDrive documents
-Select
-OneDrive
-from under
-Import
-.
-If you haven’t already, you’ll be prompted to connect your Microsoft account and allow importing into Confluence.
-Select the documents you want to import from your files and then
-Open
-. Only .docx files can be imported from OneDrive.
-After the documents have been successfully imported, select
-Finish
-.
-Import Google Docs
-Select
-Google Doc
-from under
-Import
-.
-If you haven’t already, you’ll be prompted to connect your Google account and allow importing into Confluence.
-Choose the documents you want to import from your files and then
-Select
-.
-After the documents have been successfully imported, select
-Finish
-.
-Import Word documents
-If you import Word documents with shapes in them, the shapes will be replaced with placeholders in Confluence.
-Select
-Word document (.docx)
-from under
-Import
-.
-Select the documents you want to import from your files and then
-Open
-. Only Word documents with the .docx extension can be imported.
-After the documents have been successfully imported, select
-Finish
-.
-Import web content
-If you have web content that you want to import into Confluence, you'll need to import it page by page. Any text with basic formatting can be pasted directly into the editor, and you can use the
-Widget Connector Macro
-to display videos, slide shows, tweets, and more.
-Additional customization is available using the
-Confluence APIs
-.
-Other import methods can be found in the Atlassian Marketplace:
-Import and export spreadsheets using
-Excellentable Spreadsheet for Confluence
-Embed Google Drive and Docs files with
-Google Drive & Docs for Confluence
-Display and search for Salesforce data from Confluence using the
-Salesforce & Confluence Cloud Connector
-Import data into Confluence to use it as your CRM with
-Atlas CRM for Confluence
-Import Visio, Gliffy, and Omnigraffle diagrams using
-Lucidchart Diagrams for Confluence
-or
-draw.io Diagrams for Confluence
-Import markdown, macros, and other information using
-Github Macros for Confluence
-,
-Gister: GitHub Gist Macro for Confluence
-,
-Github Links for Confluence
-,
-Include Bitbucket for Confluence
-, or
-Markdown, HTML, PlantUML, LaTeX, Diagrams, Open API, Mermaid
-.
-Connect various cloud accounts and embed a whole range of documents into Confluence with
-Office Files & Documents for Confluence
+Authentication
+— If the query includes issues that require authentication (issues that are not visible to anonymous users in Jira), users will be prompted to authenticate to view charts on the Confluence page.
 Was this helpful?
 Yes
 No
@@ -580,19 +529,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
-Show more
-Add a status to your content
-Make your content and its title more memorable
-Import external documents
-Classify content
-How redaction works
-Show more
+Use macros to add development info on Confluence pages
+Display Jira work items in a list
+Insert the Jira chart macro
+Insert the Jira timeline macro
+Display your Assets data on a Confluence page
 On this page
-Import OneDrive documents
-Import Google Docs
-Import Word documents
-Import web content
+Adding the Jira Chart macro to a page or live doc
+Pie chart
+Created vs Resolved chart
+Two Dimensional Chart
+Disabling the Jira Chart macro
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/classify-a-page-or-blogpost/
+URL: https://support.atlassian.com/confluence-cloud/docs/delete-or-disable-a-global-template/
 
-Classify content | Confluence Cloud | Atlassian Support
+Manage global content templates and blueprints | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,38 +439,51 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit content
+Confluence administration
+Manage Confluence content templates
 Cloud
 Data Center
-Classify content
-Classify content to help people recognize the sensitivity of information they’re viewing or working on.
-You can classify content once your organization admin has set up classification levels for your organization.
-To classify an item:
-Edit the item (only required for pages and blogposts).
-Select the More actions menu (•••) >
-Classify content
+Manage global content templates and blueprints
+Confluence administrators can delete templates from the template gallery. For information on how to delete a template that is available only in a specific space, see
+Delete or disable a template
 .
-Choose a classification level.
+To delete a global content template:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
 Select
-Update
+Configuration
+>
+Global templates and blueprints
 .
-Why is my content already classified?
-You may find that the item you’ve just created has been classified without any action by you or another user. This could be the result of a default classification level set by the space admin.
-What is a default classification level?
-To change the classification level of an item:
-Edit the item (only required for pages and blog posts).
-Select the classification level badge.
+Find the template in the
+Global content templates
+table and select the delete icon (
+).
+This is permanent: once a template has been deleted, it cannot be restored.
+You can also disable a global blueprint. Unlike deleting a template, which is permanent and cannot be undone, you can enable a disabled blueprint at any time.
+To disable or re-enable a global content blueprints:
+If you aren’t already there, go to your
+Confluence Cloud
+instance.
+Select the wheel icon (
+) in the top-right corner to open Confluence administration.
+Find
+Settings
+in the left-hand navigation.
 Select
-Change level
-(only required for whiteboards, databases and live pages).
-Choose a classification level.
-Select
-Update
+Configuration
+>
+Global templates and blueprints
 .
-You can't remove a classification level, but you can change it to
-No classification
-or to the default level set by your admin.
+Find the blueprint in the
+Global content blueprints
+list and use the toggle to turn enable or disable it.
 Was this helpful?
 Yes
 No
@@ -481,14 +494,11 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit content
-Show more
-Make your content and its title more memorable
-Import external documents
-Classify content
-How redaction works
-Learn about the Atlassian cloud editor
-Show more
+Manage Confluence content templates
+Create a global content template
+Edit a global content template
+Install a global blueprint
+Manage global content templates and blueprints
 Community
 Questions, discussions, and articles
 Accessibility

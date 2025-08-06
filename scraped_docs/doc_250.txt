@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/faq-import-data-from-notion-to-confluence/
+URL: https://support.atlassian.com/confluence-cloud/docs/add-a-reaction-to-any-content/
 
-FAQ import data from Notion to Confluence | Confluence Cloud | Atlassian Support
+Add a reaction to any content | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,135 +439,29 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Import data from other tools into Confluence
+Collaborate on content and get notified in Confluence Cloud
+Collaborate on content
 Cloud
 Data Center
-FAQ import data from Notion to Confluence
-What content gets transferred?
-You can import your content, users, and workspaces from Notion into a Confluence space with the importing tool. When you
-use OAuth and access tokens
-, the importer will also include @mentions, creator, editor information, permissions, and user group information.
-Standard formatting like headings, lists, quotes, and dividers will show up on Confluence the same way they appeared in Notion. Some of the complex content, like To-do lists and Info panels will retain the content, but may look a little different. We are planning on fixing these for future releases.
-The content formatting we preserve includes:
-@mentions
-Attachments
-Bulleted lists
-Dates
-Dividers
-Emojis
-Header images
-Headings
-Images
-Numbered lists
-Page comments (Notion’s “Top level page discussions”)
-Quotes
-Table data
-Multi Columns
-Callout
-Audio (embedded link)
-Video (Embed)
-Embed
-To-do List
-Toggle List
-Code Block
-Page Link
-Toggle Heading
-Table of Contents
-Web Bookmark
-Partially supported or unsupported features
-The following features are either will often show up as plain text or similar after the import, or are not supported:
-Notion
-Confluence
-Block equation
-Plain text
-Inline equation
-Plain text
-Code (Mermaid Diagram)
-Plain text
-Customized text (color / background)
-Stylized text
-Page Emojis
-Similar Page Emojis
-Reminder
-Date
-Inline comments
-Page comments
-Database child page properties
-Table
-Breadcrumb
-Unsupported
-Button
-Unsupported
-Table customization
-Unsupported
-Synced Block
-Unsupported
-Can I restrict private content?
-Yes! You can set
-Restricted to you
-in the permissions section of the the
-Set up spaces
-step. We recommend that you restrict sensitive spaces and then remove restrictions for non-sensitive spaces, rather than using open permissions initially. This way, you won’t accidentally reveal any sensitive information.
-Private pages will transfer to a new, restricted space.
-Note:
-Because only you will be able to access the
-Restricted to you
-content, all pages and comments will be labeled as created by you (the importing user).
-Are there any storage limits?
-Our
-Premium and Enterprise plans
-offer unlimited storage. Pick your plan and enter your team size in our price calculator to see if your plan will be affected by adding users. If you exceed your storage limit for the Standard or Free plan because of the import process, we will attempt to automatically offer you a free trial on the plan that fits your storage limits. If we can’t do this automatically, we will show a banner that says you have 14 days to reduce storage or convert to a different plan.
-Are there limits for people?
-Check out our
-user tier
-table to see if adding users because of the import process will affect your plan. You can also enter your team size in our
-price calculator
-to see if your plan will be affected. Like storage, we will attempt to automatically offer you a free trial on the plan that fits your user limits.  If we can’t do this automatically, we will show a banner that says you have 14 days to remove users or convert to a different plan.
-What happens to my Free plan if I select Add remaining members to Confluence?
-Similar to the two sections above, if you exceed your user or storage limit, we will attempt to offer you a 14-day free trial of
-the plan
-that meets your needs. If we can’t do this automatically, we will add a banner that let’s you know you have 14 days to
-remove the users
-,
-reduce the storage
-, or convert to a paid plan.
-Can I add Notion guests?
-We do not import guest accounts from Notion (even if you enable
-Add additional users
-). However, you can
-invite guests
-to a Confluence space via
-admin.atlassian.com
-.
-What happens if you do not have access to the teamspaces in the uploaded Notion file?
-We will still continue to import those teamspaces and pages, however, we will restrict to you (the importing user).
-What happens when you import content not selected in the Transfer users/OAuth authentication step?
-If you didn’t select certain teamspaces or pages during the
-Map Notion members to their Confluence profiles
-step, but those teamspaces or pages exist in the uploaded Notion file, we will import the content, but restrict it to the to you (the importing user).
-What happens to private and shared Notion pages?
-We will import all private and shared pages created by the importing user in a new private space, restricted to only the importing user. If any private and shared pages are not created by importing user, we will not create them.
-How do I increase my attachment size limit?
-To import your Notion content into Confluence, ensure that your file size limit exceeds the size of the file you are importing. Follow these steps:
-Select the gear icon to navigate to
-Settings
->
-Global permissions
-.
-Go to the
-General Configuration
-section.
-Scroll down to the Attachment Size setting and increase the byte size to be larger than your Notion file.
-To increase the file size only temporarily, after the import, revert to the original limit.
-Why can’t I see and select pages in the Notion OAuth modal?
-Notion only allows users to connect integrations to pages they have “full access” to. Ensure that you have “full access” to the pages that you’d like to connect.
-Note
-: this is not the same as “can edit” permissions.
-Will using this feature increase my bill, and can I see the estimated impact before adding users?
-Using this feature will only increase your bill if you choose to "add remaining members to Confluence" and there are additional members being added. During the
-Users
-step, you will find a section labeled "up to X users," which provides an estimate of the maximum number of new users that could be added to Confluence.
+Add a reaction to any content
+Has someone written a good blog post, live doc, or page on Confluence? Or made a comment you agree with? Click
+Add a reaction
+to let them know.
+When you react to a page, live doc, blog post, or comment, the author of the content receives a notification. If enough people add reactions to the content, it'll appear in the
+Popular
+section of the Home Feed.
+Disabling notifications from reactions
+There are two ways to turn the
+Someone reacted to your content
+notifications off.
+Do either of the following:
+Open an email notification of a reaction and click
+Manage Notifications
+Go to
+<your confluence URL>/wiki/plugins/likes/view-notifications.action
+A Confluence site admin can also completely
+disable reactions
+on your site.
 Was this helpful?
 Yes
 No
@@ -578,27 +472,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Import data from other tools into Confluence
-FAQ import data from HTML to Confluence
-FAQ import data from Notion to Confluence
-Import data from HTML to Confluence
-Import data from Notion into Confluence
-Import multiple Miro boards to Confluence
+Collaborate on content
+Create a network of users
+Add a reaction to any content
+Mention a person or team
+Share Confluence content
+Comment on pages, live docs, whiteboards, and blog posts
 Show more
-On this page
-What content gets transferred?
-Partially supported or unsupported features
-Can I restrict private content?
-Are there any storage limits?
-Are there limits for people?
-What happens to my Free plan if I select Add remaining members to Confluence?
-Can I add Notion guests?
-What happens if you do not have access to the teamspaces in the uploaded Notion file?
-What happens when you import content not selected in the Transfer users/OAuth authentication step?
-What happens to private and shared Notion pages?
-How do I increase my attachment size limit?
-Why can’t I see and select pages in the Notion OAuth modal?
-Will using this feature increase my bill, and can I see the estimated impact before adding users?
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/change-the-default-behavior-and-content-in-confluence-cloud/
+URL: https://support.atlassian.com/confluence-cloud/docs/view-insights-on-pages/
 
-Set Confluence-wide functionality | Confluence Cloud | Atlassian Support
+Content insights and analytics  | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,39 +439,102 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Confluence administration
+Collaborate on content and get notified in Confluence Cloud
+View Confluence analytics to see how content is performing
 Cloud
 Data Center
-Set Confluence-wide functionality
-Confluence Cloud
-administrators can set defaults like specifying where place people land when navigating to Confluence, and the default content for new spaces.
-Control whether spaces can allow public links
-Change whether your Confluence instance and spaces allow public links.
-View topic
-Control whether spaces can turn on anonymous access
-Turn on public access to allow anyone on the internet to view content on your Confluence instance.
-View topic
-Change the landing page
-Change your Confluence homepage.
-View topic
-Change the Confluence Home welcome message
-Create a custom welcome message for your Confluence instance.
-View topic
-Create a custom space overview template
-Change what appears on the overview page of new Confluence spaces.
-View topic
-Turn off page reactions
-Turn off likes and other reactions for a Confluence Cloud instance.
-View topic
-Customize layout for PDF exports in Confluence Cloud
-Learn how Confluence admins can customize the layout and style of a PDF export.
-View topic
-Convert legacy editor pages in all spaces
-Auto-convert all Confluence pages that were created with legacy editor formatting to the new editor.
-View topic
-Configure live docs in Confluence
-Find out how to turn on or off the live docs feature, and bulk convert pages to live docs.
-View topic
+Content insights and analytics
+This feature is available to users with a Confluence Standard, Premium or Enterprise subscription.
+Content insights shows you how many people have viewed a page, live doc, or blog post. On each page, live doc, or blog post, you'll find the estimated read time and how many people in total have viewed it (all-time).
+Analytics
+are also available from
+Details
+on the floating action bar at the bottom right of your screen. Under
+Stats
+, select
+Views.
+View analytics from a page, live doc, or blog post
+For more information, select the text in the byline that includes how many people have viewed the content (if you do not see this, you’ll need to upgrade your Confluence plan).
+This opens an analytics summary and displays the
+Views
+tab, including a chart showing the number of views and unique viewers.
+Select
+Mentions
+to see a summary of views from people mentioned on the page, live doc, or blog post.
+Select
+Links
+to see the top outbound and inbound links. Outbound links show click counts for links included in the content. Inbound links show content items that link to the current content and the number of viewers who reached this content through those links. Select
+View all
+to go directly to the full analytics screen.
+To access even more content analytics, select
+Get more insights
+.
+View all content analytics
+Content analytics will provide even more information about content views. This is only available to users with a
+Premium
+or
+Enterprise
+subscription.
+Overview
+The
+Overview
+tab includes information about total views, unique viewers and views by mentioned users.
+Select the date range to filter your views by a specific time period. You can also decide how you want to group the data, whether to display it by total number of users or unique users.
+When you hover over the chart, you’ll see a data summary for a specific date.
+Viewers
+Below the graph is a summary of all viewers.
+Engagement:
+shows if a user was engaged with the content
+Engaged:
+Viewed the content for 20 seconds or longer
+Brief:
+Viewed the content for less than 20 seconds
+Last version viewed:
+the latest version of the content that a user has viewed
+Last viewed:
+The last time the user viewed the content
+Views:
+The total number of times the user viewed the content
+Mentions
+The
+Mentions
+tab includes view data for anyone mentioned on the content.
+Viewed/Not viewed
+: This drop-down menu allows you to filter users who have viewed the content, not viewed the content, or all users
+Last version viewed:
+the latest version of the content that a user has viewed
+Last viewed:
+The last time the user viewed the content
+Views:
+The total number of times the user viewed the content
+Linked content
+Linked content analytics includes outbound and inbound links. All data can be filtered by the past seven days, one month, three months, year-to-date, all-time, or a custom date range.
+Outbound links
+Outbound link data is available for clicks on public pages, live docs, and blogs after Jan. 31, 2025. Deleted and archived links aren’t included.
+The
+Outbound
+tab includes the total number of clicks, the click-through rate, and data for each piece of content linked from the current page, live doc, or blog post.
+Date added:
+Sort by the date the link was added to the content
+CTR:
+the click-through rate, or number of total views that included a click on the link
+Unique clicks:
+Total number of users who clicked at least once
+Total clicks:
+Total of all clicks
+Inbound links
+Inbound link data is available for clicks on pages, live docs, and blogs after Jan. 31, 2025, except:
+Restricted, deleted, or archived links
+Links to spaces created after the edit space key feature, if the space key, title, or space was changed
+The
+Inbound
+tab includes data from Confluence content that links to the current content, including total clicks and views from inbound links.
+Date added:
+Sort by the date the link was added to the content
+Unique clicks:
+Total number of users who clicked at least once
+Total clicks:
+Total of all clicks
 Was this helpful?
 Yes
 No
@@ -482,20 +545,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Control whether spaces can allow public links
-Control whether spaces can turn on anonymous access
-Change the landing page
-Change the Confluence Home welcome message
-Create a custom space overview template
-Show more
-Confluence administration
-Get started as Confluence Cloud administrator
-Set Confluence-wide functionality
-Monitor and manage activity in Confluence Cloud
-Premium admin tools for Confluence Cloud
-Manage global permissions in Confluence administration
-Show more
+View Confluence analytics to see how content is performing
+View insights on your site
+View insights on spaces
+Content insights and analytics
+Turn on privacy mode for analytics data
+On this page
+View analytics from a page, live doc, or blog post
+View all content analytics
+Overview
+Mentions
+Linked content
 Community
 Questions, discussions, and articles
 Accessibility

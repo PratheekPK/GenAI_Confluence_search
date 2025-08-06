@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/manage-content-in-a-space/
+URL: https://support.atlassian.com/confluence-cloud/docs/use-trello-and-confluence-together/
 
-Manage content in a space | Confluence Cloud | Atlassian Support
+Use Trello and Confluence together | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,22 +439,59 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Space administration
+Extend the functionality of Confluence Cloud
+Use Confluence with other applications
 Cloud
 Data Center
-Manage content in a space
-Clean up a space with the content manager
-Filter stale content and assess content before applying actions (like archive and change owner) to hundreds of selections at a time.
-View topic
-Transfer content item ownership from one user to another
-Understand the concept of content ownership and how to transfer ownership of an item from one user to another.
-View topic
-Manage page watchers
-Space administrators can manage who is notified about content changes.
-View topic
-Export a space's content as Word, PDF, or data files
-Export all or part of a Confluence space to various formats, including Microsoft Word, HTML, CSV, PDF and XML.
-View topic
+Use Trello and Confluence together
+This integration isn't available in the
+Atlassian Government environment
+.
+Trello is all about collaboration— just like Confluence. Use Trello for projects, ideas, stories, and organizing your work into cards that can be moved between lists.  In one glance, Trello tells you what's being worked on, who's working on what, and where something is in a process.
+Using Trello and Confluence together lets you use those pieces to illustrate a bigger story, plan, or project. Use Confluence to create and plan your vision, then use Trello to work out and action the details.
+Add Trello cards or boards to Confluence pages and live docs
+Confluence is where you build your vision. Trello lets you break that up into small bite-sized tasks and organize it. Do them together by embedding your Trello cards and boards into Confluence.
+Trello links
+Copy and paste the URL of your Trello card onto a Confluence page or live doc and watch it change into an inline link showing the name of the card or board and, for cards, the name of the list it belongs to. Need a little more information? Hover over an inline Trello link on a Confluence page or live doc to view more details. Clicking the link will take you into Trello, where you can edit the card as usual.
+Need to show more than just the title? Hover over the link while editing your page or live doc and select the card view. This will show the same details available in the hover view, plus more. You can also click
+Preview
+to view and edit your Trello content directly from Confluence.
+Work on tasks
+Keep all your related materials and files in Confluence, and embed the corresponding Trello cards onto each page or live doc. Then when you make any progress, just comment on the Trello card from within Confluence.
+Plan a project in Confluence
+Add a link to your Trello board to the project planning page so your team and other stakeholders can follow your progress.
+Respects permissions
+Before you can see a card or board, you'll be asked to sign in to Trello. Any content you don't have permission to see will display a note letting you know that you don't have the necessary access to view it yet.
+Trello embeds
+You can also add fully interactive Trello boards and cards on your Confluence page or live doc. Insert the Trello URL into your Confluence page or doc, and then hover over the link and select
+Embed
+.
+This will display a fully functional Trello board or card on your Confluence page or doc. Move cards from one list to another from the board view, add or edit details, and do everything else you'd usually do on a Trello board or card, from within Confluence.
+Manage your work across multiple teams or projects
+Get an overview of all your teams' work by embedding each of their Trello boards onto a single Confluence page or doc. Great for when you just need a quick check-in on everyone's progress.
+Brainstorm and share ideas
+Use Confluence to detail a problem and constraints, then use Trello to brainstorm possible solutions.
+Updates in real time
+Any changes made by you, or anyone else, from either Trello or Confluence, are immediately visible.
+If you want to display your Trello board links in the embed view by default, you can set that up on your
+link preferences
+page by following these steps:
+In the section Exceptions for specific domains, enter
+trello.com/b/
+.
+Select
+Display Embed
+from the dropdown menu.
+Select
+Submit.
+Add Confluence pages and live docs to Trello cards
+Integrations go two ways!
+Use the Confluence Power-Up
+for Trello, you can:
+Attach Confluence Cloud pages and live docs to Trello cards and get from your board to your drilled-down content in a single click.
+Create new Confluence Cloud pages and live docs directly from Trello cards.
+See all the activity on your page or doc, who created it and when it was created, including a snippet and the number of comments on the content, right from the card back.
+Share the vision in Confluence. Sweat the details in Trello.
 Was this helpful?
 Yes
 No
@@ -465,18 +502,16 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Explore more
-Clean up a space with the content manager
-Transfer content item ownership from one user to another
-Manage page watchers
-Export a space's content as Word, PDF, or data files
-Space administration
-Set space-specific functionality
-Manage permissions at the space level
-Manage content in a space
-Remove a space
-Create templates, blueprints, and reports
-Show more
+Use Confluence with other applications
+Use Slack and Confluence together
+Use Jira and Confluence together
+Use Trello and Confluence together
+Use Microsoft Teams and Confluence together
+On this page
+Add Trello cards or boards to Confluence pages and live docs
+Trello links
+Trello embeds
+Add Confluence pages and live docs to Trello cards
 Community
 Questions, discussions, and articles
 Accessibility

@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/bypass-access-restrictions-on-a-page-with-admin-key/
+URL: https://support.atlassian.com/confluence-cloud/docs/monitor-and-manage-activity-in-confluence-cloud/
 
-Bypass page restrictions with admin key | Confluence Cloud | Atlassian Support
+Monitor and manage activity in Confluence Cloud | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,37 +440,18 @@ Atlassian Support
 Confluence
 Resources
 Confluence administration
-Premium admin tools for Confluence Cloud
 Cloud
 Data Center
-Bypass page restrictions with admin key
-This feature is offered with
-Confluence Cloud Premium and Enterprise
-.
-As an organization admin, there may be times when you need to access content that you haven’t been given permission to view. For example, you may need to unlock a restricted page or space created by an inactive user, or you may need to diagnose content access issues. Admin key allows organization admins to access restricted content so they can address these needs. Site admins on the
-original user management
-experience can also use admin key.
-Use admin key to access a restricted page
-To use admin key, go to the page you need to access, and click
-View now
-in the admin key panel.
-This enables admin key and gives you full access to the page. When you use admin key to access a page or other piece of content, we’ll record it in the audit log and send an email notification to the content owner. We’ll also record any changes you make in the audit log and version history.
-Once admin key is enabled, you’ll be able to see and navigate to other restricted content on your instance. If a content item is restricted, there will be a red lock icon next to its name in the content tree.
-When you’re done using admin key, select
-Stop using admin key
-from the banner at the top of your screen. For security reasons, you’ll lose access to restricted content after a few minutes of inactivity.
-What's in the audit log and email notification?
-When you use admin key to access a piece of content, we record the following information in the audit log:
-Your name
-The date and time you used admin key
-The fact that you logged in and out of admin key
-The name of the content you accessed and whether you viewed or edited the content
-Permissions changes you made, if any
-We also send an email notification to the content owner. The email notification includes the following information:
-Your name
-The name of the content you accessed
-An explanation of why admins typically use admin key
-And, we let the content owner know your changes are recorded in the audit log and verison history.
+Monitor and manage activity in Confluence Cloud
+Act on insights from mission control
+Learn how the mission control center helps Confluence administrators proactively respond to activity across Confluence.
+View topic
+Download a spaces report
+Simplify space administration with reports that contain detailed information about your spaces.
+View topic
+View the audit log
+Use the audit log to troubleshoot problems or simply keep a record of changes made in your Confluence Cloud instance.
+View topic
 Was this helpful?
 Yes
 No
@@ -481,13 +462,17 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
+Explore more
+Act on insights from mission control
+Download a spaces report
+View the audit log
+Confluence administration
+Get started as Confluence Cloud administrator
+Set Confluence-wide functionality
+Monitor and manage activity in Confluence Cloud
 Premium admin tools for Confluence Cloud
-Post Confluence-wide announcements in a banner
-Inspect a user's permissions
-Bypass page restrictions with admin key
-On this page
-Use admin key to access a restricted page
-What's in the audit log and email notification?
+Manage global permissions in Confluence administration
+Show more
 Community
 Questions, discussions, and articles
 Accessibility

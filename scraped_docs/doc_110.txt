@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/add-the-activity-stream-gadget/
+URL: https://support.atlassian.com/confluence-cloud/docs/configure-user-email-visibility/
 
-Add the activity stream gadget | Confluence Cloud | Atlassian Support
+Set your email visibility | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,48 +439,33 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Extend the functionality of Confluence Cloud
-Use gadgets to add dynamic content
+Manage your account and permissions in Confluence Cloud
+Manage your account
 Cloud
 Data Center
-Add the activity stream gadget
-The activity stream gadget is similar to the
-recently updated macro
-and shows a list of the most recently changed content within your Confluence site.
-In addition to showing a list of most recently changed content, the activity stream gadget also groups activities by separate date, and provides an RSS feed link to its content in the top-right corner.
-Activity Stream Gadget Properties
-Properties are settings for Confluence gadgets that allow the user to control the content or presentation of data retrieved by the gadget. These are similar to a Confluence macro's parameters. The table below lists relevant properties for this gadget.
-These properties are located in the
-preview
-panel in the macro browser.
-Property
-Required?
-Default
-Description
-Title
-Yes
-None
-Adds a title to the top of the Activity Stream.
-Global filters
-No
-None
-Allows you to add filters to the gadget including:
-space
-username
-update date
-Jira issue key (if your Confluence instance is integrated with a Jira application)
-Available streams
-Yes
-All
-If you have application links to other sites, Jira or another Confluence site, you can choose to include activity from those streams also.
-Display options: limit
-No
-10
-Specify the maximum number of results to be displayed. A maximum of 10 results will be displayed by default. The maximum value that this property can accept is 100.
-Display options: Refresh Interval
-No
-Never/false
-Specify the time interval between each 'refresh' action undertaken by the activity stream gadget. A refresh makes the activity stream gadget reflect any new activity that has been conducted on the Confluence site.
+Set your email visibility
+On your Atlassian account settings, you can control who can see your email address.
+To set your email visibility:
+Tap your profile picture at the right of the navigation, then select
+Manage account
+.
+Select the
+Profile and visibility
+tab at the top.
+Scroll down to the
+Contact
+section.
+Choose one of the options from the
+Who can see this?
+dropdown:
+Anyone
+:  visible to anyone who can view your content, including people outside of the Atlassian organization. Accessible by installed apps.
+Your organization
+: only visible to people who have access to your organization.
+Only you and admins
+: only visible to you and admins. To manage access to Atlassian products and services, admins need to view your email address too.
+Note: setting options can vary by type of account.
+Your new settings will be saved automatically.
 Was this helpful?
 Yes
 No
@@ -491,8 +476,13 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Use gadgets to add dynamic content
-Add the activity stream gadget
+Manage your account
+Show more
+Change your Confluence password
+Manage OAuth access tokens
+Delete your account
+Change your theme
+Set your email visibility
 Community
 Questions, discussions, and articles
 Accessibility

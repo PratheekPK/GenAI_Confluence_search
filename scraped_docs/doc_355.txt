@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/layouts-and-options/
+URL: https://support.atlassian.com/confluence-cloud/docs/convert-legacy-editor-pages/
 
-Layouts and options | Confluence Cloud | Atlassian Support
+Convert legacy editor pages | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -440,120 +440,116 @@ Atlassian Support
 Confluence
 Resources
 Create and organize work in Confluence Cloud
-Create and edit databases
+The Confluence legacy editor
 Cloud
 Data Center
-Layouts and options
-Views and layouts
-Layouts can be saved as part of a view. For more information on creating and using views, check out our page on
-Database views
+Convert legacy editor pages
+This guide provides a step-by-step process to help you convert legacy Confluence pages to the cloud editor. By converting pages to cloud, you get the latest updates and improvements to creating, collaborating, and organizing your content.
+Learn more about the cloud editor
+Advantages of using the cloud editor
+You can elevate your content creation experience with the cloud editor's powerful features:
+Enhanced collaboration:
+Work seamlessly with your team in real-time and witness edits as they happen, with changes auto-saved.
+Faster loading:
+Enjoy a user-friendly interface that lets you format your content with with faster loading times.
+Future-proof:
+Benefit from ongoing updates to the cloud editor, ensuring your content remains compatible with future advancements across Atlassian products. Since the cloud editor is the unified editing experience for all Atlassian apps, you'll gain access to platform features like
+Atlassian Intelligence
+and
+Smart Links
 .
-Databases aren’t available in the
-Atlassian Government environment
+Coming soon: Deprecation of the legacy editor
+In June 2025, Atlassian
+announced the deprecation
+of the legacy editor. This will be a phased process beginning in January 2026. Find out more in the
+FAQ article
 .
-There are three different ways to visualize your content within a database. Here's an overview of each layout:
-Table layout:
-This is the most traditional way of viewing a database. It allows you to see entries in your dataset as rows, with every field represented by a column. When creating a new database, the default all entries view will use the table layout.
-Card layout:
-Display your entries as separate cards. This layout is best for visual content, such as when creating a people directory.
-Board layout:
-This view groups your items by a tag field. For example, it can be used as a Kanban board to move an item through process phases.
-Each layout offers additional settings to define a specific look and feel:
-Card width — Defines a minimum and maximum width for your cards (based on your browser window size).
-Cover image — This setting sets an image field type or a page header image (based on a page link field type) as the cover of your card.
-Table
-A table layout is the classic way to view a database. It offers a structured grid of rows and columns. Each row represents an entry, and each column corresponds to a field in the database.
-Rows
-Each row in the table is an individual entry containing values that correspond to the fields set for each column. The type of value depends on the field type defined for that column.
-Add rows
-You can add new entries to your table in several ways:
-Add entry: Select the
-+ Add entry
-option at the bottom of the table.
-Insert row: Hover between rows and select the
-Insert row
-option that appears.
-Menu options: Select a cell or row, then use the
-Insert row above
+When the process is complete in April 2026, all editing will take place in the cloud editor. Until then, you will continue to have the option to update pages in the legacy editor. However, there are some downsides to continuing to use the legacy editor:
+No bugs fixed unless it's a major incident.
+No enhancements.
+What’s the difference between the cloud and legacy toolbars?
+You can see which editor your page uses by looking at the differences in the editor toolbar.
+The cloud editor
+includes
+Publish…
 or
-Insert row below
-options from the table's top menu.
-Row options
-A handle icon (
-⋮⋮
-) appears to the left when you hover over a row. Select this icon to access the following options:
-Expand entry: This option displays the entry details in a side panel, allowing you to copy a link or delete the entry.
-Insert row above: Add a new row above the selected row(s).
-Insert row below: Add a new row below the selected row(s).
-Duplicate: Creates a copy of the selected row(s).
-Delete: Removes the selected row(s).
-Columns
-Each column represents a field in your database. You can customize these fields as described in the
-Database fields
+Update
+and
+Close
+buttons in the top menu and the emoji icon
+The legacy editor
+has earlier versions of text-color picker and page formatting
+Convert your legacy editor pages to cloud
+Which pages are eligible for conversion?
+Eligible pages are those that can be converted to the cloud editor without displaying any "unsupported" content after conversion. These pages are fully compatible with the cloud editor, allowing users to view and edit them seamlessly. The introduction of the
+legacy content macro
+has made a lot more pages eligible.
+Identifying Eligible Pages:
+Convert Option:
+When you edit an eligible page, you’ll see the option to convert.
+Checkmark Indicator:
+While editing in the legacy editor, a checkmark  in the bottom left corner indicates eligibility.
+Ineligible pages:
+If a legacy editor page has content that can’t be converted, you won’t see the invitation to convert to the cloud editor. If you try to convert it anyway, you will see a warning that you could lose content.
+When you enter edit mode on an “eligible page,” you will see a pop-up to convert to the cloud editor. Select
+Update page
+to instantly convert the page to the cloud.
+If you select
+Not now
+your page will open in the legacy editor.
+A
+preview
+banner will remain visible, allowing you to preview your page in the cloud editor and convert it from there.
+If your page has content that is not yet supported in the cloud editor, the conversion process will add this content to one or more copies of the
+legacy content macro
+. This macro lets you continue to work with unsupported content. The legacy content macro dramatically increases the number of pages that are eligible for conversion.
+For more resources check out:
+What you can
+create in cloud
+a
+side by side feature comparison of the editors
+Auto-convert pages to cloud
+Admins can set an option to automatically prompt users to convert legacy editor pages.
+For all spaces in Confluence
+Confluence admins can
+enable auto-conversion
+of all legacy pages in Confluence to the new editor.
+For a single space
+Space admins can enable auto-conversion from legacy to the cloud editor for all pages with eligible content in a space.
+If auto-conversion is enabled, eligible pages will be converted to the cloud editor when someone views the page. You will be able to revert to the legacy version in
+More actions (
+)
+menu. Select
+Revert to legacy editor
 .
-Rearrange columns and rows
-You can change the order of your table's rows and columns using drag-and-drop functionality:
-For rows, hover, then select and hold the
-⋮⋮
-icon on the left to drag it up or down.
-For columns, select and hold the
-:::
-icon to drag them left or right.
-Resize columns by hovering over their edges in the heading row and dragging right or left.
-Number your entries/rows
-Numbered entries
-help to better organise your database and make referencing entries easier for your team.
-To enable numbered entries:
-Navigate to
-View settings
-by going to Edit view from a view’s dropdown.
-Select
-Table
+To enable auto-convert:
+Go to the space in Confluence Cloud.
+Next to your space's name in the sidebar, select
+More actions
+(•••), then
+Space settings
 .
-Under
-Table options
-, toggle
-Number entries
-on.
-Card
-The card layout displays databases with visual components like office directories, mood boards, and more. Selecting a card from the database expands the entry and shows the details in a side panel.
-Card layout options
-When using the card layout, you can configure the following options:
-Card width: Choose the width of the cards. Available options are:
-Small
-Medium
-Large
-Cover image: Select an image or page title field to display as the cover image for cards. If you select a page title field, it will use the page's header image.
-Adding a new card
-To add a new card to your database, follow these steps:
-Select the
-+ Add entry
-option at the end of the card list.
-Board
-Board layouts help show items in a database moving through process stages or grouped by property. Selecting a card from the database expands the entry and shows the details in a side panel.
-Board layout options
-When using the board layout, you can configure the following options:
-Group by: Select a tag field to group your entries by. These groups will create the columns on your board.
-Card width: Choose the width of the cards. Available options are small, medium, or large.
-Cover image: Select an image or page title field to display as the cover image for cards. If you select a page title field, it will use the page's header image.
-Adding a new card
-To add a new card to your board, follow these steps:
-Select the
-+ Add entry
-option at the end of any column. This will add a new entry card to that column.
-Reorder cards
-Change how cards on your board are ordered with drag-and-drop.
-Select, hold, and drag to move cards up and down or between columns.
-Add a new column
-To add a new column to your board:
-Select the
-+
-option beside the last column.
-Select
-+ Add item
-under Selectable items.
-Please select a color for the new tag and give it a name.
-A new column will be added for each tag.
+Open the
+General
+menu
+and select
+Convert pages
+.
+Turn on
+Convert pages automatically
+.
+Revert page migrations
+If you’d like to restore your page back to the legacy editor, you can
+restore the most recent version of the page before conversion, via the page version history
+.
+Support
+The cloud editor constantly evolves, offering regular updates and improvements. To stay updated with the latest features and functionalities, check out:
+Atlassian Community
+:
+Connect with other Confluence Cloud users and share your experiences.
+Support articles
+:
+Access more detailed guides and troubleshooting tips for Confluence Cloud.
 Was this helpful?
 Yes
 No
@@ -564,28 +560,21 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
-Show more
-Share databases, entries, or values
-Database views
-Layouts and options
-Filter your data
-Sort fields
-Show more
+The Confluence legacy editor
+FAQ: Understanding legacy editor deprecation
+Convert legacy editor pages
+Differences using Confluence legacy editor and cloud editor
+The legacy content macro
 On this page
-Table
-Rows
-Columns
-Rearrange columns and rows
-Number your entries/rows
-Card
-Card layout options
-Adding a new card
-Board
-Board layout options
-Adding a new card
-Reorder cards
-Add a new column
+Advantages of using the cloud editor
+Coming soon: Deprecation of the legacy editor
+What’s the difference between the cloud and legacy toolbars?
+Convert your legacy editor pages to cloud
+Auto-convert pages to cloud
+For all spaces in Confluence
+For a single space
+Revert page migrations
+Support
 Community
 Questions, discussions, and articles
 Accessibility

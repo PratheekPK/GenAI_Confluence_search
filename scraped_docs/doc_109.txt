@@ -1,6 +1,6 @@
-URL: https://support.atlassian.com/confluence-cloud/docs/export-your-database-data/
+URL: https://support.atlassian.com/confluence-cloud/docs/curate-search-results-in-company-hub/
 
-Export your database data | Confluence Cloud | Atlassian Support
+Curate search results in Company Hub | Confluence Cloud | Atlassian Support
 Skip to main content
 Confluence Support
 Products
@@ -439,38 +439,66 @@ What happens when an account is deactivated vs. deleted?
 Atlassian Support
 Confluence
 Resources
-Create and organize work in Confluence Cloud
-Create and edit databases
+Extend the functionality of Confluence Cloud
+Use Company Hub to deliver key information to employees
 Cloud
 Data Center
-Export your database data
-Databases aren’t available in the
-Atlassian Government environment
+Curate search results in Company Hub
+This feature is only available in
+Company Hub
+, which is offered with
+Confluence Cloud Premium and Enterprise
 .
-You can export database data into CSV, HTML, and PDF formats. Each format offers the flexibility to include the current view or export all data in a table layout.
-Export options
-CSV
-: Ideal for importing data into other database tools or spreadsheets.
-HTML
-: Useful for sharing data in a web-friendly format, with the option to copy the export data to the clipboard.
-PDF
-: Suitable for creating read-only versions of your data for reports and presentations.
-How to export your data
-Go to your database.
-Open the more (
-•••
-) menu at the top right corner of the database.
-Select
-Export
-from the menu.
-Select your preferred export format (CSV, HTML, or PDF).
-(Optional)
-Check the
-Export with current view
-option to include the current view settings. It will export all the data in a table layout if not checked.
-Follow the prompts to download the exported file to your device.
-Importing exported data
-You can import data into a new database using the exported HTML or CSV files, making it easy to transfer and manage your data across different databases.
+You can add search to a Confluence live doc or page with the
+Insert the Live Search macro
+.
+Add a customized search box to your
+Company Hub
+. By pre-filtering the search field, you can curate the results and information that matters most to your readers.
+This is useful to allow Hub readers to search a set of verified policies or procedures located in a specific place in Confluence.
+Create and configure a Custom Search element
+Go to your Company Hub and select the
+Edit
+button ( icon).
+Type
+/search
+and select the Custom search option.
+Custom search is added to your Company Hub.
+Select the element and choose a display option from the floating menu:
+Back to center:
+The search element is the width of your text.
+Go wide:
+The search element is wide than the default text width, but doesn’t fill the screen.
+Go full width:
+The search element fills the screen width and will respond to changes in your browser window size.
+Set styles and search parameters
+Use the
+Edit
+button (pencil icon) to open the configuration panel the right side of the screen.
+Choose styles:
+Fill color:
+Select the drop-down menu to choose a background color for the search field.
+Text color
+: Select the drop-down menu to choose a text color. The color palette will let you know if your choice passes accessibility standards.
+Corners:
+Choose rounded or square corners.
+Placeholder text:
+Enter a message that will be visible before anyone types a search.
+Set filters:
+Last updated:
+Select a timeframe, including custom dates.
+Contributor:
+Use the find people field and filter to pages owned, created, or edited by a specific person.
+Space:
+Use the find spaces field to filter by one or more space.
+Content under:
+Filter to show only content under a specific parent item in the content tree.
+Verified:
+Filter to show only only content that is marked
+Verified
+.
+Label:
+Filter to show content that has one or more labels.
 Was this helpful?
 Yes
 No
@@ -481,17 +509,18 @@ Provide feedback about this article
 Still need help?
 The Atlassian Community is here for you.
 Ask the Community
-Create and edit databases
+Use Company Hub to deliver key information to employees
 Show more
-Hide fields in your database
-Import data into your database
-Export your database data
-Duplicate a database setup
-Lock your database structure
-Show more
+Use sections to enhance and highlight your Company Hub content
+Highlight important messages with a visual spotlight
+Add a rotating set of frames to your Company Hub
+Use cards to add beautiful dynamic content to Company Hub
+Curate search results in Company Hub
 On this page
-Export options
-How to export your data
+Create and configure a Custom Search element
+Set styles and search parameters
+Choose styles:
+Set filters:
 Community
 Questions, discussions, and articles
 Accessibility
