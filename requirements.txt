@@ -5,6 +5,7 @@ streamlit
 langchain
 transformers
 sentence-transformers
+langchain_community
 faiss-cpu
 torch
 
