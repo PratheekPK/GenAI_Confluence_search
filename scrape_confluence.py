@@ -44,6 +44,7 @@ def get_all_links():
         #if "/doc/" in href:
             filtered_links.append(href)
     #print(filtered_links)
+    filtered_links = ["https://support.atlassian.com/confluence-cloud/docs/what-is-confluence-cloud/","https://support.atlassian.com/confluence-cloud/docs/learn-about-confluence-cloud-plans/","https://support.atlassian.com/confluence-cloud/docs/confluence-standard/"]
     return list(set(filtered_links))
 
 def save_to_disk(text, idx, url):
