@@ -20,6 +20,9 @@ query = st.text_input("What would you like to know?", placeholder="e.g. What is 
 
 if query:
     with st.spinner("Searching documentation..."):
+        query = f"Answer concisely and factually:\n\nQuestion: {query}\nAnswer:"
+        result = qa_chain.invoke({"query": query})
+
         result = qa_chain.invoke(query)
         answer = result['result']
         sources = result['source_documents']
