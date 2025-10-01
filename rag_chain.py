@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer
 from langchain.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain.llms import HuggingFacePipeline
-from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM
+from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 from dotenv import load_dotenv
 from langchain_community.embeddings import HuggingFaceEmbeddings
 import os
@@ -18,10 +18,11 @@ def load_rag_chain():
     retriever = db.as_retriever(search_type="similarity", search_kwargs={"k": 1})
 
     # LLM model
-    tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
-    model = AutoModelForSeq2SeqLM.from_pretrained("google/flan-t5-base")
+    tokenizer = AutoTokenizer.from_pretrained("TinyLlama/TinyLlama-1.1B-Chat-v1.0")
+    model = AutoModelForCausalLM.from_pretrained("TinyLlama/TinyLlama-1.1B-Chat-v1.0")
 
-    pipe = pipeline("text2text-generation", model=model, tokenizer=tokenizer, max_new_tokens=256)
+    pipe = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=256, temperature=0.2,   # lower temp for factual Q&A
+    top_p=0.9)
     llm = HuggingFacePipeline(pipeline=pipe)
 
     qa_chain = RetrievalQA.from_chain_type(
